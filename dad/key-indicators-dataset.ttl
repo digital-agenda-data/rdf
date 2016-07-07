@@ -1,0 +1,256 @@
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+@prefix qb:	<http://purl.org/linked-data/cube#> .
+@prefix dcat:	<http://www.w3.org/ns/dcat#> .
+@prefix dcterms:	<http://purl.org/dc/terms/> .
+@prefix org:	<http://www.w3.org/ns/org#> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix odp:	<http://ec.europa.eu/open-data/ontologies/ec-odp#> .
+@prefix adms:	<http://www.w3.org/ns/adms#> .
+@prefix schema:	<http://schema.org/> .
+@prefix vcard:	<http://www.w3.org/2006/vcard/ns#> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix sdmx:	<http://purl.org/linked-data/sdmx#> .
+@prefix sdmx-attribute:	<http://purl.org/linked-data/sdmx/2009/attribute#> .
+@prefix sdmx-concept:	<http://purl.org/linked-data/sdmx/2009/concept#> .
+@prefix sdmx-dimension:	<http://purl.org/linked-data/sdmx/2009/dimension#> .
+@prefix sdmx-measure:	<http://purl.org/linked-data/sdmx/2009/measure#> .
+@prefix sdmx-subject:	<http://purl.org/linked-data/sdmx/2009/subject#> .
+
+@prefix ld-api:	<http://purl.org/linked-data/api/vocab#> .
+
+@prefix dad-attribute:	<http://semantic.digital-agenda-data.eu/def/dsd/scoreboard/attribute/> .
+@prefix dad-class:	<http://semantic.digital-agenda-data.eu/def/class/> .
+@prefix dad-codelist:	<http://semantic.digital-agenda-data.eu/codelist/> .
+@prefix dad-concept:	<http://semantic.digital-agenda-data.eu/def/concept/> .
+@prefix dad-def:	<http://semantic.digital-agenda-data.eu/def/> .
+@prefix dad-dimension:	<http://semantic.digital-agenda-data.eu/def/dsd/scoreboard/dimension/> .
+@prefix dad-dsd:	<http://semantic.digital-agenda-data.eu/def/dsd/> .
+@prefix dad-prop:	<http://semantic.digital-agenda-data.eu/def/property/> .
+
+# DATASET METADATA
+<http://semantic.digital-agenda-data.eu/dataset/digital-agenda-scoreboard-key-indicators>
+	rdf:type qb:DataSet , dcat:Dataset ;
+# DCAT Mandatory
+	dcterms:title	"Digital Agenda Key Indicators" ;
+	dcterms:description	"European Commission services selected more than 100 indicators, divided into thematic groups, which illustrate some key dimensions of the European information society (Telecom sector, Broadband, Mobile, Internet usage, Internet services, eGovernment, eCommerce, eBusiness, ICT Skills, Research and Development).\nThese indicators allow a comparison of progress across European countries as well as over time.\nYou can also browse the data with the help of a visualisation tools going at http://digital-agenda-data.eu/, where you are also able to download selected information." ;
+# QB recommended properties
+	rdfs:label	"Digital Agenda Key Indicators" ;
+	rdfs:comment	"European Commission services selected more than 100 indicators, divided into thematic groups, which illustrate some key dimensions of the European information society (Telecom sector, Broadband, Mobile, Internet usage, Internet services, eGovernment, eCommerce, eBusiness, ICT Skills, Research and Development).\nThese indicators allow a comparison of progress across European countries as well as over time.\nYou can also browse the data with the help of a visualisation tools going at http://digital-agenda-data.eu/, where you are also able to download selected information." ;
+	dcterms:subject	sdmx-subject:3.3.3 ;
+		# TODO: here all concepts from dcat:theme could be listed
+
+	dcterms:license	<http://ec.europa.eu/geninfo/legal_notices_en.htm#copyright> ;
+# DCAT-AP recommended properties
+	dcat:contactPoint	<http://publications.europa.eu/resource/authority/corporate-body/CNECT/F4> ;
+	dcat:distribution	<http://semantic.digital-agenda-data.eu/dataset/digital-agenda-scoreboard-key-indicators/distribution/download> ;
+	dcat:keyword	
+		"ICT research" ,
+		"ICT skills" ,
+		"telecom market" ,
+		"ebusiness" ,
+		"ecommerce" ,
+		"information-society" ,
+		"digital agenda" ,
+		"internet" ,
+		"broadband" ;
+
+	dcterms:publisher	<http://publications.europa.eu/resource/authority/corporate-body/CNECT> ;
+	dcat:theme	
+		<http://publications.europa.eu/resource/authority/data-theme/GOVE> ,
+		<http://publications.europa.eu/resource/authority/data-theme/SOCI> ,
+		<http://publications.europa.eu/resource/authority/data-theme/TECH> ,
+		<http://vocabularies.unesco.org/thesaurus/concept17007> ,
+		<http://dbpedia.org/resource/Category:Information_society> ,
+		<http://dbpedia.org/resource/Category:Broadband> ;
+# TODO more themes
+
+
+# DCAT-AP optional properties / DCAT recommended properties
+	dcat:landingPage	<http://digital-agenda-data.eu/> ;
+	foaf:page	<http://digital-agenda-data.eu/> ;
+	dcat:accrualPeriodicity	<http://publications.europa.eu/resource/authority/frequency/ANNUAL_2> ;
+	dcterms:language <http://publications.europa.eu/resource/authority/language/ENG> ;
+	dcterms:spatial	
+		<http://publications.europa.eu/resource/authority/country/EUR>,
+		<http://publications.europa.eu/resource/authority/country/CHE>,
+		<http://publications.europa.eu/resource/authority/country/NOR>,
+		<http://publications.europa.eu/resource/authority/country/ISL>,
+		<http://publications.europa.eu/resource/authority/country/TUR>;
+	dcterms:temporal	[ schema:startDate "2011-01-01"^^xsd:date ] ;
+	dcterms:identifier	"digital-agenda-scoreboard-key-indicators" ;
+	#adms:identifier	[ skos:notation "digital-agenda-scoreboard-key-indicators" ]
+	dcterms:issued	"2011-05-01T00:00:00Z"^^xsd:dateTime ;
+	dcterms:modified	"2016-06-01T00:00:00Z"^^xsd:dateTime ;
+
+
+# QB
+	qb:structure	<http://semantic.digital-agenda-data.eu/def/dsd/scoreboard>;
+
+# Linked data
+	foaf:isPrimaryTopicOf	<http://semantic.digital-agenda-data.eu/API/dataset/digital-agenda-scoreboard-key-indicators.rdf> ;
+
+# ODP
+	adms:status	<http://purl.org/adms/status/Completed> .
+
+# RELATED ENTITIES
+
+# License
+<http://ec.europa.eu/geninfo/legal_notices_en.htm#copyright>	dcterms:title	"Europa Legal Notice" .
+
+# DCAT Distribution
+<http://semantic.digital-agenda-data.eu/dataset/digital-agenda-scoreboard-key-indicators/distribution/download>	
+	rdf:type	dcat:Distribution ;
+	dcat:accessURL	<http://digital-agenda-data.eu/datasets/digital_agenda_scoreboard_key_indicators#download> ;
+	dcterms:description	"Download instructions";
+	dcterms:format	<http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+	dcat:mediaType	"text/turtle" .
+
+# LD API page
+<http://semantic.digital-agenda-data.eu/API/dataset/digital-agenda-scoreboard-key-indicators.rdf>
+	rdf:type	ld-api:Page ;
+	foaf:primaryTopic	<http://semantic.digital-agenda-data.eu/dataset/digital-agenda-scoreboard-key-indicators> ;
+	ld-api:definition	<http://semantic.digital-agenda-data.eu/API/meta/dataset/_id.rdf> ;
+	ld-api:extendedMetadataVersion	<http://semantic.digital-agenda-data.eu/API/dataset/digital-agenda-scoreboard-key-indicators.rdf?_metadata=all> .
+
+# Organization (contact point)
+<http://publications.europa.eu/resource/authority/corporate-body/CNECT/F4>
+	a vcard:Organization, foaf:Organization;
+	rdfs:label "DG CONNECT - European Semester & Knowledge Base (Unit F.4)" ;
+	foaf:mbox	"mailto:CNECT-F4@ec.europa.eu" ;
+	foaf:name	"DG CONNECT - European Semester & Knowledge Base (Unit F.4)" ;
+	foaf:workplaceHomepage	<https://ec.europa.eu/digital-single-market/en/dg-connect> .
+
+
+## DATA STRUCTURE DEFINITION
+
+# DSD Components
+
+dad-dsd:scoreboard
+	rdf:type	sdmx:DataStructureDefinition, qb:DataStructureDefinition .
+dad-dsd:scoreboard
+	qb:component
+		dad-attribute:flag ,
+		dad-attribute:note ,
+		dad-dimension:indicator ,
+		dad-dimension:breakdown ,
+		dad-dimension:ref-area ,
+		dad-dimension:time-period ,
+		dad-dimension:unit-measure ,
+		<http://semantic.digital-agenda-data.eu/def/dsd/scoreboard/measure/obsValue> ;
+	sdmx:primaryMeasure	sdmx-measure:obsValue .
+
+# DSD Component Specifications
+
+dad-dimension:indicator	rdf:type	qb:ComponentSpecification ;
+	qb:dimension	dad-prop:indicator ;
+	qb:order	1 .
+dad-dimension:breakdown	rdf:type	qb:ComponentSpecification ;
+	qb:dimension	dad-prop:breakdown ;
+	qb:order	2 .
+dad-dimension:unit-measure	rdf:type	qb:ComponentSpecification ;
+	qb:dimension	dad-prop:unit-measure ;
+	qb:order	3 .
+dad-dimension:ref-area	rdf:type	qb:ComponentSpecification ;
+	qb:dimension	dad-prop:ref-area ;
+	qb:order	4 .
+dad-dimension:time-period	rdf:type	qb:ComponentSpecification ;
+	qb:dimension	dad-prop:time-period ;
+	qb:order	5 .
+
+dad-attribute:flag	rdf:type	qb:ComponentSpecification ;
+	qb:attribute	dad-prop:flag .
+dad-attribute:note	rdf:type	qb:ComponentSpecification ;
+	qb:attribute	dad-prop:note .
+
+<http://semantic.digital-agenda-data.eu/def/dsd/scoreboard/measure/obsValue>	rdf:type	qb:ComponentSpecification ;
+	qb:measure	sdmx-measure:obsValue .
+
+
+# DSD Properties
+
+dad-prop:breakdown
+	rdf:type	qb:DimensionProperty , qb:CodedProperty , rdf:Property ;
+	rdfs:label	"Breakdown"@en ;
+	rdfs:range	dad-class:Breakdown ;
+	rdfs:comment	"Values from codelist http://semantic.digital-agenda-data.eu/codelist/breakdown"@en ;
+	skos:notation	"breakdown" ;
+	qb:codeList	dad-codelist:breakdown ;
+	qb:concept	dad-concept:breakdown ;
+	dad-prop:grouped-using	dad-prop:breakdown-group ;
+	skos:inScheme	dad-def:dad-scheme .
+dad-prop:breakdown-group
+	rdf:type	qb:CodedProperty , dad-class:DimensionGroupProperty , rdf:Property ;
+	rdfs:label	"Breakdown group"@en ;
+	rdfs:range	dad-class:BreakdownGroup ;
+	rdfs:comment	"Values from codelist http://semantic.digital-agenda-data.eu/codelist/breakdown-group"@en ;
+	skos:notation	"breakdown-group" ;
+	qb:codeList	dad-codelist:breakdown-group ;
+	qb:concept	dad-concept:breakdownGroup ;
+	skos:inScheme	dad-def:dad-scheme .
+dad-prop:indicator
+	rdf:type	qb:DimensionProperty , qb:CodedProperty , rdf:Property ;
+	rdfs:label	"Indicator"@en ;
+	rdfs:range	dad-class:Indicator ;
+	rdfs:comment	"Values from codelist http://semantic.digital-agenda-data.eu/codelist/indicator"@en ;
+	skos:notation	"indicator" ;
+	qb:codeList	dad-codelist:indicator ;
+	qb:concept	dad-concept:indicator ;
+	dad-prop:grouped-using	dad-prop:indicator-group ;
+	skos:inScheme	dad-def:dad-scheme .
+dad-prop:indicator-group
+	rdf:type	dad-class:DimensionGroupProperty , qb:CodedProperty , rdf:Property ;
+	rdfs:label	"Indicator group"@en ;
+	rdfs:range	dad-class:IndicatorGroup ;
+	rdfs:comment	"Values from codelist http://semantic.digital-agenda-data.eu/codelist/indicator-group"@en ;
+	skos:notation	"indicator-group" ;
+	qb:codeList	dad-codelist:indicator-group ;
+	qb:concept	dad-concept:indicatorGroup ;
+	skos:inScheme	dad-def:dad-scheme .
+dad-prop:ref-area
+	rdf:type	qb:DimensionProperty , qb:CodedProperty , rdf:Property ;
+	rdfs:subPropertyOf	sdmx-dimension:refArea ;
+	rdfs:label	"Country"@en ;
+	rdfs:range	skos:Concept ;
+	rdfs:comment	"Values from codelist http://eurostat.linked-statistics.org/dic/geo#"@en ;
+	skos:notation	"ref-area" ;
+	qb:codeList	<http://eurostat.linked-statistics.org/dic/geo> ;
+	qb:concept	sdmx-concept:refArea ;
+	skos:inScheme	dad-def:dad-scheme .
+dad-prop:time-period
+	rdf:type	qb:DimensionProperty , rdf:Property ;
+	rdfs:subPropertyOf	sdmx-dimension:timePeriod ;
+	rdfs:label	"Time period"@en ;
+	rdfs:range	skos:Concept ;
+	rdfs:comment	"Vocabulary allows Year, Half, Quarter, Month"@en ;
+	rdfs:seeAlso	<http://reference.data.gov.uk/def/intervals> ;
+	skos:notation	"time-period" ;
+	qb:codeList	dad-codelist:time-period ;
+	qb:concept	sdmx-concept:timePeriod ;
+	skos:inScheme	dad-def:dad-scheme .
+dad-prop:unit-measure
+	rdf:type	qb:CodedProperty , qb:DimensionProperty , rdf:Property ;
+	rdfs:label	"Unit of measure"@en ;
+	rdfs:range	dad-class:UnitMeasure ;
+	rdfs:comment	"Values from codelist http://semantic.digital-agenda-data.eu/codelist/unit-measure"@en ;
+	skos:notation	"unit-measure" ;
+	qb:codeList	dad-codelist:unit-measure ;
+	qb:concept	sdmx-concept:unitMeasure ;
+	skos:inScheme	dad-def:dad-scheme .
+dad-prop:flag
+	rdf:type	qb:AttributeProperty , qb:CodedProperty , rdf:Property ;
+	rdfs:label	"Flag"@en ;
+	rdfs:comment	"Values from Eurostat codelist: http://eurostat.linked-statistics.org/dic/flags"@en ;
+	skos:notation	"flag" ;
+	qb:codeList	<http://eurostat.linked-statistics.org/dic/flags> ;
+	qb:concept	dad-concept:flag ;
+	skos:inScheme	dad-def:dad-scheme .
+dad-prop:note
+	rdf:type	qb:AttributeProperty , rdf:Property ;
+	rdfs:label	"Note"@en ;
+	rdfs:range	xsd:string ;
+	rdfs:comment	"Free text, optional"@en ;
+	skos:notation	"note" ;
+	qb:concept	dad-concept:note ;
+	skos:inScheme	dad-def:dad-scheme .

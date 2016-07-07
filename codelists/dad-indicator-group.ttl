@@ -1,0 +1,195 @@
+# Dump of graph <http://semantic.digital-agenda-data.eu/codelist/indicator-group/>, as of 2016-06-14 20:19:22.013090
+@base <> .
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns1:	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/> .
+@prefix ns2:	<http://semantic.digital-agenda-data.eu/def/class/> .
+ns1:audiovisual	rdf:type	ns2:IndicatorGroup .
+ns1:back	rdf:type	ns2:IndicatorGroup .
+ns1:bbquality	rdf:type	ns2:IndicatorGroup .
+ns1:broadband	rdf:type	ns2:IndicatorGroup .
+ns1:desi	rdf:type	ns2:IndicatorGroup .
+ns1:desi_dim	rdf:type	ns2:IndicatorGroup .
+ns1:desi_ind	rdf:type	ns2:IndicatorGroup .
+ns1:desi_sliders	rdf:type	ns2:IndicatorGroup .
+ns1:desi_subdim	rdf:type	ns2:IndicatorGroup .
+ns1:discontinued	rdf:type	ns2:IndicatorGroup .
+ns1:ebusiness	rdf:type	ns2:IndicatorGroup .
+ns1:ecommerce	rdf:type	ns2:IndicatorGroup .
+ns1:egovernment	rdf:type	ns2:IndicatorGroup .
+ns1:ehealth	rdf:type	ns2:IndicatorGroup .
+ns1:ict-edu	rdf:type	ns2:IndicatorGroup .
+ns1:ict-sector	rdf:type	ns2:IndicatorGroup .
+ns1:ict-skills	rdf:type	ns2:IndicatorGroup .
+ns1:internet-services	rdf:type	ns2:IndicatorGroup .
+ns1:internet-usage	rdf:type	ns2:IndicatorGroup .
+ns1:mobile	rdf:type	ns2:IndicatorGroup .
+ns1:research-and-development	rdf:type	ns2:IndicatorGroup .
+ns1:research_einfra	rdf:type	ns2:IndicatorGroup .
+ns1:telecom	rdf:type	ns2:IndicatorGroup .
+ns1:ict-specialist	rdf:type	ns2:IndicatorGroup .
+ns1:security-privacy	rdf:type	ns2:IndicatorGroup .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+ns1:audiovisual	rdf:type	skos:Concept .
+ns1:back	rdf:type	skos:Concept .
+ns1:bbquality	rdf:type	skos:Concept .
+ns1:broadband	rdf:type	skos:Concept .
+ns1:desi	rdf:type	skos:Concept .
+ns1:desi_dim	rdf:type	skos:Concept .
+ns1:desi_ind	rdf:type	skos:Concept .
+ns1:desi_sliders	rdf:type	skos:Concept .
+ns1:desi_subdim	rdf:type	skos:Concept .
+ns1:discontinued	rdf:type	skos:Concept .
+ns1:ebusiness	rdf:type	skos:Concept .
+ns1:ecommerce	rdf:type	skos:Concept .
+ns1:egovernment	rdf:type	skos:Concept .
+ns1:ehealth	rdf:type	skos:Concept .
+ns1:ict-edu	rdf:type	skos:Concept .
+ns1:ict-sector	rdf:type	skos:Concept .
+ns1:ict-skills	rdf:type	skos:Concept .
+ns1:internet-services	rdf:type	skos:Concept .
+ns1:internet-usage	rdf:type	skos:Concept .
+ns1:mobile	rdf:type	skos:Concept .
+ns1:research-and-development	rdf:type	skos:Concept .
+ns1:research_einfra	rdf:type	skos:Concept .
+ns1:telecom	rdf:type	skos:Concept .
+ns1:ict-specialist	rdf:type	skos:Concept .
+ns1:security-privacy	rdf:type	skos:Concept .
+@prefix ns4:	<http://semantic.digital-agenda-data.eu/codelist/> .
+ns4:indicator-group	rdf:type	skos:ConceptScheme .
+@prefix ns5:	<http://purl.org/linked-data/sdmx#> .
+ns4:indicator-group	rdf:type	ns5:CodeList .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+@prefix ns7:	<http://purl.org/dc/terms/> .
+ns4:indicator-group	ns7:modified	"2016-02-29T07:34:57+02:00"^^xsd:dateTime .
+@prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
+ns4:indicator-group	rdfs:isDefinedBy	<http://digital-agenda-data.eu/> ;
+	skos:notation	"CL_INDICATOR_GROUP" .
+ns1:desi	skos:notation	"DESI" .
+ns1:desi_dim	skos:notation	"DESI_DIM" .
+ns1:desi_ind	skos:notation	"DESI_IND" .
+ns1:desi_sliders	skos:notation	"DESI_SLIDERS" .
+ns1:desi_subdim	skos:notation	"DESI_SUBDIM" .
+ns1:audiovisual	skos:notation	"audiovisual" .
+ns1:back	skos:notation	"back" .
+ns1:bbquality	skos:notation	"bbquality" .
+ns1:broadband	skos:notation	"broadband" .
+ns1:discontinued	skos:notation	"discontinued" .
+ns1:ehealth	skos:notation	"eHealth" .
+ns1:ebusiness	skos:notation	"ebusiness" .
+ns1:ecommerce	skos:notation	"ecommerce" .
+ns1:egovernment	skos:notation	"egovernment" .
+ns1:ict-edu	skos:notation	"ict-edu" .
+ns1:ict-sector	skos:notation	"ict-sector" .
+ns1:ict-skills	skos:notation	"ict-skills" .
+ns1:internet-services	skos:notation	"internet-services" .
+ns1:internet-usage	skos:notation	"internet-usage" .
+ns1:mobile	skos:notation	"mobile" .
+ns1:research-and-development	skos:notation	"research-and-development" .
+ns1:research_einfra	skos:notation	"research_eInfra" .
+ns1:telecom	skos:notation	"telecom" .
+ns1:ict-specialist	skos:notation	"ict-specialist" .
+ns1:security-privacy	skos:notation	"security-privacy" .
+@prefix ns9:	<http://semantic.digital-agenda-data.eu/def/> .
+ns4:indicator-group	skos:inScheme	ns9:scheme .
+ns1:audiovisual	skos:prefLabel	"Audiovisual & media content" .
+ns1:back	skos:prefLabel	"Background variables" .
+ns1:bbquality	skos:prefLabel	"Broadband speeds and prices" .
+ns1:broadband	skos:prefLabel	"Broadband take-up and coverage" .
+ns1:desi_dim	skos:prefLabel	"DESI Dimensions" .
+ns1:desi_ind	skos:prefLabel	"DESI Individual Indicators" .
+ns1:desi	skos:prefLabel	"DESI Overall Index" .
+ns1:desi_sliders	skos:prefLabel	"DESI Overall Index - weight sliders" .
+ns1:desi_subdim	skos:prefLabel	"DESI Sub-dimensions" .
+ns1:ict-skills	skos:prefLabel	"Digital Skills" .
+ns1:discontinued	skos:prefLabel	"Discontinued indicators" .
+ns1:research-and-development	skos:prefLabel	"EU Research and Development Programs" .
+ns1:ict-edu	skos:prefLabel	"ICT in Education" .
+ns1:ict-sector	skos:prefLabel	"ICT sector" .
+ns4:indicator-group	skos:prefLabel	"Indicator groups used by Digital Agenda Scoreboard" .
+ns1:internet-usage	skos:prefLabel	"Internet usage" .
+ns1:mobile	skos:prefLabel	"Mobile market" .
+ns1:research_einfra	skos:prefLabel	"Research e-Infrastructures" .
+ns1:internet-services	skos:prefLabel	"Take up of internet services" .
+ns1:telecom	skos:prefLabel	"Telecom sector" .
+ns1:ebusiness	skos:prefLabel	"eBusiness" .
+ns1:ecommerce	skos:prefLabel	"eCommerce" .
+ns1:egovernment	skos:prefLabel	"eGovernment" .
+ns1:ehealth	skos:prefLabel	"eHealth" .
+ns1:ict-specialist	skos:prefLabel	"ICT Specialist" .
+ns1:security-privacy	skos:prefLabel	"Security and Privacy" .
+@prefix ns10:	<http://semantic.digital-agenda-data.eu/def/property/> .
+ns1:ict-skills	ns10:order	"90"^^xsd:byte .
+ns1:ict-specialist	ns10:order	"92"^^xsd:byte .
+ns1:security-privacy	ns10:order	"105"^^xsd:byte .
+ns1:desi_dim	ns10:order	"2" .
+ns1:desi	ns10:order	"1" .
+ns1:desi_subdim	ns10:order	"3" .
+ns1:desi_ind	ns10:order	"4" .
+ns1:desi_sliders	ns10:order	"5" .
+ns1:telecom	ns10:order	"10" .
+ns1:ehealth	ns10:order	"100" .
+ns1:broadband	ns10:order	"20" .
+ns1:back	ns10:order	"200" .
+ns1:bbquality	ns10:order	"30" .
+ns1:mobile	ns10:order	"35" .
+ns1:internet-usage	ns10:order	"40" .
+ns1:audiovisual	ns10:order	"45" .
+ns1:internet-services	ns10:order	"50" .
+ns1:egovernment	ns10:order	"60" .
+ns1:ecommerce	ns10:order	"70" .
+ns1:ebusiness	ns10:order	"80" .
+ns1:ict-edu	ns10:order	"95" .
+ns1:ict-sector	ns10:order	"110" .
+ns1:research-and-development	ns10:order	"120" .
+ns1:research_einfra	ns10:order	"121" .
+ns1:discontinued	ns10:order	"900" .
+ns4:indicator-group	skos:hasTopConcept	ns1:audiovisual ,
+		ns1:back ,
+		ns1:bbquality ,
+		ns1:broadband ,
+		ns1:desi ,
+		ns1:desi_dim ,
+		ns1:desi_ind ,
+		ns1:desi_sliders ,
+		ns1:desi_subdim ,
+		ns1:discontinued ,
+		ns1:ebusiness ,
+		ns1:ecommerce ,
+		ns1:egovernment ,
+		ns1:ehealth ,
+		ns1:ict-edu ,
+		ns1:ict-sector ,
+		ns1:ict-skills ,
+		ns1:internet-services ,
+		ns1:internet-usage ,
+		ns1:mobile ,
+		ns1:research-and-development ,
+		ns1:research_einfra ,
+		ns1:telecom ,
+		ns1:ict-specialist ,
+		ns1:security-privacy .
+ns1:audiovisual	skos:topConceptOf	ns4:indicator-group .
+ns1:back	skos:topConceptOf	ns4:indicator-group .
+ns1:bbquality	skos:topConceptOf	ns4:indicator-group .
+ns1:broadband	skos:topConceptOf	ns4:indicator-group .
+ns1:desi	skos:topConceptOf	ns4:indicator-group .
+ns1:desi_dim	skos:topConceptOf	ns4:indicator-group .
+ns1:desi_ind	skos:topConceptOf	ns4:indicator-group .
+ns1:desi_sliders	skos:topConceptOf	ns4:indicator-group .
+ns1:desi_subdim	skos:topConceptOf	ns4:indicator-group .
+ns1:discontinued	skos:topConceptOf	ns4:indicator-group .
+ns1:ebusiness	skos:topConceptOf	ns4:indicator-group .
+ns1:ecommerce	skos:topConceptOf	ns4:indicator-group .
+ns1:egovernment	skos:topConceptOf	ns4:indicator-group .
+ns1:ehealth	skos:topConceptOf	ns4:indicator-group .
+ns1:ict-edu	skos:topConceptOf	ns4:indicator-group .
+ns1:ict-sector	skos:topConceptOf	ns4:indicator-group .
+ns1:ict-skills	skos:topConceptOf	ns4:indicator-group .
+ns1:internet-services	skos:topConceptOf	ns4:indicator-group .
+ns1:internet-usage	skos:topConceptOf	ns4:indicator-group .
+ns1:mobile	skos:topConceptOf	ns4:indicator-group .
+ns1:research-and-development	skos:topConceptOf	ns4:indicator-group .
+ns1:research_einfra	skos:topConceptOf	ns4:indicator-group .
+ns1:telecom	skos:topConceptOf	ns4:indicator-group .
+ns1:ict-specialist	skos:topConceptOf	ns4:indicator-group .
+ns1:security-privacy	skos:topConceptOf	ns4:indicator-group .

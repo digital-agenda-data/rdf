@@ -1,0 +1,164 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix ns0: <http://publications.europa.eu/ontology/authority/table.> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ns1: <http://publications.europa.eu/ontology/authority/> .
+@prefix ns2: <http://publications.europa.eu/resource/authority/> .
+@prefix dc11: <http://purl.org/dc/elements/1.1/> .
+
+<http://publications.europa.eu/resource/authority/data-theme>
+  a skos:ConceptScheme ;
+  ns0:id "data-theme" ;
+  ns0:version.number "20160316-0" ;
+  rdfs:label "MRD Data theme Named Authority List"@en ;
+  ns1:prefLabel "MRD  Data theme s Named Authority List"@en .
+
+<http://publications.europa.eu/resource/authority/data-theme/AGRI>
+  a skos:Concept ;
+  ns1:deprecated "false" ;
+  skos:inScheme <http://publications.europa.eu/resource/authority/data-theme> ;
+  ns1:authority-code "AGRI" ;
+  ns1:op-code "AGRI" ;
+  ns2:op-code "AGRI" ;
+  dc11:identifier "AGRI" ;
+  ns1:start.use "2015-10-01" ;
+  skos:prefLabel "Селско стопанство, рибарство, горско стопанство и храни"@bg, "Zemědělství, rybolov, lesnictví a výživa"@cs, "Landbrug, fiskeri, skovbrug og fødevarer"@da, "Landwirtschaft, Fischerei, Forstwirtschaft und Nahrungsmittel"@de, "Γεωργία, αλιεία, δασοκομία και τρόφιμα"@el, "Agriculture, fisheries, forestry and food"@en, "Põllumajandus, kalandus, metsandus ja toiduained"@et, "Maatalous, kalastus, metsätalous ja elintarvikkeet"@fi, "Agriculture, pêche, sylviculture et alimentation"@fr, "Talmhaíocht, iascach, foraoiseacht agus bia"@ga, "Poljoprivreda, ribarstvo, šumarstvo i hrana"@hr, "Mezőgazdaság, halászat, erdészet és élelmiszer"@hu, "Agricoltura, pesca, silvicoltura e prodotti alimentari"@it, "Lauksaimniecība, zivsaimniecība, mežsaimniecība un pārtika"@lv, "Žemės ūkis, žuvininkystė, miškininkystė ir maistas"@lt, "Agrikoltura, sajd, forestrija u ikel"@mt, "Landbouw, visserij, bosbouw en voeding"@nl, "Jordbruk, fiskeri, skogbruk og mat"@no, "Rolnictwo, rybołówstwo, leśnictwo i żywność"@pl, "Agricultura, pesca, silvicultura e alimentação"@pt, "Agricultură, pescuit, silvicultură şi hrană"@ro, "Poľnohospodárstvo, rybné hospodárstvo, lesníctvo a potravinárstvo"@sk, "Kmetijstvo, ribištvo, gozdarstvo in prehrana"@sl, "Agricultura, pesca, silvicultura y alimentación"@es, "Jordbruk, fiske, skogsbruk och livsmedel"@sv .
+
+<http://publications.europa.eu/resource/authority/data-theme/EDUC>
+  a skos:Concept ;
+  ns1:deprecated "false" ;
+  skos:inScheme ns2:data-theme ;
+  ns1:authority-code "EDUC" ;
+  ns1:op-code "EDUC" ;
+  ns2:op-code "EDUC" ;
+  dc11:identifier "EDUC" ;
+  ns1:start.use "2015-10-01" ;
+  skos:prefLabel "Образование, култура и спорт"@bg, "Vzdělávání, kultura a sport"@cs, "Uddannelse, kultur og sport"@da, "Bildung, Kultur und Sport"@de, "Παιδεία, πολιτιστικά θέματα και αθλητισμός"@el, "Education, culture and sport"@en, "Haridus, kultuur ja sport"@et, "Koulutus, kulttuuri ja urheilu"@fi, "Éducation, culture et sport"@fr, "Oideachas, cultúr agus spórt"@ga, "Obrazovanje, kultura i sport"@hr, "Oktatás, kultúra és sport"@hu, "Istruzione, cultura e sport"@it, "Izglītība, kultūra un sports"@lv, "Švietimas, kultūra ir sportas"@lt, "Edukazzjoni, kultura u sport"@mt, "Onderwijs, cultuur en sport"@nl, "Utdanning, kultur og sport"@no, "Edukacja, kultura i sport"@pl, "Educação, cultura e desporto"@pt, "Educaţie, cultură şi sport"@ro, "Vzdelávanie, kultúra a šport"@sk, "Izobraževanje, kultura in šport"@sl, "Educación, cultura y deportes"@es, "Utbildning, kultur och sport"@sv .
+
+<http://publications.europa.eu/resource/authority/data-theme/ENVI>
+  a skos:Concept ;
+  ns1:deprecated "false" ;
+  skos:inScheme ns2:data-theme ;
+  ns1:authority-code "ENVI" ;
+  ns1:op-code "ENVI" ;
+  ns2:op-code "ENVI" ;
+  dc11:identifier "ENVI" ;
+  ns1:start.use "2015-10-01" ;
+  skos:prefLabel "Околна среда"@bg, "Životní prostředí"@cs, "Miljø"@da, "Umwelt"@de, "Περιβάλλον"@el, "Environment"@en, "Keskkond"@et, "Ympäristö"@fi, "Environnement"@fr, "Comhshaol"@ga, "Okoliš"@hr, "Környezet"@hu, "Ambiente"@it, "Vide"@lv, "Aplinka"@lt, "Ambjent"@mt, "Milieu"@nl, "Miljø"@no, "Środowisko"@pl, "Ambiente"@pt, "Mediu"@ro, "Životné prostredie"@sk, "Okolje"@sl, "Medio ambiente"@es, "Miljö"@sv .
+
+<http://publications.europa.eu/resource/authority/data-theme/ENER>
+  a skos:Concept ;
+  ns1:deprecated "false" ;
+  skos:inScheme ns2:data-theme ;
+  ns1:authority-code "ENER" ;
+  ns1:op-code "ENER" ;
+  ns2:op-code "ENER" ;
+  dc11:identifier "ENER" ;
+  ns1:start.use "2015-10-01" ;
+  skos:prefLabel "Енергетика"@bg, "Energie"@cs, "Energi"@da, "Energie"@de, "Ενέργεια"@el, "Energy"@en, "Energeetika"@et, "Energia"@fi, "Énergie"@fr, "Fuinneamh"@ga, "Energetika"@hr, "Energia"@hu, "Energia"@it, "Enerģētika"@lv, "Energetika"@lt, "Enerġija"@mt, "Energie"@nl, "Energi"@no, "Energia"@pl, "Energia"@pt, "Energie"@ro, "Energetika"@sk, "Energetika"@sl, "Energía"@es, "Energi"@sv .
+
+<http://publications.europa.eu/resource/authority/data-theme/TRAN>
+  a skos:Concept ;
+  ns1:deprecated "false" ;
+  skos:inScheme ns2:data-theme ;
+  ns1:authority-code "TRAN" ;
+  ns1:op-code "TRAN" ;
+  ns2:op-code "TRAN" ;
+  dc11:identifier "TRAN" ;
+  ns1:start.use "2015-10-01" ;
+  skos:prefLabel "Транспорт"@bg, "Doprava"@cs, "Transport"@da, "Verkehr"@de, "Μεταφορές"@el, "Transport"@en, "Transport"@et, "Liikenne"@fi, "Transports"@fr, "Iompar"@ga, "Promet"@hr, "Közlekedés"@hu, "Trasporti"@it, "Transports"@lv, "Transportas"@lt, "Trasport"@mt, "Vervoer"@nl, "Transport"@no, "Transport"@pl, "Transportes"@pt, "Transport"@ro, "Doprava"@sk, "Transport"@sl, "Transporte"@es, "Transport"@sv .
+
+<http://publications.europa.eu/resource/authority/data-theme/TECH>
+  a skos:Concept ;
+  ns1:deprecated "false" ;
+  skos:inScheme ns2:data-theme ;
+  ns1:authority-code "TECH" ;
+  ns1:op-code "TECH" ;
+  ns2:op-code "TECH" ;
+  dc11:identifier "TECH" ;
+  ns1:start.use "2015-10-01" ;
+  skos:prefLabel "Наука и tехнологии"@bg, "Věda a technika"@cs, "Videnskab og teknologi"@da, "Wissenschaft und Technologie"@de, "Επιστήμη και τεχνολογία"@el, "Science and technology"@en, "Teadus ja tehnoloogia"@et, "Tiede ja teknologia"@fi, "Science et technologie"@fr, "Eolaíocht agus teicneolaíocht"@ga, "Znanost i tehnologija"@hr, "Tudomány és technológia"@hu, "Scienza e tecnologia"@it, "Zinātne un tehnoloģija"@lv, "Mokslas ir technologijos"@lt, "Xjenza u teknoloġija"@mt, "Wetenschap en technologie"@nl, "Vitenskap og teknologi"@no, "Nauka i technologia"@pl, "Ciência e tecnologia"@pt, "Ştiinţă şi tehnologie"@ro, "Veda a technika"@sk, "Znanost in tehnologija"@sl, "Ciencia y tecnología"@es, "Vetenskap och teknik"@sv .
+
+<http://publications.europa.eu/resource/authority/data-theme/ECON>
+  a skos:Concept ;
+  ns1:deprecated "false" ;
+  skos:inScheme ns2:data-theme ;
+  ns1:authority-code "ECON" ;
+  ns1:op-code "ECON" ;
+  ns2:op-code "ECON" ;
+  dc11:identifier "ECON" ;
+  ns1:start.use "2015-10-01" ;
+  skos:prefLabel "Икономика и финанси"@bg, "Hospodářství a finance"@cs, "Økonomi og finanser"@da, "Wirtschaft und Finanzen"@de, "Οικονομία και χρηματοοικονομικά θέματα"@el, "Economy and finance"@en, "Majandus ja rahandus"@et, "Talous ja raha-asiat"@fi, "Économie et finances"@fr, "Geilleagar agus airgeadas"@ga, "Ekonomija i financije"@hr, "Gazdaság és pénzügy"@hu, "Economia e finanze"@it, "Ekonomika un finanses"@lv, "Ekonomika ir finansai"@lt, "Ekonomija u finanzi"@mt, "Economie en financiën"@nl, "Økonomi og finans"@no, "Gospodarka i finanse"@pl, "Economia e finanças"@pt, "Economie şi finanţe"@ro, "Hospodárstvo a financie"@sk, "Gospodarstvo in finance"@sl, "Economía y finanzas"@es, "Ekonomi och finans"@sv .
+
+<http://publications.europa.eu/resource/authority/data-theme/SOCI>
+  a skos:Concept ;
+  ns1:deprecated "false" ;
+  skos:inScheme ns2:data-theme ;
+  ns1:authority-code "SOCI" ;
+  ns1:op-code "SOCI" ;
+  ns2:op-code "SOCI" ;
+  dc11:identifier "SOCI" ;
+  ns1:start.use "2015-10-01" ;
+  skos:prefLabel "Население и общество"@bg, "Populace a společnost"@cs, "Befolkning og samfund"@da, "Bevölkerung und Gesellschaft"@de, "Πληθυσμός και κοινωνία"@el, "Population and society"@en, "Elanikkond ja ühiskond"@et, "Väestö ja yhteiskunta"@fi, "Population et société"@fr, "Daonra agus sochaí"@ga, "Stanovništvo i društvo"@hr, "Népesség és társadalom"@hu, "Popolazione e società"@it, "Iedzīvotāji un sabiedrība"@lv, "Gyventojų skaičius ir visuomenė"@lt, "Popolazzjoni u soċjetà"@mt, "Bevolking en samenleving"@nl, "Befolkning og samfunn"@no, "Ludność i społeczeństwo"@pl, "População e sociedade"@pt, "Populaţie şi societate"@ro, "Obyvateľstvo a spoločnosť"@sk, "Prebivalstvo in družba"@sl, "Población y sociedad"@es, "Befolkning och samhälle"@sv .
+
+<http://publications.europa.eu/resource/authority/data-theme/HEAL>
+  a skos:Concept ;
+  ns1:deprecated "false" ;
+  skos:inScheme ns2:data-theme ;
+  ns1:authority-code "HEAL" ;
+  ns1:op-code "HEAL" ;
+  ns2:op-code "HEAL" ;
+  dc11:identifier "HEAL" ;
+  ns1:start.use "2015-10-01" ;
+  skos:prefLabel "Здраве"@bg, "Zdraví"@cs, "Sundhed"@da, "Gesundheit"@de, "Υγεία"@el, "Health"@en, "Tervis"@et, "Terveys"@fi, "Santé"@fr, "Sláinte"@ga, "Zdravlje"@hr, "Egészségügy"@hu, "Salute"@it, "Veselība"@lv, "Sveikata"@lt, "Saħħa"@mt, "Gezondheid"@nl, "Helse"@no, "Zdrowie"@pl, "Saúde"@pt, "Sănătate"@ro, "Zdravotníctvo"@sk, "Zdravje"@sl, "Salud"@es, "Hälsa"@sv .
+
+<http://publications.europa.eu/resource/authority/data-theme/GOVE>
+  a skos:Concept ;
+  ns1:deprecated "false" ;
+  skos:inScheme ns2:data-theme ;
+  ns1:authority-code "GOVE" ;
+  ns1:op-code "GOVE" ;
+  ns2:op-code "GOVE" ;
+  dc11:identifier "GOVE" ;
+  ns1:start.use "2015-10-01" ;
+  skos:prefLabel "Правителство и публичен сектор"@bg, "Vláda a veřejný sektor"@cs, "Regeringen og den offentlige sektor"@da, "Regierung und öffentlicher Sektor"@de, "Κυβέρνηση και δημόσιος τομέας"@el, "Government and public sector"@en, "Valitsus ja avalik sektor"@et, "Valtioneuvosto ja julkinen sektori"@fi, "Gouvernement et secteur public"@fr, "Rialtas agus earnáil phoiblí"@ga, "Vlada i javni sektor"@hr, "Kormányzat és közszféra"@hu, "Governo e settore pubblico"@it, "Valdība un sabiedriskais sektors"@lv, "Vyriausybė ir viešasis sektorius"@lt, "Gvern u settur pubbliku"@mt, "Overheid en publieke sector"@nl, "Forvaltning og offentlig sektor"@no, "Rząd i sektor publiczny"@pl, "Governo e setor público"@pt, "Guvern şi sector public"@ro, "Vláda a verejný sektor"@sk, "Vlada in javni sektor"@sl, "Gobierno y sector público"@es, "Regeringen och den offentliga sektorn"@sv .
+
+<http://publications.europa.eu/resource/authority/data-theme/REGI>
+  a skos:Concept ;
+  ns1:deprecated "false" ;
+  skos:inScheme ns2:data-theme ;
+  ns1:authority-code "REGI" ;
+  ns1:op-code "REGI" ;
+  ns2:op-code "REGI" ;
+  dc11:identifier "REGI" ;
+  ns1:start.use "2015-10-01" ;
+  skos:prefLabel "Региони и градове"@bg, "Regiony a města"@cs, "Regioner og byer"@da, "Regionen und Städte"@de, "Περιφέρειες και πόλεις"@el, "Regions and cities"@en, "Piirkonnad ja linnad"@et, "Alueet ja kaupungit"@fi, "Régions et villes"@fr, "Réigiúin agus cathracha"@ga, "Regije i gradovi"@hr, "Régiók és városok"@hu, "Regioni e città"@it, "Reģioni un pilsētas"@lv, "Regionai ir miestai"@lt, "Reġjuni u bliet"@mt, "Regio's en steden"@nl, "Regioner og byer"@no, "Regiony i miasta"@pl, "Regiões e cidades"@pt, "Regiuni şi orașe"@ro, "Regióny a mestá"@sk, "Regije in mesta"@sl, "Regiones y ciudades"@es, "Regioner och städer"@sv .
+
+<http://publications.europa.eu/resource/authority/data-theme/JUST>
+  a skos:Concept ;
+  ns1:deprecated "false" ;
+  skos:inScheme ns2:data-theme ;
+  ns1:authority-code "JUST" ;
+  ns1:op-code "JUST" ;
+  ns2:op-code "JUST" ;
+  dc11:identifier "JUST" ;
+  ns1:start.use "2015-10-01" ;
+  skos:prefLabel "Правосъдие, съдебна система и обществена безопасност"@bg, "Spravedlnost, právní systém a veřejná bezpečnost"@cs, "Retfærdighed, retssystem og offentlig sikkerhed"@da, "Justiz, Rechtssystem und öffentliche Sicherheit"@de, "Δικαιoσύνη, νομικό σύστημα και δημόσια ασφάλεια"@el, "Justice, legal system and public safety"@en, "Õigusemõistmine, õigussüsteem ja avalik turvalisus"@et, "Oikeus, oikeusjärjestelmä ja yleinen turvallisuus"@fi, "Justice, système juridique et sécurité publique"@fr, "Ceartas, córas dlí agus sábháilteacht an phobail"@ga, "Pravosuđe, pravni sustav i javna sigurnost"@hr, "Igazságügy, jogrendszer és közbiztonság"@hu, "Giustizia, sistema giuridico e sicurezza pubblica"@it, "Tieslietas, tiesību sistēma un sabiedrības drošība"@lv, "Teisingumas, teisės sistema ir visuomenės sauga"@lt, "Ġustizzja, sistema legali u sigurtà pubblika"@mt, "Justitie, rechtsstelsel en openbare veiligheid"@nl, "Justis, rettssystem og allmenn sikkerhet"@no, "Sprawiedliwość, ustrój sądów i bezpieczeństwo publiczne"@pl, "Justiça, sistema judiciário e segurança pública"@pt, "Justiție, sistem juridic și siguranță publică"@ro, "Spravodlivosť, právny systém a verejná bezpečnosť"@sk, "Pravosodje, pravni sistem in javna varnost"@sl, "Justicia, sistema judicial y seguridad pública"@es, "Rättvisa, rättsliga system och allmän säkerhet"@sv .
+
+<http://publications.europa.eu/resource/authority/data-theme/INTR>
+  a skos:Concept ;
+  ns1:deprecated "false" ;
+  skos:inScheme ns2:data-theme ;
+  ns1:authority-code "INTR" ;
+  ns1:op-code "INTR" ;
+  ns2:op-code "INTR" ;
+  dc11:identifier "INTR" ;
+  ns1:start.use "2015-10-01" ;
+  skos:prefLabel "Международни въпроси"@bg, "Mezinárodní otázky"@cs, "Internationale spørgsmål"@da, "Internationale Themen"@de, "Διεθνή θέματα"@el, "International issues"@en, "Rahvusvahelised küsimused"@et, "Kansainväliset kysymykset"@fi, "Questions internationales"@fr, "Saincheisteanna idirnáisiúnta"@ga, "Međunarodni pitanja"@hr, "Nemzetközi ügyek"@hu, "Tematiche internazionali"@it, "Starptautiski jautājumi"@lv, "Tarptautiniai klausimai"@lt, "Kwistjonijiet internazzjonali"@mt, "Internationale vraagstukken"@nl, "Internasjonale temaer"@no, "Kwestie międzynarodowe"@pl, "Questões internacionais"@pt, "Chestiuni internaționale"@ro, "Medzinárodné otázky"@sk, "Mednarodna vprašanja"@sl, "Asuntos internacionales"@es, "Internationella frågor"@sv .
+
+<http://publications.europa.eu/resource/authority/data-theme/OP_DATPRO>
+  a skos:Concept ;
+  skos:inScheme ns2:data-theme ;
+  ns1:op-code "OP_DATPRO" ;
+  ns2:op-code "OP_DATPRO" ;
+  dc11:identifier "OP_DATPRO" ;
+  skos:prefLabel "НЕОКОНЧАТЕЛНИ ДАННИ"@bg, "Předběžné údaje"@cs, "Midlertidige data"@da, "Vorläufige Daten"@de, "Provisional data"@en, "Προσωρινά δεδομένα"@el, "Datos provisionales"@es, "Esialgsed andmed"@et, "Alustavat tiedot"@fi, "Données provisoires"@fr, "Sonraí sealadacha"@ga, "Privremeni podaci"@hr, "Ideiglenes adatok"@hu, "Dati provvisori"@it, "Laikinieji duomenys"@lt, "Provizoriski dati"@lv, "Dejta provviżorja"@mt, "Voorlopige gegevens"@nl, "Dane tymczasowe"@pl, "Dados provisórios"@pt, "Date provizorii"@ro, "Predbežné údaje"@sk, "Začasni podatki"@sl, "Tillfälliga uppgifter"@sv .

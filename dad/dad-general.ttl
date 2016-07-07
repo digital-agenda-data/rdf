@@ -1,0 +1,120 @@
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+@prefix qb:	<http://purl.org/linked-data/cube#> .
+@prefix sdmx:	<http://purl.org/linked-data/sdmx#> .
+@prefix dad-class:	<http://semantic.digital-agenda-data.eu/def/class/> .
+@prefix dad-prop:	<http://semantic.digital-agenda-data.eu/def/property/> .
+@prefix dad-def:	<http://semantic.digital-agenda-data.eu/def/> .
+
+@prefix dad-codelist:	<http://semantic.digital-agenda-data.eu/codelist/> .
+@prefix dad-concept:	<http://semantic.digital-agenda-data.eu/def/concept/> .
+
+
+dad-def:dad-scheme	rdf:type	skos:ConceptScheme ;
+	rdfs:label	"Digital Agenda Data Vocabulary"@en .
+
+dad-class:Source	rdf:type	rdfs:Class ;
+	rdfs:label	"Source"@en ;
+	skos:inScheme	dad-def:dad-scheme .
+
+dad-class:DimensionGroupProperty	rdf:type	rdfs:Class ;
+	rdfs:subClassOf	rdf:Property ;
+	rdfs:label	"Dimension Group Property"@en ;
+	skos:inScheme	dad-def:dad-scheme ;
+	rdfs:seeAlso	dad-prop:dimension-group .
+
+dad-prop:dimension-group	rdf:type	rdf:Property ;
+	rdfs:label	"dimension group"@en ;
+	rdfs:domain	qb:ComponentSpecification ;
+	rdfs:range	dad-class:DimensionGroupProperty .
+dad-prop:grouped-using	rdf:type	rdf:Property ;
+	rdfs:label	"grouped using"@en ;
+	rdfs:domain	qb:DimensionProperty ;
+	rdfs:range	dad-class:DimensionGroupProperty ;
+	rdfs:comment	"links one DimensionProperty to a DimensionGroupProperty"@en .
+dad-prop:member-of	rdf:type	rdf:Property ;
+	rdfs:label	"member of group"@en ;
+	rdfs:range	skos:ConceptScheme ;
+	rdfs:comment	"is member of ordered collection of concepts"@en .
+dad-prop:membership	rdf:type	rdf:Property ;
+	rdfs:label	"membership of group"@en ;
+	rdfs:domain	skos:Concept ;
+	rdfs:comment	"Belongs to ordered collection of concepts"@en .
+dad-prop:order	rdf:type	rdf:Property ;
+	rdfs:label	"order in group"@en ;
+	rdfs:range	xsd:int ;
+	rdfs:comment	"has index in ordered collection of concepts"@en .
+
+dad-class:Breakdown
+	rdf:type	rdfs:Class ;
+	rdfs:label	"Breakdown"@en ;
+	rdfs:seeAlso	dad-codelist:breakdown ;
+	rdfs:subClassOf	skos:Concept ;
+	skos:inScheme	dad-def:dad-scheme .
+dad-class:BreakdownGroup
+	rdf:type	rdfs:Class ;
+	rdfs:label	"Breakdown Group"@en ;
+	rdfs:seeAlso	dad-codelist:breakdown-group ;
+	rdfs:subClassOf	skos:Concept ;
+	skos:inScheme	dad-def:dad-scheme .
+dad-class:Indicator
+	rdf:type	rdfs:Class ;
+	rdfs:label	"Indicator"@en ;
+	rdfs:seeAlso	dad-codelist:indicator ;
+	rdfs:subClassOf	skos:Concept ;
+	skos:inScheme	dad-def:dad-scheme .
+dad-class:IndicatorGroup
+	rdf:type	rdfs:Class ;
+	rdfs:label	"Indicator Group"@en ;
+	rdfs:seeAlso	dad-codelist:indicator-group ;
+	rdfs:subClassOf	skos:Concept ;
+	skos:inScheme	dad-def:dad-scheme .
+dad-class:UnitMeasure
+	rdf:type	rdfs:Class ;
+	rdfs:label	"Unit of measure"@en ;
+	rdfs:seeAlso	dad-codelist:unit-measure ;
+	rdfs:subClassOf	skos:Concept ;
+	skos:inScheme	dad-def:dad-scheme .
+
+dad-concept:breakdown
+	rdf:type	skos:Concept , sdmx:IdentityRole , sdmx:Concept ;
+	rdfs:label	"Breakdown"@en ;
+	rdfs:comment	"The breakdown item for which values are measured"@en ;
+	rdfs:seeAlso	dad-prop:breakdown ;
+	skos:inScheme	dad-def:dad-scheme .
+
+dad-concept:breakdownGroup
+	rdf:type	sdmx:IdentityRole , sdmx:Concept, skos:Concept ;
+	rdfs:label	"Breakdown group"@en ;
+	rdfs:comment	"The breakdown criteria of the indicator"@en ;
+	rdfs:seeAlso	dad-prop:breakdown-group ;
+	skos:inScheme	dad-def:dad-scheme .
+
+dad-concept:indicator
+	rdf:type	skos:Concept , sdmx:IdentityRole , sdmx:Concept ;
+	rdfs:label	"Indicator"@en ;
+	rdfs:comment	"The indicator for which values are measured"@en ;
+	rdfs:seeAlso	dad-prop:indicator ;
+	skos:inScheme	dad-def:dad-scheme .
+
+dad-concept:indicatorGroup	rdf:type	skos:Concept , sdmx:Concept , sdmx:IdentityRole ;
+	rdfs:label	"Indicator Group"@en ;
+	rdfs:comment	"The indicator group for which values are measured"@en ;
+	rdfs:seeAlso	dad-prop:indicator-group ;
+	skos:inScheme	dad-def:dad-scheme .
+
+dad-concept:flag
+	rdf:type	skos:Concept , sdmx:Concept , sdmx:ConceptRole ;
+	rdfs:label	"Flag"@en ;
+	rdfs:comment	"Optional flag for the measured value"@en ;
+	rdfs:seeAlso	dad-prop:flag ;
+	skos:inScheme	dad-def:dad-scheme .
+
+dad-concept:note
+	rdf:type	skos:Concept , sdmx:Concept , sdmx:ConceptRole ;
+	rdfs:label	"Note"@en ;
+	rdfs:comment	"Optional note for the measured value"@en ;
+	rdfs:seeAlso	dad-prop:note ;
+	skos:inScheme	dad-def:dad-scheme .

@@ -1,0 +1,33 @@
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns1:	<http://eurostat.linked-statistics.org/dic/> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix ns3:	<http://eurostat.linked-statistics.org/dic/geo#> .
+
+ns1:geo	rdf:type	skos:ConceptScheme .
+
+ns3:EU28	rdf:type	skos:Concept ;
+	skos:prefLabel	"European Union 28"@en ;
+	skos:inScheme	ns1:geo ;
+	skos:notation	"EU28" . 
+
+ns3:EU_H2020	rdf:type	skos:Concept ;
+	skos:prefLabel	"EU H2020"@en ;
+	skos:inScheme	ns1:geo ;
+	skos:notation	"EU_H2020" . 
+
+ns3:EU_AVERAGE	rdf:type	skos:Concept ;
+	skos:prefLabel	"EU AVERAGE"@en ;
+	skos:inScheme	ns1:geo ;
+	skos:notation	"EU_AVERAGE" .
+
+ns3:EU_FP7	rdf:type	skos:Concept ;
+	skos:prefLabel	"EU FP7"@en ;
+	skos:inScheme	ns1:geo ;
+	skos:notation	"EU_FP7" .
+
+ns3:EU_HARMONISED	rdf:type	skos:Concept ;
+	skos:prefLabel	"EU HARMONISED"@en ;
+	skos:inScheme	ns1:geo ;
+	skos:notation	"EU_HARMONISED" .
+
+ns1:geo	skos:hasTopConcept	ns3:EU28, ns3:EU_H2020, ns3:EU_AVERAGE, ns3:EU_FP7, ns3:EU_HARMONISED .
