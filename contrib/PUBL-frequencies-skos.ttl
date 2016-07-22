@@ -1,0 +1,413 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix ns0: <http://publications.europa.eu/ontology/authority/table.> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ns1: <http://publications.europa.eu/ontology/authority/> .
+@prefix ns2: <http://publications.europa.eu/resource/authority/> .
+@prefix dc11: <http://purl.org/dc/elements/1.1/> .
+
+<http://publications.europa.eu/resource/authority/frequency>
+  a skos:ConceptScheme ;
+  ns0:id "frequency" ;
+  ns0:version.number "20160316-0" ;
+  rdfs:label "Frequencies Authority Table"@en ;
+  ns1:prefLabel "Frequencies Authority Table"@en .
+
+<http://publications.europa.eu/resource/authority/frequency/TRIENNIAL>
+  a skos:Concept ;
+  ns1:deprecated "false" ;
+  skos:inScheme <http://publications.europa.eu/resource/authority/frequency> ;
+  ns1:authority-code "TRIENNIAL" ;
+  ns1:op-code "TRIENNIAL" ;
+  ns2:op-code "TRIENNIAL" ;
+  dc11:identifier "TRIENNIAL" ;
+  ns1:start.use "1952-07-25" ;
+  skos:prefLabel "тригодишен"@bg, "tříletý"@cs, "treårligt"@da, "dreijährlich"@de, "τριετής"@el, "triennial"@en, "iga kolme aasta järel"@et, "kolmivuotinen"@fi, "triennal"@fr, "tríbhliantúil"@ga, "trijenale"@hr, "háromévenkénti"@hu, "triennale"@it, "reizi trīs gados"@lv, "trimetis"@lt, "triennali"@mt, "driejaarlijks"@nl, "hvert tredje år"@no, "trzyletni"@pl, "trienal"@pt, "trienal"@ro, "trojročný"@sk, "trienale"@sl, "trienal"@es, "vart tredje år"@sv ;
+  skos:altLabel "tříletá"@cs, "tříleté"@cs, "treårlig"@da, "dreijährliche"@de, "dreijährliches"@de, "triennale"@fr, "trzyletnia"@pl, "trzyletnie"@pl, "trienală"@ro, "trojročná"@sk, "trojročné"@sk ;
+  skos:exactMatch <http://purl.org/cld/freq/triennial> ;
+  ns1:op-mapped-code [
+    a ns1:MappedCode ;
+    dc11:source "PUB" ;
+    ns1:affected-table "PUB_FREQ" ;
+    ns1:legacy-code "D"
+  ] .
+
+<http://publications.europa.eu/resource/authority/frequency/BIENNIAL>
+  a skos:Concept ;
+  ns1:deprecated "false" ;
+  skos:inScheme ns2:frequency ;
+  ns1:authority-code "BIENNIAL" ;
+  ns1:op-code "BIENNIAL" ;
+  ns2:op-code "BIENNIAL" ;
+  dc11:identifier "BIENNIAL" ;
+  ns1:start.use "1952-07-25" ;
+  skos:prefLabel "двегодишен"@bg, "dvouletý"@cs, "toårigt"@da, "zweijährlich"@de, "διετής"@el, "biennial"@en, "iga kahe aasta järel"@et, "kaksivuotinen"@fi, "biennal"@fr, "dhébhliantúil"@ga, "bijenale"@hr, "kétévenkénti"@hu, "biennale"@it, "reizi divos gados"@lv, "dvimetis"@lt, "biennali"@mt, "tweejaarlijks"@nl, "annethvert år"@no, "dwuletni"@pl, "bienal"@pt, "bienal"@ro, "dvojročný"@sk, "bienale"@sl, "bienal"@es, "vartannat år"@sv ;
+  skos:altLabel "dvouletá"@cs, "dvouleté"@cs, "toårig"@da, "zweijährliche"@de, "zweijährliches"@de, "biennale"@fr, "dwuletnia"@pl, "dwuletnie"@pl, "bienală"@ro, "dvojročná"@sk, "dvojročné"@sk ;
+  skos:exactMatch <http://purl.org/cld/freq/biennial> ;
+  ns1:op-mapped-code [
+    a ns1:MappedCode ;
+    dc11:source "PUB" ;
+    ns1:affected-table "PUB_FREQ" ;
+    ns1:legacy-code "G"
+  ] .
+
+<http://publications.europa.eu/resource/authority/frequency/ANNUAL>
+  a skos:Concept ;
+  ns1:deprecated "false" ;
+  skos:inScheme ns2:frequency ;
+  ns1:authority-code "ANNUAL" ;
+  ns1:op-code "ANNUAL" ;
+  ns2:op-code "ANNUAL" ;
+  dc11:identifier "ANNUAL" ;
+  ns1:start.use "1952-07-25" ;
+  skos:prefLabel "годишен"@bg, "roční"@cs, "årligt"@da, "jährlich"@de, "ετήσιος"@el, "annual"@en, "aastane"@et, "vuotuinen"@fi, "annuel"@fr, "bliantúil"@ga, "godišnje"@hr, "évenkénti"@hu, "annuale"@it, "reizi gadā"@lv, "kasmetinis"@lt, "annwali"@mt, "jaarlijks"@nl, "årlig"@no, "roczny"@pl, "anual"@pt, "anual"@ro, "ročný"@sk, "letni"@sl, "anual"@es, "årlig"@sv ;
+  skos:altLabel "годишна"@bg, "годишно"@bg, "årlig"@da, "jährliche"@de, "jährliches"@de, "ετήσια"@el, "ετήσιο"@el, "annuelle"@fr, "roczna"@pl, "roczne"@pl, "anuală"@ro, "ročná"@sk, "ročné"@sk, "letna"@sl, "letno"@sl ;
+  skos:exactMatch <http://purl.org/cld/freq/annual> ;
+  ns1:op-mapped-code [
+    a ns1:MappedCode ;
+    dc11:source "PUB" ;
+    ns1:affected-table "PUB_FREQ" ;
+    ns1:legacy-code "ANN"
+  ] .
+
+<http://publications.europa.eu/resource/authority/frequency/ANNUAL_2>
+  a skos:Concept ;
+  ns1:deprecated "false" ;
+  skos:inScheme ns2:frequency ;
+  ns1:authority-code "ANNUAL_2" ;
+  ns1:op-code "ANNUAL_2" ;
+  ns2:op-code "ANNUAL_2" ;
+  dc11:identifier "ANNUAL_2" ;
+  ns1:start.use "1952-07-25" ;
+  skos:prefLabel "два пъти на година"@bg, "pololetní"@cs, "halvårligt"@da, "halbjährlich"@de, "εξαμηνιαίος"@el, "semiannual"@en, "pooleaastane"@et, "puolivuotinen"@fi, "semestriel"@fr, "leathbhliantúil"@ga, "polugodišnje"@hr, "félévenkénti"@hu, "semestrale"@it, "reizi pusgadā"@lv, "kas pusę metų"@lt, "kull sitt xhur"@mt, "halfjaarlĳks"@nl, "halvårlig"@no, "półroczny"@pl, "semianual"@pt, "semestrial"@ro, "polročný"@sk, "polletni"@sl, "semestral"@es, "halvårs"@sv ;
+  skos:altLabel "halvårlig"@da, "halbjährliche"@de, "halbjährliches"@de, "εξαμηνιαία"@el, "εξαμηνιαίο"@el, "semestrielle"@fr, "półroczna"@pl, "półroczne"@pl, "semestrială"@ro, "polročná"@sk, "polročné"@sk, "polletna"@sl, "polletno"@sl ;
+  skos:exactMatch <http://purl.org/cld/freq/semiannual> ;
+  ns1:op-mapped-code [
+    a ns1:MappedCode ;
+    dc11:source "PUB" ;
+    ns1:affected-table "PUB_FREQ" ;
+    ns1:legacy-code "S"
+  ] .
+
+<http://publications.europa.eu/resource/authority/frequency/ANNUAL_3>
+  a skos:Concept ;
+  ns1:deprecated "false" ;
+  skos:inScheme ns2:frequency ;
+  ns1:authority-code "ANNUAL_3" ;
+  ns1:op-code "ANNUAL_3" ;
+  ns2:op-code "ANNUAL_3" ;
+  dc11:identifier "ANNUAL_3" ;
+  ns1:start.use "1952-07-25" ;
+  skos:prefLabel "три пъти на година"@bg, "třikrát do roka"@cs, "tre gange årligt"@da, "dreimal im Jahr"@de, "τετραμηνιαίος"@el, "three times a year"@en, "kolm korda aastas"@et, "kolme kertaa vuodessa"@fi, "trois fois par an"@fr, "trí uair sa bhliain"@ga, "triput godišnje"@hr, "évente háromszori"@hu, "tre volte all'anno"@it, "trīsreiz gadā"@lv, "tris kartus per metus"@lt, "tliet darbiet fis-sena"@mt, "drie keer per jaar"@nl, "tre ganger per år"@no, "trzy razy w roku"@pl, "três vezes por ano"@pt, "de trei ori pe an"@ro, "trikrát do roka"@sk, "trikrat na leto"@sl, "cuatrimestral"@es, "tre gånger per år"@sv ;
+  skos:altLabel "τετραμηνιαία"@el, "τετραμηνιαίο"@el ;
+  skos:exactMatch <http://purl.org/cld/freq/threeTimesAYear> ;
+  ns1:op-mapped-code [
+    a ns1:MappedCode ;
+    dc11:source "PUB" ;
+    ns1:affected-table "PUB_FREQ" ;
+    ns1:legacy-code "F"
+  ] .
+
+<http://publications.europa.eu/resource/authority/frequency/QUARTERLY>
+  a skos:Concept ;
+  ns1:deprecated "false" ;
+  skos:inScheme ns2:frequency ;
+  ns1:authority-code "QUARTERLY" ;
+  ns1:op-code "QUARTERLY" ;
+  ns2:op-code "QUARTERLY" ;
+  dc11:identifier "QUARTERLY" ;
+  ns1:start.use "1952-07-25" ;
+  skos:prefLabel "тримесечен"@bg, "čtvrtletní"@cs, "kvartalsvis"@da, "vierteljährlich"@de, "τριμηνιαίος"@el, "quarterly"@en, "kvartaalne"@et, "vuosineljänsittäin"@fi, "trimestriel"@fr, "ráitheachán"@ga, "tromjesečno"@hr, "negyedévenkénti"@hu, "trimestrale"@it, "reizi trīs mēnešos"@lv, "kas ketvirtį"@lt, "kull tliet xhur"@mt, "driemaandelijks"@nl, "kvartalsvis"@no, "kwartalnik"@pl, "trimestral"@pt, "trimestrial"@ro, "štvrťročný"@sk, "četrtletni"@sl, "trimestral"@es, "kvartalsvis"@sv ;
+  skos:altLabel "vierteljährliche"@de, "vierteljährliches"@de, "τριμηνιαία"@el, "τριμηνιαίο"@el, "trimestrielle"@fr, "trimestrială"@ro, "štvrťročná"@sk, "štvrťročné"@sk, "četrtletna"@sl, "četrtletno"@sl ;
+  skos:exactMatch <http://purl.org/cld/freq/quarterly> ;
+  ns1:op-mapped-code [
+    a ns1:MappedCode ;
+    dc11:source "PUB" ;
+    ns1:affected-table "PUB_FREQ" ;
+    ns1:legacy-code "T"
+  ] .
+
+<http://publications.europa.eu/resource/authority/frequency/BIMONTHLY>
+  a skos:Concept ;
+  ns1:deprecated "false" ;
+  skos:inScheme ns2:frequency ;
+  ns1:authority-code "BIMONTHLY" ;
+  ns1:op-code "BIMONTHLY" ;
+  ns2:op-code "BIMONTHLY" ;
+  dc11:identifier "BIMONTHLY" ;
+  ns1:start.use "1952-07-25" ;
+  skos:prefLabel "двухмесечен"@bg, "dvouměsíční"@cs, "hver anden måned"@da, "zweimonatlich"@de, "διμηνιαίος"@el, "bimonthly"@en, "kord kahe kuu jooksul"@et, "kahdesti kuussa"@fi, "bimestriel"@fr, "gach dhá mhí"@ga, "dvomjesečno"@hr, "kéthavonkénti"@hu, "bimestrale"@it, "reizi divos mēnešos"@lv, "dviejų mėnesių"@lt, "bimensili"@mt, "tweemaandelijks"@nl, "annenhver måned"@no, "dwumiesięcznik"@pl, "quinzenal"@pt, "bilunar"@ro, "dvojmesačný"@sk, "dvomesečen"@sl, "bimestral"@es, "varannan månad"@sv ;
+  skos:altLabel "zweimonatliche"@de, "zweimonatliches"@de, "διμηνιαία"@el, "διμηνιαίο"@el, "bimestrielle"@fr, "bilunară"@ro, "dvojmesačná"@sk, "dvojmesačné"@sk, "dvomesečna"@sl, "dvomesečno"@sl ;
+  skos:exactMatch <http://purl.org/cld/freq/bimonthly> ;
+  ns1:op-mapped-code [
+    a ns1:MappedCode ;
+    dc11:source "PUB" ;
+    ns1:affected-table "PUB_FREQ" ;
+    ns1:legacy-code "BIM"
+  ] .
+
+<http://publications.europa.eu/resource/authority/frequency/MONTHLY>
+  a skos:Concept ;
+  ns1:deprecated "false" ;
+  skos:inScheme ns2:frequency ;
+  ns1:authority-code "MONTHLY" ;
+  ns1:op-code "MONTHLY" ;
+  ns2:op-code "MONTHLY" ;
+  dc11:identifier "MONTHLY" ;
+  ns1:start.use "1952-07-25" ;
+  skos:prefLabel "месечен"@bg, "měsíční"@cs, "månedligt"@da, "monatlich"@de, "μηνιαίος"@el, "monthly"@en, "igakuine"@et, "kuukausittainen"@fi, "mensuel"@fr, "míosúil"@ga, "mjesečno"@hr, "havonkénti"@hu, "mensile"@it, "reizi mēnesī"@lv, "kas mėnesį"@lt, "mensili"@mt, "maandelijks"@nl, "månedlig"@no, "miesięcznik"@pl, "mensal"@pt, "lunar"@ro, "mesačný"@sk, "mesečen"@sl, "mensual"@es, "månatligen"@sv ;
+  skos:altLabel "månedlig"@da, "monatliche"@de, "monatliches"@de, "μηνιαία"@el, "μηνιαίο"@el, "mensuelle"@fr, "lunară"@ro, "mesačná"@sk, "mesačné"@sk, "mesečna"@sl, "mesečno"@sl ;
+  skos:exactMatch <http://purl.org/cld/freq/monthly> ;
+  ns1:op-mapped-code [
+    a ns1:MappedCode ;
+    dc11:source "PUB" ;
+    ns1:affected-table "PUB_FREQ" ;
+    ns1:legacy-code "M"
+  ] .
+
+<http://publications.europa.eu/resource/authority/frequency/MONTHLY_2>
+  a skos:Concept ;
+  ns1:deprecated "false" ;
+  skos:inScheme ns2:frequency ;
+  ns1:authority-code "MONTHLY_2" ;
+  ns1:op-code "MONTHLY_2" ;
+  ns2:op-code "MONTHLY_2" ;
+  dc11:identifier "MONTHLY_2" ;
+  ns1:start.use "1952-07-25" ;
+  skos:prefLabel "на половин месец"@bg, "nědvakrát za měsíc"@cs, "to gange månedligt"@da, "zweimal im Monat"@de, "δεκαπενθήμερος"@el, "semimonthly"@en, "kaks korda kuus"@et, "kaksi kertaa kuukaudessa"@fi, "bimensuel"@fr, "leath-míosúil"@ga, "dvaput mjesečno"@hr, "félhavonkénti"@hu, "bimensile"@it, "divreiz mēnesī"@lv, "dukart per mėnesį"@lt, "darbtejn fix-xahar"@mt, "twee keer per maand"@nl, "to ganger i måneden"@no, "dwukrotnie w miesiącu"@pl, "duas vezes por mês"@pt, "se două ori pe lună"@ro, "dvakrát mesačne"@sk, "dvakrat na mesec"@sl, "bimensual"@es, "två gånger per månad"@sv ;
+  skos:altLabel "δεκαπενθήμερη"@el, "δεκαπενθήμερο"@el, "bimensuelle"@fr ;
+  skos:exactMatch <http://purl.org/cld/freq/semimonthly> ;
+  ns1:op-mapped-code [
+    a ns1:MappedCode ;
+    dc11:source "PUB" ;
+    ns1:affected-table "PUB_FREQ" ;
+    ns1:legacy-code "E"
+  ] .
+
+<http://publications.europa.eu/resource/authority/frequency/BIWEEKLY>
+  a skos:Concept ;
+  ns1:deprecated "false" ;
+  skos:inScheme ns2:frequency ;
+  ns1:authority-code "BIWEEKLY" ;
+  ns1:op-code "BIWEEKLY" ;
+  ns2:op-code "BIWEEKLY" ;
+  dc11:identifier "BIWEEKLY" ;
+  ns1:start.use "1952-07-25" ;
+  skos:prefLabel "на две седмици"@bg, "čtrnáctidenní"@cs, "hver fjortende dag"@da, "zweiwöchentlich"@de, "δισεβδομαδιαίος"@el, "biweekly"@en, "kahenädalane"@et, "joka toinen viikko"@fi, "tous les quinze jours"@fr, "gach coicís"@ga, "polumjesečno"@hr, "kéthetenkénti"@hu, "quindicinale"@it, "reizi divās nedēļās"@lv, "dvisavaitinis"@lt, "ta’ kull ħmistax"@mt, "veertiendaags"@nl, "hver fjortende dag"@no, "dwutygodnik"@pl, "quinzenal"@pt, "la fiecare două săptămâni"@ro, "dvojtýždenný"@sk, "vsakih štirinajst dni"@sl, "quincenal"@es, "var fjortonde dag"@sv ;
+  skos:altLabel "zweiwöchentliche"@de, "zweiwöchentliches"@de, "δισεβδομαδιαία"@el, "δισεβδομαδιαίο"@el, "dvojtýždenná"@sk, "dvojtýždenné"@sk ;
+  skos:exactMatch <http://purl.org/cld/freq/biweekly> ;
+  ns1:op-mapped-code [
+    a ns1:MappedCode ;
+    dc11:source "PUB" ;
+    ns1:affected-table "PUB_FREQ" ;
+    ns1:legacy-code "SEMIM"
+  ] .
+
+<http://publications.europa.eu/resource/authority/frequency/MONTHLY_3>
+  a skos:Concept ;
+  ns1:deprecated "false" ;
+  skos:inScheme ns2:frequency ;
+  ns1:authority-code "MONTHLY_3" ;
+  ns1:op-code "MONTHLY_3" ;
+  ns2:op-code "MONTHLY_3" ;
+  dc11:identifier "MONTHLY_3" ;
+  ns1:start.use "1952-07-25" ;
+  skos:prefLabel "три пъти месечно"@bg, "třikrát za měsíc"@cs, "tre gange månedligt"@da, "dreimal im Monat"@de, "τρεις φορές τον μήνα"@el, "three times a month"@en, "kolm korda kuus"@et, "kolme kertaa kuukaudessa"@fi, "trois fois par mois"@fr, "trí uair sa mhí"@ga, "triput mjesečno"@hr, "havonta háromszori"@hu, "tre volte al mese"@it, "trīsreiz mēnesī"@lv, "tris kartus per mėnesį"@lt, "tliet darbiet fix-xahar"@mt, "drie keer per maand"@nl, "tre ganger i måneden"@no, "trzy razy w miesiącu"@pl, "três vezes por mês"@pt, "de trei ori pe lună"@ro, "trikrát mesačne"@sk, "trikrat na mesec"@sl, "tres veces por mes"@es, "tre gånger per månad"@sv ;
+  skos:exactMatch <http://purl.org/cld/freq/threeTimesAMonth> ;
+  ns1:op-mapped-code [
+    a ns1:MappedCode ;
+    dc11:source "PUB" ;
+    ns1:affected-table "PUB_FREQ" ;
+    ns1:legacy-code "J"
+  ] .
+
+<http://publications.europa.eu/resource/authority/frequency/WEEKLY>
+  a skos:Concept ;
+  ns1:deprecated "false" ;
+  skos:inScheme ns2:frequency ;
+  ns1:authority-code "WEEKLY" ;
+  ns1:op-code "WEEKLY" ;
+  ns2:op-code "WEEKLY" ;
+  dc11:identifier "WEEKLY" ;
+  ns1:start.use "1952-07-25" ;
+  skos:prefLabel "седмичен"@bg, "týdenní"@cs, "ugentligt"@da, "wöchentlich"@de, "εβδομαδιαίος"@el, "weekly"@en, "nädalane"@et, "viikoittainen"@fi, "hebdomadaire"@fr, "in aghaidh na seachtaine"@ga, "tjedni"@hr, "hetenkénti"@hu, "settimanale"@it, "reizi nedēļā"@lv, "kas savaitę"@lt, "kull ġimgħa"@mt, "wekelijks"@nl, "ukentlig"@no, "tygodnik"@pl, "hebdomadário"@pt, "săptămânal"@ro, "týždenný"@sk, "tedensko"@sl, "semanal"@es, "veckovis"@sv ;
+  skos:altLabel "седмична"@bg, "седмично"@bg, "ugentlig"@da, "wöchentliche"@de, "wöchentliches"@de, "εβδομαδιαία"@el, "εβδομαδιαίο"@el, "hebdomadária"@pt, "săptămânală"@ro, "týždenná"@sk, "týždenné"@sk ;
+  skos:exactMatch <http://purl.org/cld/freq/weekly> ;
+  ns1:op-mapped-code [
+    a ns1:MappedCode ;
+    dc11:source "PUB" ;
+    ns1:affected-table "PUB_FREQ" ;
+    ns1:legacy-code "H"
+  ] .
+
+<http://publications.europa.eu/resource/authority/frequency/WEEKLY_2>
+  a skos:Concept ;
+  ns1:deprecated "false" ;
+  skos:inScheme ns2:frequency ;
+  ns1:authority-code "WEEKLY_2" ;
+  ns1:op-code "WEEKLY_2" ;
+  ns2:op-code "WEEKLY_2" ;
+  dc11:identifier "WEEKLY_2" ;
+  ns1:start.use "1952-07-25" ;
+  skos:prefLabel "дваж на седмица"@bg, "dvakrát týdně"@cs, "to gange ugentligt"@da, "zweimal in Woche"@de, "διεβδομαδιαίος"@el, "semiweekly"@en, "kaks korda nädalas"@et, "kaksi kertaa viikossa"@fi, "bihebdomadaire"@fr, "dhá uair in aghaidh na seachtaine"@ga, "dvaput tjedno"@hr, "hetente kétszeri"@hu, "bisettimanale"@it, "divreiz nedēļā"@lv, "dukart per savaitę"@lt, "darbtejn fil-ġimgħa"@mt, "twee keer per week"@nl, "to ganger i uken"@no, "dwa razy w tygodniu"@pl, "duas vezes por semana"@pt, "de două ori pe săptămână"@ro, "dvakrát týždenne"@sk, "dvakrat tedensko"@sl, "bisemanal"@es, "två gånge per vecka"@sv ;
+  skos:altLabel "διεβδομαδιαία"@el, "διεβδομαδιαίο"@el ;
+  skos:exactMatch <http://purl.org/cld/freq/semiweekly> ;
+  ns1:op-mapped-code [
+    a ns1:MappedCode ;
+    dc11:source "PUB" ;
+    ns1:affected-table "PUB_FREQ" ;
+    ns1:legacy-code "C"
+  ] .
+
+<http://publications.europa.eu/resource/authority/frequency/WEEKLY_3>
+  a skos:Concept ;
+  ns1:deprecated "false" ;
+  skos:inScheme ns2:frequency ;
+  ns1:authority-code "WEEKLY_3" ;
+  ns1:op-code "WEEKLY_3" ;
+  ns2:op-code "WEEKLY_3" ;
+  dc11:identifier "WEEKLY_3" ;
+  ns1:start.use "1952-07-25" ;
+  skos:prefLabel "три пъти на седмица"@bg, "třikrát týdně"@cs, "tre gange ugentligt"@da, "dreimal in Woche"@de, "τριεβδομαδιαίος"@el, "three times a week"@en, "kolm korda nädalas"@et, "kolme kertaa viikossa"@fi, "trois fois par semaine"@fr, "trí uair in aghaidh na seachtaine"@ga, "triput tjedno"@hr, "hetente háromszori"@hu, "tre volte a settimana"@it, "trīsreiz nedēļā"@lv, "tris kartus per savaitę"@lt, "tliet darbiet fil-ġimgħa"@mt, "drie keer per week"@nl, "tre ganger i uken"@no, "trzy razy w tygodniu"@pl, "três vezes por semana"@pt, "de trei ori pe săptămână"@ro, "trikrát týždenne"@sk, "trikrat tedensko"@sl, "tres veces por semana"@es, "tre gånger per vecka"@sv ;
+  skos:altLabel "τριεβδομαδιαία"@el, "τριεβδομαδιαίο"@el ;
+  skos:exactMatch <http://purl.org/cld/freq/threeTimesAWeek> ;
+  ns1:op-mapped-code [
+    a ns1:MappedCode ;
+    dc11:source "PUB" ;
+    ns1:affected-table "PUB_FREQ" ;
+    ns1:legacy-code "I"
+  ] .
+
+<http://publications.europa.eu/resource/authority/frequency/DAILY>
+  a skos:Concept ;
+  ns1:deprecated "false" ;
+  skos:inScheme ns2:frequency ;
+  ns1:authority-code "DAILY" ;
+  ns1:op-code "DAILY" ;
+  ns2:op-code "DAILY" ;
+  dc11:identifier "DAILY" ;
+  ns1:start.use "1952-07-25" ;
+  skos:prefLabel "ежедневен"@bg, "denní"@cs, "dagligt"@da, "täglich"@de, "ημερήσιος"@el, "daily"@en, "päevane"@et, "päivittäin"@fi, "quotidien"@fr, "laethúil"@ga, "dnevni"@hr, "naponkénti"@hu, "quotidiano"@it, "katru dienu"@lv, "kasdieninis"@lt, "kuljum"@mt, "dagelĳks"@nl, "daglig"@no, "dziennik"@pl, "diário"@pt, "zilnic"@ro, "denný"@sk, "dnevni"@sl, "diario"@es, "dagligen"@sv ;
+  skos:altLabel "ежедневна"@bg, "ежедневно"@bg, "daglig"@da, "tägliche"@de, "tägliches"@de, "ημερήσια"@el, "ημερήσιο"@el, "quotidienne"@fr, "quotidiana"@it, "kasdieninė"@lt, "diária"@pt, "zilnică"@ro, "denná"@sk, "denné"@sk, "dnevna"@sl, "dnevno"@sl, "diaria"@es ;
+  skos:exactMatch <http://purl.org/cld/freq/daily> ;
+  ns1:op-mapped-code [
+    a ns1:MappedCode ;
+    dc11:source "PUB" ;
+    ns1:affected-table "PUB_FREQ" ;
+    ns1:legacy-code "Q"
+  ] .
+
+<http://publications.europa.eu/resource/authority/frequency/UPDATE_CONT>
+  a skos:Concept ;
+  ns1:deprecated "false" ;
+  skos:inScheme ns2:frequency ;
+  ns1:authority-code "UPDATE_CONT" ;
+  ns1:op-code "UPDATE_CONT" ;
+  ns2:op-code "UPDATE_CONT" ;
+  dc11:identifier "UPDATE_CONT" ;
+  ns1:start.use "1952-07-25" ;
+  skos:prefLabel "постоянно се актуализира"@bg, "průběžně aktualizovaný"@cs, "opdateres løbende"@da, "ständige Aktualisierung"@de, "ενημερώνεται συνεχώς"@el, "continuously updated"@en, "ajakohastatakse pidevalt"@et, "päivitetään jatkuvasti"@fi, "mise à jour continuelle"@fr, "á leasú chun dáta go leanúnach"@ga, "stalno ažuriraju"@hr, "folyamatosan frissített"@hu, "in continuo aggiornamento"@it, "pastāvīgi tiek atjaunots"@lv, "nuolat atnaujinama"@lt, "kontinwament aġġornata"@mt, "voortdurend geactualiseerd"@nl, "kontinuerlig oppdatert"@no, "stale aktualizowany"@pl, "continuamente atualizado"@pt, "actualizare continuă"@ro, "priebežne aktualizovaný"@sk, "nenehno posodobljen"@sl, "continuamente actualizado"@es, "uppdateras kontinuerligt"@sv ;
+  skos:altLabel "průběžně aktualizovaná"@cs, "průběžně aktualizované"@cs, "stale aktualizowana"@pl, "stale aktualizowane"@pl, "continuamente atualizada"@pt, "priebežne aktualizovaná"@sk, "priebežne aktualizované"@sk, "nenehno posodobljena"@sl, "nenehno posodobljeno"@sl, "continuamente actualizada"@es ;
+  ns1:op-mapped-code [
+    a ns1:MappedCode ;
+    dc11:source "PUB" ;
+    ns1:affected-table "PUB_FREQ" ;
+    ns1:legacy-code "K"
+  ] .
+
+<http://publications.europa.eu/resource/authority/frequency/IRREG>
+  a skos:Concept ;
+  ns1:deprecated "false" ;
+  skos:inScheme ns2:frequency ;
+  ns1:authority-code "IRREG" ;
+  ns1:op-code "IRREG" ;
+  ns2:op-code "IRREG" ;
+  dc11:identifier "IRREG" ;
+  ns1:start.use "1952-07-25" ;
+  skos:prefLabel "неправилен"@bg, "nepravidelný"@cs, "uregelmæssigt"@da, "unregelmäßig"@de, "μη τακτικός"@el, "irregular"@en, "ebakorrapärane"@et, "epäsäännöllinen"@fi, "irrégulier"@fr, "neamhrialta"@ga, "neredovit"@hr, "rendszertelen"@hu, "irregolare"@it, "neregulāri"@lv, "nereguliarus"@lt, "irregolari"@mt, "onregelmatig"@nl, "uregelmessig"@no, "nieregularny"@pl, "irregular"@pt, "neregulat"@ro, "nepravidelný"@sk, "nepravilen"@sl, "irregular"@es, "oregelbundet"@sv ;
+  skos:altLabel "неправилна"@bg, "неправилно"@bg, "nepravidelná"@cs, "nepravidelné"@cs, "uregelmæssig"@da, "unregelmäßige"@de, "unregelmäßiges"@de, "μη τακτική"@el, "μη τακτικό"@el, "irrégulière"@fr, "neredovita"@hr, "nereguliari"@lt, "nieregularna"@pl, "nieregularne"@pl, "neregulată"@ro, "nepravidelná"@sk, "nepravidelné"@sk, "nepravilna"@sl, "nepravilno"@sl, "oregelbunden"@sv ;
+  skos:exactMatch <http://purl.org/cld/freq/irregular> ;
+  ns1:op-mapped-code [
+    a ns1:MappedCode ;
+    dc11:source "PUB" ;
+    ns1:affected-table "PUB_FREQ" ;
+    ns1:legacy-code "IRR"
+  ] .
+
+<http://publications.europa.eu/resource/authority/frequency/UNKNOWN>
+  a skos:Concept ;
+  ns1:deprecated "false" ;
+  skos:inScheme ns2:frequency ;
+  ns1:authority-code "UNKNOWN" ;
+  ns1:op-code "UNKNOWN" ;
+  ns2:op-code "UNKNOWN" ;
+  dc11:identifier "UNKNOWN" ;
+  ns1:start.use "1952-07-25" ;
+  skos:prefLabel "непознат"@bg, "neznámý"@cs, "ubekendt"@da, "unbekannt"@de, "άγνωστος"@el, "unknown"@en, "tundmatu"@et, "tuntematon"@fi, "inconnu"@fr, "anaithnid"@ga, "nepoznat"@hr, "ismeretlen"@hu, "sconosciuto"@it, "nav zināms"@lv, "nežinomas"@lt, "mhux magħruf"@mt, "onbekend"@nl, "ukjent"@no, "nieznany"@pl, "desconhecido"@pt, "necunoscut"@ro, "neznámy"@sk, "nepoznan"@sl, "desconocido"@es, "obekant"@sv ;
+  skos:altLabel "непозната"@bg, "непознато"@bg, "neznámá"@cs, "neznámé"@cs, "unbekannte"@de, "unbekanntes"@de, "άγνωστη"@el, "inconnue"@fr, "nepoznata"@hr, "sconosciuta"@it, "nežinoma"@lt, "nieznana"@pl, "nieznane"@pl, "desconhecida"@pt, "necunoscută"@ro, "neznáma"@sk, "neznáme"@sk, "nepoznana"@sl, "nepoznano"@sl, "desconocida"@es ;
+  ns1:op-mapped-code [
+    a ns1:MappedCode ;
+    dc11:source "PUB" ;
+    ns1:affected-table "PUB_FREQ" ;
+    ns1:legacy-code "U"
+  ] .
+
+<http://publications.europa.eu/resource/authority/frequency/OTHER>
+  a skos:Concept ;
+  ns1:deprecated "false" ;
+  skos:inScheme ns2:frequency ;
+  ns1:authority-code "OTHER" ;
+  ns1:op-code "OTHER" ;
+  ns2:op-code "OTHER" ;
+  dc11:identifier "OTHER" ;
+  ns1:start.use "1952-07-25" ;
+  skos:prefLabel "друг"@bg, "ostatní"@cs, "andet"@da, "anderer"@de, "άλλο"@el, "other"@en, "muu"@et, "muut"@fi, "autre"@fr, "eile"@ga, "drugi"@hr, "egyéb"@hu, "altro"@it, "citi"@lv, "kitas"@lt, "oħra"@mt, "overige"@nl, "annet"@no, "inne"@pl, "outro"@pt, "altele"@ro, "ostatné"@sk, "ostali"@sl, "otro"@es, "andra"@sv ;
+  skos:altLabel "друга"@bg, "друго"@bg, "anden"@da, "andere"@de, "anderes"@de, "kita"@lt, "outra"@pt, "ostala"@sl, "ostalo"@sl, "otra"@es ;
+  ns1:op-mapped-code [
+    a ns1:MappedCode ;
+    dc11:source "PUB" ;
+    ns1:affected-table "PUB_FREQ" ;
+    ns1:legacy-code "Z"
+  ] .
+
+<http://publications.europa.eu/resource/authority/frequency/DAILY_2>
+  a skos:Concept ;
+  ns1:deprecated "false" ;
+  skos:inScheme ns2:frequency ;
+  ns1:authority-code "DAILY_2" ;
+  ns1:op-code "DAILY_2" ;
+  ns2:op-code "DAILY_2" ;
+  dc11:identifier "DAILY_2" ;
+  ns1:start.use "1952-07-25" ;
+  skos:prefLabel "два пъти на ден"@bg, "dvakrát denně"@cs, "to gange om dagen"@da, "zweimal täglich"@de, "δύο φορές την ημέρα"@el, "twice a day"@en, "kaks korda päevas"@et, "kahdesti päivässä"@fi, "deux fois par jour"@fr, "dhá uair sa lá"@ga, "dvaput dnevno"@hr, "naponta kétszeri"@hu, "due volte al giorno"@it, "divreiz dienā"@lv, "dukart per dieną"@lt, "darbtejn kuljum"@mt, "tweemaal per dag"@nl, "to ganger per dag"@no, "dwa razy dziennie"@pl, "duas vezes por dia"@pt, "de două ori pe zi"@ro, "dvakrát denne"@sk, "dvakrat dnevno"@sl, "dos veces al día"@es, "två gånger per dag"@sv .
+
+<http://publications.europa.eu/resource/authority/frequency/CONT>
+  a skos:Concept ;
+  ns1:deprecated "false" ;
+  skos:inScheme ns2:frequency ;
+  ns1:authority-code "CONT" ;
+  ns1:op-code "CONT" ;
+  ns2:op-code "CONT" ;
+  dc11:identifier "CONT" ;
+  ns1:start.use "1952-07-25" ;
+  skos:prefLabel "постоянен"@bg, "průběžný"@cs, "kontinuerligt"@da, "kontinuierlich"@de, "συνεχής"@el, "continuous"@en, "pidev"@et, "jatkuva"@fi, "continuel"@fr, "leanúnach"@ga, "stalan"@hr, "folyamatos"@hu, "continuo"@it, "pastāvīgi"@lv, "nenutrūkstamas"@lt, "kontinwu"@mt, "voortdurend"@nl, "kontinuerlig"@no, "ciągły"@pl, "contínuo"@pt, "continuu"@ro, "priebežný"@sk, "nenehen"@sl, "continuo"@es, "kontinuerlig"@sv ;
+  skos:altLabel "постоянна"@bg, "постоянно"@bg, "průběžná"@cs, "průběžné"@cs, "kontinuerlig"@da, "kontinuierliche"@de, "kontinuierliches"@de, "συνεχές"@el, "continuelle"@fr, "stalna"@hr, "stalno"@hr, "continua"@it, "ciągła"@pl, "ciągłe"@pl, "contínua"@pt, "priebežná"@sk, "priebežné"@sk, "nenehna"@sl, "nenehno"@sl, "continua"@es ;
+  skos:exactMatch <http://purl.org/cld/freq/continuous> .
+
+<http://publications.europa.eu/resource/authority/frequency/NEVER>
+  a skos:Concept ;
+  ns1:deprecated "false" ;
+  skos:inScheme ns2:frequency ;
+  ns1:authority-code "NEVER" ;
+  ns1:op-code "NEVER" ;
+  ns2:op-code "NEVER" ;
+  dc11:identifier "NEVER" ;
+  ns1:start.use "1952-07-25" ;
+  skos:prefLabel "никога"@bg, "nikdy"@cs, "aldrig"@da, "niemals"@de, "ποτέ"@el, "never"@en, "mitte kunagi"@et, "ei koskaan"@fi, "jamais"@fr, "riamh"@ga, "nikada"@hr, "soha"@hu, "mai"@it, "nekad"@lv, "niekada"@lt, "qatt"@mt, "nooit"@nl, "aldri"@no, "nigdy"@pl, "nunca"@pt, "niciodată"@ro, "nikdy"@sk, "nikoli"@sl, "nunca"@es, "aldrig"@sv .
+
+<http://publications.europa.eu/resource/authority/frequency/OP_DATPRO>
+  a skos:Concept ;
+  skos:inScheme ns2:frequency ;
+  ns1:op-code "OP_DATPRO" ;
+  ns2:op-code "OP_DATPRO" ;
+  dc11:identifier "OP_DATPRO" ;
+  skos:prefLabel "НЕОКОНЧАТЕЛНИ ДАННИ"@bg, "Předběžné údaje"@cs, "Midlertidige data"@da, "Vorläufige Daten"@de, "Provisional data"@en, "Προσωρινά δεδομένα"@el, "Datos provisionales"@es, "Esialgsed andmed"@et, "Alustavat tiedot"@fi, "Données provisoires"@fr, "Sonraí sealadacha"@ga, "Privremeni podaci"@hr, "Ideiglenes adatok"@hu, "Dati provvisori"@it, "Laikinieji duomenys"@lt, "Provizoriski dati"@lv, "Dejta provviżorja"@mt, "Voorlopige gegevens"@nl, "Dane tymczasowe"@pl, "Dados provisórios"@pt, "Date provizorii"@ro, "Predbežné údaje"@sk, "Začasni podatki"@sl, "Tillfälliga uppgifter"@sv .
