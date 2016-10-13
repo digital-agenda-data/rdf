@@ -1,0 +1,56 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix ns0: <http://publications.europa.eu/ontology/authority/table.> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ns1: <http://publications.europa.eu/ontology/authority/> .
+@prefix ns2: <http://publications.europa.eu/resource/authority/> .
+@prefix dc11: <http://purl.org/dc/elements/1.1/> .
+
+<http://publications.europa.eu/resource/authority/access-right>
+  a skos:ConceptScheme ;
+  ns0:id "access-right" ;
+  ns0:version.number "20160920-0" ;
+  owl:versionInfo "20160920-0" ;
+  rdfs:label "Access right Named Authority List"@en ;
+  ns1:prefLabel "Access right Named Authority List"@en .
+
+<http://publications.europa.eu/resource/authority/access-right/PUBLIC>
+  a skos:Concept ;
+  ns1:deprecated "false" ;
+  skos:inScheme <http://publications.europa.eu/resource/authority/access-right> ;
+  ns1:authority-code "PUBLIC" ;
+  ns1:op-code "PUBLIC" ;
+  ns2:op-code "PUBLIC" ;
+  dc11:identifier "PUBLIC" ;
+  ns1:start.use "2013-01-01" ;
+  skos:prefLabel "public"@en .
+
+<http://publications.europa.eu/resource/authority/access-right/RESTRICTED>
+  a skos:Concept ;
+  ns1:deprecated "false" ;
+  skos:inScheme ns2:access-right ;
+  ns1:authority-code "RESTRICTED" ;
+  ns1:op-code "RESTRICTED" ;
+  ns2:op-code "RESTRICTED" ;
+  dc11:identifier "RESTRICTED" ;
+  ns1:start.use "2013-01-01" ;
+  skos:prefLabel "restricted"@en .
+
+<http://publications.europa.eu/resource/authority/access-right/NON_PUBLIC>
+  a skos:Concept ;
+  ns1:deprecated "false" ;
+  skos:inScheme ns2:access-right ;
+  ns1:authority-code "NON_PUBLIC" ;
+  ns1:op-code "NON_PUBLIC" ;
+  ns2:op-code "NON_PUBLIC" ;
+  dc11:identifier "NON_PUBLIC" ;
+  ns1:start.use "2013-01-01" ;
+  skos:prefLabel "non-public"@en .
+
+<http://publications.europa.eu/resource/authority/access-right/OP_DATPRO>
+  a skos:Concept ;
+  skos:inScheme ns2:access-right ;
+  ns1:op-code "OP_DATPRO" ;
+  ns2:op-code "OP_DATPRO" ;
+  dc11:identifier "OP_DATPRO" ;
+  skos:prefLabel "НЕОКОНЧАТЕЛНИ ДАННИ"@bg, "Předběžné údaje"@cs, "Midlertidige data"@da, "Vorläufige Daten"@de, "Provisional data"@en, "Προσωρινά δεδομένα"@el, "Datos provisionales"@es, "Esialgsed andmed"@et, "Alustavat tiedot"@fi, "Données provisoires"@fr, "Sonraí sealadacha"@ga, "Privremeni podaci"@hr, "Ideiglenes adatok"@hu, "Dati provvisori"@it, "Laikinieji duomenys"@lt, "Provizoriski dati"@lv, "Dejta provviżorja"@mt, "Voorlopige gegevens"@nl, "Dane tymczasowe"@pl, "Dados provisórios"@pt, "Date provizorii"@ro, "Predbežné údaje"@sk, "Začasni podatki"@sl, "Tillfälliga uppgifter"@sv .
