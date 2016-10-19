@@ -33,11 +33,11 @@
 <http://semantic.digital-agenda-data.eu/dataset/digital-agenda-scoreboard-key-indicators>
 	rdf:type qb:DataSet , dcat:Dataset ;
 # DCAT Mandatory
-	dcterms:title	"Digital Agenda Key Indicators" ;
-	dcterms:description	"European Commission services selected more than 100 indicators, divided into thematic groups, which illustrate some key dimensions of the European information society (Telecom sector, Broadband, Mobile, Internet usage, Internet services, eGovernment, eCommerce, eBusiness, ICT Skills, Research and Development).\nThese indicators allow a comparison of progress across European countries as well as over time.\nYou can also browse the data with the help of a visualisation tools going at http://digital-agenda-data.eu/, where you are also able to download selected information." ;
+	dcterms:title	"Digital Agenda Key Indicators"@en ;
+	dcterms:description	"European Commission services selected more than 100 indicators, divided into thematic groups, which illustrate some key dimensions of the European information society (Telecom sector, Broadband, Mobile, Internet usage, Internet services, eGovernment, eCommerce, eBusiness, ICT Skills, Research and Development).\nThese indicators allow a comparison of progress across European countries as well as over time.\nYou can also browse the data with the help of a visualisation tools going at http://digital-agenda-data.eu/, where you are also able to download selected information."@en ;
 # QB recommended properties
-	rdfs:label	"Digital Agenda Key Indicators" ;
-	rdfs:comment	"European Commission services selected more than 100 indicators, divided into thematic groups, which illustrate some key dimensions of the European information society (Telecom sector, Broadband, Mobile, Internet usage, Internet services, eGovernment, eCommerce, eBusiness, ICT Skills, Research and Development).\nThese indicators allow a comparison of progress across European countries as well as over time.\nYou can also browse the data with the help of a visualisation tools going at http://digital-agenda-data.eu/, where you are also able to download selected information." ;
+	rdfs:label	"Digital Agenda Key Indicators"@en ;
+	rdfs:comment	"European Commission services selected more than 100 indicators, divided into thematic groups, which illustrate some key dimensions of the European information society (Telecom sector, Broadband, Mobile, Internet usage, Internet services, eGovernment, eCommerce, eBusiness, ICT Skills, Research and Development).\nThese indicators allow a comparison of progress across European countries as well as over time.\nYou can also browse the data with the help of a visualisation tools going at http://digital-agenda-data.eu/, where you are also able to download selected information."@en ;
 	dcterms:subject	sdmx-subject:3.3.3 ;
 		# TODO: here all concepts from dcat:theme could be listed
 
@@ -45,29 +45,28 @@
 # DCAT-AP recommended properties
 	dcat:contactPoint	<http://publications.europa.eu/resource/authority/corporate-body/CNECT/F4> ;
 	dcat:distribution	<http://semantic.digital-agenda-data.eu/dataset/digital-agenda-scoreboard-key-indicators/distribution/download> ;
+	dcat:distribution	<http://semantic.digital-agenda-data.eu/dataset/digital-agenda-scoreboard-key-indicators/distribution/visualisation> ;
 	dcat:keyword	
-		"ICT research" ,
-		"ICT skills" ,
-		"telecom market" ,
-		"ebusiness" ,
-		"ecommerce" ,
-		"information-society" ,
-		"digital agenda" ,
-		"internet" ,
-		"broadband" ;
+		"ICT research"@en ,
+		"ICT skills"@en ,
+		"telecom market"@en ,
+		"ebusiness"@en ,
+		"ecommerce"@en ,
+		"information-society"@en ,
+		"digital agenda"@en ,
+		"internet"@en ,
+		"broadband"@en ;
 
 	dcterms:publisher	<http://publications.europa.eu/resource/authority/corporate-body/CNECT> ;
 	dcat:theme	
 		<http://publications.europa.eu/resource/authority/data-theme/GOVE> ,
 		<http://publications.europa.eu/resource/authority/data-theme/SOCI> ,
-		<http://publications.europa.eu/resource/authority/data-theme/TECH> ,
-		<http://vocabularies.unesco.org/thesaurus/concept17007> ,
-		<http://dbpedia.org/resource/Category:Information_society> ,
-		<http://dbpedia.org/resource/Category:Broadband> ;
+		<http://publications.europa.eu/resource/authority/data-theme/TECH> ;
 # TODO more themes
 
 
 # DCAT-AP optional properties / DCAT recommended properties
+	dct:accessRights	<http://publications.europa.eu/resource/authority/access-right/PUBLIC>;
 	dcat:landingPage	<http://digital-agenda-data.eu/> ;
 	foaf:page	<http://digital-agenda-data.eu/> ;
 	dcat:accrualPeriodicity	<http://publications.europa.eu/resource/authority/frequency/ANNUAL_2> ;
@@ -104,8 +103,16 @@
 	rdf:type	dcat:Distribution ;
 	dcat:accessURL	<http://digital-agenda-data.eu/datasets/digital_agenda_scoreboard_key_indicators#download> ;
 	dcterms:description	"Download instructions";
+	dcterms:type	<http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE> ;
 	dcterms:format	<http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
 	dcat:mediaType	"text/turtle" .
+
+# DCAT Distribution
+<http://semantic.digital-agenda-data.eu/dataset/digital-agenda-scoreboard-key-indicators/distribution/visualisation>
+	rdf:type	dcat:Distribution ;
+	dcterms:type	<http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION> .
+	dcat:accessURL	<http://digital-agenda-data.eu/datasets/digital_agenda_scoreboard_key_indicators> ;
+	dcterms:description	"Dataset visualisation";
 
 # LD API page
 <http://semantic.digital-agenda-data.eu/API/dataset/digital-agenda-scoreboard-key-indicators.rdf>
@@ -117,9 +124,9 @@
 # Organization (contact point)
 <http://publications.europa.eu/resource/authority/corporate-body/CNECT/F4>
 	a vcard:Organization, foaf:Organization;
-	rdfs:label "DG CONNECT - European Semester & Knowledge Base (Unit F.4)" ;
+	rdfs:label "DG CONNECT - Digital Economy and Skills (Unit F.4)" ;
 	foaf:mbox	"mailto:CNECT-F4@ec.europa.eu" ;
-	foaf:name	"DG CONNECT - European Semester & Knowledge Base (Unit F.4)" ;
+	foaf:name	"DG CONNECT - Digital Economy and Skills (Unit F.4)" ;
 	foaf:workplaceHomepage	<https://ec.europa.eu/digital-single-market/en/dg-connect> .
 
 
