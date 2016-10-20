@@ -69,7 +69,7 @@
 	dcat:accrualPeriodicity	<http://publications.europa.eu/resource/authority/frequency/ANNUAL_2> ;
 	dcterms:language <http://publications.europa.eu/resource/authority/language/ENG> ;
 	dcterms:spatial	<http://publications.europa.eu/resource/authority/country/EUR>;
-	dcterms:temporal	[ schema:startDate "2004-01-01"^^xsd:date ] ;
+	dcterms:temporal	[ schema:startDate "2014-01-01"^^xsd:date ] ;
 	dcterms:identifier	"DESI" ;
 	#adms:identifier	[ skos:notation "DESI" ]
 	dcterms:issued	"2011-05-01T00:00:00Z"^^xsd:dateTime ;
