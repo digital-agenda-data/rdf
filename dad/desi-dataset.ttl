@@ -63,7 +63,7 @@
 
 
 # DCAT-AP optional properties / DCAT recommended properties
-	dct:accessRights	<http://publications.europa.eu/resource/authority/access-right/PUBLIC>;
+	dcterms:accessRights	<http://publications.europa.eu/resource/authority/access-right/PUBLIC>;
 	dcat:landingPage	<http://digital-agenda-data.eu/> ;
 	foaf:page	<http://digital-agenda-data.eu/> ;
 	dcat:accrualPeriodicity	<http://publications.europa.eu/resource/authority/frequency/ANNUAL_2> ;
@@ -102,9 +102,9 @@
 # DCAT Distribution
 <http://semantic.digital-agenda-data.eu/dataset/DESI/distribution/visualisation>
 	rdf:type	dcat:Distribution ;
-	dcterms:type	<http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION> .
+	dcterms:type	<http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION> ;
 	dcat:accessURL	<http://digital-agenda-data.eu/datasets/digital_agenda_scoreboard_key_indicators> ;
-	dcterms:description	"Dataset visualisation";
+	dcterms:description	"Dataset visualisation".
 
 # LD API page
 <http://semantic.digital-agenda-data.eu/API/dataset/DESI.rdf>
