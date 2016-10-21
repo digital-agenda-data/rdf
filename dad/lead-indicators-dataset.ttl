@@ -34,10 +34,10 @@
 	rdf:type qb:DataSet , dcat:Dataset ;
 # DCAT Mandatory
 	dcterms:title	"Lead Indicators for DG CONNECT policy priorities"@en ;
-	dcterms:description	"This dataset complement the "digital agenda key indicators" dataset, presenting some additional indicators used to illustrate some important aspects of the results we are committed to achieve. They mainly refer to EU level initiatives and are not intended to benchmark Member States performance."@en ;
+	dcterms:description	"This dataset complement the \"digital agenda key indicators\" dataset, presenting some additional indicators used to illustrate some important aspects of the results we are committed to achieve. They mainly refer to EU level initiatives and are not intended to benchmark Member States performance."@en ;
 # QB recommended properties
 	rdfs:label	"Lead Indicators for DG CONNECT policy priorities"@en ;
-	rdfs:comment	"This dataset complement the "digital agenda key indicators" dataset, presenting some additional indicators used to illustrate some important aspects of the results we are committed to achieve. They mainly refer to EU level initiatives and are not intended to benchmark Member States performance."@en ;
+	rdfs:comment	"This dataset complement the \"digital agenda key indicators\" dataset, presenting some additional indicators used to illustrate some important aspects of the results we are committed to achieve. They mainly refer to EU level initiatives and are not intended to benchmark Member States performance."@en ;
 	dcterms:subject	sdmx-subject:3.3.3 ;
 
 	dcterms:license	<http://ec.europa.eu/geninfo/legal_notices_en.htm#copyright> ;
