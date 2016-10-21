@@ -93,7 +93,7 @@
 # DCAT Distribution
 <http://semantic.digital-agenda-data.eu/dataset/DESI/distribution/download>
 	rdf:type	dcat:Distribution ;
-	dcat:accessURL	<http://digital-agenda-data.eu/datasets/digital_agenda_scoreboard_key_indicators#download> ;
+	dcat:accessURL	<http://digital-agenda-data.eu/datasets/desi#download> ;
 	dcterms:description	"Download instructions";
 	dcterms:type	<http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE> ;
 	dcterms:format	<http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
@@ -103,7 +103,7 @@
 <http://semantic.digital-agenda-data.eu/dataset/DESI/distribution/visualisation>
 	rdf:type	dcat:Distribution ;
 	dcterms:type	<http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION> ;
-	dcat:accessURL	<http://digital-agenda-data.eu/datasets/digital_agenda_scoreboard_key_indicators> ;
+	dcat:accessURL	<http://digital-agenda-data.eu/datasets/desi> ;
 	dcterms:description	"Dataset visualisation".
 
 # LD API page

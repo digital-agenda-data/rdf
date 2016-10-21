@@ -62,8 +62,6 @@
 		<http://publications.europa.eu/resource/authority/data-theme/GOVE> ,
 		<http://publications.europa.eu/resource/authority/data-theme/SOCI> ,
 		<http://publications.europa.eu/resource/authority/data-theme/TECH> ;
-# TODO more themes
-
 
 # DCAT-AP optional properties / DCAT recommended properties
 	dcterms:accessRights	<http://publications.europa.eu/resource/authority/access-right/PUBLIC>;
@@ -77,7 +75,7 @@
 		<http://publications.europa.eu/resource/authority/country/NOR>,
 		<http://publications.europa.eu/resource/authority/country/ISL>,
 		<http://publications.europa.eu/resource/authority/country/TUR>;
-	dcterms:temporal	[ schema:startDate "2004-01-01"^^xsd:date ] ;
+	dcterms:temporal	[ schema:startDate "2002-01-01"^^xsd:date ] ;
 	dcterms:identifier	"digital-agenda-scoreboard-key-indicators" ;
 	#adms:identifier	[ skos:notation "digital-agenda-scoreboard-key-indicators" ]
 	dcterms:issued	"2011-05-01T00:00:00Z"^^xsd:dateTime ;
