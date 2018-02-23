@@ -42,7 +42,14 @@
 
 	dcterms:license	<http://ec.europa.eu/geninfo/legal_notices_en.htm#copyright> ;
 # DCAT-AP recommended properties
-	dcat:contactPoint	<http://publications.europa.eu/resource/authority/corporate-body/CNECT/F4> ;
+	dcat:contactPoint	[
+		a vcard:Organization;
+		vcard:fn "DG CONNECT - Digital Economy and Skills (Unit F.4)" ;
+		vcard:hasEmail <mailto:CNECT-F4@ec.europa.eu> ;
+		vcard:hasURL <https://ec.europa.eu/digital-single-market/en/content/digital-economy-and-skills-unit-f4> ;
+		rdfs:label "DG CONNECT - Digital Economy and Skills (Unit F.4)" ;
+	];
+
 	dcat:distribution	<http://semantic.digital-agenda-data.eu/dataset/DESI/distribution/download> ;
 	dcat:distribution	<http://semantic.digital-agenda-data.eu/dataset/DESI/distribution/visualisation> ;
 	dcat:keyword	
@@ -59,14 +66,12 @@
 		<http://publications.europa.eu/resource/authority/data-theme/GOVE> ,
 		<http://publications.europa.eu/resource/authority/data-theme/SOCI> ,
 		<http://publications.europa.eu/resource/authority/data-theme/TECH> ;
-# TODO more themes
-
 
 # DCAT-AP optional properties / DCAT recommended properties
 	dcterms:accessRights	<http://publications.europa.eu/resource/authority/access-right/PUBLIC>;
 	dcat:landingPage	<http://digital-agenda-data.eu/> ;
 	foaf:page	<http://digital-agenda-data.eu/> ;
-	dcat:accrualPeriodicity	<http://publications.europa.eu/resource/authority/frequency/ANNUAL_2> ;
+	dcterms:accrualPeriodicity	<http://publications.europa.eu/resource/authority/frequency/ANNUAL_2> ;
 	dcterms:language <http://publications.europa.eu/resource/authority/language/ENG> ;
 	dcterms:spatial	<http://publications.europa.eu/resource/authority/country/EUR>;
 	dcterms:temporal	[ schema:startDate "2014-01-01"^^xsd:date ] ;
@@ -74,6 +79,7 @@
 	#adms:identifier	[ skos:notation "DESI" ]
 	dcterms:issued	"2011-05-01T00:00:00Z"^^xsd:dateTime ;
 	dcterms:modified	"2016-06-01T00:00:00Z"^^xsd:dateTime ;
+	dcterms:conformsTo	<http://purl.org/linked-data/cube> ;
 
 
 # QB
@@ -84,6 +90,7 @@
 
 # ODP
 	adms:status	<http://purl.org/adms/status/Completed> .
+	# TODO: change to http://publications.europa.eu/resource/authority/dataset-status/COMPLETED
 
 # RELATED ENTITIES
 
@@ -93,18 +100,20 @@
 # DCAT Distribution
 <http://semantic.digital-agenda-data.eu/dataset/DESI/distribution/download>
 	rdf:type	dcat:Distribution ;
-	dcat:accessURL	<http://digital-agenda-data.eu/datasets/desi#download> ;
+	dcat:accessURL	<https://digital-agenda-data.eu/datasets/desi#download> ;
 	dcterms:description	"Download instructions";
 	dcterms:type	<http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE> ;
 	dcterms:format	<http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+	dcterms:license	<http://ec.europa.eu/geninfo/legal_notices_en.htm#copyright> ;
 	dcat:mediaType	"text/turtle" .
 
-# DCAT Distribution
+# StatDCAT Visualisation
 <http://semantic.digital-agenda-data.eu/dataset/DESI/distribution/visualisation>
 	rdf:type	dcat:Distribution ;
 	dcterms:type	<http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION> ;
-	dcat:accessURL	<http://digital-agenda-data.eu/datasets/desi> ;
-	dcterms:description	"Dataset visualisation".
+	dcat:accessURL	<https://digital-agenda-data.eu/datasets/desi> ;
+	dcterms:license	<http://ec.europa.eu/geninfo/legal_notices_en.htm#copyright> ;
+	dcterms:description	"Dataset visualisations".
 
 # LD API page
 <http://semantic.digital-agenda-data.eu/API/dataset/DESI.rdf>

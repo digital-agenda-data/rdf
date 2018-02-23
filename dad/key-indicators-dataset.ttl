@@ -43,7 +43,14 @@
 
 	dcterms:license	<http://ec.europa.eu/geninfo/legal_notices_en.htm#copyright> ;
 # DCAT-AP recommended properties
-	dcat:contactPoint	<http://publications.europa.eu/resource/authority/corporate-body/CNECT/F4> ;
+	dcat:contactPoint	[
+		a vcard:Organization;
+		vcard:fn "DG CONNECT - Digital Economy and Skills (Unit F.4)" ;
+		vcard:hasEmail <mailto:CNECT-F4@ec.europa.eu> ;
+		vcard:hasURL <https://ec.europa.eu/digital-single-market/en/content/digital-economy-and-skills-unit-f4> ;
+		rdfs:label "DG CONNECT - Digital Economy and Skills (Unit F.4)" ;
+	];
+
 	dcat:distribution	<http://semantic.digital-agenda-data.eu/dataset/digital-agenda-scoreboard-key-indicators/distribution/download> ;
 	dcat:distribution	<http://semantic.digital-agenda-data.eu/dataset/digital-agenda-scoreboard-key-indicators/distribution/visualisation> ;
 	dcat:keyword	
@@ -67,7 +74,7 @@
 	dcterms:accessRights	<http://publications.europa.eu/resource/authority/access-right/PUBLIC>;
 	dcat:landingPage	<http://digital-agenda-data.eu/> ;
 	foaf:page	<http://digital-agenda-data.eu/> ;
-	dcat:accrualPeriodicity	<http://publications.europa.eu/resource/authority/frequency/ANNUAL_2> ;
+	dcterms:accrualPeriodicity	<http://publications.europa.eu/resource/authority/frequency/ANNUAL_2> ;
 	dcterms:language <http://publications.europa.eu/resource/authority/language/ENG> ;
 	dcterms:spatial	
 		<http://publications.europa.eu/resource/authority/country/EUR>,
@@ -80,6 +87,8 @@
 	#adms:identifier	[ skos:notation "digital-agenda-scoreboard-key-indicators" ]
 	dcterms:issued	"2011-05-01T00:00:00Z"^^xsd:dateTime ;
 	dcterms:modified	"2016-06-01T00:00:00Z"^^xsd:dateTime ;
+	dcterms:conformsTo	<http://purl.org/linked-data/cube> ;
+
 
 # QB
 	qb:structure	<http://semantic.digital-agenda-data.eu/def/dsd/scoreboard>;
@@ -89,6 +98,7 @@
 
 # ODP
 	adms:status	<http://purl.org/adms/status/Completed> .
+	# TODO: change to http://publications.europa.eu/resource/authority/dataset-status/COMPLETED
 
 # RELATED ENTITIES
 
@@ -98,18 +108,20 @@
 # DCAT Distribution
 <http://semantic.digital-agenda-data.eu/dataset/digital-agenda-scoreboard-key-indicators/distribution/download>	
 	rdf:type	dcat:Distribution ;
-	dcat:accessURL	<http://digital-agenda-data.eu/datasets/digital_agenda_scoreboard_key_indicators#download> ;
+	dcat:accessURL	<https://digital-agenda-data.eu/datasets/digital_agenda_scoreboard_key_indicators#download> ;
 	dcterms:description	"Download instructions";
 	dcterms:type	<http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE> ;
 	dcterms:format	<http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+	dcterms:license	<http://ec.europa.eu/geninfo/legal_notices_en.htm#copyright> ;
 	dcat:mediaType	"text/turtle" .
 
-# DCAT Distribution
+# StatDCAT Visualisation
 <http://semantic.digital-agenda-data.eu/dataset/digital-agenda-scoreboard-key-indicators/distribution/visualisation>
 	rdf:type	dcat:Distribution ;
 	dcterms:type	<http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION> ;
-	dcat:accessURL	<http://digital-agenda-data.eu/datasets/digital_agenda_scoreboard_key_indicators> ;
-	dcterms:description	"Dataset visualisation".
+	dcat:accessURL	<https://digital-agenda-data.eu/datasets/digital_agenda_scoreboard_key_indicators> ;
+	dcterms:license	<http://ec.europa.eu/geninfo/legal_notices_en.htm#copyright> ;
+	dcterms:description	"Dataset visualisations".
 
 # LD API page
 <http://semantic.digital-agenda-data.eu/API/dataset/digital-agenda-scoreboard-key-indicators.rdf>
@@ -117,15 +129,6 @@
 	foaf:primaryTopic	<http://semantic.digital-agenda-data.eu/dataset/digital-agenda-scoreboard-key-indicators> ;
 	ld-api:definition	<http://semantic.digital-agenda-data.eu/API/meta/dataset/_id.rdf> ;
 	ld-api:extendedMetadataVersion	<http://semantic.digital-agenda-data.eu/API/dataset/digital-agenda-scoreboard-key-indicators.rdf?_metadata=all> .
-
-# Organization (contact point)
-<http://publications.europa.eu/resource/authority/corporate-body/CNECT/F4>
-	a vcard:Organization, foaf:Organization;
-	rdfs:label "DG CONNECT - Digital Economy and Skills (Unit F.4)" ;
-	foaf:mbox	"mailto:CNECT-F4@ec.europa.eu" ;
-	foaf:name	"DG CONNECT - Digital Economy and Skills (Unit F.4)" ;
-	foaf:workplaceHomepage	<https://ec.europa.eu/digital-single-market/en/dg-connect> .
-
 
 ## DATA STRUCTURE DEFINITION
 
