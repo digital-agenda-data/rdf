@@ -163,7 +163,7 @@
 <http://eurostat.linked-statistics.org/dic/geo#AME_OTH> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://eurostat.linked-statistics.org/dic/geo#AME_OTH> <http://www.w3.org/2004/02/skos/core#inScheme> <http://eurostat.linked-statistics.org/dic/geo> .
 <http://eurostat.linked-statistics.org/dic/geo#AME_OTH> <http://www.w3.org/2004/02/skos/core#notation> "AME_OTH" .
-<http://eurostat.linked-statistics.org/dic/geo#AME_OTH> <http://www.w3.org/2004/02/skos/core#prefLabel> "Other American countries  (aggregate changing according to the context)"@en .
+<http://eurostat.linked-statistics.org/dic/geo#AME_OTH> <http://www.w3.org/2004/02/skos/core#prefLabel> "Other American countries (aggregate changing according to the context)"@en .
 <http://eurostat.linked-statistics.org/dic/geo#AME_S> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://eurostat.linked-statistics.org/dic/geo#AME_S> <http://www.w3.org/2004/02/skos/core#inScheme> <http://eurostat.linked-statistics.org/dic/geo> .
 <http://eurostat.linked-statistics.org/dic/geo#AME_S> <http://www.w3.org/2004/02/skos/core#notation> "AME_S" .
@@ -3223,7 +3223,7 @@
 <http://eurostat.linked-statistics.org/dic/geo#CZ020> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://eurostat.linked-statistics.org/dic/geo#CZ020> <http://www.w3.org/2004/02/skos/core#inScheme> <http://eurostat.linked-statistics.org/dic/geo> .
 <http://eurostat.linked-statistics.org/dic/geo#CZ020> <http://www.w3.org/2004/02/skos/core#notation> "CZ020" .
-<http://eurostat.linked-statistics.org/dic/geo#CZ020> <http://www.w3.org/2004/02/skos/core#prefLabel> "Stredocesk\u00FD  kraj"@en .
+<http://eurostat.linked-statistics.org/dic/geo#CZ020> <http://www.w3.org/2004/02/skos/core#prefLabel> "Stredocesk\u00FD kraj"@en .
 <http://eurostat.linked-statistics.org/dic/geo#CZ02> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://eurostat.linked-statistics.org/dic/geo#CZ02> <http://www.w3.org/2004/02/skos/core#inScheme> <http://eurostat.linked-statistics.org/dic/geo> .
 <http://eurostat.linked-statistics.org/dic/geo#CZ02> <http://www.w3.org/2004/02/skos/core#notation> "CZ02" .
@@ -7051,7 +7051,7 @@
 <http://eurostat.linked-statistics.org/dic/geo#EU27> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://eurostat.linked-statistics.org/dic/geo#EU27> <http://www.w3.org/2004/02/skos/core#inScheme> <http://eurostat.linked-statistics.org/dic/geo> .
 <http://eurostat.linked-statistics.org/dic/geo#EU27> <http://www.w3.org/2004/02/skos/core#notation> "EU27" .
-<http://eurostat.linked-statistics.org/dic/geo#EU27> <http://www.w3.org/2004/02/skos/core#prefLabel> "European Union (27 countries)"@en .
+<http://eurostat.linked-statistics.org/dic/geo#EU27> <http://www.w3.org/2004/02/skos/core#prefLabel> "European Union"@en .
 <http://eurostat.linked-statistics.org/dic/geo#EU27_FOR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://eurostat.linked-statistics.org/dic/geo#EU27_FOR> <http://www.w3.org/2004/02/skos/core#inScheme> <http://eurostat.linked-statistics.org/dic/geo> .
 <http://eurostat.linked-statistics.org/dic/geo#EU27_FOR> <http://www.w3.org/2004/02/skos/core#notation> "EU27_FOR" .
@@ -7080,6 +7080,10 @@
 <http://eurostat.linked-statistics.org/dic/geo#EU27_X_FR> <http://www.w3.org/2004/02/skos/core#inScheme> <http://eurostat.linked-statistics.org/dic/geo> .
 <http://eurostat.linked-statistics.org/dic/geo#EU27_X_FR> <http://www.w3.org/2004/02/skos/core#notation> "EU27_X_FR" .
 <http://eurostat.linked-statistics.org/dic/geo#EU27_X_FR> <http://www.w3.org/2004/02/skos/core#prefLabel> "European Union except France (26 countries)"@en .
+<http://eurostat.linked-statistics.org/dic/geo#EU28> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://eurostat.linked-statistics.org/dic/geo#EU28> <http://www.w3.org/2004/02/skos/core#inScheme> <http://eurostat.linked-statistics.org/dic/geo> .
+<http://eurostat.linked-statistics.org/dic/geo#EU28> <http://www.w3.org/2004/02/skos/core#notation> "EU28" .
+<http://eurostat.linked-statistics.org/dic/geo#EU28> <http://www.w3.org/2004/02/skos/core#prefLabel> "European Union 28"@en .
 <http://eurostat.linked-statistics.org/dic/geo#EU6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://eurostat.linked-statistics.org/dic/geo#EU6> <http://www.w3.org/2004/02/skos/core#inScheme> <http://eurostat.linked-statistics.org/dic/geo> .
 <http://eurostat.linked-statistics.org/dic/geo#EU6> <http://www.w3.org/2004/02/skos/core#notation> "EU6" .
@@ -7111,7 +7115,7 @@
 <http://eurostat.linked-statistics.org/dic/geo#EU_V> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://eurostat.linked-statistics.org/dic/geo#EU_V> <http://www.w3.org/2004/02/skos/core#inScheme> <http://eurostat.linked-statistics.org/dic/geo> .
 <http://eurostat.linked-statistics.org/dic/geo#EU_V> <http://www.w3.org/2004/02/skos/core#notation> "EU_V" .
-<http://eurostat.linked-statistics.org/dic/geo#EU_V> <http://www.w3.org/2004/02/skos/core#prefLabel> "European Union  (aggregate changing according to the context)"@en .
+<http://eurostat.linked-statistics.org/dic/geo#EU_V> <http://www.w3.org/2004/02/skos/core#prefLabel> "European Union (aggregate changing according to the context)"@en .
 <http://eurostat.linked-statistics.org/dic/geo#EUB_MNR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://eurostat.linked-statistics.org/dic/geo#EUB_MNR> <http://www.w3.org/2004/02/skos/core#inScheme> <http://eurostat.linked-statistics.org/dic/geo> .
 <http://eurostat.linked-statistics.org/dic/geo#EUB_MNR> <http://www.w3.org/2004/02/skos/core#notation> "EUB_MNR" .
@@ -10787,7 +10791,7 @@
 <http://eurostat.linked-statistics.org/dic/geo#MK> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://eurostat.linked-statistics.org/dic/geo#MK> <http://www.w3.org/2004/02/skos/core#inScheme> <http://eurostat.linked-statistics.org/dic/geo> .
 <http://eurostat.linked-statistics.org/dic/geo#MK> <http://www.w3.org/2004/02/skos/core#notation> "MK" .
-<http://eurostat.linked-statistics.org/dic/geo#MK> <http://www.w3.org/2004/02/skos/core#prefLabel> "Former Yugoslav Republic of Macedonia, the"@en .
+<http://eurostat.linked-statistics.org/dic/geo#MK> <http://www.w3.org/2004/02/skos/core#prefLabel> "FYROM"@en .
 <http://eurostat.linked-statistics.org/dic/geo#MK_CAP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://eurostat.linked-statistics.org/dic/geo#MK_CAP> <http://www.w3.org/2004/02/skos/core#inScheme> <http://eurostat.linked-statistics.org/dic/geo> .
 <http://eurostat.linked-statistics.org/dic/geo#MK_CAP> <http://www.w3.org/2004/02/skos/core#notation> "MK_CAP" .
@@ -13271,7 +13275,7 @@
 <http://eurostat.linked-statistics.org/dic/geo#PN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://eurostat.linked-statistics.org/dic/geo#PN> <http://www.w3.org/2004/02/skos/core#inScheme> <http://eurostat.linked-statistics.org/dic/geo> .
 <http://eurostat.linked-statistics.org/dic/geo#PN> <http://www.w3.org/2004/02/skos/core#notation> "PN" .
-<http://eurostat.linked-statistics.org/dic/geo#PN> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pitcairn  Islands (UK)"@en .
+<http://eurostat.linked-statistics.org/dic/geo#PN> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pitcairn Islands (UK)"@en .
 <http://eurostat.linked-statistics.org/dic/geo#POL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://eurostat.linked-statistics.org/dic/geo#POL> <http://www.w3.org/2004/02/skos/core#inScheme> <http://eurostat.linked-statistics.org/dic/geo> .
 <http://eurostat.linked-statistics.org/dic/geo#POL> <http://www.w3.org/2004/02/skos/core#notation> "POL" .
@@ -17527,7 +17531,7 @@
 <http://eurostat.linked-statistics.org/dic/geo#WBC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://eurostat.linked-statistics.org/dic/geo#WBC> <http://www.w3.org/2004/02/skos/core#inScheme> <http://eurostat.linked-statistics.org/dic/geo> .
 <http://eurostat.linked-statistics.org/dic/geo#WBC> <http://www.w3.org/2004/02/skos/core#notation> "WBC" .
-<http://eurostat.linked-statistics.org/dic/geo#WBC> <http://www.w3.org/2004/02/skos/core#prefLabel> "WBC - Western Balkan Countries  (aggregate changing according to the context)"@en .
+<http://eurostat.linked-statistics.org/dic/geo#WBC> <http://www.w3.org/2004/02/skos/core#prefLabel> "WBC - Western Balkan Countries (aggregate changing according to the context)"@en .
 <http://eurostat.linked-statistics.org/dic/geo#WF> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://eurostat.linked-statistics.org/dic/geo#WF> <http://www.w3.org/2004/02/skos/core#inScheme> <http://eurostat.linked-statistics.org/dic/geo> .
 <http://eurostat.linked-statistics.org/dic/geo#WF> <http://www.w3.org/2004/02/skos/core#notation> "WF" .
@@ -19378,6 +19382,7 @@
 <http://eurostat.linked-statistics.org/dic/geo> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://eurostat.linked-statistics.org/dic/geo#EU27_NEA17> .
 <http://eurostat.linked-statistics.org/dic/geo> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://eurostat.linked-statistics.org/dic/geo#EU27_OTH> .
 <http://eurostat.linked-statistics.org/dic/geo> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://eurostat.linked-statistics.org/dic/geo#EU27_X_FR> .
+<http://eurostat.linked-statistics.org/dic/geo> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://eurostat.linked-statistics.org/dic/geo#EU28> .
 <http://eurostat.linked-statistics.org/dic/geo> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://eurostat.linked-statistics.org/dic/geo#EU6> .
 <http://eurostat.linked-statistics.org/dic/geo> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://eurostat.linked-statistics.org/dic/geo#EU9> .
 <http://eurostat.linked-statistics.org/dic/geo> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://eurostat.linked-statistics.org/dic/geo#EU> .

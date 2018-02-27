@@ -1,3 +1,15 @@
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/by_location/other_eu_countries> <http://semantic.digital-agenda-data.eu/def/property/member-of> <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/by_location> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/by_location/other_eu_countries> <http://semantic.digital-agenda-data.eu/def/property/order> "2"^^<http://www.w3.org/2001/XMLSchema#byte> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/by_location/other_eu_countries> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semantic.digital-agenda-data.eu/def/class/BreakdownToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/by_location/other_eu_countries> <http://www.w3.org/2000/01/rdf-schema#label> "by_location" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/by_location/own_country> <http://semantic.digital-agenda-data.eu/def/property/member-of> <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/by_location> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/by_location/own_country> <http://semantic.digital-agenda-data.eu/def/property/order> "1"^^<http://www.w3.org/2001/XMLSchema#byte> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/by_location/own_country> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semantic.digital-agenda-data.eu/def/class/BreakdownToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/by_location/own_country> <http://www.w3.org/2000/01/rdf-schema#label> "by_location" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/by_location/rest_world> <http://semantic.digital-agenda-data.eu/def/property/member-of> <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/by_location> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/by_location/rest_world> <http://semantic.digital-agenda-data.eu/def/property/order> "3"^^<http://www.w3.org/2001/XMLSchema#byte> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/by_location/rest_world> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semantic.digital-agenda-data.eu/def/class/BreakdownToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/by_location/rest_world> <http://www.w3.org/2000/01/rdf-schema#label> "by_location" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byage3classes/y16_24> <http://semantic.digital-agenda-data.eu/def/property/member-of> <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byage3classes> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byage3classes/y16_24> <http://semantic.digital-agenda-data.eu/def/property/order> "3" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byage3classes/y16_24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semantic.digital-agenda-data.eu/def/class/BreakdownToGroupMembership> .
@@ -266,6 +278,38 @@
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/bygender/m_y16_74> <http://semantic.digital-agenda-data.eu/def/property/order> "7" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/bygender/m_y16_74> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semantic.digital-agenda-data.eu/def/class/BreakdownToGroupMembership> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/bygender/m_y16_74> <http://www.w3.org/2000/01/rdf-schema#label> "bygender" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byictsector2subsec/261to264> <http://semantic.digital-agenda-data.eu/def/property/member-of> <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byictsector2subsec> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byictsector2subsec/261to264> <http://semantic.digital-agenda-data.eu/def/property/order> "1" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byictsector2subsec/261to264> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semantic.digital-agenda-data.eu/def/class/BreakdownToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byictsector2subsec/261to264> <http://www.w3.org/2000/01/rdf-schema#label> "byictsector2subsec" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byictsector2subsec/61_582_62_631_951> <http://semantic.digital-agenda-data.eu/def/property/member-of> <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byictsector2subsec> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byictsector2subsec/61_582_62_631_951> <http://semantic.digital-agenda-data.eu/def/property/order> "2" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byictsector2subsec/61_582_62_631_951> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semantic.digital-agenda-data.eu/def/class/BreakdownToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byictsector2subsec/61_582_62_631_951> <http://www.w3.org/2000/01/rdf-schema#label> "byictsector2subsec" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byictsector6subsec/261> <http://semantic.digital-agenda-data.eu/def/property/member-of> <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byictsector6subsec> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byictsector6subsec/261> <http://semantic.digital-agenda-data.eu/def/property/order> "1" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byictsector6subsec/261> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semantic.digital-agenda-data.eu/def/class/BreakdownToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byictsector6subsec/261> <http://www.w3.org/2000/01/rdf-schema#label> "byictsector6subsec" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byictsector6subsec/262> <http://semantic.digital-agenda-data.eu/def/property/member-of> <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byictsector6subsec> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byictsector6subsec/262> <http://semantic.digital-agenda-data.eu/def/property/order> "2" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byictsector6subsec/262> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semantic.digital-agenda-data.eu/def/class/BreakdownToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byictsector6subsec/262> <http://www.w3.org/2000/01/rdf-schema#label> "byictsector6subsec" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byictsector6subsec/263> <http://semantic.digital-agenda-data.eu/def/property/member-of> <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byictsector6subsec> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byictsector6subsec/263> <http://semantic.digital-agenda-data.eu/def/property/order> "3" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byictsector6subsec/263> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semantic.digital-agenda-data.eu/def/class/BreakdownToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byictsector6subsec/263> <http://www.w3.org/2000/01/rdf-schema#label> "byictsector6subsec" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byictsector6subsec/264> <http://semantic.digital-agenda-data.eu/def/property/member-of> <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byictsector6subsec> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byictsector6subsec/264> <http://semantic.digital-agenda-data.eu/def/property/order> "4" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byictsector6subsec/264> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semantic.digital-agenda-data.eu/def/class/BreakdownToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byictsector6subsec/264> <http://www.w3.org/2000/01/rdf-schema#label> "byictsector6subsec" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byictsector6subsec/582_62_631_951> <http://semantic.digital-agenda-data.eu/def/property/member-of> <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byictsector6subsec> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byictsector6subsec/582_62_631_951> <http://semantic.digital-agenda-data.eu/def/property/order> "5" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byictsector6subsec/582_62_631_951> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semantic.digital-agenda-data.eu/def/class/BreakdownToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byictsector6subsec/582_62_631_951> <http://www.w3.org/2000/01/rdf-schema#label> "byictsector6subsec" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byictsector6subsec/61> <http://semantic.digital-agenda-data.eu/def/property/member-of> <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byictsector6subsec> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byictsector6subsec/61> <http://semantic.digital-agenda-data.eu/def/property/order> "6" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byictsector6subsec/61> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semantic.digital-agenda-data.eu/def/class/BreakdownToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byictsector6subsec/61> <http://www.w3.org/2000/01/rdf-schema#label> "byictsector6subsec" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byorganizationclass/orgclass_hesrec> <http://semantic.digital-agenda-data.eu/def/property/member-of> <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byorganizationclass> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byorganizationclass/orgclass_hesrec> <http://semantic.digital-agenda-data.eu/def/property/order> "66" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byorganizationclass/orgclass_hesrec> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semantic.digital-agenda-data.eu/def/class/BreakdownToGroupMembership> .
@@ -426,10 +470,14 @@
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/desi_1b_mbb/desi_1b1_mbbtu> <http://semantic.digital-agenda-data.eu/def/property/order> "1" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/desi_1b_mbb/desi_1b1_mbbtu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semantic.digital-agenda-data.eu/def/class/BreakdownToGroupMembership> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/desi_1b_mbb/desi_1b1_mbbtu> <http://www.w3.org/2000/01/rdf-schema#label> "desi_1b_mbb" .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/desi_1b_mbb/desi_1b2_spec> <http://semantic.digital-agenda-data.eu/def/property/member-of> <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/desi_1b_mbb> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/desi_1b_mbb/desi_1b2_spec> <http://semantic.digital-agenda-data.eu/def/property/order> "2" .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/desi_1b_mbb/desi_1b2_spec> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semantic.digital-agenda-data.eu/def/class/BreakdownToGroupMembership> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/desi_1b_mbb/desi_1b2_spec> <http://www.w3.org/2000/01/rdf-schema#label> "desi_1b_mbb" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/desi_1b_mbb/desi_1b2_4g> <http://semantic.digital-agenda-data.eu/def/property/member-of> <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/desi_1b_mbb> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/desi_1b_mbb/desi_1b2_4g> <http://semantic.digital-agenda-data.eu/def/property/order> "2" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/desi_1b_mbb/desi_1b2_4g> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semantic.digital-agenda-data.eu/def/class/BreakdownToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/desi_1b_mbb/desi_1b2_4g> <http://www.w3.org/2000/01/rdf-schema#label> "desi_1b_mbb" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/desi_1b_mbb/desi_1b3_spec> <http://semantic.digital-agenda-data.eu/def/property/member-of> <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/desi_1b_mbb> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/desi_1b_mbb/desi_1b3_spec> <http://semantic.digital-agenda-data.eu/def/property/order> "3" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/desi_1b_mbb/desi_1b3_spec> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semantic.digital-agenda-data.eu/def/class/BreakdownToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/desi_1b_mbb/desi_1b3_spec> <http://www.w3.org/2000/01/rdf-schema#label> "desi_1b_mbb" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/desi_1c_speed/desi_1c1_ngac> <http://semantic.digital-agenda-data.eu/def/property/member-of> <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/desi_1c_speed> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/desi_1c_speed/desi_1c1_ngac> <http://semantic.digital-agenda-data.eu/def/property/order> "1" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/desi_1c_speed/desi_1c1_ngac> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semantic.digital-agenda-data.eu/def/class/BreakdownToGroupMembership> .
@@ -619,11 +667,11 @@
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector/10_c10_18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semantic.digital-agenda-data.eu/def/class/BreakdownToGroupMembership> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector/10_c10_18> <http://www.w3.org/2000/01/rdf-schema#label> "econsector" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector/10_c19_23> <http://semantic.digital-agenda-data.eu/def/property/member-of> <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector/10_c19_23> <http://semantic.digital-agenda-data.eu/def/property/order> "4" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector/10_c19_23> <http://semantic.digital-agenda-data.eu/def/property/order> "2" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector/10_c19_23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semantic.digital-agenda-data.eu/def/class/BreakdownToGroupMembership> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector/10_c19_23> <http://www.w3.org/2000/01/rdf-schema#label> "econsector" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector/10_c24_25> <http://semantic.digital-agenda-data.eu/def/property/member-of> <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector/10_c24_25> <http://semantic.digital-agenda-data.eu/def/property/order> "5" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector/10_c24_25> <http://semantic.digital-agenda-data.eu/def/property/order> "3" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector/10_c24_25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semantic.digital-agenda-data.eu/def/class/BreakdownToGroupMembership> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector/10_c24_25> <http://www.w3.org/2000/01/rdf-schema#label> "econsector" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector/10_c26_33> <http://semantic.digital-agenda-data.eu/def/property/member-of> <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector> .
@@ -851,11 +899,11 @@
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf/10_c16_18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semantic.digital-agenda-data.eu/def/class/BreakdownToGroupMembership> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf/10_c16_18> <http://www.w3.org/2000/01/rdf-schema#label> "manuf" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf/10_c19_23> <http://semantic.digital-agenda-data.eu/def/property/member-of> <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf/10_c19_23> <http://semantic.digital-agenda-data.eu/def/property/order> "2" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf/10_c19_23> <http://semantic.digital-agenda-data.eu/def/property/order> "4" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf/10_c19_23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semantic.digital-agenda-data.eu/def/class/BreakdownToGroupMembership> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf/10_c19_23> <http://www.w3.org/2000/01/rdf-schema#label> "manuf" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf/10_c24_25> <http://semantic.digital-agenda-data.eu/def/property/member-of> <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf/10_c24_25> <http://semantic.digital-agenda-data.eu/def/property/order> "3" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf/10_c24_25> <http://semantic.digital-agenda-data.eu/def/property/order> "5" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf/10_c24_25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semantic.digital-agenda-data.eu/def/class/BreakdownToGroupMembership> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf/10_c24_25> <http://www.w3.org/2000/01/rdf-schema#label> "manuf" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf/10_c26> <http://semantic.digital-agenda-data.eu/def/property/member-of> <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf> .
@@ -875,7 +923,7 @@
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf/10_c31_33> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semantic.digital-agenda-data.eu/def/class/BreakdownToGroupMembership> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf/10_c31_33> <http://www.w3.org/2000/01/rdf-schema#label> "manuf" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/mhz_bands/1500_mhz> <http://semantic.digital-agenda-data.eu/def/property/member-of> <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/mhz_bands> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/mhz_bands/1500_mhz> <http://semantic.digital-agenda-data.eu/def/property/order> "7"^^<http://www.w3.org/2001/XMLSchema#byte> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/mhz_bands/1500_mhz> <http://semantic.digital-agenda-data.eu/def/property/order> "7" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/mhz_bands/1500_mhz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semantic.digital-agenda-data.eu/def/class/BreakdownToGroupMembership> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/mhz_bands/1500_mhz> <http://www.w3.org/2000/01/rdf-schema#label> "mhz_bands" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/mhz_bands/1800_mhz> <http://semantic.digital-agenda-data.eu/def/property/member-of> <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/mhz_bands> .
@@ -898,16 +946,20 @@
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/mhz_bands/3_6_ghz> <http://semantic.digital-agenda-data.eu/def/property/order> "2" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/mhz_bands/3_6_ghz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semantic.digital-agenda-data.eu/def/class/BreakdownToGroupMembership> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/mhz_bands/3_6_ghz> <http://www.w3.org/2000/01/rdf-schema#label> "mhz_bands" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/mhz_bands/700_mhz> <http://semantic.digital-agenda-data.eu/def/property/member-of> <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/mhz_bands> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/mhz_bands/700_mhz> <http://semantic.digital-agenda-data.eu/def/property/order> "10" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/mhz_bands/700_mhz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semantic.digital-agenda-data.eu/def/class/BreakdownToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/mhz_bands/700_mhz> <http://www.w3.org/2000/01/rdf-schema#label> "mhz_bands" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/mhz_bands/800_mhz> <http://semantic.digital-agenda-data.eu/def/property/member-of> <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/mhz_bands> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/mhz_bands/800_mhz> <http://semantic.digital-agenda-data.eu/def/property/order> "9"^^<http://www.w3.org/2001/XMLSchema#byte> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/mhz_bands/800_mhz> <http://semantic.digital-agenda-data.eu/def/property/order> "9" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/mhz_bands/800_mhz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semantic.digital-agenda-data.eu/def/class/BreakdownToGroupMembership> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/mhz_bands/800_mhz> <http://www.w3.org/2000/01/rdf-schema#label> "mhz_bands" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/mhz_bands/900_mhz> <http://semantic.digital-agenda-data.eu/def/property/member-of> <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/mhz_bands> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/mhz_bands/900_mhz> <http://semantic.digital-agenda-data.eu/def/property/order> "8"^^<http://www.w3.org/2001/XMLSchema#byte> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/mhz_bands/900_mhz> <http://semantic.digital-agenda-data.eu/def/property/order> "8" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/mhz_bands/900_mhz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semantic.digital-agenda-data.eu/def/class/BreakdownToGroupMembership> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/mhz_bands/900_mhz> <http://www.w3.org/2000/01/rdf-schema#label> "mhz_bands" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/mhz_bands/not_assigned> <http://semantic.digital-agenda-data.eu/def/property/member-of> <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/mhz_bands> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/mhz_bands/not_assigned> <http://semantic.digital-agenda-data.eu/def/property/order> "1"^^<http://www.w3.org/2001/XMLSchema#byte> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/mhz_bands/not_assigned> <http://semantic.digital-agenda-data.eu/def/property/order> "1" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/mhz_bands/not_assigned> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semantic.digital-agenda-data.eu/def/class/BreakdownToGroupMembership> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/mhz_bands/not_assigned> <http://www.w3.org/2000/01/rdf-schema#label> "mhz_bands" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/others/y25_64> <http://semantic.digital-agenda-data.eu/def/property/member-of> <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/others> .
@@ -1042,6 +1094,10 @@
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/total/1m_websites> <http://semantic.digital-agenda-data.eu/def/property/order> "1" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/total/1m_websites> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semantic.digital-agenda-data.eu/def/class/BreakdownToGroupMembership> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/total/1m_websites> <http://www.w3.org/2000/01/rdf-schema#label> "total" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/total/261to264_582_61_62_631_951> <http://semantic.digital-agenda-data.eu/def/property/member-of> <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/total> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/total/261to264_582_61_62_631_951> <http://semantic.digital-agenda-data.eu/def/property/order> "1" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/total/261to264_582_61_62_631_951> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semantic.digital-agenda-data.eu/def/class/BreakdownToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/total/261to264_582_61_62_631_951> <http://www.w3.org/2000/01/rdf-schema#label> "total" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/total/all_egov_le> <http://semantic.digital-agenda-data.eu/def/property/member-of> <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/total> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/total/all_egov_le> <http://semantic.digital-agenda-data.eu/def/property/order> "1" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/total/all_egov_le> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semantic.digital-agenda-data.eu/def/class/BreakdownToGroupMembership> .
@@ -1325,6 +1381,54 @@
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/1m_websites> <http://www.w3.org/2004/02/skos/core#notation> "1M_websites" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/1m_websites> <http://www.w3.org/2004/02/skos/core#prefLabel> "Total" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/1m_websites> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://semantic.digital-agenda-data.eu/codelist/breakdown> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/261> <http://semantic.digital-agenda-data.eu/def/property/membership> <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byictsector6subsec/261> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/261> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semantic.digital-agenda-data.eu/def/class/Breakdown> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/261> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/261> <http://www.w3.org/2004/02/skos/core#altLabel> "Manufacture of electronic components and boards" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/261> <http://www.w3.org/2004/02/skos/core#definition> "NACE2 261 Manufacture of electronic components and boards" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/261> <http://www.w3.org/2004/02/skos/core#notation> "261" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/261> <http://www.w3.org/2004/02/skos/core#prefLabel> "Manufacture of electronic components and boards" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/261> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://semantic.digital-agenda-data.eu/codelist/breakdown> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/261to264> <http://semantic.digital-agenda-data.eu/def/property/membership> <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byictsector2subsec/261to264> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/261to264> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semantic.digital-agenda-data.eu/def/class/Breakdown> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/261to264> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/261to264> <http://www.w3.org/2004/02/skos/core#altLabel> "ICT manufacturing industries" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/261to264> <http://www.w3.org/2004/02/skos/core#definition> "NACE2 261 to 264 - 261 Manufacture of electronic components and boards, 262 Manufacture of computers and peripheral equipment,  263 Manufacture of communication equipment, 264 Manufacture of consumer electronics" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/261to264> <http://www.w3.org/2004/02/skos/core#notation> "261to264" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/261to264> <http://www.w3.org/2004/02/skos/core#prefLabel> "ICT manufacturing industries" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/261to264> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://semantic.digital-agenda-data.eu/codelist/breakdown> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/261to264_582_61_62_631_951> <http://semantic.digital-agenda-data.eu/def/property/membership> <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/total/261to264_582_61_62_631_951> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/261to264_582_61_62_631_951> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semantic.digital-agenda-data.eu/def/class/Breakdown> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/261to264_582_61_62_631_951> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/261to264_582_61_62_631_951> <http://www.w3.org/2004/02/skos/core#altLabel> "ICT industries total (6 subsectors)" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/261to264_582_61_62_631_951> <http://www.w3.org/2004/02/skos/core#definition> "NACE2 261 to 264, 582,61, 62, 631, 951 ; 261 Manufacture of electronic components and boards, 262 Manufacture of computers and peripheral equipment,  263 Manufacture of communication equipment, 264 Manufacture of consumer electronics; 582 Software publishing; 61 Telecomunications; 62 Computer programing, consultancy and related activities; 631 Data processing, hosting and related activities, web portals; 951 Repair of computers and communication equipment " .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/261to264_582_61_62_631_951> <http://www.w3.org/2004/02/skos/core#notation> "261to264_582_61_62_631_951" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/261to264_582_61_62_631_951> <http://www.w3.org/2004/02/skos/core#prefLabel> "ICT industries total (6 subsectors)" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/261to264_582_61_62_631_951> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://semantic.digital-agenda-data.eu/codelist/breakdown> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/262> <http://semantic.digital-agenda-data.eu/def/property/membership> <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byictsector6subsec/262> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/262> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semantic.digital-agenda-data.eu/def/class/Breakdown> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/262> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/262> <http://www.w3.org/2004/02/skos/core#altLabel> "Manufacture of computers and peripheral equipment" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/262> <http://www.w3.org/2004/02/skos/core#definition> "NACE2 262 Manufacture of computers and peripheral equipment" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/262> <http://www.w3.org/2004/02/skos/core#notation> "262" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/262> <http://www.w3.org/2004/02/skos/core#prefLabel> "Manufacture of computers and peripheral equipment" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/262> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://semantic.digital-agenda-data.eu/codelist/breakdown> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/263> <http://semantic.digital-agenda-data.eu/def/property/membership> <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byictsector6subsec/263> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/263> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semantic.digital-agenda-data.eu/def/class/Breakdown> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/263> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/263> <http://www.w3.org/2004/02/skos/core#altLabel> "Manufacture of communication equipment" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/263> <http://www.w3.org/2004/02/skos/core#definition> "NACE2 263 Manufacture of communication equipment" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/263> <http://www.w3.org/2004/02/skos/core#notation> "263" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/263> <http://www.w3.org/2004/02/skos/core#prefLabel> "Manufacture of communication equipment" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/263> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://semantic.digital-agenda-data.eu/codelist/breakdown> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/264> <http://semantic.digital-agenda-data.eu/def/property/membership> <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byictsector6subsec/264> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/264> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semantic.digital-agenda-data.eu/def/class/Breakdown> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/264> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/264> <http://www.w3.org/2004/02/skos/core#altLabel> "Manufacture of consumer electronics" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/264> <http://www.w3.org/2004/02/skos/core#definition> "NACE2 264 Manufacture of consumer electronics" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/264> <http://www.w3.org/2004/02/skos/core#notation> "264" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/264> <http://www.w3.org/2004/02/skos/core#prefLabel> "Manufacture of consumer electronics" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/264> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://semantic.digital-agenda-data.eu/codelist/breakdown> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/2_6_ghz> <http://semantic.digital-agenda-data.eu/def/property/membership> <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/mhz_bands/2_6_ghz> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/2_6_ghz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semantic.digital-agenda-data.eu/def/class/Breakdown> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/2_6_ghz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
@@ -1349,6 +1453,36 @@
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/3_6_ghz> <http://www.w3.org/2004/02/skos/core#notation> "3_6_GHz" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/3_6_ghz> <http://www.w3.org/2004/02/skos/core#prefLabel> "3.6-3.8 GHz" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/3_6_ghz> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://semantic.digital-agenda-data.eu/codelist/breakdown> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/582_62_631_951> <http://semantic.digital-agenda-data.eu/def/property/membership> <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byictsector6subsec/582_62_631_951> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/582_62_631_951> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semantic.digital-agenda-data.eu/def/class/Breakdown> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/582_62_631_951> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/582_62_631_951> <http://www.w3.org/2004/02/skos/core#altLabel> "Computer and related activities" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/582_62_631_951> <http://www.w3.org/2004/02/skos/core#definition> "NACE2 582, 62, 631, 951\nComputer and related activities inc. Software publishing; Computer programing, consultancy and related activities; Data processing, hosting and related activities, web portals; Repair of computers and communication equipment " .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/582_62_631_951> <http://www.w3.org/2004/02/skos/core#notation> "582_62_631_951" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/582_62_631_951> <http://www.w3.org/2004/02/skos/core#prefLabel> "Computer and related activities" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/582_62_631_951> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://semantic.digital-agenda-data.eu/codelist/breakdown> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/61> <http://semantic.digital-agenda-data.eu/def/property/membership> <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byictsector6subsec/61> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/61> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semantic.digital-agenda-data.eu/def/class/Breakdown> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/61> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/61> <http://www.w3.org/2004/02/skos/core#altLabel> "Telecommunications" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/61> <http://www.w3.org/2004/02/skos/core#definition> "NACE2 61 Telecommunications" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/61> <http://www.w3.org/2004/02/skos/core#notation> "61" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/61> <http://www.w3.org/2004/02/skos/core#prefLabel> "Telecommunications" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/61> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://semantic.digital-agenda-data.eu/codelist/breakdown> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/61_582_62_631_951> <http://semantic.digital-agenda-data.eu/def/property/membership> <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byictsector2subsec/61_582_62_631_951> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/61_582_62_631_951> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semantic.digital-agenda-data.eu/def/class/Breakdown> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/61_582_62_631_951> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/61_582_62_631_951> <http://www.w3.org/2004/02/skos/core#altLabel> "ICT services industries" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/61_582_62_631_951> <http://www.w3.org/2004/02/skos/core#definition> "NACE2 582,61, 62, 631, 951\n582 Software publishing; 61 Telecomunications; 62 Computer programing, consultancy and related activities; 631 Data processing, hosting and related activities, web portals; 951 Repair of computers and communication equipment " .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/61_582_62_631_951> <http://www.w3.org/2004/02/skos/core#notation> "61_582_62_631_951" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/61_582_62_631_951> <http://www.w3.org/2004/02/skos/core#prefLabel> "ICT services industries" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/61_582_62_631_951> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://semantic.digital-agenda-data.eu/codelist/breakdown> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/700_mhz> <http://semantic.digital-agenda-data.eu/def/property/membership> <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/mhz_bands/700_mhz> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/700_mhz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semantic.digital-agenda-data.eu/def/class/Breakdown> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/700_mhz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/700_mhz> <http://www.w3.org/2004/02/skos/core#notation> "700_MHz" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/700_mhz> <http://www.w3.org/2004/02/skos/core#prefLabel> "700 MHz" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/700_mhz> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://semantic.digital-agenda-data.eu/codelist/breakdown> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/800_mhz> <http://semantic.digital-agenda-data.eu/def/property/membership> <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/mhz_bands/800_mhz> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/800_mhz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semantic.digital-agenda-data.eu/def/class/Breakdown> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/800_mhz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
@@ -1589,13 +1723,20 @@
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/desi_1b1_mbbtu> <http://www.w3.org/2004/02/skos/core#notation> "DESI_1B1_MBBTU" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/desi_1b1_mbbtu> <http://www.w3.org/2004/02/skos/core#prefLabel> "1b1 Mobile BB Take-up" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/desi_1b1_mbbtu> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://semantic.digital-agenda-data.eu/codelist/breakdown> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/desi_1b2_spec> <http://semantic.digital-agenda-data.eu/def/property/membership> <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/desi_1b_mbb/desi_1b2_spec> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/desi_1b2_spec> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semantic.digital-agenda-data.eu/def/class/Breakdown> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/desi_1b2_spec> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/desi_1b2_spec> <http://www.w3.org/2004/02/skos/core#altLabel> "1b2 Spectrum" .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/desi_1b2_spec> <http://www.w3.org/2004/02/skos/core#notation> "DESI_1B2_SPEC" .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/desi_1b2_spec> <http://www.w3.org/2004/02/skos/core#prefLabel> "1b2 Spectrum" .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/desi_1b2_spec> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://semantic.digital-agenda-data.eu/codelist/breakdown> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/desi_1b2_4g> <http://semantic.digital-agenda-data.eu/def/property/membership> <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/desi_1b_mbb/desi_1b2_4g> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/desi_1b2_4g> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semantic.digital-agenda-data.eu/def/class/Breakdown> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/desi_1b2_4g> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/desi_1b2_4g> <http://www.w3.org/2004/02/skos/core#altLabel> "1b2 4G Coverage" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/desi_1b2_4g> <http://www.w3.org/2004/02/skos/core#notation> "DESI_1B2_4G" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/desi_1b2_4g> <http://www.w3.org/2004/02/skos/core#prefLabel> "1b2 4G Coverage" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/desi_1b2_4g> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://semantic.digital-agenda-data.eu/codelist/breakdown> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/desi_1b3_spec> <http://semantic.digital-agenda-data.eu/def/property/membership> <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/desi_1b_mbb/desi_1b3_spec> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/desi_1b3_spec> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semantic.digital-agenda-data.eu/def/class/Breakdown> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/desi_1b3_spec> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/desi_1b3_spec> <http://www.w3.org/2004/02/skos/core#altLabel> "1b3 Spectrum" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/desi_1b3_spec> <http://www.w3.org/2004/02/skos/core#notation> "DESI_1B3_SPEC" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/desi_1b3_spec> <http://www.w3.org/2004/02/skos/core#prefLabel> "1b3 Spectrum" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/desi_1b3_spec> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://semantic.digital-agenda-data.eu/codelist/breakdown> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/desi_1b_mbb> <http://semantic.digital-agenda-data.eu/def/property/membership> <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/desi_1_conn/desi_1b_mbb> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/desi_1b_mbb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semantic.digital-agenda-data.eu/def/class/Breakdown> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/desi_1b_mbb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
@@ -2607,6 +2748,20 @@
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/orgclass_total> <http://www.w3.org/2004/02/skos/core#notation> "orgclass_total" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/orgclass_total> <http://www.w3.org/2004/02/skos/core#prefLabel> "All organizations" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/orgclass_total> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://semantic.digital-agenda-data.eu/codelist/breakdown> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/other_eu_countries> <http://semantic.digital-agenda-data.eu/def/property/membership> <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/by_location/other_eu_countries> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/other_eu_countries> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semantic.digital-agenda-data.eu/def/class/Breakdown> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/other_eu_countries> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/other_eu_countries> <http://www.w3.org/2004/02/skos/core#altLabel> "Customers, other EU countries" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/other_eu_countries> <http://www.w3.org/2004/02/skos/core#notation> "Other_EU_countries" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/other_eu_countries> <http://www.w3.org/2004/02/skos/core#prefLabel> "Customers, other EU countries" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/other_eu_countries> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://semantic.digital-agenda-data.eu/codelist/breakdown> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/own_country> <http://semantic.digital-agenda-data.eu/def/property/membership> <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/by_location/own_country> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/own_country> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semantic.digital-agenda-data.eu/def/class/Breakdown> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/own_country> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/own_country> <http://www.w3.org/2004/02/skos/core#altLabel> "Custumers, own country" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/own_country> <http://www.w3.org/2004/02/skos/core#notation> "Own_country" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/own_country> <http://www.w3.org/2004/02/skos/core#prefLabel> "Custumers, own country" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/own_country> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://semantic.digital-agenda-data.eu/codelist/breakdown> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/own_drive_car> <http://semantic.digital-agenda-data.eu/def/property/membership> <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/egov_le/own_drive_car> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/own_drive_car> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semantic.digital-agenda-data.eu/def/class/Breakdown> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/own_drive_car> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
@@ -2623,6 +2778,13 @@
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/reg_bus_op> <http://www.w3.org/2004/02/skos/core#notation> "reg_bus_op" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/reg_bus_op> <http://www.w3.org/2004/02/skos/core#prefLabel> "Regular business operations Life Event" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/reg_bus_op> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://semantic.digital-agenda-data.eu/codelist/breakdown> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/rest_world> <http://semantic.digital-agenda-data.eu/def/property/membership> <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/by_location/rest_world> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/rest_world> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semantic.digital-agenda-data.eu/def/class/Breakdown> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/rest_world> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/rest_world> <http://www.w3.org/2004/02/skos/core#altLabel> "Custumers, rest of the world" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/rest_world> <http://www.w3.org/2004/02/skos/core#notation> "Rest_world" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/rest_world> <http://www.w3.org/2004/02/skos/core#prefLabel> "Custumers, rest of the world" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/rest_world> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://semantic.digital-agenda-data.eu/codelist/breakdown> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/retir_other> <http://semantic.digital-agenda-data.eu/def/property/membership> <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byemp/retir_other> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/retir_other> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semantic.digital-agenda-data.eu/def/class/Breakdown> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/retir_other> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
@@ -3134,7 +3296,7 @@
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/y65_74> <http://www.w3.org/2004/02/skos/core#notation> "Y65_74" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/y65_74> <http://www.w3.org/2004/02/skos/core#prefLabel> "Individuals, 65 to 74 years old" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/y65_74> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://semantic.digital-agenda-data.eu/codelist/breakdown> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown> <http://purl.org/dc/terms/modified> "2016-03-03T18:48:13+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown> <http://purl.org/dc/terms/modified> "2017-12-11T12:39:51+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/sdmx#CodeList> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://digital-agenda-data.eu/> .
@@ -3168,10 +3330,20 @@
 <http://semantic.digital-agenda-data.eu/codelist/breakdown> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://semantic.digital-agenda-data.eu/codelist/breakdown/1500_mhz> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://semantic.digital-agenda-data.eu/codelist/breakdown/1800_mhz> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://semantic.digital-agenda-data.eu/codelist/breakdown/1m_websites> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://semantic.digital-agenda-data.eu/codelist/breakdown/261> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://semantic.digital-agenda-data.eu/codelist/breakdown/261to264> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://semantic.digital-agenda-data.eu/codelist/breakdown/261to264_582_61_62_631_951> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://semantic.digital-agenda-data.eu/codelist/breakdown/262> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://semantic.digital-agenda-data.eu/codelist/breakdown/263> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://semantic.digital-agenda-data.eu/codelist/breakdown/264> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://semantic.digital-agenda-data.eu/codelist/breakdown/2_6_ghz> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://semantic.digital-agenda-data.eu/codelist/breakdown/2_ghz_paired> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://semantic.digital-agenda-data.eu/codelist/breakdown/3_4_ghz> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://semantic.digital-agenda-data.eu/codelist/breakdown/3_6_ghz> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://semantic.digital-agenda-data.eu/codelist/breakdown/582_62_631_951> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://semantic.digital-agenda-data.eu/codelist/breakdown/61> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://semantic.digital-agenda-data.eu/codelist/breakdown/61_582_62_631_951> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://semantic.digital-agenda-data.eu/codelist/breakdown/700_mhz> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://semantic.digital-agenda-data.eu/codelist/breakdown/800_mhz> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://semantic.digital-agenda-data.eu/codelist/breakdown/900_mhz> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://semantic.digital-agenda-data.eu/codelist/breakdown/all_dch> .
@@ -3204,7 +3376,8 @@
 <http://semantic.digital-agenda-data.eu/codelist/breakdown> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://semantic.digital-agenda-data.eu/codelist/breakdown/desi_1a2_fbbtu> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://semantic.digital-agenda-data.eu/codelist/breakdown/desi_1a_fbb> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://semantic.digital-agenda-data.eu/codelist/breakdown/desi_1b1_mbbtu> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://semantic.digital-agenda-data.eu/codelist/breakdown/desi_1b2_spec> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://semantic.digital-agenda-data.eu/codelist/breakdown/desi_1b2_4g> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://semantic.digital-agenda-data.eu/codelist/breakdown/desi_1b3_spec> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://semantic.digital-agenda-data.eu/codelist/breakdown/desi_1b_mbb> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://semantic.digital-agenda-data.eu/codelist/breakdown/desi_1c1_ngac> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://semantic.digital-agenda-data.eu/codelist/breakdown/desi_1c2_sfbb> .
@@ -3340,8 +3513,11 @@
 <http://semantic.digital-agenda-data.eu/codelist/breakdown> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://semantic.digital-agenda-data.eu/codelist/breakdown/orgclass_nil> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://semantic.digital-agenda-data.eu/codelist/breakdown/orgclass_sme> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://semantic.digital-agenda-data.eu/codelist/breakdown/orgclass_total> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://semantic.digital-agenda-data.eu/codelist/breakdown/other_eu_countries> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://semantic.digital-agenda-data.eu/codelist/breakdown/own_country> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://semantic.digital-agenda-data.eu/codelist/breakdown/own_drive_car> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://semantic.digital-agenda-data.eu/codelist/breakdown/reg_bus_op> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://semantic.digital-agenda-data.eu/codelist/breakdown/rest_world> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://semantic.digital-agenda-data.eu/codelist/breakdown/retir_other> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://semantic.digital-agenda-data.eu/codelist/breakdown/rf_0> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://semantic.digital-agenda-data.eu/codelist/breakdown/rf_ge1> .

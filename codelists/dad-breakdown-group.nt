@@ -1,3 +1,11 @@
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/by_location> <http://semantic.digital-agenda-data.eu/def/property/order> "100"^^<http://www.w3.org/2001/XMLSchema#byte> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/by_location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semantic.digital-agenda-data.eu/def/class/BreakdownGroup> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/by_location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/by_location> <http://www.w3.org/2004/02/skos/core#altLabel> "Geographical area" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/by_location> <http://www.w3.org/2004/02/skos/core#definition> "The following breakdown is considered: Own country, Other EU countries, Rest of the world" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/by_location> <http://www.w3.org/2004/02/skos/core#notation> "by_location" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/by_location> <http://www.w3.org/2004/02/skos/core#prefLabel> "Geographical area" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/by_location> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://semantic.digital-agenda-data.eu/codelist/breakdown-group> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byage3classes> <http://semantic.digital-agenda-data.eu/def/property/order> "2" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byage3classes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semantic.digital-agenda-data.eu/def/class/BreakdownGroup> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byage3classes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
@@ -49,7 +57,7 @@
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/bydensity> <http://www.w3.org/2004/02/skos/core#notation> "bydensity" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/bydensity> <http://www.w3.org/2004/02/skos/core#prefLabel> "Urban-rural density of the living area" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/bydensity> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://semantic.digital-agenda-data.eu/codelist/breakdown-group> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/bydigint2015> <http://semantic.digital-agenda-data.eu/def/property/order> "10"^^<http://www.w3.org/2001/XMLSchema#byte> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/bydigint2015> <http://semantic.digital-agenda-data.eu/def/property/order> "10" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/bydigint2015> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semantic.digital-agenda-data.eu/def/class/BreakdownGroup> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/bydigint2015> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/bydigint2015> <http://www.w3.org/2004/02/skos/core#altLabel> "Level of digital intensity" .
@@ -134,6 +142,20 @@
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/bygender> <http://www.w3.org/2004/02/skos/core#notation> "bygender" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/bygender> <http://www.w3.org/2004/02/skos/core#prefLabel> "Gender" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/bygender> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://semantic.digital-agenda-data.eu/codelist/breakdown-group> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byictsector2subsec> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semantic.digital-agenda-data.eu/def/class/BreakdownGroup> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byictsector2subsec> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byictsector2subsec> <http://www.w3.org/2004/02/skos/core#altLabel> "ICT Sectors (2 sub-sectors)" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byictsector2subsec> <http://www.w3.org/2004/02/skos/core#definition> "breakdown by 2 operational ICT sub sectors (Manufacturing NACE2 261 to 264, Services NACE2 582,61, 62, 631, 951)" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byictsector2subsec> <http://www.w3.org/2004/02/skos/core#notation> "byICTsector2subsec" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byictsector2subsec> <http://www.w3.org/2004/02/skos/core#prefLabel> "ICT Sectors (2 sub-sectors)" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byictsector2subsec> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://semantic.digital-agenda-data.eu/codelist/breakdown-group> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byictsector6subsec> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semantic.digital-agenda-data.eu/def/class/BreakdownGroup> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byictsector6subsec> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byictsector6subsec> <http://www.w3.org/2004/02/skos/core#altLabel> "ICT Sectors (6 sub-sectors)" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byictsector6subsec> <http://www.w3.org/2004/02/skos/core#definition> "breakdown by 6 operational ICT sectors: NACE2 261 to 264, 582,61, 62, 631, 951 " .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byictsector6subsec> <http://www.w3.org/2004/02/skos/core#notation> "byICTsector6subsec" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byictsector6subsec> <http://www.w3.org/2004/02/skos/core#prefLabel> "ICT Sectors (6 sub-sectors)" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byictsector6subsec> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://semantic.digital-agenda-data.eu/codelist/breakdown-group> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/bynaceeu> <http://semantic.digital-agenda-data.eu/def/property/order> "16" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/bynaceeu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semantic.digital-agenda-data.eu/def/class/BreakdownGroup> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/bynaceeu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
@@ -329,7 +351,10 @@
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector> <http://semantic.digital-agenda-data.eu/def/property/order> "40" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semantic.digital-agenda-data.eu/def/class/BreakdownGroup> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector> <http://www.w3.org/2004/02/skos/core#altLabel> "Economic sectors (17 Nace groups)" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector> <http://www.w3.org/2004/02/skos/core#definition> "Breakdown by 17 economic sectors (Nace rev.2)" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector> <http://www.w3.org/2004/02/skos/core#notation> "econsector" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector> <http://www.w3.org/2004/02/skos/core#prefLabel> "Economic sectors (17 Nace groups)" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://semantic.digital-agenda-data.eu/codelist/breakdown-group> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector_size> <http://semantic.digital-agenda-data.eu/def/property/order> "41" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector_size> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semantic.digital-agenda-data.eu/def/class/BreakdownGroup> .
@@ -429,10 +454,11 @@
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/total> <http://www.w3.org/2004/02/skos/core#notation> "total" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/total> <http://www.w3.org/2004/02/skos/core#prefLabel> "Total" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/total> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://semantic.digital-agenda-data.eu/codelist/breakdown-group> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown-group> <http://purl.org/dc/terms/modified> "2016-02-29T07:35:49+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group> <http://purl.org/dc/terms/modified> "2018-01-11T17:19:10+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/sdmx#CodeList> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://digital-agenda-data.eu/> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/by_location> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byage3classes> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byage6classes> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/bycbirth> .
@@ -449,6 +475,8 @@
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byentsize_s_m_l> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byfbbtech> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/bygender> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byictsector2subsec> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byictsector6subsec> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/bynaceeu> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/bynacenat> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byorganizationclass> .
