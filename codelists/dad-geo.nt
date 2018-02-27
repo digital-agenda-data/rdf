@@ -1,0 +1,26 @@
+<http://eurostat.linked-statistics.org/dic/geo#EU28> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://eurostat.linked-statistics.org/dic/geo#EU28> <http://www.w3.org/2004/02/skos/core#inScheme> <http://eurostat.linked-statistics.org/dic/geo> .
+<http://eurostat.linked-statistics.org/dic/geo#EU28> <http://www.w3.org/2004/02/skos/core#notation> "EU28" .
+<http://eurostat.linked-statistics.org/dic/geo#EU28> <http://www.w3.org/2004/02/skos/core#prefLabel> "European Union 28"@en .
+<http://eurostat.linked-statistics.org/dic/geo#EU_AVERAGE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://eurostat.linked-statistics.org/dic/geo#EU_AVERAGE> <http://www.w3.org/2004/02/skos/core#inScheme> <http://eurostat.linked-statistics.org/dic/geo> .
+<http://eurostat.linked-statistics.org/dic/geo#EU_AVERAGE> <http://www.w3.org/2004/02/skos/core#notation> "EU_AVERAGE" .
+<http://eurostat.linked-statistics.org/dic/geo#EU_AVERAGE> <http://www.w3.org/2004/02/skos/core#prefLabel> "EU AVERAGE"@en .
+<http://eurostat.linked-statistics.org/dic/geo#EU_FP7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://eurostat.linked-statistics.org/dic/geo#EU_FP7> <http://www.w3.org/2004/02/skos/core#inScheme> <http://eurostat.linked-statistics.org/dic/geo> .
+<http://eurostat.linked-statistics.org/dic/geo#EU_FP7> <http://www.w3.org/2004/02/skos/core#notation> "EU_FP7" .
+<http://eurostat.linked-statistics.org/dic/geo#EU_FP7> <http://www.w3.org/2004/02/skos/core#prefLabel> "EU FP7"@en .
+<http://eurostat.linked-statistics.org/dic/geo#EU_H2020> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://eurostat.linked-statistics.org/dic/geo#EU_H2020> <http://www.w3.org/2004/02/skos/core#inScheme> <http://eurostat.linked-statistics.org/dic/geo> .
+<http://eurostat.linked-statistics.org/dic/geo#EU_H2020> <http://www.w3.org/2004/02/skos/core#notation> "EU_H2020" .
+<http://eurostat.linked-statistics.org/dic/geo#EU_H2020> <http://www.w3.org/2004/02/skos/core#prefLabel> "EU H2020"@en .
+<http://eurostat.linked-statistics.org/dic/geo#EU_HARMONISED> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://eurostat.linked-statistics.org/dic/geo#EU_HARMONISED> <http://www.w3.org/2004/02/skos/core#inScheme> <http://eurostat.linked-statistics.org/dic/geo> .
+<http://eurostat.linked-statistics.org/dic/geo#EU_HARMONISED> <http://www.w3.org/2004/02/skos/core#notation> "EU_HARMONISED" .
+<http://eurostat.linked-statistics.org/dic/geo#EU_HARMONISED> <http://www.w3.org/2004/02/skos/core#prefLabel> "EU HARMONISED"@en .
+<http://eurostat.linked-statistics.org/dic/geo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<http://eurostat.linked-statistics.org/dic/geo> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://eurostat.linked-statistics.org/dic/geo#EU28> .
+<http://eurostat.linked-statistics.org/dic/geo> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://eurostat.linked-statistics.org/dic/geo#EU_AVERAGE> .
+<http://eurostat.linked-statistics.org/dic/geo> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://eurostat.linked-statistics.org/dic/geo#EU_FP7> .
+<http://eurostat.linked-statistics.org/dic/geo> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://eurostat.linked-statistics.org/dic/geo#EU_H2020> .
+<http://eurostat.linked-statistics.org/dic/geo> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://eurostat.linked-statistics.org/dic/geo#EU_HARMONISED> .

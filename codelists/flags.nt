@@ -1,0 +1,73 @@
+<http://eurostat.linked-statistics.org/> <http://purl.org/dc/terms/modified> "2012-08-14T14:13:46+0100" .
+<http://eurostat.linked-statistics.org/> <http://purl.org/dc/terms/source> <http://epp.eurostat.ec.europa.eu/NavTree_prod/everybody/BulkDownloadListing?file=dic%2Fen%2Fflags.dic> .
+<http://eurostat.linked-statistics.org/> <http://www.w3.org/2000/01/rdf-schema#comment> "Reused Eurostat Linked Data Wrapper (http://estatwrap.ontologycentral.com/) to rdfize Eurostat datasets (http://epp.eurostat.ec.europa.eu/) ." .
+<http://eurostat.linked-statistics.org/> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://epp.eurostat.ec.europa.eu/portal/page/portal/about_eurostat/policies/copyright_licence_policy> .
+<http://eurostat.linked-statistics.org/> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://eurostat.linked-statistics.org/> .
+<http://eurostat.linked-statistics.org/> <http://xmls.com/foaf/0.1/maker> <http://harth.org/andreas/foaf#ah> .
+<http://eurostat.linked-statistics.org/dic/flags#0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://eurostat.linked-statistics.org/dic/flags#0> <http://www.w3.org/2004/02/skos/core#inScheme> <http://eurostat.linked-statistics.org/dic/flags> .
+<http://eurostat.linked-statistics.org/dic/flags#0> <http://www.w3.org/2004/02/skos/core#notation> "0" .
+<http://eurostat.linked-statistics.org/dic/flags#0> <http://www.w3.org/2004/02/skos/core#prefLabel> "less than half the final digit shown and greater than real zero"@en .
+<http://eurostat.linked-statistics.org/dic/flags#:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://eurostat.linked-statistics.org/dic/flags#:> <http://www.w3.org/2004/02/skos/core#inScheme> <http://eurostat.linked-statistics.org/dic/flags> .
+<http://eurostat.linked-statistics.org/dic/flags#:> <http://www.w3.org/2004/02/skos/core#notation> ":" .
+<http://eurostat.linked-statistics.org/dic/flags#:> <http://www.w3.org/2004/02/skos/core#prefLabel> "not available"@en .
+<http://eurostat.linked-statistics.org/dic/flags#b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://eurostat.linked-statistics.org/dic/flags#b> <http://www.w3.org/2004/02/skos/core#inScheme> <http://eurostat.linked-statistics.org/dic/flags> .
+<http://eurostat.linked-statistics.org/dic/flags#b> <http://www.w3.org/2004/02/skos/core#notation> "b" .
+<http://eurostat.linked-statistics.org/dic/flags#b> <http://www.w3.org/2004/02/skos/core#prefLabel> "break in series"@en .
+<http://eurostat.linked-statistics.org/dic/flags#c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://eurostat.linked-statistics.org/dic/flags#c> <http://www.w3.org/2004/02/skos/core#inScheme> <http://eurostat.linked-statistics.org/dic/flags> .
+<http://eurostat.linked-statistics.org/dic/flags#c> <http://www.w3.org/2004/02/skos/core#notation> "c" .
+<http://eurostat.linked-statistics.org/dic/flags#c> <http://www.w3.org/2004/02/skos/core#prefLabel> "confidential"@en .
+<http://eurostat.linked-statistics.org/dic/flags#e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://eurostat.linked-statistics.org/dic/flags#e> <http://www.w3.org/2004/02/skos/core#inScheme> <http://eurostat.linked-statistics.org/dic/flags> .
+<http://eurostat.linked-statistics.org/dic/flags#e> <http://www.w3.org/2004/02/skos/core#notation> "e" .
+<http://eurostat.linked-statistics.org/dic/flags#e> <http://www.w3.org/2004/02/skos/core#prefLabel> "estimated"@en .
+<http://eurostat.linked-statistics.org/dic/flags#f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://eurostat.linked-statistics.org/dic/flags#f> <http://www.w3.org/2004/02/skos/core#inScheme> <http://eurostat.linked-statistics.org/dic/flags> .
+<http://eurostat.linked-statistics.org/dic/flags#f> <http://www.w3.org/2004/02/skos/core#notation> "f" .
+<http://eurostat.linked-statistics.org/dic/flags#f> <http://www.w3.org/2004/02/skos/core#prefLabel> "forecast"@en .
+<http://eurostat.linked-statistics.org/dic/flags#i> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://eurostat.linked-statistics.org/dic/flags#i> <http://www.w3.org/2004/02/skos/core#inScheme> <http://eurostat.linked-statistics.org/dic/flags> .
+<http://eurostat.linked-statistics.org/dic/flags#i> <http://www.w3.org/2004/02/skos/core#notation> "i" .
+<http://eurostat.linked-statistics.org/dic/flags#i> <http://www.w3.org/2004/02/skos/core#prefLabel> "see metadata"@en .
+<http://eurostat.linked-statistics.org/dic/flags#n> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://eurostat.linked-statistics.org/dic/flags#n> <http://www.w3.org/2004/02/skos/core#inScheme> <http://eurostat.linked-statistics.org/dic/flags> .
+<http://eurostat.linked-statistics.org/dic/flags#n> <http://www.w3.org/2004/02/skos/core#notation> "n" .
+<http://eurostat.linked-statistics.org/dic/flags#n> <http://www.w3.org/2004/02/skos/core#prefLabel> "not significant"@en .
+<http://eurostat.linked-statistics.org/dic/flags#p> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://eurostat.linked-statistics.org/dic/flags#p> <http://www.w3.org/2004/02/skos/core#inScheme> <http://eurostat.linked-statistics.org/dic/flags> .
+<http://eurostat.linked-statistics.org/dic/flags#p> <http://www.w3.org/2004/02/skos/core#notation> "p" .
+<http://eurostat.linked-statistics.org/dic/flags#p> <http://www.w3.org/2004/02/skos/core#prefLabel> "provisional"@en .
+<http://eurostat.linked-statistics.org/dic/flags#r> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://eurostat.linked-statistics.org/dic/flags#r> <http://www.w3.org/2004/02/skos/core#inScheme> <http://eurostat.linked-statistics.org/dic/flags> .
+<http://eurostat.linked-statistics.org/dic/flags#r> <http://www.w3.org/2004/02/skos/core#notation> "r" .
+<http://eurostat.linked-statistics.org/dic/flags#r> <http://www.w3.org/2004/02/skos/core#prefLabel> "revised"@en .
+<http://eurostat.linked-statistics.org/dic/flags#s> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://eurostat.linked-statistics.org/dic/flags#s> <http://www.w3.org/2004/02/skos/core#inScheme> <http://eurostat.linked-statistics.org/dic/flags> .
+<http://eurostat.linked-statistics.org/dic/flags#s> <http://www.w3.org/2004/02/skos/core#notation> "s" .
+<http://eurostat.linked-statistics.org/dic/flags#s> <http://www.w3.org/2004/02/skos/core#prefLabel> "Eurostat estimate"@en .
+<http://eurostat.linked-statistics.org/dic/flags#u> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://eurostat.linked-statistics.org/dic/flags#u> <http://www.w3.org/2004/02/skos/core#inScheme> <http://eurostat.linked-statistics.org/dic/flags> .
+<http://eurostat.linked-statistics.org/dic/flags#u> <http://www.w3.org/2004/02/skos/core#notation> "u" .
+<http://eurostat.linked-statistics.org/dic/flags#u> <http://www.w3.org/2004/02/skos/core#prefLabel> "unreliable"@en .
+<http://eurostat.linked-statistics.org/dic/flags#z> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://eurostat.linked-statistics.org/dic/flags#z> <http://www.w3.org/2004/02/skos/core#inScheme> <http://eurostat.linked-statistics.org/dic/flags> .
+<http://eurostat.linked-statistics.org/dic/flags#z> <http://www.w3.org/2004/02/skos/core#notation> "z" .
+<http://eurostat.linked-statistics.org/dic/flags#z> <http://www.w3.org/2004/02/skos/core#prefLabel> "not applicable (incl. real zero)"@en .
+<http://eurostat.linked-statistics.org/dic/flags> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<http://eurostat.linked-statistics.org/dic/flags> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://eurostat.linked-statistics.org/dic/flags#0> .
+<http://eurostat.linked-statistics.org/dic/flags> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://eurostat.linked-statistics.org/dic/flags#:> .
+<http://eurostat.linked-statistics.org/dic/flags> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://eurostat.linked-statistics.org/dic/flags#b> .
+<http://eurostat.linked-statistics.org/dic/flags> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://eurostat.linked-statistics.org/dic/flags#c> .
+<http://eurostat.linked-statistics.org/dic/flags> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://eurostat.linked-statistics.org/dic/flags#e> .
+<http://eurostat.linked-statistics.org/dic/flags> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://eurostat.linked-statistics.org/dic/flags#f> .
+<http://eurostat.linked-statistics.org/dic/flags> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://eurostat.linked-statistics.org/dic/flags#i> .
+<http://eurostat.linked-statistics.org/dic/flags> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://eurostat.linked-statistics.org/dic/flags#n> .
+<http://eurostat.linked-statistics.org/dic/flags> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://eurostat.linked-statistics.org/dic/flags#p> .
+<http://eurostat.linked-statistics.org/dic/flags> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://eurostat.linked-statistics.org/dic/flags#r> .
+<http://eurostat.linked-statistics.org/dic/flags> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://eurostat.linked-statistics.org/dic/flags#s> .
+<http://eurostat.linked-statistics.org/dic/flags> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://eurostat.linked-statistics.org/dic/flags#u> .
+<http://eurostat.linked-statistics.org/dic/flags> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://eurostat.linked-statistics.org/dic/flags#z> .
+<http://eurostat.linked-statistics.org/dic/flags> <http://www.w3.org/2004/02/skos/core#notation> "flags" .
