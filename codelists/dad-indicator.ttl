@@ -20,7 +20,7 @@ ns4:indicator	rdf:type	skos:ConceptScheme .
 @prefix ns9:	<http://purl.org/linked-data/sdmx#> .
 ns4:indicator	rdf:type	ns9:CodeList .
 @prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
-ns4:indicator	ns5:modified	"2018-01-11T17:18:28+02:00"^^xsd:dateTime .
+ns4:indicator	ns5:modified	"2018-03-06T19:38:28+02:00"^^xsd:dateTime .
 @prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
 ns4:indicator	rdfs:isDefinedBy	<http://digital-agenda-data.eu/> ;
 	skos:notation	"CL_INDICATOR" ;
@@ -290,6 +290,11 @@ ns4:indicator	rdfs:isDefinedBy	<http://digital-agenda-data.eu/> ;
 		ns1:e_webf2 ,
 		ns1:e_sm_any ,
 		ns1:e_sm_ge2 ,
+		ns1:bb_rfttpcov ,
+		ns1:bb_rngacov ,
+		ns1:mbb_rhspacov ,
+		ns1:mbb_rltecov ,
+		ns1:bb_fttpcov ,
 		ns1:actspeed ,
 		ns1:h_broad ,
 		ns1:desi_1c_speed ,
@@ -3816,6 +3821,62 @@ ns1:vod	rdf:type	skos:Concept ,
 	ns7:membership	ns13:vod ;
 	skos:altLabel	"Households subscribed to Video on Demand" ;
 	skos:prefLabel	"Households subscribed to Video on Demand" .
+ns16:bb_fttpcov	rdf:type	ns3:IndicatorToGroupMembership ;
+	rdfs:label	"broadband" ;
+	ns7:member-of	ns14:broadband ;
+	ns7:order	"17"^^xsd:byte .
+ns16:bb_rfttpcov	rdf:type	ns3:IndicatorToGroupMembership ;
+	rdfs:label	"broadband" ;
+	ns7:member-of	ns14:broadband ;
+	ns7:order	"18"^^xsd:byte .
+ns16:bb_rngacov	rdf:type	ns3:IndicatorToGroupMembership ;
+	rdfs:label	"broadband" ;
+	ns7:member-of	ns14:broadband ;
+	ns7:order	"19"^^xsd:byte .
+ns33:mbb_rhspacov	rdf:type	ns3:IndicatorToGroupMembership ;
+	rdfs:label	"mobile" ;
+	ns7:member-of	ns14:mobile ;
+	ns7:order	"14"^^xsd:byte .
+ns33:mbb_rltecov	rdf:type	ns3:IndicatorToGroupMembership ;
+	rdfs:label	"mobile" ;
+	ns7:member-of	ns14:mobile ;
+	ns7:order	"15"^^xsd:byte .
+ns1:bb_rfttpcov	rdf:type	ns3:Indicator ,
+		skos:Concept ;
+	skos:notation	"bb_rfttpcov" ;
+	skos:definition	"Coverage is a supply indicator defined as the percentage of Households living in areas served by FTTP. Rural areas are defined as those with less than 100 people per km2." ;
+	skos:topConceptOf	ns4:indicator ;
+	ns5:source	ns6:point_topic ;
+	ns7:membership	ns16:bb_rfttpcov ;
+	skos:altLabel	"Rural Fibre to the Premises coverage" ;
+	skos:prefLabel	"Rural Fibre to the Premises coverage/availability (as a % of households)" .
+ns1:bb_rngacov	rdf:type	ns3:Indicator ,
+		skos:Concept ;
+	skos:notation	"bb_rngacov" ;
+	skos:definition	"Coverage is a supply indicator defined as the percentage of Households living in areas served by NGA. Next Generation Access includes the following technologies: FTTH, FTTB, Cable Docsis 3.0, VDSL and other superfast broadband (at least 30 Mbps download). Rural areas are defined as those with less than 100 people per km2." ;
+	skos:topConceptOf	ns4:indicator ;
+	ns5:source	ns6:point_topic ;
+	ns7:membership	ns16:bb_rngacov ;
+	skos:altLabel	"Rural NGA broadband coverage" ;
+	skos:prefLabel	"Rural NGA broadband coverage/availability (as a % of households)" .
+ns1:mbb_rhspacov	rdf:type	ns3:Indicator ,
+		skos:Concept ;
+	skos:notation	"mbb_rhspacov" ;
+	skos:definition	"Coverage is a supply indicator defined as the percentage of Households living in areas covered by advanced third generation mobile broadband (HSPA protocol). Rural areas are defined as those with less than 100 people per km2." ;
+	skos:topConceptOf	ns4:indicator ;
+	ns5:source	ns6:point_topic ;
+	ns7:membership	ns33:mbb_rhspacov ;
+	skos:altLabel	"Advanced 3G mobile broadband coverage" ;
+	skos:prefLabel	"Rural advanced 3G mobile broadband (HSPA) coverage (as a % of households)" .
+ns1:mbb_rltecov	rdf:type	ns3:Indicator ,
+		skos:Concept ;
+	skos:notation	"mbb_rltecov" ;
+	skos:definition	"Coverage is a supply indicator defined as the percentage of Households living in areas covered by advanced fourth generation mobile broadband (LTE protocol). Rural areas are defined as those with less than 100 people per km2." ;
+	skos:topConceptOf	ns4:indicator ;
+	ns5:source	ns6:point_topic ;
+	ns7:membership	ns33:mbb_rltecov ;
+	skos:altLabel	"Rural 4G mobile broadband coverage" ;
+	skos:prefLabel	"Rural 4G mobile broadband (LTE) coverage (as a % of households)" .
 ns1:desi_1c_speed	rdf:type	ns3:Indicator ,
 		skos:Concept ;
 	skos:notation	"DESI_1C_SPEED" ;
@@ -3843,3 +3904,12 @@ ns1:labour_prod_ict	rdf:type	ns3:Indicator ,
 	ns7:membership	ns28:labour_prod_ict ;
 	skos:altLabel	"Labour productivity of the ICT sector (per person)" ;
 	skos:prefLabel	"Labour productivity of the ICT sector (per person)" .
+ns1:bb_fttpcov	rdf:type	skos:Concept ,
+		ns3:Indicator ;
+	skos:notation	"bb_fttpcov" ;
+	skos:definition	"Coverage is a supply indicator defined as the percentage of Households living in areas served by FTTP" ;
+	skos:topConceptOf	ns4:indicator ;
+	ns5:source	ns6:point_topic ;
+	ns7:membership	ns16:bb_fttpcov ;
+	skos:altLabel	"Fibre to the Premises coverage" ;
+	skos:prefLabel	"Fibre to the Premises coverage/availability (as a % of households)" .

@@ -90,6 +90,10 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/broadband/bb_dsl>	<http://semantic.digital-agenda-data.eu/def/property/order>	"8" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/broadband/bb_dsl>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/broadband/bb_dsl>	<http://www.w3.org/2000/01/rdf-schema#label>	"broadband" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/broadband/bb_fttpcov>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/broadband> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/broadband/bb_fttpcov>	<http://semantic.digital-agenda-data.eu/def/property/order>	"17"^^<http://www.w3.org/2001/XMLSchema#byte> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/broadband/bb_fttpcov>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/broadband/bb_fttpcov>	<http://www.w3.org/2000/01/rdf-schema#label>	"broadband" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/broadband/bb_hhi>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/broadband> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/broadband/bb_hhi>	<http://semantic.digital-agenda-data.eu/def/property/order>	"12" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/broadband/bb_hhi>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
@@ -110,6 +114,14 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/broadband/bb_penet>	<http://semantic.digital-agenda-data.eu/def/property/order>	"6" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/broadband/bb_penet>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/broadband/bb_penet>	<http://www.w3.org/2000/01/rdf-schema#label>	"broadband" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/broadband/bb_rfttpcov>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/broadband> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/broadband/bb_rfttpcov>	<http://semantic.digital-agenda-data.eu/def/property/order>	"18"^^<http://www.w3.org/2001/XMLSchema#byte> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/broadband/bb_rfttpcov>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/broadband/bb_rfttpcov>	<http://www.w3.org/2000/01/rdf-schema#label>	"broadband" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/broadband/bb_rngacov>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/broadband> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/broadband/bb_rngacov>	<http://semantic.digital-agenda-data.eu/def/property/order>	"19"^^<http://www.w3.org/2001/XMLSchema#byte> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/broadband/bb_rngacov>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/broadband/bb_rngacov>	<http://www.w3.org/2000/01/rdf-schema#label>	"broadband" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/broadband/bb_scov>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/broadband> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/broadband/bb_scov>	<http://semantic.digital-agenda-data.eu/def/property/order>	"1" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/broadband/bb_scov>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
@@ -861,6 +873,14 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/mobile/mbb_penet>	<http://semantic.digital-agenda-data.eu/def/property/order>	"6" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/mobile/mbb_penet>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/mobile/mbb_penet>	<http://www.w3.org/2000/01/rdf-schema#label>	"mobile" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/mobile/mbb_rhspacov>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/mobile> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/mobile/mbb_rhspacov>	<http://semantic.digital-agenda-data.eu/def/property/order>	"14"^^<http://www.w3.org/2001/XMLSchema#byte> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/mobile/mbb_rhspacov>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/mobile/mbb_rhspacov>	<http://www.w3.org/2000/01/rdf-schema#label>	"mobile" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/mobile/mbb_rltecov>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/mobile> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/mobile/mbb_rltecov>	<http://semantic.digital-agenda-data.eu/def/property/order>	"15"^^<http://www.w3.org/2001/XMLSchema#byte> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/mobile/mbb_rltecov>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/mobile/mbb_rltecov>	<http://www.w3.org/2000/01/rdf-schema#label>	"mobile" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/mobile/mob_arpu>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/mobile> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/mobile/mob_arpu>	<http://semantic.digital-agenda-data.eu/def/property/order>	"10" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/mobile/mob_arpu>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
@@ -1124,6 +1144,15 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator/bb_fcov>	<http://www.w3.org/2004/02/skos/core#note>	"Indicator collected until 2010. Then replaced with two different coverage indicators, for standard broadband and NGA respectively." .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/bb_fcov>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Fixed broadband coverage (2005-2010)" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/bb_fcov>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/bb_fttpcov>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/point_topic> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/bb_fttpcov>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/broadband/bb_fttpcov> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/bb_fttpcov>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/bb_fttpcov>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/bb_fttpcov>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Fibre to the Premises coverage" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/bb_fttpcov>	<http://www.w3.org/2004/02/skos/core#definition>	"Coverage is a supply indicator defined as the percentage of Households living in areas served by FTTP" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/bb_fttpcov>	<http://www.w3.org/2004/02/skos/core#notation>	"bb_fttpcov" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/bb_fttpcov>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Fibre to the Premises coverage/availability (as a % of households)" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/bb_fttpcov>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/bb_hhi>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/cocom> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/bb_hhi>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/broadband/bb_hhi> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/bb_hhi>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
@@ -1169,6 +1198,24 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator/bb_penet>	<http://www.w3.org/2004/02/skos/core#notation>	"bb_penet" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/bb_penet>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Fixed broadband take-up (subscriptions/100 people)" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/bb_penet>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/bb_rfttpcov>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/point_topic> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/bb_rfttpcov>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/broadband/bb_rfttpcov> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/bb_rfttpcov>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/bb_rfttpcov>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/bb_rfttpcov>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Rural Fibre to the Premises coverage" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/bb_rfttpcov>	<http://www.w3.org/2004/02/skos/core#definition>	"Coverage is a supply indicator defined as the percentage of Households living in areas served by FTTP. Rural areas are defined as those with less than 100 people per km2." .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/bb_rfttpcov>	<http://www.w3.org/2004/02/skos/core#notation>	"bb_rfttpcov" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/bb_rfttpcov>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Rural Fibre to the Premises coverage/availability (as a % of households)" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/bb_rfttpcov>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/bb_rngacov>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/point_topic> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/bb_rngacov>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/broadband/bb_rngacov> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/bb_rngacov>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/bb_rngacov>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/bb_rngacov>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Rural NGA broadband coverage" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/bb_rngacov>	<http://www.w3.org/2004/02/skos/core#definition>	"Coverage is a supply indicator defined as the percentage of Households living in areas served by NGA. Next Generation Access includes the following technologies: FTTH, FTTB, Cable Docsis 3.0, VDSL and other superfast broadband (at least 30 Mbps download). Rural areas are defined as those with less than 100 people per km2." .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/bb_rngacov>	<http://www.w3.org/2004/02/skos/core#notation>	"bb_rngacov" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/bb_rngacov>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Rural NGA broadband coverage/availability (as a % of households)" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/bb_rngacov>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/bb_scov>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/point_topic> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/bb_scov>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/broadband/bb_scov> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/bb_scov>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
@@ -3289,6 +3336,24 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator/mbb_penet>	<http://www.w3.org/2004/02/skos/core#notation>	"mbb_penet" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/mbb_penet>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Take-up of mobile broadband (subscriptions/100 people)" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/mbb_penet>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/mbb_rhspacov>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/point_topic> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/mbb_rhspacov>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/mobile/mbb_rhspacov> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/mbb_rhspacov>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/mbb_rhspacov>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/mbb_rhspacov>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Advanced 3G mobile broadband coverage" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/mbb_rhspacov>	<http://www.w3.org/2004/02/skos/core#definition>	"Coverage is a supply indicator defined as the percentage of Households living in areas covered by advanced third generation mobile broadband (HSPA protocol). Rural areas are defined as those with less than 100 people per km2." .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/mbb_rhspacov>	<http://www.w3.org/2004/02/skos/core#notation>	"mbb_rhspacov" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/mbb_rhspacov>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Rural advanced 3G mobile broadband (HSPA) coverage (as a % of households)" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/mbb_rhspacov>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/mbb_rltecov>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/point_topic> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/mbb_rltecov>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/mobile/mbb_rltecov> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/mbb_rltecov>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/mbb_rltecov>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/mbb_rltecov>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Rural 4G mobile broadband coverage" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/mbb_rltecov>	<http://www.w3.org/2004/02/skos/core#definition>	"Coverage is a supply indicator defined as the percentage of Households living in areas covered by advanced fourth generation mobile broadband (LTE protocol). Rural areas are defined as those with less than 100 people per km2." .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/mbb_rltecov>	<http://www.w3.org/2004/02/skos/core#notation>	"mbb_rltecov" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/mbb_rltecov>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Rural 4G mobile broadband (LTE) coverage (as a % of households)" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/mbb_rltecov>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/mob_arpm>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/cocom> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/mob_arpm>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/discontinued/mob_arpm> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/mob_arpm>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
@@ -3528,7 +3593,7 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator/vod>	<http://www.w3.org/2004/02/skos/core#notation>	"vod" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/vod>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Households subscribed to Video on Demand" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/vod>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://purl.org/dc/terms/modified>	"2018-01-11T17:18:28+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://purl.org/dc/terms/modified>	"2018-03-06T19:38:28+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://purl.org/linked-data/sdmx#CodeList> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#ConceptScheme> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2000/01/rdf-schema#isDefinedBy>	<http://digital-agenda-data.eu/> .
@@ -3538,11 +3603,14 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/avg_ttg> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/bb_dsl> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/bb_fcov> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/bb_fttpcov> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/bb_hhi> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/bb_lines> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/bb_ne> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/bb_ngacov> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/bb_penet> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/bb_rfttpcov> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/bb_rngacov> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/bb_scov> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/bb_speed100> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/bb_speed10> .
@@ -3776,6 +3844,8 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/mbb_hspacov> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/mbb_ltecov> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/mbb_penet> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/mbb_rhspacov> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/mbb_rltecov> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/mob_arpm> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/mob_arpu> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/mob_ms> .
