@@ -4390,6 +4390,7 @@
 <http://semantic.digital-agenda-data.eu/codelist/time-period>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://reference.data.gov.uk/id/gregorian-year/2015> .
 <http://semantic.digital-agenda-data.eu/codelist/time-period>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://reference.data.gov.uk/id/gregorian-year/2016> .
 <http://semantic.digital-agenda-data.eu/codelist/time-period>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://reference.data.gov.uk/id/gregorian-year/2017> .
+<http://semantic.digital-agenda-data.eu/codelist/time-period>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://reference.data.gov.uk/id/gregorian-year/2018> .
 <http://semantic.digital-agenda-data.eu/codelist/time-period>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://reference.data.gov.uk/id/gregorian-year/> .
 <http://semantic.digital-agenda-data.eu/codelist/time-period>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://reference.data.gov.uk/id/gregorian-year/EC_ALL> .
 <http://semantic.digital-agenda-data.eu/codelist/time-period>	<http://www.w3.org/2004/02/skos/core#inScheme>	<http://semantic.digital-agenda-data.eu/def/scheme> .

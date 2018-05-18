@@ -1,30 +1,124 @@
 @prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ns1:	<http://semantic.digital-agenda-data.eu/codelist/indicator/> .
 @prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
-ns1:actspeed	rdf:type	skos:Concept .
+ns1:desi_1b2_mbbtu	rdf:type	skos:Concept .
 @prefix ns3:	<http://semantic.digital-agenda-data.eu/def/class/> .
-ns1:actspeed	rdf:type	ns3:Indicator ;
-	skos:notation	"actspeed" ;
-	skos:definition	"Average Download Speed during peak periods (ACTSPEED), measured with a specially configured hardware device (SamKnows Whitebox), which runs a series of purpose-built tests to measure various aspect of Internet performance. The measured speed refers to a sample of subscriptions using a similar technology offered by internet service providers. Offers are not weigthed with market shares, so the measured speed cannot be interpreted as the average experienced by consumers." .
+ns1:desi_1b2_mbbtu	rdf:type	ns3:Indicator ;
+	skos:notation	"DESI_1B2_MBBTU" ;
+	skos:definition	"Mobile broadband take-up" .
 @prefix ns4:	<http://semantic.digital-agenda-data.eu/codelist/> .
-ns1:actspeed	skos:topConceptOf	ns4:indicator .
+ns1:desi_1b2_mbbtu	skos:topConceptOf	ns4:indicator .
 @prefix ns5:	<http://purl.org/dc/terms/> .
 @prefix ns6:	<http://semantic.digital-agenda-data.eu/codelist/source/> .
-ns1:actspeed	ns5:source	ns6:samknows .
+ns1:desi_1b2_mbbtu	ns5:source	ns6:desi_1b2_mbbtu .
 @prefix ns7:	<http://semantic.digital-agenda-data.eu/def/property/> .
-@prefix ns8:	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/bbquality/> .
-ns1:actspeed	ns7:membership	ns8:actspeed ;
+@prefix ns8:	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/> .
+ns1:desi_1b2_mbbtu	ns7:membership	ns8:desi_1b2_mbbtu ;
+	skos:prefLabel	"1b2 Mobile BB Take-up" .
+ns1:desi_1b1_4g	rdf:type	skos:Concept ,
+		ns3:Indicator ;
+	skos:notation	"DESI_1B1_4G" ;
+	skos:definition	"Percentage of populated areas coverage by 4G - measured as the average coverage of telecom operators in each country" ;
+	skos:topConceptOf	ns4:indicator ;
+	ns5:source	ns6:desi_1b1_4g ;
+	ns7:membership	ns8:desi_1b1_4g ;
+	skos:altLabel	"1b1 4G Coverage" ;
+	skos:prefLabel	"1b1 4G Coverage" .
+ns1:desi_1d1_ubbc	rdf:type	skos:Concept ,
+		ns3:Indicator ;
+	skos:notation	"DESI_1D1_UBBC" ;
+	skos:definition	"Households covered by ultrafast broadband" ;
+	skos:topConceptOf	ns4:indicator ;
+	ns5:source	ns6:desi_1d1_ubbc ;
+	ns7:membership	ns8:desi_1d1_ubbc ;
+	skos:prefLabel	"1d1 Ultrafast BB Coverage" .
+ns1:desi_1d2_ubbta	rdf:type	skos:Concept ,
+		ns3:Indicator ;
+	skos:notation	"DESI_1D2_UBBTA" ;
+	skos:definition	"Share of ultra fast broadband subscriptions >= 100 Mbps" ;
+	skos:topConceptOf	ns4:indicator ;
+	ns5:source	ns6:desi_1d2_ubbta ;
+	ns7:membership	ns8:desi_1d2_ubbta ;
+	skos:prefLabel	"1d2 Ultrafast BB Take-up" .
+ns1:desi_1e1_bbpi	rdf:type	skos:Concept ,
+		ns3:Indicator ;
+	skos:notation	"DESI_1E1_BBPI" ;
+	skos:definition	"Price index of twelve  representative broadband baskets as the percentage of household income. The baskets include three speed categories (12-30 Mbps, 30-100Mbps and at least 100 Mbps) and four types of products (standalone internet, internet + TV, internet + fixed telephony and internet + TV + fixed telephony)" ;
+	skos:topConceptOf	ns4:indicator ;
+	ns5:source	ns6:desi_1e1_bbpi ;
+	ns7:membership	ns8:desi_1e1_bbpi ;
+	skos:prefLabel	"1e1 Broadband Price Index" .
+ns1:desi_1d_ultra	rdf:type	skos:Concept ,
+		ns3:Indicator ;
+	skos:notation	"DESI_1D_ULTRA" ;
+	skos:definition	"DESI Ultrafast speed sub-dimension calculated as the weighted average of the normalised indicators: 1d1 Ultrafast BB Coverage (50%), 1d2 Ultrafast BB Take-up (50%)" ;
+	skos:topConceptOf	ns4:indicator ;
+	ns5:source	ns6: .
+@prefix ns9:	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim/> .
+ns1:desi_1d_ultra	ns7:membership	ns9:desi_1d_ultra ;
+	skos:prefLabel	"1d Ultrafast Broadband" .
+ns1:desi_1e_bbpi	rdf:type	skos:Concept ,
+		ns3:Indicator ;
+	skos:notation	"DESI_1E_BBPI" ;
+	skos:definition	"DESI Affordability sub-dimension calculated as the weighted average of the normalised indicators: 1e1 Fixed BB Price (100%)" ;
+	skos:topConceptOf	ns4:indicator ;
+	ns5:source	ns6: ;
+	ns7:membership	ns9:desi_1e_bbpi ;
+	skos:prefLabel	"1e Broadband price index" .
+ns1:desi_5a4_psb	rdf:type	skos:Concept ,
+		ns3:Indicator ;
+	skos:notation	"DESI_5A4_PSB" ;
+	skos:definition	"Share of public services needed for starting a business and for conducting regular business operations that are available online for domestic as well as for foreign users. Services provided through a portal receive an higher score, srvices which provide only information receive a more limited score." ;
+	skos:topConceptOf	ns4:indicator ;
+	ns5:source	ns6:desi_5a4_psb ;
+	ns7:membership	ns8:desi_5a4_psb ;
+	skos:prefLabel	"5a4 eGovernment Services for Businesses" .
+ns1:desi_5a5_opendata	rdf:type	skos:Concept ,
+		ns3:Indicator ;
+	skos:notation	"DESI_5A5_OPENDATA" ;
+	skos:definition	"Score in the Open Data Maturity indicator. This composite indicator measures to what extent countries have an Open Data policy in place (including the transposition of the revised PSI Directive), the estimated political, social and economic impact of Open Data and the characteristics (functionalities, data availability and usage) of the national data portal." ;
+	skos:topConceptOf	ns4:indicator ;
+	ns5:source	ns6:desi_5a5_opendata ;
+	ns7:membership	ns8:desi_5a5_opendata ;
+	skos:prefLabel	"5a5 Open Data" .
+ns1:desi_5b1_ehs	rdf:type	skos:Concept ,
+		ns3:Indicator ;
+	skos:notation	"DESI_5B1_EHS" ;
+	skos:definition	"Percentage of people who used health and care services provided online without having to go to the hospital or doctors surgery (i.e. by getting a prescription or a consultation on line)" ;
+	skos:topConceptOf	ns4:indicator ;
+	ns5:source	ns6:desi_5b1_ehs ;
+	ns7:membership	ns8:desi_5b1_ehs ;
+	skos:prefLabel	"5b1 eHealth" .
+ns1:desi_5b_ehs	rdf:type	skos:Concept ,
+		ns3:Indicator ;
+	skos:notation	"DESI_5B_EHS" ;
+	skos:definition	"DESI eHealth sub-dimension comprising 5b1 eHealth services(100%)" ;
+	skos:topConceptOf	ns4:indicator ;
+	ns5:source	ns6: ;
+	ns7:membership	ns9:desi_5b_ehs ;
+	skos:prefLabel	"5b eHealth" .
+ns1:actspeed	rdf:type	skos:Concept ,
+		ns3:Indicator ;
+	skos:notation	"actspeed" ;
+	skos:definition	"Average Download Speed during peak periods (ACTSPEED), measured with a specially configured hardware device (SamKnows Whitebox), which runs a series of purpose-built tests to measure various aspect of Internet performance. The measured speed refers to a sample of subscriptions using a similar technology offered by internet service providers. Offers are not weigthed with market shares, so the measured speed cannot be interpreted as the average experienced by consumers." ;
+	skos:topConceptOf	ns4:indicator ;
+	ns5:source	ns6:samknows .
+@prefix ns10:	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/bbquality/> .
+ns1:actspeed	ns7:membership	ns10:actspeed ;
 	skos:altLabel	"Actual fixed broadband download speed" ;
 	skos:prefLabel	"Actual download speed of fixed broadband subscriptions" .
 ns4:indicator	rdf:type	skos:ConceptScheme .
-@prefix ns9:	<http://purl.org/linked-data/sdmx#> .
-ns4:indicator	rdf:type	ns9:CodeList .
+@prefix ns11:	<http://purl.org/linked-data/sdmx#> .
+ns4:indicator	rdf:type	ns11:CodeList .
 @prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
-ns4:indicator	ns5:modified	"2018-03-06T19:38:28+02:00"^^xsd:dateTime .
+ns4:indicator	ns5:modified	"2018-05-18T10:25:04+03:00"^^xsd:dateTime .
 @prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
 ns4:indicator	rdfs:isDefinedBy	<http://digital-agenda-data.eu/> ;
 	skos:notation	"CL_INDICATOR" ;
-	skos:hasTopConcept	ns1:i_sbgood ,
+	skos:hasTopConcept	ns1:e_gov_p ,
+		ns1:e_gov_dpsb ,
+		ns1:e_gov_opa ,
+		ns1:i_sbgood ,
 		ns1:i_secfl ,
 		ns1:i_iux ,
 		ns1:i_piacadv ,
@@ -86,7 +180,6 @@ ns4:indicator	rdfs:isDefinedBy	<http://digital-agenda-data.eu/> ;
 		ns1:desi_1d_aff ,
 		ns1:desi_2_hc ,
 		ns1:desi_1c2_sfbb ,
-		ns1:desi_1d1_fbbp ,
 		ns1:desi_2a_bsu ,
 		ns1:desi_2b1_ictspec ,
 		ns1:desi_2a1_iu ,
@@ -113,7 +206,6 @@ ns4:indicator	rdfs:isDefinedBy	<http://digital-agenda-data.eu/> ;
 		ns1:desi_1a2_fbbtu ,
 		ns1:desi_1b_mbb ,
 		ns1:desi_1c1_ngac ,
-		ns1:desi_1b2_4g ,
 		ns1:desi_1b3_spec ,
 		ns1:desi_5a1_egovu ,
 		ns1:desi_5a2_prefform ,
@@ -126,7 +218,6 @@ ns4:indicator	rdfs:isDefinedBy	<http://digital-agenda-data.eu/> ;
 		ns1:desi_sliders ,
 		ns1:digskillindex ,
 		ns1:desi_5b2_epresc ,
-		ns1:desi_5b_ehealth ,
 		ns1:e_ads ,
 		ns1:e_ads_loc ,
 		ns1:digskillindex_basicandabove ,
@@ -290,6 +381,7 @@ ns4:indicator	rdfs:isDefinedBy	<http://digital-agenda-data.eu/> ;
 		ns1:e_webf2 ,
 		ns1:e_sm_any ,
 		ns1:e_sm_ge2 ,
+		ns1:e_gov_ke ,
 		ns1:bb_rfttpcov ,
 		ns1:bb_rngacov ,
 		ns1:mbb_rhspacov ,
@@ -298,1105 +390,1102 @@ ns4:indicator	rdfs:isDefinedBy	<http://digital-agenda-data.eu/> ;
 		ns1:actspeed ,
 		ns1:h_broad ,
 		ns1:desi_1c_speed ,
-		ns1:labour_prod_ict .
-@prefix ns12:	<http://semantic.digital-agenda-data.eu/def/> .
-ns4:indicator	skos:inScheme	ns12:scheme ;
+		ns1:labour_prod_ict ,
+		ns1:desi_1d1_ubbc ,
+		ns1:desi_1d2_ubbta ,
+		ns1:desi_1b2_mbbtu ,
+		ns1:desi_1b1_4g ,
+		ns1:desi_1e_bbpi ,
+		ns1:desi_5a4_psb ,
+		ns1:desi_1e1_bbpi ,
+		ns1:desi_1d_ultra ,
+		ns1:desi_5b_ehs ,
+		ns1:desi_5a5_opendata ,
+		ns1:desi_5b1_ehs .
+@prefix ns14:	<http://semantic.digital-agenda-data.eu/def/> .
+ns4:indicator	skos:inScheme	ns14:scheme ;
 	skos:prefLabel	"Code list for indicators used by Digital Agenda Scoreboard" .
-@prefix ns13:	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/audiovisual/> .
-ns13:eoa_nn_films	rdf:type	ns3:IndicatorToGroupMembership ;
+@prefix ns15:	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/audiovisual/> .
+ns15:eoa_nn_films	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"audiovisual" .
-@prefix ns14:	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/> .
-ns13:eoa_nn_films	ns7:member-of	ns14:audiovisual ;
+@prefix ns16:	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/> .
+ns15:eoa_nn_films	ns7:member-of	ns16:audiovisual ;
 	ns7:order	"3" .
-ns13:eoa_tvchannels_tarfor	rdf:type	ns3:IndicatorToGroupMembership ;
+ns15:eoa_tvchannels_tarfor	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"audiovisual" ;
-	ns7:member-of	ns14:audiovisual ;
+	ns7:member-of	ns16:audiovisual ;
 	ns7:order	"1" .
-ns13:eoa_vod_estab_otheu	rdf:type	ns3:IndicatorToGroupMembership ;
+ns15:eoa_vod_estab_otheu	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"audiovisual" ;
-	ns7:member-of	ns14:audiovisual ;
+	ns7:member-of	ns16:audiovisual ;
 	ns7:order	"2" .
-ns13:i_iugm	rdf:type	ns3:IndicatorToGroupMembership ;
+ns15:i_iugm	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"audiovisual" ;
-	ns7:member-of	ns14:audiovisual ;
+	ns7:member-of	ns16:audiovisual ;
 	ns7:order	"6" .
-ns13:i_iunw	rdf:type	ns3:IndicatorToGroupMembership ;
+ns15:i_iunw	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"audiovisual" ;
-	ns7:member-of	ns14:audiovisual ;
+	ns7:member-of	ns16:audiovisual ;
 	ns7:order	"5" .
-ns13:i_iuvod	rdf:type	ns3:IndicatorToGroupMembership ;
+ns15:i_iuvod	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"audiovisual" ;
-	ns7:member-of	ns14:audiovisual ;
+	ns7:member-of	ns16:audiovisual ;
 	ns7:order	"12" .
-ns13:vod	rdf:type	ns3:IndicatorToGroupMembership ;
+ns15:vod	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"audiovisual" ;
-	ns7:member-of	ns14:audiovisual ;
+	ns7:member-of	ns16:audiovisual ;
 	ns7:order	"11" .
-@prefix ns15:	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/back/> .
-ns15:gdp	rdf:type	ns3:IndicatorToGroupMembership ;
+@prefix ns17:	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/back/> .
+ns17:gdp	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"back" ;
-	ns7:member-of	ns14:back ;
+	ns7:member-of	ns16:back ;
 	ns7:order	"4" .
-ns15:househ	rdf:type	ns3:IndicatorToGroupMembership ;
+ns17:househ	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"back" ;
-	ns7:member-of	ns14:back ;
+	ns7:member-of	ns16:back ;
 	ns7:order	"1" .
-ns15:households	rdf:type	ns3:IndicatorToGroupMembership ;
+ns17:households	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"back" ;
-	ns7:member-of	ns14:back ;
+	ns7:member-of	ns16:back ;
 	ns7:order	"5" .
-ns15:pop	rdf:type	ns3:IndicatorToGroupMembership ;
+ns17:pop	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"back" ;
-	ns7:member-of	ns14:back ;
+	ns7:member-of	ns16:back ;
 	ns7:order	"2" .
-ns15:population	rdf:type	ns3:IndicatorToGroupMembership ;
+ns17:population	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"back" ;
-	ns7:member-of	ns14:back ;
+	ns7:member-of	ns16:back ;
 	ns7:order	"3" .
-ns8:actspeed	rdf:type	ns3:IndicatorToGroupMembership ;
+ns10:actspeed	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"bbquality" ;
-	ns7:member-of	ns14:bbquality ;
+	ns7:member-of	ns16:bbquality ;
 	ns7:order	"5" .
-ns8:afford_internet_only_minppp	rdf:type	ns3:IndicatorToGroupMembership ;
+ns10:afford_internet_only_minppp	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"bbquality" ;
-	ns7:member-of	ns14:bbquality ;
+	ns7:member-of	ns16:bbquality ;
 	ns7:order	"9" .
-ns8:bb_speed10	rdf:type	ns3:IndicatorToGroupMembership ;
+ns10:bb_speed10	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"bbquality" ;
-	ns7:member-of	ns14:bbquality ;
+	ns7:member-of	ns16:bbquality ;
 	ns7:order	"2" .
-ns8:bb_speed100	rdf:type	ns3:IndicatorToGroupMembership ;
+ns10:bb_speed100	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"bbquality" ;
-	ns7:member-of	ns14:bbquality ;
+	ns7:member-of	ns16:bbquality ;
 	ns7:order	"4" .
-ns8:bb_speed2	rdf:type	ns3:IndicatorToGroupMembership ;
+ns10:bb_speed2	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"bbquality" ;
-	ns7:member-of	ns14:bbquality ;
+	ns7:member-of	ns16:bbquality ;
 	ns7:order	"1" .
-ns8:bb_speed30	rdf:type	ns3:IndicatorToGroupMembership ;
+ns10:bb_speed30	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"bbquality" ;
-	ns7:member-of	ns14:bbquality ;
+	ns7:member-of	ns16:bbquality ;
 	ns7:order	"3" .
-ns8:h_xcost	rdf:type	ns3:IndicatorToGroupMembership ;
+ns10:h_xcost	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"bbquality" ;
-	ns7:member-of	ns14:bbquality ;
+	ns7:member-of	ns16:bbquality ;
 	ns7:order	"10" .
-ns8:price_internet_fixed_tel	rdf:type	ns3:IndicatorToGroupMembership ;
+ns10:price_internet_fixed_tel	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"bbquality" ;
-	ns7:member-of	ns14:bbquality ;
+	ns7:member-of	ns16:bbquality ;
 	ns7:order	"7" .
-ns8:price_internet_fixed_tel_tv	rdf:type	ns3:IndicatorToGroupMembership ;
+ns10:price_internet_fixed_tel_tv	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"bbquality" ;
-	ns7:member-of	ns14:bbquality ;
+	ns7:member-of	ns16:bbquality ;
 	ns7:order	"8" .
-ns8:price_internet_only	rdf:type	ns3:IndicatorToGroupMembership ;
+ns10:price_internet_only	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"bbquality" ;
-	ns7:member-of	ns14:bbquality ;
+	ns7:member-of	ns16:bbquality ;
 	ns7:order	"6" .
-@prefix ns16:	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/broadband/> .
-ns16:bb_dsl	rdf:type	ns3:IndicatorToGroupMembership ;
+@prefix ns18:	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/broadband/> .
+ns18:bb_dsl	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"broadband" ;
-	ns7:member-of	ns14:broadband ;
+	ns7:member-of	ns16:broadband ;
 	ns7:order	"8" .
-ns16:bb_hhi	rdf:type	ns3:IndicatorToGroupMembership ;
+ns18:bb_hhi	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"broadband" ;
-	ns7:member-of	ns14:broadband ;
+	ns7:member-of	ns16:broadband ;
 	ns7:order	"12" .
-ns16:bb_lines	rdf:type	ns3:IndicatorToGroupMembership ;
+ns18:bb_lines	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"broadband" ;
-	ns7:member-of	ns14:broadband ;
+	ns7:member-of	ns16:broadband ;
 	ns7:order	"5" .
-ns16:bb_ne	rdf:type	ns3:IndicatorToGroupMembership ;
+ns18:bb_ne	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"broadband" ;
-	ns7:member-of	ns14:broadband ;
+	ns7:member-of	ns16:broadband ;
 	ns7:order	"7" .
-ns16:bb_ngacov	rdf:type	ns3:IndicatorToGroupMembership ;
+ns18:bb_ngacov	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"broadband" ;
-	ns7:member-of	ns14:broadband ;
+	ns7:member-of	ns16:broadband ;
 	ns7:order	"3" .
-ns16:bb_penet	rdf:type	ns3:IndicatorToGroupMembership ;
+ns18:bb_penet	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"broadband" ;
-	ns7:member-of	ns14:broadband ;
+	ns7:member-of	ns16:broadband ;
 	ns7:order	"6" .
-ns16:bb_scov	rdf:type	ns3:IndicatorToGroupMembership ;
+ns18:bb_scov	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"broadband" ;
-	ns7:member-of	ns14:broadband ;
+	ns7:member-of	ns16:broadband ;
 	ns7:order	"1" .
-ns16:bb_srcov	rdf:type	ns3:IndicatorToGroupMembership ;
+ns18:bb_srcov	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"broadband" ;
-	ns7:member-of	ns14:broadband ;
+	ns7:member-of	ns16:broadband ;
 	ns7:order	"2" .
-ns16:e_broad	rdf:type	ns3:IndicatorToGroupMembership ;
+ns18:e_broad	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"broadband" ;
-	ns7:member-of	ns14:broadband ;
+	ns7:member-of	ns16:broadband ;
 	ns7:order	"13" .
-ns16:e_ispdf_ge30	rdf:type	ns3:IndicatorToGroupMembership ;
+ns18:e_ispdf_ge30	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"broadband" ;
-	ns7:member-of	ns14:broadband ;
+	ns7:member-of	ns16:broadband ;
 	ns7:order	"14" .
-ns16:e_ispdfokx	rdf:type	ns3:IndicatorToGroupMembership ;
+ns18:e_ispdfokx	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"broadband" ;
-	ns7:member-of	ns14:broadband .
-ns16:e_ispdfokx_ge100	rdf:type	ns3:IndicatorToGroupMembership ;
+	ns7:member-of	ns16:broadband .
+ns18:e_ispdfokx_ge100	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"broadband" ;
-	ns7:member-of	ns14:broadband .
-ns16:h_bbfix	rdf:type	ns3:IndicatorToGroupMembership ;
+	ns7:member-of	ns16:broadband .
+ns18:h_bbfix	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"broadband" ;
-	ns7:member-of	ns14:broadband ;
+	ns7:member-of	ns16:broadband ;
 	ns7:order	"11" .
-ns16:h_broad	rdf:type	ns3:IndicatorToGroupMembership ;
+ns18:h_broad	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"broadband" ;
-	ns7:member-of	ns14:broadband ;
+	ns7:member-of	ns16:broadband ;
 	ns7:order	"10" .
-@prefix ns17:	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi/> .
-ns17:desi	rdf:type	ns3:IndicatorToGroupMembership ;
+@prefix ns19:	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi/> .
+ns19:desi	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi" ;
-	ns7:member-of	ns14:desi ;
+	ns7:member-of	ns16:desi ;
 	ns7:order	"1" .
-@prefix ns18:	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_dim/> .
-ns18:desi_1_conn	rdf:type	ns3:IndicatorToGroupMembership ;
+@prefix ns20:	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_dim/> .
+ns20:desi_1_conn	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_dim" ;
-	ns7:member-of	ns14:desi_dim ;
+	ns7:member-of	ns16:desi_dim ;
 	ns7:order	"1" .
-ns18:desi_2_hc	rdf:type	ns3:IndicatorToGroupMembership ;
+ns20:desi_2_hc	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_dim" ;
-	ns7:member-of	ns14:desi_dim ;
+	ns7:member-of	ns16:desi_dim ;
 	ns7:order	"2" .
-ns18:desi_3_ui	rdf:type	ns3:IndicatorToGroupMembership ;
+ns20:desi_3_ui	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_dim" ;
-	ns7:member-of	ns14:desi_dim ;
+	ns7:member-of	ns16:desi_dim ;
 	ns7:order	"3" .
-ns18:desi_4_idt	rdf:type	ns3:IndicatorToGroupMembership ;
+ns20:desi_4_idt	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_dim" ;
-	ns7:member-of	ns14:desi_dim ;
+	ns7:member-of	ns16:desi_dim ;
 	ns7:order	"4" .
-ns18:desi_5_dps	rdf:type	ns3:IndicatorToGroupMembership ;
+ns20:desi_5_dps	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_dim" ;
-	ns7:member-of	ns14:desi_dim ;
+	ns7:member-of	ns16:desi_dim ;
 	ns7:order	"5" .
-@prefix ns19:	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/> .
-ns19:desi_1a1_fbbc	rdf:type	ns3:IndicatorToGroupMembership ;
+ns8:desi_1a1_fbbc	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
-	ns7:member-of	ns14:desi_ind ;
-	ns7:order	"2" .
-ns19:desi_1a2_fbbtu	rdf:type	ns3:IndicatorToGroupMembership ;
+	ns7:member-of	ns16:desi_ind ;
+	ns7:order	"111"^^xsd:byte .
+ns8:desi_1a2_fbbtu	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
-	ns7:member-of	ns14:desi_ind ;
-	ns7:order	"3" .
-ns19:desi_1b1_mbbtu	rdf:type	ns3:IndicatorToGroupMembership ;
+	ns7:member-of	ns16:desi_ind ;
+	ns7:order	"112"^^xsd:byte .
+ns8:desi_1b1_mbbtu	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
-	ns7:member-of	ns14:desi_ind ;
-	ns7:order	"4" .
-ns19:desi_1b2_4g	rdf:type	ns3:IndicatorToGroupMembership ;
+	ns7:member-of	ns16:desi_ind ;
+	ns7:order	"121"^^xsd:byte .
+ns8:desi_1b3_spec	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
-	ns7:member-of	ns14:desi_ind ;
-	ns7:order	"5" .
-ns19:desi_1b3_spec	rdf:type	ns3:IndicatorToGroupMembership ;
+	ns7:member-of	ns16:desi_ind ;
+	ns7:order	"123"^^xsd:byte .
+ns8:desi_1c1_ngac	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
-	ns7:member-of	ns14:desi_ind ;
-	ns7:order	"6" .
-ns19:desi_1c1_ngac	rdf:type	ns3:IndicatorToGroupMembership ;
+	ns7:member-of	ns16:desi_ind ;
+	ns7:order	"131"^^xsd:short .
+ns8:desi_1c2_sfbb	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
-	ns7:member-of	ns14:desi_ind ;
-	ns7:order	"7" .
-ns19:desi_1c2_sfbb	rdf:type	ns3:IndicatorToGroupMembership ;
+	ns7:member-of	ns16:desi_ind ;
+	ns7:order	"132"^^xsd:short .
+ns8:desi_2a1_iu	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
-	ns7:member-of	ns14:desi_ind ;
-	ns7:order	"8" .
-ns19:desi_1d1_fbbp	rdf:type	ns3:IndicatorToGroupMembership ;
+	ns7:member-of	ns16:desi_ind ;
+	ns7:order	"211"^^xsd:short .
+ns8:desi_2a2_bds	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
-	ns7:member-of	ns14:desi_ind ;
-	ns7:order	"9" .
-ns19:desi_2a1_iu	rdf:type	ns3:IndicatorToGroupMembership ;
+	ns7:member-of	ns16:desi_ind ;
+	ns7:order	"212"^^xsd:short .
+ns8:desi_2b1_ictspec	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
-	ns7:member-of	ns14:desi_ind ;
-	ns7:order	"10" .
-ns19:desi_2a2_bds	rdf:type	ns3:IndicatorToGroupMembership ;
+	ns7:member-of	ns16:desi_ind ;
+	ns7:order	"221"^^xsd:short .
+ns8:desi_2b2_stemg	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
-	ns7:member-of	ns14:desi_ind ;
-	ns7:order	"11" .
-ns19:desi_2b1_ictspec	rdf:type	ns3:IndicatorToGroupMembership ;
+	ns7:member-of	ns16:desi_ind ;
+	ns7:order	"222"^^xsd:short .
+ns8:desi_3a1_news	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
-	ns7:member-of	ns14:desi_ind ;
-	ns7:order	"12" .
-ns19:desi_2b2_stemg	rdf:type	ns3:IndicatorToGroupMembership ;
+	ns7:member-of	ns16:desi_ind ;
+	ns7:order	"311"^^xsd:short .
+ns8:desi_3a2_mvg	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
-	ns7:member-of	ns14:desi_ind ;
-	ns7:order	"13" .
-ns19:desi_3a1_news	rdf:type	ns3:IndicatorToGroupMembership ;
+	ns7:member-of	ns16:desi_ind ;
+	ns7:order	"312"^^xsd:short .
+ns8:desi_3a3_vod	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
-	ns7:member-of	ns14:desi_ind ;
-	ns7:order	"14" .
-ns19:desi_3a2_mvg	rdf:type	ns3:IndicatorToGroupMembership ;
+	ns7:member-of	ns16:desi_ind ;
+	ns7:order	"313"^^xsd:short .
+ns8:desi_3a4_iptv	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
-	ns7:member-of	ns14:desi_ind ;
-	ns7:order	"15" .
-ns19:desi_3a3_vod	rdf:type	ns3:IndicatorToGroupMembership ;
+	ns7:member-of	ns16:desi_ind ;
+	ns7:order	"314"^^xsd:short .
+ns8:desi_3b1_vidcall	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
-	ns7:member-of	ns14:desi_ind ;
-	ns7:order	"16" .
-ns19:desi_3a4_iptv	rdf:type	ns3:IndicatorToGroupMembership ;
+	ns7:member-of	ns16:desi_ind ;
+	ns7:order	"321"^^xsd:short .
+ns8:desi_3b2_socnet	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
-	ns7:member-of	ns14:desi_ind ;
-	ns7:order	"17" .
-ns19:desi_3b1_vidcall	rdf:type	ns3:IndicatorToGroupMembership ;
+	ns7:member-of	ns16:desi_ind ;
+	ns7:order	"322"^^xsd:short .
+ns8:desi_3c1_bank	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
-	ns7:member-of	ns14:desi_ind ;
-	ns7:order	"18" .
-ns19:desi_3b2_socnet	rdf:type	ns3:IndicatorToGroupMembership ;
+	ns7:member-of	ns16:desi_ind ;
+	ns7:order	"331"^^xsd:short .
+ns8:desi_3c2_shop	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
-	ns7:member-of	ns14:desi_ind ;
-	ns7:order	"19" .
-ns19:desi_3c1_bank	rdf:type	ns3:IndicatorToGroupMembership ;
+	ns7:member-of	ns16:desi_ind ;
+	ns7:order	"332"^^xsd:short .
+ns8:desi_4a1_eis	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
-	ns7:member-of	ns14:desi_ind ;
-	ns7:order	"20" .
-ns19:desi_3c2_shop	rdf:type	ns3:IndicatorToGroupMembership ;
+	ns7:member-of	ns16:desi_ind ;
+	ns7:order	"411"^^xsd:short .
+ns8:desi_4a2_rfid	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
-	ns7:member-of	ns14:desi_ind ;
-	ns7:order	"21" .
-ns19:desi_4a1_eis	rdf:type	ns3:IndicatorToGroupMembership ;
+	ns7:member-of	ns16:desi_ind ;
+	ns7:order	"412"^^xsd:short .
+ns8:desi_4a3_socmed	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
-	ns7:member-of	ns14:desi_ind ;
-	ns7:order	"22" .
-ns19:desi_4a2_rfid	rdf:type	ns3:IndicatorToGroupMembership ;
+	ns7:member-of	ns16:desi_ind ;
+	ns7:order	"413"^^xsd:short .
+ns8:desi_4a4_einv	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
-	ns7:member-of	ns14:desi_ind ;
-	ns7:order	"23" .
-ns19:desi_4a3_socmed	rdf:type	ns3:IndicatorToGroupMembership ;
+	ns7:member-of	ns16:desi_ind ;
+	ns7:order	"414"^^xsd:short .
+ns8:desi_4a5_cloud	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
-	ns7:member-of	ns14:desi_ind ;
-	ns7:order	"24" .
-ns19:desi_4a4_einv	rdf:type	ns3:IndicatorToGroupMembership ;
+	ns7:member-of	ns16:desi_ind ;
+	ns7:order	"415"^^xsd:short .
+ns8:desi_4b1_smeso	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
-	ns7:member-of	ns14:desi_ind ;
-	ns7:order	"25" .
-ns19:desi_4a5_cloud	rdf:type	ns3:IndicatorToGroupMembership ;
+	ns7:member-of	ns16:desi_ind ;
+	ns7:order	"421"^^xsd:short .
+ns8:desi_4b2_ecomturn	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
-	ns7:member-of	ns14:desi_ind ;
-	ns7:order	"26" .
-ns19:desi_4b1_smeso	rdf:type	ns3:IndicatorToGroupMembership ;
+	ns7:member-of	ns16:desi_ind ;
+	ns7:order	"422"^^xsd:short .
+ns8:desi_4b3_sellcb	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
-	ns7:member-of	ns14:desi_ind ;
-	ns7:order	"27" .
-ns19:desi_4b2_ecomturn	rdf:type	ns3:IndicatorToGroupMembership ;
+	ns7:member-of	ns16:desi_ind ;
+	ns7:order	"423"^^xsd:short .
+ns8:desi_5a1_egovu	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
-	ns7:member-of	ns14:desi_ind ;
-	ns7:order	"28" .
-ns19:desi_4b3_sellcb	rdf:type	ns3:IndicatorToGroupMembership ;
+	ns7:member-of	ns16:desi_ind ;
+	ns7:order	"511"^^xsd:short .
+ns8:desi_5a2_prefform	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
-	ns7:member-of	ns14:desi_ind ;
-	ns7:order	"29" .
-ns19:desi_5a1_egovu	rdf:type	ns3:IndicatorToGroupMembership ;
+	ns7:member-of	ns16:desi_ind ;
+	ns7:order	"512"^^xsd:short .
+ns8:desi_5a3_osercomp	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
-	ns7:member-of	ns14:desi_ind ;
-	ns7:order	"30" .
-ns19:desi_5a2_prefform	rdf:type	ns3:IndicatorToGroupMembership ;
+	ns7:member-of	ns16:desi_ind ;
+	ns7:order	"513"^^xsd:short .
+ns8:desi_5a4_opendata	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
-	ns7:member-of	ns14:desi_ind ;
-	ns7:order	"31" .
-ns19:desi_5a3_osercomp	rdf:type	ns3:IndicatorToGroupMembership ;
+	ns7:member-of	ns16:desi_ind ;
+	ns7:order	"514"^^xsd:short .
+ns8:desi_5b1_mdataexch	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
-	ns7:member-of	ns14:desi_ind ;
-	ns7:order	"32" .
-ns19:desi_5a4_opendata	rdf:type	ns3:IndicatorToGroupMembership ;
+	ns7:member-of	ns16:desi_ind ;
+	ns7:order	"521"^^xsd:short .
+ns8:desi_5b2_epresc	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
-	ns7:member-of	ns14:desi_ind ;
-	ns7:order	"33" .
-ns19:desi_5b1_mdataexch	rdf:type	ns3:IndicatorToGroupMembership ;
-	rdfs:label	"desi_ind" ;
-	ns7:member-of	ns14:desi_ind ;
-	ns7:order	"34" .
-ns19:desi_5b2_epresc	rdf:type	ns3:IndicatorToGroupMembership ;
-	rdfs:label	"desi_ind" ;
-	ns7:member-of	ns14:desi_ind ;
-	ns7:order	"35" .
-@prefix ns20:	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_sliders/> .
-ns20:desi_sliders	rdf:type	ns3:IndicatorToGroupMembership ;
+	ns7:member-of	ns16:desi_ind ;
+	ns7:order	"522"^^xsd:short .
+@prefix ns21:	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_sliders/> .
+ns21:desi_sliders	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_sliders" ;
-	ns7:member-of	ns14:desi_sliders ;
+	ns7:member-of	ns16:desi_sliders ;
 	ns7:order	"1" .
-@prefix ns21:	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim/> .
-ns21:desi_1a_fbb	rdf:type	ns3:IndicatorToGroupMembership ;
+ns9:desi_1a_fbb	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_subdim" ;
-	ns7:member-of	ns14:desi_subdim ;
-	ns7:order	"2" .
-ns21:desi_1b_mbb	rdf:type	ns3:IndicatorToGroupMembership ;
+	ns7:member-of	ns16:desi_subdim ;
+	ns7:order	"11"^^xsd:byte .
+ns9:desi_1b_mbb	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_subdim" ;
-	ns7:member-of	ns14:desi_subdim ;
-	ns7:order	"3" .
-ns21:desi_1c_speed	rdf:type	ns3:IndicatorToGroupMembership ;
+	ns7:member-of	ns16:desi_subdim ;
+	ns7:order	"12"^^xsd:byte .
+ns9:desi_1c_speed	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_subdim" ;
-	ns7:member-of	ns14:desi_subdim ;
-	ns7:order	"4" .
-ns21:desi_1d_aff	rdf:type	ns3:IndicatorToGroupMembership ;
+	ns7:member-of	ns16:desi_subdim ;
+	ns7:order	"13"^^xsd:byte .
+ns9:desi_1d_aff	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_subdim" ;
-	ns7:member-of	ns14:desi_subdim ;
-	ns7:order	"5" .
-ns21:desi_2a_bsu	rdf:type	ns3:IndicatorToGroupMembership ;
+	ns7:member-of	ns16:desi_subdim ;
+	ns7:order	"14"^^xsd:byte .
+ns9:desi_2a_bsu	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_subdim" ;
-	ns7:member-of	ns14:desi_subdim ;
-	ns7:order	"6" .
-ns21:desi_2b_asd	rdf:type	ns3:IndicatorToGroupMembership ;
+	ns7:member-of	ns16:desi_subdim ;
+	ns7:order	"21"^^xsd:byte .
+ns9:desi_2b_asd	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_subdim" ;
-	ns7:member-of	ns14:desi_subdim ;
-	ns7:order	"7" .
-ns21:desi_3a_cont	rdf:type	ns3:IndicatorToGroupMembership ;
+	ns7:member-of	ns16:desi_subdim ;
+	ns7:order	"22"^^xsd:byte .
+ns9:desi_3a_cont	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_subdim" ;
-	ns7:member-of	ns14:desi_subdim ;
-	ns7:order	"8" .
-ns21:desi_3b_comm	rdf:type	ns3:IndicatorToGroupMembership ;
+	ns7:member-of	ns16:desi_subdim ;
+	ns7:order	"31"^^xsd:byte .
+ns9:desi_3b_comm	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_subdim" ;
-	ns7:member-of	ns14:desi_subdim ;
-	ns7:order	"9" .
-ns21:desi_3c_trans	rdf:type	ns3:IndicatorToGroupMembership ;
+	ns7:member-of	ns16:desi_subdim ;
+	ns7:order	"32"^^xsd:byte .
+ns9:desi_3c_trans	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_subdim" ;
-	ns7:member-of	ns14:desi_subdim ;
-	ns7:order	"10" .
-ns21:desi_4a_bd	rdf:type	ns3:IndicatorToGroupMembership ;
+	ns7:member-of	ns16:desi_subdim ;
+	ns7:order	"33"^^xsd:byte .
+ns9:desi_4a_bd	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_subdim" ;
-	ns7:member-of	ns14:desi_subdim ;
-	ns7:order	"11" .
-ns21:desi_4b_ecomm	rdf:type	ns3:IndicatorToGroupMembership ;
+	ns7:member-of	ns16:desi_subdim ;
+	ns7:order	"41"^^xsd:byte .
+ns9:desi_4b_ecomm	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_subdim" ;
-	ns7:member-of	ns14:desi_subdim ;
-	ns7:order	"12" .
-ns21:desi_5a_egov	rdf:type	ns3:IndicatorToGroupMembership ;
+	ns7:member-of	ns16:desi_subdim ;
+	ns7:order	"42"^^xsd:byte .
+ns9:desi_5a_egov	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_subdim" ;
-	ns7:member-of	ns14:desi_subdim ;
-	ns7:order	"13" .
-ns21:desi_5b_ehealth	rdf:type	ns3:IndicatorToGroupMembership ;
-	rdfs:label	"desi_subdim" ;
-	ns7:member-of	ns14:desi_subdim ;
-	ns7:order	"14" .
+	ns7:member-of	ns16:desi_subdim ;
+	ns7:order	"51"^^xsd:byte .
 @prefix ns22:	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/discontinued/> .
 ns22:bb_fcov	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"discontinued" ;
-	ns7:member-of	ns14:discontinued ;
+	ns7:member-of	ns16:discontinued ;
 	ns7:order	"16" .
 ns22:e_ade	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"discontinued" ;
-	ns7:member-of	ns14:discontinued ;
+	ns7:member-of	ns16:discontinued ;
 	ns7:order	"3" .
 ns22:e_ebuy	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"discontinued" ;
-	ns7:member-of	ns14:discontinued ;
+	ns7:member-of	ns16:discontinued ;
 	ns7:order	"5" .
 ns22:e_igov	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"discontinued" ;
-	ns7:member-of	ns14:discontinued ;
+	ns7:member-of	ns16:discontinued ;
 	ns7:order	"25" .
 ns22:e_igov2pr	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"discontinued" ;
-	ns7:member-of	ns14:discontinued ;
+	ns7:member-of	ns16:discontinued ;
 	ns7:order	"27" .
 ns22:e_igovrt	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"discontinued" ;
-	ns7:member-of	ns14:discontinued ;
+	ns7:member-of	ns16:discontinued ;
 	ns7:order	"26" .
 ns22:e_inv	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"discontinued" ;
-	ns7:member-of	ns14:discontinued ;
+	ns7:member-of	ns16:discontinued ;
 	ns7:order	"4" .
 ns22:e_sisorp	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"discontinued" ;
-	ns7:member-of	ns14:discontinued ;
+	ns7:member-of	ns16:discontinued ;
 	ns7:order	"2" .
 ns22:foa_cit	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"discontinued" ;
-	ns7:member-of	ns14:discontinued ;
+	ns7:member-of	ns16:discontinued ;
 	ns7:order	"19" .
 ns22:foa_ent	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"discontinued" ;
-	ns7:member-of	ns14:discontinued ;
+	ns7:member-of	ns16:discontinued ;
 	ns7:order	"20" .
 ns22:i_cisk_sfjob	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"discontinued" ;
-	ns7:member-of	ns14:discontinued ;
+	ns7:member-of	ns16:discontinued ;
 	ns7:order	"12" .
 ns22:i_csk_ge_me	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"discontinued" ;
-	ns7:member-of	ns14:discontinued ;
+	ns7:member-of	ns16:discontinued ;
 	ns7:order	"10" .
 ns22:i_cweb	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"discontinued" ;
-	ns7:member-of	ns14:discontinued ;
+	ns7:member-of	ns16:discontinued ;
 	ns7:order	"9" .
 ns22:i_igovrt	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"discontinued" ;
-	ns7:member-of	ns14:discontinued ;
+	ns7:member-of	ns16:discontinued ;
 	ns7:order	"24" .
 ns22:i_isk_ge_me	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"discontinued" ;
-	ns7:member-of	ns14:discontinued ;
+	ns7:member-of	ns16:discontinued ;
 	ns7:order	"11" .
 ns22:i_iugov	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"discontinued" ;
-	ns7:member-of	ns14:discontinued ;
+	ns7:member-of	ns16:discontinued ;
 	ns7:order	"23" .
 ns22:ict_specialists	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"discontinued" ;
-	ns7:member-of	ns14:discontinued ;
+	ns7:member-of	ns16:discontinued ;
 	ns7:order	"15" .
 ns22:mbb_3gcov	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"discontinued" ;
-	ns7:member-of	ns14:discontinued ;
+	ns7:member-of	ns16:discontinued ;
 	ns7:order	"17" .
 ns22:mob_arpm	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"discontinued" ;
-	ns7:member-of	ns14:discontinued ;
+	ns7:member-of	ns16:discontinued ;
 	ns7:order	"18" .
 ns22:transparent_egov	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"discontinued" ;
-	ns7:member-of	ns14:discontinued ;
+	ns7:member-of	ns16:discontinued ;
 	ns7:order	"22" .
 ns22:user_centric_egov	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"discontinued" ;
-	ns7:member-of	ns14:discontinued ;
+	ns7:member-of	ns16:discontinued ;
 	ns7:order	"21" .
 @prefix ns23:	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/> .
 ns23:e_ads	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"ebusiness" ;
-	ns7:member-of	ns14:ebusiness ;
+	ns7:member-of	ns16:ebusiness ;
 	ns7:order	"15" .
 ns23:e_bd	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"ebusiness" ;
-	ns7:member-of	ns14:ebusiness ;
+	ns7:member-of	ns16:ebusiness ;
 	ns7:order	"30" .
 ns23:e_cc	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"ebusiness" ;
-	ns7:member-of	ns14:ebusiness ;
+	ns7:member-of	ns16:ebusiness ;
 	ns7:order	"27" .
 ns23:e_cc_ge_me	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"ebusiness" ;
-	ns7:member-of	ns14:ebusiness ;
+	ns7:member-of	ns16:ebusiness ;
 	ns7:order	"28" .
 ns23:e_cc_pcpu	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"ebusiness" ;
-	ns7:member-of	ns14:ebusiness ;
+	ns7:member-of	ns16:ebusiness ;
 	ns7:order	"29" .
 ns23:e_crman	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"ebusiness" ;
-	ns7:member-of	ns14:ebusiness ;
+	ns7:member-of	ns16:ebusiness ;
 	ns7:order	"3" .
 ns23:e_di_hivhi	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"ebusiness" ;
-	ns7:member-of	ns14:ebusiness ;
+	ns7:member-of	ns16:ebusiness ;
 	ns7:order	"16" .
 ns23:e_di_vlo	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"ebusiness" ;
-	ns7:member-of	ns14:ebusiness ;
+	ns7:member-of	ns16:ebusiness ;
 	ns7:order	"17" .
 ns23:e_empmd_gt20	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"ebusiness" ;
-	ns7:member-of	ns14:ebusiness ;
+	ns7:member-of	ns16:ebusiness ;
 	ns7:order	"12" .
 ns23:e_erp1	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"ebusiness" ;
-	ns7:member-of	ns14:ebusiness ;
+	ns7:member-of	ns16:ebusiness ;
 	ns7:order	"2" .
 ns23:e_invsnd	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"ebusiness" ;
-	ns7:member-of	ns14:ebusiness ;
+	ns7:member-of	ns16:ebusiness ;
 	ns7:order	"8" .
 ns23:e_pmd_app	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"ebusiness" ;
-	ns7:member-of	ns14:ebusiness ;
+	ns7:member-of	ns16:ebusiness ;
 	ns7:order	"14" .
 ns23:e_ra	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"ebusiness" ;
-	ns7:member-of	ns14:ebusiness ;
+	ns7:member-of	ns16:ebusiness ;
 	ns7:order	"11" .
 ns23:e_rfac	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"ebusiness" ;
-	ns7:member-of	ns14:ebusiness ;
+	ns7:member-of	ns16:ebusiness ;
 	ns7:order	"21" .
 ns23:e_rfid	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"ebusiness" ;
-	ns7:member-of	ns14:ebusiness ;
+	ns7:member-of	ns16:ebusiness ;
 	ns7:order	"20" .
 ns23:e_rfpsas	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"ebusiness" ;
-	ns7:member-of	ns14:ebusiness ;
+	ns7:member-of	ns16:ebusiness ;
 	ns7:order	"22" .
 ns23:e_sisc	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"ebusiness" ;
-	ns7:member-of	ns14:ebusiness ;
+	ns7:member-of	ns16:ebusiness ;
 	ns7:order	"7" .
 ns23:e_sm_any	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"ebusiness" ;
-	ns7:member-of	ns14:ebusiness ;
+	ns7:member-of	ns16:ebusiness ;
 	ns7:order	"25" .
 ns23:e_sm_ge2	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"ebusiness" ;
-	ns7:member-of	ns14:ebusiness ;
+	ns7:member-of	ns16:ebusiness ;
 	ns7:order	"26" .
 ns23:e_web	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"ebusiness" ;
-	ns7:member-of	ns14:ebusiness ;
+	ns7:member-of	ns16:ebusiness ;
 	ns7:order	"9" .
 ns23:e_webf2	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"ebusiness" ;
-	ns7:member-of	ns14:ebusiness ;
+	ns7:member-of	ns16:ebusiness ;
 	ns7:order	"10" .
 ns23:edigint2015	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"ebusiness" ;
-	ns7:member-of	ns14:ebusiness ;
+	ns7:member-of	ns16:ebusiness ;
 	ns7:order	"18" .
 ns23:p_empmd	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"ebusiness" ;
-	ns7:member-of	ns14:ebusiness ;
+	ns7:member-of	ns16:ebusiness ;
 	ns7:order	"13" .
 @prefix ns24:	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ecommerce/> .
 ns24:e_aeseu	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"ecommerce" ;
-	ns7:member-of	ns14:ecommerce ;
+	ns7:member-of	ns16:ecommerce ;
 	ns7:order	"12" .
 ns24:e_aws	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"ecommerce" ;
-	ns7:member-of	ns14:ecommerce .
+	ns7:member-of	ns16:ecommerce .
 ns24:e_aws_cmp	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"ecommerce" ;
-	ns7:member-of	ns14:ecommerce .
+	ns7:member-of	ns16:ecommerce .
 ns24:e_aws_cown	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"ecommerce" ;
-	ns7:member-of	ns14:ecommerce .
+	ns7:member-of	ns16:ecommerce .
 ns24:e_aws_gt1_b2c_gt10ws	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"ecommerce" ;
-	ns7:member-of	ns14:ecommerce ;
+	ns7:member-of	ns16:ecommerce ;
 	ns7:order	"13" .
 ns24:e_awsval_cmp	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"ecommerce" ;
-	ns7:member-of	ns14:ecommerce .
+	ns7:member-of	ns16:ecommerce .
 ns24:e_awsval_cown	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"ecommerce" ;
-	ns7:member-of	ns14:ecommerce .
+	ns7:member-of	ns16:ecommerce .
 ns24:e_esell	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"ecommerce" ;
-	ns7:member-of	ns14:ecommerce ;
+	ns7:member-of	ns16:ecommerce ;
 	ns7:order	"10" .
 ns24:e_eturn	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"ecommerce" ;
-	ns7:member-of	ns14:ecommerce ;
+	ns7:member-of	ns16:ecommerce ;
 	ns7:order	"11" .
 ns24:e_wsel25	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"ecommerce" ;
-	ns7:member-of	ns14:ecommerce .
+	ns7:member-of	ns16:ecommerce .
 ns24:e_wsel50	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"ecommerce" ;
-	ns7:member-of	ns14:ecommerce .
+	ns7:member-of	ns16:ecommerce .
 ns24:i_barr1x	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"ecommerce" ;
-	ns7:member-of	ns14:ecommerce ;
+	ns7:member-of	ns16:ecommerce ;
 	ns7:order	"9" .
 ns24:i_bfeu	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"ecommerce" ;
-	ns7:member-of	ns14:ecommerce ;
+	ns7:member-of	ns16:ecommerce ;
 	ns7:order	"3" .
 ns24:i_bgood	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"ecommerce" ;
-	ns7:member-of	ns14:ecommerce ;
+	ns7:member-of	ns16:ecommerce ;
 	ns7:order	"7" .
 ns24:i_bgoodo	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"ecommerce" ;
-	ns7:member-of	ns14:ecommerce ;
+	ns7:member-of	ns16:ecommerce ;
 	ns7:order	"6" .
 ns24:i_blt12	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"ecommerce" ;
-	ns7:member-of	ns14:ecommerce ;
+	ns7:member-of	ns16:ecommerce ;
 	ns7:order	"1" .
 ns24:i_bpgood	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"ecommerce" ;
-	ns7:member-of	ns14:ecommerce ;
+	ns7:member-of	ns16:ecommerce ;
 	ns7:order	"4" .
 ns24:i_bserv	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"ecommerce" ;
-	ns7:member-of	ns14:ecommerce ;
+	ns7:member-of	ns16:ecommerce ;
 	ns7:order	"5" .
 ns24:i_iusell	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"ecommerce" ;
-	ns7:member-of	ns14:ecommerce ;
+	ns7:member-of	ns16:ecommerce ;
 	ns7:order	"8" .
 @prefix ns25:	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/egovernment/> .
 ns25:e_gov_osc	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"egovernment" ;
-	ns7:member-of	ns14:egovernment ;
+	ns7:member-of	ns16:egovernment ;
 	ns7:order	"3" .
 ns25:e_gov_pff	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"egovernment" ;
-	ns7:member-of	ns14:egovernment ;
+	ns7:member-of	ns16:egovernment ;
 	ns7:order	"4" .
 ns25:epsi_score	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"egovernment" ;
-	ns7:member-of	ns14:egovernment ;
+	ns7:member-of	ns16:egovernment ;
 	ns7:order	"5" .
 ns25:i_igov12rt	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"egovernment" ;
-	ns7:member-of	ns14:egovernment ;
+	ns7:member-of	ns16:egovernment ;
 	ns7:order	"2" .
 ns25:i_iugov12	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"egovernment" ;
-	ns7:member-of	ns14:egovernment ;
+	ns7:member-of	ns16:egovernment ;
 	ns7:order	"1" .
 @prefix ns26:	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ehealth/> .
 ns26:hie_use_ex_admin	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"ehealth" ;
-	ns7:member-of	ns14:ehealth ;
+	ns7:member-of	ns16:ehealth ;
 	ns7:order	"4" .
 ns26:hie_use_pharm	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"ehealth" ;
-	ns7:member-of	ns14:ehealth ;
+	ns7:member-of	ns16:ehealth ;
 	ns7:order	"3" .
 ns26:i_ihif	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"ehealth" ;
-	ns7:member-of	ns14:ehealth ;
+	ns7:member-of	ns16:ehealth ;
 	ns7:order	"1" .
 ns26:i_iumapp	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"ehealth" ;
-	ns7:member-of	ns14:ehealth ;
+	ns7:member-of	ns16:ehealth ;
 	ns7:order	"2" .
 @prefix ns27:	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-edu/> .
 ns27:eun_computers	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"ict-edu" ;
-	ns7:member-of	ns14:ict-edu ;
+	ns7:member-of	ns16:ict-edu ;
 	ns7:order	"1" .
 ns27:eun_web	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"ict-edu" ;
-	ns7:member-of	ns14:ict-edu ;
+	ns7:member-of	ns16:ict-edu ;
 	ns7:order	"2" .
 @prefix ns28:	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-sector/> .
 ns28:bs_rd_expen_ict	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"ict-sector" ;
-	ns7:member-of	ns14:ict-sector ;
+	ns7:member-of	ns16:ict-sector ;
 	ns7:order	"6" .
 ns28:employment_ict	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"ict-sector" ;
-	ns7:member-of	ns14:ict-sector ;
+	ns7:member-of	ns16:ict-sector ;
 	ns7:order	"4" .
 ns28:ict_exp	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"ict-sector" ;
-	ns7:member-of	ns14:ict-sector ;
+	ns7:member-of	ns16:ict-sector ;
 	ns7:order	"1" .
 ns28:ict_hgc	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"ict-sector" ;
-	ns7:member-of	ns14:ict-sector ;
+	ns7:member-of	ns16:ict-sector ;
 	ns7:order	"3" .
 ns28:ict_imp	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"ict-sector" ;
-	ns7:member-of	ns14:ict-sector ;
+	ns7:member-of	ns16:ict-sector ;
 	ns7:order	"2" .
 ns28:labour_prod_ict	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"ict-sector" ;
-	ns7:member-of	ns14:ict-sector ;
+	ns7:member-of	ns16:ict-sector ;
 	ns7:order	"7" .
 ns28:val_add_ict	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"ict-sector" ;
-	ns7:member-of	ns14:ict-sector ;
+	ns7:member-of	ns16:ict-sector ;
 	ns7:order	"5" .
 @prefix ns29:	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/> .
 ns29:digskillindex	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"ict-skills" ;
-	ns7:member-of	ns14:ict-skills ;
+	ns7:member-of	ns16:ict-skills ;
 	ns7:order	"17" .
 ns29:digskillindex_basicandabove	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"ict-skills" ;
-	ns7:member-of	ns14:ict-skills ;
+	ns7:member-of	ns16:ict-skills ;
 	ns7:order	"18" .
 ns29:i-dsk-c	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"ict-skills" ;
-	ns7:member-of	ns14:ict-skills ;
+	ns7:member-of	ns16:ict-skills ;
 	ns7:order	"11" .
 ns29:i-dsk-i	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"ict-skills" ;
-	ns7:member-of	ns14:ict-skills ;
+	ns7:member-of	ns16:ict-skills ;
 	ns7:order	"9" .
 ns29:i-dsk-ind	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"ict-skills" ;
-	ns7:member-of	ns14:ict-skills ;
+	ns7:member-of	ns16:ict-skills ;
 	ns7:order	"7" .
 ns29:i-dsk-iu3	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"ict-skills" ;
-	ns7:member-of	ns14:ict-skills ;
+	ns7:member-of	ns16:ict-skills ;
 	ns7:order	"6" .
 ns29:i-dsk-ps	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"ict-skills" ;
-	ns7:member-of	ns14:ict-skills ;
+	ns7:member-of	ns16:ict-skills ;
 	ns7:order	"13" .
 ns29:i-dsk-s	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"ict-skills" ;
-	ns7:member-of	ns14:ict-skills ;
+	ns7:member-of	ns16:ict-skills ;
 	ns7:order	"15" .
 ns29:i_cisk_sfjobx	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"ict-skills" ;
-	ns7:member-of	ns14:ict-skills ;
+	ns7:member-of	ns16:ict-skills ;
 	ns7:order	"4" .
 ns29:i_cprg	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"ict-skills" ;
-	ns7:member-of	ns14:ict-skills ;
+	ns7:member-of	ns16:ict-skills ;
 	ns7:order	"1" .
 ns29:i_dsk_bab	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"ict-skills" ;
-	ns7:member-of	ns14:ict-skills ;
+	ns7:member-of	ns16:ict-skills ;
 	ns7:order	"8" .
 ns29:i_dsk_c_bab	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"ict-skills" ;
-	ns7:member-of	ns14:ict-skills ;
+	ns7:member-of	ns16:ict-skills ;
 	ns7:order	"12" .
 ns29:i_dsk_i_bab	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"ict-skills" ;
-	ns7:member-of	ns14:ict-skills ;
+	ns7:member-of	ns16:ict-skills ;
 	ns7:order	"10" .
 ns29:i_dsk_ps_bab	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"ict-skills" ;
-	ns7:member-of	ns14:ict-skills ;
+	ns7:member-of	ns16:ict-skills ;
 	ns7:order	"14" .
 ns29:i_dsk_s_bab	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"ict-skills" ;
-	ns7:member-of	ns14:ict-skills ;
+	ns7:member-of	ns16:ict-skills ;
 	ns7:order	"16" .
 ns29:i_skedu	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"ict-skills" ;
-	ns7:member-of	ns14:ict-skills ;
+	ns7:member-of	ns16:ict-skills ;
 	ns7:order	"2" .
 ns29:p_iuse	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"ict-skills" ;
-	ns7:member-of	ns14:ict-skills ;
+	ns7:member-of	ns16:ict-skills ;
 	ns7:order	"3" .
 ns29:st_grad	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"ict-skills" ;
-	ns7:member-of	ns14:ict-skills ;
+	ns7:member-of	ns16:ict-skills ;
 	ns7:order	"5" .
 @prefix ns30:	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-specialist/> .
 ns30:e_it_mext	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"ict-specialist" ;
-	ns7:member-of	ns14:ict-specialist ;
+	ns7:member-of	ns16:ict-specialist ;
 	ns7:order	"4" .
 ns30:e_itsp2	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"ict-specialist" ;
-	ns7:member-of	ns14:ict-specialist ;
+	ns7:member-of	ns16:ict-specialist ;
 	ns7:order	"1" .
 ns30:e_itspvac2	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"ict-specialist" ;
-	ns7:member-of	ns14:ict-specialist ;
+	ns7:member-of	ns16:ict-specialist ;
 	ns7:order	"2" .
 ns30:e_itt2	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"ict-specialist" ;
-	ns7:member-of	ns14:ict-specialist ;
+	ns7:member-of	ns16:ict-specialist ;
 	ns7:order	"5" .
 ns30:ict_spec3_broad	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"ict-specialist" ;
-	ns7:member-of	ns14:ict-specialist ;
+	ns7:member-of	ns16:ict-specialist ;
 	ns7:order	"3" .
 @prefix ns31:	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/internet-services/> .
 ns31:i_cc	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"internet-services" ;
-	ns7:member-of	ns14:internet-services ;
+	ns7:member-of	ns16:internet-services ;
 	ns7:order	"14" .
 ns31:i_iubk	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"internet-services" ;
-	ns7:member-of	ns14:internet-services ;
+	ns7:member-of	ns16:internet-services ;
 	ns7:order	"4" .
 ns31:i_iueduif	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"internet-services" ;
-	ns7:member-of	ns14:internet-services ;
+	ns7:member-of	ns16:internet-services ;
 	ns7:order	"10" .
 ns31:i_iuif	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"internet-services" ;
-	ns7:member-of	ns14:internet-services ;
+	ns7:member-of	ns16:internet-services ;
 	ns7:order	"1" .
 ns31:i_iujob	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"internet-services" ;
-	ns7:member-of	ns14:internet-services ;
+	ns7:member-of	ns16:internet-services ;
 	ns7:order	"8" .
 ns31:i_iuolc	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"internet-services" ;
-	ns7:member-of	ns14:internet-services ;
+	ns7:member-of	ns16:internet-services ;
 	ns7:order	"9" .
 ns31:i_iuph1	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"internet-services" ;
-	ns7:member-of	ns14:internet-services ;
+	ns7:member-of	ns16:internet-services ;
 	ns7:order	"5" .
 ns31:i_iusnet	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"internet-services" ;
-	ns7:member-of	ns14:internet-services ;
+	ns7:member-of	ns16:internet-services ;
 	ns7:order	"7" .
 ns31:i_iuupl	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"internet-services" ;
-	ns7:member-of	ns14:internet-services ;
+	ns7:member-of	ns16:internet-services ;
 	ns7:order	"6" .
 ns31:i_iuvote	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"internet-services" ;
-	ns7:member-of	ns14:internet-services ;
+	ns7:member-of	ns16:internet-services ;
 	ns7:order	"13" .
 @prefix ns32:	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/internet-usage/> .
 ns32:aaaa_cov	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"internet-usage" ;
-	ns7:member-of	ns14:internet-usage ;
+	ns7:member-of	ns16:internet-usage ;
 	ns7:order	"9" .
 ns32:h_iacc	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"internet-usage" ;
-	ns7:member-of	ns14:internet-usage ;
+	ns7:member-of	ns16:internet-usage ;
 	ns7:order	"1" .
 ns32:i_ia12ave	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"internet-usage" ;
-	ns7:member-of	ns14:internet-usage ;
+	ns7:member-of	ns16:internet-usage ;
 	ns7:order	"8" .
 ns32:i_iday	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"internet-usage" ;
-	ns7:member-of	ns14:internet-usage ;
+	ns7:member-of	ns16:internet-usage ;
 	ns7:order	"5" .
 ns32:i_ilt12	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"internet-usage" ;
-	ns7:member-of	ns14:internet-usage ;
+	ns7:member-of	ns16:internet-usage ;
 	ns7:order	"3" .
 ns32:i_iu3	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"internet-usage" ;
-	ns7:member-of	ns14:internet-usage ;
+	ns7:member-of	ns16:internet-usage ;
 	ns7:order	"2" .
 ns32:i_iumc	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"internet-usage" ;
-	ns7:member-of	ns14:internet-usage ;
+	ns7:member-of	ns16:internet-usage ;
 	ns7:order	"6" .
 ns32:i_iuse	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"internet-usage" ;
-	ns7:member-of	ns14:internet-usage ;
+	ns7:member-of	ns16:internet-usage ;
 	ns7:order	"4" .
 ns32:i_iux	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"internet-usage" ;
-	ns7:member-of	ns14:internet-usage ;
+	ns7:member-of	ns16:internet-usage ;
 	ns7:order	"7" .
 @prefix ns33:	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/mobile/> .
 ns33:e_pmd	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"mobile" ;
-	ns7:member-of	ns14:mobile ;
+	ns7:member-of	ns16:mobile ;
 	ns7:order	"9" .
 ns33:i_iu3g	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"mobile" ;
-	ns7:member-of	ns14:mobile ;
+	ns7:member-of	ns16:mobile ;
 	ns7:order	"8" .
 ns33:mbb_hspacov	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"mobile" ;
-	ns7:member-of	ns14:mobile ;
+	ns7:member-of	ns16:mobile ;
 	ns7:order	"1" .
 ns33:mbb_ltecov	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"mobile" ;
-	ns7:member-of	ns14:mobile ;
+	ns7:member-of	ns16:mobile ;
 	ns7:order	"2" .
 ns33:mbb_penet	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"mobile" ;
-	ns7:member-of	ns14:mobile ;
+	ns7:member-of	ns16:mobile ;
 	ns7:order	"6" .
 ns33:mob_arpu	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"mobile" ;
-	ns7:member-of	ns14:mobile ;
+	ns7:member-of	ns16:mobile ;
 	ns7:order	"10" .
 ns33:mob_ms	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"mobile" ;
-	ns7:member-of	ns14:mobile ;
+	ns7:member-of	ns16:mobile ;
 	ns7:order	"7" .
 ns33:mob_mtr	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"mobile" ;
-	ns7:member-of	ns14:mobile ;
+	ns7:member-of	ns16:mobile ;
 	ns7:order	"13" .
 ns33:mob_penet	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"mobile" ;
-	ns7:member-of	ns14:mobile ;
+	ns7:member-of	ns16:mobile ;
 	ns7:order	"5" .
 ns33:mob_roam	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"mobile" ;
-	ns7:member-of	ns14:mobile ;
+	ns7:member-of	ns16:mobile ;
 	ns7:order	"11" .
 ns33:mob_subs	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"mobile" ;
-	ns7:member-of	ns14:mobile ;
+	ns7:member-of	ns16:mobile ;
 	ns7:order	"4" .
 ns33:spectrum_wbb	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"mobile" ;
-	ns7:member-of	ns14:mobile ;
+	ns7:member-of	ns16:mobile ;
 	ns7:order	"12" .
 @prefix ns34:	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/research-and-development/> .
 ns34:avg_ttg	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"research-and-development" ;
-	ns7:member-of	ns14:research-and-development ;
+	ns7:member-of	ns16:research-and-development ;
 	ns7:order	"21" .
 ns34:fp7_ict_artic	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"research-and-development" ;
-	ns7:member-of	ns14:research-and-development ;
+	ns7:member-of	ns16:research-and-development ;
 	ns7:order	"32" .
 ns34:fp7_ict_pat	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"research-and-development" ;
-	ns7:member-of	ns14:research-and-development ;
+	ns7:member-of	ns16:research-and-development ;
 	ns7:order	"30" .
 ns34:fp7_ict_pub	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"research-and-development" ;
-	ns7:member-of	ns14:research-and-development ;
+	ns7:member-of	ns16:research-and-development ;
 	ns7:order	"31" .
 ns34:fp7ict_afxp	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"research-and-development" ;
-	ns7:member-of	ns14:research-and-development ;
+	ns7:member-of	ns16:research-and-development ;
 	ns7:order	"17" .
 ns34:fp7ict_cofin	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"research-and-development" ;
-	ns7:member-of	ns14:research-and-development ;
+	ns7:member-of	ns16:research-and-development ;
 	ns7:order	"15" .
 ns34:fp7ict_ec_funding	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"research-and-development" ;
-	ns7:member-of	ns14:research-and-development ;
+	ns7:member-of	ns16:research-and-development ;
 	ns7:order	"13" .
 ns34:fp7ict_ec_funding_prc	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"research-and-development" ;
-	ns7:member-of	ns14:research-and-development ;
+	ns7:member-of	ns16:research-and-development ;
 	ns7:order	"41" .
 ns34:fp7ict_ec_funding_smes	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"research-and-development" ;
-	ns7:member-of	ns14:research-and-development ;
+	ns7:member-of	ns16:research-and-development ;
 	ns7:order	"42" .
 ns34:fp7ict_newentry	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"research-and-development" ;
-	ns7:member-of	ns14:research-and-development ;
+	ns7:member-of	ns16:research-and-development ;
 	ns7:order	"18" .
 ns34:fp7ict_organisations	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"research-and-development" ;
-	ns7:member-of	ns14:research-and-development ;
+	ns7:member-of	ns16:research-and-development ;
 	ns7:order	"19" .
 ns34:fp7ict_particip	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"research-and-development" ;
-	ns7:member-of	ns14:research-and-development ;
+	ns7:member-of	ns16:research-and-development ;
 	ns7:order	"16" .
 ns34:fp7ict_particip_prc	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"research-and-development" ;
-	ns7:member-of	ns14:research-and-development ;
+	ns7:member-of	ns16:research-and-development ;
 	ns7:order	"43" .
 ns34:fp7ict_particip_smes	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"research-and-development" ;
-	ns7:member-of	ns14:research-and-development ;
+	ns7:member-of	ns16:research-and-development ;
 	ns7:order	"44" .
 ns34:fp7ict_totcost	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"research-and-development" ;
-	ns7:member-of	ns14:research-and-development ;
+	ns7:member-of	ns16:research-and-development ;
 	ns7:order	"14" .
 ns34:gbaord	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"research-and-development" ;
-	ns7:member-of	ns14:research-and-development ;
+	ns7:member-of	ns16:research-and-development ;
 	ns7:order	"1" .
 ns34:gbaord_ict	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"research-and-development" ;
-	ns7:member-of	ns14:research-and-development ;
+	ns7:member-of	ns16:research-and-development ;
 	ns7:order	"2" .
 ns34:h2020_cofin	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"research-and-development" ;
-	ns7:member-of	ns14:research-and-development ;
+	ns7:member-of	ns16:research-and-development ;
 	ns7:order	"5" .
 ns34:h2020_ec_funding	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"research-and-development" ;
-	ns7:member-of	ns14:research-and-development ;
+	ns7:member-of	ns16:research-and-development ;
 	ns7:order	"3" .
 ns34:h2020_newentry	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"research-and-development" ;
-	ns7:member-of	ns14:research-and-development ;
+	ns7:member-of	ns16:research-and-development ;
 	ns7:order	"9" .
 ns34:h2020_organisations	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"research-and-development" ;
-	ns7:member-of	ns14:research-and-development ;
+	ns7:member-of	ns16:research-and-development ;
 	ns7:order	"8" .
 ns34:h2020_particip	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"research-and-development" ;
-	ns7:member-of	ns14:research-and-development ;
+	ns7:member-of	ns16:research-and-development ;
 	ns7:order	"6" .
 ns34:h2020_totcost	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"research-and-development" ;
-	ns7:member-of	ns14:research-and-development ;
+	ns7:member-of	ns16:research-and-development ;
 	ns7:order	"4" .
 ns34:h2020ict_afxp	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"research-and-development" ;
-	ns7:member-of	ns14:research-and-development ;
+	ns7:member-of	ns16:research-and-development ;
 	ns7:order	"7" .
 ns34:ict_commit_in_trp	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"research-and-development" ;
-	ns7:member-of	ns14:research-and-development ;
+	ns7:member-of	ns16:research-and-development ;
 	ns7:order	"20" .
 ns34:pay_on_time_projects	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"research-and-development" ;
-	ns7:member-of	ns14:research-and-development ;
+	ns7:member-of	ns16:research-and-development ;
 	ns7:order	"23" .
 ns34:ttg_in_scope	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"research-and-development" ;
-	ns7:member-of	ns14:research-and-development ;
+	ns7:member-of	ns16:research-and-development ;
 	ns7:order	"22" .
 @prefix ns35:	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/research_einfra/> .
 ns35:c1_bandwidth	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"research_einfra" ;
-	ns7:member-of	ns14:research_einfra ;
+	ns7:member-of	ns16:research_einfra ;
 	ns7:order	"3" .
 ns35:c1_compcyclesegi	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"research_einfra" ;
-	ns7:member-of	ns14:research_einfra ;
+	ns7:member-of	ns16:research_einfra ;
 	ns7:order	"1" .
 ns35:c1_compcyclesprace	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"research_einfra" ;
-	ns7:member-of	ns14:research_einfra ;
+	ns7:member-of	ns16:research_einfra ;
 	ns7:order	"2" .
 ns35:c1_datatraffic	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"research_einfra" ;
-	ns7:member-of	ns14:research_einfra ;
+	ns7:member-of	ns16:research_einfra ;
 	ns7:order	"4" .
 @prefix ns36:	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/security-privacy/> .
 ns36:e_ads_loc	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"security-privacy" ;
-	ns7:member-of	ns14:security-privacy ;
+	ns7:member-of	ns16:security-privacy ;
 	ns7:order	"9" .
 ns36:e_ads_trk	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"security-privacy" ;
-	ns7:member-of	ns14:security-privacy ;
+	ns7:member-of	ns16:security-privacy ;
 	ns7:order	"10" .
 ns36:e_secpol1	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"security-privacy" ;
-	ns7:member-of	ns14:security-privacy ;
+	ns7:member-of	ns16:security-privacy ;
 	ns7:order	"11" .
 ns36:i_atsw	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"security-privacy" ;
-	ns7:member-of	ns14:security-privacy ;
+	ns7:member-of	ns16:security-privacy ;
 	ns7:order	"7" .
 ns36:i_cook	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"security-privacy" ;
-	ns7:member-of	ns14:security-privacy ;
+	ns7:member-of	ns16:security-privacy ;
 	ns7:order	"6" .
 ns36:i_piacadv	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"security-privacy" ;
-	ns7:member-of	ns14:security-privacy ;
+	ns7:member-of	ns16:security-privacy ;
 	ns7:order	"8" .
 ns36:i_sbgood	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"security-privacy" ;
-	ns7:member-of	ns14:security-privacy ;
+	ns7:member-of	ns16:security-privacy ;
 	ns7:order	"5" .
 ns36:i_secfl	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"security-privacy" ;
-	ns7:member-of	ns14:security-privacy ;
+	ns7:member-of	ns16:security-privacy ;
 	ns7:order	"2" .
 ns36:i_secpif1	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"security-privacy" ;
-	ns7:member-of	ns14:security-privacy ;
+	ns7:member-of	ns16:security-privacy ;
 	ns7:order	"3" .
 ns36:i_secvir1	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"security-privacy" ;
-	ns7:member-of	ns14:security-privacy ;
+	ns7:member-of	ns16:security-privacy ;
 	ns7:order	"4" .
 @prefix ns37:	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/telecom/> .
 ns37:tel_ftr	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"telecom" ;
-	ns7:member-of	ns14:telecom ;
+	ns7:member-of	ns16:telecom ;
 	ns7:order	"3" .
 ns37:tel_inv	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"telecom" ;
-	ns7:member-of	ns14:telecom ;
+	ns7:member-of	ns16:telecom ;
 	ns7:order	"2" .
 ns37:tel_llu	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"telecom" ;
-	ns7:member-of	ns14:telecom ;
+	ns7:member-of	ns16:telecom ;
 	ns7:order	"4" .
 ns37:tel_rev	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"telecom" ;
-	ns7:member-of	ns14:telecom ;
+	ns7:member-of	ns16:telecom ;
 	ns7:order	"1" .
 ns1:aaaa_cov	rdf:type	ns3:Indicator ,
 		skos:Concept ;
@@ -1413,7 +1502,7 @@ ns1:afford_internet_only_minppp	rdf:type	ns3:Indicator ,
 	skos:definition	"Affordability is defined as 12 times the monthly price divided by the \"real adjusted gross disposable income of households per capita\" of the previous year. Disposable income data come from  Eurostat table  <a href=\"http://ec.europa.eu/eurostat/tgm/table.do?tab=table&plugin=1&language=en&pcode=tec00113\">tec00113</a>. Monthly price of standalone Fixed Broadband Internet Access offers, include value added tax, exclude the additional cost of telephony or cable line (if any), and refers to the minimum price in the group of similar subscriptions offered by internet service providers (see the <a href=\"http://digital-agenda-data.eu/charts/see-the-evolution-of-an-indicator-and-compare-countries#chart={%22indicator-group%22:%22any%22,%22indicator%22:%22Price_Internet_only%22,%22breakdown%22:%22offer_12_30_Mbps%22,%22unit-measure%22:%22minimum_euro_PPP%22,%22ref-area%22:[%22EU27%22]}\">original indicator</a>). " ;
 	skos:topConceptOf	ns4:indicator ;
 	ns5:source	ns6:biac ;
-	ns7:membership	ns8:afford_internet_only_minppp ;
+	ns7:membership	ns10:afford_internet_only_minppp ;
 	skos:altLabel	"Affordability of Fixed Internet Access" ;
 	skos:prefLabel	"Affordability of standalone Fixed Internet Access (minimum price offer)" .
 ns1:avg_ttg	rdf:type	ns3:Indicator ,
@@ -1431,7 +1520,7 @@ ns1:bb_dsl	rdf:type	ns3:Indicator ,
 	skos:definition	"Share of DSL (Digital Subscriber Line) in total fixed broadband subscriptions." ;
 	skos:topConceptOf	ns4:indicator ;
 	ns5:source	ns6:cocom ;
-	ns7:membership	ns16:bb_dsl ;
+	ns7:membership	ns18:bb_dsl ;
 	skos:altLabel	"DSL subscriptions share in fixed broadband" ;
 	skos:prefLabel	"DSL subscriptions share in fixed broadband" .
 ns1:bb_fcov	rdf:type	ns3:Indicator ,
@@ -1450,7 +1539,7 @@ ns1:bb_hhi	rdf:type	ns3:Indicator ,
 	skos:definition	"Herfindahl index calculated for seven different connection technologies: xDSL, full or shared LLU, Cable, FTTH, FTTB, Other NGA, Other. Their respective market shares are expressed in percentage of all fixed broadband subscriptions. A small index indicates a competitive industry with no dominant technological platform. The index values raises with concentration over one or few platforms." ;
 	skos:topConceptOf	ns4:indicator ;
 	ns5:source	ns6:cocom ;
-	ns7:membership	ns16:bb_hhi ;
+	ns7:membership	ns18:bb_hhi ;
 	skos:altLabel	"Herfindahl index on broadband competition" ;
 	skos:prefLabel	"Herfindahl index on broadband competition" .
 ns1:bb_lines	rdf:type	ns3:Indicator ,
@@ -1459,7 +1548,7 @@ ns1:bb_lines	rdf:type	ns3:Indicator ,
 	skos:definition	"Number of fixed broadband subscriptions (lines)." ;
 	skos:topConceptOf	ns4:indicator ;
 	ns5:source	ns6:cocom ;
-	ns7:membership	ns16:bb_lines ;
+	ns7:membership	ns18:bb_lines ;
 	skos:altLabel	"Fixed broadband subscriptions" ;
 	skos:prefLabel	"Fixed broadband subscriptions" .
 ns1:bb_ne	rdf:type	ns3:Indicator ,
@@ -1468,7 +1557,7 @@ ns1:bb_ne	rdf:type	ns3:Indicator ,
 	skos:definition	"Market share based on fixed broadband subscriptions (lines). New entrants mean operators that did not enjoy special and exclusive rights or de facto monopoly for the provision of voice telephony services before the liberalisation." ;
 	skos:topConceptOf	ns4:indicator ;
 	ns5:source	ns6:cocom ;
-	ns7:membership	ns16:bb_ne ;
+	ns7:membership	ns18:bb_ne ;
 	skos:altLabel	"New entrants' share in fixed broadband subscriptions" ;
 	skos:prefLabel	"New entrants' share in fixed broadband subscriptions" .
 ns1:bb_ngacov	rdf:type	ns3:Indicator ,
@@ -1477,7 +1566,7 @@ ns1:bb_ngacov	rdf:type	ns3:Indicator ,
 	skos:definition	"Coverage is a supply indicator defined as the percentage of Households living in areas served by NGA. Next Generation Access includes the following technologies: FTTH, FTTB, Cable Docsis 3.0, VDSL and other superfast broadband (at least 30 Mbps download)" ;
 	skos:topConceptOf	ns4:indicator ;
 	ns5:source	ns6:point_topic ;
-	ns7:membership	ns16:bb_ngacov ;
+	ns7:membership	ns18:bb_ngacov ;
 	skos:altLabel	"NGA broadband coverage/availability" ;
 	skos:prefLabel	"NGA broadband coverage/availability (as a % of households)" .
 ns1:bb_penet	rdf:type	ns3:Indicator ,
@@ -1486,7 +1575,7 @@ ns1:bb_penet	rdf:type	ns3:Indicator ,
 	skos:definition	"Number of fixed broadband subscriptions (lines) per 100 people. Penetration of fixed broadband." ;
 	skos:topConceptOf	ns4:indicator ;
 	ns5:source	ns6:cocom ;
-	ns7:membership	ns16:bb_penet ;
+	ns7:membership	ns18:bb_penet ;
 	skos:altLabel	"Fixed broadband take-up (penetration rate)" ;
 	skos:prefLabel	"Fixed broadband take-up (subscriptions/100 people)" .
 ns1:bb_scov	rdf:type	ns3:Indicator ,
@@ -1495,7 +1584,7 @@ ns1:bb_scov	rdf:type	ns3:Indicator ,
 	skos:definition	"Coverage is a supply indicator defined as the percentage of Households living in areas served by xDSL, cable (basic and NGA), FTTP or WiMax networks" ;
 	skos:topConceptOf	ns4:indicator ;
 	ns5:source	ns6:point_topic ;
-	ns7:membership	ns16:bb_scov ;
+	ns7:membership	ns18:bb_scov ;
 	skos:altLabel	"Standard fixed broadband coverage/availability" ;
 	skos:prefLabel	"Standard fixed broadband coverage/availability (as a % of households)" .
 ns1:bb_speed10	rdf:type	ns3:Indicator ,
@@ -1504,7 +1593,7 @@ ns1:bb_speed10	rdf:type	ns3:Indicator ,
 	skos:definition	"Based on advertised download speeds." ;
 	skos:topConceptOf	ns4:indicator ;
 	ns5:source	ns6:cocom ;
-	ns7:membership	ns8:bb_speed10 ;
+	ns7:membership	ns10:bb_speed10 ;
 	skos:altLabel	"Share of fixed broadband subscriptions >= 10 Mbps" ;
 	skos:prefLabel	"Share of fixed broadband subscriptions >= 10 Mbps - Advertised download speed" .
 ns1:bb_speed100	rdf:type	ns3:Indicator ,
@@ -1513,7 +1602,7 @@ ns1:bb_speed100	rdf:type	ns3:Indicator ,
 	skos:definition	"Based on advertised download speeds." ;
 	skos:topConceptOf	ns4:indicator ;
 	ns5:source	ns6:cocom ;
-	ns7:membership	ns8:bb_speed100 ;
+	ns7:membership	ns10:bb_speed100 ;
 	skos:altLabel	"Share of fixed broadband subscriptions >= 100 Mbps" ;
 	skos:prefLabel	"Share of fixed broadband subscriptions >= 100 Mbps - Advertised download speed" .
 ns1:bb_speed2	rdf:type	ns3:Indicator ,
@@ -1522,7 +1611,7 @@ ns1:bb_speed2	rdf:type	ns3:Indicator ,
 	skos:definition	"Based on advertised download speeds." ;
 	skos:topConceptOf	ns4:indicator ;
 	ns5:source	ns6:cocom ;
-	ns7:membership	ns8:bb_speed2 ;
+	ns7:membership	ns10:bb_speed2 ;
 	skos:altLabel	"Share of fixed broadband subscriptions >= 2 Mbps" ;
 	skos:prefLabel	"Share of fixed broadband subscriptions >= 2 Mbps - Advertised download speed" .
 ns1:bb_speed30	rdf:type	ns3:Indicator ,
@@ -1531,7 +1620,7 @@ ns1:bb_speed30	rdf:type	ns3:Indicator ,
 	skos:definition	"Based on advertised download speeds." ;
 	skos:topConceptOf	ns4:indicator ;
 	ns5:source	ns6:cocom ;
-	ns7:membership	ns8:bb_speed30 ;
+	ns7:membership	ns10:bb_speed30 ;
 	skos:altLabel	"Share of fixed broadband subscriptions >= 30 Mbps" ;
 	skos:prefLabel	"Share of fixed broadband subscriptions >= 30 Mbps - Advertised download speed" .
 ns1:bb_srcov	rdf:type	ns3:Indicator ,
@@ -1540,7 +1629,7 @@ ns1:bb_srcov	rdf:type	ns3:Indicator ,
 	skos:definition	"Coverage is a supply indicator defined as the percentage of Households living in areas served by xDSL, cable (basic and NGA), FTTP or WiMax networks. Rural areas are defined as those with less than 100 people per km2." ;
 	skos:topConceptOf	ns4:indicator ;
 	ns5:source	ns6:point_topic ;
-	ns7:membership	ns16:bb_srcov ;
+	ns7:membership	ns18:bb_srcov ;
 	skos:altLabel	"Rural standard fixed broadband coverage" ;
 	skos:prefLabel	"Rural standard fixed broadband coverage (as a % of households)" .
 ns1:bs_rd_expen_ict	rdf:type	ns3:Indicator ,
@@ -1596,7 +1685,7 @@ ns1:desi	rdf:type	ns3:Indicator ,
 	skos:definition	"DESI overall index, calculated as the weighted average of the five main DESI dimensions: 1 Connectivity (25%), 2 Human Capital (25%), 3 Use of Internet (15%), 4 Integration of Digital Technology (20%) and 5 Digital Public Services (15%)." ;
 	skos:topConceptOf	ns4:indicator ;
 	ns5:source	ns6: ;
-	ns7:membership	ns17:desi ;
+	ns7:membership	ns19:desi ;
 	skos:altLabel	"DESI" ;
 	skos:prefLabel	"Digital Economy and Society Index" .
 ns1:desi_1_conn	rdf:type	ns3:Indicator ,
@@ -1605,7 +1694,7 @@ ns1:desi_1_conn	rdf:type	ns3:Indicator ,
 	skos:definition	"DESI Connectivity Dimension calculated as the weighted average of the four sub-dimensions: 1a Fixed Broadband (33%), 1b Mobile Broadband (22%), 1c Speed (33%), 1d Affordability (11%)." ;
 	skos:topConceptOf	ns4:indicator ;
 	ns5:source	ns6: ;
-	ns7:membership	ns18:desi_1_conn ;
+	ns7:membership	ns20:desi_1_conn ;
 	skos:prefLabel	"1 Connectivity" .
 ns1:desi_1a1_fbbc	rdf:type	ns3:Indicator ,
 		skos:Concept ;
@@ -1613,7 +1702,7 @@ ns1:desi_1a1_fbbc	rdf:type	ns3:Indicator ,
 	skos:definition	"Standard fixed broadband coverage" ;
 	skos:topConceptOf	ns4:indicator ;
 	ns5:source	ns6:desi_1a1_fbbc ;
-	ns7:membership	ns19:desi_1a1_fbbc ;
+	ns7:membership	ns8:desi_1a1_fbbc ;
 	skos:prefLabel	"1a1 Fixed BB Coverage" .
 ns1:desi_1a2_fbbtu	rdf:type	ns3:Indicator ,
 		skos:Concept ;
@@ -1621,7 +1710,7 @@ ns1:desi_1a2_fbbtu	rdf:type	ns3:Indicator ,
 	skos:definition	"Households that have a fixed Broadband connection" ;
 	skos:topConceptOf	ns4:indicator ;
 	ns5:source	ns6:desi_1a2_fbbtu ;
-	ns7:membership	ns19:desi_1a2_fbbtu ;
+	ns7:membership	ns8:desi_1a2_fbbtu ;
 	skos:prefLabel	"1a2 Fixed BB Take-up" .
 ns1:desi_1a_fbb	rdf:type	ns3:Indicator ,
 		skos:Concept ;
@@ -1629,7 +1718,7 @@ ns1:desi_1a_fbb	rdf:type	ns3:Indicator ,
 	skos:definition	"DESI Fixed Broadband sub-dimension calculated as the weighted average of the normalised indicators: 1a1 Fixed BB Coverage (50%), 1a2 Fixed BB Take-up (50%)" ;
 	skos:topConceptOf	ns4:indicator ;
 	ns5:source	ns6: ;
-	ns7:membership	ns21:desi_1a_fbb ;
+	ns7:membership	ns9:desi_1a_fbb ;
 	skos:prefLabel	"1a Fixed Broadband" .
 ns1:desi_1b1_mbbtu	rdf:type	ns3:Indicator ,
 		skos:Concept ;
@@ -1637,24 +1726,15 @@ ns1:desi_1b1_mbbtu	rdf:type	ns3:Indicator ,
 	skos:definition	"Mobile broadband take-up" ;
 	skos:topConceptOf	ns4:indicator ;
 	ns5:source	ns6:desi_1b1_mbbtu ;
-	ns7:membership	ns19:desi_1b1_mbbtu ;
+	ns7:membership	ns8:desi_1b1_mbbtu ;
 	skos:prefLabel	"1b1 Mobile BB Take-up" .
-ns1:desi_1b2_4g	rdf:type	ns3:Indicator ,
-		skos:Concept ;
-	skos:notation	"DESI_1B2_4G" ;
-	skos:definition	"Percentage of populated areas coverage by 4G - measured as the average coverage of telecom operators in each country" ;
-	skos:topConceptOf	ns4:indicator ;
-	ns5:source	ns6:desi_1b2_4g ;
-	ns7:membership	ns19:desi_1b2_4g ;
-	skos:altLabel	"1b2 4G Coverage" ;
-	skos:prefLabel	"1b2 4G Coverage" .
 ns1:desi_1b3_spec	rdf:type	ns3:Indicator ,
 		skos:Concept ;
 	skos:notation	"DESI_1B3_SPEC" ;
 	skos:definition	"Percentage of assigned spectrum out of the target to be harmonised at EU level" ;
 	skos:topConceptOf	ns4:indicator ;
 	ns5:source	ns6:desi_1b3_spec ;
-	ns7:membership	ns19:desi_1b3_spec ;
+	ns7:membership	ns8:desi_1b3_spec ;
 	skos:altLabel	"1b3 Spectrum" ;
 	skos:prefLabel	"1b3 Spectrum" .
 ns1:desi_1b_mbb	rdf:type	ns3:Indicator ,
@@ -1663,7 +1743,7 @@ ns1:desi_1b_mbb	rdf:type	ns3:Indicator ,
 	skos:definition	"DESI Mobile Broadband sub-dimension calculated as the weighted average of the normalised indicators: 1b1 Mobile BB Take-up (33%),1b2 4G Coverage (33%), 1b3 Spectrum (33%)" ;
 	skos:topConceptOf	ns4:indicator ;
 	ns5:source	ns6: ;
-	ns7:membership	ns21:desi_1b_mbb ;
+	ns7:membership	ns9:desi_1b_mbb ;
 	skos:altLabel	"1b Mobile Broadband" ;
 	skos:prefLabel	"1b Mobile Broadband" .
 ns1:desi_1c1_ngac	rdf:type	ns3:Indicator ,
@@ -1672,7 +1752,7 @@ ns1:desi_1c1_ngac	rdf:type	ns3:Indicator ,
 	skos:definition	"Households covered by NGA broadband" ;
 	skos:topConceptOf	ns4:indicator ;
 	ns5:source	ns6:desi_1c1_ngac ;
-	ns7:membership	ns19:desi_1c1_ngac ;
+	ns7:membership	ns8:desi_1c1_ngac ;
 	skos:prefLabel	"1c1 NGA Coverage" .
 ns1:desi_1c2_sfbb	rdf:type	ns3:Indicator ,
 		skos:Concept ;
@@ -1680,23 +1760,15 @@ ns1:desi_1c2_sfbb	rdf:type	ns3:Indicator ,
 	skos:definition	"Share of fixed broadband subscriptions >= 30 Mbps" ;
 	skos:topConceptOf	ns4:indicator ;
 	ns5:source	ns6:desi_1c2_sfbb ;
-	ns7:membership	ns19:desi_1c2_sfbb ;
-	skos:prefLabel	"1c2 Subscriptions to Fast BB" .
-ns1:desi_1d1_fbbp	rdf:type	ns3:Indicator ,
-		skos:Concept ;
-	skos:notation	"DESI_1D1_FBBP" ;
-	skos:definition	"Monthly cost of the least expensive fixed broadband subscription with speed of 12 to 30 Mbps" ;
-	skos:topConceptOf	ns4:indicator ;
-	ns5:source	ns6:desi_1d1_fbbp ;
-	ns7:membership	ns19:desi_1d1_fbbp ;
-	skos:prefLabel	"1d1 Fixed BB Price" .
+	ns7:membership	ns8:desi_1c2_sfbb ;
+	skos:prefLabel	"1c2 Fast BB take-up" .
 ns1:desi_1d_aff	rdf:type	ns3:Indicator ,
 		skos:Concept ;
 	skos:notation	"DESI_1D_AFF" ;
 	skos:definition	"DESI Affordability sub-dimension calculated as the weighted average of the normalised indicators: 1d1 Fixed BB Price (100%)" ;
 	skos:topConceptOf	ns4:indicator ;
 	ns5:source	ns6: ;
-	ns7:membership	ns21:desi_1d_aff ;
+	ns7:membership	ns9:desi_1d_aff ;
 	skos:prefLabel	"1d Affordability" .
 ns1:desi_2_hc	rdf:type	ns3:Indicator ,
 		skos:Concept ;
@@ -1704,7 +1776,7 @@ ns1:desi_2_hc	rdf:type	ns3:Indicator ,
 	skos:definition	"DESI Human Capital Dimension calculated as the weighted average of the two sub-dimensions: 2a Basic Skills and Usage (50%), 2b Advanced skills and Development (50%)" ;
 	skos:topConceptOf	ns4:indicator ;
 	ns5:source	ns6: ;
-	ns7:membership	ns18:desi_2_hc ;
+	ns7:membership	ns20:desi_2_hc ;
 	skos:prefLabel	"2 Human Capital" .
 ns1:desi_2a1_iu	rdf:type	ns3:Indicator ,
 		skos:Concept ;
@@ -1712,7 +1784,7 @@ ns1:desi_2a1_iu	rdf:type	ns3:Indicator ,
 	skos:definition	"Individuals whose frequency of Internet access is at least once a week" ;
 	skos:topConceptOf	ns4:indicator ;
 	ns5:source	ns6:desi_2a1_iu ;
-	ns7:membership	ns19:desi_2a1_iu ;
+	ns7:membership	ns8:desi_2a1_iu ;
 	skos:prefLabel	"2a1 Internet Users" .
 ns1:desi_2a2_bds	rdf:type	ns3:Indicator ,
 		skos:Concept ;
@@ -1720,15 +1792,15 @@ ns1:desi_2a2_bds	rdf:type	ns3:Indicator ,
 	skos:definition	"Individuals with basic or above basic digital skills" ;
 	skos:topConceptOf	ns4:indicator ;
 	ns5:source	ns6:desi_2a2_bds ;
-	ns7:membership	ns19:desi_2a2_bds ;
-	skos:prefLabel	"2a2 Basic Digital Skills" .
+	ns7:membership	ns8:desi_2a2_bds ;
+	skos:prefLabel	"2a2 At least Basic Digital Skills" .
 ns1:desi_2a_bsu	rdf:type	ns3:Indicator ,
 		skos:Concept ;
 	skos:notation	"DESI_2A_BSU" ;
 	skos:definition	"DESI Basic Skills and Usage sub-dimension calculated as the weighted average of the normalised indicators: 2a1 Internet Users (50%), 2a2 Basic Digital Skills (50%)" ;
 	skos:topConceptOf	ns4:indicator ;
 	ns5:source	ns6: ;
-	ns7:membership	ns21:desi_2a_bsu ;
+	ns7:membership	ns9:desi_2a_bsu ;
 	skos:prefLabel	"2a Basic Skills and Usage" .
 ns1:desi_2b1_ictspec	rdf:type	ns3:Indicator ,
 		skos:Concept ;
@@ -1736,7 +1808,7 @@ ns1:desi_2b1_ictspec	rdf:type	ns3:Indicator ,
 	skos:definition	"Persons Employed with ICT Specialist Skills" ;
 	skos:topConceptOf	ns4:indicator ;
 	ns5:source	ns6:desi_2b1_ictspec ;
-	ns7:membership	ns19:desi_2b1_ictspec ;
+	ns7:membership	ns8:desi_2b1_ictspec ;
 	skos:prefLabel	"2b1 ICT Specialists" .
 ns1:desi_2b2_stemg	rdf:type	ns3:Indicator ,
 		skos:Concept ;
@@ -1744,7 +1816,7 @@ ns1:desi_2b2_stemg	rdf:type	ns3:Indicator ,
 	skos:definition	"Science and technology graduates" ;
 	skos:topConceptOf	ns4:indicator ;
 	ns5:source	ns6:desi_2b2_stemg ;
-	ns7:membership	ns19:desi_2b2_stemg ;
+	ns7:membership	ns8:desi_2b2_stemg ;
 	skos:prefLabel	"2b2 STEM Graduates" .
 ns1:desi_2b_asd	rdf:type	ns3:Indicator ,
 		skos:Concept ;
@@ -1752,7 +1824,7 @@ ns1:desi_2b_asd	rdf:type	ns3:Indicator ,
 	skos:definition	"DESI Advanced Skills and Development sub-dimension calculated as the weighted average of the normalised indicators: 2b1 ICT Specialists (50%), 2b2 STEM Graduates (50%)" ;
 	skos:topConceptOf	ns4:indicator ;
 	ns5:source	ns6: ;
-	ns7:membership	ns21:desi_2b_asd ;
+	ns7:membership	ns9:desi_2b_asd ;
 	skos:prefLabel	"2b Advanced skills and Development" .
 ns1:desi_3_ui	rdf:type	ns3:Indicator ,
 		skos:Concept ;
@@ -1760,15 +1832,15 @@ ns1:desi_3_ui	rdf:type	ns3:Indicator ,
 	skos:definition	"DESI Use of Internet Dimension calculated as the weighted average of the three sub-dimensions: 3a Content (33%), 3b Communication (33%), 3c Transactions (33%)" ;
 	skos:topConceptOf	ns4:indicator ;
 	ns5:source	ns6: ;
-	ns7:membership	ns18:desi_3_ui ;
-	skos:prefLabel	"3 Use of Internet" .
+	ns7:membership	ns20:desi_3_ui ;
+	skos:prefLabel	"3 Use of Internet Services" .
 ns1:desi_3a1_news	rdf:type	ns3:Indicator ,
 		skos:Concept ;
 	skos:notation	"DESI_3A1_NEWS" ;
 	skos:definition	"Individuals who used the Internet to read online news sites, newspapers or news magazines" ;
 	skos:topConceptOf	ns4:indicator ;
 	ns5:source	ns6:desi_3a1_news ;
-	ns7:membership	ns19:desi_3a1_news ;
+	ns7:membership	ns8:desi_3a1_news ;
 	skos:prefLabel	"3a1 News" .
 ns1:desi_3a2_mvg	rdf:type	ns3:Indicator ,
 		skos:Concept ;
@@ -1776,7 +1848,7 @@ ns1:desi_3a2_mvg	rdf:type	ns3:Indicator ,
 	skos:definition	"Individuals who used the Internet to play or download games, images, films or music" ;
 	skos:topConceptOf	ns4:indicator ;
 	ns5:source	ns6:desi_3a2_mvg ;
-	ns7:membership	ns19:desi_3a2_mvg ;
+	ns7:membership	ns8:desi_3a2_mvg ;
 	skos:prefLabel	"3a2 Music, Videos and Games" .
 ns1:desi_3a3_vod	rdf:type	ns3:Indicator ,
 		skos:Concept ;
@@ -1784,7 +1856,7 @@ ns1:desi_3a3_vod	rdf:type	ns3:Indicator ,
 	skos:definition	"Percentage of households subcribing to any form of Video on Demand" ;
 	skos:topConceptOf	ns4:indicator ;
 	ns5:source	ns6:desi_3a3_vod ;
-	ns7:membership	ns19:desi_3a3_vod ;
+	ns7:membership	ns8:desi_3a3_vod ;
 	skos:prefLabel	"3a3 Video on Demand" .
 ns1:desi_3a4_iptv	rdf:type	ns3:Indicator ,
 		skos:Concept ;
@@ -1792,7 +1864,7 @@ ns1:desi_3a4_iptv	rdf:type	ns3:Indicator ,
 	skos:definition	"IPTV Penetration" ;
 	skos:topConceptOf	ns4:indicator ;
 	ns5:source	ns6:desi_3a4_iptv ;
-	ns7:membership	ns19:desi_3a4_iptv ;
+	ns7:membership	ns8:desi_3a4_iptv ;
 	skos:prefLabel	"3a4 IPTV" .
 ns1:desi_3a_cont	rdf:type	ns3:Indicator ,
 		skos:Concept ;
@@ -1800,7 +1872,7 @@ ns1:desi_3a_cont	rdf:type	ns3:Indicator ,
 	skos:definition	"DESI Content sub-dimension calculated as the weighted average of the normalised indicators: 3a1 News (25%), 3a2 Music, Videos and Games (25%), 3a3 Video on Demand (25%), 3a4 IPTV (25%)" ;
 	skos:topConceptOf	ns4:indicator ;
 	ns5:source	ns6: ;
-	ns7:membership	ns21:desi_3a_cont ;
+	ns7:membership	ns9:desi_3a_cont ;
 	skos:prefLabel	"3a Content" .
 ns1:desi_3b1_vidcall	rdf:type	ns3:Indicator ,
 		skos:Concept ;
@@ -1808,7 +1880,7 @@ ns1:desi_3b1_vidcall	rdf:type	ns3:Indicator ,
 	skos:definition	"Individuals who used the Internet to make telephone or video calls" ;
 	skos:topConceptOf	ns4:indicator ;
 	ns5:source	ns6:desi_3b1_vidcall ;
-	ns7:membership	ns19:desi_3b1_vidcall ;
+	ns7:membership	ns8:desi_3b1_vidcall ;
 	skos:prefLabel	"3b1 Video Calls" .
 ns1:desi_3b2_socnet	rdf:type	ns3:Indicator ,
 		skos:Concept ;
@@ -1816,7 +1888,7 @@ ns1:desi_3b2_socnet	rdf:type	ns3:Indicator ,
 	skos:definition	"Individuals used the Internet to participate in social networks (create user profile, post messages or other contributions to facebook, twitter, etc.)" ;
 	skos:topConceptOf	ns4:indicator ;
 	ns5:source	ns6:desi_3b2_socnet ;
-	ns7:membership	ns19:desi_3b2_socnet ;
+	ns7:membership	ns8:desi_3b2_socnet ;
 	skos:prefLabel	"3b2 Social Networks" .
 ns1:desi_3b_comm	rdf:type	ns3:Indicator ,
 		skos:Concept ;
@@ -1824,7 +1896,7 @@ ns1:desi_3b_comm	rdf:type	ns3:Indicator ,
 	skos:definition	"DESI Communication sub-dimension calculated as the weighted average of the normalised indicators: 3b1 Video Calls (50%), 3b2 Social Networks (50%)" ;
 	skos:topConceptOf	ns4:indicator ;
 	ns5:source	ns6: ;
-	ns7:membership	ns21:desi_3b_comm ;
+	ns7:membership	ns9:desi_3b_comm ;
 	skos:prefLabel	"3b Communication" .
 ns1:desi_3c1_bank	rdf:type	ns3:Indicator ,
 		skos:Concept ;
@@ -1832,7 +1904,7 @@ ns1:desi_3c1_bank	rdf:type	ns3:Indicator ,
 	skos:definition	"Individuals who used the Internet to use online banking" ;
 	skos:topConceptOf	ns4:indicator ;
 	ns5:source	ns6:desi_3c1_bank ;
-	ns7:membership	ns19:desi_3c1_bank ;
+	ns7:membership	ns8:desi_3c1_bank ;
 	skos:prefLabel	"3c1 Banking" .
 ns1:desi_3c2_shop	rdf:type	ns3:Indicator ,
 		skos:Concept ;
@@ -1840,7 +1912,7 @@ ns1:desi_3c2_shop	rdf:type	ns3:Indicator ,
 	skos:definition	"Individuals who ordered goods or services online" ;
 	skos:topConceptOf	ns4:indicator ;
 	ns5:source	ns6:desi_3c2_shop ;
-	ns7:membership	ns19:desi_3c2_shop ;
+	ns7:membership	ns8:desi_3c2_shop ;
 	skos:prefLabel	"3c2 Shopping" .
 ns1:desi_3c_trans	rdf:type	ns3:Indicator ,
 		skos:Concept ;
@@ -1848,7 +1920,7 @@ ns1:desi_3c_trans	rdf:type	ns3:Indicator ,
 	skos:definition	"DESI Transactions sub-dimension calculated as the weighted average of the normalised indicators: 3c1 Banking (50%), 3c2 Shopping (50%)" ;
 	skos:topConceptOf	ns4:indicator ;
 	ns5:source	ns6: ;
-	ns7:membership	ns21:desi_3c_trans ;
+	ns7:membership	ns9:desi_3c_trans ;
 	skos:prefLabel	"3c Transactions" .
 ns1:desi_4_idt	rdf:type	ns3:Indicator ,
 		skos:Concept ;
@@ -1856,7 +1928,7 @@ ns1:desi_4_idt	rdf:type	ns3:Indicator ,
 	skos:definition	"DESI Integration of Digital Technology Dimension calculated as the weighted average of the two sub-dimensions:  4a Business digitization (60%), 4b eCommerce (40%)" ;
 	skos:topConceptOf	ns4:indicator ;
 	ns5:source	ns6: ;
-	ns7:membership	ns18:desi_4_idt ;
+	ns7:membership	ns20:desi_4_idt ;
 	skos:prefLabel	"4 Integration of Digital Technology" .
 ns1:desi_4a1_eis	rdf:type	ns3:Indicator ,
 		skos:Concept ;
@@ -1864,7 +1936,7 @@ ns1:desi_4a1_eis	rdf:type	ns3:Indicator ,
 	skos:definition	"Enterprises who have ERP software package to share information between different functional areas" ;
 	skos:topConceptOf	ns4:indicator ;
 	ns5:source	ns6:desi_4a1_eis ;
-	ns7:membership	ns19:desi_4a1_eis ;
+	ns7:membership	ns8:desi_4a1_eis ;
 	skos:prefLabel	"4a1 Electronic Information Sharing" .
 ns1:desi_4a2_rfid	rdf:type	ns3:Indicator ,
 		skos:Concept ;
@@ -1872,7 +1944,7 @@ ns1:desi_4a2_rfid	rdf:type	ns3:Indicator ,
 	skos:definition	"Enterprises using Radio Frequency Identification (RFID) technologies for after sales product identification or as part of the production and service delivery" ;
 	skos:topConceptOf	ns4:indicator ;
 	ns5:source	ns6:desi_4a2_rfid ;
-	ns7:membership	ns19:desi_4a2_rfid ;
+	ns7:membership	ns8:desi_4a2_rfid ;
 	skos:prefLabel	"4a2 RFID" .
 ns1:desi_4a3_socmed	rdf:type	ns3:Indicator ,
 		skos:Concept ;
@@ -1880,7 +1952,7 @@ ns1:desi_4a3_socmed	rdf:type	ns3:Indicator ,
 	skos:definition	"Enterprises that use two or more types of social media" ;
 	skos:topConceptOf	ns4:indicator ;
 	ns5:source	ns6:desi_4a3_socmed ;
-	ns7:membership	ns19:desi_4a3_socmed ;
+	ns7:membership	ns8:desi_4a3_socmed ;
 	skos:prefLabel	"4a3 Social Media" .
 ns1:desi_4a4_einv	rdf:type	ns3:Indicator ,
 		skos:Concept ;
@@ -1888,7 +1960,7 @@ ns1:desi_4a4_einv	rdf:type	ns3:Indicator ,
 	skos:definition	"Enterprises sending e-invoices suitable for automatic processing" ;
 	skos:topConceptOf	ns4:indicator ;
 	ns5:source	ns6:desi_4a4_einv ;
-	ns7:membership	ns19:desi_4a4_einv ;
+	ns7:membership	ns8:desi_4a4_einv ;
 	skos:prefLabel	"4a4 eInvoices" .
 ns1:desi_4a5_cloud	rdf:type	ns3:Indicator ,
 		skos:Concept ;
@@ -1896,7 +1968,7 @@ ns1:desi_4a5_cloud	rdf:type	ns3:Indicator ,
 	skos:definition	"Buy Cloud Computing services of medium-high sophistication " ;
 	skos:topConceptOf	ns4:indicator ;
 	ns5:source	ns6:desi_4a5_cloud ;
-	ns7:membership	ns19:desi_4a5_cloud ;
+	ns7:membership	ns8:desi_4a5_cloud ;
 	skos:prefLabel	"4a5 Cloud" .
 ns1:desi_4a_bd	rdf:type	ns3:Indicator ,
 		skos:Concept ;
@@ -1905,7 +1977,7 @@ ns1:desi_4a_bd	rdf:type	ns3:Indicator ,
 	skos:note	"DESI 2014 does not comprise the indicator 4a5 Cloud, the weights of the remaining indicators are adjusted at 25% each." ;
 	skos:topConceptOf	ns4:indicator ;
 	ns5:source	ns6: ;
-	ns7:membership	ns21:desi_4a_bd ;
+	ns7:membership	ns9:desi_4a_bd ;
 	skos:prefLabel	"4a Business digitization" .
 ns1:desi_4b1_smeso	rdf:type	ns3:Indicator ,
 		skos:Concept ;
@@ -1913,7 +1985,7 @@ ns1:desi_4b1_smeso	rdf:type	ns3:Indicator ,
 	skos:definition	"Enterprises selling online (at least 1% of turnover)" ;
 	skos:topConceptOf	ns4:indicator ;
 	ns5:source	ns6:desi_4b1_smeso ;
-	ns7:membership	ns19:desi_4b1_smeso ;
+	ns7:membership	ns8:desi_4b1_smeso ;
 	skos:prefLabel	"4b1 SMEs Selling Online" .
 ns1:desi_4b2_ecomturn	rdf:type	ns3:Indicator ,
 		skos:Concept ;
@@ -1921,7 +1993,7 @@ ns1:desi_4b2_ecomturn	rdf:type	ns3:Indicator ,
 	skos:definition	"Enterprises' total turnover from e-commerce" ;
 	skos:topConceptOf	ns4:indicator ;
 	ns5:source	ns6:desi_4b2_ecomturn ;
-	ns7:membership	ns19:desi_4b2_ecomturn ;
+	ns7:membership	ns8:desi_4b2_ecomturn ;
 	skos:prefLabel	"4b2 eCommerce Turnover" .
 ns1:desi_4b3_sellcb	rdf:type	ns3:Indicator ,
 		skos:Concept ;
@@ -1929,7 +2001,7 @@ ns1:desi_4b3_sellcb	rdf:type	ns3:Indicator ,
 	skos:definition	"Enterprises that did electronic sales to other EU countries" ;
 	skos:topConceptOf	ns4:indicator ;
 	ns5:source	ns6:desi_4b3_sellcb ;
-	ns7:membership	ns19:desi_4b3_sellcb ;
+	ns7:membership	ns8:desi_4b3_sellcb ;
 	skos:prefLabel	"4b3 Selling Online Cross-border" .
 ns1:desi_4b_ecomm	rdf:type	ns3:Indicator ,
 		skos:Concept ;
@@ -1937,7 +2009,7 @@ ns1:desi_4b_ecomm	rdf:type	ns3:Indicator ,
 	skos:definition	"DESI eCommerce sub-dimension calculated as the weighted average of the normalised indicators: 4b1 SMEs Selling Online (33%), 4b2 eCommerce Turnover (33%), 4b3 Selling Online Cross-border (33%)" ;
 	skos:topConceptOf	ns4:indicator ;
 	ns5:source	ns6: ;
-	ns7:membership	ns21:desi_4b_ecomm ;
+	ns7:membership	ns9:desi_4b_ecomm ;
 	skos:prefLabel	"4b eCommerce" .
 ns1:desi_5_dps	rdf:type	ns3:Indicator ,
 		skos:Concept ;
@@ -1945,7 +2017,7 @@ ns1:desi_5_dps	rdf:type	ns3:Indicator ,
 	skos:definition	"DESI Digital Public Services Dimension comprising of eGovernment (100%)" ;
 	skos:topConceptOf	ns4:indicator ;
 	ns5:source	ns6: ;
-	ns7:membership	ns18:desi_5_dps ;
+	ns7:membership	ns20:desi_5_dps ;
 	skos:prefLabel	"5 Digital Public Services" .
 ns1:desi_5a1_egovu	rdf:type	ns3:Indicator ,
 		skos:Concept ;
@@ -1953,7 +2025,7 @@ ns1:desi_5a1_egovu	rdf:type	ns3:Indicator ,
 	skos:definition	"Individuals sending filled forms to public authorities, over the internet, last 12 months" ;
 	skos:topConceptOf	ns4:indicator ;
 	ns5:source	ns6:desi_5a1_egovu ;
-	ns7:membership	ns19:desi_5a1_egovu ;
+	ns7:membership	ns8:desi_5a1_egovu ;
 	skos:prefLabel	"5a1 eGovernment Users" .
 ns1:desi_5a2_prefform	rdf:type	ns3:Indicator ,
 		skos:Concept ;
@@ -1961,7 +2033,7 @@ ns1:desi_5a2_prefform	rdf:type	ns3:Indicator ,
 	skos:definition	"Amount of data that is pre-filled in Public Services' online forms (Authentic sources Key Enabler indicator of eGovernment benchmark)" ;
 	skos:topConceptOf	ns4:indicator ;
 	ns5:source	ns6:desi_5a2_prefform ;
-	ns7:membership	ns19:desi_5a2_prefform ;
+	ns7:membership	ns8:desi_5a2_prefform ;
 	skos:prefLabel	"5a2 Pre-filled Forms" .
 ns1:desi_5a3_osercomp	rdf:type	ns3:Indicator ,
 		skos:Concept ;
@@ -1969,7 +2041,7 @@ ns1:desi_5a3_osercomp	rdf:type	ns3:Indicator ,
 	skos:definition	"Share of the steps in a Public Service life event that can be completed online (Online availability sub-indicator for User centricity of the eGovernment benchmark)" ;
 	skos:topConceptOf	ns4:indicator ;
 	ns5:source	ns6:desi_5a3_osercomp ;
-	ns7:membership	ns19:desi_5a3_osercomp ;
+	ns7:membership	ns8:desi_5a3_osercomp ;
 	skos:prefLabel	"5a3 Online Service Completion" .
 ns1:desi_5a4_opendata	rdf:type	ns3:Indicator ,
 		skos:Concept ;
@@ -1977,7 +2049,7 @@ ns1:desi_5a4_opendata	rdf:type	ns3:Indicator ,
 	skos:definition	"Score in the Open Data Maturity indicator. This composite indicator measures to what extent countries have an Open Data policy in place (including the transposition of the revised PSI Directive), the estimated political, social and economic impact of Open Data and the characteristics (functionalities, data availability and usage) of the national data portal." ;
 	skos:topConceptOf	ns4:indicator ;
 	ns5:source	ns6:desi_5a4_opendata ;
-	ns7:membership	ns19:desi_5a4_opendata ;
+	ns7:membership	ns8:desi_5a4_opendata ;
 	skos:prefLabel	"5a4 Open Data" .
 ns1:desi_5a_egov	rdf:type	ns3:Indicator ,
 		skos:Concept ;
@@ -1986,7 +2058,7 @@ ns1:desi_5a_egov	rdf:type	ns3:Indicator ,
 	skos:note	"DESI 2014 does not comprise the indicator 5a4 Open Data, the weights of the remaining indicators are adjusted at 33% each." ;
 	skos:topConceptOf	ns4:indicator ;
 	ns5:source	ns6: ;
-	ns7:membership	ns21:desi_5a_egov ;
+	ns7:membership	ns9:desi_5a_egov ;
 	skos:prefLabel	"5a eGovernment" .
 ns1:desi_5b1_mdataexch	rdf:type	ns3:Indicator ,
 		skos:Concept ;
@@ -1994,7 +2066,7 @@ ns1:desi_5b1_mdataexch	rdf:type	ns3:Indicator ,
 	skos:definition	"GPs using electronic networks to exchange medical data with other health care providers and professionals" ;
 	skos:topConceptOf	ns4:indicator ;
 	ns5:source	ns6:desi_5b1_mdataexch ;
-	ns7:membership	ns19:desi_5b1_mdataexch ;
+	ns7:membership	ns8:desi_5b1_mdataexch ;
 	skos:prefLabel	"5b1 Medical Data Exchange" .
 ns1:desi_5b2_epresc	rdf:type	ns3:Indicator ,
 		skos:Concept ;
@@ -2002,23 +2074,15 @@ ns1:desi_5b2_epresc	rdf:type	ns3:Indicator ,
 	skos:definition	"GPs using electronic networks to transfer prescriptions to pharmacists" ;
 	skos:topConceptOf	ns4:indicator ;
 	ns5:source	ns6:desi_5b2_epresc ;
-	ns7:membership	ns19:desi_5b2_epresc ;
+	ns7:membership	ns8:desi_5b2_epresc ;
 	skos:prefLabel	"5b2 ePrescription" .
-ns1:desi_5b_ehealth	rdf:type	ns3:Indicator ,
-		skos:Concept ;
-	skos:notation	"DESI_5B_EHEALTH" ;
-	skos:definition	"DESI eHealth sub-dimension calculated as the weighted average of the normalised indicators: 5b1 Medical Data Exchange (50%), 5b2 ePrescription (50%)" ;
-	skos:topConceptOf	ns4:indicator ;
-	ns5:source	ns6: ;
-	ns7:membership	ns21:desi_5b_ehealth ;
-	skos:prefLabel	"5b eHealth" .
 ns1:desi_sliders	rdf:type	ns3:Indicator ,
 		skos:Concept ;
 	skos:notation	"DESI_SLIDERS" ;
 	skos:definition	"DESI overall index, calculated as the weighted average of the five main DESI dimensions with the weights selected by the user: 1 Connectivity, 2 Human Capital, 3 Use of Internet, 4 Integration of Digital Technology and 5 Digital Public Services." ;
 	skos:topConceptOf	ns4:indicator ;
 	ns5:source	ns6: ;
-	ns7:membership	ns20:desi_sliders ;
+	ns7:membership	ns21:desi_sliders ;
 	skos:altLabel	"DESI" ;
 	skos:prefLabel	"Digital Economy and Society Index" .
 ns1:digskillindex	rdf:type	ns3:Indicator ,
@@ -2165,7 +2229,7 @@ ns1:e_broad	rdf:type	ns3:Indicator ,
 	skos:note	"Enterprises with 10 or more persons employed. All manufacturing and service sectors, excluding the financial sector. Breaks in series because until 2008 economic activities according to NACE Rev 1.1 and from 2009 data are based on NACE Rev.2. Since 2010 data include also sector S 95.1-Repair of computers and communication equipment." ;
 	skos:topConceptOf	ns4:indicator ;
 	ns5:source	ns6:estat_isoc_ci_eu_en2 ;
-	ns7:membership	ns16:e_broad ;
+	ns7:membership	ns18:e_broad ;
 	skos:altLabel	"Enterprises with a fixed broadband connection" ;
 	skos:prefLabel	"Enterprises having a fixed broadband connection" .
 ns1:e_cc	rdf:type	ns3:Indicator ,
@@ -2352,7 +2416,7 @@ ns1:e_ispdf_ge30	rdf:type	ns3:Indicator ,
 	skos:definition	"The maximum contracted download speed of the fastest fixed internet connection is at least 30 Mb/s" ;
 	skos:topConceptOf	ns4:indicator ;
 	ns5:source	ns6:estat_isoc_ci_eu_en2 ;
-	ns7:membership	ns16:e_ispdf_ge30 ;
+	ns7:membership	ns18:e_ispdf_ge30 ;
 	skos:altLabel	"Enterprises having a fast fixed broadband connection" ;
 	skos:prefLabel	"Enterprises having a fast fixed broadband connection" .
 ns1:e_ispdfokx	rdf:type	ns3:Indicator ,
@@ -2362,7 +2426,7 @@ ns1:e_ispdfokx	rdf:type	ns3:Indicator ,
 	skos:note	"Enterprises with 10 or more persons employed. All manufacturing and service sectors, excluding the financial sector. Breaks in series because until 2008 economic activities according to NACE Rev 1.1 and from 2009 data are based on NACE Rev.2. Since 2010 data include also sector S 95.1-Repair of computers and communication equipment." ;
 	skos:topConceptOf	ns4:indicator ;
 	ns5:source	ns6: ;
-	ns7:membership	ns16:e_ispdfokx ;
+	ns7:membership	ns18:e_ispdfokx ;
 	skos:altLabel	"Internet fixed connection speed is not sufficient" ;
 	skos:prefLabel	"The speed of the fixed connection to internet  is not sufficient for the actual needs of the enterprise" .
 ns1:e_ispdfokx_ge100	rdf:type	ns3:Indicator ,
@@ -2372,7 +2436,7 @@ ns1:e_ispdfokx_ge100	rdf:type	ns3:Indicator ,
 	skos:note	"Enterprises with 10 or more persons employed. All manufacturing and service sectors, excluding the financial sector. Breaks in series because until 2008 economic activities according to NACE Rev 1.1 and from 2009 data are based on NACE Rev.2. Since 2010 data include also sector S 95.1-Repair of computers and communication equipment." ;
 	skos:topConceptOf	ns4:indicator ;
 	ns5:source	ns6: ;
-	ns7:membership	ns16:e_ispdfokx_ge100 ;
+	ns7:membership	ns18:e_ispdfokx_ge100 ;
 	skos:altLabel	"Internet fixed connection speed of 100Mb/s is not sufficient" ;
 	skos:prefLabel	"The speed of the fixed connection to internet (at least 100 Mb/s) is not sufficient for the actual needs of the enterprise" .
 ns1:e_it_mext	rdf:type	ns3:Indicator ,
@@ -2579,7 +2643,7 @@ ns1:eoa_nn_films	rdf:type	ns3:Indicator ,
 	skos:notation	"eoa_nn_films" ;
 	skos:topConceptOf	ns4:indicator ;
 	ns5:source	ns6:eoa_yearbook2014 ;
-	ns7:membership	ns13:eoa_nn_films ;
+	ns7:membership	ns15:eoa_nn_films ;
 	skos:altLabel	"Non-national European Films market share in EU cinemas" ;
 	skos:prefLabel	"Non-national European films in cinemas" .
 ns1:eoa_tvchannels_tarfor	rdf:type	ns3:Indicator ,
@@ -2588,7 +2652,7 @@ ns1:eoa_tvchannels_tarfor	rdf:type	ns3:Indicator ,
 	skos:note	"page 125" ;
 	skos:topConceptOf	ns4:indicator ;
 	ns5:source	ns6:eoa_yearbook2014 ;
-	ns7:membership	ns13:eoa_tvchannels_tarfor ;
+	ns7:membership	ns15:eoa_tvchannels_tarfor ;
 	skos:altLabel	"Linear TV channels targeting foreign countries" ;
 	skos:prefLabel	"Linear TV channels established in a Member State and targeting foreign countries" .
 ns1:eoa_vod_estab_otheu	rdf:type	ns3:Indicator ,
@@ -2597,7 +2661,7 @@ ns1:eoa_vod_estab_otheu	rdf:type	ns3:Indicator ,
 	skos:definition	"Video on demand (VoD) services (all genre except adult) available in a Member State, but established in another EU country" ;
 	skos:topConceptOf	ns4:indicator ;
 	ns5:source	ns6:eoa_smart12-26 ;
-	ns7:membership	ns13:eoa_vod_estab_otheu ;
+	ns7:membership	ns15:eoa_vod_estab_otheu ;
 	skos:altLabel	"VoD services available, established in another EU country" ;
 	skos:prefLabel	"Video on Demand services available in the country but established in another EU country" .
 ns1:epsi_score	rdf:type	ns3:Indicator ,
@@ -2802,7 +2866,7 @@ ns1:gdp	rdf:type	ns3:Indicator ,
 	skos:definition	"Eurostat estimation of GDP and main components - Current prices [nama_gdp_c]" ;
 	skos:topConceptOf	ns4:indicator ;
 	ns5:source	ns6:estat_nama_gdp_c ;
-	ns7:membership	ns15:gdp ;
+	ns7:membership	ns17:gdp ;
 	skos:altLabel	"GDP at market prices" ;
 	skos:prefLabel	"GDP - Gross domestic product at market prices" .
 ns1:h2020_cofin	rdf:type	ns3:Indicator ,
@@ -2874,7 +2938,7 @@ ns1:h_bbfix	rdf:type	ns3:Indicator ,
 	skos:definition	"Household internet connection type: fixed broadband" ;
 	skos:topConceptOf	ns4:indicator ;
 	ns5:source	ns6:estat_isoc_bde15b_h ;
-	ns7:membership	ns16:h_bbfix ;
+	ns7:membership	ns18:h_bbfix ;
 	skos:altLabel	"Households with fixed broadband connection" ;
 	skos:prefLabel	"Households with fixed broadband connection" .
 ns1:h_iacc	rdf:type	ns3:Indicator ,
@@ -2893,7 +2957,7 @@ ns1:h_xcost	rdf:type	ns3:Indicator ,
 	skos:definition	"Households that have no access to Internet at home, because the costs are too high" ;
 	skos:topConceptOf	ns4:indicator ;
 	ns5:source	ns6:estat-hh ;
-	ns7:membership	ns8:h_xcost ;
+	ns7:membership	ns10:h_xcost ;
 	skos:altLabel	"Households with no access to Internet at home, because the costs are too high" ;
 	skos:prefLabel	"Households that have no access to Internet at home, because the costs are too high" .
 ns1:hie_use_ex_admin	rdf:type	ns3:Indicator ,
@@ -2920,7 +2984,7 @@ ns1:househ	rdf:type	ns3:Indicator ,
 	skos:definition	"Estimation of the number of Households with at least one member aged 16-74, for the purpose of the survey on ICT usage by individuals and households." ;
 	skos:topConceptOf	ns4:indicator ;
 	ns5:source	ns6:estat-hh ;
-	ns7:membership	ns15:househ ;
+	ns7:membership	ns17:househ ;
 	skos:altLabel	"Number of households" ;
 	skos:prefLabel	"Number of households" .
 ns1:households	rdf:type	ns3:Indicator ,
@@ -2929,7 +2993,7 @@ ns1:households	rdf:type	ns3:Indicator ,
 	skos:definition	"Number of private households (Eurostat table lfst_hhnhwhtc)" ;
 	skos:topConceptOf	ns4:indicator ;
 	ns5:source	ns6:estat_lfst_hhnhwhtc ;
-	ns7:membership	ns15:households ;
+	ns7:membership	ns17:households ;
 	skos:altLabel	"Number of private Households" ;
 	skos:prefLabel	"Number of private Households" .
 ns1:i-dsk-c	rdf:type	ns3:Indicator ,
@@ -3283,7 +3347,7 @@ ns1:i_iugm	rdf:type	skos:Concept ,
 	skos:note	"Biennial indicator not collected in 2011" ;
 	skos:topConceptOf	ns4:indicator ;
 	ns5:source	ns6:estat_isoc_bde15cua ;
-	ns7:membership	ns13:i_iugm ;
+	ns7:membership	ns15:i_iugm ;
 	skos:altLabel	"Games, images, films or music" ;
 	skos:prefLabel	"playing or downloading games, images, films or music" .
 ns1:i_iugov	rdf:type	skos:Concept ,
@@ -3348,7 +3412,7 @@ ns1:i_iunw	rdf:type	skos:Concept ,
 	skos:definition	"Individuals have used Internet, in the last 3 months, for reading / downloading online newspapers / news magazines" ;
 	skos:topConceptOf	ns4:indicator ;
 	ns5:source	ns6:estat_isoc_bde15cua ;
-	ns7:membership	ns13:i_iunw ;
+	ns7:membership	ns15:i_iunw ;
 	skos:altLabel	"Reading online newspapers/magazines" ;
 	skos:prefLabel	"reading / downloading online newspapers / news magazines" .
 ns1:i_iuolc	rdf:type	skos:Concept ,
@@ -3412,7 +3476,7 @@ ns1:i_iuvod	rdf:type	skos:Concept ,
 	skos:definition	"Individuals watching video on demand from commercial services" ;
 	skos:topConceptOf	ns4:indicator ;
 	ns5:source	ns6:estat_isoc_ci_ac_i ;
-	ns7:membership	ns13:i_iuvod ;
+	ns7:membership	ns15:i_iuvod ;
 	skos:altLabel	"Individuals watching video on demand from commercial services" ;
 	skos:prefLabel	"Individuals watching video on demand from commercial services" .
 ns1:i_iuvote	rdf:type	skos:Concept ,
@@ -3680,7 +3744,7 @@ ns1:pop	rdf:type	skos:Concept ,
 	skos:definition	"Estimation of the number of individuals aged 16-74, for the purpose of the survey on ICT usage by individuals and households." ;
 	skos:topConceptOf	ns4:indicator ;
 	ns5:source	ns6:estat-hh ;
-	ns7:membership	ns15:pop ;
+	ns7:membership	ns17:pop ;
 	skos:altLabel	"Number of individuals aged 16-74" ;
 	skos:prefLabel	"Number of individuals aged 16-74" .
 ns1:population	rdf:type	skos:Concept ,
@@ -3689,7 +3753,7 @@ ns1:population	rdf:type	skos:Concept ,
 	skos:definition	"Total population estimate 1st of January of the same year (Eurostat table demo_pjan)" ;
 	skos:topConceptOf	ns4:indicator ;
 	ns5:source	ns6:eurostat_pop ;
-	ns7:membership	ns15:population ;
+	ns7:membership	ns17:population ;
 	skos:altLabel	"Total population" ;
 	skos:prefLabel	"Total population" .
 ns1:price_internet_fixed_tel	rdf:type	skos:Concept ,
@@ -3699,7 +3763,7 @@ ns1:price_internet_fixed_tel	rdf:type	skos:Concept ,
 	skos:note	"If no data is present for a country, it is because no corresponding offers have been found on the national market." ;
 	skos:topConceptOf	ns4:indicator ;
 	ns5:source	ns6:biac ;
-	ns7:membership	ns8:price_internet_fixed_tel ;
+	ns7:membership	ns10:price_internet_fixed_tel ;
 	skos:altLabel	"Monthly price of  Internet + Fixed Telephony" ;
 	skos:prefLabel	"Monthly price of  Fixed Broadband Internet Access offers including Fixed Telephony" .
 ns1:price_internet_fixed_tel_tv	rdf:type	skos:Concept ,
@@ -3709,7 +3773,7 @@ ns1:price_internet_fixed_tel_tv	rdf:type	skos:Concept ,
 	skos:note	"If no data is present for a country, it is because no corresponding offers have been found on the national market." ;
 	skos:topConceptOf	ns4:indicator ;
 	ns5:source	ns6:biac ;
-	ns7:membership	ns8:price_internet_fixed_tel_tv ;
+	ns7:membership	ns10:price_internet_fixed_tel_tv ;
 	skos:altLabel	"Monthly price of Internet + Fixed Telephony + TV" ;
 	skos:prefLabel	"Monthly price of Internet Acccess + Fixed Telephony + TV bundles" .
 ns1:price_internet_only	rdf:type	skos:Concept ,
@@ -3719,7 +3783,7 @@ ns1:price_internet_only	rdf:type	skos:Concept ,
 	skos:note	"If no data is present for a country, it is because no corresponding offers have been found on the national market." ;
 	skos:topConceptOf	ns4:indicator ;
 	ns5:source	ns6:biac ;
-	ns7:membership	ns8:price_internet_only ;
+	ns7:membership	ns10:price_internet_only ;
 	skos:altLabel	"Monthly price of Internet Access only" ;
 	skos:prefLabel	"Monthly price of standalone internet access" .
 ns1:spectrum_wbb	rdf:type	skos:Concept ,
@@ -3818,36 +3882,36 @@ ns1:vod	rdf:type	skos:Concept ,
 	skos:definition	"Percentage of households subscribing to any form of Video on Demand; EU average calculated as the average of the 26 MS (for which data is available) weighted by the number of households in each of them in 2013" ;
 	skos:topConceptOf	ns4:indicator ;
 	ns5:source	ns6:ihs_tech ;
-	ns7:membership	ns13:vod ;
+	ns7:membership	ns15:vod ;
 	skos:altLabel	"Households subscribed to Video on Demand" ;
 	skos:prefLabel	"Households subscribed to Video on Demand" .
-ns16:bb_fttpcov	rdf:type	ns3:IndicatorToGroupMembership ;
+ns18:bb_fttpcov	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"broadband" ;
-	ns7:member-of	ns14:broadband ;
-	ns7:order	"17"^^xsd:byte .
-ns16:bb_rfttpcov	rdf:type	ns3:IndicatorToGroupMembership ;
+	ns7:member-of	ns16:broadband ;
+	ns7:order	"17" .
+ns18:bb_rfttpcov	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"broadband" ;
-	ns7:member-of	ns14:broadband ;
-	ns7:order	"18"^^xsd:byte .
-ns16:bb_rngacov	rdf:type	ns3:IndicatorToGroupMembership ;
+	ns7:member-of	ns16:broadband ;
+	ns7:order	"18" .
+ns18:bb_rngacov	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"broadband" ;
-	ns7:member-of	ns14:broadband ;
-	ns7:order	"19"^^xsd:byte .
+	ns7:member-of	ns16:broadband ;
+	ns7:order	"19" .
 ns33:mbb_rhspacov	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"mobile" ;
-	ns7:member-of	ns14:mobile ;
-	ns7:order	"14"^^xsd:byte .
+	ns7:member-of	ns16:mobile ;
+	ns7:order	"14" .
 ns33:mbb_rltecov	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"mobile" ;
-	ns7:member-of	ns14:mobile ;
-	ns7:order	"15"^^xsd:byte .
+	ns7:member-of	ns16:mobile ;
+	ns7:order	"15" .
 ns1:bb_rfttpcov	rdf:type	ns3:Indicator ,
 		skos:Concept ;
 	skos:notation	"bb_rfttpcov" ;
 	skos:definition	"Coverage is a supply indicator defined as the percentage of Households living in areas served by FTTP. Rural areas are defined as those with less than 100 people per km2." ;
 	skos:topConceptOf	ns4:indicator ;
 	ns5:source	ns6:point_topic ;
-	ns7:membership	ns16:bb_rfttpcov ;
+	ns7:membership	ns18:bb_rfttpcov ;
 	skos:altLabel	"Rural Fibre to the Premises coverage" ;
 	skos:prefLabel	"Rural Fibre to the Premises coverage/availability (as a % of households)" .
 ns1:bb_rngacov	rdf:type	ns3:Indicator ,
@@ -3856,7 +3920,7 @@ ns1:bb_rngacov	rdf:type	ns3:Indicator ,
 	skos:definition	"Coverage is a supply indicator defined as the percentage of Households living in areas served by NGA. Next Generation Access includes the following technologies: FTTH, FTTB, Cable Docsis 3.0, VDSL and other superfast broadband (at least 30 Mbps download). Rural areas are defined as those with less than 100 people per km2." ;
 	skos:topConceptOf	ns4:indicator ;
 	ns5:source	ns6:point_topic ;
-	ns7:membership	ns16:bb_rngacov ;
+	ns7:membership	ns18:bb_rngacov ;
 	skos:altLabel	"Rural NGA broadband coverage" ;
 	skos:prefLabel	"Rural NGA broadband coverage/availability (as a % of households)" .
 ns1:mbb_rhspacov	rdf:type	ns3:Indicator ,
@@ -3883,8 +3947,8 @@ ns1:desi_1c_speed	rdf:type	ns3:Indicator ,
 	skos:definition	"DESI Speed sub-dimension calculated as the weighted average of the normalised indicators: 1c1 NGA Coverage (50%), 1c2 Subscriptions to Fast BB (50%)" ;
 	skos:topConceptOf	ns4:indicator ;
 	ns5:source	ns6: ;
-	ns7:membership	ns21:desi_1c_speed ;
-	skos:prefLabel	"1c Speed" .
+	ns7:membership	ns9:desi_1c_speed ;
+	skos:prefLabel	"1c Fast Broadband" .
 ns1:h_broad	rdf:type	ns3:Indicator ,
 		skos:Concept ;
 	skos:notation	"h_broad" ;
@@ -3892,7 +3956,7 @@ ns1:h_broad	rdf:type	ns3:Indicator ,
 	skos:note	"Scope includes Households with at least one member aged 16-74. " ;
 	skos:topConceptOf	ns4:indicator ;
 	ns5:source	ns6:estat_isoc_bde15b_h ;
-	ns7:membership	ns16:h_broad ;
+	ns7:membership	ns18:h_broad ;
 	skos:altLabel	"Households with a broadband connection" ;
 	skos:prefLabel	"Households having a broadband connection" .
 ns1:labour_prod_ict	rdf:type	ns3:Indicator ,
@@ -3904,12 +3968,112 @@ ns1:labour_prod_ict	rdf:type	ns3:Indicator ,
 	ns7:membership	ns28:labour_prod_ict ;
 	skos:altLabel	"Labour productivity of the ICT sector (per person)" ;
 	skos:prefLabel	"Labour productivity of the ICT sector (per person)" .
+ns1:e_gov_ke	rdf:type	ns3:Indicator ,
+		skos:Concept ;
+	skos:notation	"e_gov_ke" ;
+	skos:definition	"Availability of Key Enablers such as electronic Identification (eID), electronic Documents, Authentic Sources as well as Digital Post (newly introduced in 2017)" ;
+	skos:note	"The degree to which key enablers (eID, eDocuments. Authentic sources, Digital Post) are available for interaction with public administration for the life events (Business, Family, Job, Studying)" ;
+	skos:topConceptOf	ns4:indicator ;
+	ns5:source	ns6:egov_bench14 ;
+	ns7:membership	ns25:e_gov_ke ;
+	skos:altLabel	"Key Enablers" ;
+	skos:prefLabel	"Key Enablers" .
 ns1:bb_fttpcov	rdf:type	skos:Concept ,
 		ns3:Indicator ;
 	skos:notation	"bb_fttpcov" ;
 	skos:definition	"Coverage is a supply indicator defined as the percentage of Households living in areas served by FTTP" ;
 	skos:topConceptOf	ns4:indicator ;
 	ns5:source	ns6:point_topic ;
-	ns7:membership	ns16:bb_fttpcov ;
+	ns7:membership	ns18:bb_fttpcov ;
 	skos:altLabel	"Fibre to the Premises coverage" ;
 	skos:prefLabel	"Fibre to the Premises coverage/availability (as a % of households)" .
+ns8:desi_1b1_4g	rdf:type	ns3:IndicatorToGroupMembership ;
+	rdfs:label	"desi_ind" ;
+	ns7:member-of	ns16:desi_ind ;
+	ns7:order	"121"^^xsd:byte .
+ns8:desi_1b2_mbbtu	rdf:type	ns3:IndicatorToGroupMembership ;
+	rdfs:label	"desi_ind" ;
+	ns7:member-of	ns16:desi_ind ;
+	ns7:order	"122"^^xsd:byte .
+ns8:desi_1d1_ubbc	rdf:type	ns3:IndicatorToGroupMembership ;
+	rdfs:label	"desi_ind" ;
+	ns7:member-of	ns16:desi_ind ;
+	ns7:order	"141"^^xsd:short .
+ns8:desi_1d2_ubbta	rdf:type	ns3:IndicatorToGroupMembership ;
+	rdfs:label	"desi_ind" ;
+	ns7:member-of	ns16:desi_ind ;
+	ns7:order	"142"^^xsd:short .
+ns8:desi_1e1_bbpi	rdf:type	ns3:IndicatorToGroupMembership ;
+	rdfs:label	"desi_ind" ;
+	ns7:member-of	ns16:desi_ind ;
+	ns7:order	"151"^^xsd:short .
+ns8:desi_5a4_psb	rdf:type	ns3:IndicatorToGroupMembership ;
+	rdfs:label	"desi_ind" ;
+	ns7:member-of	ns16:desi_ind ;
+	ns7:order	"514"^^xsd:short .
+ns8:desi_5a5_opendata	rdf:type	ns3:IndicatorToGroupMembership ;
+	rdfs:label	"desi_ind" ;
+	ns7:member-of	ns16:desi_ind ;
+	ns7:order	"515"^^xsd:short .
+ns8:desi_5b1_ehs	rdf:type	ns3:IndicatorToGroupMembership ;
+	rdfs:label	"desi_ind" ;
+	ns7:member-of	ns16:desi_ind ;
+	ns7:order	"521"^^xsd:short .
+ns9:desi_1d_ultra	rdf:type	ns3:IndicatorToGroupMembership ;
+	rdfs:label	"desi_subdim" ;
+	ns7:member-of	ns16:desi_subdim ;
+	ns7:order	"14"^^xsd:byte .
+ns9:desi_1e_bbpi	rdf:type	ns3:IndicatorToGroupMembership ;
+	rdfs:label	"desi_subdim" ;
+	ns7:member-of	ns16:desi_subdim ;
+	ns7:order	"15"^^xsd:byte .
+ns9:desi_5b_ehs	rdf:type	ns3:IndicatorToGroupMembership ;
+	rdfs:label	"desi_subdim" ;
+	ns7:member-of	ns16:desi_subdim ;
+	ns7:order	"52"^^xsd:byte .
+ns25:e_gov_dpsb	rdf:type	ns3:IndicatorToGroupMembership ;
+	rdfs:label	"egovernment" ;
+	ns7:member-of	ns16:egovernment ;
+	ns7:order	"6" .
+ns25:e_gov_ke	rdf:type	ns3:IndicatorToGroupMembership ;
+	rdfs:label	"egovernment" ;
+	ns7:member-of	ns16:egovernment ;
+	ns7:order	"7" .
+ns25:e_gov_opa	rdf:type	ns3:IndicatorToGroupMembership ;
+	rdfs:label	"egovernment" ;
+	ns7:member-of	ns16:egovernment ;
+	ns7:order	"8" .
+ns25:e_gov_p	rdf:type	ns3:IndicatorToGroupMembership ;
+	rdfs:label	"egovernment" ;
+	ns7:member-of	ns16:egovernment ;
+	ns7:order	"9" .
+ns1:e_gov_dpsb	rdf:type	ns3:Indicator ,
+		skos:Concept ;
+	skos:notation	"e_gov_dpsb" ;
+	skos:definition	"The the extent to which a service or information concerning the service is provided online, and via a portal. Availability of services per Member State and per life event" ;
+	skos:note	"Services that are offered fully, partially or not at all online. Also there is a distinction between services that are offered via a portal, or not." ;
+	skos:topConceptOf	ns4:indicator ;
+	ns5:source	ns6:egov_bench13 ;
+	ns7:membership	ns25:e_gov_dpsb ;
+	skos:altLabel	"Digital Public Services for Businesses" ;
+	skos:prefLabel	"Digital Public Services for Businesses" .
+ns1:e_gov_opa	rdf:type	ns3:Indicator ,
+		skos:Concept ;
+	skos:notation	"e_gov_opa" ;
+	skos:definition	"Openness of Member States in regards to Open Data, freedom of expression, free media and freedom of association." ;
+	skos:note	"Composed indicator made of open data (DESI) and voice and accountability (World Bank indicator)" ;
+	skos:topConceptOf	ns4:indicator ;
+	ns5:source	ns6:egov_bench15 ;
+	ns7:membership	ns25:e_gov_opa ;
+	skos:altLabel	"Openness of Public Administrations" ;
+	skos:prefLabel	"Openness of Public Administrations" .
+ns1:e_gov_p	rdf:type	ns3:Indicator ,
+		skos:Concept ;
+	skos:notation	"e_gov_p" ;
+	skos:definition	"The extent to which use of the online channel is widespread among users of government services." ;
+	skos:note	"It is composed by: -Internet use (submitting completed forms - in the last twelve months); -Percentage of individuals who need to submit official forms to administrative authorities" ;
+	skos:topConceptOf	ns4:indicator ;
+	ns5:source	ns6:egov_bench16 ;
+	ns7:membership	ns25:e_gov_p ;
+	skos:altLabel	"Penetration" ;
+	skos:prefLabel	"Penetration" .
