@@ -1189,6 +1189,10 @@
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/total/all_egov_le>	<http://semantic.digital-agenda-data.eu/def/property/order>	"1" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/total/all_egov_le>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/BreakdownToGroupMembership> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/total/all_egov_le>	<http://www.w3.org/2000/01/rdf-schema#label>	"total" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/total/egov_le_bus>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/total> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/total/egov_le_bus>	<http://semantic.digital-agenda-data.eu/def/property/order>	"1" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/total/egov_le_bus>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/BreakdownToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/total/egov_le_bus>	<http://www.w3.org/2000/01/rdf-schema#label>	"total" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/total/ent_all_xfin>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/total> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/total/ent_all_xfin>	<http://semantic.digital-agenda-data.eu/def/property/order>	"57" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/total/ent_all_xfin>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/BreakdownToGroupMembership> .
@@ -2376,6 +2380,14 @@
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/edocuments>	<http://www.w3.org/2004/02/skos/core#notation>	"eDocuments" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/edocuments>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"eDocuments" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/edocuments>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/breakdown> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/egov_le_bus>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/total/egov_le_bus> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/egov_le_bus>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Breakdown> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/egov_le_bus>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/egov_le_bus>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Life Events for Businesses" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/egov_le_bus>	<http://www.w3.org/2004/02/skos/core#definition>	"The indicator is calculated for the basic services (therefore excluding extended services) of the life events of \u201CRegular business operations\u201D and \u201CStarting-up a business\u201D. These life events are calculated in alternate years. Therefore, each year the indicator will be a (moving) average of the latest available year of data for each indicator." .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/egov_le_bus>	<http://www.w3.org/2004/02/skos/core#notation>	"eGov_le_bus" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/egov_le_bus>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Life Events for Businesses" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/egov_le_bus>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/breakdown> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/eid>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/egov_ke/eid> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/eid>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Breakdown> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/eid>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
@@ -3556,7 +3568,7 @@
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/y65_74>	<http://www.w3.org/2004/02/skos/core#notation>	"Y65_74" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/y65_74>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Individuals, 65 to 74 years old" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/y65_74>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/breakdown> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://purl.org/dc/terms/modified>	"2018-05-18T16:11:51+03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://purl.org/dc/terms/modified>	"2018-05-23T18:00:44+03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://purl.org/linked-data/sdmx#CodeList> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#ConceptScheme> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2000/01/rdf-schema#isDefinedBy>	<http://digital-agenda-data.eu/> .
@@ -3714,6 +3726,7 @@
 <http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_di_vlo> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown/ec_all> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown/edocuments> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown/egov_le_bus> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown/eid> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown/einfra> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown/empl_une> .

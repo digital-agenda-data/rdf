@@ -6,12 +6,13 @@ ns1:breakdown	rdf:type	skos:ConceptScheme .
 ns1:breakdown	rdf:type	ns3:CodeList .
 @prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
 @prefix ns5:	<http://purl.org/dc/terms/> .
-ns1:breakdown	ns5:modified	"2018-05-18T16:11:51+03:00"^^xsd:dateTime .
+ns1:breakdown	ns5:modified	"2018-05-23T18:00:44+03:00"^^xsd:dateTime .
 @prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
 ns1:breakdown	rdfs:isDefinedBy	<http://digital-agenda-data.eu/> ;
 	skos:notation	"CL_BREAKDOWN" .
 @prefix ns7:	<http://semantic.digital-agenda-data.eu/codelist/breakdown/> .
-ns1:breakdown	skos:hasTopConcept	ns7:desi_5a_egov ,
+ns1:breakdown	skos:hasTopConcept	ns7:egov_le_bus ,
+		ns7:desi_5a_egov ,
 		ns7:desi_5b1_mdataexch ,
 		ns7:desi_5a3_osercomp ,
 		ns7:desi_5a4_opendata ,
@@ -3685,6 +3686,18 @@ ns7:csk_me	rdf:type	ns10:Breakdown ,
 	ns11:membership	ns32:csk_me ;
 	skos:altLabel	"medium computer skills" ;
 	skos:prefLabel	"Individuals with medium computer skills" .
+ns67:egov_le_bus	rdf:type	ns10:BreakdownToGroupMembership ;
+	rdfs:label	"total" ;
+	ns11:member-of	ns12:total ;
+	ns11:order	"1" .
+ns7:egov_le_bus	rdf:type	ns10:Breakdown ,
+		skos:Concept ;
+	skos:notation	"eGov_le_bus" ;
+	skos:definition	"The indicator is calculated for the basic services (therefore excluding extended services) of the life events of \u201CRegular business operations\u201D and \u201CStarting-up a business\u201D. These life events are calculated in alternate years. Therefore, each year the indicator will be a (moving) average of the latest available year of data for each indicator." ;
+	skos:topConceptOf	ns1:breakdown ;
+	ns11:membership	ns67:egov_le_bus ;
+	skos:altLabel	"Life Events for Businesses" ;
+	skos:prefLabel	"Life Events for Businesses" .
 ns36:desi_1d_ultra	rdf:type	ns10:BreakdownToGroupMembership ;
 	rdfs:label	"desi_1_conn" ;
 	ns11:member-of	ns12:desi_1_conn ;
