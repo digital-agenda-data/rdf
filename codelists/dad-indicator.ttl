@@ -68,7 +68,7 @@ ns1:desi_1e_bbpi	rdf:type	skos:Concept ,
 ns1:desi_5a4_psb	rdf:type	skos:Concept ,
 		ns3:Indicator ;
 	skos:notation	"DESI_5A4_PSB" ;
-	skos:definition	"Share of public services needed for starting a business and for conducting regular business operations that are available online for domestic as well as for foreign users. Services provided through a portal receive an higher score, srvices which provide only information receive a more limited score." ;
+	skos:definition	"Share of public services needed for starting a business and for conducting regular business operations that are available online for domestic as well as for foreign users (online availability sub-indicator under the two Top-Level Benchmarks \u201CUser centricity\u201D  and \u201CCross border mobility\u201D). Services provided through a portal receive an higher score, services which provide only information receive a more limited score." ;
 	skos:topConceptOf	ns4:indicator ;
 	ns5:source	ns6:desi_5a4_psb ;
 	ns7:membership	ns8:desi_5a4_psb ;
@@ -111,7 +111,7 @@ ns4:indicator	rdf:type	skos:ConceptScheme .
 @prefix ns11:	<http://purl.org/linked-data/sdmx#> .
 ns4:indicator	rdf:type	ns11:CodeList .
 @prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
-ns4:indicator	ns5:modified	"2018-05-18T10:25:04+03:00"^^xsd:dateTime .
+ns4:indicator	ns5:modified	"2018-05-28T19:01:24+03:00"^^xsd:dateTime .
 @prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
 ns4:indicator	rdfs:isDefinedBy	<http://digital-agenda-data.eu/> ;
 	skos:notation	"CL_INDICATOR" ;
@@ -580,131 +580,131 @@ ns20:desi_5_dps	rdf:type	ns3:IndicatorToGroupMembership ;
 ns8:desi_1a1_fbbc	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
 	ns7:member-of	ns16:desi_ind ;
-	ns7:order	"111"^^xsd:byte .
+	ns7:order	"111" .
 ns8:desi_1a2_fbbtu	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
 	ns7:member-of	ns16:desi_ind ;
-	ns7:order	"112"^^xsd:byte .
+	ns7:order	"112" .
 ns8:desi_1b1_mbbtu	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
 	ns7:member-of	ns16:desi_ind ;
-	ns7:order	"121"^^xsd:byte .
+	ns7:order	"121" .
 ns8:desi_1b3_spec	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
 	ns7:member-of	ns16:desi_ind ;
-	ns7:order	"123"^^xsd:byte .
+	ns7:order	"123" .
 ns8:desi_1c1_ngac	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
 	ns7:member-of	ns16:desi_ind ;
-	ns7:order	"131"^^xsd:short .
+	ns7:order	"131" .
 ns8:desi_1c2_sfbb	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
 	ns7:member-of	ns16:desi_ind ;
-	ns7:order	"132"^^xsd:short .
+	ns7:order	"132" .
 ns8:desi_2a1_iu	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
 	ns7:member-of	ns16:desi_ind ;
-	ns7:order	"211"^^xsd:short .
+	ns7:order	"211" .
 ns8:desi_2a2_bds	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
 	ns7:member-of	ns16:desi_ind ;
-	ns7:order	"212"^^xsd:short .
+	ns7:order	"212" .
 ns8:desi_2b1_ictspec	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
 	ns7:member-of	ns16:desi_ind ;
-	ns7:order	"221"^^xsd:short .
+	ns7:order	"221" .
 ns8:desi_2b2_stemg	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
 	ns7:member-of	ns16:desi_ind ;
-	ns7:order	"222"^^xsd:short .
+	ns7:order	"222" .
 ns8:desi_3a1_news	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
 	ns7:member-of	ns16:desi_ind ;
-	ns7:order	"311"^^xsd:short .
+	ns7:order	"311" .
 ns8:desi_3a2_mvg	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
 	ns7:member-of	ns16:desi_ind ;
-	ns7:order	"312"^^xsd:short .
+	ns7:order	"312" .
 ns8:desi_3a3_vod	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
 	ns7:member-of	ns16:desi_ind ;
-	ns7:order	"313"^^xsd:short .
+	ns7:order	"313" .
 ns8:desi_3a4_iptv	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
 	ns7:member-of	ns16:desi_ind ;
-	ns7:order	"314"^^xsd:short .
+	ns7:order	"314" .
 ns8:desi_3b1_vidcall	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
 	ns7:member-of	ns16:desi_ind ;
-	ns7:order	"321"^^xsd:short .
+	ns7:order	"321" .
 ns8:desi_3b2_socnet	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
 	ns7:member-of	ns16:desi_ind ;
-	ns7:order	"322"^^xsd:short .
+	ns7:order	"322" .
 ns8:desi_3c1_bank	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
 	ns7:member-of	ns16:desi_ind ;
-	ns7:order	"331"^^xsd:short .
+	ns7:order	"331" .
 ns8:desi_3c2_shop	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
 	ns7:member-of	ns16:desi_ind ;
-	ns7:order	"332"^^xsd:short .
+	ns7:order	"332" .
 ns8:desi_4a1_eis	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
 	ns7:member-of	ns16:desi_ind ;
-	ns7:order	"411"^^xsd:short .
+	ns7:order	"411" .
 ns8:desi_4a2_rfid	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
 	ns7:member-of	ns16:desi_ind ;
-	ns7:order	"412"^^xsd:short .
+	ns7:order	"412" .
 ns8:desi_4a3_socmed	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
 	ns7:member-of	ns16:desi_ind ;
-	ns7:order	"413"^^xsd:short .
+	ns7:order	"413" .
 ns8:desi_4a4_einv	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
 	ns7:member-of	ns16:desi_ind ;
-	ns7:order	"414"^^xsd:short .
+	ns7:order	"414" .
 ns8:desi_4a5_cloud	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
 	ns7:member-of	ns16:desi_ind ;
-	ns7:order	"415"^^xsd:short .
+	ns7:order	"415" .
 ns8:desi_4b1_smeso	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
 	ns7:member-of	ns16:desi_ind ;
-	ns7:order	"421"^^xsd:short .
+	ns7:order	"421" .
 ns8:desi_4b2_ecomturn	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
 	ns7:member-of	ns16:desi_ind ;
-	ns7:order	"422"^^xsd:short .
+	ns7:order	"422" .
 ns8:desi_4b3_sellcb	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
 	ns7:member-of	ns16:desi_ind ;
-	ns7:order	"423"^^xsd:short .
+	ns7:order	"423" .
 ns8:desi_5a1_egovu	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
 	ns7:member-of	ns16:desi_ind ;
-	ns7:order	"511"^^xsd:short .
+	ns7:order	"511" .
 ns8:desi_5a2_prefform	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
 	ns7:member-of	ns16:desi_ind ;
-	ns7:order	"512"^^xsd:short .
+	ns7:order	"512" .
 ns8:desi_5a3_osercomp	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
 	ns7:member-of	ns16:desi_ind ;
-	ns7:order	"513"^^xsd:short .
+	ns7:order	"513" .
 ns8:desi_5a4_opendata	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
 	ns7:member-of	ns16:desi_ind ;
-	ns7:order	"514"^^xsd:short .
+	ns7:order	"514" .
 ns8:desi_5b1_mdataexch	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
 	ns7:member-of	ns16:desi_ind ;
-	ns7:order	"521"^^xsd:short .
+	ns7:order	"521" .
 ns8:desi_5b2_epresc	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
 	ns7:member-of	ns16:desi_ind ;
-	ns7:order	"522"^^xsd:short .
+	ns7:order	"522" .
 @prefix ns21:	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_sliders/> .
 ns21:desi_sliders	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_sliders" ;
@@ -713,51 +713,51 @@ ns21:desi_sliders	rdf:type	ns3:IndicatorToGroupMembership ;
 ns9:desi_1a_fbb	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_subdim" ;
 	ns7:member-of	ns16:desi_subdim ;
-	ns7:order	"11"^^xsd:byte .
+	ns7:order	"11" .
 ns9:desi_1b_mbb	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_subdim" ;
 	ns7:member-of	ns16:desi_subdim ;
-	ns7:order	"12"^^xsd:byte .
+	ns7:order	"12" .
 ns9:desi_1c_speed	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_subdim" ;
 	ns7:member-of	ns16:desi_subdim ;
-	ns7:order	"13"^^xsd:byte .
+	ns7:order	"13" .
 ns9:desi_1d_aff	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_subdim" ;
 	ns7:member-of	ns16:desi_subdim ;
-	ns7:order	"14"^^xsd:byte .
+	ns7:order	"14" .
 ns9:desi_2a_bsu	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_subdim" ;
 	ns7:member-of	ns16:desi_subdim ;
-	ns7:order	"21"^^xsd:byte .
+	ns7:order	"21" .
 ns9:desi_2b_asd	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_subdim" ;
 	ns7:member-of	ns16:desi_subdim ;
-	ns7:order	"22"^^xsd:byte .
+	ns7:order	"22" .
 ns9:desi_3a_cont	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_subdim" ;
 	ns7:member-of	ns16:desi_subdim ;
-	ns7:order	"31"^^xsd:byte .
+	ns7:order	"31" .
 ns9:desi_3b_comm	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_subdim" ;
 	ns7:member-of	ns16:desi_subdim ;
-	ns7:order	"32"^^xsd:byte .
+	ns7:order	"32" .
 ns9:desi_3c_trans	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_subdim" ;
 	ns7:member-of	ns16:desi_subdim ;
-	ns7:order	"33"^^xsd:byte .
+	ns7:order	"33" .
 ns9:desi_4a_bd	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_subdim" ;
 	ns7:member-of	ns16:desi_subdim ;
-	ns7:order	"41"^^xsd:byte .
+	ns7:order	"41" .
 ns9:desi_4b_ecomm	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_subdim" ;
 	ns7:member-of	ns16:desi_subdim ;
-	ns7:order	"42"^^xsd:byte .
+	ns7:order	"42" .
 ns9:desi_5a_egov	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_subdim" ;
 	ns7:member-of	ns16:desi_subdim ;
-	ns7:order	"51"^^xsd:byte .
+	ns7:order	"51" .
 @prefix ns22:	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/discontinued/> .
 ns22:bb_fcov	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"discontinued" ;
@@ -3990,47 +3990,47 @@ ns1:bb_fttpcov	rdf:type	skos:Concept ,
 ns8:desi_1b1_4g	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
 	ns7:member-of	ns16:desi_ind ;
-	ns7:order	"121"^^xsd:byte .
+	ns7:order	"121" .
 ns8:desi_1b2_mbbtu	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
 	ns7:member-of	ns16:desi_ind ;
-	ns7:order	"122"^^xsd:byte .
+	ns7:order	"122" .
 ns8:desi_1d1_ubbc	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
 	ns7:member-of	ns16:desi_ind ;
-	ns7:order	"141"^^xsd:short .
+	ns7:order	"141" .
 ns8:desi_1d2_ubbta	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
 	ns7:member-of	ns16:desi_ind ;
-	ns7:order	"142"^^xsd:short .
+	ns7:order	"142" .
 ns8:desi_1e1_bbpi	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
 	ns7:member-of	ns16:desi_ind ;
-	ns7:order	"151"^^xsd:short .
+	ns7:order	"151" .
 ns8:desi_5a4_psb	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
 	ns7:member-of	ns16:desi_ind ;
-	ns7:order	"514"^^xsd:short .
+	ns7:order	"514" .
 ns8:desi_5a5_opendata	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
 	ns7:member-of	ns16:desi_ind ;
-	ns7:order	"515"^^xsd:short .
+	ns7:order	"515" .
 ns8:desi_5b1_ehs	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
 	ns7:member-of	ns16:desi_ind ;
-	ns7:order	"521"^^xsd:short .
+	ns7:order	"521" .
 ns9:desi_1d_ultra	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_subdim" ;
 	ns7:member-of	ns16:desi_subdim ;
-	ns7:order	"14"^^xsd:byte .
+	ns7:order	"14" .
 ns9:desi_1e_bbpi	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_subdim" ;
 	ns7:member-of	ns16:desi_subdim ;
-	ns7:order	"15"^^xsd:byte .
+	ns7:order	"15" .
 ns9:desi_5b_ehs	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"desi_subdim" ;
 	ns7:member-of	ns16:desi_subdim ;
-	ns7:order	"52"^^xsd:byte .
+	ns7:order	"52" .
 ns25:e_gov_dpsb	rdf:type	ns3:IndicatorToGroupMembership ;
 	rdfs:label	"egovernment" ;
 	ns7:member-of	ns16:egovernment ;

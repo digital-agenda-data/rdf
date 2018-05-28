@@ -7,7 +7,7 @@
 @prefix ns6:	<https://ec.europa.eu/digital-agenda/en/news/> .
 @prefix ns7:	<http://ec.europa.eu/information_society/eeurope/i2010/benchmarking/index_en.htm#> .
 @prefix ns8:	<http://ec.europa.eu/digital-agenda/> .
-@prefix ns9:	<https://www.europeandataportal.eu/en/> .
+@prefix ns9:	<https://ec.europa.eu/digital-single-market/en/news/> .
 @prefix ns10:	<http://www.cept.org/eco/deliverables/> .
 @prefix ns11:	<http://www.obs.coe.int/eservices/> .
 @prefix ns12:	<http://www.epsiplatform.eu/content/> .
@@ -25,6 +25,7 @@
 @prefix ns24:	<http://ec.europa.eu/eurostat/web/science-technology-innovation/data/> .
 @prefix ns25:	<http://ec.europa.eu/eurostat/web/national-accounts/data/> .
 @prefix ns26:	<http://epp.eurostat.ec.europa.eu/portal/page/portal/employment_unemployment_lfs/methodology/> .
+@prefix ns27:	<https://www.europeandataportal.eu/en/> .
 
 ns1:abac
 	rdf:type	skos:Concept , ns3:Source ;
@@ -100,26 +101,6 @@ ns1:desi_1a2_fbbtu
 	skos:definition	"Eurostat - Community survey on ICT usage in Households and by Individuals" ;
 	skos:topConceptOf	ns5:source ;
 	skos:prefLabel	"Eurostat - ICT Households survey" .
-ns1:desi_1b1_mbbtu
-	rdf:type	skos:Concept , ns3:Source ;
-	skos:notation	"DESI_1B1_MBBTU" ;
-	foaf:page	<http://digital-agenda-data.eu/charts/analyse-one-indicator-and-compare-countries#chart={\u0022indicator-group\u0022:\u0022any\u0022,\u0022indicator\u0022:\u0022mbb_penet\u0022,\u0022breakdown\u0022:\u0022TOTAL_MBB\u0022,\u0022unit-measure\u0022:\u0022subs_per_100_pop\u0022,\u0022ref-area\u0022:[\u0022BE\u0022,\u0022BG\u0022,\u0022CZ\u0022,\u0022DK\u0022,\u0022DE\u0022,\u0022EE\u0022,\u0022IE\u0022,\u0022EL\u0022,\u0022ES\u0022,\u0022FR\u0022,\u0022IT\u0022,\u0022CY\u0022,\u0022LV\u0022,\u0022LT\u0022,\u0022LU\u0022,\u0022HU\u0022,\u0022HR\u0022,\u0022MT\u0022,\u0022NL\u0022,\u0022AT\u0022,\u0022PL\u0022,\u0022PT\u0022,\u0022RO\u0022,\u0022SI\u0022,\u0022SK\u0022,\u0022FI\u0022,\u0022SE\u0022,\u0022UK\u0022,\u0022EU27\u0022]}> ;
-	skos:definition	"Electronic communications market indicators collected by Commission services, through National Regulatory Authorities, for the Communications Committee (COCOM)" ;
-	skos:topConceptOf	ns5:source ;
-	skos:prefLabel	"Communications Committee survey" .
-ns1:desi_1b2_4g
-	rdf:type	skos:Concept , ns3:Source ;
-	skos:notation	"DESI_1B2_4G" ;
-	skos:definition	"Broadband coverage in Europe, studies for the EC by IHS and Valdani, Vicari & Associati (2013-2015, SMART 2013/0054) and by IHS and Point Topic (2016 onwards, SMART 2016/0045)" ;
-	skos:topConceptOf	ns5:source ;
-	skos:prefLabel	"Study on broadband coverage" .
-ns1:desi_1b3_spec
-	rdf:type	skos:Concept , ns3:Source ;
-	skos:notation	"DESI_1B3_SPEC" ;
-	foaf:page	<http://digital-agenda-data.eu/charts/analyse-one-indicator-and-compare-countries#chart={\u0022indicator-group\u0022:\u0022any\u0022,\u0022indicator\u0022:\u0022spectrum_WBB\u0022,\u0022breakdown\u0022:\u0022TOTAL\u0022,\u0022unit-measure\u0022:\u0022pc_spectrum_assigned\u0022,\u0022ref-area\u0022:[\u0022AT\u0022,\u0022BE\u0022,\u0022BG\u0022,\u0022HR\u0022,\u0022CY\u0022,\u0022CZ\u0022,\u0022DK\u0022,\u0022EE\u0022,\u0022EU28\u0022,\u0022FI\u0022,\u0022FR\u0022,\u0022DE\u0022,\u0022EL\u0022,\u0022HU\u0022,\u0022IE\u0022,\u0022IT\u0022,\u0022LV\u0022,\u0022LT\u0022,\u0022LU\u0022,\u0022MT\u0022,\u0022NL\u0022,\u0022PL\u0022,\u0022PT\u0022,\u0022RO\u0022,\u0022SK\u0022,\u0022SI\u0022,\u0022ES\u0022,\u0022SE\u0022,\u0022UK\u0022]}> ;
-	skos:definition	"European Commission Services" ;
-	skos:topConceptOf	ns5:source ;
-	skos:prefLabel	"European Commission Services" .
 ns1:desi_1c1_ngac
 	rdf:type	skos:Concept , ns3:Source ;
 	skos:notation	"DESI_1C1_NGAC" ;
@@ -134,13 +115,6 @@ ns1:desi_1c2_sfbb
 	skos:definition	"Electronic communications market indicators collected by Commission services, through National Regulatory Authorities, for the Communications Committee (COCOM)" ;
 	skos:topConceptOf	ns5:source ;
 	skos:prefLabel	"Communications Committee survey" .
-ns1:desi_1d1_fbbp
-	rdf:type	skos:Concept , ns3:Source ;
-	skos:notation	"DESI_1D1_FBBP" ;
-	foaf:page	<http://digital-agenda-data.eu/charts/analyse-one-indicator-and-compare-countries#chart={\u0022indicator-group\u0022:\u0022any\u0022,\u0022indicator\u0022:\u0022Price_Internet_only\u0022,\u0022breakdown\u0022:\u0022offer_12_30_Mbps\u0022,\u0022unit-measure\u0022:\u0022minimum_euro_PPP\u0022,\u0022ref-area\u0022:[\u0022AT\u0022,\u0022BE\u0022,\u0022BG\u0022,\u0022HR\u0022,\u0022CY\u0022,\u0022CZ\u0022,\u0022DK\u0022,\u0022EE\u0022,\u0022EU27\u0022,\u0022FI\u0022,\u0022FR\u0022,\u0022DE\u0022,\u0022EL\u0022,\u0022HU\u0022,\u0022IE\u0022,\u0022IT\u0022,\u0022LV\u0022,\u0022LT\u0022,\u0022LU\u0022,\u0022MT\u0022,\u0022NL\u0022,\u0022PL\u0022,\u0022PT\u0022,\u0022RO\u0022,\u0022SK\u0022,\u0022SI\u0022,\u0022ES\u0022,\u0022SE\u0022,\u0022UK\u0022]}> ;
-	skos:definition	"Access cost: Broadband Internet Access Cost (BIAC), annual studies for the EC realised by Van Dijk (2013-2015) and by Empirica (2016 onwards). Income: Real adjusted gross disposable income of households per capita (Eurostat: tec00113)" ;
-	skos:topConceptOf	ns5:source ;
-	skos:prefLabel	"Broadband Internet Access Cost (BIAC) annual studies" .
 ns1:desi_2a1_iu
 	rdf:type	skos:Concept , ns3:Source ;
 	skos:notation	"DESI_2A1_IU" ;
@@ -291,38 +265,17 @@ ns1:desi_5a1_egovu
 ns1:desi_5a2_prefform
 	rdf:type	skos:Concept , ns3:Source ;
 	skos:notation	"DESI_5A2_PREFFORM" ;
-	foaf:page	<http://digital-agenda-data.eu/charts/analyse-one-indicator-and-compare-countries#chart={\u0022indicator-group\u0022:\u0022any\u0022,\u0022indicator\u0022:\u0022e_gov_pff\u0022,\u0022breakdown\u0022:\u0022all_eGov_le\u0022,\u0022unit-measure\u0022:\u0022eGov_score\u0022,\u0022ref-area\u0022:[\u0022AT\u0022,\u0022BE\u0022,\u0022BG\u0022,\u0022HR\u0022,\u0022CY\u0022,\u0022CZ\u0022,\u0022DK\u0022,\u0022EE\u0022,\u0022EU28\u0022,\u0022FI\u0022,\u0022FR\u0022,\u0022DE\u0022,\u0022EL\u0022,\u0022HU\u0022,\u0022IE\u0022,\u0022IT\u0022,\u0022LV\u0022,\u0022LT\u0022,\u0022LU\u0022,\u0022MT\u0022,\u0022NL\u0022,\u0022PL\u0022,\u0022PT\u0022,\u0022RO\u0022,\u0022SK\u0022,\u0022SI\u0022,\u0022ES\u0022,\u0022SE\u0022,\u0022UK\u0022]}> ;
-	skos:definition	"eGovernment Benchmark - Authentic Sources Key Enabler indicator" ;
+	foaf:page	ns9:new-study-egovernment-services-europe-improving-cross-border-availability-services ;
+	skos:definition	"eGovernment Benchmarking Report, Studies for the EC performed by Capgemini (2012-2017)\u00A0" ;
 	skos:topConceptOf	ns5:source ;
-	skos:prefLabel	"eGovernment Benchmark" .
+	skos:prefLabel	"eGovernment Benchmarking Report, Studies for the EC performed by Capgemini (2012-2017)\u00A0" .
 ns1:desi_5a3_osercomp
 	rdf:type	skos:Concept , ns3:Source ;
 	skos:notation	"DESI_5A3_OSERCOMP" ;
-	foaf:page	<http://digital-agenda-data.eu/charts/analyse-one-indicator-and-compare-countries#chart={\u0022indicator-group\u0022:\u0022any\u0022,\u0022indicator\u0022:\u0022e_gov_osc\u0022,\u0022breakdown\u0022:\u0022all_eGov_le\u0022,\u0022unit-measure\u0022:\u0022eGov_score\u0022,\u0022ref-area\u0022:[\u0022AT\u0022,\u0022BE\u0022,\u0022BG\u0022,\u0022HR\u0022,\u0022CY\u0022,\u0022CZ\u0022,\u0022DK\u0022,\u0022EE\u0022,\u0022EU28\u0022,\u0022FI\u0022,\u0022FR\u0022,\u0022DE\u0022,\u0022EL\u0022,\u0022HU\u0022,\u0022IE\u0022,\u0022IT\u0022,\u0022LV\u0022,\u0022LT\u0022,\u0022LU\u0022,\u0022MT\u0022,\u0022NL\u0022,\u0022PL\u0022,\u0022PT\u0022,\u0022RO\u0022,\u0022SK\u0022,\u0022SI\u0022,\u0022ES\u0022,\u0022SE\u0022,\u0022UK\u0022]}> ;
-	skos:definition	"eGovernment Benchmark - Online availability sub-indicator under User Centricity" ;
+	foaf:page	ns9:new-study-egovernment-services-europe-improving-cross-border-availability-services ;
+	skos:definition	"eGovernment Benchmarking Report, Studies for the EC performed by Capgemini (2012-2017)\u00A0" ;
 	skos:topConceptOf	ns5:source ;
-	skos:prefLabel	"eGovernment Benchmark" .
-ns1:desi_5a4_opendata
-	rdf:type	skos:Concept , ns3:Source ;
-	skos:notation	"DESI_5A4_OPENDATA" ;
-	foaf:page	ns9:dashboard ;
-	skos:definition	"European Data Portal" ;
-	skos:topConceptOf	ns5:source ;
-	skos:prefLabel	"European Data Portal" .
-ns1:desi_5b1_mdataexch
-	rdf:type	skos:Concept , ns3:Source ;
-	skos:notation	"DESI_5B1_MDATAEXCH" ;
-	foaf:page	<http://digital-agenda-data.eu/charts/analyse-one-indicator-and-compare-countries#chart={\u0022indicator-group\u0022:\u0022any\u0022,\u0022indicator\u0022:\u0022HIE_use_ex_admin\u0022,\u0022breakdown\u0022:\u0022TOTAL\u0022,\u0022unit-measure\u0022:\u0022pc_gp\u0022,\u0022ref-area\u0022:[\u0022AT\u0022,\u0022BE\u0022,\u0022BG\u0022,\u0022HR\u0022,\u0022CY\u0022,\u0022CZ\u0022,\u0022DK\u0022,\u0022EE\u0022,\u0022EU28\u0022,\u0022FI\u0022,\u0022FR\u0022,\u0022DE\u0022,\u0022EL\u0022,\u0022HU\u0022,\u0022IE\u0022,\u0022IT\u0022,\u0022LV\u0022,\u0022LT\u0022,\u0022LU\u0022,\u0022MT\u0022,\u0022NL\u0022,\u0022PL\u0022,\u0022PT\u0022,\u0022RO\u0022,\u0022SK\u0022,\u0022SI\u0022,\u0022ES\u0022,\u0022SE\u0022,\u0022UK\u0022]}> ;
-	skos:definition	"Benchmarking Deployment of eHealth among General Practitioners" ;
-	skos:topConceptOf	ns5:source ;
-	skos:prefLabel	"eHealth Studies" .
-ns1:desi_5b2_epresc
-	rdf:type	skos:Concept , ns3:Source ;
-	skos:notation	"DESI_5B2_EPRESC" ;
-	foaf:page	<http://digital-agenda-data.eu/charts/analyse-one-indicator-and-compare-countries#chart={\u0022indicator-group\u0022:\u0022any\u0022,\u0022indicator\u0022:\u0022HIE_use_pharm\u0022,\u0022breakdown\u0022:\u0022TOTAL\u0022,\u0022unit-measure\u0022:\u0022pc_gp\u0022,\u0022ref-area\u0022:[\u0022AT\u0022,\u0022BE\u0022,\u0022BG\u0022,\u0022HR\u0022,\u0022CY\u0022,\u0022CZ\u0022,\u0022DK\u0022,\u0022EE\u0022,\u0022EU28\u0022,\u0022FI\u0022,\u0022FR\u0022,\u0022DE\u0022,\u0022EL\u0022,\u0022HU\u0022,\u0022IE\u0022,\u0022IT\u0022,\u0022LV\u0022,\u0022LT\u0022,\u0022LU\u0022,\u0022MT\u0022,\u0022NL\u0022,\u0022PL\u0022,\u0022PT\u0022,\u0022RO\u0022,\u0022SK\u0022,\u0022SI\u0022,\u0022ES\u0022,\u0022SE\u0022,\u0022UK\u0022]}> ;
-	skos:definition	"Benchmarking Deployment of eHealth among General Practitioners" ;
-	skos:topConceptOf	ns5:source ;
-	skos:prefLabel	"eHealth Studies" .
+	skos:prefLabel	"eGovernment Benchmarking Report, Studies for the EC performed by Capgemini (2012-2017)\u00A0" .
 ns1:eco_report_03_efis_comm
 	rdf:type	skos:Concept , ns3:Source ;
 	skos:notation	"ECO_Report_03_EFIS_comm" ;
@@ -721,10 +674,10 @@ ns1:smart11_39
 	skos:prefLabel	"Analysis of publications and patents of ICT research in FP7" .
 ns5:source
 	rdf:type	skos:ConceptScheme ;
-	ns20:modified	"2017-03-29T19:02:07+03:00"^^xsd:dateTime ;
+	ns20:modified	"2018-05-28T19:08:16+03:00"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://digital-agenda-data.eu/> ;
 	skos:notation	"CL_SOURCE" ;
-	skos:hasTopConcept	ns1:abac , ns1:bench_gp , ns1:berec_roam , ns1:biac , ns1:capgemini , ns1:cnect-estat , ns1:cocom , ns1:corda , ns1:desi_1a1_fbbc , ns1:desi_1a2_fbbtu , ns1:desi_1b1_mbbtu , ns1:desi_1b2_4g , ns1:desi_1b3_spec , ns1:desi_1c1_ngac , ns1:desi_1c2_sfbb , ns1:desi_1d1_fbbp , ns1:desi_2a1_iu , ns1:desi_2a2_bds , ns1:desi_2b1_ictspec , ns1:desi_2b2_stemg , ns1:desi_3a1_news , ns1:desi_3a2_mvg , ns1:desi_3a3_vod , ns1:desi_3a4_iptv , ns1:desi_3b1_vidcall , ns1:desi_3b2_socnet , ns1:desi_3c1_bank , ns1:desi_3c2_shop , ns1:desi_4a1_eis , ns1:desi_4a2_rfid , ns1:desi_4a3_socmed , ns1:desi_4a4_einv , ns1:desi_4a5_cloud , ns1:desi_4b1_smeso , ns1:desi_4b2_ecomturn , ns1:desi_4b3_sellcb , ns1:desi_5a1_egovu , ns1:desi_5a2_prefform , ns1:desi_5a3_osercomp , ns1:desi_5a4_opendata , ns1:desi_5b1_mdataexch , ns1:desi_5b2_epresc , ns1:eco_report_03_efis_comm , ns1:egov_bench12 , ns1:einfraegi , ns1:einfrageant , ns1:einfraprace , ns1:eoa_smart12-26 , ns1:eoa_yearbook2014 , ns1:epsiplatform , ns1:estat-ent , ns1:estat-hh , ns1:estat-trade , ns1:estat_isoc_bde15b_e , ns1:estat_isoc_bde15b_h , ns1:estat_isoc_bde15b_p , ns1:estat_isoc_bde15cbc , ns1:estat_isoc_bde15cua , ns1:estat_isoc_bde15dec , ns1:estat_isoc_bde15dip , ns1:estat_isoc_bde15disc , ns1:estat_isoc_bde15dth , ns1:estat_isoc_ci_ac_i , ns1:estat_isoc_ci_eu_en2 , ns1:estat_isoc_ci_ifp_fu , ns1:estat_isoc_ci_ifp_iu , ns1:estat_isoc_ci_im_i , ns1:estat_isoc_cicce_use , ns1:estat_isoc_cisci_ax , ns1:estat_isoc_cisci_pb , ns1:estat_isoc_cisci_prv , ns1:estat_isoc_cismt , ns1:estat_isoc_ec_eseln2 , ns1:estat_isoc_ec_ibuy , ns1:estat_isoc_ec_iprb , ns1:estat_isoc_r_gov_i , ns1:estat_isoc_r_iuse_i , ns1:estat_isoc_sk_cskl_i , ns1:estat_isoc_sk_dskl_i , ns1:estat_isoc_sk_how_i , ns1:estat_isoc_sk_iskl_i , ns1:estat_isoc_ske_ittn2 , ns1:estat_isoc_sks_itspt , ns1:estat_lfst_hhnhwhtc , ns1:estat_nama_gdp_c , ns1:estat_tps00188 , ns1:eun12 , ns1:euripidis-estat , ns1:eurostat_pop , ns1:idate , ns1:ihs_tech , ns1:ipv6obs , ns1:jrc_ict_randd , ns1:mis , ns1:point_topic , ns1:samknows , ns1:smart11_39 , ns1:epsi , ns1:estat-lfs , ns1:estat-lfs-sks , ns1:estat_gba_nabsfin07 , ns1:estat_isoc_bde15ee , ns1:estat_isoc_ci_eu_i , ns1:estat_isoc_pibi_ictbn2 , ns1:estat_randd , ns1:eurostat_ed , ns1:eurostat_nat_acc , ns1:jrc-ictspec3 , ns1:nif_database ;
+	skos:hasTopConcept	ns1:abac , ns1:bench_gp , ns1:berec_roam , ns1:biac , ns1:capgemini , ns1:cnect-estat , ns1:cocom , ns1:corda , ns1:desi_1a1_fbbc , ns1:desi_1a2_fbbtu , ns1:desi_1c1_ngac , ns1:desi_1c2_sfbb , ns1:desi_2a1_iu , ns1:desi_2a2_bds , ns1:desi_2b1_ictspec , ns1:desi_2b2_stemg , ns1:desi_3a1_news , ns1:desi_3a2_mvg , ns1:desi_3a3_vod , ns1:desi_3a4_iptv , ns1:desi_3b1_vidcall , ns1:desi_3b2_socnet , ns1:desi_3c1_bank , ns1:desi_3c2_shop , ns1:desi_4a1_eis , ns1:desi_4a2_rfid , ns1:desi_4a3_socmed , ns1:desi_4a4_einv , ns1:desi_4a5_cloud , ns1:desi_4b1_smeso , ns1:desi_4b2_ecomturn , ns1:desi_4b3_sellcb , ns1:desi_5a1_egovu , ns1:desi_5a2_prefform , ns1:desi_5a3_osercomp , ns1:eco_report_03_efis_comm , ns1:egov_bench12 , ns1:einfraegi , ns1:einfrageant , ns1:einfraprace , ns1:eoa_smart12-26 , ns1:eoa_yearbook2014 , ns1:epsiplatform , ns1:estat-ent , ns1:estat-hh , ns1:estat-trade , ns1:estat_isoc_bde15b_e , ns1:estat_isoc_bde15b_h , ns1:estat_isoc_bde15b_p , ns1:estat_isoc_bde15cbc , ns1:estat_isoc_bde15cua , ns1:estat_isoc_bde15dec , ns1:estat_isoc_bde15dip , ns1:estat_isoc_bde15disc , ns1:estat_isoc_bde15dth , ns1:estat_isoc_ci_ac_i , ns1:estat_isoc_ci_eu_en2 , ns1:estat_isoc_ci_ifp_fu , ns1:estat_isoc_ci_ifp_iu , ns1:estat_isoc_ci_im_i , ns1:estat_isoc_cicce_use , ns1:estat_isoc_cisci_ax , ns1:estat_isoc_cisci_pb , ns1:estat_isoc_cisci_prv , ns1:estat_isoc_cismt , ns1:estat_isoc_ec_eseln2 , ns1:estat_isoc_ec_ibuy , ns1:estat_isoc_ec_iprb , ns1:estat_isoc_r_gov_i , ns1:estat_isoc_r_iuse_i , ns1:estat_isoc_sk_cskl_i , ns1:estat_isoc_sk_dskl_i , ns1:estat_isoc_sk_how_i , ns1:estat_isoc_sk_iskl_i , ns1:estat_isoc_ske_ittn2 , ns1:estat_isoc_sks_itspt , ns1:estat_lfst_hhnhwhtc , ns1:estat_nama_gdp_c , ns1:estat_tps00188 , ns1:eun12 , ns1:euripidis-estat , ns1:eurostat_pop , ns1:idate , ns1:ihs_tech , ns1:ipv6obs , ns1:jrc_ict_randd , ns1:mis , ns1:point_topic , ns1:samknows , ns1:smart11_39 , ns1:epsi , ns1:estat-lfs , ns1:estat-lfs-sks , ns1:estat_gba_nabsfin07 , ns1:estat_isoc_bde15ee , ns1:estat_isoc_ci_eu_i , ns1:estat_isoc_pibi_ictbn2 , ns1:estat_randd , ns1:eurostat_ed , ns1:eurostat_nat_acc , ns1:jrc-ictspec3 , ns1:nif_database , ns1:old_desi_1b3_spec , ns1:old_desi_1d1_fbbp , ns1:old_desi_5b1_mdataexch , ns1:old_desi_5b2_epresc , ns1:desi_1b1_4g , ns1:desi_1b2_mbbtu , ns1:desi_5a5_opendata , ns1:desi_1d1_ubbc , ns1:desi_1d2_ubbta , ns1:desi_1e1_bbpi , ns1:desi_5a4_psb , ns1:desi_5b1_ehs ;
 	skos:inScheme	ns22:scheme ;
 	skos:prefLabel	"Sources used by Digital Agenda Scoreboard indicators" .
 ns1:epsi
@@ -814,3 +767,74 @@ ns1:nif_database
 	skos:definition	"NIF_database" ;
 	skos:topConceptOf	ns5:source ;
 	skos:prefLabel	"NIF_database" .
+ns1:old_desi_1b3_spec
+	rdf:type	skos:Concept , ns3:Source ;
+	skos:notation	"OLD_DESI_1B3_SPEC" ;
+	foaf:page	<http://digital-agenda-data.eu/charts/analyse-one-indicator-and-compare-countries#chart={\u0022indicator-group\u0022:\u0022any\u0022,\u0022indicator\u0022:\u0022spectrum_WBB\u0022,\u0022breakdown\u0022:\u0022TOTAL\u0022,\u0022unit-measure\u0022:\u0022pc_spectrum_assigned\u0022,\u0022ref-area\u0022:[\u0022AT\u0022,\u0022BE\u0022,\u0022BG\u0022,\u0022HR\u0022,\u0022CY\u0022,\u0022CZ\u0022,\u0022DK\u0022,\u0022EE\u0022,\u0022EU28\u0022,\u0022FI\u0022,\u0022FR\u0022,\u0022DE\u0022,\u0022EL\u0022,\u0022HU\u0022,\u0022IE\u0022,\u0022IT\u0022,\u0022LV\u0022,\u0022LT\u0022,\u0022LU\u0022,\u0022MT\u0022,\u0022NL\u0022,\u0022PL\u0022,\u0022PT\u0022,\u0022RO\u0022,\u0022SK\u0022,\u0022SI\u0022,\u0022ES\u0022,\u0022SE\u0022,\u0022UK\u0022]}> ;
+	skos:definition	"European Commission Services" ;
+	skos:topConceptOf	ns5:source ;
+	skos:prefLabel	"European Commission Services" .
+ns1:old_desi_1d1_fbbp
+	rdf:type	skos:Concept , ns3:Source ;
+	skos:notation	"OLD_DESI_1D1_FBBP" ;
+	foaf:page	<http://digital-agenda-data.eu/charts/analyse-one-indicator-and-compare-countries#chart={\u0022indicator-group\u0022:\u0022any\u0022,\u0022indicator\u0022:\u0022Price_Internet_only\u0022,\u0022breakdown\u0022:\u0022offer_12_30_Mbps\u0022,\u0022unit-measure\u0022:\u0022minimum_euro_PPP\u0022,\u0022ref-area\u0022:[\u0022AT\u0022,\u0022BE\u0022,\u0022BG\u0022,\u0022HR\u0022,\u0022CY\u0022,\u0022CZ\u0022,\u0022DK\u0022,\u0022EE\u0022,\u0022EU27\u0022,\u0022FI\u0022,\u0022FR\u0022,\u0022DE\u0022,\u0022EL\u0022,\u0022HU\u0022,\u0022IE\u0022,\u0022IT\u0022,\u0022LV\u0022,\u0022LT\u0022,\u0022LU\u0022,\u0022MT\u0022,\u0022NL\u0022,\u0022PL\u0022,\u0022PT\u0022,\u0022RO\u0022,\u0022SK\u0022,\u0022SI\u0022,\u0022ES\u0022,\u0022SE\u0022,\u0022UK\u0022]}> ;
+	skos:definition	"Access cost: Broadband Internet Access Cost (BIAC), annual studies for the EC realised by Van Dijk (2013-2015) and by Empirica (2016 onwards). Income: Real adjusted gross disposable income of households per capita (Eurostat: tec00113)" ;
+	skos:topConceptOf	ns5:source ;
+	skos:prefLabel	"Broadband Internet Access Cost (BIAC) annual studies" .
+ns1:old_desi_5b1_mdataexch
+	rdf:type	skos:Concept , ns3:Source ;
+	skos:notation	"OLD_DESI_5B1_MDATAEXCH" ;
+	foaf:page	<http://digital-agenda-data.eu/charts/analyse-one-indicator-and-compare-countries#chart={\u0022indicator-group\u0022:\u0022any\u0022,\u0022indicator\u0022:\u0022HIE_use_ex_admin\u0022,\u0022breakdown\u0022:\u0022TOTAL\u0022,\u0022unit-measure\u0022:\u0022pc_gp\u0022,\u0022ref-area\u0022:[\u0022AT\u0022,\u0022BE\u0022,\u0022BG\u0022,\u0022HR\u0022,\u0022CY\u0022,\u0022CZ\u0022,\u0022DK\u0022,\u0022EE\u0022,\u0022EU28\u0022,\u0022FI\u0022,\u0022FR\u0022,\u0022DE\u0022,\u0022EL\u0022,\u0022HU\u0022,\u0022IE\u0022,\u0022IT\u0022,\u0022LV\u0022,\u0022LT\u0022,\u0022LU\u0022,\u0022MT\u0022,\u0022NL\u0022,\u0022PL\u0022,\u0022PT\u0022,\u0022RO\u0022,\u0022SK\u0022,\u0022SI\u0022,\u0022ES\u0022,\u0022SE\u0022,\u0022UK\u0022]}> ;
+	skos:definition	"Benchmarking Deployment of eHealth among General Practitioners" ;
+	skos:topConceptOf	ns5:source ;
+	skos:prefLabel	"eHealth Studies" .
+ns1:old_desi_5b2_epresc
+	rdf:type	skos:Concept , ns3:Source ;
+	skos:notation	"OLD_DESI_5B2_EPRESC" ;
+	foaf:page	<http://digital-agenda-data.eu/charts/analyse-one-indicator-and-compare-countries#chart={\u0022indicator-group\u0022:\u0022any\u0022,\u0022indicator\u0022:\u0022HIE_use_pharm\u0022,\u0022breakdown\u0022:\u0022TOTAL\u0022,\u0022unit-measure\u0022:\u0022pc_gp\u0022,\u0022ref-area\u0022:[\u0022AT\u0022,\u0022BE\u0022,\u0022BG\u0022,\u0022HR\u0022,\u0022CY\u0022,\u0022CZ\u0022,\u0022DK\u0022,\u0022EE\u0022,\u0022EU28\u0022,\u0022FI\u0022,\u0022FR\u0022,\u0022DE\u0022,\u0022EL\u0022,\u0022HU\u0022,\u0022IE\u0022,\u0022IT\u0022,\u0022LV\u0022,\u0022LT\u0022,\u0022LU\u0022,\u0022MT\u0022,\u0022NL\u0022,\u0022PL\u0022,\u0022PT\u0022,\u0022RO\u0022,\u0022SK\u0022,\u0022SI\u0022,\u0022ES\u0022,\u0022SE\u0022,\u0022UK\u0022]}> ;
+	skos:definition	"Benchmarking Deployment of eHealth among General Practitioners" ;
+	skos:topConceptOf	ns5:source ;
+	skos:prefLabel	"eHealth Studies" .
+ns1:desi_1b1_4g
+	rdf:type	skos:Concept , ns3:Source ;
+	skos:notation	"DESI_1B1_4G" ;
+	skos:definition	"Broadband coverage in Europe, studies for the EC by IHS and Valdani, Vicari & Associati (2013-2015, SMART 2013/0054) and by IHS and Point Topic (2016 onwards, SMART 2016/0045)" ;
+	skos:topConceptOf	ns5:source ;
+	skos:prefLabel	"Study on broadband coverage" .
+ns1:desi_1b2_mbbtu
+	rdf:type	skos:Concept , ns3:Source ;
+	skos:notation	"DESI_1B2_MBBTU" ;
+	foaf:page	<http://digital-agenda-data.eu/charts/analyse-one-indicator-and-compare-countries#chart={\u0022indicator-group\u0022:\u0022any\u0022,\u0022indicator\u0022:\u0022mbb_penet\u0022,\u0022breakdown\u0022:\u0022TOTAL_MBB\u0022,\u0022unit-measure\u0022:\u0022subs_per_100_pop\u0022,\u0022ref-area\u0022:[\u0022BE\u0022,\u0022BG\u0022,\u0022CZ\u0022,\u0022DK\u0022,\u0022DE\u0022,\u0022EE\u0022,\u0022IE\u0022,\u0022EL\u0022,\u0022ES\u0022,\u0022FR\u0022,\u0022IT\u0022,\u0022CY\u0022,\u0022LV\u0022,\u0022LT\u0022,\u0022LU\u0022,\u0022HU\u0022,\u0022HR\u0022,\u0022MT\u0022,\u0022NL\u0022,\u0022AT\u0022,\u0022PL\u0022,\u0022PT\u0022,\u0022RO\u0022,\u0022SI\u0022,\u0022SK\u0022,\u0022FI\u0022,\u0022SE\u0022,\u0022UK\u0022,\u0022EU27\u0022]}> ;
+	skos:definition	"Electronic communications market indicators collected by Commission services, through National Regulatory Authorities, for the Communications Committee (COCOM)" ;
+	skos:topConceptOf	ns5:source ;
+	skos:prefLabel	"Communications Committee survey" .
+ns1:desi_5a5_opendata
+	rdf:type	skos:Concept , ns3:Source ;
+	skos:notation	"DESI_5A5_OPENDATA" ;
+	foaf:page	ns27:dashboard ;
+	skos:definition	"European Data Portal" ;
+	skos:topConceptOf	ns5:source ;
+	skos:prefLabel	"European Data Portal" .
+ns1:desi_1d1_ubbc
+	rdf:type	skos:Concept , ns3:Source ;
+	skos:notation	"DESI_1D1_UBBC" ;
+	skos:topConceptOf	ns5:source .
+ns1:desi_1d2_ubbta
+	rdf:type	skos:Concept , ns3:Source ;
+	skos:notation	"DESI_1D2_UBBTA" ;
+	skos:topConceptOf	ns5:source .
+ns1:desi_1e1_bbpi
+	rdf:type	skos:Concept , ns3:Source ;
+	skos:notation	"DESI_1E1_BBPI" ;
+	skos:topConceptOf	ns5:source .
+ns1:desi_5a4_psb
+	rdf:type	skos:Concept , ns3:Source ;
+	skos:notation	"DESI_5A4_PSB" ;
+	foaf:page	ns9:new-study-egovernment-services-europe-improving-cross-border-availability-services ;
+	skos:definition	"eGovernment Benchmarking Report, Studies for the EC performed by Capgemini (2012-2017)\u00A0" ;
+	skos:topConceptOf	ns5:source ;
+	skos:prefLabel	"eGovernment Benchmarking Report, Studies for the EC performed by Capgemini (2012-2017)\u00A0" .
+ns1:desi_5b1_ehs
+	rdf:type	skos:Concept , ns3:Source ;
+	skos:notation	"DESI_5B1_EHS" ;
+	skos:topConceptOf	ns5:source .
