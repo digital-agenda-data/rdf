@@ -1378,7 +1378,7 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1_conn>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_dim/desi_1_conn> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1_conn>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1_conn>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1_conn>	<http://www.w3.org/2004/02/skos/core#definition>	"DESI Connectivity Dimension calculated as the weighted average of the four sub-dimensions: 1a Fixed Broadband (33%), 1b Mobile Broadband (22%), 1c Speed (33%), 1d Affordability (11%)." .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1_conn>	<http://www.w3.org/2004/02/skos/core#definition>	"DESI Connectivity Dimension calculated as the weighted average of the five sub-dimensions: 1a Fixed Broadband (20%), 1b Mobile Broadband (30%), 1c Fast broadband (20%), 1d Ultrafast broadband (20%) and 1e Broadband price index (10%)." .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1_conn>	<http://www.w3.org/2004/02/skos/core#notation>	"DESI_1_CONN" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1_conn>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"1 Connectivity" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1_conn>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
@@ -1445,7 +1445,7 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1b_mbb>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1b_mbb>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1b_mbb>	<http://www.w3.org/2004/02/skos/core#altLabel>	"1b Mobile Broadband" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1b_mbb>	<http://www.w3.org/2004/02/skos/core#definition>	"DESI Mobile Broadband sub-dimension calculated as the weighted average of the normalised indicators: 1b1 Mobile BB Take-up (33%),1b2 4G Coverage (33%), 1b3 Spectrum (33%)" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1b_mbb>	<http://www.w3.org/2004/02/skos/core#definition>	"DESI Mobile Broadband sub-dimension calculated as the weighted average of the normalised indicators: 1b1 4G Coverage (50%) and 1b2 Mobile BB Take-up (50%)." .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1b_mbb>	<http://www.w3.org/2004/02/skos/core#notation>	"DESI_1B_MBB" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1b_mbb>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"1b Mobile Broadband" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1b_mbb>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
@@ -1822,9 +1822,8 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5a_egov>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim/desi_5a_egov> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5a_egov>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5a_egov>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5a_egov>	<http://www.w3.org/2004/02/skos/core#definition>	"DESI eGovernment sub-dimension calculated as the weighted average of the normalised indicators: 5a1 eGovernment Users (25%), 5a2 Pre-filled Forms (25%), 5a3 Online Service Completion (25%), 5a4 Open Data (25%)" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5a_egov>	<http://www.w3.org/2004/02/skos/core#definition>	"DESI eGovernment sub-dimension calculated as the weighted average of the normalised indicators: 5a1 eGovernment Users (20%), 5a2 Pre-filled Forms (20%), 5a3 Online Service Completion (20%), 5a4 eGovernment for Businesses (20%) and 5a5 Open Data (20%)" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5a_egov>	<http://www.w3.org/2004/02/skos/core#notation>	"DESI_5A_EGOV" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5a_egov>	<http://www.w3.org/2004/02/skos/core#note>	"DESI 2014 does not comprise the indicator 5a4 Open Data, the weights of the remaining indicators are adjusted at 33% each." .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5a_egov>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"5a eGovernment" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5a_egov>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5b1_ehs>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/desi_5b1_ehs> .
@@ -3745,7 +3744,7 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator/vod>	<http://www.w3.org/2004/02/skos/core#notation>	"vod" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/vod>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Households subscribed to Video on Demand" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/vod>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://purl.org/dc/terms/modified>	"2018-05-28T19:01:24+03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://purl.org/dc/terms/modified>	"2018-07-19T16:08:20+03:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://purl.org/linked-data/sdmx#CodeList> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#ConceptScheme> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2000/01/rdf-schema#isDefinedBy>	<http://digital-agenda-data.eu/> .
