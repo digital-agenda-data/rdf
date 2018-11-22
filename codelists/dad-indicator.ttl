@@ -111,10 +111,11 @@ ns4:indicator	rdf:type	skos:ConceptScheme .
 @prefix ns11:	<http://purl.org/linked-data/sdmx#> .
 ns4:indicator	rdf:type	ns11:CodeList .
 @prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
-ns4:indicator	ns5:modified	"2018-07-19T16:08:20+03:00"^^xsd:dateTime .
+ns4:indicator	ns5:modified	"2018-11-22T10:23:37+02:00"^^xsd:dateTime .
 @prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
 ns4:indicator	rdfs:isDefinedBy	<http://digital-agenda-data.eu/> ;
-	skos:notation	"CL_INDICATOR" ;
+	skos:notation	"INDICATOR ADD ON TO PRODUCTION" ,
+		"CL_INDICATOR" ;
 	skos:hasTopConcept	ns1:e_gov_p ,
 		ns1:e_gov_dpsb ,
 		ns1:e_gov_opa ,
@@ -387,6 +388,37 @@ ns4:indicator	rdfs:isDefinedBy	<http://digital-agenda-data.eu/> ;
 		ns1:mbb_rhspacov ,
 		ns1:mbb_rltecov ,
 		ns1:bb_fttpcov ,
+		ns1:e_gov_1b_ucg_us ,
+		ns1:e_gov_1c_ucg_mf ,
+		ns1:e_gov_1_ucg ,
+		ns1:e_gov_1a_ucg_oa ,
+		ns1:e_gov_4e_bm_eu ,
+		ns1:e_gov_4f_bm_su ,
+		ns1:e_gov_4c_bm_eidcb ,
+		ns1:e_gov_4d_bm_edoccb ,
+		ns1:e_gov_5b_ke_edoc ,
+		ns1:e_gov_5c_ke_as ,
+		ns1:e_gov_5_ke ,
+		ns1:e_gov_5a_ke_eid ,
+		ns1:e_gov_5f_ke_sso ,
+		ns1:e_gov_5d_ke_dp ,
+		ns1:e_gov_5e_ke_esafe ,
+		ns1:e_gov_2_tg ,
+		ns1:e_gov_2a_tg_sd ,
+		ns1:e_gov_1d_ucg_eu ,
+		ns1:e_gov_1e_ucg_su ,
+		ns1:e_gov_3_cm ,
+		ns1:e_gov_3a_cm_oa ,
+		ns1:e_gov_2b_tg_po ,
+		ns1:e_gov_2c_tg_pd ,
+		ns1:e_gov_3d_cm_edoccb ,
+		ns1:e_gov_3e_cm_eu ,
+		ns1:e_gov_3b_cm_us ,
+		ns1:e_gov_3c_cm_eidcb ,
+		ns1:e_gov_4a_bm_oa ,
+		ns1:e_gov_4b_bm_us ,
+		ns1:e_gov_3f_cm_su ,
+		ns1:e_gov_4_bm ,
 		ns1:actspeed ,
 		ns1:h_broad ,
 		ns1:desi_1c_speed ,
@@ -4076,3 +4108,426 @@ ns1:e_gov_p	rdf:type	ns3:Indicator ,
 	ns7:membership	ns25:e_gov_p ;
 	skos:altLabel	"Penetration" ;
 	skos:prefLabel	"Penetration" .
+ns25:e_gov_1_ucg	rdf:type	ns3:IndicatorToGroupMembership ;
+	rdfs:label	"egovernment" ;
+	ns7:member-of	ns16:egovernment ;
+	ns7:order	"1111"^^xsd:short .
+ns25:e_gov_1a_ucg_oa	rdf:type	ns3:IndicatorToGroupMembership ;
+	rdfs:label	"egovernment" ;
+	ns7:member-of	ns16:egovernment ;
+	ns7:order	"11111"^^xsd:short .
+ns25:e_gov_1b_ucg_us	rdf:type	ns3:IndicatorToGroupMembership ;
+	rdfs:label	"egovernment" ;
+	ns7:member-of	ns16:egovernment ;
+	ns7:order	"11113"^^xsd:short .
+ns25:e_gov_1c_ucg_mf	rdf:type	ns3:IndicatorToGroupMembership ;
+	rdfs:label	"egovernment" ;
+	ns7:member-of	ns16:egovernment ;
+	ns7:order	"11114"^^xsd:short .
+ns25:e_gov_1d_ucg_eu	rdf:type	ns3:IndicatorToGroupMembership ;
+	rdfs:label	"egovernment" ;
+	ns7:member-of	ns16:egovernment ;
+	ns7:order	"11115"^^xsd:short .
+ns25:e_gov_1e_ucg_su	rdf:type	ns3:IndicatorToGroupMembership ;
+	rdfs:label	"egovernment" ;
+	ns7:member-of	ns16:egovernment ;
+	ns7:order	"11116"^^xsd:short .
+ns25:e_gov_2_tg	rdf:type	ns3:IndicatorToGroupMembership ;
+	rdfs:label	"egovernment" ;
+	ns7:member-of	ns16:egovernment ;
+	ns7:order	"1112"^^xsd:short .
+ns25:e_gov_2a_tg_sd	rdf:type	ns3:IndicatorToGroupMembership ;
+	rdfs:label	"egovernment" ;
+	ns7:member-of	ns16:egovernment ;
+	ns7:order	"11121"^^xsd:short .
+ns25:e_gov_2b_tg_po	rdf:type	ns3:IndicatorToGroupMembership ;
+	rdfs:label	"egovernment" ;
+	ns7:member-of	ns16:egovernment ;
+	ns7:order	"11122"^^xsd:short .
+ns25:e_gov_2c_tg_pd	rdf:type	ns3:IndicatorToGroupMembership ;
+	rdfs:label	"egovernment" ;
+	ns7:member-of	ns16:egovernment ;
+	ns7:order	"11123"^^xsd:short .
+ns25:e_gov_3_cm	rdf:type	ns3:IndicatorToGroupMembership ;
+	rdfs:label	"egovernment" ;
+	ns7:member-of	ns16:egovernment ;
+	ns7:order	"1113"^^xsd:short .
+ns25:e_gov_3a_cm_oa	rdf:type	ns3:IndicatorToGroupMembership ;
+	rdfs:label	"egovernment" ;
+	ns7:member-of	ns16:egovernment ;
+	ns7:order	"11131"^^xsd:short .
+ns25:e_gov_3b_cm_us	rdf:type	ns3:IndicatorToGroupMembership ;
+	rdfs:label	"egovernment" ;
+	ns7:member-of	ns16:egovernment ;
+	ns7:order	"11133"^^xsd:short .
+ns25:e_gov_3c_cm_eidcb	rdf:type	ns3:IndicatorToGroupMembership ;
+	rdfs:label	"egovernment" ;
+	ns7:member-of	ns16:egovernment ;
+	ns7:order	"11135"^^xsd:short .
+ns25:e_gov_3d_cm_edoccb	rdf:type	ns3:IndicatorToGroupMembership ;
+	rdfs:label	"egovernment" ;
+	ns7:member-of	ns16:egovernment ;
+	ns7:order	"11136"^^xsd:short .
+ns25:e_gov_3e_cm_eu	rdf:type	ns3:IndicatorToGroupMembership ;
+	rdfs:label	"egovernment" ;
+	ns7:member-of	ns16:egovernment ;
+	ns7:order	"11137"^^xsd:short .
+ns25:e_gov_3f_cm_su	rdf:type	ns3:IndicatorToGroupMembership ;
+	rdfs:label	"egovernment" ;
+	ns7:member-of	ns16:egovernment ;
+	ns7:order	"11138"^^xsd:short .
+ns25:e_gov_4_bm	rdf:type	ns3:IndicatorToGroupMembership ;
+	rdfs:label	"egovernment" ;
+	ns7:member-of	ns16:egovernment ;
+	ns7:order	"1114"^^xsd:short .
+ns25:e_gov_4a_bm_oa	rdf:type	ns3:IndicatorToGroupMembership ;
+	rdfs:label	"egovernment" ;
+	ns7:member-of	ns16:egovernment ;
+	ns7:order	"11141"^^xsd:short .
+ns25:e_gov_4b_bm_us	rdf:type	ns3:IndicatorToGroupMembership ;
+	rdfs:label	"egovernment" ;
+	ns7:member-of	ns16:egovernment ;
+	ns7:order	"11143"^^xsd:short .
+ns25:e_gov_4c_bm_eidcb	rdf:type	ns3:IndicatorToGroupMembership ;
+	rdfs:label	"egovernment" ;
+	ns7:member-of	ns16:egovernment ;
+	ns7:order	"11145"^^xsd:short .
+ns25:e_gov_4d_bm_edoccb	rdf:type	ns3:IndicatorToGroupMembership ;
+	rdfs:label	"egovernment" ;
+	ns7:member-of	ns16:egovernment ;
+	ns7:order	"11146"^^xsd:short .
+ns25:e_gov_4e_bm_eu	rdf:type	ns3:IndicatorToGroupMembership ;
+	rdfs:label	"egovernment" ;
+	ns7:member-of	ns16:egovernment ;
+	ns7:order	"11147"^^xsd:short .
+ns25:e_gov_4f_bm_su	rdf:type	ns3:IndicatorToGroupMembership ;
+	rdfs:label	"egovernment" ;
+	ns7:member-of	ns16:egovernment ;
+	ns7:order	"11148"^^xsd:short .
+ns25:e_gov_5_ke	rdf:type	ns3:IndicatorToGroupMembership ;
+	rdfs:label	"egovernment" ;
+	ns7:member-of	ns16:egovernment ;
+	ns7:order	"1115"^^xsd:short .
+ns25:e_gov_5a_ke_eid	rdf:type	ns3:IndicatorToGroupMembership ;
+	rdfs:label	"egovernment" ;
+	ns7:member-of	ns16:egovernment ;
+	ns7:order	"11151"^^xsd:short .
+ns25:e_gov_5b_ke_edoc	rdf:type	ns3:IndicatorToGroupMembership ;
+	rdfs:label	"egovernment" ;
+	ns7:member-of	ns16:egovernment ;
+	ns7:order	"11152"^^xsd:short .
+ns25:e_gov_5c_ke_as	rdf:type	ns3:IndicatorToGroupMembership ;
+	rdfs:label	"egovernment" ;
+	ns7:member-of	ns16:egovernment ;
+	ns7:order	"11153"^^xsd:short .
+ns25:e_gov_5d_ke_dp	rdf:type	ns3:IndicatorToGroupMembership ;
+	rdfs:label	"egovernment" ;
+	ns7:member-of	ns16:egovernment ;
+	ns7:order	"11154"^^xsd:short .
+ns25:e_gov_5e_ke_esafe	rdf:type	ns3:IndicatorToGroupMembership ;
+	rdfs:label	"egovernment" ;
+	ns7:member-of	ns16:egovernment ;
+	ns7:order	"11155"^^xsd:short .
+ns25:e_gov_5f_ke_sso	rdf:type	ns3:IndicatorToGroupMembership ;
+	rdfs:label	"egovernment" ;
+	ns7:member-of	ns16:egovernment ;
+	ns7:order	"11156"^^xsd:short .
+ns1:e_gov_1_ucg	rdf:type	ns3:Indicator ,
+		skos:Concept ;
+	skos:notation	"e_gov_1_UCG" ;
+	skos:definition	"The extent to which (information about) a public service is provided online, how the online journey is supported and if public websites are mobile friendly." ;
+	skos:note	"Composite indicator:\n(2016-2017) weighted average of Online availability (67%), Usability (22%) and Mobile Friendliness (11%).\n(2012-2015) weighted average of Online availability (67%), Usability (17%), Ease of Use (8%) and Speed of Use (8%)\nBreak in series in 2016 (no data displayed for breakdown:Total 2016)." ;
+	skos:topConceptOf	ns4:indicator ;
+	ns5:source	ns6:egov_bench12_17 ;
+	ns7:membership	ns25:e_gov_1_ucg ;
+	skos:altLabel	"1 User Centricity" ;
+	skos:prefLabel	"1 User Centricity" .
+ns1:e_gov_1a_ucg_oa	rdf:type	ns3:Indicator ,
+		skos:Concept ;
+	skos:notation	"e_gov_1a_UCG_OA" ;
+	skos:definition	"The extent to which a Public Service or information concerning the public service is provided online, and via a portal." ;
+	skos:topConceptOf	ns4:indicator ;
+	ns5:source	ns6:egov_bench12_17 ;
+	ns7:membership	ns25:e_gov_1a_ucg_oa ;
+	skos:altLabel	"1a User Centricity - Online availability" ;
+	skos:prefLabel	"1a User Centricity - Online availability" .
+ns1:e_gov_1b_ucg_us	rdf:type	ns3:Indicator ,
+		skos:Concept ;
+	skos:notation	"e_gov_1b_UCG_US" ;
+	skos:definition	"Indicates if support, help and (interactive) feedback functionalities for the online public service are available." ;
+	skos:topConceptOf	ns4:indicator ;
+	ns5:source	ns6:egov_bench12_17 ;
+	ns7:membership	ns25:e_gov_1b_ucg_us ;
+	skos:altLabel	"1b User Centricity - Usability" ;
+	skos:prefLabel	"1b User Centricity - Usability" .
+ns1:e_gov_1c_ucg_mf	rdf:type	ns3:Indicator ,
+		skos:Concept ;
+	skos:notation	"e_gov_1c_UCG_MF" ;
+	skos:definition	"The ability to provide public services through a mobile-friendly interface; an interface that is \u2018adapted\u2019 to the mobile device. The data collection for this indicator is done via an automated tool. " ;
+	skos:note	"The new key enabler \u201CMobile Friendliness\u201D was introduced in 2016. Mobile friendliness was also measured in 2014 and 2015 as proof-of-concept indicator. It was not part of the calculation of the User Centricity Benchmark in those years, but presented as separate index. In 2016, mobile friendliness of both individual services\u2019 websites as well as generic portals is integrated as a component of the Online Usability and User Centricity composite indicators." ;
+	skos:topConceptOf	ns4:indicator ;
+	ns5:source	ns6:egov_bench12_17 ;
+	ns7:membership	ns25:e_gov_1c_ucg_mf ;
+	skos:altLabel	"1c User Centricity - Mobile Friendliness" ;
+	skos:prefLabel	"1c User Centricity - Mobile Friendliness" .
+ns1:e_gov_1d_ucg_eu	rdf:type	ns3:Indicator ,
+		skos:Concept ;
+	skos:notation	"e_gov_1d_UCG_EU" ;
+	skos:definition	"Quality assessment by researchers indicating how intuitively and smoothly the online process steps for obtaining a public service can be completed.  It assesses  the extent to which the user achieved his/her goal, understood what he/she was supposed to do for obtaining the service, he/she found the succession of the process steps logical and he/she was actively engaged to improve the service." ;
+	skos:note	"This indicator has been discontinued starting from 2016" ;
+	skos:topConceptOf	ns4:indicator ;
+	ns5:source	ns6:egov_bench12_17 ;
+	ns7:membership	ns25:e_gov_1d_ucg_eu ;
+	skos:altLabel	"1d User Centricity - Ease of Use" ;
+	skos:prefLabel	"1d User Centricity - Ease of Use" .
+ns1:e_gov_1e_ucg_su	rdf:type	ns3:Indicator ,
+		skos:Concept ;
+	skos:notation	"e_gov_1e_UCG_SU" ;
+	skos:definition	"Quality assessment researchers indicating if  the online process steps for obtaining a public service could be completed within reasonable amount of time. It assesses the extent to which citizens or businesses are able to submit information to the authority (or information was pre-filled), the time needed to obtain the service and the extent to which the services were structured efficiently.  " ;
+	skos:note	"This indicator has been discontinued starting from 2016" ;
+	skos:topConceptOf	ns4:indicator ;
+	ns5:source	ns6:egov_bench12_17 ;
+	ns7:membership	ns25:e_gov_1e_ucg_su ;
+	skos:altLabel	"1e User Centricity - Speed of Use" ;
+	skos:prefLabel	"1e User Centricity - Speed of Use" .
+ns1:e_gov_2_tg	rdf:type	ns3:Indicator ,
+		skos:Concept ;
+	skos:notation	"e_gov_2_TG" ;
+	skos:definition	"The extent to which governments are transparent with regard to:\na) the process of public service delivery\nb) their own responsibilities and performance\nc) the personal data involved in service delivery\nThis top-level benchmark evaluates the transparency of government authorities\u2019 operations, service delivery procedures as well as with regard to the consultation of personal data by public administrations." ;
+	skos:note	"Composite indicator: simple average of (Transparency) Service Delivery, Public Organisations and Personal Data" ;
+	skos:topConceptOf	ns4:indicator ;
+	ns5:source	ns6:egov_bench12_17 ;
+	ns7:membership	ns25:e_gov_2_tg ;
+	skos:altLabel	"2 Transparency" ;
+	skos:prefLabel	"2 Transparency" .
+ns1:e_gov_2a_tg_sd	rdf:type	ns3:Indicator ,
+		skos:Concept ;
+	skos:notation	"e_gov_2a_TG_SD" ;
+	skos:definition	"The extent to which public administrations inform users about the public service itself, setting expectations on timeliness, process and delivery for citizens and entrepreneurs from the moment a user request a service until the service is delivered." ;
+	skos:topConceptOf	ns4:indicator ;
+	ns5:source	ns6:egov_bench12_17 ;
+	ns7:membership	ns25:e_gov_2a_tg_sd ;
+	skos:altLabel	"2a Transparency - Service delivery" ;
+	skos:prefLabel	"2a Transparency - Service delivery" .
+ns1:e_gov_2b_tg_po	rdf:type	ns3:Indicator ,
+		skos:Concept ;
+	skos:notation	"e_gov_2b_TG_PO" ;
+	skos:definition	"The extent to which public administrations publish information about their organisations (e.g. finance, organisational structure and responsibilities), and about their activities (e.g. the decision-making processes and regulations). " ;
+	skos:topConceptOf	ns4:indicator ;
+	ns5:source	ns6:egov_bench12_17 ;
+	ns7:membership	ns25:e_gov_2b_tg_po ;
+	skos:altLabel	"2b Transparency - Public organisations" ;
+	skos:prefLabel	"2b Transparency - Public organisations" .
+ns1:e_gov_2c_tg_pd	rdf:type	ns3:Indicator ,
+		skos:Concept ;
+	skos:notation	"e_gov_2c_TG_PD" ;
+	skos:definition	"The extent to which governments proactively inform users about how, when, and by whom their personal data is being processed" ;
+	skos:note	"In 2016, an additional question was added to the questionnaire for this indicator." ;
+	skos:topConceptOf	ns4:indicator ;
+	ns5:source	ns6:egov_bench12_17 ;
+	ns7:membership	ns25:e_gov_2c_tg_pd ;
+	skos:altLabel	"2c Transparency - Personal data" ;
+	skos:prefLabel	"2c Transparency - Personal data" .
+ns1:e_gov_3_cm	rdf:type	ns3:Indicator ,
+		skos:Concept ;
+	skos:notation	"e_gov_3_CM" ;
+	skos:definition	"The extent to which public services that are aimed at foreign  citizens are available online, usable, and implement eID and eDocument capabilities" ;
+	skos:note	"Composite indicator:\n(2016-2017) weighted average of (Citizen Mobility) Online Availability (50%), Usability (25%), eID Cross Borders (12%) and eDocuments Cross Borders (12%).\n(2012-2015) weighted average of (Citizen Mobility) Online Availability (67%), Usability (17%), Ease of Use (8%) and Speed of Use (8%)\nBreak in series in 2016 (no data displayed for breakdown:Total 2016)." ;
+	skos:topConceptOf	ns4:indicator ;
+	ns5:source	ns6:egov_bench12_17 ;
+	ns7:membership	ns25:e_gov_3_cm ;
+	skos:altLabel	"3 Citizen Mobility" ;
+	skos:prefLabel	"3 Citizen Mobility" .
+ns1:e_gov_3a_cm_oa	rdf:type	ns3:Indicator ,
+		skos:Concept ;
+	skos:notation	"e_gov_3a_CM_OA" ;
+	skos:definition	"The extent to which a public service (or information concerning the service) aimed at foreign citizens  is available online." ;
+	skos:topConceptOf	ns4:indicator ;
+	ns5:source	ns6:egov_bench12_17 ;
+	ns7:membership	ns25:e_gov_3a_cm_oa ;
+	skos:altLabel	"3a Citizen Mobility - Online availability" ;
+	skos:prefLabel	"3a Citizen Mobility - Online availability" .
+ns1:e_gov_3b_cm_us	rdf:type	ns3:Indicator ,
+		skos:Concept ;
+	skos:notation	"e_gov_3b_CM_US" ;
+	skos:definition	"Online support and help features on services aimed at foreign citizens." ;
+	skos:topConceptOf	ns4:indicator ;
+	ns5:source	ns6:egov_bench12_17 ;
+	ns7:membership	ns25:e_gov_3b_cm_us ;
+	skos:altLabel	"3b Citizen Mobility - Usability" ;
+	skos:prefLabel	"3b Citizen Mobility - Usability" .
+ns1:e_gov_3c_cm_eidcb	rdf:type	ns3:Indicator ,
+		skos:Concept ;
+	skos:notation	"e_gov_3c_CM_EIDCB" ;
+	skos:definition	"The possibility of using a foreign eID for accessing citizen services." ;
+	skos:note	"New indicator, introduced in 2016." ;
+	skos:topConceptOf	ns4:indicator ;
+	ns5:source	ns6:egov_bench12_17 ;
+	ns7:membership	ns25:e_gov_3c_cm_eidcb ;
+	skos:altLabel	"3c Citizen Mobility - eID Cross Borders" ;
+	skos:prefLabel	"3c Citizen Mobility - eID Cross Borders" .
+ns1:e_gov_3d_cm_edoccb	rdf:type	ns3:Indicator ,
+		skos:Concept ;
+	skos:notation	"e_gov_3d_CM_EDOCCB" ;
+	skos:definition	"The possibility of sending/receiving eDocuments for a foreigner using citizen services" ;
+	skos:note	"New indicator, introduced in 2016." ;
+	skos:topConceptOf	ns4:indicator ;
+	ns5:source	ns6:egov_bench12_17 ;
+	ns7:membership	ns25:e_gov_3d_cm_edoccb ;
+	skos:altLabel	"3d Citizen Mobility - eDocuments Cross Borders" ;
+	skos:prefLabel	"3d Citizen Mobility - eDocuments Cross Borders" .
+ns1:e_gov_3e_cm_eu	rdf:type	ns3:Indicator ,
+		skos:Concept ;
+	skos:notation	"e_gov_3e_CM_EU" ;
+	skos:definition	"Quality assessment by researchers indicating how intuitively and smoothly the online process steps for obtaining a public service can be completed by a foreign citizen.  It assesses  the extent to which the user achieved his/her goal, understood what he/she was supposed to do for obtaining the service, he/she found the succession of the process steps logical and he/she was actively engaged to improve the service." ;
+	skos:note	"This indicator has been discontinued starting from 2016" ;
+	skos:topConceptOf	ns4:indicator ;
+	ns5:source	ns6:egov_bench12_17 ;
+	ns7:membership	ns25:e_gov_3e_cm_eu ;
+	skos:altLabel	"3e Citizen Mobility - Ease of Use" ;
+	skos:prefLabel	"3e Citizen Mobility - Ease of Use" .
+ns1:e_gov_3f_cm_su	rdf:type	ns3:Indicator ,
+		skos:Concept ;
+	skos:notation	"e_gov_3f_CM_SU" ;
+	skos:definition	"Quality assessment researchers indicating if  the online process steps for obtaining a public service could be completed within reasonable amount of time by a foreign citizen. It assesses the extent to which (foreign) citizens are able to submit information to the authority (or information was pre-filled), the time needed to obtain the service and the extent to which the services were structured efficiently.  " ;
+	skos:note	"This indicator has been discontinued starting from 2016" ;
+	skos:topConceptOf	ns4:indicator ;
+	ns5:source	ns6:egov_bench12_17 ;
+	ns7:membership	ns25:e_gov_3f_cm_su ;
+	skos:altLabel	"3f Citizen Mobility - Speed of Use" ;
+	skos:prefLabel	"3f Citizen Mobility - Speed of Use" .
+ns1:e_gov_4_bm	rdf:type	ns3:Indicator ,
+		skos:Concept ;
+	skos:notation	"e_gov_4_BM" ;
+	skos:definition	"The extent to which public services that are aimed at foreign  businesses are available online, usable, and implement eID and eDocument capabilities" ;
+	skos:note	"Composite indicator:\n(2016-2017) weighted average of (Business Mobility) Online Availability (50%), Usability (25%), eID Cross Borders (12%) and eDocuments Cross Borders (12%).\n(2012-2015) weighted average of (Business Mobility) Online Availability (67%), Usability (17%), Ease of Use (8%) and Speed of Use (8%)\nBreak in series in 2016 (no data displayed for breakdown:Total 2016)." ;
+	skos:topConceptOf	ns4:indicator ;
+	ns5:source	ns6:egov_bench12_17 ;
+	ns7:membership	ns25:e_gov_4_bm ;
+	skos:altLabel	"4 Business Mobility" ;
+	skos:prefLabel	"4 Business Mobility" .
+ns1:e_gov_4a_bm_oa	rdf:type	ns3:Indicator ,
+		skos:Concept ;
+	skos:notation	"e_gov_4a_BM_OA" ;
+	skos:definition	"The extent to which a public service (or information concerning the service) aimed at foreign businesses  is available online." ;
+	skos:topConceptOf	ns4:indicator ;
+	ns5:source	ns6:egov_bench12_17 ;
+	ns7:membership	ns25:e_gov_4a_bm_oa ;
+	skos:altLabel	"4a Business Mobility - Online availability" ;
+	skos:prefLabel	"4a Business Mobility - Online availability" .
+ns1:e_gov_4b_bm_us	rdf:type	ns3:Indicator ,
+		skos:Concept ;
+	skos:notation	"e_gov_4b_BM_US" ;
+	skos:definition	"Online support and help features on services aimed at foreign businesses." ;
+	skos:topConceptOf	ns4:indicator ;
+	ns5:source	ns6:egov_bench12_17 ;
+	ns7:membership	ns25:e_gov_4b_bm_us ;
+	skos:altLabel	"4c Business Mobility - Usability" ;
+	skos:prefLabel	"4b Business Mobility - Usability" .
+ns1:e_gov_4c_bm_eidcb	rdf:type	ns3:Indicator ,
+		skos:Concept ;
+	skos:notation	"e_gov_4c_BM_EIDCB" ;
+	skos:definition	"The possibility of using a foreign eID for accessing business services." ;
+	skos:note	"New indicator, introduced in 2016." ;
+	skos:topConceptOf	ns4:indicator ;
+	ns5:source	ns6:egov_bench12_17 ;
+	ns7:membership	ns25:e_gov_4c_bm_eidcb ;
+	skos:altLabel	"4e Business Mobility - eID Cross Borders" ;
+	skos:prefLabel	"4c Business Mobility - eID Cross Borders" .
+ns1:e_gov_4d_bm_edoccb	rdf:type	ns3:Indicator ,
+		skos:Concept ;
+	skos:notation	"e_gov_4d_BM_EDOCCB" ;
+	skos:definition	"The possibility of sending/receiving eDocuments for a foreigner using business services" ;
+	skos:note	"New indicator, introduced in 2016." ;
+	skos:topConceptOf	ns4:indicator ;
+	ns5:source	ns6:egov_bench12_17 ;
+	ns7:membership	ns25:e_gov_4d_bm_edoccb ;
+	skos:altLabel	"4f Business Mobility - eDocuments Cross Borders" ;
+	skos:prefLabel	"4d Business Mobility - eDocuments Cross Borders" .
+ns1:e_gov_4e_bm_eu	rdf:type	ns3:Indicator ,
+		skos:Concept ;
+	skos:notation	"e_gov_4e_BM_EU" ;
+	skos:definition	"Quality assessment by researchers indicating how intuitively and smoothly the online process steps for obtaining a public service can be completed by a foreign business.  It assesses  the extent to which the user achieved his/her goal, understood what he/she was supposed to do for obtaining the service, he/she found the succession of the process steps logical and he/she was actively engaged to improve the service." ;
+	skos:note	"This indicator has been discontinued starting from 2016" ;
+	skos:topConceptOf	ns4:indicator ;
+	ns5:source	ns6:egov_bench12_17 ;
+	ns7:membership	ns25:e_gov_4e_bm_eu ;
+	skos:altLabel	"4g Business Mobility - Ease of Use" ;
+	skos:prefLabel	"4e Business Mobility - Ease of Use" .
+ns1:e_gov_4f_bm_su	rdf:type	ns3:Indicator ,
+		skos:Concept ;
+	skos:notation	"e_gov_4f_BM_SU" ;
+	skos:definition	"Quality assessment researchers indicating if  the online process steps for obtaining a public service could be completed within reasonable amount of time by a foreign business. It assesses the extent to which (foreign) businesses are able to submit information to the authority (or information was pre-filled), the time needed to obtain the service and the extent to which the services were structured efficiently.  " ;
+	skos:note	"This indicator has been discontinued starting from 2016" ;
+	skos:topConceptOf	ns4:indicator ;
+	ns5:source	ns6:egov_bench12_17 ;
+	ns7:membership	ns25:e_gov_4f_bm_su ;
+	skos:altLabel	"4h Business Mobility - Speed of Use" ;
+	skos:prefLabel	"4f Business Mobility - Speed of Use" .
+ns1:e_gov_5_ke	rdf:type	ns3:Indicator ,
+		skos:Concept ;
+	skos:notation	"e_gov_5_KE" ;
+	skos:definition	"The extent to which technical pre-conditions for eGovernment service provision are used. The key enablers used for measuring the quality of the services to businesses and citizens are:\na) Electronic Identification (eID)\nb) Electronic Documents (eDocuments)\nc) Authentic Sources\nd) Digital Post\ne) eSafe (now discontinued)\nf) Single Sign On (SSO) (now discontinued)" ;
+	skos:note	"Composite indicator:\n(2016-2017) simple average of eID, eDocuments, Authentic Sources and Digital Post.\n(2012-2015) simple average of eID, eDocuments, Authentic Sources, eSafe and Single Sign On.\nBreak in series in 2016 as the  eSafe and Single Sign On are discontinued and Digital Post is added." ;
+	skos:topConceptOf	ns4:indicator ;
+	ns5:source	ns6:egov_bench12_17 ;
+	ns7:membership	ns25:e_gov_5_ke ;
+	skos:altLabel	"5 Key Enablers" ;
+	skos:prefLabel	"5 Key Enablers" .
+ns1:e_gov_5a_ke_eid	rdf:type	ns3:Indicator ,
+		skos:Concept ;
+	skos:notation	"e_gov_5a_KE_EID" ;
+	skos:definition	"Electronic Identification (eID) is a government-issued document for online identification, and authentication." ;
+	skos:topConceptOf	ns4:indicator ;
+	ns5:source	ns6:egov_bench12_17 ;
+	ns7:membership	ns25:e_gov_5a_ke_eid ;
+	skos:altLabel	"5a Key Enablers - eID" ;
+	skos:prefLabel	"5a Key Enablers - eID" .
+ns1:e_gov_5b_ke_edoc	rdf:type	ns3:Indicator ,
+		skos:Concept ;
+	skos:notation	"e_gov_5b_KE_EDOC" ;
+	skos:definition	"A document which has been authenticated by its issuer using any means recognised under applicable national law, specifically through the use of electronic signatures, e.g. not a regular pdf or word document." ;
+	skos:topConceptOf	ns4:indicator ;
+	ns5:source	ns6:egov_bench12_17 ;
+	ns7:membership	ns25:e_gov_5b_ke_edoc ;
+	skos:altLabel	"5b Key Enablers - eDocuments" ;
+	skos:prefLabel	"5b Key Enablers - eDocuments" .
+ns1:e_gov_5c_ke_as	rdf:type	ns3:Indicator ,
+		skos:Concept ;
+	skos:notation	"e_gov_5c_KE_AS" ;
+	skos:definition	"Authentic Sources are base registries used by governments to automatically validate or fetch data relating to citizens or businesses." ;
+	skos:topConceptOf	ns4:indicator ;
+	ns5:source	ns6:egov_bench12_17 ;
+	ns7:membership	ns25:e_gov_5c_ke_as ;
+	skos:altLabel	"5c Key Enablers - Authentic sources" ;
+	skos:prefLabel	"5c Key Enablers - Authentic sources" .
+ns1:e_gov_5d_ke_dp	rdf:type	ns3:Indicator ,
+		skos:Concept ;
+	skos:notation	"e_gov_5d_KE_DP" ;
+	skos:definition	"Assesses whether public authorities allow citizens to receive communications digitally only, and hence reducing paper mailings. Digital Post refers to the possibility that governments communicate electronically-only with citizens or entrepreneurs through e.g. personal mailboxes or other digital post solutions." ;
+	skos:note	"New indicator, introduced in 2016." ;
+	skos:topConceptOf	ns4:indicator ;
+	ns5:source	ns6:egov_bench12_17 ;
+	ns7:membership	ns25:e_gov_5d_ke_dp ;
+	skos:altLabel	"5d Key Enablers - Digital Post" ;
+	skos:prefLabel	"5d Key Enablers - Digital Post" .
+ns1:e_gov_5e_ke_esafe	rdf:type	ns3:Indicator ,
+		skos:Concept ;
+	skos:notation	"e_gov_5e_KE_ESAFE" ;
+	skos:definition	"A virtual repository for storing, administering and sharing personal electronic data and documents. It can be used to securely store personal documents in public service processes." ;
+	skos:note	"This indicator has been discontinued starting from 2016" ;
+	skos:topConceptOf	ns4:indicator ;
+	ns5:source	ns6:egov_bench12_17 ;
+	ns7:membership	ns25:e_gov_5e_ke_esafe ;
+	skos:altLabel	"5e Key Enablers - eSafe" ;
+	skos:prefLabel	"5e Key Enablers - eSafe" .
+ns1:e_gov_5f_ke_sso	rdf:type	ns3:Indicator ,
+		skos:Concept ;
+	skos:notation	"e_gov_5f_KE_SSO" ;
+	skos:definition	"A functionality that allows users to get access to multiple websites without the need to log in multiple times." ;
+	skos:note	"This indicator has been discontinued starting from 2016" ;
+	skos:topConceptOf	ns4:indicator ;
+	ns5:source	ns6:egov_bench12_17 ;
+	ns7:membership	ns25:e_gov_5f_ke_sso ;
+	skos:altLabel	"5f Key Enablers - Single Sign On (SSO)" ;
+	skos:prefLabel	"5f Key Enablers - Single Sign On (SSO)" .

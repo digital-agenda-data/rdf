@@ -6,12 +6,48 @@ ns1:breakdown	rdf:type	skos:ConceptScheme .
 ns1:breakdown	rdf:type	ns3:CodeList .
 @prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
 @prefix ns5:	<http://purl.org/dc/terms/> .
-ns1:breakdown	ns5:modified	"2018-05-23T18:00:44+03:00"^^xsd:dateTime .
+ns1:breakdown	ns5:modified	"2018-11-22T10:24:08+02:00"^^xsd:dateTime .
 @prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
 ns1:breakdown	rdfs:isDefinedBy	<http://digital-agenda-data.eu/> ;
-	skos:notation	"CL_BREAKDOWN" .
+	skos:notation	"BREAKDOWN ADD ON TO PRODUCTION " ,
+		"CL_BREAKDOWN" .
 @prefix ns7:	<http://semantic.digital-agenda-data.eu/codelist/breakdown/> .
-ns1:breakdown	skos:hasTopConcept	ns7:egov_le_bus ,
+ns1:breakdown	skos:hasTopConcept	ns7:e_gov_events_4 ,
+		ns7:e_gov_events_5 ,
+		ns7:e_gov_events_2 ,
+		ns7:e_gov_events_3 ,
+		ns7:e_gov_events_8 ,
+		ns7:egov_life_events ,
+		ns7:e_gov_events_6 ,
+		ns7:e_gov_events_7 ,
+		ns7:e_gov_5b_ke_edoc ,
+		ns7:e_gov_5c_ke_as ,
+		ns7:e_gov_4f_bm_su ,
+		ns7:e_gov_5a_ke_eid ,
+		ns7:e_gov_5f_ke_sso ,
+		ns7:e_gov_events_1 ,
+		ns7:e_gov_5d_ke_dp ,
+		ns7:e_gov_5e_ke_esafe ,
+		ns7:e_gov_3f_cm_su ,
+		ns7:e_gov_4a_bm_oa ,
+		ns7:e_gov_3d_cm_edoccb ,
+		ns7:e_gov_3e_cm_eu ,
+		ns7:e_gov_4d_bm_edoccb ,
+		ns7:e_gov_4e_bm_eu ,
+		ns7:e_gov_4b_bm_us ,
+		ns7:e_gov_4c_bm_eidcb ,
+		ns7:e_gov_2a_tg_sd ,
+		ns7:e_gov_2b_tg_po ,
+		ns7:e_gov_1d_ucg_eu ,
+		ns7:e_gov_1e_ucg_su ,
+		ns7:e_gov_3b_cm_us ,
+		ns7:e_gov_3c_cm_eidcb ,
+		ns7:e_gov_2c_tg_pd ,
+		ns7:e_gov_3a_cm_oa ,
+		ns7:e_gov_1b_ucg_us ,
+		ns7:e_gov_1c_ucg_mf ,
+		ns7:e_gov_1a_ucg_oa ,
+		ns7:egov_le_bus ,
 		ns7:desi_5a_egov ,
 		ns7:desi_5b1_mdataexch ,
 		ns7:desi_5a3_osercomp ,
@@ -3686,6 +3722,432 @@ ns7:csk_me	rdf:type	ns10:Breakdown ,
 	ns11:membership	ns32:csk_me ;
 	skos:altLabel	"medium computer skills" ;
 	skos:prefLabel	"Individuals with medium computer skills" .
+@prefix ns70:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_1_ucg/> .
+ns70:e_gov_1a_ucg_oa	rdf:type	ns10:BreakdownToGroupMembership ;
+	rdfs:label	"e_gov_1_UCG" ;
+	ns11:member-of	ns12:e_gov_1_ucg ;
+	ns11:order	"1" .
+ns70:e_gov_1b_ucg_us	rdf:type	ns10:BreakdownToGroupMembership ;
+	rdfs:label	"e_gov_1_UCG" ;
+	ns11:member-of	ns12:e_gov_1_ucg ;
+	ns11:order	"2" .
+ns70:e_gov_1c_ucg_mf	rdf:type	ns10:BreakdownToGroupMembership ;
+	rdfs:label	"e_gov_1_UCG" ;
+	ns11:member-of	ns12:e_gov_1_ucg ;
+	ns11:order	"3" .
+ns70:e_gov_1d_ucg_eu	rdf:type	ns10:BreakdownToGroupMembership ;
+	rdfs:label	"e_gov_1_UCG" ;
+	ns11:member-of	ns12:e_gov_1_ucg ;
+	ns11:order	"4" .
+ns70:e_gov_1e_ucg_su	rdf:type	ns10:BreakdownToGroupMembership ;
+	rdfs:label	"e_gov_1_UCG" ;
+	ns11:member-of	ns12:e_gov_1_ucg ;
+	ns11:order	"5" .
+@prefix ns71:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_2_tg/> .
+ns71:e_gov_2a_tg_sd	rdf:type	ns10:BreakdownToGroupMembership ;
+	rdfs:label	"e_gov_2_TG" ;
+	ns11:member-of	ns12:e_gov_2_tg ;
+	ns11:order	"1" .
+ns71:e_gov_2b_tg_po	rdf:type	ns10:BreakdownToGroupMembership ;
+	rdfs:label	"e_gov_2_TG" ;
+	ns11:member-of	ns12:e_gov_2_tg ;
+	ns11:order	"2" .
+ns71:e_gov_2c_tg_pd	rdf:type	ns10:BreakdownToGroupMembership ;
+	rdfs:label	"e_gov_2_TG" ;
+	ns11:member-of	ns12:e_gov_2_tg ;
+	ns11:order	"3" .
+@prefix ns72:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_3_cm/> .
+ns72:e_gov_3a_cm_oa	rdf:type	ns10:BreakdownToGroupMembership ;
+	rdfs:label	"e_gov_3_CM" ;
+	ns11:member-of	ns12:e_gov_3_cm ;
+	ns11:order	"1" .
+ns72:e_gov_3b_cm_us	rdf:type	ns10:BreakdownToGroupMembership ;
+	rdfs:label	"e_gov_3_CM" ;
+	ns11:member-of	ns12:e_gov_3_cm ;
+	ns11:order	"2" .
+ns72:e_gov_3c_cm_eidcb	rdf:type	ns10:BreakdownToGroupMembership ;
+	rdfs:label	"e_gov_3_CM" ;
+	ns11:member-of	ns12:e_gov_3_cm ;
+	ns11:order	"3" .
+ns72:e_gov_3d_cm_edoccb	rdf:type	ns10:BreakdownToGroupMembership ;
+	rdfs:label	"e_gov_3_CM" ;
+	ns11:member-of	ns12:e_gov_3_cm ;
+	ns11:order	"4" .
+ns72:e_gov_3e_cm_eu	rdf:type	ns10:BreakdownToGroupMembership ;
+	rdfs:label	"e_gov_3_CM" ;
+	ns11:member-of	ns12:e_gov_3_cm ;
+	ns11:order	"5" .
+ns72:e_gov_3f_cm_su	rdf:type	ns10:BreakdownToGroupMembership ;
+	rdfs:label	"e_gov_3_CM" ;
+	ns11:member-of	ns12:e_gov_3_cm ;
+	ns11:order	"6" .
+@prefix ns73:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_4_bm/> .
+ns73:e_gov_4a_bm_oa	rdf:type	ns10:BreakdownToGroupMembership ;
+	rdfs:label	"e_gov_4_BM" ;
+	ns11:member-of	ns12:e_gov_4_bm ;
+	ns11:order	"1" .
+ns73:e_gov_4b_bm_us	rdf:type	ns10:BreakdownToGroupMembership ;
+	rdfs:label	"e_gov_4_BM" ;
+	ns11:member-of	ns12:e_gov_4_bm ;
+	ns11:order	"2" .
+ns73:e_gov_4c_bm_eidcb	rdf:type	ns10:BreakdownToGroupMembership ;
+	rdfs:label	"e_gov_4_BM" ;
+	ns11:member-of	ns12:e_gov_4_bm ;
+	ns11:order	"3" .
+ns73:e_gov_4d_bm_edoccb	rdf:type	ns10:BreakdownToGroupMembership ;
+	rdfs:label	"e_gov_4_BM" ;
+	ns11:member-of	ns12:e_gov_4_bm ;
+	ns11:order	"4" .
+ns73:e_gov_4e_bm_eu	rdf:type	ns10:BreakdownToGroupMembership ;
+	rdfs:label	"e_gov_4_BM" ;
+	ns11:member-of	ns12:e_gov_4_bm ;
+	ns11:order	"5" .
+ns73:e_gov_4f_bm_su	rdf:type	ns10:BreakdownToGroupMembership ;
+	rdfs:label	"e_gov_4_BM" ;
+	ns11:member-of	ns12:e_gov_4_bm ;
+	ns11:order	"6" .
+@prefix ns74:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_5_ke/> .
+ns74:e_gov_5a_ke_eid	rdf:type	ns10:BreakdownToGroupMembership ;
+	rdfs:label	"e_gov_5_KE" ;
+	ns11:member-of	ns12:e_gov_5_ke ;
+	ns11:order	"1" .
+ns74:e_gov_5b_ke_edoc	rdf:type	ns10:BreakdownToGroupMembership ;
+	rdfs:label	"e_gov_5_KE" ;
+	ns11:member-of	ns12:e_gov_5_ke ;
+	ns11:order	"2" .
+ns74:e_gov_5c_ke_as	rdf:type	ns10:BreakdownToGroupMembership ;
+	rdfs:label	"e_gov_5_KE" ;
+	ns11:member-of	ns12:e_gov_5_ke ;
+	ns11:order	"3" .
+ns74:e_gov_5d_ke_dp	rdf:type	ns10:BreakdownToGroupMembership ;
+	rdfs:label	"e_gov_5_KE" ;
+	ns11:member-of	ns12:e_gov_5_ke ;
+	ns11:order	"4" .
+ns74:e_gov_5e_ke_esafe	rdf:type	ns10:BreakdownToGroupMembership ;
+	rdfs:label	"e_gov_5_KE" ;
+	ns11:member-of	ns12:e_gov_5_ke ;
+	ns11:order	"5" .
+ns74:e_gov_5f_ke_sso	rdf:type	ns10:BreakdownToGroupMembership ;
+	rdfs:label	"e_gov_5_KE" ;
+	ns11:member-of	ns12:e_gov_5_ke ;
+	ns11:order	"6" .
+@prefix ns75:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_events/> .
+ns75:e_gov_events_1	rdf:type	ns10:BreakdownToGroupMembership ;
+	rdfs:label	"e_gov_EVENTS" ;
+	ns11:member-of	ns12:e_gov_events ;
+	ns11:order	"1" .
+ns75:e_gov_events_2	rdf:type	ns10:BreakdownToGroupMembership ;
+	rdfs:label	"e_gov_EVENTS" ;
+	ns11:member-of	ns12:e_gov_events ;
+	ns11:order	"2" .
+ns75:e_gov_events_3	rdf:type	ns10:BreakdownToGroupMembership ;
+	rdfs:label	"e_gov_EVENTS" ;
+	ns11:member-of	ns12:e_gov_events ;
+	ns11:order	"3" .
+ns75:e_gov_events_4	rdf:type	ns10:BreakdownToGroupMembership ;
+	rdfs:label	"e_gov_EVENTS" ;
+	ns11:member-of	ns12:e_gov_events ;
+	ns11:order	"4" .
+ns75:e_gov_events_5	rdf:type	ns10:BreakdownToGroupMembership ;
+	rdfs:label	"e_gov_EVENTS" ;
+	ns11:member-of	ns12:e_gov_events ;
+	ns11:order	"5" .
+ns75:e_gov_events_6	rdf:type	ns10:BreakdownToGroupMembership ;
+	rdfs:label	"e_gov_EVENTS" ;
+	ns11:member-of	ns12:e_gov_events ;
+	ns11:order	"6" .
+ns75:e_gov_events_7	rdf:type	ns10:BreakdownToGroupMembership ;
+	rdfs:label	"e_gov_EVENTS" ;
+	ns11:member-of	ns12:e_gov_events ;
+	ns11:order	"7" .
+ns75:e_gov_events_8	rdf:type	ns10:BreakdownToGroupMembership ;
+	rdfs:label	"e_gov_EVENTS" ;
+	ns11:member-of	ns12:e_gov_events ;
+	ns11:order	"8" .
+ns67:egov_life_events	rdf:type	ns10:BreakdownToGroupMembership ;
+	rdfs:label	"total" ;
+	ns11:member-of	ns12:total ;
+	ns11:order	"1" .
+ns7:e_gov_1a_ucg_oa	rdf:type	ns10:Breakdown ,
+		skos:Concept ;
+	skos:notation	"e_gov_1a_UCG_OA" ;
+	skos:definition	"eGovernment services related to User Centric Government - Online availability" ;
+	skos:topConceptOf	ns1:breakdown ;
+	ns11:membership	ns70:e_gov_1a_ucg_oa ;
+	skos:altLabel	"1a User Centric Government - Online availability" ;
+	skos:prefLabel	"1a User Centric Government - Online availability" .
+ns7:e_gov_1b_ucg_us	rdf:type	ns10:Breakdown ,
+		skos:Concept ;
+	skos:notation	"e_gov_1b_UCG_US" ;
+	skos:definition	"eGovernment services related to User Centric Government - Usability" ;
+	skos:topConceptOf	ns1:breakdown ;
+	ns11:membership	ns70:e_gov_1b_ucg_us ;
+	skos:altLabel	"1b User Centric Government - Usability" ;
+	skos:prefLabel	"1b User Centric Government - Usability" .
+ns7:e_gov_1c_ucg_mf	rdf:type	ns10:Breakdown ,
+		skos:Concept ;
+	skos:notation	"e_gov_1c_UCG_MF" ;
+	skos:definition	"eGovernment services related to User Centric Government - Mobile Friendliness" ;
+	skos:topConceptOf	ns1:breakdown ;
+	ns11:membership	ns70:e_gov_1c_ucg_mf ;
+	skos:altLabel	"1c User Centric Government - Mobile Friendliness" ;
+	skos:prefLabel	"1c User Centric Government - Mobile Friendliness" .
+ns7:e_gov_1d_ucg_eu	rdf:type	ns10:Breakdown ,
+		skos:Concept ;
+	skos:notation	"e_gov_1d_UCG_EU" ;
+	skos:definition	"eGovernment services related to User Centric Government - Ease of Use" ;
+	skos:topConceptOf	ns1:breakdown ;
+	ns11:membership	ns70:e_gov_1d_ucg_eu ;
+	skos:altLabel	"1d User Centric Government - Ease of Use" ;
+	skos:prefLabel	"1d User Centric Government - Ease of Use" .
+ns7:e_gov_1e_ucg_su	rdf:type	ns10:Breakdown ,
+		skos:Concept ;
+	skos:notation	"e_gov_1e_UCG_SU" ;
+	skos:definition	"eGovernment services related to User Centric Government - Speed of Use" ;
+	skos:topConceptOf	ns1:breakdown ;
+	ns11:membership	ns70:e_gov_1e_ucg_su ;
+	skos:altLabel	"1e User Centric Government - Speed of Use" ;
+	skos:prefLabel	"1e User Centric Government - Speed of Use" .
+ns7:e_gov_2a_tg_sd	rdf:type	ns10:Breakdown ,
+		skos:Concept ;
+	skos:notation	"e_gov_2a_TG_SD" ;
+	skos:definition	"eGovernment services related to Transparent Government - Service delivery" ;
+	skos:topConceptOf	ns1:breakdown ;
+	ns11:membership	ns71:e_gov_2a_tg_sd ;
+	skos:altLabel	"2a Transparent Government - Service delivery" ;
+	skos:prefLabel	"2a Transparent Government - Service delivery" .
+ns7:e_gov_2b_tg_po	rdf:type	ns10:Breakdown ,
+		skos:Concept ;
+	skos:notation	"e_gov_2b_TG_PO" ;
+	skos:definition	"eGovernment services related to Transparent Government - Public organisations" ;
+	skos:topConceptOf	ns1:breakdown ;
+	ns11:membership	ns71:e_gov_2b_tg_po ;
+	skos:altLabel	"2b Transparent Government - Public organisations" ;
+	skos:prefLabel	"2b Transparent Government - Public organisations" .
+ns7:e_gov_2c_tg_pd	rdf:type	ns10:Breakdown ,
+		skos:Concept ;
+	skos:notation	"e_gov_2c_TG_PD" ;
+	skos:definition	"eGovernment services related to Transparent Government - Personal data" ;
+	skos:topConceptOf	ns1:breakdown ;
+	ns11:membership	ns71:e_gov_2c_tg_pd ;
+	skos:altLabel	"2c Transparent Government - Personal data" ;
+	skos:prefLabel	"2c Transparent Government - Personal data" .
+ns7:e_gov_3a_cm_oa	rdf:type	ns10:Breakdown ,
+		skos:Concept ;
+	skos:notation	"e_gov_3a_CM_OA" ;
+	skos:definition	"eGovernment services related to Citizen Mobility - Online availability" ;
+	skos:topConceptOf	ns1:breakdown ;
+	ns11:membership	ns72:e_gov_3a_cm_oa ;
+	skos:altLabel	"3a Citizen Mobility - Online availability" ;
+	skos:prefLabel	"3a Citizen Mobility - Online availability" .
+ns7:e_gov_3b_cm_us	rdf:type	ns10:Breakdown ,
+		skos:Concept ;
+	skos:notation	"e_gov_3b_CM_US" ;
+	skos:definition	"eGovernment services related to Citizen Mobility - Usability" ;
+	skos:topConceptOf	ns1:breakdown ;
+	ns11:membership	ns72:e_gov_3b_cm_us ;
+	skos:altLabel	"3b Citizen Mobility - Usability" ;
+	skos:prefLabel	"3b Citizen Mobility - Usability" .
+ns7:e_gov_3c_cm_eidcb	rdf:type	ns10:Breakdown ,
+		skos:Concept ;
+	skos:notation	"e_gov_3c_CM_EIDCB" ;
+	skos:definition	"eGovernment services related to Citizen Mobility - eID Cross Borders" ;
+	skos:topConceptOf	ns1:breakdown ;
+	ns11:membership	ns72:e_gov_3c_cm_eidcb ;
+	skos:altLabel	"3c Citizen Mobility - eID Cross Borders" ;
+	skos:prefLabel	"3c Citizen Mobility - eID Cross Borders" .
+ns7:e_gov_3d_cm_edoccb	rdf:type	ns10:Breakdown ,
+		skos:Concept ;
+	skos:notation	"e_gov_3d_CM_EDOCCB" ;
+	skos:definition	"eGovernment services related to Citizen Mobility - eDocuments Cross Borders" ;
+	skos:topConceptOf	ns1:breakdown ;
+	ns11:membership	ns72:e_gov_3d_cm_edoccb ;
+	skos:altLabel	"3d Citizen Mobility - eDocuments Cross Borders" ;
+	skos:prefLabel	"3d Citizen Mobility - eDocuments Cross Borders" .
+ns7:e_gov_3e_cm_eu	rdf:type	ns10:Breakdown ,
+		skos:Concept ;
+	skos:notation	"e_gov_3e_CM_EU" ;
+	skos:definition	"eGovernment services related to Citizen Mobility - Ease of Use" ;
+	skos:topConceptOf	ns1:breakdown ;
+	ns11:membership	ns72:e_gov_3e_cm_eu ;
+	skos:altLabel	"3e Citizen Mobility - Ease of Use" ;
+	skos:prefLabel	"3e Citizen Mobility - Ease of Use" .
+ns7:e_gov_3f_cm_su	rdf:type	ns10:Breakdown ,
+		skos:Concept ;
+	skos:notation	"e_gov_3f_CM_SU" ;
+	skos:definition	"eGovernment services related to Citizen Mobility - Speed of Use" ;
+	skos:topConceptOf	ns1:breakdown ;
+	ns11:membership	ns72:e_gov_3f_cm_su ;
+	skos:altLabel	"3f Citizen Mobility - Speed of Use" ;
+	skos:prefLabel	"3f Citizen Mobility - Speed of Use" .
+ns7:e_gov_4a_bm_oa	rdf:type	ns10:Breakdown ,
+		skos:Concept ;
+	skos:notation	"e_gov_4a_BM_OA" ;
+	skos:definition	"eGovernment services related to Business Mobility - Online availability" ;
+	skos:topConceptOf	ns1:breakdown ;
+	ns11:membership	ns73:e_gov_4a_bm_oa ;
+	skos:altLabel	"4a Business Mobility - Online availability" ;
+	skos:prefLabel	"4a Business Mobility - Online availability" .
+ns7:e_gov_4b_bm_us	rdf:type	ns10:Breakdown ,
+		skos:Concept ;
+	skos:notation	"e_gov_4b_BM_US" ;
+	skos:definition	"eGovernment services related to Business Mobility - Usability" ;
+	skos:topConceptOf	ns1:breakdown ;
+	ns11:membership	ns73:e_gov_4b_bm_us ;
+	skos:altLabel	"4b Business Mobility - Usability" ;
+	skos:prefLabel	"4b Business Mobility - Usability" .
+ns7:e_gov_4c_bm_eidcb	rdf:type	ns10:Breakdown ,
+		skos:Concept ;
+	skos:notation	"e_gov_4c_BM_EIDCB" ;
+	skos:definition	"eGovernment services related to Business Mobility - eID Cross Borders" ;
+	skos:topConceptOf	ns1:breakdown ;
+	ns11:membership	ns73:e_gov_4c_bm_eidcb ;
+	skos:altLabel	"4c Business Mobility - eID Cross Borders" ;
+	skos:prefLabel	"4c Business Mobility - eID Cross Borders" .
+ns7:e_gov_4d_bm_edoccb	rdf:type	ns10:Breakdown ,
+		skos:Concept ;
+	skos:notation	"e_gov_4d_BM_EDOCCB" ;
+	skos:definition	"eGovernment services related to Business Mobility - eDocuments Cross Borders" ;
+	skos:topConceptOf	ns1:breakdown ;
+	ns11:membership	ns73:e_gov_4d_bm_edoccb ;
+	skos:altLabel	"4d Business Mobility - eDocuments Cross Borders" ;
+	skos:prefLabel	"4d Business Mobility - eDocuments Cross Borders" .
+ns7:e_gov_4e_bm_eu	rdf:type	ns10:Breakdown ,
+		skos:Concept ;
+	skos:notation	"e_gov_4e_BM_EU" ;
+	skos:definition	"eGovernment services related to Business Mobility - Ease of Use" ;
+	skos:topConceptOf	ns1:breakdown ;
+	ns11:membership	ns73:e_gov_4e_bm_eu ;
+	skos:altLabel	"4e Business Mobility - Ease of Use" ;
+	skos:prefLabel	"4e Business Mobility - Ease of Use" .
+ns7:e_gov_4f_bm_su	rdf:type	ns10:Breakdown ,
+		skos:Concept ;
+	skos:notation	"e_gov_4f_BM_SU" ;
+	skos:definition	"eGovernment services related to Business Mobility - Speed of Use" ;
+	skos:topConceptOf	ns1:breakdown ;
+	ns11:membership	ns73:e_gov_4f_bm_su ;
+	skos:altLabel	"4f Business Mobility - Speed of Use" ;
+	skos:prefLabel	"4f Business Mobility - Speed of Use" .
+ns7:e_gov_5a_ke_eid	rdf:type	ns10:Breakdown ,
+		skos:Concept ;
+	skos:notation	"e_gov_5a_KE_EID" ;
+	skos:definition	"eGovernment services related to Key Enablers - eID. A government-issued, electronic identification solution to determine if the use is who he claims to be. Using eID enables online transactions, saves time and reduces costs for all actors involved. " ;
+	skos:topConceptOf	ns1:breakdown ;
+	ns11:membership	ns74:e_gov_5a_ke_eid ;
+	skos:altLabel	"5a Key Enablers - eID" ;
+	skos:prefLabel	"5a Key Enablers - eID" .
+ns7:e_gov_5b_ke_edoc	rdf:type	ns10:Breakdown ,
+		skos:Concept ;
+	skos:notation	"e_gov_5b_KE_EDOC" ;
+	skos:definition	"eGovernment services related to Key Enablers - eDocuments. An electronic document reduces offline \npaper processes by allowing citizens and businesses to send authenticated documents online. " ;
+	skos:topConceptOf	ns1:breakdown ;
+	ns11:membership	ns74:e_gov_5b_ke_edoc ;
+	skos:altLabel	"5b Key Enablers - eDocuments" ;
+	skos:prefLabel	"5b Key Enablers - eDocuments" .
+ns7:e_gov_5c_ke_as	rdf:type	ns10:Breakdown ,
+		skos:Concept ;
+	skos:notation	"e_gov_5c_KE_AS" ;
+	skos:definition	"eGovernment services related to Key Enablers - Authentic sources" ;
+	skos:topConceptOf	ns1:breakdown ;
+	ns11:membership	ns74:e_gov_5c_ke_as ;
+	skos:altLabel	"5c Key Enablers - Authentic sources" ;
+	skos:prefLabel	"5c Key Enablers - Authentic sources" .
+ns7:e_gov_5d_ke_dp	rdf:type	ns10:Breakdown ,
+		skos:Concept ;
+	skos:notation	"e_gov_5d_KE_DP" ;
+	skos:definition	"eGovernment services related to Key Enablers - Digital Post. Public administrations should allow citizens to receive mail in a digital format and help reduce paper mailing. Governments should provide the possibility to communicate electronically-only with citizens or entrepreneurs through personal mailboxes or other digital post solutions. This represents a novelty of the 2016 measurement. " ;
+	skos:topConceptOf	ns1:breakdown ;
+	ns11:membership	ns74:e_gov_5d_ke_dp ;
+	skos:altLabel	"5d Key Enablers - Digital Post" ;
+	skos:prefLabel	"5d Key Enablers - Digital Post" .
+ns7:e_gov_5e_ke_esafe	rdf:type	ns10:Breakdown ,
+		skos:Concept ;
+	skos:notation	"e_gov_5e_KE_ESAFE" ;
+	skos:definition	"eGovernment services related to Key Enablers - eSafe" ;
+	skos:topConceptOf	ns1:breakdown ;
+	ns11:membership	ns74:e_gov_5e_ke_esafe ;
+	skos:altLabel	"5e Key Enablers - eSafe" ;
+	skos:prefLabel	"5e Key Enablers - eSafe" .
+ns7:e_gov_5f_ke_sso	rdf:type	ns10:Breakdown ,
+		skos:Concept ;
+	skos:notation	"e_gov_5f_KE_SSO" ;
+	skos:definition	"eGovernment services related to Key Enablers - Single Sign On (SSO)" ;
+	skos:topConceptOf	ns1:breakdown ;
+	ns11:membership	ns74:e_gov_5f_ke_sso ;
+	skos:altLabel	"5f Key Enablers - Single Sign On (SSO)" ;
+	skos:prefLabel	"5f Key Enablers - Single Sign On (SSO)" .
+ns7:e_gov_events_1	rdf:type	ns10:Breakdown ,
+		skos:Concept ;
+	skos:notation	"e_gov_EVENTS_1" ;
+	skos:definition	"A business life event that covers 11 services related to regular business operations, such as administrative and tax requirements, human resources and refund of VAT." ;
+	skos:topConceptOf	ns1:breakdown ;
+	ns11:membership	ns75:e_gov_events_1 ;
+	skos:altLabel	"Regular business operations" ;
+	skos:prefLabel	"Regular business operations" .
+ns7:e_gov_events_2	rdf:type	ns10:Breakdown ,
+		skos:Concept ;
+	skos:notation	"e_gov_EVENTS_2" ;
+	skos:definition	"This concise life event illustrates the journey in case of moving places: from deregistering to registering address in the new town. It also includes notifications to other public organizations and utilities." ;
+	skos:topConceptOf	ns1:breakdown ;
+	ns11:membership	ns75:e_gov_events_2 ;
+	skos:altLabel	"General administration: moving" ;
+	skos:prefLabel	"General administration: moving" .
+ns7:e_gov_events_3	rdf:type	ns10:Breakdown ,
+		skos:Concept ;
+	skos:notation	"e_gov_EVENTS_3" ;
+	skos:definition	"A total of 12 services concerning buying and registering a car and driving fines, and related to car taxes, parking permits and other administrative requirements." ;
+	skos:topConceptOf	ns1:breakdown ;
+	ns11:membership	ns75:e_gov_events_3 ;
+	skos:altLabel	"Owning and driving a car" ;
+	skos:prefLabel	"Owning and driving a car" .
+ns7:e_gov_events_4	rdf:type	ns10:Breakdown ,
+		skos:Concept ;
+	skos:notation	"e_gov_EVENTS_4" ;
+	skos:definition	"This life event is part of the Justice domain, and captures the journey of someone willing to start a small claims procedure: from orientation and initiation to retrieving verdict and appeal." ;
+	skos:topConceptOf	ns1:breakdown ;
+	ns11:membership	ns75:e_gov_events_4 ;
+	skos:altLabel	"Starting a small claims procedure" ;
+	skos:prefLabel	"Starting a small claims procedure" .
+ns7:e_gov_events_5	rdf:type	ns10:Breakdown ,
+		skos:Concept ;
+	skos:notation	"e_gov_EVENTS_5" ;
+	skos:definition	"This life event covers 33 services, both mandatory services as well as information needs, that allow an entrepreneur to start his business. It includes orientation, administrative and register requirements, and tax and insurance related matters. Early trading operations refers to activities regarding hiring employees and requesting an environmental permit." ;
+	skos:topConceptOf	ns1:breakdown ;
+	ns11:membership	ns75:e_gov_events_5 ;
+	skos:altLabel	"Business Start-up" ;
+	skos:prefLabel	"Business Start-up" .
+ns7:e_gov_events_6	rdf:type	ns10:Breakdown ,
+		skos:Concept ;
+	skos:notation	"e_gov_EVENTS_6" ;
+	skos:definition	"Including services that are typical for young families, such as: marriage (or other partnerships), birth and related (financial) rights, renovating a house, and also looking forward to your financial situation at a later age." ;
+	skos:topConceptOf	ns1:breakdown ;
+	ns11:membership	ns75:e_gov_events_6 ;
+	skos:altLabel	"Family" ;
+	skos:prefLabel	"Family" .
+ns7:e_gov_events_7	rdf:type	ns10:Breakdown ,
+		skos:Concept ;
+	skos:notation	"e_gov_EVENTS_7" ;
+	skos:definition	"From immediate actions for unemployed to applications for additional benefits and allowances, this life event captures vital elements when becoming unemployed. It also include various services concerning job search and participating in training programs, supporting people to find a job. A complete set of 22 services is assessed." ;
+	skos:topConceptOf	ns1:breakdown ;
+	ns11:membership	ns75:e_gov_events_7 ;
+	skos:altLabel	"Losing and Finding a Job" ;
+	skos:prefLabel	"Losing and Finding a Job" .
+ns7:e_gov_events_8	rdf:type	ns10:Breakdown ,
+		skos:Concept ;
+	skos:notation	"e_gov_EVENTS_8" ;
+	skos:definition	"In this life event, comprising of 14 services, it is evaluated to what extent enrolment in higher education can be done online. It also includes the orientation, such as gaining a clear understanding of admission requirements. Furthermore support services during study are part of the assessment, for instance career advice and portability of student grant when studying abroad." ;
+	skos:topConceptOf	ns1:breakdown ;
+	ns11:membership	ns75:e_gov_events_8 ;
+	skos:altLabel	"Studying" ;
+	skos:prefLabel	"Studying" .
+ns7:egov_life_events	rdf:type	ns10:Breakdown ,
+		skos:Concept ;
+	skos:notation	"EGOV_LIFE_EVENTS" ;
+	skos:definition	"Biennial average over 8 (7 before 2016) life events. 4 life events being measured in odd years (e.g.2013, 2015, 2017 etc.) and 4 life events in even years (2012, 2014, 2016 etc.). \nOdd years life events consist of: Regular business operations;  General administration: moving; Owning and driving a car; Starting a small claims procedure. Even years life events consists of: Business Start-up; Losing and Finding a Job; Studying and Family*. \n*Family life event was introduced in 2016, therefore for the scores of 2013, 2014 and 2016 the total score was calculated over 7 life events." ;
+	skos:topConceptOf	ns1:breakdown ;
+	ns11:membership	ns67:egov_life_events ;
+	skos:altLabel	"All Life Events" ;
+	skos:prefLabel	"All Life Events" .
 ns67:egov_le_bus	rdf:type	ns10:BreakdownToGroupMembership ;
 	rdfs:label	"total" ;
 	ns11:member-of	ns12:total ;
@@ -3714,17 +4176,17 @@ ns38:desi_1b2_mbbtu	rdf:type	ns10:BreakdownToGroupMembership ;
 	rdfs:label	"desi_1b_mbb" ;
 	ns11:member-of	ns12:desi_1b_mbb ;
 	ns11:order	"2" .
-@prefix ns70:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/desi_1d_ultra/> .
-ns70:desi_1d1_ubbc	rdf:type	ns10:BreakdownToGroupMembership ;
+@prefix ns76:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/desi_1d_ultra/> .
+ns76:desi_1d1_ubbc	rdf:type	ns10:BreakdownToGroupMembership ;
 	rdfs:label	"desi_1d_ultra" ;
 	ns11:member-of	ns12:desi_1d_ultra ;
 	ns11:order	"1" .
-ns70:desi_1d2_ubbta	rdf:type	ns10:BreakdownToGroupMembership ;
+ns76:desi_1d2_ubbta	rdf:type	ns10:BreakdownToGroupMembership ;
 	rdfs:label	"desi_1d_ultra" ;
 	ns11:member-of	ns12:desi_1d_ultra ;
 	ns11:order	"2" .
-@prefix ns71:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/desi_1e_bbpi/> .
-ns71:desi_1e1_bbpi	rdf:type	ns10:BreakdownToGroupMembership ;
+@prefix ns77:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/desi_1e_bbpi/> .
+ns77:desi_1e1_bbpi	rdf:type	ns10:BreakdownToGroupMembership ;
 	rdfs:label	"desi_1e_bbpi" ;
 	ns11:member-of	ns12:desi_1e_bbpi ;
 	ns11:order	"1" .
@@ -3740,24 +4202,24 @@ ns52:desi_5a5_opendata	rdf:type	ns10:BreakdownToGroupMembership ;
 	rdfs:label	"desi_5a_egov" ;
 	ns11:member-of	ns12:desi_5a_egov ;
 	ns11:order	"5" .
-@prefix ns72:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/desi_5b_ehs/> .
-ns72:desi_5b1_ehs	rdf:type	ns10:BreakdownToGroupMembership ;
+@prefix ns78:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/desi_5b_ehs/> .
+ns78:desi_5b1_ehs	rdf:type	ns10:BreakdownToGroupMembership ;
 	rdfs:label	"desi_5b_ehs" ;
 	ns11:member-of	ns12:desi_5b_ehs .
-@prefix ns73:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/egov_ke/> .
-ns73:authentic_sources	rdf:type	ns10:BreakdownToGroupMembership ;
+@prefix ns79:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/egov_ke/> .
+ns79:authentic_sources	rdf:type	ns10:BreakdownToGroupMembership ;
 	rdfs:label	"egov_ke" ;
 	ns11:member-of	ns12:egov_ke ;
 	ns11:order	"18" .
-ns73:digital_post	rdf:type	ns10:BreakdownToGroupMembership ;
+ns79:digital_post	rdf:type	ns10:BreakdownToGroupMembership ;
 	rdfs:label	"egov_ke" ;
 	ns11:member-of	ns12:egov_ke ;
 	ns11:order	"19" .
-ns73:edocuments	rdf:type	ns10:BreakdownToGroupMembership ;
+ns79:edocuments	rdf:type	ns10:BreakdownToGroupMembership ;
 	rdfs:label	"egov_ke" ;
 	ns11:member-of	ns12:egov_ke ;
 	ns11:order	"17" .
-ns73:eid	rdf:type	ns10:BreakdownToGroupMembership ;
+ns79:eid	rdf:type	ns10:BreakdownToGroupMembership ;
 	rdfs:label	"egov_ke" ;
 	ns11:member-of	ns12:egov_ke ;
 	ns11:order	"16" .
@@ -3765,28 +4227,28 @@ ns57:family	rdf:type	ns10:BreakdownToGroupMembership ;
 	rdfs:label	"egov_le" ;
 	ns11:member-of	ns12:egov_le ;
 	ns11:order	"9" .
-@prefix ns74:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/egov_ser/> .
-ns74:auto_service	rdf:type	ns10:BreakdownToGroupMembership ;
+@prefix ns80:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/egov_ser/> .
+ns80:auto_service	rdf:type	ns10:BreakdownToGroupMembership ;
 	rdfs:label	"egov_ser" ;
 	ns11:member-of	ns12:egov_ser ;
 	ns11:order	"10" .
-ns74:info_online_no_portal	rdf:type	ns10:BreakdownToGroupMembership ;
+ns80:info_online_no_portal	rdf:type	ns10:BreakdownToGroupMembership ;
 	rdfs:label	"egov_ser" ;
 	ns11:member-of	ns12:egov_ser ;
 	ns11:order	"14" .
-ns74:info_online_portal	rdf:type	ns10:BreakdownToGroupMembership ;
+ns80:info_online_portal	rdf:type	ns10:BreakdownToGroupMembership ;
 	rdfs:label	"egov_ser" ;
 	ns11:member-of	ns12:egov_ser ;
 	ns11:order	"13" .
-ns74:offline	rdf:type	ns10:BreakdownToGroupMembership ;
+ns80:offline	rdf:type	ns10:BreakdownToGroupMembership ;
 	rdfs:label	"egov_ser" ;
 	ns11:member-of	ns12:egov_ser ;
 	ns11:order	"15" .
-ns74:serv_online_no_portal	rdf:type	ns10:BreakdownToGroupMembership ;
+ns80:serv_online_no_portal	rdf:type	ns10:BreakdownToGroupMembership ;
 	rdfs:label	"egov_ser" ;
 	ns11:member-of	ns12:egov_ser ;
 	ns11:order	"12" .
-ns74:serv_online_portal	rdf:type	ns10:BreakdownToGroupMembership ;
+ns80:serv_online_portal	rdf:type	ns10:BreakdownToGroupMembership ;
 	rdfs:label	"egov_ser" ;
 	ns11:member-of	ns12:egov_ser ;
 	ns11:order	"11" .
@@ -3795,7 +4257,7 @@ ns7:authentic_sources	rdf:type	skos:Concept ,
 	skos:notation	"Authentic_sources" ;
 	skos:definition	"Base registries used by governments to automatically validate or fetch data relating to citizens or businesses. It facilitates prefilling of online forms and the implementation of the \u2018once-only principle\u2019, which implies that governments re-use data to deliver services automatically. " ;
 	skos:topConceptOf	ns1:breakdown ;
-	ns11:membership	ns73:authentic_sources ;
+	ns11:membership	ns79:authentic_sources ;
 	skos:altLabel	"Authentic sources" ,
 		"Authentic_sources" ;
 	skos:prefLabel	"Authentic sources" ,
@@ -3805,7 +4267,7 @@ ns7:auto_service	rdf:type	skos:Concept ,
 	skos:notation	"auto_service" ;
 	skos:definition	"eGovernment automated service" ;
 	skos:topConceptOf	ns1:breakdown ;
-	ns11:membership	ns74:auto_service ;
+	ns11:membership	ns80:auto_service ;
 	skos:altLabel	"Automated service" ;
 	skos:prefLabel	"Automated service" .
 ns7:desi_1b1_4g	rdf:type	skos:Concept ,
@@ -3826,14 +4288,14 @@ ns7:desi_1d1_ubbc	rdf:type	skos:Concept ,
 		ns10:Breakdown ;
 	skos:notation	"DESI_1D1_UBBC" ;
 	skos:topConceptOf	ns1:breakdown ;
-	ns11:membership	ns70:desi_1d1_ubbc ;
+	ns11:membership	ns76:desi_1d1_ubbc ;
 	skos:altLabel	"1d1 Ultrafast BB Coverage" ;
 	skos:prefLabel	"1d1 Ultrafast BB Coverage" .
 ns7:desi_1d2_ubbta	rdf:type	skos:Concept ,
 		ns10:Breakdown ;
 	skos:notation	"DESI_1D2_UBBTA" ;
 	skos:topConceptOf	ns1:breakdown ;
-	ns11:membership	ns70:desi_1d2_ubbta ;
+	ns11:membership	ns76:desi_1d2_ubbta ;
 	skos:altLabel	"1d2 Ultrafast BB Take-up" ;
 	skos:prefLabel	"1d2 Ultrafast BB Take-up" .
 ns7:desi_1d_ultra	rdf:type	skos:Concept ,
@@ -3847,7 +4309,7 @@ ns7:desi_1e1_bbpi	rdf:type	skos:Concept ,
 		ns10:Breakdown ;
 	skos:notation	"DESI_1E1_BBPI" ;
 	skos:topConceptOf	ns1:breakdown ;
-	ns11:membership	ns71:desi_1e1_bbpi ;
+	ns11:membership	ns77:desi_1e1_bbpi ;
 	skos:altLabel	"1e1 Broadband Price Index" ;
 	skos:prefLabel	"1e1 Broadband Price Index" .
 ns7:desi_1e_bbpi	rdf:type	skos:Concept ,
@@ -3875,7 +4337,7 @@ ns7:desi_5b1_ehs	rdf:type	skos:Concept ,
 		ns10:Breakdown ;
 	skos:notation	"DESI_5B1_EHS" ;
 	skos:topConceptOf	ns1:breakdown ;
-	ns11:membership	ns72:desi_5b1_ehs ;
+	ns11:membership	ns78:desi_5b1_ehs ;
 	skos:altLabel	"5b eHealth" ;
 	skos:prefLabel	"5b eHealth" .
 ns7:desi_5b_ehs	rdf:type	skos:Concept ,
@@ -3890,7 +4352,7 @@ ns7:digital_post	rdf:type	skos:Concept ,
 	skos:notation	"Digital_Post" ;
 	skos:definition	"Public administrations should allow citizens to receive mail in a digital format and help reduce paper mailing. Governments should provide the possibility to communicate electronically-only with citizens or entrepreneurs through personal mailboxes or other digital post solutions. This represents a novelty of the 2016 measurement. " ;
 	skos:topConceptOf	ns1:breakdown ;
-	ns11:membership	ns73:digital_post ;
+	ns11:membership	ns79:digital_post ;
 	skos:altLabel	"Digital_Post" ,
 		"Digital Post" ;
 	skos:prefLabel	"Digital_Post" ,
@@ -3900,7 +4362,7 @@ ns7:edocuments	rdf:type	skos:Concept ,
 	skos:notation	"eDocuments" ;
 	skos:definition	"An electronic document reduces offline \npaper processes by allowing citizens and businesses to send authenticated documents online. " ;
 	skos:topConceptOf	ns1:breakdown ;
-	ns11:membership	ns73:edocuments ;
+	ns11:membership	ns79:edocuments ;
 	skos:altLabel	"eDocuments" ;
 	skos:prefLabel	"eDocuments" .
 ns7:eid	rdf:type	skos:Concept ,
@@ -3908,7 +4370,7 @@ ns7:eid	rdf:type	skos:Concept ,
 	skos:notation	"eID" ;
 	skos:definition	"A government-issued, electronic identification solution to determine if the use is who he claims to be. Using eID enables online transactions, saves time and reduces costs for all actors involved. " ;
 	skos:topConceptOf	ns1:breakdown ;
-	ns11:membership	ns73:eid ;
+	ns11:membership	ns79:eid ;
 	skos:altLabel	"eID" ;
 	skos:prefLabel	"eID" .
 ns7:family	rdf:type	skos:Concept ,
@@ -3924,7 +4386,7 @@ ns7:info_online_no_portal	rdf:type	skos:Concept ,
 	skos:notation	"info_online_no_portal" ;
 	skos:definition	"eGovernment information provided online but not through a portal" ;
 	skos:topConceptOf	ns1:breakdown ;
-	ns11:membership	ns74:info_online_no_portal ;
+	ns11:membership	ns80:info_online_no_portal ;
 	skos:altLabel	"Information online but not through portal" ;
 	skos:prefLabel	"Information online but not through portal" .
 ns7:info_online_portal	rdf:type	skos:Concept ,
@@ -3932,7 +4394,7 @@ ns7:info_online_portal	rdf:type	skos:Concept ,
 	skos:notation	"info_online_portal" ;
 	skos:definition	"eGovernment information provided online and through a portal" ;
 	skos:topConceptOf	ns1:breakdown ;
-	ns11:membership	ns74:info_online_portal ;
+	ns11:membership	ns80:info_online_portal ;
 	skos:altLabel	"Information online and through portal" ;
 	skos:prefLabel	"Information online and through portal" .
 ns7:offline	rdf:type	skos:Concept ,
@@ -3940,7 +4402,7 @@ ns7:offline	rdf:type	skos:Concept ,
 	skos:notation	"offline" ;
 	skos:definition	"eGovernment service or information provided offline" ;
 	skos:topConceptOf	ns1:breakdown ;
-	ns11:membership	ns74:offline ;
+	ns11:membership	ns80:offline ;
 	skos:altLabel	"Offline" ;
 	skos:prefLabel	"Offline" .
 ns7:serv_online_no_portal	rdf:type	skos:Concept ,
@@ -3948,7 +4410,7 @@ ns7:serv_online_no_portal	rdf:type	skos:Concept ,
 	skos:notation	"serv_online_no_portal" ;
 	skos:definition	"eGovernment service provided online but not through a portal" ;
 	skos:topConceptOf	ns1:breakdown ;
-	ns11:membership	ns74:serv_online_no_portal ;
+	ns11:membership	ns80:serv_online_no_portal ;
 	skos:altLabel	"Service online but not through portal" ;
 	skos:prefLabel	"Service online but not through portal" .
 ns7:serv_online_portal	rdf:type	skos:Concept ,
@@ -3956,6 +4418,6 @@ ns7:serv_online_portal	rdf:type	skos:Concept ,
 	skos:notation	"serv_online_portal" ;
 	skos:definition	"eGovernment service provided online and through a portal" ;
 	skos:topConceptOf	ns1:breakdown ;
-	ns11:membership	ns74:serv_online_portal ;
+	ns11:membership	ns80:serv_online_portal ;
 	skos:altLabel	"Service online and through portal" ;
 	skos:prefLabel	"Service online and through portal" .

@@ -14,10 +14,10 @@
 
 ns1:breakdown-group
 	rdf:type	ns2:CodeList , skos:ConceptScheme ;
-	ns5:modified	"2018-05-18T10:30:07+03:00"^^xsd:dateTime ;
+	ns5:modified	"2018-11-22T10:24:33+02:00"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://digital-agenda-data.eu/> ;
-	skos:notation	"CL_BREAKDOWN_GROUP" ;
-	skos:hasTopConcept	ns7:by_location , ns7:byage3classes , ns7:byage6classes , ns7:bycbirth , ns7:byccitizen , ns7:byccsophistication , ns7:bydensity , ns7:bydigint2015 , ns7:bydownloadspeed , ns7:bydownloadspeed4 , ns7:byedu , ns7:byedugrade , ns7:byemp , ns7:byentsize , ns7:byentsize_s_m_l , ns7:byfbbtech , ns7:bygender , ns7:byictsector2subsec , ns7:byictsector6subsec , ns7:byorganizationclass , ns7:byregion , ns7:byrisk , ns7:byskills , ns7:bytypeproduct , ns7:cnect_directorates , ns7:desi , ns7:desi_1_conn , ns7:desi_1a_fbb , ns7:desi_1b_mbb , ns7:desi_1c_speed , ns7:desi_1d_aff , ns7:desi_2_hc , ns7:desi_2a_bsu , ns7:desi_2b_asd , ns7:desi_3_ui , ns7:desi_3a_cont , ns7:desi_3b_comm , ns7:desi_3c_trans , ns7:desi_4_idt , ns7:desi_4a_bd , ns7:desi_4b_ecomm , ns7:desi_5_dps , ns7:desi_5a_egov , ns7:desi_5b_ehealth , ns7:desi_totals , ns7:digskill_level , ns7:econsector , ns7:econsector_size , ns7:egov_le , ns7:epsi_dimensions , ns7:hhbyiq , ns7:hhbytype , ns7:infso_directorates , ns7:labour_force , ns7:manuf , ns7:mhz_bands , ns7:others , ns7:rural_pop , ns7:sos_agg , ns7:total , ns7:bynaceeu , ns7:bynacenat , ns7:desi_1d_ultra , ns7:desi_1e_bbpi , ns7:desi_5b_ehs ;
+	skos:notation	"BREAKDOWN GROUP ADD ON TO PRODU" , "CL_BREAKDOWN_GROUP" ;
+	skos:hasTopConcept	ns7:by_location , ns7:byage3classes , ns7:byage6classes , ns7:bycbirth , ns7:byccitizen , ns7:byccsophistication , ns7:bydensity , ns7:bydigint2015 , ns7:bydownloadspeed , ns7:bydownloadspeed4 , ns7:byedu , ns7:byedugrade , ns7:byemp , ns7:byentsize , ns7:byentsize_s_m_l , ns7:byfbbtech , ns7:bygender , ns7:byictsector2subsec , ns7:byictsector6subsec , ns7:byorganizationclass , ns7:byregion , ns7:byrisk , ns7:byskills , ns7:bytypeproduct , ns7:cnect_directorates , ns7:desi , ns7:desi_1_conn , ns7:desi_1a_fbb , ns7:desi_1b_mbb , ns7:desi_1c_speed , ns7:desi_1d_aff , ns7:desi_2_hc , ns7:desi_2a_bsu , ns7:desi_2b_asd , ns7:desi_3_ui , ns7:desi_3a_cont , ns7:desi_3b_comm , ns7:desi_3c_trans , ns7:desi_4_idt , ns7:desi_4a_bd , ns7:desi_4b_ecomm , ns7:desi_5_dps , ns7:desi_5a_egov , ns7:desi_5b_ehealth , ns7:desi_totals , ns7:digskill_level , ns7:econsector , ns7:econsector_size , ns7:egov_le , ns7:epsi_dimensions , ns7:hhbyiq , ns7:hhbytype , ns7:infso_directorates , ns7:labour_force , ns7:manuf , ns7:mhz_bands , ns7:others , ns7:rural_pop , ns7:sos_agg , ns7:total , ns7:bynaceeu , ns7:bynacenat , ns7:e_gov_1_ucg , ns7:e_gov_2_tg , ns7:e_gov_3_cm , ns7:e_gov_4_bm , ns7:e_gov_5_ke , ns7:e_gov_events , ns7:desi_1d_ultra , ns7:desi_1e_bbpi , ns7:desi_5b_ehs ;
 	skos:inScheme	ns8:scheme ;
 	skos:prefLabel	"Breakdown groups used by Digital Agenda Scoreboard" .
 ns7:by_location
@@ -476,6 +476,54 @@ ns7:bynacenat
 	ns10:order	"17" ;
 	skos:altLabel	"NACE NAT" ;
 	skos:prefLabel	"NACE NAT" .
+ns7:e_gov_1_ucg
+	rdf:type	skos:Concept , ns9:BreakdownGroup ;
+	skos:notation	"e_gov_1_UCG" ;
+	skos:definition	"Breakdown by User Centric Government" ;
+	skos:topConceptOf	ns1:breakdown-group ;
+	ns10:order	"108" ;
+	skos:altLabel	"User Centric Government" ;
+	skos:prefLabel	"User Centric Government" .
+ns7:e_gov_2_tg
+	rdf:type	skos:Concept , ns9:BreakdownGroup ;
+	skos:notation	"e_gov_2_TG" ;
+	skos:definition	"Breakdown by Transparent Government" ;
+	skos:topConceptOf	ns1:breakdown-group ;
+	ns10:order	"109" ;
+	skos:altLabel	"Transparent Government" ;
+	skos:prefLabel	"Transparent Government" .
+ns7:e_gov_3_cm
+	rdf:type	skos:Concept , ns9:BreakdownGroup ;
+	skos:notation	"e_gov_3_CM" ;
+	skos:definition	"Breakdown by Citizen Mobility" ;
+	skos:topConceptOf	ns1:breakdown-group ;
+	ns10:order	"110" ;
+	skos:altLabel	"Citizen Mobility" ;
+	skos:prefLabel	"Citizen Mobility" .
+ns7:e_gov_4_bm
+	rdf:type	skos:Concept , ns9:BreakdownGroup ;
+	skos:notation	"e_gov_4_BM" ;
+	skos:definition	"Breakdown by Business Mobility" ;
+	skos:topConceptOf	ns1:breakdown-group ;
+	ns10:order	"111" ;
+	skos:altLabel	"Business Mobility" ;
+	skos:prefLabel	"Business Mobility" .
+ns7:e_gov_5_ke
+	rdf:type	skos:Concept , ns9:BreakdownGroup ;
+	skos:notation	"e_gov_5_KE" ;
+	skos:definition	"Breakdown by Key Enablers" ;
+	skos:topConceptOf	ns1:breakdown-group ;
+	ns10:order	"112" ;
+	skos:altLabel	"Key Enablers" ;
+	skos:prefLabel	"Key Enablers" .
+ns7:e_gov_events
+	rdf:type	skos:Concept , ns9:BreakdownGroup ;
+	skos:notation	"e_gov_EVENTS" ;
+	skos:definition	"Breakdown by 8 life events for eGovernment" ;
+	skos:topConceptOf	ns1:breakdown-group ;
+	ns10:order	"107" ;
+	skos:altLabel	"Life Events for eGovernment" ;
+	skos:prefLabel	"Life Events for eGovernment" .
 ns7:desi_1d_ultra
 	rdf:type	skos:Concept , ns9:BreakdownGroup ;
 	skos:notation	"DESI_1D_ULTRA" ;
