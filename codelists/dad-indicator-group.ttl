@@ -12,10 +12,10 @@
 
 ns1:indicator-group
 	rdf:type	ns2:CodeList , skos:ConceptScheme ;
-	ns5:modified	"2016-02-29T07:34:57+02:00"^^xsd:dateTime ;
+	ns5:modified	"2018-12-07T18:46:45+02:00"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://digital-agenda-data.eu/> ;
 	skos:notation	"CL_INDICATOR_GROUP" ;
-	skos:hasTopConcept	ns7:audiovisual , ns7:back , ns7:bbquality , ns7:broadband , ns7:desi , ns7:desi_dim , ns7:desi_ind , ns7:desi_sliders , ns7:desi_subdim , ns7:discontinued , ns7:ebusiness , ns7:ecommerce , ns7:egovernment , ns7:ehealth , ns7:ict-edu , ns7:ict-sector , ns7:ict-skills , ns7:ict-specialist , ns7:internet-services , ns7:internet-usage , ns7:mobile , ns7:research-and-development , ns7:research_einfra , ns7:security-privacy , ns7:telecom ;
+	skos:hasTopConcept	ns7:audiovisual , ns7:back , ns7:bbquality , ns7:broadband , ns7:desi , ns7:desi_dim , ns7:desi_ind , ns7:desi_sliders , ns7:desi_subdim , ns7:discontinued , ns7:ebusiness , ns7:ecommerce , ns7:egovernment , ns7:ehealth , ns7:ict-edu , ns7:ict-sector , ns7:ict-skills , ns7:ict-specialist , ns7:internet-services , ns7:internet-usage , ns7:mobile , ns7:research-and-development , ns7:research_einfra , ns7:security-privacy , ns7:telecom , ns7:wid ;
 	skos:inScheme	ns8:scheme ;
 	skos:prefLabel	"Indicator groups used by Digital Agenda Scoreboard" .
 ns7:audiovisual
@@ -168,3 +168,9 @@ ns7:telecom
 	skos:topConceptOf	ns1:indicator-group ;
 	ns10:order	"10" ;
 	skos:prefLabel	"Telecom sector" .
+ns7:wid
+	rdf:type	skos:Concept , ns9:IndicatorGroup ;
+	skos:notation	"WID" ;
+	skos:topConceptOf	ns1:indicator-group ;
+	ns10:order	"91" ;
+	skos:prefLabel	"Women in Digital" .

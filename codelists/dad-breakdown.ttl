@@ -6,11 +6,12 @@ ns1:breakdown	rdf:type	skos:ConceptScheme .
 ns1:breakdown	rdf:type	ns3:CodeList .
 @prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
 @prefix ns5:	<http://purl.org/dc/terms/> .
-ns1:breakdown	ns5:modified	"2018-11-22T10:24:08+02:00"^^xsd:dateTime .
+ns1:breakdown	ns5:modified	"2018-12-07T18:30:29+02:00"^^xsd:dateTime .
 @prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
 ns1:breakdown	rdfs:isDefinedBy	<http://digital-agenda-data.eu/> ;
 	skos:notation	"BREAKDOWN ADD ON TO PRODUCTION " ,
-		"CL_BREAKDOWN" .
+		"CL_BREAKDOWN" ,
+		"ADD ON BREAKDOWN" .
 @prefix ns7:	<http://semantic.digital-agenda-data.eu/codelist/breakdown/> .
 ns1:breakdown	skos:hasTopConcept	ns7:e_gov_events_4 ,
 		ns7:e_gov_events_5 ,
@@ -330,6 +331,7 @@ ns1:breakdown	skos:hasTopConcept	ns7:e_gov_events_4 ,
 		<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c24_25> ,
 		<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c10_12> ,
 		<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c10_18> ,
+		ns7:wid_score ,
 		ns7:info_online_portal ,
 		ns7:offline ,
 		ns7:family ,
@@ -4160,6 +4162,18 @@ ns7:egov_le_bus	rdf:type	ns10:Breakdown ,
 	ns11:membership	ns67:egov_le_bus ;
 	skos:altLabel	"Life Events for Businesses" ;
 	skos:prefLabel	"Life Events for Businesses" .
+ns7:wid_score	rdf:type	ns10:Breakdown ,
+		skos:Concept ;
+	skos:notation	"WID_score" ;
+	skos:topConceptOf	ns1:breakdown .
+@prefix ns76:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/wid_score/> .
+ns7:wid_score	ns11:membership	ns76:wid_score ;
+	skos:altLabel	"Score for Women in Digital" ;
+	skos:prefLabel	"Score for Women in Digital" .
+ns76:wid_score	rdf:type	ns10:BreakdownToGroupMembership ;
+	rdfs:label	"wid_score" ;
+	ns11:member-of	ns12:wid_score ;
+	ns11:order	"1"^^xsd:byte .
 ns36:desi_1d_ultra	rdf:type	ns10:BreakdownToGroupMembership ;
 	rdfs:label	"desi_1_conn" ;
 	ns11:member-of	ns12:desi_1_conn ;
@@ -4176,17 +4190,17 @@ ns38:desi_1b2_mbbtu	rdf:type	ns10:BreakdownToGroupMembership ;
 	rdfs:label	"desi_1b_mbb" ;
 	ns11:member-of	ns12:desi_1b_mbb ;
 	ns11:order	"2" .
-@prefix ns76:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/desi_1d_ultra/> .
-ns76:desi_1d1_ubbc	rdf:type	ns10:BreakdownToGroupMembership ;
+@prefix ns77:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/desi_1d_ultra/> .
+ns77:desi_1d1_ubbc	rdf:type	ns10:BreakdownToGroupMembership ;
 	rdfs:label	"desi_1d_ultra" ;
 	ns11:member-of	ns12:desi_1d_ultra ;
 	ns11:order	"1" .
-ns76:desi_1d2_ubbta	rdf:type	ns10:BreakdownToGroupMembership ;
+ns77:desi_1d2_ubbta	rdf:type	ns10:BreakdownToGroupMembership ;
 	rdfs:label	"desi_1d_ultra" ;
 	ns11:member-of	ns12:desi_1d_ultra ;
 	ns11:order	"2" .
-@prefix ns77:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/desi_1e_bbpi/> .
-ns77:desi_1e1_bbpi	rdf:type	ns10:BreakdownToGroupMembership ;
+@prefix ns78:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/desi_1e_bbpi/> .
+ns78:desi_1e1_bbpi	rdf:type	ns10:BreakdownToGroupMembership ;
 	rdfs:label	"desi_1e_bbpi" ;
 	ns11:member-of	ns12:desi_1e_bbpi ;
 	ns11:order	"1" .
@@ -4202,24 +4216,24 @@ ns52:desi_5a5_opendata	rdf:type	ns10:BreakdownToGroupMembership ;
 	rdfs:label	"desi_5a_egov" ;
 	ns11:member-of	ns12:desi_5a_egov ;
 	ns11:order	"5" .
-@prefix ns78:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/desi_5b_ehs/> .
-ns78:desi_5b1_ehs	rdf:type	ns10:BreakdownToGroupMembership ;
+@prefix ns79:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/desi_5b_ehs/> .
+ns79:desi_5b1_ehs	rdf:type	ns10:BreakdownToGroupMembership ;
 	rdfs:label	"desi_5b_ehs" ;
 	ns11:member-of	ns12:desi_5b_ehs .
-@prefix ns79:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/egov_ke/> .
-ns79:authentic_sources	rdf:type	ns10:BreakdownToGroupMembership ;
+@prefix ns80:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/egov_ke/> .
+ns80:authentic_sources	rdf:type	ns10:BreakdownToGroupMembership ;
 	rdfs:label	"egov_ke" ;
 	ns11:member-of	ns12:egov_ke ;
 	ns11:order	"18" .
-ns79:digital_post	rdf:type	ns10:BreakdownToGroupMembership ;
+ns80:digital_post	rdf:type	ns10:BreakdownToGroupMembership ;
 	rdfs:label	"egov_ke" ;
 	ns11:member-of	ns12:egov_ke ;
 	ns11:order	"19" .
-ns79:edocuments	rdf:type	ns10:BreakdownToGroupMembership ;
+ns80:edocuments	rdf:type	ns10:BreakdownToGroupMembership ;
 	rdfs:label	"egov_ke" ;
 	ns11:member-of	ns12:egov_ke ;
 	ns11:order	"17" .
-ns79:eid	rdf:type	ns10:BreakdownToGroupMembership ;
+ns80:eid	rdf:type	ns10:BreakdownToGroupMembership ;
 	rdfs:label	"egov_ke" ;
 	ns11:member-of	ns12:egov_ke ;
 	ns11:order	"16" .
@@ -4227,28 +4241,28 @@ ns57:family	rdf:type	ns10:BreakdownToGroupMembership ;
 	rdfs:label	"egov_le" ;
 	ns11:member-of	ns12:egov_le ;
 	ns11:order	"9" .
-@prefix ns80:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/egov_ser/> .
-ns80:auto_service	rdf:type	ns10:BreakdownToGroupMembership ;
+@prefix ns81:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/egov_ser/> .
+ns81:auto_service	rdf:type	ns10:BreakdownToGroupMembership ;
 	rdfs:label	"egov_ser" ;
 	ns11:member-of	ns12:egov_ser ;
 	ns11:order	"10" .
-ns80:info_online_no_portal	rdf:type	ns10:BreakdownToGroupMembership ;
+ns81:info_online_no_portal	rdf:type	ns10:BreakdownToGroupMembership ;
 	rdfs:label	"egov_ser" ;
 	ns11:member-of	ns12:egov_ser ;
 	ns11:order	"14" .
-ns80:info_online_portal	rdf:type	ns10:BreakdownToGroupMembership ;
+ns81:info_online_portal	rdf:type	ns10:BreakdownToGroupMembership ;
 	rdfs:label	"egov_ser" ;
 	ns11:member-of	ns12:egov_ser ;
 	ns11:order	"13" .
-ns80:offline	rdf:type	ns10:BreakdownToGroupMembership ;
+ns81:offline	rdf:type	ns10:BreakdownToGroupMembership ;
 	rdfs:label	"egov_ser" ;
 	ns11:member-of	ns12:egov_ser ;
 	ns11:order	"15" .
-ns80:serv_online_no_portal	rdf:type	ns10:BreakdownToGroupMembership ;
+ns81:serv_online_no_portal	rdf:type	ns10:BreakdownToGroupMembership ;
 	rdfs:label	"egov_ser" ;
 	ns11:member-of	ns12:egov_ser ;
 	ns11:order	"12" .
-ns80:serv_online_portal	rdf:type	ns10:BreakdownToGroupMembership ;
+ns81:serv_online_portal	rdf:type	ns10:BreakdownToGroupMembership ;
 	rdfs:label	"egov_ser" ;
 	ns11:member-of	ns12:egov_ser ;
 	ns11:order	"11" .
@@ -4257,7 +4271,7 @@ ns7:authentic_sources	rdf:type	skos:Concept ,
 	skos:notation	"Authentic_sources" ;
 	skos:definition	"Base registries used by governments to automatically validate or fetch data relating to citizens or businesses. It facilitates prefilling of online forms and the implementation of the \u2018once-only principle\u2019, which implies that governments re-use data to deliver services automatically. " ;
 	skos:topConceptOf	ns1:breakdown ;
-	ns11:membership	ns79:authentic_sources ;
+	ns11:membership	ns80:authentic_sources ;
 	skos:altLabel	"Authentic sources" ,
 		"Authentic_sources" ;
 	skos:prefLabel	"Authentic sources" ,
@@ -4267,7 +4281,7 @@ ns7:auto_service	rdf:type	skos:Concept ,
 	skos:notation	"auto_service" ;
 	skos:definition	"eGovernment automated service" ;
 	skos:topConceptOf	ns1:breakdown ;
-	ns11:membership	ns80:auto_service ;
+	ns11:membership	ns81:auto_service ;
 	skos:altLabel	"Automated service" ;
 	skos:prefLabel	"Automated service" .
 ns7:desi_1b1_4g	rdf:type	skos:Concept ,
@@ -4288,14 +4302,14 @@ ns7:desi_1d1_ubbc	rdf:type	skos:Concept ,
 		ns10:Breakdown ;
 	skos:notation	"DESI_1D1_UBBC" ;
 	skos:topConceptOf	ns1:breakdown ;
-	ns11:membership	ns76:desi_1d1_ubbc ;
+	ns11:membership	ns77:desi_1d1_ubbc ;
 	skos:altLabel	"1d1 Ultrafast BB Coverage" ;
 	skos:prefLabel	"1d1 Ultrafast BB Coverage" .
 ns7:desi_1d2_ubbta	rdf:type	skos:Concept ,
 		ns10:Breakdown ;
 	skos:notation	"DESI_1D2_UBBTA" ;
 	skos:topConceptOf	ns1:breakdown ;
-	ns11:membership	ns76:desi_1d2_ubbta ;
+	ns11:membership	ns77:desi_1d2_ubbta ;
 	skos:altLabel	"1d2 Ultrafast BB Take-up" ;
 	skos:prefLabel	"1d2 Ultrafast BB Take-up" .
 ns7:desi_1d_ultra	rdf:type	skos:Concept ,
@@ -4309,7 +4323,7 @@ ns7:desi_1e1_bbpi	rdf:type	skos:Concept ,
 		ns10:Breakdown ;
 	skos:notation	"DESI_1E1_BBPI" ;
 	skos:topConceptOf	ns1:breakdown ;
-	ns11:membership	ns77:desi_1e1_bbpi ;
+	ns11:membership	ns78:desi_1e1_bbpi ;
 	skos:altLabel	"1e1 Broadband Price Index" ;
 	skos:prefLabel	"1e1 Broadband Price Index" .
 ns7:desi_1e_bbpi	rdf:type	skos:Concept ,
@@ -4337,7 +4351,7 @@ ns7:desi_5b1_ehs	rdf:type	skos:Concept ,
 		ns10:Breakdown ;
 	skos:notation	"DESI_5B1_EHS" ;
 	skos:topConceptOf	ns1:breakdown ;
-	ns11:membership	ns78:desi_5b1_ehs ;
+	ns11:membership	ns79:desi_5b1_ehs ;
 	skos:altLabel	"5b eHealth" ;
 	skos:prefLabel	"5b eHealth" .
 ns7:desi_5b_ehs	rdf:type	skos:Concept ,
@@ -4352,7 +4366,7 @@ ns7:digital_post	rdf:type	skos:Concept ,
 	skos:notation	"Digital_Post" ;
 	skos:definition	"Public administrations should allow citizens to receive mail in a digital format and help reduce paper mailing. Governments should provide the possibility to communicate electronically-only with citizens or entrepreneurs through personal mailboxes or other digital post solutions. This represents a novelty of the 2016 measurement. " ;
 	skos:topConceptOf	ns1:breakdown ;
-	ns11:membership	ns79:digital_post ;
+	ns11:membership	ns80:digital_post ;
 	skos:altLabel	"Digital_Post" ,
 		"Digital Post" ;
 	skos:prefLabel	"Digital_Post" ,
@@ -4362,7 +4376,7 @@ ns7:edocuments	rdf:type	skos:Concept ,
 	skos:notation	"eDocuments" ;
 	skos:definition	"An electronic document reduces offline \npaper processes by allowing citizens and businesses to send authenticated documents online. " ;
 	skos:topConceptOf	ns1:breakdown ;
-	ns11:membership	ns79:edocuments ;
+	ns11:membership	ns80:edocuments ;
 	skos:altLabel	"eDocuments" ;
 	skos:prefLabel	"eDocuments" .
 ns7:eid	rdf:type	skos:Concept ,
@@ -4370,7 +4384,7 @@ ns7:eid	rdf:type	skos:Concept ,
 	skos:notation	"eID" ;
 	skos:definition	"A government-issued, electronic identification solution to determine if the use is who he claims to be. Using eID enables online transactions, saves time and reduces costs for all actors involved. " ;
 	skos:topConceptOf	ns1:breakdown ;
-	ns11:membership	ns79:eid ;
+	ns11:membership	ns80:eid ;
 	skos:altLabel	"eID" ;
 	skos:prefLabel	"eID" .
 ns7:family	rdf:type	skos:Concept ,
@@ -4386,7 +4400,7 @@ ns7:info_online_no_portal	rdf:type	skos:Concept ,
 	skos:notation	"info_online_no_portal" ;
 	skos:definition	"eGovernment information provided online but not through a portal" ;
 	skos:topConceptOf	ns1:breakdown ;
-	ns11:membership	ns80:info_online_no_portal ;
+	ns11:membership	ns81:info_online_no_portal ;
 	skos:altLabel	"Information online but not through portal" ;
 	skos:prefLabel	"Information online but not through portal" .
 ns7:info_online_portal	rdf:type	skos:Concept ,
@@ -4394,7 +4408,7 @@ ns7:info_online_portal	rdf:type	skos:Concept ,
 	skos:notation	"info_online_portal" ;
 	skos:definition	"eGovernment information provided online and through a portal" ;
 	skos:topConceptOf	ns1:breakdown ;
-	ns11:membership	ns80:info_online_portal ;
+	ns11:membership	ns81:info_online_portal ;
 	skos:altLabel	"Information online and through portal" ;
 	skos:prefLabel	"Information online and through portal" .
 ns7:offline	rdf:type	skos:Concept ,
@@ -4402,7 +4416,7 @@ ns7:offline	rdf:type	skos:Concept ,
 	skos:notation	"offline" ;
 	skos:definition	"eGovernment service or information provided offline" ;
 	skos:topConceptOf	ns1:breakdown ;
-	ns11:membership	ns80:offline ;
+	ns11:membership	ns81:offline ;
 	skos:altLabel	"Offline" ;
 	skos:prefLabel	"Offline" .
 ns7:serv_online_no_portal	rdf:type	skos:Concept ,
@@ -4410,7 +4424,7 @@ ns7:serv_online_no_portal	rdf:type	skos:Concept ,
 	skos:notation	"serv_online_no_portal" ;
 	skos:definition	"eGovernment service provided online but not through a portal" ;
 	skos:topConceptOf	ns1:breakdown ;
-	ns11:membership	ns80:serv_online_no_portal ;
+	ns11:membership	ns81:serv_online_no_portal ;
 	skos:altLabel	"Service online but not through portal" ;
 	skos:prefLabel	"Service online but not through portal" .
 ns7:serv_online_portal	rdf:type	skos:Concept ,
@@ -4418,6 +4432,6 @@ ns7:serv_online_portal	rdf:type	skos:Concept ,
 	skos:notation	"serv_online_portal" ;
 	skos:definition	"eGovernment service provided online and through a portal" ;
 	skos:topConceptOf	ns1:breakdown ;
-	ns11:membership	ns80:serv_online_portal ;
+	ns11:membership	ns81:serv_online_portal ;
 	skos:altLabel	"Service online and through portal" ;
 	skos:prefLabel	"Service online and through portal" .

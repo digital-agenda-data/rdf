@@ -10,14 +10,15 @@
 @prefix ns9:	<http://semantic.digital-agenda-data.eu/def/> .
 @prefix ns10:	<http://semantic.digital-agenda-data.eu/def/class/> .
 @prefix ns11:	<http://eurostat.linked-statistics.org/dic/unit#> .
+@prefix ns12:	<Eurostat\u0020-\u0020Structure\u0020of\u0020Earnings\u0020Survey\u0020(SES).\u0020https://ec.europa.eu/eurostat/en/web/products-datasets/-/> .
 
 ns1:unit-measure
 	rdf:type	ns2:CodeList , skos:ConceptScheme ;
-	ns5:modified	"2018-05-18T08:46:29+03:00"^^xsd:dateTime ;
+	ns5:modified	"2018-12-07T19:02:20+02:00"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://digital-agenda-data.eu/> ;
 	rdfs:seeAlso	ns7:unit ;
 	skos:notation	"CL_UNIT_MEASURE" ;
-	skos:hasTopConcept	ns8:corehours_million , ns8:cum_nr_artic , ns8:cum_nr_pat , ns8:cum_nr_pub , ns8:cum_x10mil_ecfund , ns8:days , ns8:desi_score , ns8:egov_score , ns8:epsiscore_pts , ns8:euro , ns8:euro_x_hab , ns8:euro_x_million_gbaord , ns8:euro_x_million_of_gdp , ns8:eurocent , ns8:gbpskm , ns8:habitants , ns8:hhi , ns8:ia12ave , ns8:median_euro_ppp , ns8:mhz , ns8:million_euro , ns8:minimum_euro_ppp , ns8:mio_hh , ns8:mio_ind , ns8:nb_channel , ns8:nb_empl , ns8:nb_ent , ns8:nb_infr_case , ns8:nb_vod_service , ns8:nb_x1000inh_20_29 , ns8:nb_x100stud , ns8:nbr_lines , ns8:nbr_organisations , ns8:nbr_participations , ns8:nbr_subs , ns8:no_posts , ns8:nr_artic , ns8:nr_pat , ns8:nr_pub , ns8:nr_x10mil_ecfund , ns8:od_score , ns8:pc_adm_cinema , ns8:pc_bb_lines , ns8:pc_desi , ns8:pc_desi_1_conn , ns8:pc_desi_1a_fbb , ns8:pc_desi_1b_mbb , ns8:pc_desi_1c_speed , ns8:pc_desi_1d_aff , ns8:pc_desi_2_hc , ns8:pc_desi_2a_bsu , ns8:pc_desi_2b_asd , ns8:pc_desi_3_ui , ns8:pc_desi_3a_cont , ns8:pc_desi_3b_comm , ns8:pc_desi_3c_trans , ns8:pc_desi_4_idt , ns8:pc_desi_4a_bd , ns8:pc_desi_4b_ecomm , ns8:pc_desi_5_dps , ns8:pc_desi_5a_egov , ns8:pc_desi_5b_ehealth , ns8:pc_desi_sliders , ns8:pc_digskillindex , ns8:pc_dispo_income , ns8:pc_e_cc , ns8:pc_ebhh_tv , ns8:pc_edigint2015 , ns8:pc_emp , ns8:pc_emp_pmd , ns8:pc_ent , ns8:pc_ent_aesell , ns8:pc_ent_awsell , ns8:pc_ent_itsprcr2 , ns8:pc_epsi_score , ns8:pc_exp , ns8:pc_fp7ict_ec_funding , ns8:pc_fp7ict_particip , ns8:pc_gbaord , ns8:pc_gp , ns8:pc_grants , ns8:pc_gva , ns8:pc_h2020_ec_funding , ns8:pc_h2020_particip , ns8:pc_hh , ns8:pc_hh_all , ns8:pc_i-dsk-c , ns8:pc_i-dsk-i , ns8:pc_i-dsk-ind , ns8:pc_i-dsk-iu3 , ns8:pc_i-dsk-ps , ns8:pc_i-dsk-s , ns8:pc_ict_ent , ns8:pc_ict_spec , ns8:pc_igov12nrt , ns8:pc_imp , ns8:pc_income , ns8:pc_ind_blt12 , ns8:pc_ind_emp , ns8:pc_ind_ilt12 , ns8:pc_ind_iu3 , ns8:pc_lines , ns8:pc_nomspeed , ns8:pc_organisations , ns8:pc_pop , ns8:pc_posts , ns8:pc_projects , ns8:pc_pub_serv_for_citizen , ns8:pc_pub_serv_for_ent , ns8:pc_rural_pop , ns8:pc_schools , ns8:pc_spectrum_assigned , ns8:pc_spectrum_wbb , ns8:pc_subs , ns8:pc_tel_rev , ns8:pc_total_cost , ns8:pc_trp_commit , ns8:pc_turn , ns8:pc_websites , ns8:psi_score , ns8:subs_per_100_pop , ns8:terabite , ns8:th_ind , ns8:thousand_euro , ns8:thousand_hh , ns8:pc_ind , ns8:thousand_ind , ns8:pc_e_gov_ke , ns8:pc_e_gov_oa , ns8:pc_ind_form ;
+	skos:hasTopConcept	ns8:corehours_million , ns8:cum_nr_artic , ns8:cum_nr_pat , ns8:cum_nr_pub , ns8:cum_x10mil_ecfund , ns8:days , ns8:desi_score , ns8:egov_score , ns8:epsiscore_pts , ns8:euro , ns8:euro_x_hab , ns8:euro_x_million_gbaord , ns8:euro_x_million_of_gdp , ns8:eurocent , ns8:gbpskm , ns8:habitants , ns8:hhi , ns8:ia12ave , ns8:median_euro_ppp , ns8:mhz , ns8:million_euro , ns8:minimum_euro_ppp , ns8:mio_hh , ns8:mio_ind , ns8:nb_channel , ns8:nb_empl , ns8:nb_ent , ns8:nb_infr_case , ns8:nb_vod_service , ns8:nb_x1000inh_20_29 , ns8:nb_x100stud , ns8:nbr_lines , ns8:nbr_organisations , ns8:nbr_participations , ns8:nbr_subs , ns8:no_posts , ns8:nr_artic , ns8:nr_pat , ns8:nr_pub , ns8:nr_x10mil_ecfund , ns8:od_score , ns8:pc_adm_cinema , ns8:pc_bb_lines , ns8:pc_desi , ns8:pc_desi_1_conn , ns8:pc_desi_1a_fbb , ns8:pc_desi_1b_mbb , ns8:pc_desi_1c_speed , ns8:pc_desi_1d_aff , ns8:pc_desi_2_hc , ns8:pc_desi_2a_bsu , ns8:pc_desi_2b_asd , ns8:pc_desi_3_ui , ns8:pc_desi_3a_cont , ns8:pc_desi_3b_comm , ns8:pc_desi_3c_trans , ns8:pc_desi_4_idt , ns8:pc_desi_4a_bd , ns8:pc_desi_4b_ecomm , ns8:pc_desi_5_dps , ns8:pc_desi_5a_egov , ns8:pc_desi_5b_ehealth , ns8:pc_desi_sliders , ns8:pc_digskillindex , ns8:pc_dispo_income , ns8:pc_e_cc , ns8:pc_ebhh_tv , ns8:pc_edigint2015 , ns8:pc_emp , ns8:pc_emp_pmd , ns8:pc_ent , ns8:pc_ent_aesell , ns8:pc_ent_awsell , ns8:pc_ent_itsprcr2 , ns8:pc_epsi_score , ns8:pc_exp , ns8:pc_fp7ict_ec_funding , ns8:pc_fp7ict_particip , ns8:pc_gbaord , ns8:pc_gp , ns8:pc_grants , ns8:pc_gva , ns8:pc_h2020_ec_funding , ns8:pc_h2020_particip , ns8:pc_hh , ns8:pc_hh_all , ns8:pc_i-dsk-c , ns8:pc_i-dsk-i , ns8:pc_i-dsk-ind , ns8:pc_i-dsk-iu3 , ns8:pc_i-dsk-ps , ns8:pc_i-dsk-s , ns8:pc_ict_ent , ns8:pc_ict_spec , ns8:pc_igov12nrt , ns8:pc_imp , ns8:pc_income , ns8:pc_ind_blt12 , ns8:pc_ind_emp , ns8:pc_ind_ilt12 , ns8:pc_ind_iu3 , ns8:pc_lines , ns8:pc_nomspeed , ns8:pc_organisations , ns8:pc_pop , ns8:pc_posts , ns8:pc_projects , ns8:pc_pub_serv_for_citizen , ns8:pc_pub_serv_for_ent , ns8:pc_rural_pop , ns8:pc_schools , ns8:pc_spectrum_assigned , ns8:pc_spectrum_wbb , ns8:pc_subs , ns8:pc_tel_rev , ns8:pc_total_cost , ns8:pc_trp_commit , ns8:pc_turn , ns8:pc_websites , ns8:psi_score , ns8:subs_per_100_pop , ns8:terabite , ns8:th_ind , ns8:thousand_euro , ns8:thousand_hh , ns8:pc_ind , ns8:thousand_ind , ns8:pc_male_earning , ns8:wid_score , ns8:pc_e_gov_ke , ns8:pc_e_gov_oa , ns8:pc_ind_form ;
 	skos:inScheme	ns9:scheme ;
 	skos:prefLabel	"Code list for units of measure used by Digital Agenda Scoreboard" .
 ns8:corehours_million
@@ -852,6 +853,20 @@ ns8:thousand_ind
 	skos:topConceptOf	ns1:unit-measure ;
 	skos:altLabel	"Thousand of individuals " ;
 	skos:prefLabel	"Thousand of individuals " .
+ns8:pc_male_earning
+	rdf:type	skos:Concept , ns10:UnitMeasure ;
+	rdfs:seeAlso	ns12:SDG_05_20 ;
+	skos:notation	"pc_male_earning" ;
+	skos:topConceptOf	ns1:unit-measure ;
+	skos:altLabel	"% of average gross hourly earnings of men" ;
+	skos:prefLabel	"Percentage of average gross hourly earnings of men" .
+ns8:wid_score
+	rdf:type	skos:Concept , ns10:UnitMeasure ;
+	skos:notation	"WID_score" ;
+	skos:definition	"Women in Digital Score" ;
+	skos:topConceptOf	ns1:unit-measure ;
+	skos:altLabel	"Score (0 to 1)" ;
+	skos:prefLabel	"Score (0 to 1)" .
 ns8:pc_e_gov_ke
 	rdf:type	skos:Concept , ns10:UnitMeasure ;
 	skos:notation	"pc_e_gov_ke" ;

@@ -1393,6 +1393,10 @@
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/total_manufacturing/10_c10_33>	<http://semantic.digital-agenda-data.eu/def/property/order>	"1" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/total_manufacturing/10_c10_33>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/BreakdownToGroupMembership> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/total_manufacturing/10_c10_33>	<http://www.w3.org/2000/01/rdf-schema#label>	"total_manufacturing" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/wid_score/wid_score>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/wid_score> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/wid_score/wid_score>	<http://semantic.digital-agenda-data.eu/def/property/order>	"1"^^<http://www.w3.org/2001/XMLSchema#byte> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/wid_score/wid_score>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/BreakdownToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/wid_score/wid_score>	<http://www.w3.org/2000/01/rdf-schema#label>	"wid_score" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c10_12>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf/10_c10_12> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c10_12>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Breakdown> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c10_12>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
@@ -3908,6 +3912,13 @@
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/une>	<http://www.w3.org/2004/02/skos/core#notation>	"UNE" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/une>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Unemployed" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/une>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/breakdown> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/wid_score>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/wid_score/wid_score> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/wid_score>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Breakdown> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/wid_score>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/wid_score>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Score for Women in Digital" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/wid_score>	<http://www.w3.org/2004/02/skos/core#notation>	"WID_score" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/wid_score>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Score for Women in Digital" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/wid_score>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/breakdown> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/xdsl>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byfbbtech/xdsl> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/xdsl>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Breakdown> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/xdsl>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
@@ -3988,7 +3999,7 @@
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/y65_74>	<http://www.w3.org/2004/02/skos/core#notation>	"Y65_74" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/y65_74>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Individuals, 65 to 74 years old" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/y65_74>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/breakdown> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://purl.org/dc/terms/modified>	"2018-11-22T10:24:08+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://purl.org/dc/terms/modified>	"2018-12-07T18:30:29+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://purl.org/linked-data/sdmx#CodeList> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#ConceptScheme> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2000/01/rdf-schema#isDefinedBy>	<http://digital-agenda-data.eu/> .
@@ -4326,6 +4337,7 @@
 <http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown/total_sos> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown/total_tel> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown/une> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown/wid_score> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown/xdsl> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown/y16_24> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown/y25_34> .
@@ -4337,6 +4349,7 @@
 <http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown/y55_74> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown/y65_74> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#inScheme>	<http://semantic.digital-agenda-data.eu/def/scheme> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#notation>	"ADD ON BREAKDOWN" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#notation>	"BREAKDOWN ADD ON TO PRODUCTION " .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#notation>	"CL_BREAKDOWN" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Code list for breakdowns used by Digital Agenda Scoreboard" .
