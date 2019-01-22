@@ -612,7 +612,5 @@
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/total> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/wid_score> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group>	<http://www.w3.org/2004/02/skos/core#inScheme>	<http://semantic.digital-agenda-data.eu/def/scheme> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown-group>	<http://www.w3.org/2004/02/skos/core#notation>	"BREAKDOWN GROUP ADD ON TO PRODU" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group>	<http://www.w3.org/2004/02/skos/core#notation>	"CL_BREAKDOWN_GROUP" .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown-group>	<http://www.w3.org/2004/02/skos/core#notation>	"SHEET1" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Breakdown groups used by Digital Agenda Scoreboard" .

@@ -3,7 +3,7 @@
 @prefix ns2:	<http://purl.org/linked-data/sdmx#> .
 @prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
-@prefix ns5:	<http://purl.org/dc/terms/> .
+@prefix dct:	<http://purl.org/dc/terms/> .
 @prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
 @prefix ns7:	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/> .
 @prefix ns8:	<http://semantic.digital-agenda-data.eu/def/> .
@@ -12,7 +12,7 @@
 
 ns1:indicator-group
 	rdf:type	ns2:CodeList , skos:ConceptScheme ;
-	ns5:modified	"2018-12-07T18:46:45+02:00"^^xsd:dateTime ;
+	dct:modified	"2018-12-07T18:46:45+02:00"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://digital-agenda-data.eu/> ;
 	skos:notation	"CL_INDICATOR_GROUP" ;
 	skos:hasTopConcept	ns7:audiovisual , ns7:back , ns7:bbquality , ns7:broadband , ns7:desi , ns7:desi_dim , ns7:desi_ind , ns7:desi_sliders , ns7:desi_subdim , ns7:discontinued , ns7:ebusiness , ns7:ecommerce , ns7:egovernment , ns7:ehealth , ns7:ict-edu , ns7:ict-sector , ns7:ict-skills , ns7:ict-specialist , ns7:internet-services , ns7:internet-usage , ns7:mobile , ns7:research-and-development , ns7:research_einfra , ns7:security-privacy , ns7:telecom , ns7:wid ;

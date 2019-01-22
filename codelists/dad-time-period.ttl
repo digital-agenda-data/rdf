@@ -3,8 +3,8 @@
 @prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
 ns1:time-period	rdf:type	skos:ConceptScheme .
 @prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
-@prefix ns4:	<http://purl.org/dc/terms/> .
-ns1:time-period	ns4:modified	"2014-05-28T19:37:08+03:00"^^xsd:dateTime .
+@prefix dct:	<http://purl.org/dc/terms/> .
+ns1:time-period	dct:modified	"2014-05-28T19:37:08+03:00"^^xsd:dateTime .
 @prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
 ns1:time-period	rdfs:isDefinedBy	<http://digital-agenda-data.eu/> ;
 	skos:notation	"CL_TIME_PERIOD" ;

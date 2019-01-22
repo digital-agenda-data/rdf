@@ -4349,7 +4349,5 @@
 <http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown/y55_74> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown/y65_74> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#inScheme>	<http://semantic.digital-agenda-data.eu/def/scheme> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#notation>	"ADD ON BREAKDOWN" .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#notation>	"BREAKDOWN ADD ON TO PRODUCTION " .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#notation>	"CL_BREAKDOWN" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Code list for breakdowns used by Digital Agenda Scoreboard" .

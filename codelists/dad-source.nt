@@ -932,5 +932,4 @@
 <http://semantic.digital-agenda-data.eu/codelist/source>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/source/smart11_39> .
 <http://semantic.digital-agenda-data.eu/codelist/source>	<http://www.w3.org/2004/02/skos/core#inScheme>	<http://semantic.digital-agenda-data.eu/def/scheme> .
 <http://semantic.digital-agenda-data.eu/codelist/source>	<http://www.w3.org/2004/02/skos/core#notation>	"CL_SOURCE" .
-<http://semantic.digital-agenda-data.eu/codelist/source>	<http://www.w3.org/2004/02/skos/core#notation>	"SOURCE ADD ON" .
 <http://semantic.digital-agenda-data.eu/codelist/source>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Sources used by Digital Agenda Scoreboard indicators" .

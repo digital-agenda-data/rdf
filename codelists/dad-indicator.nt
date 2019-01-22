@@ -4729,6 +4729,4 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/wid_ui_ps> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#inScheme>	<http://semantic.digital-agenda-data.eu/def/scheme> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#notation>	"CL_INDICATOR" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#notation>	"INDICATOR ADD ON TO PRODUCTION" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#notation>	"SHEET1" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Code list for indicators used by Digital Agenda Scoreboard" .

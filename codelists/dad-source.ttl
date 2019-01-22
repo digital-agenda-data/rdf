@@ -18,7 +18,7 @@
 @prefix ns17:	<http://ec.europa.eu/digital-agenda/en/news/> .
 @prefix ns18:	<http://ec.europa.eu/digital-agenda/en/digital-agenda-you/> .
 @prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
-@prefix ns20:	<http://purl.org/dc/terms/> .
+@prefix dct:	<http://purl.org/dc/terms/> .
 @prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
 @prefix ns22:	<http://semantic.digital-agenda-data.eu/def/> .
 @prefix ns23:	<http://ec.europa.eu/eurostat/web/lfs/data/> .
@@ -674,9 +674,9 @@ ns1:smart11_39
 	skos:prefLabel	"Analysis of publications and patents of ICT research in FP7" .
 ns5:source
 	rdf:type	skos:ConceptScheme ;
-	ns20:modified	"2018-11-22T10:24:51+02:00"^^xsd:dateTime ;
+	dct:modified	"2018-11-22T10:24:51+02:00"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://digital-agenda-data.eu/> ;
-	skos:notation	"CL_SOURCE" , "SOURCE ADD ON" ;
+	skos:notation	"CL_SOURCE" ;
 	skos:hasTopConcept	ns1:abac , ns1:bench_gp , ns1:berec_roam , ns1:biac , ns1:capgemini , ns1:cnect-estat , ns1:cocom , ns1:corda , ns1:desi_1a1_fbbc , ns1:desi_1a2_fbbtu , ns1:desi_1c1_ngac , ns1:desi_1c2_sfbb , ns1:desi_2a1_iu , ns1:desi_2a2_bds , ns1:desi_2b1_ictspec , ns1:desi_2b2_stemg , ns1:desi_3a1_news , ns1:desi_3a2_mvg , ns1:desi_3a3_vod , ns1:desi_3a4_iptv , ns1:desi_3b1_vidcall , ns1:desi_3b2_socnet , ns1:desi_3c1_bank , ns1:desi_3c2_shop , ns1:desi_4a1_eis , ns1:desi_4a2_rfid , ns1:desi_4a3_socmed , ns1:desi_4a4_einv , ns1:desi_4a5_cloud , ns1:desi_4b1_smeso , ns1:desi_4b2_ecomturn , ns1:desi_4b3_sellcb , ns1:desi_5a1_egovu , ns1:desi_5a2_prefform , ns1:desi_5a3_osercomp , ns1:eco_report_03_efis_comm , ns1:egov_bench12 , ns1:einfraegi , ns1:einfrageant , ns1:einfraprace , ns1:eoa_smart12-26 , ns1:eoa_yearbook2014 , ns1:epsiplatform , ns1:estat-ent , ns1:estat-hh , ns1:estat-trade , ns1:estat_isoc_bde15b_e , ns1:estat_isoc_bde15b_h , ns1:estat_isoc_bde15b_p , ns1:estat_isoc_bde15cbc , ns1:estat_isoc_bde15cua , ns1:estat_isoc_bde15dec , ns1:estat_isoc_bde15dip , ns1:estat_isoc_bde15disc , ns1:estat_isoc_bde15dth , ns1:estat_isoc_ci_ac_i , ns1:estat_isoc_ci_eu_en2 , ns1:estat_isoc_ci_ifp_fu , ns1:estat_isoc_ci_ifp_iu , ns1:estat_isoc_ci_im_i , ns1:estat_isoc_cicce_use , ns1:estat_isoc_cisci_ax , ns1:estat_isoc_cisci_pb , ns1:estat_isoc_cisci_prv , ns1:estat_isoc_cismt , ns1:estat_isoc_ec_eseln2 , ns1:estat_isoc_ec_ibuy , ns1:estat_isoc_ec_iprb , ns1:estat_isoc_r_gov_i , ns1:estat_isoc_r_iuse_i , ns1:estat_isoc_sk_cskl_i , ns1:estat_isoc_sk_dskl_i , ns1:estat_isoc_sk_how_i , ns1:estat_isoc_sk_iskl_i , ns1:estat_isoc_ske_ittn2 , ns1:estat_isoc_sks_itspt , ns1:estat_lfst_hhnhwhtc , ns1:estat_nama_gdp_c , ns1:estat_tps00188 , ns1:eun12 , ns1:euripidis-estat , ns1:eurostat_pop , ns1:idate , ns1:ihs_tech , ns1:ipv6obs , ns1:jrc_ict_randd , ns1:mis , ns1:point_topic , ns1:samknows , ns1:smart11_39 , ns1:epsi , ns1:estat-lfs , ns1:estat-lfs-sks , ns1:estat_gba_nabsfin07 , ns1:estat_isoc_bde15ee , ns1:estat_isoc_ci_eu_i , ns1:estat_isoc_pibi_ictbn2 , ns1:estat_randd , ns1:eurostat_ed , ns1:eurostat_nat_acc , ns1:jrc-ictspec3 , ns1:nif_database , ns1:old_desi_1b3_spec , ns1:old_desi_1d1_fbbp , ns1:old_desi_5b1_mdataexch , ns1:old_desi_5b2_epresc , ns1:desi_1b1_4g , ns1:desi_1b2_mbbtu , ns1:desi_5a5_opendata , ns1:desi_1d1_ubbc , ns1:desi_1d2_ubbta , ns1:desi_1e1_bbpi , ns1:desi_5a4_psb , ns1:desi_5b1_ehs , ns1:egov_bench12_17 ;
 	skos:inScheme	ns22:scheme ;
 	skos:prefLabel	"Sources used by Digital Agenda Scoreboard indicators" .

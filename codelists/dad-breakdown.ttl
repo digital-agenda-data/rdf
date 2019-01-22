@@ -5,13 +5,11 @@ ns1:breakdown	rdf:type	skos:ConceptScheme .
 @prefix ns3:	<http://purl.org/linked-data/sdmx#> .
 ns1:breakdown	rdf:type	ns3:CodeList .
 @prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
-@prefix ns5:	<http://purl.org/dc/terms/> .
-ns1:breakdown	ns5:modified	"2018-12-07T18:30:29+02:00"^^xsd:dateTime .
+@prefix dct:	<http://purl.org/dc/terms/> .
+ns1:breakdown	dct:modified	"2018-12-07T18:30:29+02:00"^^xsd:dateTime .
 @prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
 ns1:breakdown	rdfs:isDefinedBy	<http://digital-agenda-data.eu/> ;
-	skos:notation	"BREAKDOWN ADD ON TO PRODUCTION " ,
-		"CL_BREAKDOWN" ,
-		"ADD ON BREAKDOWN" .
+	skos:notation	"CL_BREAKDOWN" .
 @prefix ns7:	<http://semantic.digital-agenda-data.eu/codelist/breakdown/> .
 ns1:breakdown	skos:hasTopConcept	ns7:e_gov_events_4 ,
 		ns7:e_gov_events_5 ,

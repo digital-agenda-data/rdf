@@ -3,7 +3,7 @@
 @prefix ns2:	<http://purl.org/linked-data/sdmx#> .
 @prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
-@prefix ns5:	<http://purl.org/dc/terms/> .
+@prefix dct:	<http://purl.org/dc/terms/> .
 @prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
 @prefix ns7:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/> .
 @prefix ns8:	<http://semantic.digital-agenda-data.eu/def/> .
@@ -14,9 +14,9 @@
 
 ns1:breakdown-group
 	rdf:type	ns2:CodeList , skos:ConceptScheme ;
-	ns5:modified	"2018-12-07T18:31:21+02:00"^^xsd:dateTime ;
+	dct:modified	"2018-12-07T18:31:21+02:00"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://digital-agenda-data.eu/> ;
-	skos:notation	"SHEET1" , "BREAKDOWN GROUP ADD ON TO PRODU" , "CL_BREAKDOWN_GROUP" ;
+	skos:notation	"CL_BREAKDOWN_GROUP" ;
 	skos:hasTopConcept	ns7:by_location , ns7:byage3classes , ns7:byage6classes , ns7:bycbirth , ns7:byccitizen , ns7:byccsophistication , ns7:bydensity , ns7:bydigint2015 , ns7:bydownloadspeed , ns7:bydownloadspeed4 , ns7:byedu , ns7:byedugrade , ns7:byemp , ns7:byentsize , ns7:byentsize_s_m_l , ns7:byfbbtech , ns7:bygender , ns7:byictsector2subsec , ns7:byictsector6subsec , ns7:byorganizationclass , ns7:byregion , ns7:byrisk , ns7:byskills , ns7:bytypeproduct , ns7:cnect_directorates , ns7:desi , ns7:desi_1_conn , ns7:desi_1a_fbb , ns7:desi_1b_mbb , ns7:desi_1c_speed , ns7:desi_1d_aff , ns7:desi_2_hc , ns7:desi_2a_bsu , ns7:desi_2b_asd , ns7:desi_3_ui , ns7:desi_3a_cont , ns7:desi_3b_comm , ns7:desi_3c_trans , ns7:desi_4_idt , ns7:desi_4a_bd , ns7:desi_4b_ecomm , ns7:desi_5_dps , ns7:desi_5a_egov , ns7:desi_5b_ehealth , ns7:desi_totals , ns7:digskill_level , ns7:econsector , ns7:econsector_size , ns7:egov_le , ns7:epsi_dimensions , ns7:hhbyiq , ns7:hhbytype , ns7:infso_directorates , ns7:labour_force , ns7:manuf , ns7:mhz_bands , ns7:others , ns7:rural_pop , ns7:sos_agg , ns7:total , ns7:bynaceeu , ns7:bynacenat , ns7:e_gov_1_ucg , ns7:e_gov_2_tg , ns7:e_gov_3_cm , ns7:e_gov_4_bm , ns7:e_gov_5_ke , ns7:e_gov_events , ns7:wid_score , ns7:desi_1d_ultra , ns7:desi_1e_bbpi , ns7:desi_5b_ehs ;
 	skos:inScheme	ns8:scheme ;
 	skos:prefLabel	"Breakdown groups used by Digital Agenda Scoreboard" .
