@@ -3315,7 +3315,7 @@
 <http://eurostat.linked-statistics.org/dic/geo#CZ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://eurostat.linked-statistics.org/dic/geo#CZ> <http://www.w3.org/2004/02/skos/core#inScheme> <http://eurostat.linked-statistics.org/dic/geo> .
 <http://eurostat.linked-statistics.org/dic/geo#CZ> <http://www.w3.org/2004/02/skos/core#notation> "CZ" .
-<http://eurostat.linked-statistics.org/dic/geo#CZ> <http://www.w3.org/2004/02/skos/core#prefLabel> "Czech Republic"@en .
+<http://eurostat.linked-statistics.org/dic/geo#CZ> <http://www.w3.org/2004/02/skos/core#prefLabel> "Czechia"@en .
 <http://eurostat.linked-statistics.org/dic/geo#CZ_CAP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://eurostat.linked-statistics.org/dic/geo#CZ_CAP> <http://www.w3.org/2004/02/skos/core#inScheme> <http://eurostat.linked-statistics.org/dic/geo> .
 <http://eurostat.linked-statistics.org/dic/geo#CZ_CAP> <http://www.w3.org/2004/02/skos/core#notation> "CZ_CAP" .
