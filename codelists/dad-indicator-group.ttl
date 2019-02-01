@@ -1,1 +1,176 @@
-# Empty Turtle
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns1:	<http://semantic.digital-agenda-data.eu/codelist/> .
+@prefix ns2:	<http://purl.org/linked-data/sdmx#> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:	<http://purl.org/dc/terms/> .
+@prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ns7:	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/> .
+@prefix ns8:	<http://semantic.digital-agenda-data.eu/def/> .
+@prefix ns9:	<http://semantic.digital-agenda-data.eu/def/class/> .
+@prefix ns10:	<http://semantic.digital-agenda-data.eu/def/property/> .
+
+ns1:indicator-group
+	rdf:type	ns2:CodeList , skos:ConceptScheme ;
+	dct:modified	"2018-12-07T18:46:45+02:00"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://digital-agenda-data.eu/> ;
+	skos:notation	"CL_INDICATOR_GROUP" ;
+	skos:hasTopConcept	ns7:audiovisual , ns7:back , ns7:bbquality , ns7:broadband , ns7:desi , ns7:desi_dim , ns7:desi_ind , ns7:desi_sliders , ns7:desi_subdim , ns7:discontinued , ns7:ebusiness , ns7:ecommerce , ns7:egovernment , ns7:ehealth , ns7:ict-edu , ns7:ict-sector , ns7:ict-skills , ns7:ict-specialist , ns7:internet-services , ns7:internet-usage , ns7:mobile , ns7:research-and-development , ns7:research_einfra , ns7:security-privacy , ns7:telecom , ns7:wid ;
+	skos:inScheme	ns8:scheme ;
+	skos:prefLabel	"Indicator groups used by Digital Agenda Scoreboard" .
+ns7:audiovisual
+	rdf:type	skos:Concept , ns9:IndicatorGroup ;
+	skos:notation	"audiovisual" ;
+	skos:topConceptOf	ns1:indicator-group ;
+	ns10:order	"45" ;
+	skos:prefLabel	"Audiovisual & media content" .
+ns7:back
+	rdf:type	skos:Concept , ns9:IndicatorGroup ;
+	skos:notation	"back" ;
+	skos:topConceptOf	ns1:indicator-group ;
+	ns10:order	"200" ;
+	skos:prefLabel	"Background variables" .
+ns7:bbquality
+	rdf:type	skos:Concept , ns9:IndicatorGroup ;
+	skos:notation	"bbquality" ;
+	skos:topConceptOf	ns1:indicator-group ;
+	ns10:order	"30" ;
+	skos:prefLabel	"Broadband speeds and prices" .
+ns7:broadband
+	rdf:type	skos:Concept , ns9:IndicatorGroup ;
+	skos:notation	"broadband" ;
+	skos:topConceptOf	ns1:indicator-group ;
+	ns10:order	"20" ;
+	skos:prefLabel	"Broadband take-up and coverage" .
+ns7:desi
+	rdf:type	skos:Concept , ns9:IndicatorGroup ;
+	skos:notation	"DESI" ;
+	skos:topConceptOf	ns1:indicator-group ;
+	ns10:order	"1" ;
+	skos:prefLabel	"DESI Overall Index" .
+ns7:desi_dim
+	rdf:type	skos:Concept , ns9:IndicatorGroup ;
+	skos:notation	"DESI_DIM" ;
+	skos:topConceptOf	ns1:indicator-group ;
+	ns10:order	"2" ;
+	skos:prefLabel	"DESI Dimensions" .
+ns7:desi_ind
+	rdf:type	skos:Concept , ns9:IndicatorGroup ;
+	skos:notation	"DESI_IND" ;
+	skos:topConceptOf	ns1:indicator-group ;
+	ns10:order	"4" ;
+	skos:prefLabel	"DESI Individual Indicators" .
+ns7:desi_sliders
+	rdf:type	skos:Concept , ns9:IndicatorGroup ;
+	skos:notation	"DESI_SLIDERS" ;
+	skos:topConceptOf	ns1:indicator-group ;
+	ns10:order	"5" ;
+	skos:prefLabel	"DESI Overall Index - weight sliders" .
+ns7:desi_subdim
+	rdf:type	skos:Concept , ns9:IndicatorGroup ;
+	skos:notation	"DESI_SUBDIM" ;
+	skos:topConceptOf	ns1:indicator-group ;
+	ns10:order	"3" ;
+	skos:prefLabel	"DESI Sub-dimensions" .
+ns7:discontinued
+	rdf:type	skos:Concept , ns9:IndicatorGroup ;
+	skos:notation	"discontinued" ;
+	skos:topConceptOf	ns1:indicator-group ;
+	ns10:order	"900" ;
+	skos:prefLabel	"Discontinued indicators" .
+ns7:ebusiness
+	rdf:type	skos:Concept , ns9:IndicatorGroup ;
+	skos:notation	"ebusiness" ;
+	skos:topConceptOf	ns1:indicator-group ;
+	ns10:order	"80" ;
+	skos:prefLabel	"eBusiness" .
+ns7:ecommerce
+	rdf:type	skos:Concept , ns9:IndicatorGroup ;
+	skos:notation	"ecommerce" ;
+	skos:topConceptOf	ns1:indicator-group ;
+	ns10:order	"70" ;
+	skos:prefLabel	"eCommerce" .
+ns7:egovernment
+	rdf:type	skos:Concept , ns9:IndicatorGroup ;
+	skos:notation	"egovernment" ;
+	skos:topConceptOf	ns1:indicator-group ;
+	ns10:order	"60" ;
+	skos:prefLabel	"eGovernment" .
+ns7:ehealth
+	rdf:type	skos:Concept , ns9:IndicatorGroup ;
+	skos:notation	"eHealth" ;
+	skos:topConceptOf	ns1:indicator-group ;
+	ns10:order	"100" ;
+	skos:prefLabel	"eHealth" .
+ns7:ict-edu
+	rdf:type	skos:Concept , ns9:IndicatorGroup ;
+	skos:notation	"ict-edu" ;
+	skos:topConceptOf	ns1:indicator-group ;
+	ns10:order	"95" ;
+	skos:prefLabel	"ICT in Education" .
+ns7:ict-sector
+	rdf:type	skos:Concept , ns9:IndicatorGroup ;
+	skos:notation	"ict-sector" ;
+	skos:topConceptOf	ns1:indicator-group ;
+	ns10:order	"110" ;
+	skos:prefLabel	"ICT sector" .
+ns7:ict-skills
+	rdf:type	skos:Concept , ns9:IndicatorGroup ;
+	skos:notation	"ict-skills" ;
+	skos:topConceptOf	ns1:indicator-group ;
+	ns10:order	"90"^^xsd:byte ;
+	skos:prefLabel	"Digital Skills" .
+ns7:ict-specialist
+	rdf:type	skos:Concept , ns9:IndicatorGroup ;
+	skos:notation	"ict-specialist" ;
+	skos:topConceptOf	ns1:indicator-group ;
+	ns10:order	"92"^^xsd:byte ;
+	skos:prefLabel	"ICT Specialist" .
+ns7:internet-services
+	rdf:type	skos:Concept , ns9:IndicatorGroup ;
+	skos:notation	"internet-services" ;
+	skos:topConceptOf	ns1:indicator-group ;
+	ns10:order	"50" ;
+	skos:prefLabel	"Take up of internet services" .
+ns7:internet-usage
+	rdf:type	skos:Concept , ns9:IndicatorGroup ;
+	skos:notation	"internet-usage" ;
+	skos:topConceptOf	ns1:indicator-group ;
+	ns10:order	"40" ;
+	skos:prefLabel	"Internet usage" .
+ns7:mobile
+	rdf:type	skos:Concept , ns9:IndicatorGroup ;
+	skos:notation	"mobile" ;
+	skos:topConceptOf	ns1:indicator-group ;
+	ns10:order	"35" ;
+	skos:prefLabel	"Mobile market" .
+ns7:research-and-development
+	rdf:type	skos:Concept , ns9:IndicatorGroup ;
+	skos:notation	"research-and-development" ;
+	skos:topConceptOf	ns1:indicator-group ;
+	ns10:order	"120" ;
+	skos:prefLabel	"EU Research and Development Programs" .
+ns7:research_einfra
+	rdf:type	skos:Concept , ns9:IndicatorGroup ;
+	skos:notation	"research_eInfra" ;
+	skos:topConceptOf	ns1:indicator-group ;
+	ns10:order	"121" ;
+	skos:prefLabel	"Research e-Infrastructures" .
+ns7:security-privacy
+	rdf:type	skos:Concept , ns9:IndicatorGroup ;
+	skos:notation	"security-privacy" ;
+	skos:topConceptOf	ns1:indicator-group ;
+	ns10:order	"105"^^xsd:byte ;
+	skos:prefLabel	"Security and Privacy" .
+ns7:telecom
+	rdf:type	skos:Concept , ns9:IndicatorGroup ;
+	skos:notation	"telecom" ;
+	skos:topConceptOf	ns1:indicator-group ;
+	ns10:order	"10" ;
+	skos:prefLabel	"Telecom sector" .
+ns7:wid
+	rdf:type	skos:Concept , ns9:IndicatorGroup ;
+	skos:notation	"WID" ;
+	skos:topConceptOf	ns1:indicator-group ;
+	ns10:order	"91" ;
+	skos:prefLabel	"Women in Digital" .
