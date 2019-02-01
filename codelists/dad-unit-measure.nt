@@ -669,6 +669,13 @@
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ind_form>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_ind_form" .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ind_form>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Percentage of individuals who used Internet (last year) and need to submit filled forms" .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ind_form>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ind_igov12nrt>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ind_igov12nrt>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ind_igov12nrt>	<http://www.w3.org/2004/02/skos/core#altLabel>	"% of individuals who need to submit official forms" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ind_igov12nrt>	<http://www.w3.org/2004/02/skos/core#definition>	"This denominator is derived from two questions: one counting people who submitted forms online and another one about reasons for not doing such online submission because they did not have to submit official forms at all." .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ind_igov12nrt>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_ind_igov12nrt" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ind_igov12nrt>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"% of individuals who need to submit official forms to administrative authorities" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ind_igov12nrt>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ind_ilt12>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ind_ilt12>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ind_ilt12>	<http://www.w3.org/2000/01/rdf-schema#seeAlso>	<http://eurostat.linked-statistics.org/dic/unit#PC_IND_ILT12> .
@@ -862,7 +869,7 @@
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/wid_score>	<http://www.w3.org/2004/02/skos/core#notation>	"WID_score" .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/wid_score>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Score (0 to 1)" .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/wid_score>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
-<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://purl.org/dc/terms/modified>	"2018-12-07T19:02:20+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://purl.org/dc/terms/modified>	"2019-01-30T16:57:31"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://purl.org/linked-data/sdmx#CodeList> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#ConceptScheme> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2000/01/rdf-schema#isDefinedBy>	<http://digital-agenda-data.eu/> .
@@ -970,6 +977,7 @@
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ind_blt12> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ind_emp> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ind_form> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ind_igov12nrt> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ind_ilt12> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ind_iu3> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_lines> .
