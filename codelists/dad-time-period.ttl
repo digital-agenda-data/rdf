@@ -11,6 +11,7 @@ ns1:time-period	rdfs:isDefinedBy	<http://digital-agenda-data.eu/> ;
 	skos:hasTopConcept	<http://reference.data.gov.uk/id/gregorian-year/1999> .
 @prefix ns6:	<http://reference.data.gov.uk/id/gregorian-year/> .
 ns1:time-period	skos:hasTopConcept	ns6:EC_ALL ,
+		<http://reference.data.gov.uk/id/gregorian-month/2018-06> ,
 		<http://reference.data.gov.uk/id/gregorian-month/2013-12> ,
 		<http://reference.data.gov.uk/id/gregorian-month/2014-02> ,
 		<http://reference.data.gov.uk/id/gregorian-month/2013-06> ,
@@ -116,6 +117,7 @@ ns1:time-period	skos:hasTopConcept	ns6:EC_ALL ,
 		<http://reference.data.gov.uk/id/gregorian-year/2011> ,
 		<http://reference.data.gov.uk/id/gregorian-quarter/2008-Q3> ,
 		<http://reference.data.gov.uk/id/gregorian-year/2004> ,
+		<http://reference.data.gov.uk/id/gregorian-month/2017-12> ,
 		<http://reference.data.gov.uk/id/gregorian-year/2018> ,
 		<http://reference.data.gov.uk/id/gregorian-month/2017-06> ,
 		<http://reference.data.gov.uk/id/gregorian-month/2016-06> ,
