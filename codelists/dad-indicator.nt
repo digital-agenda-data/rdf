@@ -2165,7 +2165,7 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_aws_gt1_b2c_gt10ws>	<http://www.w3.org/2004/02/skos/core#definition>	"Enterprises where web sales are more than 1% of total turnover and B2C web sales more than 10% of the web sales" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_aws_gt1_b2c_gt10ws>	<http://www.w3.org/2004/02/skos/core#notation>	"E_AWS_GT1_B2C_GT10WS" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_aws_gt1_b2c_gt10ws>	<http://www.w3.org/2004/02/skos/core#note>	"Enterprises with 10 or more persons employed. All manufacturing and service sectors, excluding the financial sector. Breaks in series because since 2010 data include also sector S 95.1-Repair of computers and communication equipment." .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/e_aws_gt1_b2c_gt10ws>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Enterprises exploiting the \"Businees to Consumers\" opportunities of web sales " .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/e_aws_gt1_b2c_gt10ws>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Enterprises exploiting the \"Business to Consumers\" opportunities of web sales" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_aws_gt1_b2c_gt10ws>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_awsval_cmp>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_awsval_cmp>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ecommerce/e_awsval_cmp> .
@@ -4388,7 +4388,7 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator/wid_ui_ps>	<http://www.w3.org/2004/02/skos/core#notation>	"WID_UI_PS" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/wid_ui_ps>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"1.4 Using professional social networks" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/wid_ui_ps>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://purl.org/dc/terms/modified>	"2019-03-13T16:20:13"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://purl.org/dc/terms/modified>	"2019-03-20T16:21:54"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://purl.org/linked-data/sdmx#CodeList> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#ConceptScheme> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2000/01/rdf-schema#isDefinedBy>	<http://digital-agenda-data.eu/> .

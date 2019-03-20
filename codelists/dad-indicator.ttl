@@ -111,7 +111,7 @@ ns4:indicator	rdf:type	skos:ConceptScheme .
 @prefix ns11:	<http://purl.org/linked-data/sdmx#> .
 ns4:indicator	rdf:type	ns11:CodeList .
 @prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
-ns4:indicator	dct:modified	"2019-03-13T16:20:13"^^xsd:dateTime .
+ns4:indicator	dct:modified	"2019-03-20T16:21:54"^^xsd:dateTime .
 @prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
 ns4:indicator	rdfs:isDefinedBy	<http://digital-agenda-data.eu/> ;
 	skos:notation	"CL_INDICATOR" ;
@@ -2239,7 +2239,7 @@ ns1:e_aws_gt1_b2c_gt10ws	rdf:type	ns3:Indicator ,
 	dct:source	ns6:estat_isoc_ec_eseln2 ;
 	ns7:membership	ns24:e_aws_gt1_b2c_gt10ws ;
 	skos:altLabel	"Enterprises exploiting B2C opportunities of web sales " ;
-	skos:prefLabel	"Enterprises exploiting the \"Businees to Consumers\" opportunities of web sales " .
+	skos:prefLabel	"Enterprises exploiting the \"Business to Consumers\" opportunities of web sales" .
 ns1:e_awsval_cmp	rdf:type	ns3:Indicator ,
 		skos:Concept ;
 	skos:notation	"e_awsval_cmp" ;
