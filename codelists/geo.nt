@@ -10792,7 +10792,7 @@
 <http://eurostat.linked-statistics.org/dic/geo#MK> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://eurostat.linked-statistics.org/dic/geo#MK> <http://www.w3.org/2004/02/skos/core#inScheme> <http://eurostat.linked-statistics.org/dic/geo> .
 <http://eurostat.linked-statistics.org/dic/geo#MK> <http://www.w3.org/2004/02/skos/core#notation> "MK" .
-<http://eurostat.linked-statistics.org/dic/geo#MK> <http://www.w3.org/2004/02/skos/core#prefLabel> "FYROM"@en .
+<http://eurostat.linked-statistics.org/dic/geo#MK> <http://www.w3.org/2004/02/skos/core#prefLabel> "North Macedonia"@en .
 <http://eurostat.linked-statistics.org/dic/geo#MK_CAP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://eurostat.linked-statistics.org/dic/geo#MK_CAP> <http://www.w3.org/2004/02/skos/core#inScheme> <http://eurostat.linked-statistics.org/dic/geo> .
 <http://eurostat.linked-statistics.org/dic/geo#MK_CAP> <http://www.w3.org/2004/02/skos/core#notation> "MK_CAP" .
