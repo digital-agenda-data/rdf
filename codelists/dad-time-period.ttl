@@ -4439,7 +4439,8 @@ ns7:time-period	dct:modified	"2014-05-28T19:37:08+03:00"^^xsd:dateTime ;
 		<http://reference.data.gov.uk/id/gregorian-month/2018-06> ,
 		<http://reference.data.gov.uk/id/gregorian-quarter/2004-Q3> ,
 		<http://reference.data.gov.uk/id/gregorian-year/2017> ,
-		<http://reference.data.gov.uk/id/gregorian-year/2018> .
+		<http://reference.data.gov.uk/id/gregorian-year/2018> ,
+		<http://reference.data.gov.uk/id/gregorian-year/2019> .
 @prefix ns48:	<http://reference.data.gov.uk/id/gregorian-year/> .
 ns7:time-period	skos:hasTopConcept	ns48:EC_ALL ,
 		<http://reference.data.gov.uk/id/gregorian-year/2013> ,

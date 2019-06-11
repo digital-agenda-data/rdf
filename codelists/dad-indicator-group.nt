@@ -25,31 +25,31 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi>	<http://semantic.digital-agenda-data.eu/def/property/order>	"1" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorGroup> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi>	<http://www.w3.org/2004/02/skos/core#notation>	"DESI" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi>	<http://www.w3.org/2004/02/skos/core#notation>	"desi" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"DESI Overall Index" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_dim>	<http://semantic.digital-agenda-data.eu/def/property/order>	"2" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_dim>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorGroup> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_dim>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_dim>	<http://www.w3.org/2004/02/skos/core#notation>	"DESI_DIM" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_dim>	<http://www.w3.org/2004/02/skos/core#notation>	"desi_dim" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_dim>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"DESI Dimensions" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_dim>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind>	<http://semantic.digital-agenda-data.eu/def/property/order>	"4" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorGroup> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind>	<http://www.w3.org/2004/02/skos/core#notation>	"DESI_IND" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind>	<http://www.w3.org/2004/02/skos/core#notation>	"desi_ind" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"DESI Individual Indicators" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_sliders>	<http://semantic.digital-agenda-data.eu/def/property/order>	"5" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_sliders>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorGroup> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_sliders>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_sliders>	<http://www.w3.org/2004/02/skos/core#notation>	"DESI_SLIDERS" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_sliders>	<http://www.w3.org/2004/02/skos/core#notation>	"desi_sliders" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_sliders>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"DESI Overall Index - weight sliders" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_sliders>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim>	<http://semantic.digital-agenda-data.eu/def/property/order>	"3" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorGroup> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim>	<http://www.w3.org/2004/02/skos/core#notation>	"DESI_SUBDIM" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim>	<http://www.w3.org/2004/02/skos/core#notation>	"desi_subdim" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"DESI Sub-dimensions" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/discontinued>	<http://semantic.digital-agenda-data.eu/def/property/order>	"900" .
@@ -79,7 +79,7 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ehealth>	<http://semantic.digital-agenda-data.eu/def/property/order>	"100" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ehealth>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorGroup> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ehealth>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ehealth>	<http://www.w3.org/2004/02/skos/core#notation>	"eHealth" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ehealth>	<http://www.w3.org/2004/02/skos/core#notation>	"ehealth" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ehealth>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"eHealth" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ehealth>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-edu>	<http://semantic.digital-agenda-data.eu/def/property/order>	"95" .
@@ -94,13 +94,13 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-sector>	<http://www.w3.org/2004/02/skos/core#notation>	"ict-sector" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-sector>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"ICT sector" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-sector>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills>	<http://semantic.digital-agenda-data.eu/def/property/order>	"90"^^<http://www.w3.org/2001/XMLSchema#byte> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills>	<http://semantic.digital-agenda-data.eu/def/property/order>	"90" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorGroup> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills>	<http://www.w3.org/2004/02/skos/core#notation>	"ict-skills" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Digital Skills" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-specialist>	<http://semantic.digital-agenda-data.eu/def/property/order>	"92"^^<http://www.w3.org/2001/XMLSchema#byte> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-specialist>	<http://semantic.digital-agenda-data.eu/def/property/order>	"92" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-specialist>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorGroup> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-specialist>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-specialist>	<http://www.w3.org/2004/02/skos/core#notation>	"ict-specialist" .
@@ -133,10 +133,10 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/research_einfra>	<http://semantic.digital-agenda-data.eu/def/property/order>	"121" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/research_einfra>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorGroup> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/research_einfra>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/research_einfra>	<http://www.w3.org/2004/02/skos/core#notation>	"research_eInfra" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/research_einfra>	<http://www.w3.org/2004/02/skos/core#notation>	"research_einfra" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/research_einfra>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Research e-Infrastructures" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/research_einfra>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/security-privacy>	<http://semantic.digital-agenda-data.eu/def/property/order>	"105"^^<http://www.w3.org/2001/XMLSchema#byte> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/security-privacy>	<http://semantic.digital-agenda-data.eu/def/property/order>	"105" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/security-privacy>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorGroup> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/security-privacy>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/security-privacy>	<http://www.w3.org/2004/02/skos/core#notation>	"security-privacy" .
@@ -151,10 +151,10 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/wid>	<http://semantic.digital-agenda-data.eu/def/property/order>	"91" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/wid>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorGroup> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/wid>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/wid>	<http://www.w3.org/2004/02/skos/core#notation>	"WID" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/wid>	<http://www.w3.org/2004/02/skos/core#notation>	"wid" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/wid>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Women in Digital" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/wid>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group>	<http://purl.org/dc/terms/modified>	"2018-12-07T18:46:45+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group>	<http://purl.org/dc/terms/modified>	"2019-06-11T11:44:08"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://purl.org/linked-data/sdmx#CodeList> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#ConceptScheme> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group>	<http://www.w3.org/2000/01/rdf-schema#isDefinedBy>	<http://digital-agenda-data.eu/> .

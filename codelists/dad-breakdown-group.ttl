@@ -14,11 +14,11 @@
 
 ns1:breakdown-group
 	rdf:type	skos:ConceptScheme , ns3:CodeList ;
-	dct:modified	"2018-12-07T18:31:21+02:00"^^xsd:dateTime ;
+	dct:modified	"2019-06-11T11:43:40"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://digital-agenda-data.eu/> ;
 	skos:prefLabel	"Breakdown groups used by Digital Agenda Scoreboard" ;
 	skos:notation	"CL_BREAKDOWN_GROUP" ;
-	skos:hasTopConcept	ns7:by_location , ns7:byage3classes , ns7:byage6classes , ns7:bycbirth , ns7:byccitizen , ns7:byccsophistication , ns7:bydensity , ns7:bydigint2015 , ns7:bydownloadspeed , ns7:bydownloadspeed4 , ns7:byedu , ns7:byedugrade , ns7:byemp , ns7:byentsize , ns7:byentsize_s_m_l , ns7:byfbbtech , ns7:bygender , ns7:byictsector2subsec , ns7:byictsector6subsec , ns7:bynaceeu , ns7:bynacenat , ns7:byorganizationclass , ns7:byregion , ns7:byrisk , ns7:byskills , ns7:bytypeproduct , ns7:cnect_directorates , ns7:desi , ns7:desi_1_conn , ns7:desi_1a_fbb , ns7:desi_1b_mbb , ns7:desi_1c_speed , ns7:desi_1d_aff , ns7:desi_1d_ultra , ns7:desi_1e_bbpi , ns7:desi_2_hc , ns7:desi_2a_bsu , ns7:desi_2b_asd , ns7:desi_3_ui , ns7:desi_3a_cont , ns7:desi_3b_comm , ns7:desi_3c_trans , ns7:desi_4_idt , ns7:desi_4a_bd , ns7:desi_4b_ecomm , ns7:desi_5_dps , ns7:desi_5a_egov , ns7:desi_5b_ehealth , ns7:desi_5b_ehs , ns7:desi_totals , ns7:digskill_level , ns7:e_gov_1_ucg , ns7:e_gov_2_tg , ns7:e_gov_3_cm , ns7:e_gov_4_bm , ns7:e_gov_5_ke , ns7:e_gov_events , ns7:econsector , ns7:econsector_size , ns7:egov_le , ns7:epsi_dimensions , ns7:hhbyiq , ns7:hhbytype , ns7:infso_directorates , ns7:labour_force , ns7:manuf , ns7:mhz_bands , ns7:others , ns7:rural_pop , ns7:sos_agg , ns7:total , ns7:wid_score ;
+	skos:hasTopConcept	ns7:by_location , ns7:byage3classes , ns7:byage6classes , ns7:bycbirth , ns7:byccitizen , ns7:byccsophistication , ns7:bydensity , ns7:bydigint2015 , ns7:bydownloadspeed , ns7:bydownloadspeed4 , ns7:byedu , ns7:byedugrade , ns7:byemp , ns7:byentsize , ns7:byentsize_s_m_l , ns7:byfbbtech , ns7:bygender , ns7:byictsector2subsec , ns7:byictsector6subsec , ns7:bynaceeu , ns7:bynacenat , ns7:byorganizationclass , ns7:byregion , ns7:byrisk , ns7:byskills , ns7:bytypeproduct , ns7:cnect_directorates , ns7:desi , ns7:desi_1_conn , ns7:desi_1a_fbb , ns7:desi_1b_mbb , ns7:desi_1c_speed , ns7:desi_1d_ultra , ns7:desi_1e_bbpi , ns7:desi_2_hc , ns7:desi_2a_bsu , ns7:desi_2b_asd , ns7:desi_3_ui , ns7:desi_3c_trans , ns7:desi_4_idt , ns7:desi_4a_bd , ns7:desi_4b_ecomm , ns7:desi_5_dps , ns7:desi_5a_egov , ns7:desi_5b_ehs , ns7:desi_totals , ns7:digskill_level , ns7:e_gov_1_ucg , ns7:e_gov_2_tg , ns7:e_gov_3_cm , ns7:e_gov_4_bm , ns7:e_gov_5_ke , ns7:e_gov_events , ns7:econsector , ns7:econsector_size , ns7:egov_le , ns7:epsi_dimensions , ns7:hhbyiq , ns7:hhbytype , ns7:infso_directorates , ns7:labour_force , ns7:manuf , ns7:mhz_bands , ns7:others , ns7:rural_pop , ns7:sos_agg , ns7:total , ns7:wid_score , ns7:desi_3a_ui , ns7:desi_3b_acton ;
 	skos:inScheme	ns8:scheme .
 ns7:by_location
 	rdf:type	ns9:BreakdownGroup , skos:Concept ;
@@ -67,7 +67,7 @@ ns7:byccitizen
 ns7:byccsophistication
 	rdf:type	ns9:BreakdownGroup , skos:Concept ;
 	skos:prefLabel	"CC services sophistication" ;
-	skos:notation	"byCCsophistication" ;
+	skos:notation	"byccsophistication" ;
 	skos:altLabel	"CC services sophistication" ;
 	skos:definition	"The seven types of cloud computing services proposed in Eurostat questionnaire are attributed a low-medium-high degree of sophistication which somehow reflect also the degree of enterprise's dependence or trust running more or less vital data-services in the cloud." ;
 	skos:topConceptOf	ns1:breakdown-group .
@@ -90,7 +90,7 @@ ns7:bydigint2015
 ns7:bydownloadspeed
 	rdf:type	ns9:BreakdownGroup , skos:Concept ;
 	skos:prefLabel	"Maximum advertised download speed 3 categories" ;
-	skos:notation	"byDownloadSpeed" ;
+	skos:notation	"bydownloadspeed" ;
 	skos:altLabel	"Max. adv. download speed 3 cat." ;
 	ns10:order	"29" ;
 	skos:definition	"breakdown by the maximum advertised download speed of internet access offers, in Mbps (above 8 and up to 12;  above 12 and up to 30; above 30)." ;
@@ -98,7 +98,7 @@ ns7:bydownloadspeed
 ns7:bydownloadspeed4
 	rdf:type	ns9:BreakdownGroup , skos:Concept ;
 	skos:prefLabel	"Maximum advertised download speed 4 categories" ;
-	skos:notation	"byDownloadSpeed4" ;
+	skos:notation	"bydownloadspeed4" ;
 	skos:altLabel	"Max. adv. download speed 4 cat." ;
 	ns10:order	"30" ;
 	skos:definition	"breakdown by the maximum advertised download speed of internet access offers, in Mbps (above 8 and up to 12;  above 12 and up to 30; above 30 and up to 100; above 100)." ;
@@ -133,7 +133,7 @@ ns7:byentsize
 	rdf:type	ns9:BreakdownGroup , skos:Concept ;
 	rdfs:seeAlso	ns11:sizen_r2 ;
 	skos:prefLabel	"Enterprise size (SMEs, Large)" ;
-	skos:notation	"byENTsize" ;
+	skos:notation	"byentsize" ;
 	skos:altLabel	"Enterprise size (SMEs, Large)" ;
 	ns10:order	"15" ;
 	skos:definition	"breakdown by company size (SMEs with 10-249 persons employed, Large enterprises with 250 or more)" ;
@@ -142,7 +142,7 @@ ns7:byentsize_s_m_l
 	rdf:type	ns9:BreakdownGroup , skos:Concept ;
 	rdfs:seeAlso	ns11:sizen_r2 ;
 	skos:prefLabel	"Enterprise size (Small, Medium, Large)" ;
-	skos:notation	"byENTsize_s_m_l" ;
+	skos:notation	"byentsize_s_m_l" ;
 	skos:altLabel	"Enterprise size (Small, Medium, Large)" ;
 	ns10:order	"16" ;
 	skos:definition	"breakdown by company size (Small enterprises (10-49 persons employed),Medium enterprises (50-249 persons employed), Large enterprises with 250 or more))" ;
@@ -167,14 +167,14 @@ ns7:bygender
 ns7:byictsector2subsec
 	rdf:type	ns9:BreakdownGroup , skos:Concept ;
 	skos:prefLabel	"ICT Sectors (2 sub-sectors)" ;
-	skos:notation	"byICTsector2subsec" ;
+	skos:notation	"byictsector2subsec" ;
 	skos:altLabel	"ICT Sectors (2 sub-sectors)" ;
 	skos:definition	"breakdown by 2 operational ICT sub sectors (Manufacturing NACE2 261 to 264, Services NACE2 582,61, 62, 631, 951)" ;
 	skos:topConceptOf	ns1:breakdown-group .
 ns7:byictsector6subsec
 	rdf:type	ns9:BreakdownGroup , skos:Concept ;
 	skos:prefLabel	"ICT Sectors (6 sub-sectors)" ;
-	skos:notation	"byICTsector6subsec" ;
+	skos:notation	"byictsector6subsec" ;
 	skos:altLabel	"ICT Sectors (6 sub-sectors)" ;
 	skos:definition	"breakdown by 6 operational ICT sectors: NACE2 261 to 264, 582,61, 62, 631, 951 " ;
 	skos:topConceptOf	ns1:breakdown-group .
@@ -246,139 +246,115 @@ ns7:cnect_directorates
 ns7:desi
 	rdf:type	ns9:BreakdownGroup , skos:Concept ;
 	skos:prefLabel	"Main Dimensions of the DESI" ;
-	skos:notation	"DESI" ;
+	skos:notation	"desi" ;
 	ns10:order	"2" ;
 	skos:topConceptOf	ns1:breakdown-group .
 ns7:desi_1_conn
 	rdf:type	ns9:BreakdownGroup , skos:Concept ;
 	skos:prefLabel	"Sub-dimensions of 1 Connectivity" ;
-	skos:notation	"DESI_1_CONN" ;
+	skos:notation	"desi_1_conn" ;
 	ns10:order	"3" ;
 	skos:topConceptOf	ns1:breakdown-group .
 ns7:desi_1a_fbb
 	rdf:type	ns9:BreakdownGroup , skos:Concept ;
 	skos:prefLabel	"Indicators under 1a Fixed Broadband" ;
-	skos:notation	"DESI_1A_FBB" ;
+	skos:notation	"desi_1a_fbb" ;
 	ns10:order	"8" ;
 	skos:topConceptOf	ns1:breakdown-group .
 ns7:desi_1b_mbb
 	rdf:type	ns9:BreakdownGroup , skos:Concept ;
 	skos:prefLabel	"Indicators under 1b Mobile Broadband" ;
-	skos:notation	"DESI_1B_MBB" ;
+	skos:notation	"desi_1b_mbb" ;
 	ns10:order	"9" ;
 	skos:topConceptOf	ns1:breakdown-group .
 ns7:desi_1c_speed
 	rdf:type	ns9:BreakdownGroup , skos:Concept ;
 	skos:prefLabel	"Indicators under 1c Fast Broadband" ;
-	skos:notation	"DESI_1C_SPEED" ;
+	skos:notation	"desi_1c_speed" ;
 	ns10:order	"10" ;
-	skos:topConceptOf	ns1:breakdown-group .
-ns7:desi_1d_aff
-	rdf:type	ns9:BreakdownGroup , skos:Concept ;
-	skos:prefLabel	"Indicators under 1d Affordability" ;
-	skos:notation	"DESI_1D_AFF" ;
-	ns10:order	"11" ;
 	skos:topConceptOf	ns1:breakdown-group .
 ns7:desi_1d_ultra
 	rdf:type	ns9:BreakdownGroup , skos:Concept ;
 	skos:prefLabel	"Indicators under 1d Ultrafast Broadband" ;
-	skos:notation	"DESI_1D_ULTRA" ;
+	skos:notation	"desi_1d_ultra" ;
 	ns10:order	"11" ;
 	skos:topConceptOf	ns1:breakdown-group .
 ns7:desi_1e_bbpi
 	rdf:type	ns9:BreakdownGroup , skos:Concept ;
 	skos:prefLabel	"Indicators under 1e Broadband price index" ;
-	skos:notation	"DESI_1E_BBPI" ;
+	skos:notation	"desi_1e_bbpi" ;
 	ns10:order	"12" ;
 	skos:topConceptOf	ns1:breakdown-group .
 ns7:desi_2_hc
 	rdf:type	ns9:BreakdownGroup , skos:Concept ;
 	skos:prefLabel	"Sub-dimensions of 2 Human Capital" ;
-	skos:notation	"DESI_2_HC" ;
+	skos:notation	"desi_2_hc" ;
 	ns10:order	"4" ;
 	skos:topConceptOf	ns1:breakdown-group .
 ns7:desi_2a_bsu
 	rdf:type	ns9:BreakdownGroup , skos:Concept ;
-	skos:prefLabel	"Indicators under 2a Basic Skills and Usage" ;
-	skos:notation	"DESI_2A_BSU" ;
-	ns10:order	"12" , "13" ;
+	skos:prefLabel	"Indicators under 2a Internet User Skills" ;
+	skos:notation	"desi_2a_bsu" ;
+	ns10:order	"13" ;
 	skos:topConceptOf	ns1:breakdown-group .
 ns7:desi_2b_asd
 	rdf:type	ns9:BreakdownGroup , skos:Concept ;
-	skos:prefLabel	"Indicators under 2b Advanced skills and Development" ;
-	skos:notation	"DESI_2B_ASD" ;
-	ns10:order	"14" , "13" ;
+	skos:prefLabel	"Indicators under 2b Advanced Skills and Development" ;
+	skos:notation	"desi_2b_asd" ;
+	ns10:order	"14" ;
 	skos:topConceptOf	ns1:breakdown-group .
 ns7:desi_3_ui
 	rdf:type	ns9:BreakdownGroup , skos:Concept ;
 	skos:prefLabel	"Sub-dimensions of 3 Use of Internet Services" ;
-	skos:notation	"DESI_3_UI" ;
+	skos:notation	"desi_3_ui" ;
 	ns10:order	"5" ;
-	skos:topConceptOf	ns1:breakdown-group .
-ns7:desi_3a_cont
-	rdf:type	ns9:BreakdownGroup , skos:Concept ;
-	skos:prefLabel	"Indicators under 3a Content" ;
-	skos:notation	"DESI_3A_CONT" ;
-	ns10:order	"14" , "15" ;
-	skos:topConceptOf	ns1:breakdown-group .
-ns7:desi_3b_comm
-	rdf:type	ns9:BreakdownGroup , skos:Concept ;
-	skos:prefLabel	"Indicators under 3b Communication" ;
-	skos:notation	"DESI_3B_COMM" ;
-	ns10:order	"16" , "15" ;
 	skos:topConceptOf	ns1:breakdown-group .
 ns7:desi_3c_trans
 	rdf:type	ns9:BreakdownGroup , skos:Concept ;
 	skos:prefLabel	"Indicators under 3c Transactions" ;
-	skos:notation	"DESI_3C_TRANS" ;
-	ns10:order	"16" , "17" ;
+	skos:notation	"desi_3c_trans" ;
+	ns10:order	"17" ;
 	skos:topConceptOf	ns1:breakdown-group .
 ns7:desi_4_idt
 	rdf:type	ns9:BreakdownGroup , skos:Concept ;
 	skos:prefLabel	"Sub-dimensions of 4 Integration of Digital Technology" ;
-	skos:notation	"DESI_4_IDT" ;
+	skos:notation	"desi_4_idt" ;
 	ns10:order	"6" ;
 	skos:topConceptOf	ns1:breakdown-group .
 ns7:desi_4a_bd
 	rdf:type	ns9:BreakdownGroup , skos:Concept ;
 	skos:prefLabel	"Indicators under 4a Business digitization" ;
-	skos:notation	"DESI_4A_BD" ;
-	ns10:order	"18" , "17" ;
+	skos:notation	"desi_4a_bd" ;
+	ns10:order	"18" ;
 	skos:topConceptOf	ns1:breakdown-group .
 ns7:desi_4b_ecomm
 	rdf:type	ns9:BreakdownGroup , skos:Concept ;
-	skos:prefLabel	"Indicators under 4b eCommerce" ;
-	skos:notation	"DESI_4B_ECOMM" ;
-	ns10:order	"18" , "19" ;
+	skos:prefLabel	"Indicators under 4b e-Commerce" ;
+	skos:notation	"desi_4b_ecomm" ;
+	ns10:order	"19" ;
 	skos:topConceptOf	ns1:breakdown-group .
 ns7:desi_5_dps
 	rdf:type	ns9:BreakdownGroup , skos:Concept ;
 	skos:prefLabel	"Sub-dimensions of 5 Digital Public Services" ;
-	skos:notation	"DESI_5_DPS" ;
+	skos:notation	"desi_5_dps" ;
 	ns10:order	"7" ;
 	skos:topConceptOf	ns1:breakdown-group .
 ns7:desi_5a_egov
 	rdf:type	ns9:BreakdownGroup , skos:Concept ;
-	skos:prefLabel	"Indicators under 5a eGovernment" ;
-	skos:notation	"DESI_5A_EGOV" ;
-	ns10:order	"20" , "19" ;
-	skos:topConceptOf	ns1:breakdown-group .
-ns7:desi_5b_ehealth
-	rdf:type	ns9:BreakdownGroup , skos:Concept ;
-	skos:prefLabel	"Indicators under 5b eHealth" ;
-	skos:notation	"DESI_5B_EHEALTH" ;
+	skos:prefLabel	"Indicators under 5a e-Government" ;
+	skos:notation	"desi_5a_egov" ;
 	ns10:order	"20" ;
 	skos:topConceptOf	ns1:breakdown-group .
 ns7:desi_5b_ehs
 	rdf:type	ns9:BreakdownGroup , skos:Concept ;
-	skos:prefLabel	"Indicators under 5b eHealth" ;
-	skos:notation	"DESI_5B_EHS" ;
+	skos:prefLabel	"Indicators under 5b e-Health" ;
+	skos:notation	"desi_5b_ehs" ;
 	ns10:order	"21" ;
 	skos:topConceptOf	ns1:breakdown-group .
 ns7:desi_totals
 	rdf:type	ns9:BreakdownGroup , skos:Concept ;
 	skos:prefLabel	"Aggregate scores" ;
-	skos:notation	"DESI_TOTALS" ;
+	skos:notation	"desi_totals" ;
 	ns10:order	"1" ;
 	skos:topConceptOf	ns1:breakdown-group .
 ns7:digskill_level
@@ -391,7 +367,7 @@ ns7:digskill_level
 ns7:e_gov_1_ucg
 	rdf:type	ns9:BreakdownGroup , skos:Concept ;
 	skos:prefLabel	"User Centric Government" ;
-	skos:notation	"e_gov_1_UCG" ;
+	skos:notation	"e_gov_1_ucg" ;
 	skos:altLabel	"User Centric Government" ;
 	ns10:order	"108" ;
 	skos:definition	"Breakdown by User Centric Government" ;
@@ -399,7 +375,7 @@ ns7:e_gov_1_ucg
 ns7:e_gov_2_tg
 	rdf:type	ns9:BreakdownGroup , skos:Concept ;
 	skos:prefLabel	"Transparent Government" ;
-	skos:notation	"e_gov_2_TG" ;
+	skos:notation	"e_gov_2_tg" ;
 	skos:altLabel	"Transparent Government" ;
 	ns10:order	"109" ;
 	skos:definition	"Breakdown by Transparent Government" ;
@@ -407,7 +383,7 @@ ns7:e_gov_2_tg
 ns7:e_gov_3_cm
 	rdf:type	ns9:BreakdownGroup , skos:Concept ;
 	skos:prefLabel	"Citizen Mobility" ;
-	skos:notation	"e_gov_3_CM" ;
+	skos:notation	"e_gov_3_cm" ;
 	skos:altLabel	"Citizen Mobility" ;
 	ns10:order	"110" ;
 	skos:definition	"Breakdown by Citizen Mobility" ;
@@ -415,7 +391,7 @@ ns7:e_gov_3_cm
 ns7:e_gov_4_bm
 	rdf:type	ns9:BreakdownGroup , skos:Concept ;
 	skos:prefLabel	"Business Mobility" ;
-	skos:notation	"e_gov_4_BM" ;
+	skos:notation	"e_gov_4_bm" ;
 	skos:altLabel	"Business Mobility" ;
 	ns10:order	"111" ;
 	skos:definition	"Breakdown by Business Mobility" ;
@@ -423,7 +399,7 @@ ns7:e_gov_4_bm
 ns7:e_gov_5_ke
 	rdf:type	ns9:BreakdownGroup , skos:Concept ;
 	skos:prefLabel	"Key Enablers" ;
-	skos:notation	"e_gov_5_KE" ;
+	skos:notation	"e_gov_5_ke" ;
 	skos:altLabel	"Key Enablers" ;
 	ns10:order	"112" ;
 	skos:definition	"Breakdown by Key Enablers" ;
@@ -431,7 +407,7 @@ ns7:e_gov_5_ke
 ns7:e_gov_events
 	rdf:type	ns9:BreakdownGroup , skos:Concept ;
 	skos:prefLabel	"Life Events for eGovernment" ;
-	skos:notation	"e_gov_EVENTS" ;
+	skos:notation	"e_gov_events" ;
 	skos:altLabel	"Life Events for eGovernment" ;
 	ns10:order	"107" ;
 	skos:definition	"Breakdown by 8 life events for eGovernment" ;
@@ -507,7 +483,7 @@ ns7:manuf
 ns7:mhz_bands
 	rdf:type	ns9:BreakdownGroup , skos:Concept ;
 	skos:prefLabel	"Spectrum Bands " ;
-	skos:notation	"MHz_bands" ;
+	skos:notation	"mhz_bands" ;
 	skos:altLabel	"Spectrum Bands " ;
 	skos:definition	"Spectrum assigned for wireless broadband in accordance to EU level harmonisation measures" ;
 	skos:topConceptOf	ns1:breakdown-group .
@@ -530,7 +506,7 @@ ns7:sos_agg
 	rdf:type	ns9:BreakdownGroup , skos:Concept ;
 	rdfs:seeAlso	ns12:ict-research-projects-under-eus-seventh-framework-programme-fp7 ;
 	skos:prefLabel	"Strategic Objectives Aggregated" ;
-	skos:notation	"Sos_Agg" ;
+	skos:notation	"sos_agg" ;
 	skos:altLabel	"Strategic Objectives (27)" ;
 	skos:definition	"The research strategic objectives within FP7 ICT (Cooperation theme) are aggregated into 26 thematic research areas. In addition, there is one thematic area for projects funded under Capacities Programme for eInfrastructures" ;
 	skos:topConceptOf	ns1:breakdown-group .
@@ -545,7 +521,19 @@ ns7:total
 ns7:wid_score
 	rdf:type	ns9:BreakdownGroup , skos:Concept ;
 	skos:prefLabel	"Women in Digital score" ;
-	skos:notation	"WID_score" ;
+	skos:notation	"wid_score" ;
 	skos:altLabel	"Women in digital score" ;
 	ns10:order	"114" ;
+	skos:topConceptOf	ns1:breakdown-group .
+ns7:desi_3a_ui
+	rdf:type	ns9:BreakdownGroup , skos:Concept ;
+	skos:prefLabel	"Indicators under 3a Internet use" ;
+	skos:notation	"desi_3a_ui" ;
+	ns10:order	"15" ;
+	skos:topConceptOf	ns1:breakdown-group .
+ns7:desi_3b_acton
+	rdf:type	ns9:BreakdownGroup , skos:Concept ;
+	skos:prefLabel	"Indicators under 3b Activities online" ;
+	skos:notation	"desi_3b_acton" ;
+	ns10:order	"16" ;
 	skos:topConceptOf	ns1:breakdown-group .

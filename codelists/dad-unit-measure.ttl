@@ -1,894 +1,907 @@
 @prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix ns1:	<http://semantic.digital-agenda-data.eu/codelist/> .
+@prefix ns1:	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/> .
+@prefix ns2:	<http://semantic.digital-agenda-data.eu/def/class/> .
 @prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
-@prefix ns3:	<http://purl.org/linked-data/sdmx#> .
+@prefix ns4:	<http://semantic.digital-agenda-data.eu/codelist/> .
+@prefix ns5:	<http://purl.org/linked-data/sdmx#> .
 @prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
 @prefix dct:	<http://purl.org/dc/terms/> .
 @prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
-@prefix ns7:	<http://eurostat.linked-statistics.org/dic/> .
-@prefix ns8:	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/> .
-@prefix ns9:	<http://semantic.digital-agenda-data.eu/def/> .
-@prefix ns10:	<http://semantic.digital-agenda-data.eu/def/class/> .
+@prefix ns9:	<http://eurostat.linked-statistics.org/dic/> .
+@prefix ns10:	<http://semantic.digital-agenda-data.eu/def/> .
 @prefix ns11:	<http://eurostat.linked-statistics.org/dic/unit#> .
 @prefix ns12:	<Eurostat\u0020-\u0020Structure\u0020of\u0020Earnings\u0020Survey\u0020(SES).\u0020https://ec.europa.eu/eurostat/en/web/products-datasets/-/> .
 
-ns1:unit-measure
-	rdf:type	skos:ConceptScheme , ns3:CodeList ;
-	dct:modified	"2019-01-30T16:57:31"^^xsd:dateTime ;
+ns1:pc_desi_1d_ultra
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
+	skos:prefLabel	"weighted score" ;
+	skos:notation	"pc_desi_1d_ultra" ;
+	skos:definition	"Weighted score of a DESI indicator" ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_desi_5b_ehs
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
+	skos:prefLabel	"weighted score" ;
+	skos:notation	"pc_desi_5b_ehs" ;
+	skos:definition	"Weighted score of a DESI indicator" ;
+	skos:topConceptOf	ns4:unit-measure .
+ns4:unit-measure
+	rdf:type	skos:ConceptScheme , ns5:CodeList ;
+	dct:modified	"2019-06-11T11:42:53"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://digital-agenda-data.eu/> ;
-	rdfs:seeAlso	ns7:unit ;
+	rdfs:seeAlso	ns9:unit ;
 	skos:prefLabel	"Code list for units of measure used by Digital Agenda Scoreboard" ;
 	skos:notation	"CL_UNIT_MEASURE" ;
-	skos:hasTopConcept	ns8:corehours_million , ns8:cum_nr_artic , ns8:cum_nr_pat , ns8:cum_nr_pub , ns8:cum_x10mil_ecfund , ns8:days , ns8:desi_score , ns8:egov_score , ns8:epsiscore_pts , ns8:euro , ns8:euro_x_hab , ns8:euro_x_million_gbaord , ns8:euro_x_million_of_gdp , ns8:eurocent , ns8:gbpskm , ns8:habitants , ns8:hhi , ns8:ia12ave , ns8:median_euro_ppp , ns8:mhz , ns8:million_euro , ns8:minimum_euro_ppp , ns8:mio_hh , ns8:mio_ind , ns8:nb_channel , ns8:nb_empl , ns8:nb_ent , ns8:nb_infr_case , ns8:nb_vod_service , ns8:nb_x1000inh_20_29 , ns8:nb_x100stud , ns8:nbr_lines , ns8:nbr_organisations , ns8:nbr_participations , ns8:nbr_subs , ns8:no_posts , ns8:nr_artic , ns8:nr_pat , ns8:nr_pub , ns8:nr_x10mil_ecfund , ns8:od_score , ns8:pc_adm_cinema , ns8:pc_bb_lines , ns8:pc_desi , ns8:pc_desi_1_conn , ns8:pc_desi_1a_fbb , ns8:pc_desi_1b_mbb , ns8:pc_desi_1c_speed , ns8:pc_desi_1d_aff , ns8:pc_desi_2_hc , ns8:pc_desi_2a_bsu , ns8:pc_desi_2b_asd , ns8:pc_desi_3_ui , ns8:pc_desi_3a_cont , ns8:pc_desi_3b_comm , ns8:pc_desi_3c_trans , ns8:pc_desi_4_idt , ns8:pc_desi_4a_bd , ns8:pc_desi_4b_ecomm , ns8:pc_desi_5_dps , ns8:pc_desi_5a_egov , ns8:pc_desi_5b_ehealth , ns8:pc_desi_sliders , ns8:pc_digskillindex , ns8:pc_dispo_income , ns8:pc_e_cc , ns8:pc_e_gov_ke , ns8:pc_e_gov_oa , ns8:pc_ebhh_tv , ns8:pc_edigint2015 , ns8:pc_emp , ns8:pc_emp_pmd , ns8:pc_ent , ns8:pc_ent_aesell , ns8:pc_ent_awsell , ns8:pc_ent_itsprcr2 , ns8:pc_epsi_score , ns8:pc_exp , ns8:pc_fp7ict_ec_funding , ns8:pc_fp7ict_particip , ns8:pc_gbaord , ns8:pc_gp , ns8:pc_grants , ns8:pc_gva , ns8:pc_h2020_ec_funding , ns8:pc_h2020_particip , ns8:pc_hh , ns8:pc_hh_all , ns8:pc_i-dsk-c , ns8:pc_i-dsk-i , ns8:pc_i-dsk-ind , ns8:pc_i-dsk-iu3 , ns8:pc_i-dsk-ps , ns8:pc_i-dsk-s , ns8:pc_ict_ent , ns8:pc_ict_spec , ns8:pc_igov12nrt , ns8:pc_imp , ns8:pc_income , ns8:pc_ind , ns8:pc_ind_blt12 , ns8:pc_ind_emp , ns8:pc_ind_form , ns8:pc_ind_igov12nrt , ns8:pc_ind_ilt12 , ns8:pc_ind_iu3 , ns8:pc_lines , ns8:pc_male_earning , ns8:pc_nomspeed , ns8:pc_organisations , ns8:pc_pop , ns8:pc_posts , ns8:pc_projects , ns8:pc_pub_serv_for_citizen , ns8:pc_pub_serv_for_ent , ns8:pc_rural_pop , ns8:pc_schools , ns8:pc_spectrum_assigned , ns8:pc_spectrum_wbb , ns8:pc_subs , ns8:pc_tel_rev , ns8:pc_total_cost , ns8:pc_trp_commit , ns8:pc_turn , ns8:pc_websites , ns8:psi_score , ns8:subs_per_100_pop , ns8:terabite , ns8:th_ind , ns8:thousand_euro , ns8:thousand_hh , ns8:thousand_ind , ns8:wid_score ;
-	skos:inScheme	ns9:scheme .
-ns8:corehours_million
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:hasTopConcept	ns1:pc_desi_1d_ultra , ns1:pc_desi_5b_ehs , ns1:corehours_million , ns1:cum_nr_artic , ns1:cum_nr_pat , ns1:cum_nr_pub , ns1:cum_x10mil_ecfund , ns1:days , ns1:desi_score , ns1:egov_score , ns1:epsiscore_pts , ns1:euro , ns1:euro_x_hab , ns1:euro_x_million_gbaord , ns1:euro_x_million_of_gdp , ns1:eurocent , ns1:gbpskm , ns1:habitants , ns1:hhi , ns1:ia12ave , ns1:median_euro_ppp , ns1:mhz , ns1:million_euro , ns1:minimum_euro_ppp , ns1:mio_hh , ns1:mio_ind , ns1:nb_channel , ns1:nb_empl , ns1:nb_ent , ns1:nb_infr_case , ns1:nb_vod_service , ns1:nb_x1000inh_20_29 , ns1:nb_x100stud , ns1:nbr_lines , ns1:nbr_organisations , ns1:nbr_participations , ns1:nbr_subs , ns1:no_posts , ns1:nr_artic , ns1:nr_pat , ns1:nr_pub , ns1:nr_x10mil_ecfund , ns1:od_score , ns1:pc_adm_cinema , ns1:pc_bb_lines , ns1:pc_desi , ns1:pc_desi_1_conn , ns1:pc_desi_1a_fbb , ns1:pc_desi_1b_mbb , ns1:pc_desi_1c_speed , ns1:pc_desi_2_hc , ns1:pc_desi_2a_bsu , ns1:pc_desi_2b_asd , ns1:pc_desi_3_ui , ns1:pc_desi_3c_trans , ns1:pc_desi_4_idt , ns1:pc_desi_4a_bd , ns1:pc_desi_4b_ecomm , ns1:pc_desi_5_dps , ns1:pc_desi_5a_egov , ns1:pc_desi_sliders , ns1:pc_digskillindex , ns1:pc_dispo_income , ns1:pc_e_cc , ns1:pc_e_gov_ke , ns1:pc_e_gov_oa , ns1:pc_ebhh_tv , ns1:pc_edigint2015 , ns1:pc_emp , ns1:pc_emp_pmd , ns1:pc_ent , ns1:pc_ent_aesell , ns1:pc_ent_awsell , ns1:pc_ent_itsprcr2 , ns1:pc_epsi_score , ns1:pc_exp , ns1:pc_fp7ict_ec_funding , ns1:pc_fp7ict_particip , ns1:pc_gbaord , ns1:pc_gp , ns1:pc_grants , ns1:pc_gva , ns1:pc_h2020_ec_funding , ns1:pc_h2020_particip , ns1:pc_hh , ns1:pc_hh_all , ns1:pc_i-dsk-c , ns1:pc_i-dsk-i , ns1:pc_i-dsk-ind , ns1:pc_i-dsk-iu3 , ns1:pc_i-dsk-ps , ns1:pc_i-dsk-s , ns1:pc_ict_ent , ns1:pc_ict_spec , ns1:pc_igov12nrt , ns1:pc_imp , ns1:pc_income , ns1:pc_ind , ns1:pc_ind_blt12 , ns1:pc_ind_emp , ns1:pc_ind_form , ns1:pc_ind_igov12nrt , ns1:pc_ind_ilt12 , ns1:pc_ind_iu3 , ns1:pc_lines , ns1:pc_male_earning , ns1:pc_nomspeed , ns1:pc_organisations , ns1:pc_pop , ns1:pc_posts , ns1:pc_projects , ns1:pc_pub_serv_for_citizen , ns1:pc_pub_serv_for_ent , ns1:pc_rural_pop , ns1:pc_schools , ns1:pc_spectrum_assigned , ns1:pc_spectrum_wbb , ns1:pc_subs , ns1:pc_tel_rev , ns1:pc_total_cost , ns1:pc_trp_commit , ns1:pc_turn , ns1:pc_websites , ns1:psi_score , ns1:subs_per_100_pop , ns1:terabite , ns1:th_ind , ns1:thousand_euro , ns1:thousand_hh , ns1:thousand_ind , ns1:wid_score , ns1:pc_desi_3a_ui , ns1:pc_desi_3b_acton , ns1:pc_grad , ns1:pc_ind_fem_emp ;
+	skos:inScheme	ns10:scheme .
+ns1:corehours_million
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"million core hours" ;
 	skos:notation	"corehours_million" ;
 	skos:altLabel	"million core hours" ;
 	skos:definition	"million core hours" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:cum_nr_artic
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:cum_nr_artic
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"Cumulated number of articles" ;
 	skos:notation	"cum_nr_artic" ;
 	skos:altLabel	"Cumulated nb of articles" ;
 	skos:definition	"Cumulated figure of articles resulting from FP7 ICT projects reported and validated over the years 2007 - 2013" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:cum_nr_pat
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:cum_nr_pat
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"Cumulated number of patents" ;
 	skos:notation	"cum_nr_pat" ;
 	skos:altLabel	"Cumulated nb of patents" ;
 	skos:definition	"Cumulated figure of patents resulting from FP7 ICT projects reported and validated over the years 2007 - 2013." ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:cum_nr_pub
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:cum_nr_pub
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"Cumulated number of publications" ;
 	skos:notation	"cum_nr_pub" ;
 	skos:altLabel	"Cumulated nb of publications" ;
 	skos:definition	"Cumulated figure of publications resulting from FP7 ICT projects reported and validated over the years 2007 - 2013" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:cum_x10mil_ecfund
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:cum_x10mil_ecfund
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"Cumulated number per 10 Million EURO of EC funding" ;
-	skos:notation	"cum_x10mil_ECfund" ;
+	skos:notation	"cum_x10mil_ecfund" ;
 	skos:altLabel	"Cumulated nb per 10 Million EURO" ;
 	skos:definition	"Cumulated figures resulting from FP7 ICT projects per Euro 10M spent. It considers the projects over the period 2007-2013" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:days
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:days
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"calendar days" ;
 	skos:notation	"days" ;
 	skos:altLabel	"calendar days" ;
 	skos:definition	"Calendar days." ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:desi_score
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:desi_score
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"score (0 to 1)" ;
-	skos:notation	"DESI_SCORE" ;
+	skos:notation	"desi_score" ;
 	skos:altLabel	"DESI score" ;
 	skos:definition	"Score in the scope of the DESI, normalised between 0 and 1" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:egov_score
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:egov_score
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"Score (0 to 100)" ;
-	skos:notation	"eGov_score" ;
+	skos:notation	"egov_score" ;
 	skos:altLabel	"Score (0 to 100)" ;
 	skos:definition	"The score of the country, from a minimum of 0 to a maximum of 100." ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:epsiscore_pts
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:epsiscore_pts
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"PSI scoreboard points" ;
 	skos:notation	"epsiscore_pts" ;
 	skos:altLabel	"PSI points" ;
 	skos:definition	"Can range from 0 to 100 for each of the 7 sub-dimensions. The overall score is the sum of the sub-dimension scores and can range from 0 to 700." ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:euro
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:euro
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"Euro" ;
 	skos:notation	"euro" ;
 	skos:altLabel	"euro" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:euro_x_hab
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:euro_x_hab
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"Euro per habitant" ;
 	skos:notation	"euro_x_hab" ;
 	skos:altLabel	"euro x habitant" ;
 	skos:definition	"Habitants are the total population 1st of Jan of the same year (Eurostat)" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:euro_x_million_gbaord
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:euro_x_million_gbaord
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"Euro per Million of GBAORD" ;
-	skos:notation	"euro_x_million_GBAORD" ;
+	skos:notation	"euro_x_million_gbaord" ;
 	skos:altLabel	"euro x million of GBAORD" ;
 	skos:definition	"GBAORD - Government budget appropriations or outlays for research and development (Eurostat)" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:euro_x_million_of_gdp
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:euro_x_million_of_gdp
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"Euro per Million of GDP" ;
-	skos:notation	"euro_x_million_of_GDP" ;
+	skos:notation	"euro_x_million_of_gdp" ;
 	skos:altLabel	"euro x million of GDP" ;
 	skos:definition	"GDP-Gross domestic product at current prices of the same year (Eurostat nama_gdp_c)." ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:eurocent
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:eurocent
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"Euro cents" ;
 	skos:notation	"eurocent" ;
 	skos:altLabel	"Euro cents" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:gbpskm
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:gbpskm
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"gigabits per second times km" ;
 	skos:notation	"gbpskm" ;
 	skos:altLabel	"Gbpskm" ;
 	skos:definition	"gigabits per second times km" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:habitants
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:habitants
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"Number of habitants" ;
 	skos:notation	"habitants" ;
 	skos:altLabel	"Number of habitants" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:hhi
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:hhi
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"HHI score" ;
 	skos:notation	"hhi" ;
 	skos:altLabel	"HHI score" ;
 	skos:definition	"Herfindahl index calculated for different connection technologies" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:ia12ave
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:ia12ave
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"Diversification index average" ;
 	skos:notation	"ia12ave" ;
 	skos:definition	"Average of the number of different activities, out of a list of 12, realised by internet users. Computed by DG CONNECT using Eurostat data." ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:median_euro_ppp
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:median_euro_ppp
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"Median price in euros, corrected using Purchasing Power Parities" ;
-	skos:notation	"median_euro_PPP" ;
+	skos:notation	"median_euro_ppp" ;
 	skos:altLabel	"Median price in euros (PPPs corrected)" ;
 	skos:definition	"Median price between similar offers, which value in euros is corrected using Purchasing Power Parities (PPPs), based on consumer price indices." ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:mhz
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:mhz
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"MHz" ;
 	skos:notation	"mhz" ;
 	skos:altLabel	"MHz" ;
 	skos:definition	"Mega Hertz" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:million_euro
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:million_euro
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"Million Euro" ;
 	skos:notation	"million_euro" ;
 	skos:altLabel	"million euro" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:minimum_euro_ppp
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:minimum_euro_ppp
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"Minimum price in euros, corrected using Purchasing Power Parities" ;
-	skos:notation	"minimum_euro_PPP" ;
+	skos:notation	"minimum_euro_ppp" ;
 	skos:altLabel	"Minimum price in euros (PPPs corrected)" ;
 	skos:definition	"Minimun price between similar offers, which value in euros is corrected using Purchasing Power Parities (PPPs), based on consumer price indices." ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:mio_hh
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:mio_hh
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"million of households" ;
 	skos:notation	"mio_hh" ;
 	skos:altLabel	"million of households" ;
 	skos:definition	"Households with at least one member aged 16-74. " ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:mio_ind
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:mio_ind
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"million of individuals" ;
 	skos:notation	"mio_ind" ;
 	skos:altLabel	"million of individuals" ;
 	skos:definition	"Individuals aged 16-74" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:nb_channel
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:nb_channel
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"Number of TV channels" ;
 	skos:notation	"nb_channel" ;
 	skos:altLabel	"nb of channels" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:nb_empl
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:nb_empl
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"Number of employed persons" ;
 	skos:notation	"nb_empl" ;
 	skos:altLabel	"Number of employed persons" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:nb_ent
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:nb_ent
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"Number of enterprises" ;
 	skos:notation	"nb_ent" ;
 	skos:altLabel	"Number of enterprises" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:nb_infr_case
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:nb_infr_case
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"Number of NIF infringement cases" ;
 	skos:notation	"nb_infr_case" ;
 	skos:altLabel	"nb of infringement cases" ;
 	skos:definition	"Number of NIF infringement cases against Member States" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:nb_vod_service
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:nb_vod_service
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"Number of Video on Demand services" ;
-	skos:notation	"nb_VoD_service" ;
+	skos:notation	"nb_vod_service" ;
 	skos:altLabel	"nb of VoD services" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:nb_x1000inh_20_29
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:nb_x1000inh_20_29
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"Number per 1 000 inhabitants aged 20-29 years" ;
 	skos:notation	"nb_x1000inh_20_29" ;
 	skos:altLabel	"Number per 1 000 inhabitants aged 20-29 years" ;
 	skos:definition	"Number per 1 000 inhabitants aged 20-29 years" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:nb_x100stud
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:nb_x100stud
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"Number per 100 students" ;
 	skos:notation	"nb_x100stud" ;
 	skos:altLabel	"Number per 100 students" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:nbr_lines
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:nbr_lines
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"Number of subscriptions" ;
 	skos:notation	"nbr_lines" ;
 	skos:altLabel	"Number of subscriptions" ;
 	skos:definition	"Number of fixed subsciptions (lines)" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:nbr_organisations
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:nbr_organisations
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"Number of organizations" ;
 	skos:notation	"nbr_organisations" ;
 	skos:altLabel	"Number of organizations" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:nbr_participations
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:nbr_participations
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"Number of participations" ;
 	skos:notation	"nbr_participations" ;
 	skos:altLabel	"Number of participations" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:nbr_subs
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:nbr_subs
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"Number of subscriptions" ;
 	skos:notation	"nbr_subs" ;
 	skos:altLabel	"Number of subscriptions" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:no_posts
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:no_posts
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"Number of posts" ;
 	skos:notation	"no_posts" ;
 	skos:altLabel	"nb of posts" ;
 	skos:definition	"Number of posts in DG CONNECT." ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:nr_artic
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:nr_artic
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"Number of articles" ;
 	skos:notation	"nr_artic" ;
 	skos:altLabel	"Nb of articles" ;
 	skos:definition	"Articles (reported and validated) resulting from FP7 ICT projects terminated in the reference year" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:nr_pat
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:nr_pat
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"Number of patents" ;
 	skos:notation	"nr_pat" ;
 	skos:altLabel	"Nb of patents" ;
 	skos:definition	"Patents (reported and validated) resulting from FP7 ICT projects terminated in the reference year" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:nr_pub
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:nr_pub
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"Number of publications" ;
 	skos:notation	"nr_pub" ;
 	skos:altLabel	"Nb of publications" ;
 	skos:definition	"Publications (reported and validated) resulting from FP7 ICT projects terminated in the reference year" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:nr_x10mil_ecfund
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:nr_x10mil_ecfund
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"Number per 10 Million EURO of EC funding" ;
-	skos:notation	"nr_x10mil_ECfund" ;
+	skos:notation	"nr_x10mil_ecfund" ;
 	skos:altLabel	"Nb per 10 Million EURO" ;
 	skos:definition	"Number of research outputs resulting from FP7 ICT projects, terminated in the reference year, per 10M Euro of EC funding spent for their implementation. " ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:od_score
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:od_score
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"Percentage of the maximum open data score" ;
 	skos:notation	"od_score" ;
 	skos:altLabel	"Percentage of maximum score" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:pc_adm_cinema
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_adm_cinema
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"Percentage of total admissions " ;
 	skos:notation	"pc_adm_cinema" ;
 	skos:altLabel	"% of total admissions " ;
 	skos:definition	"Percentage of total admissions in cinemas" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:pc_bb_lines
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_bb_lines
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"Percentage of fixed broadband subscriptions" ;
 	skos:notation	"pc_bb_lines" ;
 	skos:altLabel	"% of fixed broadband subscriptions" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:pc_desi
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_desi
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"weighted score" ;
-	skos:notation	"pc_DESI" ;
+	skos:notation	"pc_desi" ;
 	skos:definition	"Weighted score of the DESI dimension" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:pc_desi_1_conn
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_desi_1_conn
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"weighted score" ;
-	skos:notation	"pc_DESI_1_CONN" ;
+	skos:notation	"pc_desi_1_conn" ;
 	skos:definition	"Weighted score of the DESI Sub-dimension" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:pc_desi_1a_fbb
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_desi_1a_fbb
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"weighted score" ;
-	skos:notation	"pc_DESI_1A_FBB" ;
+	skos:notation	"pc_desi_1a_fbb" ;
 	skos:definition	"Weighted score of a DESI indicator" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:pc_desi_1b_mbb
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_desi_1b_mbb
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"weighted score" ;
-	skos:notation	"pc_DESI_1B_MBB" ;
+	skos:notation	"pc_desi_1b_mbb" ;
 	skos:definition	"Weighted score of a DESI indicator" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:pc_desi_1c_speed
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_desi_1c_speed
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"weighted score" ;
-	skos:notation	"pc_DESI_1C_SPEED" ;
+	skos:notation	"pc_desi_1c_speed" ;
 	skos:definition	"Weighted score of a DESI indicator" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:pc_desi_1d_aff
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_desi_2_hc
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"weighted score" ;
-	skos:notation	"pc_DESI_1D_AFF" ;
-	skos:definition	"Weighted score of a DESI indicator" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:pc_desi_2_hc
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
-	skos:prefLabel	"weighted score" ;
-	skos:notation	"pc_DESI_2_HC" ;
+	skos:notation	"pc_desi_2_hc" ;
 	skos:definition	"Weighted score of the DESI Sub-dimension" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:pc_desi_2a_bsu
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_desi_2a_bsu
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"weighted score" ;
-	skos:notation	"pc_DESI_2A_BSU" ;
+	skos:notation	"pc_desi_2a_bsu" ;
 	skos:definition	"Weighted score of a DESI indicator" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:pc_desi_2b_asd
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_desi_2b_asd
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"weighted score" ;
-	skos:notation	"pc_DESI_2B_ASD" ;
+	skos:notation	"pc_desi_2b_asd" ;
 	skos:definition	"Weighted score of a DESI indicator" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:pc_desi_3_ui
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_desi_3_ui
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"weighted score" ;
-	skos:notation	"pc_DESI_3_UI" ;
+	skos:notation	"pc_desi_3_ui" ;
 	skos:definition	"Weighted score of the DESI Sub-dimension" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:pc_desi_3a_cont
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_desi_3c_trans
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"weighted score" ;
-	skos:notation	"pc_DESI_3A_CONT" ;
+	skos:notation	"pc_desi_3c_trans" ;
 	skos:definition	"Weighted score of a DESI indicator" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:pc_desi_3b_comm
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_desi_4_idt
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"weighted score" ;
-	skos:notation	"pc_DESI_3B_COMM" ;
-	skos:definition	"Weighted score of a DESI indicator" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:pc_desi_3c_trans
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
-	skos:prefLabel	"weighted score" ;
-	skos:notation	"pc_DESI_3C_TRANS" ;
-	skos:definition	"Weighted score of a DESI indicator" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:pc_desi_4_idt
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
-	skos:prefLabel	"weighted score" ;
-	skos:notation	"pc_DESI_4_IDT" ;
+	skos:notation	"pc_desi_4_idt" ;
 	skos:definition	"Weighted score of the DESI Sub-dimension" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:pc_desi_4a_bd
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_desi_4a_bd
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"weighted score" ;
-	skos:notation	"pc_DESI_4A_BD" ;
+	skos:notation	"pc_desi_4a_bd" ;
 	skos:definition	"Weighted score of a DESI indicator" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:pc_desi_4b_ecomm
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_desi_4b_ecomm
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"weighted score" ;
-	skos:notation	"pc_DESI_4B_ECOMM" ;
+	skos:notation	"pc_desi_4b_ecomm" ;
 	skos:definition	"Weighted score of a DESI indicator" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:pc_desi_5_dps
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_desi_5_dps
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"weighted score" ;
-	skos:notation	"pc_DESI_5_DPS" ;
+	skos:notation	"pc_desi_5_dps" ;
 	skos:definition	"Weighted score of the DESI Sub-dimension" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:pc_desi_5a_egov
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_desi_5a_egov
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"weighted score" ;
-	skos:notation	"pc_DESI_5A_EGOV" ;
+	skos:notation	"pc_desi_5a_egov" ;
 	skos:definition	"Weighted score of a DESI indicator" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:pc_desi_5b_ehealth
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_desi_sliders
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"weighted score" ;
-	skos:notation	"pc_DESI_5B_EHEALTH" ;
-	skos:definition	"Weighted score of a DESI indicator" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:pc_desi_sliders
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
-	skos:prefLabel	"weighted score" ;
-	skos:notation	"pc_DESI_SLIDERS" ;
+	skos:notation	"pc_desi_sliders" ;
 	skos:definition	"Weighted score of the DESI dimension" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:pc_digskillindex
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_digskillindex
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"Percentage of internet users" ;
 	skos:notation	"pc_digskillindex" ;
 	skos:altLabel	"% of internet users" ;
 	skos:definition	"Individuals having used internet during last 3 months" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:pc_dispo_income
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_dispo_income
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"Percentage of disposable income" ;
 	skos:notation	"pc_dispo_income" ;
 	skos:altLabel	"% of disposable income" ;
 	skos:definition	"Real adjusted gross disposable income of households per capita, extracted from  Eurostat table  <a href=\"http://ec.europa.eu/eurostat/tgm/table.do?tab=table&plugin=1&language=en&pcode=tec00113\">tec00113</a>." ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:pc_e_cc
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_e_cc
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"percentage of enterprises purchasing Cloud Computing services" ;
 	skos:notation	"pc_e_cc" ;
 	skos:altLabel	"% of enterprises purchasing Cloud Computing services" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:pc_e_gov_ke
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_e_gov_ke
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"weighted score" ;
 	skos:notation	"pc_e_gov_ke" ;
 	skos:definition	"Weighted score of the use of key enablers" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:pc_e_gov_oa
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_e_gov_oa
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"weighted score" ;
 	skos:notation	"pc_e_gov_oa" ;
 	skos:definition	"Weighted score of the service availability" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:pc_ebhh_tv
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_ebhh_tv
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"Percentage of housaholds having a TV" ;
-	skos:notation	"pc_EBhh_tv" ;
+	skos:notation	"pc_ebhh_tv" ;
 	skos:altLabel	"% of housaholds having a TV" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:pc_edigint2015
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_edigint2015
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	rdfs:seeAlso	ns11:PC_ENT ;
 	skos:prefLabel	"Percentage of enterprises (all sectors)" ;
 	skos:notation	"pc_edigint2015" ;
 	skos:altLabel	"Percentage of enterprises (all sectors)" ;
 	skos:definition	"Enterprises with 10 or more persons employed. All manufacturing and service sectors, excluding the financial sector. (breakdown code 10_C10_S951_XK)" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:pc_emp
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_emp
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"Percentage of total employment" ;
-	skos:notation	"PC_EMP" ;
+	skos:notation	"pc_emp" ;
 	skos:altLabel	"% of total employment" ;
 	skos:definition	"Total employement in enterprises with 10 or more persons employed, all manufacturing and service sectors, excluding the financial sector. Based on the average number of employed persons during the previous year." ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:pc_emp_pmd
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_emp_pmd
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"Percentage of employees working in enterprises which provide mobile devices" ;
-	skos:notation	"PC_EMP_PMD" ;
+	skos:notation	"pc_emp_pmd" ;
 	skos:altLabel	"% of employees working in enterprises which provide mobile devices" ;
 	skos:definition	"Total employement in enterprises which provide portable devices to some employees, with 10 or more persons employed, all manufacturing and service sectors, excluding the financial sector. Based on the average number of employed persons during the previous year." ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:pc_ent
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_ent
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	rdfs:seeAlso	ns11:PC_ENT ;
 	skos:prefLabel	"Percentage of enterprises" ;
 	skos:notation	"pc_ent" ;
 	skos:altLabel	"% of enterprises" ;
 	skos:definition	"Enterprises with 10 or more persons employed. All manufacturing and service sectors, excluding the financial sector. Breaks in series because until 2008 economic activities according to NACE Rev 1.1 and from 2009 data are based on NACE Rev.2. Since 2010 include also sector S 95.1-Repair of computers and communication equipment." ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:pc_ent_aesell
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_ent_aesell
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"Percentage of enterprises receiving e-commerce orders over the last calendar year" ;
 	skos:notation	"pc_ent_aesell" ;
 	skos:altLabel	"% of enterprises receiving e-commerce orders" ;
 	skos:definition	"Percentage of enterprises receiving e-commerce orders over the last calendar year" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:pc_ent_awsell
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_ent_awsell
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"Percentage of enterprises with web sales" ;
 	skos:notation	"pc_ent_awsell" ;
 	skos:altLabel	"% of enterprises with web sales" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:pc_ent_itsprcr2
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_ent_itsprcr2
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"Percentage of enterprises which recruited/tried to recruit personnel for jobs requiring ICT specialist skills" ;
-	skos:notation	"PC_ENT_ITSPRCR2" ;
+	skos:notation	"pc_ent_itsprcr2" ;
 	skos:altLabel	"% of enterprises which recruited/tried to recruit ICT specialist" ;
 	skos:definition	"Limited comparability between 2007 and 2012 results.  Enterprises with 10 or more persons employed. All manufacturing and service sectors, excluding the financial sector. Breaks in series because until 2008 economic activities according to NACE Rev 1.1 and from 2009 data are based on NACE Rev.2. Since 2010 include also sector S 95.1-Repair of computers and communication equipment." ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:pc_epsi_score
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_epsi_score
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"PSI scoreboard points in %" ;
 	skos:notation	"pc_epsi_score" ;
 	skos:altLabel	"PSI points in %" ;
 	skos:definition	"Can range from 0 to 100 for each of the 7 sub-dimensions. The overall score is the sum of the sub-dimension scores and can range from 0 to 700." ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:pc_exp
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_exp
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"Percentage of total export" ;
 	skos:notation	"pc_exp" ;
 	skos:altLabel	"% of total export" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:pc_fp7ict_ec_funding
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_fp7ict_ec_funding
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"Percentage of EC funding" ;
-	skos:notation	"pc_FP7ICT_EC_funding" ;
+	skos:notation	"pc_fp7ict_ec_funding" ;
 	skos:altLabel	"% of EC funding" ;
 	skos:definition	"Value of European Commission funding committed through grant agreements signed, during the reference year, with participants in ICT research projects under the EU's Seventh Framework Programme (FP7). Projects under negotiation are not included." ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:pc_fp7ict_particip
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_fp7ict_particip
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"Percentage of participations" ;
-	skos:notation	"pc_FP7ICT_particip" ;
+	skos:notation	"pc_fp7ict_particip" ;
 	skos:altLabel	"% of participations" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:pc_gbaord
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_gbaord
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"Percentage of public R&D expediture" ;
 	skos:notation	"pc_gbaord" ;
 	skos:altLabel	"% of public R&D expediture" ;
 	skos:definition	"GBAORD - Government budget appropriations or outlays for research and development" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:pc_gp
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_gp
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"Percentage of general practitioners" ;
 	skos:notation	"pc_gp" ;
 	skos:altLabel	"% of general practitioners" ;
 	skos:definition	"Percentage of general practitioners, based on valid answers." ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:pc_grants
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_grants
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"Percentage of grants" ;
 	skos:notation	"pc_grants" ;
 	skos:altLabel	"% of grants" ;
 	skos:definition	"Percentage of grants agreements signed during the reference year" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:pc_gva
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_gva
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"Percentage of ICT Gross Value Added" ;
-	skos:notation	"pc_GVA" ;
+	skos:notation	"pc_gva" ;
 	skos:altLabel	"% of ICT Gross Value Added" ;
 	skos:definition	"Gross Value Added of the ICT sector estimated by JRC-IPTS PREDICT2 project, based on Eurostat data." ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:pc_h2020_ec_funding
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_h2020_ec_funding
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"Percentage of EC funding" ;
-	skos:notation	"pc_H2020_EC_funding" ;
+	skos:notation	"pc_h2020_ec_funding" ;
 	skos:altLabel	"% of EC funding" ;
 	skos:definition	"Value of European Commission funding committed through grant agreements signed, during the reference year, with participants in ICT research projects in H2020. Projects under negotiation are not included." ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:pc_h2020_particip
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_h2020_particip
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"Percentage of participations" ;
-	skos:notation	"pc_H2020_particip" ;
+	skos:notation	"pc_h2020_particip" ;
 	skos:altLabel	"% of participations" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:pc_hh
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_hh
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	rdfs:seeAlso	ns11:PC_HH ;
 	skos:prefLabel	"Percentage of households" ;
 	skos:notation	"pc_hh" ;
 	skos:altLabel	"% of households" ;
 	skos:definition	"Households with at least one member aged 16-74. " ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:pc_hh_all
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_hh_all
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"Percentage of households" ;
 	skos:notation	"pc_hh_all" ;
 	skos:altLabel	"% of households" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:pc_i-dsk-c
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_i-dsk-c
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"percentage of internet users" ;
-	skos:notation	"pc_i-DSK-C" ;
+	skos:notation	"pc_i-dsk-c" ;
 	skos:altLabel	"% of internet users" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:pc_i-dsk-i
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_i-dsk-i
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"percentage of internet users" ;
-	skos:notation	"pc_i-DSK-i" ;
+	skos:notation	"pc_i-dsk-i" ;
 	skos:altLabel	"% of internet users" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:pc_i-dsk-ind
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_i-dsk-ind
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"percentage of individuals" ;
-	skos:notation	"pc_i-DSK-IND" ;
+	skos:notation	"pc_i-dsk-ind" ;
 	skos:altLabel	"% of individuals" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:pc_i-dsk-iu3
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_i-dsk-iu3
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"percentage of internet users" ;
-	skos:notation	"pc_i-DSK-IU3" ;
+	skos:notation	"pc_i-dsk-iu3" ;
 	skos:altLabel	"% of internet users" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:pc_i-dsk-ps
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_i-dsk-ps
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"percentage of internet users" ;
-	skos:notation	"pc_i-DSK-PS" ;
+	skos:notation	"pc_i-dsk-ps" ;
 	skos:altLabel	"% of internet users" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:pc_i-dsk-s
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_i-dsk-s
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"percentage of internet users" ;
-	skos:notation	"pc_i-DSK-S" ;
+	skos:notation	"pc_i-dsk-s" ;
 	skos:altLabel	"% of internet users" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:pc_ict_ent
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_ict_ent
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"Percentage of ICT sector enterprises" ;
 	skos:notation	"pc_ict_ent" ;
 	skos:altLabel	"% of ICT sector enterprises" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:pc_ict_spec
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_ict_spec
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"Percentage of ICT specialists" ;
 	skos:notation	"pc_ict_spec" ;
 	skos:altLabel	"% of ICT specialists" ;
 	skos:definition	"Percentage of ICT specialists" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:pc_igov12nrt
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_igov12nrt
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"% of individuals who need to submit official forms to administrative authorities" ;
 	skos:notation	"pc_igov12nrt" ;
 	skos:altLabel	"% of individuals who need to submit official forms" ;
 	skos:definition	"This denominator is derived from two questions: one counting people who submitted forms online and another one about reasons for not doing such online submission because they did not have to submit official forms at all." ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:pc_imp
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_imp
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"Percentage of total import" ;
 	skos:notation	"pc_imp" ;
 	skos:altLabel	"% of total import" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:pc_income
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_income
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"Percentage of income" ;
 	skos:notation	"pc_income" ;
 	skos:altLabel	"% of icnome" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:pc_ind
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_ind
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	rdfs:seeAlso	ns11:PC_IND ;
 	skos:prefLabel	"Percentage of individuals" ;
 	skos:notation	"pc_ind" ;
 	skos:altLabel	"% of individuals" ;
 	skos:definition	"Individuals aged 16-74" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:pc_ind_blt12
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_ind_blt12
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"Percentage of individuals who ordered goods or services over the Internet" ;
-	skos:notation	"PC_IND_BLT12" ;
+	skos:notation	"pc_ind_blt12" ;
 	skos:altLabel	"% of individuals buying online" ;
 	skos:definition	"Percentage of individuals who ordered goods or services, over the Internet, for private use, in the last year" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:pc_ind_emp
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_ind_emp
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"Percentage of total employment" ;
 	skos:notation	"pc_ind_emp" ;
 	skos:altLabel	"% of total employment" ;
 	skos:definition	"Total number of Persons in employment as defined for the Labour Force Survey" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:pc_ind_form
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_ind_form
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"Percentage of individuals who used Internet (last year) and need to submit filled forms" ;
 	skos:notation	"pc_ind_form" ;
 	skos:altLabel	"% of internet users (last year) who need to submit filled form" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:pc_ind_igov12nrt
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_ind_igov12nrt
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"% of individuals who need to submit official forms to administrative authorities" ;
 	skos:notation	"pc_ind_igov12nrt" ;
 	skos:altLabel	"% of individuals who need to submit official forms" ;
 	skos:definition	"This denominator is derived from two questions: one counting people who submitted forms online and another one about reasons for not doing such online submission because they did not have to submit official forms at all." ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:pc_ind_ilt12
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_ind_ilt12
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	rdfs:seeAlso	ns11:PC_IND_ILT12 ;
 	skos:prefLabel	"Percentage of individuals who used Internet within the last year" ;
 	skos:notation	"pc_ind_ilt12" ;
 	skos:altLabel	"% of internet users (last year)" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:pc_ind_iu3
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_ind_iu3
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	rdfs:seeAlso	ns11:PC_IND_IU3 ;
 	skos:prefLabel	"Percentage of individuals who used Internet in the last 3 months" ;
 	skos:notation	"pc_ind_iu3" ;
 	skos:altLabel	"% of internet users (last 3 months)" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:pc_lines
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_lines
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"Percentage of fixed broadband subscriptions" ;
 	skos:notation	"pc_lines" ;
 	skos:altLabel	"% of fixed broadband subscriptions" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:pc_male_earning
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_male_earning
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	rdfs:seeAlso	ns12:SDG_05_20 ;
 	skos:prefLabel	"Percentage of average gross hourly earnings of men" ;
 	skos:notation	"pc_male_earning" ;
 	skos:altLabel	"% of average gross hourly earnings of men" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:pc_nomspeed
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_nomspeed
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"Percentage of the advertised Speed" ;
 	skos:notation	"pc_nomspeed" ;
 	skos:altLabel	"% of the advertised Speed" ;
 	skos:definition	"The measurement of the actual Speed is compared with the Advertised download Speed as indicated in the offers subscribed by the sample of users." ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:pc_organisations
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_organisations
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"Percentage of organizations" ;
 	skos:notation	"pc_organisations" ;
 	skos:altLabel	"% of organisations" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:pc_pop
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_pop
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	rdfs:seeAlso	ns11:PC_POP ;
 	skos:prefLabel	"Percentage of total population" ;
 	skos:notation	"pc_pop" ;
 	skos:altLabel	"% of total population" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:pc_posts
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_posts
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"Percentage of posts" ;
 	skos:notation	"pc_posts" ;
 	skos:altLabel	"% of posts" ;
 	skos:definition	"Percentage of posts in DG CONNECT." ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:pc_projects
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_projects
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"Percentage of projects" ;
 	skos:notation	"pc_projects" ;
 	skos:altLabel	"% of projects" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:pc_pub_serv_for_citizen
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_pub_serv_for_citizen
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"Percentage  of public services for citizens" ;
 	skos:notation	"pc_pub_serv_for_citizen" ;
 	skos:altLabel	"% pub serv for citizen" ;
 	skos:definition	"Percentage of public services for citizens out of a basket of 12." ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:pc_pub_serv_for_ent
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_pub_serv_for_ent
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"Percentage  of public services for enterprises" ;
 	skos:notation	"pc_pub_serv_for_ent" ;
 	skos:altLabel	"% pub serv for ent" ;
 	skos:definition	"Percentage of public services for enterprises out of a basket of 8." ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:pc_rural_pop
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_rural_pop
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"Percentage of rural population" ;
 	skos:notation	"pc_rural_pop" ;
 	skos:altLabel	"% of rural population" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:pc_schools
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_schools
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"Percentage of schools" ;
 	skos:notation	"pc_schools" ;
 	skos:altLabel	"% of schools" ;
 	skos:definition	"Each school has an equal weight, independently of the number of students" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:pc_spectrum_assigned
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_spectrum_assigned
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"Percentage of harmonized spectrum assigned" ;
 	skos:notation	"pc_spectrum_assigned" ;
 	skos:altLabel	"% of harmonized spectrum assigned" ;
 	skos:definition	"Percentage of harmonized spectrum assigned, without consideration of the not assigned due to lack of demand. " ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:pc_spectrum_wbb
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_spectrum_wbb
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"MHz assigned " ;
-	skos:notation	"pc_spectrum_WBB" ;
+	skos:notation	"pc_spectrum_wbb" ;
 	skos:altLabel	"MHz assigned " ;
 	skos:definition	"Assigned number of MHz" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:pc_subs
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_subs
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"Percentage of subscribers" ;
 	skos:notation	"pc_subs" ;
 	skos:altLabel	"% of subscribers" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:pc_tel_rev
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_tel_rev
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"Percentage of total revenue of the Electronic Communication Sector" ;
 	skos:notation	"pc_tel_rev" ;
 	skos:altLabel	"% of revenue of the Electronic Communication Sector" ;
 	skos:definition	"Total includes wholesale and retail revenues from electronic communications perceived in the reference year by all telecom operators (VAT excluded)." ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:pc_total_cost
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_total_cost
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"Percentage of total cost" ;
 	skos:notation	"pc_total_cost" ;
 	skos:altLabel	"% of total cost" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:pc_trp_commit
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_trp_commit
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"Percentage of EU R&I committed funding" ;
 	skos:notation	"pc_trp_commit" ;
 	skos:altLabel	"Share of EU R&I committed funding" ;
 	skos:definition	"Share of credit commitments for EU Research and Innovation programs" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:pc_turn
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_turn
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	rdfs:seeAlso	ns11:PC_TURN ;
 	skos:prefLabel	"Percentage of total turnover" ;
 	skos:notation	"pc_turn" ;
 	skos:altLabel	"% of turnover" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:pc_websites
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_websites
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"Percentage of websites" ;
 	skos:notation	"pc_websites" ;
 	skos:altLabel	"% of websites" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:psi_score
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:psi_score
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"Score (0 to 700)" ;
 	skos:notation	"psi_score" ;
 	skos:altLabel	"Score (0 to 700)" ;
 	skos:definition	"The score of the country, from a minimum of 0 to a maximum of 700." ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:subs_per_100_pop
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:subs_per_100_pop
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"Number of subscriptions per 100 people" ;
 	skos:notation	"subs_per_100_pop" ;
 	skos:altLabel	"Subscriptions per 100 people" ;
 	skos:definition	"Number of subscriptions every 100 people. Depending of the indicator, subscriptions can be fixed lines or mobile active SIM cards." ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:terabite
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:terabite
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"Terabits x month" ;
-	skos:notation	"Terabite" ;
+	skos:notation	"terabite" ;
 	skos:altLabel	"Terabits x month" ;
 	skos:definition	"Terabits x month" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:th_ind
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:th_ind
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"thousand of individuals " ;
 	skos:notation	"th_ind" ;
 	skos:altLabel	"thousand of individuals " ;
 	skos:definition	"thousand of individuals aged 16-74" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:thousand_euro
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:thousand_euro
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"Thousand Euro" ;
 	skos:notation	"thousand_euro" ;
 	skos:altLabel	"Thousand Euro" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:thousand_hh
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:thousand_hh
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"Thousand of households" ;
 	skos:notation	"thousand_hh" ;
 	skos:altLabel	"Thousand of households" ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:thousand_ind
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:thousand_ind
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"Thousand of individuals " ;
 	skos:notation	"thousand_ind" ;
 	skos:altLabel	"Thousand of individuals " ;
-	skos:topConceptOf	ns1:unit-measure .
-ns8:wid_score
-	rdf:type	ns10:UnitMeasure , skos:Concept ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:wid_score
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"Score (0 to 1)" ;
-	skos:notation	"WID_score" ;
+	skos:notation	"wid_score" ;
 	skos:altLabel	"Score (0 to 1)" ;
 	skos:definition	"Women in Digital Score" ;
-	skos:topConceptOf	ns1:unit-measure .
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_desi_3a_ui
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
+	skos:prefLabel	"weighted score" ;
+	skos:notation	"pc_desi_3a_ui" ;
+	skos:definition	"Weighted score of a DESI indicator" ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_desi_3b_acton
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
+	skos:prefLabel	"weighted score" ;
+	skos:notation	"pc_desi_3b_acton" ;
+	skos:definition	"Weighted score of a DESI indicator" ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_grad
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
+	skos:prefLabel	"Percentage of graduates" ;
+	skos:notation	"pc_grad" ;
+	skos:altLabel	"% of graduates" ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_ind_fem_emp
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
+	skos:prefLabel	"Percentage of females employment" ;
+	skos:notation	"pc_ind_fem_emp" ;
+	skos:altLabel	"% of female employment" ;
+	skos:definition	"Total number of Female in employment" ;
+	skos:topConceptOf	ns4:unit-measure .

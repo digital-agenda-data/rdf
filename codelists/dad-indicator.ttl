@@ -6,13 +6,37 @@ ns1:indicator	rdf:type	ns2:CodeList .
 ns1:indicator	rdf:type	skos:ConceptScheme .
 @prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
 @prefix dct:	<http://purl.org/dc/terms/> .
-ns1:indicator	dct:modified	"2019-03-20T16:21:54"^^xsd:dateTime .
+ns1:indicator	dct:modified	"2019-06-11T11:46:49"^^xsd:dateTime .
 @prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
 ns1:indicator	rdfs:isDefinedBy	<http://digital-agenda-data.eu/> ;
 	skos:prefLabel	"Code list for indicators used by Digital Agenda Scoreboard" ;
 	skos:notation	"CL_INDICATOR" .
 @prefix ns7:	<http://semantic.digital-agenda-data.eu/codelist/indicator/> .
-ns1:indicator	skos:hasTopConcept	ns7:e_gov_4b_bm_us ,
+ns1:indicator	skos:hasTopConcept	ns7:desi_2b2_fictspec ,
+		ns7:desi_2b3_ictg ,
+		ns7:desi_3a1_notiu ,
+		ns7:desi_3a2_iu ,
+		ns7:desi_3a_ui ,
+		ns7:desi_3b1_news ,
+		ns7:desi_3b2_mvg ,
+		ns7:desi_3b3_vod ,
+		ns7:desi_1b3_5g ,
+		ns7:desi_2a1_bds ,
+		ns7:desi_2a2_abds ,
+		ns7:desi_2a3_abss ,
+		ns7:desi_4a3_bigdat ,
+		ns7:desi_4a4_cloud ,
+		ns7:desi_5b2_mdataexch ,
+		ns7:desi_5b3_epresc ,
+		ns7:desi_3b4_vidcall ,
+		ns7:desi_3b5_socnet ,
+		ns7:desi_3b6_profsocnet ,
+		ns7:desi_3b7_courseon ,
+		ns7:desi_3b8_convoton ,
+		ns7:desi_3b_acton ,
+		ns7:desi_3c3_sell ,
+		ns7:desi_4a2_socmed ,
+		ns7:e_gov_4b_bm_us ,
 		ns7:wid_ui_ib ,
 		ns7:wid_ui_iu ,
 		ns7:wid_ui_nui ,
@@ -70,8 +94,6 @@ ns1:indicator	skos:hasTopConcept	ns7:e_gov_4b_bm_us ,
 		ns7:desi_5a5_opendata ,
 		ns7:desi_5a_egov ,
 		ns7:desi_5b1_ehs ,
-		ns7:desi_5b1_mdataexch ,
-		ns7:desi_5b2_epresc ,
 		ns7:desi_5b_ehs ,
 		ns7:desi_sliders ,
 		ns7:digskillindex ,
@@ -81,42 +103,24 @@ ns1:indicator	skos:hasTopConcept	ns7:e_gov_4b_bm_us ,
 		ns7:desi_5a1_egovu ,
 		ns7:desi_5a2_prefform ,
 		ns7:desi_5a3_osercomp ,
-		ns7:desi_5a4_opendata ,
 		ns7:desi_5a4_psb ,
 		ns7:desi_4a1_eis ,
-		ns7:desi_4a2_rfid ,
-		ns7:desi_4a3_socmed ,
-		ns7:desi_4a4_einv ,
-		ns7:desi_4a5_cloud ,
 		ns7:desi_4a_bd ,
 		ns7:desi_4b1_smeso ,
 		ns7:desi_4b2_ecomturn ,
-		ns7:desi_3a_cont ,
-		ns7:desi_3b1_vidcall ,
-		ns7:desi_3b2_socnet ,
-		ns7:desi_3b_comm ,
 		ns7:desi_3c1_bank ,
 		ns7:desi_3c2_shop ,
 		ns7:desi_3c_trans ,
 		ns7:desi_4_idt ,
 		ns7:desi_2b1_ictspec ,
-		ns7:desi_2b2_stemg ,
 		ns7:desi_2b_asd ,
 		ns7:desi_3_ui ,
-		ns7:desi_3a1_news ,
-		ns7:desi_3a2_mvg ,
-		ns7:desi_3a3_vod ,
-		ns7:desi_3a4_iptv ,
-		ns7:desi_1d_aff ,
 		ns7:desi_1d_ultra ,
 		ns7:desi_1e1_bbpi ,
 		ns7:desi_1e_bbpi ,
 		ns7:desi_2_hc ,
-		ns7:desi_2a1_iu ,
-		ns7:desi_2a2_bds ,
 		ns7:desi_2a_bsu ,
 		ns7:desi_1b2_mbbtu ,
-		ns7:desi_1b3_spec ,
 		ns7:desi_1b_mbb ,
 		ns7:desi_1c1_ngac ,
 		ns7:desi_1c2_sfbb ,
@@ -130,7 +134,6 @@ ns1:indicator	skos:hasTopConcept	ns7:e_gov_4b_bm_us ,
 		ns7:desi_1a2_fbbtu ,
 		ns7:desi_1a_fbb ,
 		ns7:desi_1b1_4g ,
-		ns7:desi_1b1_mbbtu ,
 		ns7:e_gov_ke ,
 		ns7:e_gov_opa ,
 		ns7:e_gov_osc ,
@@ -549,18 +552,10 @@ ns18:desi_1b1_4g	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
 	ns11:member-of	ns12:desi_ind ;
 	ns11:order	"121" .
-ns18:desi_1b1_mbbtu	rdf:type	ns10:IndicatorToGroupMembership ;
-	rdfs:label	"desi_ind" ;
-	ns11:member-of	ns12:desi_ind ;
-	ns11:order	"121" .
 ns18:desi_1b2_mbbtu	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
 	ns11:member-of	ns12:desi_ind ;
 	ns11:order	"122" .
-ns18:desi_1b3_spec	rdf:type	ns10:IndicatorToGroupMembership ;
-	rdfs:label	"desi_ind" ;
-	ns11:member-of	ns12:desi_ind ;
-	ns11:order	"123" .
 ns18:desi_1c1_ngac	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
 	ns11:member-of	ns12:desi_ind ;
@@ -581,46 +576,10 @@ ns18:desi_1e1_bbpi	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
 	ns11:member-of	ns12:desi_ind ;
 	ns11:order	"151" .
-ns18:desi_2a1_iu	rdf:type	ns10:IndicatorToGroupMembership ;
-	rdfs:label	"desi_ind" ;
-	ns11:member-of	ns12:desi_ind ;
-	ns11:order	"211" .
-ns18:desi_2a2_bds	rdf:type	ns10:IndicatorToGroupMembership ;
-	rdfs:label	"desi_ind" ;
-	ns11:member-of	ns12:desi_ind ;
-	ns11:order	"212" .
 ns18:desi_2b1_ictspec	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
 	ns11:member-of	ns12:desi_ind ;
 	ns11:order	"221" .
-ns18:desi_2b2_stemg	rdf:type	ns10:IndicatorToGroupMembership ;
-	rdfs:label	"desi_ind" ;
-	ns11:member-of	ns12:desi_ind ;
-	ns11:order	"222" .
-ns18:desi_3a1_news	rdf:type	ns10:IndicatorToGroupMembership ;
-	rdfs:label	"desi_ind" ;
-	ns11:member-of	ns12:desi_ind ;
-	ns11:order	"311" .
-ns18:desi_3a2_mvg	rdf:type	ns10:IndicatorToGroupMembership ;
-	rdfs:label	"desi_ind" ;
-	ns11:member-of	ns12:desi_ind ;
-	ns11:order	"312" .
-ns18:desi_3a3_vod	rdf:type	ns10:IndicatorToGroupMembership ;
-	rdfs:label	"desi_ind" ;
-	ns11:member-of	ns12:desi_ind ;
-	ns11:order	"313" .
-ns18:desi_3a4_iptv	rdf:type	ns10:IndicatorToGroupMembership ;
-	rdfs:label	"desi_ind" ;
-	ns11:member-of	ns12:desi_ind ;
-	ns11:order	"314" .
-ns18:desi_3b1_vidcall	rdf:type	ns10:IndicatorToGroupMembership ;
-	rdfs:label	"desi_ind" ;
-	ns11:member-of	ns12:desi_ind ;
-	ns11:order	"321" .
-ns18:desi_3b2_socnet	rdf:type	ns10:IndicatorToGroupMembership ;
-	rdfs:label	"desi_ind" ;
-	ns11:member-of	ns12:desi_ind ;
-	ns11:order	"322" .
 ns18:desi_3c1_bank	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
 	ns11:member-of	ns12:desi_ind ;
@@ -633,22 +592,6 @@ ns18:desi_4a1_eis	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
 	ns11:member-of	ns12:desi_ind ;
 	ns11:order	"411" .
-ns18:desi_4a2_rfid	rdf:type	ns10:IndicatorToGroupMembership ;
-	rdfs:label	"desi_ind" ;
-	ns11:member-of	ns12:desi_ind ;
-	ns11:order	"412" .
-ns18:desi_4a3_socmed	rdf:type	ns10:IndicatorToGroupMembership ;
-	rdfs:label	"desi_ind" ;
-	ns11:member-of	ns12:desi_ind ;
-	ns11:order	"413" .
-ns18:desi_4a4_einv	rdf:type	ns10:IndicatorToGroupMembership ;
-	rdfs:label	"desi_ind" ;
-	ns11:member-of	ns12:desi_ind ;
-	ns11:order	"414" .
-ns18:desi_4a5_cloud	rdf:type	ns10:IndicatorToGroupMembership ;
-	rdfs:label	"desi_ind" ;
-	ns11:member-of	ns12:desi_ind ;
-	ns11:order	"415" .
 ns18:desi_4b1_smeso	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
 	ns11:member-of	ns12:desi_ind ;
@@ -673,10 +616,6 @@ ns18:desi_5a3_osercomp	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
 	ns11:member-of	ns12:desi_ind ;
 	ns11:order	"513" .
-ns18:desi_5a4_opendata	rdf:type	ns10:IndicatorToGroupMembership ;
-	rdfs:label	"desi_ind" ;
-	ns11:member-of	ns12:desi_ind ;
-	ns11:order	"514" .
 ns18:desi_5a4_psb	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
 	ns11:member-of	ns12:desi_ind ;
@@ -689,14 +628,6 @@ ns18:desi_5b1_ehs	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
 	ns11:member-of	ns12:desi_ind ;
 	ns11:order	"521" .
-ns18:desi_5b1_mdataexch	rdf:type	ns10:IndicatorToGroupMembership ;
-	rdfs:label	"desi_ind" ;
-	ns11:member-of	ns12:desi_ind ;
-	ns11:order	"521" .
-ns18:desi_5b2_epresc	rdf:type	ns10:IndicatorToGroupMembership ;
-	rdfs:label	"desi_ind" ;
-	ns11:member-of	ns12:desi_ind ;
-	ns11:order	"522" .
 @prefix ns19:	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_sliders/> .
 ns19:desi_sliders	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"desi_sliders" ;
@@ -715,10 +646,6 @@ ns20:desi_1c_speed	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"desi_subdim" ;
 	ns11:member-of	ns12:desi_subdim ;
 	ns11:order	"13" .
-ns20:desi_1d_aff	rdf:type	ns10:IndicatorToGroupMembership ;
-	rdfs:label	"desi_subdim" ;
-	ns11:member-of	ns12:desi_subdim ;
-	ns11:order	"14" .
 ns20:desi_1d_ultra	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"desi_subdim" ;
 	ns11:member-of	ns12:desi_subdim ;
@@ -735,14 +662,6 @@ ns20:desi_2b_asd	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"desi_subdim" ;
 	ns11:member-of	ns12:desi_subdim ;
 	ns11:order	"22" .
-ns20:desi_3a_cont	rdf:type	ns10:IndicatorToGroupMembership ;
-	rdfs:label	"desi_subdim" ;
-	ns11:member-of	ns12:desi_subdim ;
-	ns11:order	"31" .
-ns20:desi_3b_comm	rdf:type	ns10:IndicatorToGroupMembership ;
-	rdfs:label	"desi_subdim" ;
-	ns11:member-of	ns12:desi_subdim ;
-	ns11:order	"32" .
 ns20:desi_3c_trans	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"desi_subdim" ;
 	ns11:member-of	ns12:desi_subdim ;
@@ -1015,127 +934,127 @@ ns23:i_iusell	rdf:type	ns10:IndicatorToGroupMembership ;
 ns24:e_gov_1_ucg	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"egovernment" ;
 	ns11:member-of	ns12:egovernment ;
-	ns11:order	"1111"^^xsd:short .
+	ns11:order	"1111" .
 ns24:e_gov_1a_ucg_oa	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"egovernment" ;
 	ns11:member-of	ns12:egovernment ;
-	ns11:order	"11111"^^xsd:short .
+	ns11:order	"11111" .
 ns24:e_gov_1b_ucg_us	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"egovernment" ;
 	ns11:member-of	ns12:egovernment ;
-	ns11:order	"11113"^^xsd:short .
+	ns11:order	"11113" .
 ns24:e_gov_1c_ucg_mf	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"egovernment" ;
 	ns11:member-of	ns12:egovernment ;
-	ns11:order	"11114"^^xsd:short .
+	ns11:order	"11114" .
 ns24:e_gov_1d_ucg_eu	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"egovernment" ;
 	ns11:member-of	ns12:egovernment ;
-	ns11:order	"11115"^^xsd:short .
+	ns11:order	"11115" .
 ns24:e_gov_1e_ucg_su	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"egovernment" ;
 	ns11:member-of	ns12:egovernment ;
-	ns11:order	"11116"^^xsd:short .
+	ns11:order	"11116" .
 ns24:e_gov_2_tg	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"egovernment" ;
 	ns11:member-of	ns12:egovernment ;
-	ns11:order	"1112"^^xsd:short .
+	ns11:order	"1112" .
 ns24:e_gov_2a_tg_sd	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"egovernment" ;
 	ns11:member-of	ns12:egovernment ;
-	ns11:order	"11121"^^xsd:short .
+	ns11:order	"11121" .
 ns24:e_gov_2b_tg_po	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"egovernment" ;
 	ns11:member-of	ns12:egovernment ;
-	ns11:order	"11122"^^xsd:short .
+	ns11:order	"11122" .
 ns24:e_gov_2c_tg_pd	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"egovernment" ;
 	ns11:member-of	ns12:egovernment ;
-	ns11:order	"11123"^^xsd:short .
+	ns11:order	"11123" .
 ns24:e_gov_3_cm	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"egovernment" ;
 	ns11:member-of	ns12:egovernment ;
-	ns11:order	"1113"^^xsd:short .
+	ns11:order	"1113" .
 ns24:e_gov_3a_cm_oa	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"egovernment" ;
 	ns11:member-of	ns12:egovernment ;
-	ns11:order	"11131"^^xsd:short .
+	ns11:order	"11131" .
 ns24:e_gov_3b_cm_us	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"egovernment" ;
 	ns11:member-of	ns12:egovernment ;
-	ns11:order	"11133"^^xsd:short .
+	ns11:order	"11133" .
 ns24:e_gov_3c_cm_eidcb	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"egovernment" ;
 	ns11:member-of	ns12:egovernment ;
-	ns11:order	"11135"^^xsd:short .
+	ns11:order	"11135" .
 ns24:e_gov_3d_cm_edoccb	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"egovernment" ;
 	ns11:member-of	ns12:egovernment ;
-	ns11:order	"11136"^^xsd:short .
+	ns11:order	"11136" .
 ns24:e_gov_3e_cm_eu	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"egovernment" ;
 	ns11:member-of	ns12:egovernment ;
-	ns11:order	"11137"^^xsd:short .
+	ns11:order	"11137" .
 ns24:e_gov_3f_cm_su	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"egovernment" ;
 	ns11:member-of	ns12:egovernment ;
-	ns11:order	"11138"^^xsd:short .
+	ns11:order	"11138" .
 ns24:e_gov_4_bm	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"egovernment" ;
 	ns11:member-of	ns12:egovernment ;
-	ns11:order	"1114"^^xsd:short .
+	ns11:order	"1114" .
 ns24:e_gov_4a_bm_oa	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"egovernment" ;
 	ns11:member-of	ns12:egovernment ;
-	ns11:order	"11141"^^xsd:short .
+	ns11:order	"11141" .
 ns24:e_gov_4b_bm_us	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"egovernment" ;
 	ns11:member-of	ns12:egovernment ;
-	ns11:order	"11143"^^xsd:short .
+	ns11:order	"11143" .
 ns24:e_gov_4c_bm_eidcb	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"egovernment" ;
 	ns11:member-of	ns12:egovernment ;
-	ns11:order	"11145"^^xsd:short .
+	ns11:order	"11145" .
 ns24:e_gov_4d_bm_edoccb	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"egovernment" ;
 	ns11:member-of	ns12:egovernment ;
-	ns11:order	"11146"^^xsd:short .
+	ns11:order	"11146" .
 ns24:e_gov_4e_bm_eu	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"egovernment" ;
 	ns11:member-of	ns12:egovernment ;
-	ns11:order	"11147"^^xsd:short .
+	ns11:order	"11147" .
 ns24:e_gov_4f_bm_su	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"egovernment" ;
 	ns11:member-of	ns12:egovernment ;
-	ns11:order	"11148"^^xsd:short .
+	ns11:order	"11148" .
 ns24:e_gov_5_ke	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"egovernment" ;
 	ns11:member-of	ns12:egovernment ;
-	ns11:order	"1115"^^xsd:short .
+	ns11:order	"1115" .
 ns24:e_gov_5a_ke_eid	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"egovernment" ;
 	ns11:member-of	ns12:egovernment ;
-	ns11:order	"11151"^^xsd:short .
+	ns11:order	"11151" .
 ns24:e_gov_5b_ke_edoc	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"egovernment" ;
 	ns11:member-of	ns12:egovernment ;
-	ns11:order	"11152"^^xsd:short .
+	ns11:order	"11152" .
 ns24:e_gov_5c_ke_as	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"egovernment" ;
 	ns11:member-of	ns12:egovernment ;
-	ns11:order	"11153"^^xsd:short .
+	ns11:order	"11153" .
 ns24:e_gov_5d_ke_dp	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"egovernment" ;
 	ns11:member-of	ns12:egovernment ;
-	ns11:order	"11154"^^xsd:short .
+	ns11:order	"11154" .
 ns24:e_gov_5e_ke_esafe	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"egovernment" ;
 	ns11:member-of	ns12:egovernment ;
-	ns11:order	"11155"^^xsd:short .
+	ns11:order	"11155" .
 ns24:e_gov_5f_ke_sso	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"egovernment" ;
 	ns11:member-of	ns12:egovernment ;
-	ns11:order	"11156"^^xsd:short .
+	ns11:order	"11156" .
 ns24:e_gov_dpsb	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"egovernment" ;
 	ns11:member-of	ns12:egovernment ;
@@ -1644,77 +1563,77 @@ ns36:tel_rev	rdf:type	ns10:IndicatorToGroupMembership ;
 ns37:wid_ius	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"wid" ;
 	ns11:member-of	ns12:wid ;
-	ns11:order	"10"^^xsd:byte .
+	ns11:order	"10" .
 ns37:wid_ius_abs	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"wid" ;
 	ns11:member-of	ns12:wid ;
-	ns11:order	"12"^^xsd:byte .
+	ns11:order	"12" .
 ns37:wid_ius_bs	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"wid" ;
 	ns11:member-of	ns12:wid ;
-	ns11:order	"11"^^xsd:byte .
+	ns11:order	"11" .
 ns37:wid_ius_ss	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"wid" ;
 	ns11:member-of	ns12:wid ;
-	ns11:order	"13"^^xsd:byte .
+	ns11:order	"13" .
 ns37:wid_score	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"wid" ;
 	ns11:member-of	ns12:wid ;
-	ns11:order	"1"^^xsd:byte .
+	ns11:order	"1" .
 ns37:wid_sse	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"wid" ;
 	ns11:member-of	ns12:wid ;
-	ns11:order	"14"^^xsd:byte .
+	ns11:order	"14" .
 ns37:wid_sse_gpg	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"wid" ;
 	ns11:member-of	ns12:wid ;
-	ns11:order	"17"^^xsd:byte .
+	ns11:order	"17" .
 ns37:wid_sse_icts	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"wid" ;
 	ns11:member-of	ns12:wid ;
-	ns11:order	"16"^^xsd:byte .
+	ns11:order	"16" .
 ns37:wid_sse_stem	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"wid" ;
 	ns11:member-of	ns12:wid ;
-	ns11:order	"15"^^xsd:byte .
+	ns11:order	"15" .
 ns37:wid_ui	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"wid" ;
 	ns11:member-of	ns12:wid ;
-	ns11:order	"2"^^xsd:byte .
+	ns11:order	"2" .
 ns37:wid_ui_egov	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"wid" ;
 	ns11:member-of	ns12:wid ;
-	ns11:order	"9"^^xsd:byte .
+	ns11:order	"9" .
 ns37:wid_ui_ib	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"wid" ;
 	ns11:member-of	ns12:wid ;
-	ns11:order	"5"^^xsd:byte .
+	ns11:order	"5" .
 ns37:wid_ui_iu	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"wid" ;
 	ns11:member-of	ns12:wid ;
-	ns11:order	"3"^^xsd:byte .
+	ns11:order	"3" .
 ns37:wid_ui_nui	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"wid" ;
 	ns11:member-of	ns12:wid ;
-	ns11:order	"4"^^xsd:byte .
+	ns11:order	"4" .
 ns37:wid_ui_oc	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"wid" ;
 	ns11:member-of	ns12:wid ;
-	ns11:order	"7"^^xsd:byte .
+	ns11:order	"7" .
 ns37:wid_ui_part	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"wid" ;
 	ns11:member-of	ns12:wid ;
-	ns11:order	"8"^^xsd:byte .
+	ns11:order	"8" .
 ns37:wid_ui_ps	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"wid" ;
 	ns11:member-of	ns12:wid ;
-	ns11:order	"6"^^xsd:byte .
+	ns11:order	"6" .
 ns7:aaaa_cov	rdf:type	ns10:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"IPv6 readiness - websites having a AAAA coverage in DNS records (as % of most visited websites)" .
 @prefix ns38:	<http://semantic.digital-agenda-data.eu/codelist/source/> .
 ns7:aaaa_cov	dct:source	ns38:ipv6obs ;
-	skos:notation	"AAAA_cov" ;
+	skos:notation	"aaaa_cov" ;
 	skos:altLabel	"IPv6 readiness of most visited websites" ;
 	ns11:membership	ns31:aaaa_cov ;
 	skos:definition	"IPv6 ready websites are those having at least one AAAA in their DNS records (means the website is visible/can reply to users having an IPv6 connectivity). Tests are done every trimester through a script run by the IPv6 Observatory study on the 1 million most visited websites list provided by Alexa. Websites are attributed to countries on the basis of their main operation location as provided by MaxMind GeoIP database." ;
@@ -1732,7 +1651,7 @@ ns7:afford_internet_only_minppp	rdf:type	ns10:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"Affordability of standalone Fixed Internet Access (minimum price offer)" ;
 	dct:source	ns38:biac ;
-	skos:notation	"Afford_Internet_only_minPPP" ;
+	skos:notation	"afford_internet_only_minppp" ;
 	skos:altLabel	"Affordability of Fixed Internet Access" ;
 	ns11:membership	ns14:afford_internet_only_minppp ;
 	skos:definition	"Affordability is defined as 12 times the monthly price divided by the \"real adjusted gross disposable income of households per capita\" of the previous year. Disposable income data come from  Eurostat table  <a href=\"http://ec.europa.eu/eurostat/tgm/table.do?tab=table&plugin=1&language=en&pcode=tec00113\">tec00113</a>. Monthly price of standalone Fixed Broadband Internet Access offers, include value added tax, exclude the additional cost of telephony or cable line (if any), and refers to the minimum price in the group of similar subscriptions offered by internet service providers (see the <a href=\"http://digital-agenda-data.eu/charts/see-the-evolution-of-an-indicator-and-compare-countries#chart={%22indicator-group%22:%22any%22,%22indicator%22:%22Price_Internet_only%22,%22breakdown%22:%22offer_12_30_Mbps%22,%22unit-measure%22:%22minimum_euro_PPP%22,%22ref-area%22:[%22EU27%22]}\">original indicator</a>). " ;
@@ -1942,40 +1861,44 @@ ns7:desi	rdf:type	ns10:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"Digital Economy and Society Index" ;
 	dct:source	ns38: ;
-	skos:notation	"DESI" ;
+	skos:notation	"desi" ;
 	skos:altLabel	"DESI" ;
 	ns11:membership	ns16:desi ;
-	skos:definition	"DESI overall index, calculated as the weighted average of the five main DESI dimensions: 1 Connectivity (25%), 2 Human Capital (25%), 3 Use of Internet (15%), 4 Integration of Digital Technology (20%) and 5 Digital Public Services (15%)." ;
+	skos:definition	"DESI overall index, calculated as the weighted average of the five main DESI dimensions: 1 Connectivity (25%), 2 Human Capital (25%), 3 Use of Internet (15%), 4 Integration of Digital Technology (20%) and 5 Digital Public Services (15%)" ;
 	skos:topConceptOf	ns1:indicator .
 ns7:desi_1_conn	rdf:type	ns10:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"1 Connectivity" ;
 	dct:source	ns38: ;
-	skos:notation	"DESI_1_CONN" ;
+	skos:notation	"desi_1_conn" ;
+	skos:altLabel	"1 Connectivity" ;
 	ns11:membership	ns17:desi_1_conn ;
-	skos:definition	"DESI Connectivity Dimension calculated as the weighted average of the five sub-dimensions: 1a Fixed Broadband (20%), 1b Mobile Broadband (30%), 1c Fast broadband (20%), 1d Ultrafast broadband (20%) and 1e Broadband price index (10%)." ;
+	skos:definition	"DESI Connectivity Dimension calculated as the weighted average of the five sub-dimensions: 1a Fixed Broadband (18.5%), 1b Mobile Broadband (35%), 1c Fast broadband (18.5%), 1d Ultrafast broadband (18.5%) and 1e Broadband price index (9.5%)" ;
 	skos:topConceptOf	ns1:indicator .
 ns7:desi_1a1_fbbc	rdf:type	ns10:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"1a1 Fixed BB Coverage" ;
 	dct:source	ns38:desi_1a1_fbbc ;
-	skos:notation	"DESI_1A1_FBBC" ;
+	skos:notation	"desi_1a1_fbbc" ;
+	skos:altLabel	"1a1 Fixed Broadband Coverage" ;
 	ns11:membership	ns18:desi_1a1_fbbc ;
-	skos:definition	"Standard fixed broadband coverage" ;
+	skos:definition	"Percentage of households covered by broadband: xDSL, cable (basic and NGA), FTTP or WiMax networks" ;
 	skos:topConceptOf	ns1:indicator .
 ns7:desi_1a2_fbbtu	rdf:type	ns10:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"1a2 Fixed BB Take-up" ;
 	dct:source	ns38:desi_1a2_fbbtu ;
-	skos:notation	"DESI_1A2_FBBTU" ;
+	skos:notation	"desi_1a2_fbbtu" ;
+	skos:altLabel	"1a2 Fixed Broadband Take-up" ;
 	ns11:membership	ns18:desi_1a2_fbbtu ;
-	skos:definition	"Households that have a fixed Broadband connection" ;
+	skos:definition	"Percentage of households subscribing to broadband: xDSL, cable (basic and NGA), FTTP or WiMax networks" ;
 	skos:topConceptOf	ns1:indicator .
 ns7:desi_1a_fbb	rdf:type	ns10:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"1a Fixed Broadband" ;
 	dct:source	ns38: ;
-	skos:notation	"DESI_1A_FBB" ;
+	skos:notation	"desi_1a_fbb" ;
+	skos:altLabel	"1a Fixed Broadband" ;
 	ns11:membership	ns20:desi_1a_fbb ;
 	skos:definition	"DESI Fixed Broadband sub-dimension calculated as the weighted average of the normalised indicators: 1a1 Fixed BB Coverage (50%), 1a2 Fixed BB Take-up (50%)" ;
 	skos:topConceptOf	ns1:indicator .
@@ -1983,98 +1906,80 @@ ns7:desi_1b1_4g	rdf:type	ns10:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"1b1 4G Coverage" ;
 	dct:source	ns38:desi_1b1_4g ;
-	skos:notation	"DESI_1B1_4G" ;
+	skos:notation	"desi_1b1_4g" ;
 	skos:altLabel	"1b1 4G Coverage" ;
 	ns11:membership	ns18:desi_1b1_4g ;
 	skos:definition	"Percentage of populated areas coverage by 4G - measured as the average coverage of telecom operators in each country" ;
-	skos:topConceptOf	ns1:indicator .
-ns7:desi_1b1_mbbtu	rdf:type	ns10:Indicator ,
-		skos:Concept ;
-	skos:prefLabel	"1b1 Mobile BB Take-up" ;
-	dct:source	ns38:desi_1b1_mbbtu ;
-	skos:notation	"DESI_1B1_MBBTU" ;
-	ns11:membership	ns18:desi_1b1_mbbtu ;
-	skos:definition	"Mobile broadband take-up" ;
 	skos:topConceptOf	ns1:indicator .
 ns7:desi_1b2_mbbtu	rdf:type	ns10:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"1b2 Mobile BB Take-up" ;
 	dct:source	ns38:desi_1b2_mbbtu ;
-	skos:notation	"DESI_1B2_MBBTU" ;
+	skos:notation	"desi_1b2_mbbtu" ;
+	skos:altLabel	"1b2 Mobile Broadband Take-up" ;
 	ns11:membership	ns18:desi_1b2_mbbtu ;
-	skos:definition	"Mobile broadband take-up" ;
-	skos:topConceptOf	ns1:indicator .
-ns7:desi_1b3_spec	rdf:type	ns10:Indicator ,
-		skos:Concept ;
-	skos:prefLabel	"1b3 Spectrum" ;
-	dct:source	ns38:desi_1b3_spec ;
-	skos:notation	"DESI_1B3_SPEC" ;
-	skos:altLabel	"1b3 Spectrum" ;
-	ns11:membership	ns18:desi_1b3_spec ;
-	skos:definition	"Percentage of assigned spectrum out of the target to be harmonised at EU level" ;
+	skos:definition	"Number of mobile data subscriptions per 100 people" ;
 	skos:topConceptOf	ns1:indicator .
 ns7:desi_1b_mbb	rdf:type	ns10:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"1b Mobile Broadband" ;
 	dct:source	ns38: ;
-	skos:notation	"DESI_1B_MBB" ;
+	skos:notation	"desi_1b_mbb" ;
 	skos:altLabel	"1b Mobile Broadband" ;
 	ns11:membership	ns20:desi_1b_mbb ;
-	skos:definition	"DESI Mobile Broadband sub-dimension calculated as the weighted average of the normalised indicators: 1b1 4G Coverage (50%) and 1b2 Mobile BB Take-up (50%)." ;
+	skos:definition	"DESI Mobile Broadband sub-dimension calculated as the weighted average of the normalised indicators: 1b1 4G Coverage (33%), 1b2 Mobile BB Take-up (33%) and 1b3 5G readiness (33%)" ;
 	skos:topConceptOf	ns1:indicator .
 ns7:desi_1c1_ngac	rdf:type	ns10:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"1c1 NGA Coverage" ;
 	dct:source	ns38:desi_1c1_ngac ;
-	skos:notation	"DESI_1C1_NGAC" ;
+	skos:notation	"desi_1c1_ngac" ;
+	skos:altLabel	"1c1 Fast broadband (NGA) coverage" ;
 	ns11:membership	ns18:desi_1c1_ngac ;
-	skos:definition	"Households covered by NGA broadband" ;
+	skos:definition	"Percentage of households covered by broadband of at least 30 Mbps download. Considered technologies are FTTH, FTTB, Cable Docsis 3.0 and VDSL" ;
 	skos:topConceptOf	ns1:indicator .
 ns7:desi_1c2_sfbb	rdf:type	ns10:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"1c2 Fast BB take-up" ;
 	dct:source	ns38:desi_1c2_sfbb ;
-	skos:notation	"DESI_1C2_SFBB" ;
+	skos:notation	"desi_1c2_sfbb" ;
+	skos:altLabel	"1c2 Fast broadband take-up" ;
 	ns11:membership	ns18:desi_1c2_sfbb ;
-	skos:definition	"Share of fixed broadband subscriptions >= 30 Mbps" ;
+	skos:definition	"Percentage of households subscribing to broadband of at least 30 Mbps" ;
 	skos:topConceptOf	ns1:indicator .
 ns7:desi_1c_speed	rdf:type	ns10:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"1c Fast Broadband" ;
 	dct:source	ns38: ;
-	skos:notation	"DESI_1C_SPEED" ;
+	skos:notation	"desi_1c_speed" ;
+	skos:altLabel	"1c Fast Broadband" ;
 	ns11:membership	ns20:desi_1c_speed ;
-	skos:definition	"DESI Speed sub-dimension calculated as the weighted average of the normalised indicators: 1c1 NGA Coverage (50%), 1c2 Subscriptions to Fast BB (50%)" ;
+	skos:definition	"DESI Fast Broadband sub-dimension calculated as the weighted average of the normalised indicators: 1c1 NGA Coverage (50%), 1c2 Fast BB take-up (50%)" ;
 	skos:topConceptOf	ns1:indicator .
 ns7:desi_1d1_ubbc	rdf:type	ns10:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"1d1 Ultrafast BB Coverage" ;
 	dct:source	ns38:desi_1d1_ubbc ;
-	skos:notation	"DESI_1D1_UBBC" ;
+	skos:notation	"desi_1d1_ubbc" ;
+	skos:altLabel	"1d1 Ultrafast broadband coverage" ;
 	ns11:membership	ns18:desi_1d1_ubbc ;
-	skos:definition	"Households covered by ultrafast broadband" ;
+	skos:definition	"Percentage of households covered by broadband of at least 100 Mbps download. Considered technologies are FTTH, FTTB and Cable Docsis 3.0" ;
 	skos:topConceptOf	ns1:indicator .
 ns7:desi_1d2_ubbta	rdf:type	ns10:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"1d2 Ultrafast BB Take-up" ;
 	dct:source	ns38:desi_1d2_ubbta ;
-	skos:notation	"DESI_1D2_UBBTA" ;
+	skos:notation	"desi_1d2_ubbta" ;
+	skos:altLabel	"1d2 Ultrafast broadband take-up" ;
 	ns11:membership	ns18:desi_1d2_ubbta ;
-	skos:definition	"Share of ultra fast broadband subscriptions >= 100 Mbps" ;
-	skos:topConceptOf	ns1:indicator .
-ns7:desi_1d_aff	rdf:type	skos:Concept ,
-		ns10:Indicator ;
-	skos:prefLabel	"1d Affordability" ;
-	dct:source	ns38: ;
-	skos:notation	"DESI_1D_AFF" ;
-	ns11:membership	ns20:desi_1d_aff ;
-	skos:definition	"DESI Affordability sub-dimension calculated as the weighted average of the normalised indicators: 1d1 Fixed BB Price (100%)" ;
+	skos:definition	"Percentage of households subscribing to broadband of at least 100 Mbps" ;
 	skos:topConceptOf	ns1:indicator .
 ns7:desi_1d_ultra	rdf:type	skos:Concept ,
 		ns10:Indicator ;
 	skos:prefLabel	"1d Ultrafast Broadband" ;
 	dct:source	ns38: ;
-	skos:notation	"DESI_1D_ULTRA" ;
+	skos:notation	"desi_1d_ultra" ;
+	skos:altLabel	"1d Ultrafast Broadband" ;
 	ns11:membership	ns20:desi_1d_ultra ;
 	skos:definition	"DESI Ultrafast speed sub-dimension calculated as the weighted average of the normalised indicators: 1d1 Ultrafast BB Coverage (50%), 1d2 Ultrafast BB Take-up (50%)" ;
 	skos:topConceptOf	ns1:indicator .
@@ -2082,360 +1987,241 @@ ns7:desi_1e1_bbpi	rdf:type	skos:Concept ,
 		ns10:Indicator ;
 	skos:prefLabel	"1e1 Broadband Price Index" ;
 	dct:source	ns38:desi_1e1_bbpi ;
-	skos:notation	"DESI_1E1_BBPI" ;
+	skos:notation	"desi_1e1_bbpi" ;
+	skos:altLabel	"1e1 Broadband price index" ;
 	ns11:membership	ns18:desi_1e1_bbpi ;
-	skos:definition	"Price index of twelve  representative broadband baskets as the percentage of household income. The baskets include three speed categories (12-30 Mbps, 30-100Mbps and at least 100 Mbps) and four types of products (standalone internet, internet + TV, internet + fixed telephony and internet + TV + fixed telephony)" ;
+	skos:definition	"The Broadband Price Index measures the prices of twelve representative broadband baskets as the percentage of household income. The baskets include three speed categories (12-30 Mbps, 30-100 Mbps and at least 100 Mbps) and four types of products (standalone internet, internet + TV, internet + fixed telephony and internet + TV + fixed telephony)" ;
 	skos:topConceptOf	ns1:indicator .
 ns7:desi_1e_bbpi	rdf:type	skos:Concept ,
 		ns10:Indicator ;
 	skos:prefLabel	"1e Broadband price index" ;
 	dct:source	ns38: ;
-	skos:notation	"DESI_1E_BBPI" ;
+	skos:notation	"desi_1e_bbpi" ;
+	skos:altLabel	"1e Broadband price index" ;
 	ns11:membership	ns20:desi_1e_bbpi ;
-	skos:definition	"DESI Affordability sub-dimension calculated as the weighted average of the normalised indicators: 1e1 Fixed BB Price (100%)" ;
+	skos:definition	"DESI Broadband price index sub-dimension calculated as the weighted average of the normalised indicator: 1e1 Broadband Price Index (100%)" ;
 	skos:topConceptOf	ns1:indicator .
 ns7:desi_2_hc	rdf:type	skos:Concept ,
 		ns10:Indicator ;
 	skos:prefLabel	"2 Human Capital" ;
 	dct:source	ns38: ;
-	skos:notation	"DESI_2_HC" ;
+	skos:notation	"desi_2_hc" ;
+	skos:altLabel	"2 Human Capital" ;
 	ns11:membership	ns17:desi_2_hc ;
-	skos:definition	"DESI Human Capital Dimension calculated as the weighted average of the two sub-dimensions: 2a Basic Skills and Usage (50%), 2b Advanced skills and Development (50%)" ;
-	skos:topConceptOf	ns1:indicator .
-ns7:desi_2a1_iu	rdf:type	skos:Concept ,
-		ns10:Indicator ;
-	skos:prefLabel	"2a1 Internet Users" ;
-	dct:source	ns38:desi_2a1_iu ;
-	skos:notation	"DESI_2A1_IU" ;
-	ns11:membership	ns18:desi_2a1_iu ;
-	skos:definition	"Individuals whose frequency of Internet access is at least once a week" ;
-	skos:topConceptOf	ns1:indicator .
-ns7:desi_2a2_bds	rdf:type	skos:Concept ,
-		ns10:Indicator ;
-	skos:prefLabel	"2a2 At least Basic Digital Skills" ;
-	dct:source	ns38:desi_2a2_bds ;
-	skos:notation	"DESI_2A2_BDS" ;
-	ns11:membership	ns18:desi_2a2_bds ;
-	skos:definition	"Individuals with basic or above basic digital skills" ;
+	skos:definition	"DESI Human Capital Dimension calculated as the weighted average of the two sub-dimensions: 2a Internet User Skills (50%) and 2b Advanced Skills and Development (50%)" ;
 	skos:topConceptOf	ns1:indicator .
 ns7:desi_2a_bsu	rdf:type	skos:Concept ,
 		ns10:Indicator ;
-	skos:prefLabel	"2a Basic Skills and Usage" ;
+	skos:prefLabel	"2a Internet User Skills" ;
 	dct:source	ns38: ;
-	skos:notation	"DESI_2A_BSU" ;
+	skos:notation	"desi_2a_bsu" ;
+	skos:altLabel	"2a Internet User Skills" ;
 	ns11:membership	ns20:desi_2a_bsu ;
-	skos:definition	"DESI Basic Skills and Usage sub-dimension calculated as the weighted average of the normalised indicators: 2a1 Internet Users (50%), 2a2 Basic Digital Skills (50%)" ;
+	skos:definition	"DESI Internet User Skills sub-dimension calculated as the weighted average of the normalised indicators: 2a1 At least Basic Digital Skills (33%), 2a2 Above basic digital skillst (33%) and 2a3 At least basic software skills (33%)" ;
 	skos:topConceptOf	ns1:indicator .
 ns7:desi_2b1_ictspec	rdf:type	skos:Concept ,
 		ns10:Indicator ;
 	skos:prefLabel	"2b1 ICT Specialists" ;
 	dct:source	ns38:desi_2b1_ictspec ;
-	skos:notation	"DESI_2B1_ICTSPEC" ;
+	skos:notation	"desi_2b1_ictspec" ;
+	skos:altLabel	"2b1 ICT Specialists" ;
 	ns11:membership	ns18:desi_2b1_ictspec ;
-	skos:definition	"Persons Employed with ICT Specialist Skills" ;
-	skos:topConceptOf	ns1:indicator .
-ns7:desi_2b2_stemg	rdf:type	skos:Concept ,
-		ns10:Indicator ;
-	skos:prefLabel	"2b2 STEM Graduates" ;
-	dct:source	ns38:desi_2b2_stemg ;
-	skos:notation	"DESI_2B2_STEMG" ;
-	ns11:membership	ns18:desi_2b2_stemg ;
-	skos:definition	"Science and technology graduates" ;
+	skos:definition	"Employed ICT specialists. Broad definition based on the ISCO-08 classification and including jobs like ICT service managers, ICT professionals, ICT technicians, ICT installers and servicers" ;
 	skos:topConceptOf	ns1:indicator .
 ns7:desi_2b_asd	rdf:type	skos:Concept ,
 		ns10:Indicator ;
-	skos:prefLabel	"2b Advanced skills and Development" ;
+	skos:prefLabel	"2b Advanced Skills and Development" ;
 	dct:source	ns38: ;
-	skos:notation	"DESI_2B_ASD" ;
+	skos:notation	"desi_2b_asd" ;
+	skos:altLabel	"2b Advanced Skills and Development" ;
 	ns11:membership	ns20:desi_2b_asd ;
-	skos:definition	"DESI Advanced Skills and Development sub-dimension calculated as the weighted average of the normalised indicators: 2b1 ICT Specialists (50%), 2b2 STEM Graduates (50%)" ;
+	skos:definition	"DESI Advanced Skills and Development sub-dimension calculated as the weighted average of the normalised indicators: 2b1 ICT Specialists (33%), 2b2 Female ICT specialists (33%) and 2b3 ICT graduates (33%)" ;
 	skos:topConceptOf	ns1:indicator .
 ns7:desi_3_ui	rdf:type	skos:Concept ,
 		ns10:Indicator ;
 	skos:prefLabel	"3 Use of Internet Services" ;
 	dct:source	ns38: ;
-	skos:notation	"DESI_3_UI" ;
+	skos:notation	"desi_3_ui" ;
 	ns11:membership	ns17:desi_3_ui ;
-	skos:definition	"DESI Use of Internet Dimension calculated as the weighted average of the three sub-dimensions: 3a Content (33%), 3b Communication (33%), 3c Transactions (33%)" ;
-	skos:topConceptOf	ns1:indicator .
-ns7:desi_3a1_news	rdf:type	skos:Concept ,
-		ns10:Indicator ;
-	skos:prefLabel	"3a1 News" ;
-	dct:source	ns38:desi_3a1_news ;
-	skos:notation	"DESI_3A1_NEWS" ;
-	ns11:membership	ns18:desi_3a1_news ;
-	skos:definition	"Individuals who used the Internet to read online news sites, newspapers or news magazines" ;
-	skos:topConceptOf	ns1:indicator .
-ns7:desi_3a2_mvg	rdf:type	skos:Concept ,
-		ns10:Indicator ;
-	skos:prefLabel	"3a2 Music, Videos and Games" ;
-	dct:source	ns38:desi_3a2_mvg ;
-	skos:notation	"DESI_3A2_MVG" ;
-	ns11:membership	ns18:desi_3a2_mvg ;
-	skos:definition	"Individuals who used the Internet to play or download games, images, films or music" ;
-	skos:topConceptOf	ns1:indicator .
-ns7:desi_3a3_vod	rdf:type	skos:Concept ,
-		ns10:Indicator ;
-	skos:prefLabel	"3a3 Video on Demand" ;
-	dct:source	ns38:desi_3a3_vod ;
-	skos:notation	"DESI_3A3_VOD" ;
-	ns11:membership	ns18:desi_3a3_vod ;
-	skos:definition	"Percentage of households subcribing to any form of Video on Demand" ;
-	skos:topConceptOf	ns1:indicator .
-ns7:desi_3a4_iptv	rdf:type	skos:Concept ,
-		ns10:Indicator ;
-	skos:prefLabel	"3a4 IPTV" ;
-	dct:source	ns38:desi_3a4_iptv ;
-	skos:notation	"DESI_3A4_IPTV" ;
-	ns11:membership	ns18:desi_3a4_iptv ;
-	skos:definition	"IPTV Penetration" ;
-	skos:topConceptOf	ns1:indicator .
-ns7:desi_3a_cont	rdf:type	ns10:Indicator ,
-		skos:Concept ;
-	skos:prefLabel	"3a Content" ;
-	dct:source	ns38: ;
-	skos:notation	"DESI_3A_CONT" ;
-	ns11:membership	ns20:desi_3a_cont ;
-	skos:definition	"DESI Content sub-dimension calculated as the weighted average of the normalised indicators: 3a1 News (25%), 3a2 Music, Videos and Games (25%), 3a3 Video on Demand (25%), 3a4 IPTV (25%)" ;
-	skos:topConceptOf	ns1:indicator .
-ns7:desi_3b1_vidcall	rdf:type	ns10:Indicator ,
-		skos:Concept ;
-	skos:prefLabel	"3b1 Video Calls" ;
-	dct:source	ns38:desi_3b1_vidcall ;
-	skos:notation	"DESI_3B1_VIDCALL" ;
-	ns11:membership	ns18:desi_3b1_vidcall ;
-	skos:definition	"Individuals who used the Internet to make telephone or video calls" ;
-	skos:topConceptOf	ns1:indicator .
-ns7:desi_3b2_socnet	rdf:type	ns10:Indicator ,
-		skos:Concept ;
-	skos:prefLabel	"3b2 Social Networks" ;
-	dct:source	ns38:desi_3b2_socnet ;
-	skos:notation	"DESI_3B2_SOCNET" ;
-	ns11:membership	ns18:desi_3b2_socnet ;
-	skos:definition	"Individuals used the Internet to participate in social networks (create user profile, post messages or other contributions to facebook, twitter, etc.)" ;
-	skos:topConceptOf	ns1:indicator .
-ns7:desi_3b_comm	rdf:type	ns10:Indicator ,
-		skos:Concept ;
-	skos:prefLabel	"3b Communication" ;
-	dct:source	ns38: ;
-	skos:notation	"DESI_3B_COMM" ;
-	ns11:membership	ns20:desi_3b_comm ;
-	skos:definition	"DESI Communication sub-dimension calculated as the weighted average of the normalised indicators: 3b1 Video Calls (50%), 3b2 Social Networks (50%)" ;
+	skos:definition	"DESI Use of Internet Dimension calculated as the weighted average of the three sub-dimensions: 3a Internet Use (25%), 3b Activities Online (50%), 3c Transactions (25%)" ;
 	skos:topConceptOf	ns1:indicator .
 ns7:desi_3c1_bank	rdf:type	ns10:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"3c1 Banking" ;
 	dct:source	ns38:desi_3c1_bank ;
-	skos:notation	"DESI_3C1_BANK" ;
+	skos:notation	"desi_3c1_bank" ;
+	skos:altLabel	"3c1 Banking" ;
 	ns11:membership	ns18:desi_3c1_bank ;
-	skos:definition	"Individuals who used the Internet to use online banking" ;
+	skos:definition	"People who used the Internet to use online banking" ;
 	skos:topConceptOf	ns1:indicator .
 ns7:desi_3c2_shop	rdf:type	ns10:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"3c2 Shopping" ;
 	dct:source	ns38:desi_3c2_shop ;
-	skos:notation	"DESI_3C2_SHOP" ;
+	skos:notation	"desi_3c2_shop" ;
+	skos:altLabel	"3c2 Shopping" ;
 	ns11:membership	ns18:desi_3c2_shop ;
-	skos:definition	"Individuals who ordered goods or services online" ;
+	skos:definition	"People who ordered goods or services online" ;
 	skos:topConceptOf	ns1:indicator .
 ns7:desi_3c_trans	rdf:type	ns10:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"3c Transactions" ;
 	dct:source	ns38: ;
-	skos:notation	"DESI_3C_TRANS" ;
+	skos:notation	"desi_3c_trans" ;
+	skos:altLabel	"3c Transactions" ;
 	ns11:membership	ns20:desi_3c_trans ;
-	skos:definition	"DESI Transactions sub-dimension calculated as the weighted average of the normalised indicators: 3c1 Banking (50%), 3c2 Shopping (50%)" ;
+	skos:definition	"DESI Transactions sub-dimension calculated as the weighted average of the normalised indicators: 3c1 Banking (33%), 3c2 Shopping (33%) and 3c3 Selling online (33%)" ;
 	skos:topConceptOf	ns1:indicator .
 ns7:desi_4_idt	rdf:type	ns10:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"4 Integration of Digital Technology" ;
 	dct:source	ns38: ;
-	skos:notation	"DESI_4_IDT" ;
+	skos:notation	"desi_4_idt" ;
+	skos:altLabel	"4 Integration of Digital Technology" ;
 	ns11:membership	ns17:desi_4_idt ;
-	skos:definition	"DESI Integration of Digital Technology Dimension calculated as the weighted average of the two sub-dimensions:  4a Business digitization (60%), 4b eCommerce (40%)" ;
+	skos:definition	"DESI Integration of Digital Technology Dimension calculated as the weighted average of the two sub-dimensions: 4a Business digitisation (60%) and 4b e-Commerce (40%)" ;
 	skos:topConceptOf	ns1:indicator .
 ns7:desi_4a1_eis	rdf:type	ns10:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"4a1 Electronic Information Sharing" ;
 	dct:source	ns38:desi_4a1_eis ;
-	skos:notation	"DESI_4A1_EIS" ;
+	skos:notation	"desi_4a1_eis" ;
+	skos:altLabel	"4a1 Electronic Information Sharing" ;
 	ns11:membership	ns18:desi_4a1_eis ;
-	skos:definition	"Enterprises who have ERP software package to share information between different functional areas" ;
-	skos:topConceptOf	ns1:indicator .
-ns7:desi_4a2_rfid	rdf:type	ns10:Indicator ,
-		skos:Concept ;
-	skos:prefLabel	"4a2 RFID" ;
-	dct:source	ns38:desi_4a2_rfid ;
-	skos:notation	"DESI_4A2_RFID" ;
-	ns11:membership	ns18:desi_4a2_rfid ;
-	skos:definition	"Enterprises using Radio Frequency Identification (RFID) technologies for after sales product identification or as part of the production and service delivery" ;
-	skos:topConceptOf	ns1:indicator .
-ns7:desi_4a3_socmed	rdf:type	ns10:Indicator ,
-		skos:Concept ;
-	skos:prefLabel	"4a3 Social Media" ;
-	dct:source	ns38:desi_4a3_socmed ;
-	skos:notation	"DESI_4A3_SOCMED" ;
-	ns11:membership	ns18:desi_4a3_socmed ;
-	skos:definition	"Enterprises that use two or more types of social media" ;
-	skos:topConceptOf	ns1:indicator .
-ns7:desi_4a4_einv	rdf:type	ns10:Indicator ,
-		skos:Concept ;
-	skos:prefLabel	"4a4 eInvoices" ;
-	dct:source	ns38:desi_4a4_einv ;
-	skos:notation	"DESI_4A4_EINV" ;
-	ns11:membership	ns18:desi_4a4_einv ;
-	skos:definition	"Enterprises sending e-invoices suitable for automatic processing" ;
-	skos:topConceptOf	ns1:indicator .
-ns7:desi_4a5_cloud	rdf:type	ns10:Indicator ,
-		skos:Concept ;
-	skos:prefLabel	"4a5 Cloud" ;
-	dct:source	ns38:desi_4a5_cloud ;
-	skos:notation	"DESI_4A5_CLOUD" ;
-	ns11:membership	ns18:desi_4a5_cloud ;
-	skos:definition	"Buy Cloud Computing services of medium-high sophistication " ;
+	skos:definition	"Businesses who have in use an ERP (enterprise resource planning) software package, to share information between different functional areas (e.g. accounting, planning, production, marketing)" ;
 	skos:topConceptOf	ns1:indicator .
 ns7:desi_4a_bd	rdf:type	ns10:Indicator ,
 		skos:Concept ;
-	skos:prefLabel	"4a Business digitization" ;
+	skos:prefLabel	"4a Business digitisation" ;
 	dct:source	ns38: ;
-	skos:notation	"DESI_4A_BD" ;
+	skos:notation	"desi_4a_bd" ;
+	skos:altLabel	"4a Business digitisation" ;
 	ns11:membership	ns20:desi_4a_bd ;
-	skos:definition	"DESI Business Digitisation sub-dimension calculated as the weighted average of the normalised indicators: 4a1 Electronic Information Sharing (20%), 4a2 RFID (20%), 4a3 Social Media (20%), 4a4 eInvoices (20%), 4a5 Cloud (20%)" ;
+	skos:definition	"DESI Business Digitisation sub-dimension calculated as the weighted average of the normalised indicators: 4a1 Electronic Information Sharing (25%), 4a2 Social media (25%), 4a3 Big data (25%) and 4a4 Cloud (25%)" ;
 	skos:note	"DESI 2014 does not comprise the indicator 4a5 Cloud, the weights of the remaining indicators are adjusted at 25% each." ;
 	skos:topConceptOf	ns1:indicator .
 ns7:desi_4b1_smeso	rdf:type	ns10:Indicator ,
 		skos:Concept ;
-	skos:prefLabel	"4b1 SMEs Selling Online" ;
+	skos:prefLabel	"4b1 SMEs selling online" ;
 	dct:source	ns38:desi_4b1_smeso ;
-	skos:notation	"DESI_4B1_SMESO" ;
+	skos:notation	"desi_4b1_smeso" ;
+	skos:altLabel	"4b1 SMEs selling online" ;
 	ns11:membership	ns18:desi_4b1_smeso ;
-	skos:definition	"Enterprises selling online (at least 1% of turnover)" ;
+	skos:definition	"SMEs selling online (at least 1% of turnover)" ;
 	skos:topConceptOf	ns1:indicator .
 ns7:desi_4b2_ecomturn	rdf:type	ns10:Indicator ,
 		skos:Concept ;
-	skos:prefLabel	"4b2 eCommerce Turnover" ;
+	skos:prefLabel	"4b2 e-Commerce turnover" ;
 	dct:source	ns38:desi_4b2_ecomturn ;
-	skos:notation	"DESI_4B2_ECOMTURN" ;
+	skos:notation	"desi_4b2_ecomturn" ;
+	skos:altLabel	"4b2 e-Commerce turnover" ;
 	ns11:membership	ns18:desi_4b2_ecomturn ;
-	skos:definition	"Enterprises' total turnover from e-commerce" ;
+	skos:definition	"SMEs total turnover from e-commerce" ;
 	skos:topConceptOf	ns1:indicator .
 ns7:desi_4b3_sellcb	rdf:type	skos:Concept ,
 		ns10:Indicator ;
-	skos:prefLabel	"4b3 Selling Online Cross-border" ;
+	skos:prefLabel	"4b3 Selling online cross-border" ;
 	dct:source	ns38:desi_4b3_sellcb ;
-	skos:notation	"DESI_4B3_SELLCB" ;
+	skos:notation	"desi_4b3_sellcb" ;
+	skos:altLabel	"4b3 Selling online cross-border" ;
 	ns11:membership	ns18:desi_4b3_sellcb ;
-	skos:definition	"Enterprises that did electronic sales to other EU countries" ;
+	skos:definition	"SMEs that carried out electronic sales to other EU countries" ;
 	skos:topConceptOf	ns1:indicator .
 ns7:desi_4b_ecomm	rdf:type	skos:Concept ,
 		ns10:Indicator ;
-	skos:prefLabel	"4b eCommerce" ;
+	skos:prefLabel	"4b e-Commerce" ;
 	dct:source	ns38: ;
-	skos:notation	"DESI_4B_ECOMM" ;
+	skos:notation	"desi_4b_ecomm" ;
+	skos:altLabel	"4b e-Commerce" ;
 	ns11:membership	ns20:desi_4b_ecomm ;
-	skos:definition	"DESI eCommerce sub-dimension calculated as the weighted average of the normalised indicators: 4b1 SMEs Selling Online (33%), 4b2 eCommerce Turnover (33%), 4b3 Selling Online Cross-border (33%)" ;
+	skos:definition	"DESI e-Commerce sub-dimension calculated as the weighted average of the normalised indicators: 4b1 SMEs Selling Online (33%), 4b2 e-Commerce Turnover (33%), 4b3 Selling Online Cross-border (33%)" ;
 	skos:topConceptOf	ns1:indicator .
 ns7:desi_5_dps	rdf:type	skos:Concept ,
 		ns10:Indicator ;
 	skos:prefLabel	"5 Digital Public Services" ;
 	dct:source	ns38: ;
-	skos:notation	"DESI_5_DPS" ;
+	skos:notation	"desi_5_dps" ;
+	skos:altLabel	"5 Digital Public Services" ;
 	ns11:membership	ns17:desi_5_dps ;
-	skos:definition	"DESI Digital Public Services Dimension comprising of eGovernment (100%)" ;
+	skos:definition	"DESI Digital Public Services Dimension calculated as the weighted average of two sub-dimensions: 5a e-Government (80%) and 5b e-Health (20%)" ;
 	skos:topConceptOf	ns1:indicator .
 ns7:desi_5a1_egovu	rdf:type	skos:Concept ,
 		ns10:Indicator ;
-	skos:prefLabel	"5a1 eGovernment Users" ;
+	skos:prefLabel	"5a1 e-Government Users" ;
 	dct:source	ns38:desi_5a1_egovu ;
-	skos:notation	"DESI_5A1_EGOVU" ;
+	skos:notation	"desi_5a1_egovu" ;
+	skos:altLabel	"5a1 e-Government Users" ;
 	ns11:membership	ns18:desi_5a1_egovu ;
-	skos:definition	"Individuals sending filled forms to public authorities, over the internet, last 12 months" ;
+	skos:definition	"People who sent filled forms to public authorities, over the internet, previous 12 months" ;
 	skos:topConceptOf	ns1:indicator .
 ns7:desi_5a2_prefform	rdf:type	skos:Concept ,
 		ns10:Indicator ;
 	skos:prefLabel	"5a2 Pre-filled Forms" ;
 	dct:source	ns38:desi_5a2_prefform ;
-	skos:notation	"DESI_5A2_PREFFORM" ;
+	skos:notation	"desi_5a2_prefform" ;
+	skos:altLabel	"5a2 Pre-filled Forms" ;
 	ns11:membership	ns18:desi_5a2_prefform ;
-	skos:definition	"Amount of data that is pre-filled in Public Services' online forms (Authentic sources Key Enabler indicator of eGovernment benchmark)" ;
+	skos:definition	"Amount of data that is pre-filled in public services' online forms" ;
 	skos:topConceptOf	ns1:indicator .
 ns7:desi_5a3_osercomp	rdf:type	skos:Concept ,
 		ns10:Indicator ;
 	skos:prefLabel	"5a3 Online Service Completion" ;
 	dct:source	ns38:desi_5a3_osercomp ;
-	skos:notation	"DESI_5A3_OSERCOMP" ;
+	skos:notation	"desi_5a3_osercomp" ;
+	skos:altLabel	"5a3 Online Service Completion" ;
 	ns11:membership	ns18:desi_5a3_osercomp ;
-	skos:definition	"Share of the steps in a Public Service life event that can be completed online (Online availability sub-indicator for User centricity of the eGovernment benchmark)" ;
-	skos:topConceptOf	ns1:indicator .
-ns7:desi_5a4_opendata	rdf:type	skos:Concept ,
-		ns10:Indicator ;
-	skos:prefLabel	"5a4 Open Data" ;
-	dct:source	ns38:desi_5a4_opendata ;
-	skos:notation	"DESI_5A4_OPENDATA" ;
-	ns11:membership	ns18:desi_5a4_opendata ;
-	skos:definition	"Score in the Open Data Maturity indicator. This composite indicator measures to what extent countries have an Open Data policy in place (including the transposition of the revised PSI Directive), the estimated political, social and economic impact of Open Data and the characteristics (functionalities, data availability and usage) of the national data portal." ;
+	skos:definition	"The share of administrative steps related to major life events (birth of a child, new residence, etc) that can be done online" ;
 	skos:topConceptOf	ns1:indicator .
 ns7:desi_5a4_psb	rdf:type	skos:Concept ,
 		ns10:Indicator ;
-	skos:prefLabel	"5a4 eGovernment Services for Businesses" ;
+	skos:prefLabel	"5a4 Digital public services for businesses" ;
 	dct:source	ns38:desi_5a4_psb ;
-	skos:notation	"DESI_5A4_PSB" ;
+	skos:notation	"desi_5a4_psb" ;
+	skos:altLabel	"5a4 Digital public services for businesses" ;
 	ns11:membership	ns18:desi_5a4_psb ;
-	skos:definition	"Share of public services needed for starting a business and for conducting regular business operations that are available online for domestic as well as for foreign users (online availability sub-indicator under the two Top-Level Benchmarks \u201CUser centricity\u201D  and \u201CCross border mobility\u201D). Services provided through a portal receive an higher score, services which provide only information receive a more limited score." ;
+	skos:definition	"The indicator broadly reflects the share of public services needed for starting a business and for conducting regular business operations that are available online for domestics as well as for foreign users. Services provided through a portal receive an higher score, services which provide only information (but have to be completed offline) receive a more limited score" ;
 	skos:topConceptOf	ns1:indicator .
 ns7:desi_5a5_opendata	rdf:type	skos:Concept ,
 		ns10:Indicator ;
 	skos:prefLabel	"5a5 Open Data" ;
 	dct:source	ns38:desi_5a5_opendata ;
-	skos:notation	"DESI_5A5_OPENDATA" ;
+	skos:notation	"desi_5a5_opendata" ;
+	skos:altLabel	"5a5 Open Data" ;
 	ns11:membership	ns18:desi_5a5_opendata ;
-	skos:definition	"Score in the Open Data Maturity indicator. This composite indicator measures to what extent countries have an Open Data policy in place (including the transposition of the revised PSI Directive), the estimated political, social and economic impact of Open Data and the characteristics (functionalities, data availability and usage) of the national data portal." ;
+	skos:definition	"This composite indicator measures to what extent countries have an Open Data policy in place (including the transposition of the revised PSI Directive), the estimated political, social and economic impact of Open Data and the characteristics (functionalities, data availability and usage) of the national data portal" ;
 	skos:topConceptOf	ns1:indicator .
 ns7:desi_5a_egov	rdf:type	skos:Concept ,
 		ns10:Indicator ;
-	skos:prefLabel	"5a eGovernment" ;
+	skos:prefLabel	"5a e-Government" ;
 	dct:source	ns38: ;
-	skos:notation	"DESI_5A_EGOV" ;
+	skos:notation	"desi_5a_egov" ;
+	skos:altLabel	"5a e-Government" ;
 	ns11:membership	ns20:desi_5a_egov ;
-	skos:definition	"DESI eGovernment sub-dimension calculated as the weighted average of the normalised indicators: 5a1 eGovernment Users (20%), 5a2 Pre-filled Forms (20%), 5a3 Online Service Completion (20%), 5a4 eGovernment for Businesses (20%) and 5a5 Open Data (20%)" ;
+	skos:definition	"DESI e-Government sub-dimension calculated as the weighted average of the normalised indicators: 5a1 e-Government Users (20%), 5a2 Pre-filled Forms (20%), 5a3 Online Service Completion (20%), 5a4 Digital public services for businesses (20%) and 5a5 Open Data (20%)" ;
 	skos:topConceptOf	ns1:indicator .
 ns7:desi_5b1_ehs	rdf:type	skos:Concept ,
 		ns10:Indicator ;
-	skos:prefLabel	"5b1 eHealth" ;
+	skos:prefLabel	"5b1 e-Health" ;
 	dct:source	ns38:desi_5b1_ehs ;
-	skos:notation	"DESI_5B1_EHS" ;
+	skos:notation	"desi_5b1_ehs" ;
+	skos:altLabel	"5b1 e-Health" ;
 	ns11:membership	ns18:desi_5b1_ehs ;
-	skos:definition	"Percentage of people who used health and care services provided online without having to go to the hospital or doctors surgery (i.e. by getting a prescription or a consultation on line)" ;
-	skos:topConceptOf	ns1:indicator .
-ns7:desi_5b1_mdataexch	rdf:type	skos:Concept ,
-		ns10:Indicator ;
-	skos:prefLabel	"5b1 Medical Data Exchange" ;
-	dct:source	ns38:desi_5b1_mdataexch ;
-	skos:notation	"DESI_5B1_MDATAEXCH" ;
-	ns11:membership	ns18:desi_5b1_mdataexch ;
-	skos:definition	"GPs using electronic networks to exchange medical data with other health care providers and professionals" ;
-	skos:topConceptOf	ns1:indicator .
-ns7:desi_5b2_epresc	rdf:type	skos:Concept ,
-		ns10:Indicator ;
-	skos:prefLabel	"5b2 ePrescription" ;
-	dct:source	ns38:desi_5b2_epresc ;
-	skos:notation	"DESI_5B2_EPRESC" ;
-	ns11:membership	ns18:desi_5b2_epresc ;
-	skos:definition	"GPs using electronic networks to transfer prescriptions to pharmacists" ;
+	skos:definition	"Percentage of people who used health and care services provided online without having to go to the hospital or doctors surgery (for example, by getting a prescription or a consultation online)" ;
 	skos:topConceptOf	ns1:indicator .
 ns7:desi_5b_ehs	rdf:type	skos:Concept ,
 		ns10:Indicator ;
-	skos:prefLabel	"5b eHealth" ;
+	skos:prefLabel	"5b e-Health" ;
 	dct:source	ns38: ;
-	skos:notation	"DESI_5B_EHS" ;
+	skos:notation	"desi_5b_ehs" ;
+	skos:altLabel	"5b e-Health" ;
 	ns11:membership	ns20:desi_5b_ehs ;
-	skos:definition	"DESI eHealth sub-dimension comprising 5b1 eHealth services(100%)" ;
+	skos:definition	"DESI e-Health sub-dimension calculated as the weighted average of the normalised indicators: 5b1 e-Health (33%), 5b2 Medical data exchange (33%) and 5b3 e-Prescription (33%)" ;
 	skos:topConceptOf	ns1:indicator .
 ns7:desi_sliders	rdf:type	skos:Concept ,
 		ns10:Indicator ;
 	skos:prefLabel	"Digital Economy and Society Index" ;
 	dct:source	ns38: ;
-	skos:notation	"DESI_SLIDERS" ;
+	skos:notation	"desi_sliders" ;
 	skos:altLabel	"DESI" ;
 	ns11:membership	ns19:desi_sliders ;
 	skos:definition	"DESI overall index, calculated as the weighted average of the five main DESI dimensions with the weights selected by the user: 1 Connectivity, 2 Human Capital, 3 Use of Internet, 4 Integration of Digital Technology and 5 Digital Public Services." ;
@@ -2542,7 +2328,7 @@ ns7:e_aws_gt1_b2c_gt10ws	rdf:type	ns10:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"Enterprises exploiting the \"Business to Consumers\" opportunities of web sales" ;
 	dct:source	ns38:estat_isoc_ec_eseln2 ;
-	skos:notation	"E_AWS_GT1_B2C_GT10WS" ;
+	skos:notation	"e_aws_gt1_b2c_gt10ws" ;
 	skos:altLabel	"Enterprises exploiting B2C opportunities of web sales " ;
 	ns11:membership	ns23:e_aws_gt1_b2c_gt10ws ;
 	skos:definition	"Enterprises where web sales are more than 1% of total turnover and B2C web sales more than 10% of the web sales" ;
@@ -2601,7 +2387,7 @@ ns7:e_cc_ge_me	rdf:type	ns10:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"Buy Cloud Computing services of medium-high sophistication" ;
 	dct:source	ns38:estat_isoc_cicce_use ;
-	skos:notation	"e_CC_GE_ME" ;
+	skos:notation	"e_cc_ge_me" ;
 	skos:altLabel	"Cloud computing services (medium-high sophistication)" ;
 	ns11:membership	ns22:e_cc_ge_me ;
 	skos:definition	"Enterprises purchasing at least one of the following cloud computing services: hosting of the enterprise's database, accounting software applications, CRM software, computing power." ;
@@ -2671,7 +2457,7 @@ ns7:e_erp1	rdf:type	skos:Concept ,
 		ns10:Indicator ;
 	skos:prefLabel	"Enterprises that share internally electronic information with an ERP" ;
 	dct:source	ns38:estat_isoc_bde15dip ;
-	skos:notation	"E_ERP1" ;
+	skos:notation	"e_erp1" ;
 	skos:altLabel	"Integration of internal processes (with an ERP)" ;
 	ns11:membership	ns22:e_erp1 ;
 	skos:definition	"Have in use an ERP-Enterprise resource planning software package, to share information between different functional areas (e.g. accounting, planning, production, marketing)." ;
@@ -2701,7 +2487,7 @@ ns7:e_gov_1_ucg	rdf:type	skos:Concept ,
 		ns10:Indicator ;
 	skos:prefLabel	"1 User Centricity" ;
 	dct:source	ns38:egov_bench12_17 ;
-	skos:notation	"e_gov_1_UCG" ;
+	skos:notation	"e_gov_1_ucg" ;
 	skos:altLabel	"1 User Centricity" ;
 	ns11:membership	ns24:e_gov_1_ucg ;
 	skos:definition	"The extent to which (information about) a public service is provided online, how the online journey is supported and if public websites are mobile friendly." ;
@@ -2711,7 +2497,7 @@ ns7:e_gov_1a_ucg_oa	rdf:type	skos:Concept ,
 		ns10:Indicator ;
 	skos:prefLabel	"1a User Centricity - Online availability" ;
 	dct:source	ns38:egov_bench12_17 ;
-	skos:notation	"e_gov_1a_UCG_OA" ;
+	skos:notation	"e_gov_1a_ucg_oa" ;
 	skos:altLabel	"1a User Centricity - Online availability" ;
 	ns11:membership	ns24:e_gov_1a_ucg_oa ;
 	skos:definition	"The extent to which a Public Service or information concerning the public service is provided online, and via a portal." ;
@@ -2720,7 +2506,7 @@ ns7:e_gov_1b_ucg_us	rdf:type	skos:Concept ,
 		ns10:Indicator ;
 	skos:prefLabel	"1b User Centricity - Usability" ;
 	dct:source	ns38:egov_bench12_17 ;
-	skos:notation	"e_gov_1b_UCG_US" ;
+	skos:notation	"e_gov_1b_ucg_us" ;
 	skos:altLabel	"1b User Centricity - Usability" ;
 	ns11:membership	ns24:e_gov_1b_ucg_us ;
 	skos:definition	"Indicates if support, help and (interactive) feedback functionalities for the online public service are available." ;
@@ -2729,7 +2515,7 @@ ns7:e_gov_1c_ucg_mf	rdf:type	skos:Concept ,
 		ns10:Indicator ;
 	skos:prefLabel	"1c User Centricity - Mobile Friendliness" ;
 	dct:source	ns38:egov_bench12_17 ;
-	skos:notation	"e_gov_1c_UCG_MF" ;
+	skos:notation	"e_gov_1c_ucg_mf" ;
 	skos:altLabel	"1c User Centricity - Mobile Friendliness" ;
 	ns11:membership	ns24:e_gov_1c_ucg_mf ;
 	skos:definition	"The ability to provide public services through a mobile-friendly interface; an interface that is \u2018adapted\u2019 to the mobile device. The data collection for this indicator is done via an automated tool. " ;
@@ -2739,7 +2525,7 @@ ns7:e_gov_1d_ucg_eu	rdf:type	skos:Concept ,
 		ns10:Indicator ;
 	skos:prefLabel	"1d User Centricity - Ease of Use" ;
 	dct:source	ns38:egov_bench12_17 ;
-	skos:notation	"e_gov_1d_UCG_EU" ;
+	skos:notation	"e_gov_1d_ucg_eu" ;
 	skos:altLabel	"1d User Centricity - Ease of Use" ;
 	ns11:membership	ns24:e_gov_1d_ucg_eu ;
 	skos:definition	"Quality assessment by researchers indicating how intuitively and smoothly the online process steps for obtaining a public service can be completed.  It assesses  the extent to which the user achieved his/her goal, understood what he/she was supposed to do for obtaining the service, he/she found the succession of the process steps logical and he/she was actively engaged to improve the service." ;
@@ -2749,7 +2535,7 @@ ns7:e_gov_1e_ucg_su	rdf:type	skos:Concept ,
 		ns10:Indicator ;
 	skos:prefLabel	"1e User Centricity - Speed of Use" ;
 	dct:source	ns38:egov_bench12_17 ;
-	skos:notation	"e_gov_1e_UCG_SU" ;
+	skos:notation	"e_gov_1e_ucg_su" ;
 	skos:altLabel	"1e User Centricity - Speed of Use" ;
 	ns11:membership	ns24:e_gov_1e_ucg_su ;
 	skos:definition	"Quality assessment researchers indicating if  the online process steps for obtaining a public service could be completed within reasonable amount of time. It assesses the extent to which citizens or businesses are able to submit information to the authority (or information was pre-filled), the time needed to obtain the service and the extent to which the services were structured efficiently.  " ;
@@ -2759,7 +2545,7 @@ ns7:e_gov_2_tg	rdf:type	skos:Concept ,
 		ns10:Indicator ;
 	skos:prefLabel	"2 Transparency" ;
 	dct:source	ns38:egov_bench12_17 ;
-	skos:notation	"e_gov_2_TG" ;
+	skos:notation	"e_gov_2_tg" ;
 	skos:altLabel	"2 Transparency" ;
 	ns11:membership	ns24:e_gov_2_tg ;
 	skos:definition	"The extent to which governments are transparent with regard to:\na) the process of public service delivery\nb) their own responsibilities and performance\nc) the personal data involved in service delivery\nThis top-level benchmark evaluates the transparency of government authorities\u2019 operations, service delivery procedures as well as with regard to the consultation of personal data by public administrations." ;
@@ -2769,7 +2555,7 @@ ns7:e_gov_2a_tg_sd	rdf:type	ns10:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"2a Transparency - Service delivery" ;
 	dct:source	ns38:egov_bench12_17 ;
-	skos:notation	"e_gov_2a_TG_SD" ;
+	skos:notation	"e_gov_2a_tg_sd" ;
 	skos:altLabel	"2a Transparency - Service delivery" ;
 	ns11:membership	ns24:e_gov_2a_tg_sd ;
 	skos:definition	"The extent to which public administrations inform users about the public service itself, setting expectations on timeliness, process and delivery for citizens and entrepreneurs from the moment a user request a service until the service is delivered." ;
@@ -2778,7 +2564,7 @@ ns7:e_gov_2b_tg_po	rdf:type	ns10:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"2b Transparency - Public organisations" ;
 	dct:source	ns38:egov_bench12_17 ;
-	skos:notation	"e_gov_2b_TG_PO" ;
+	skos:notation	"e_gov_2b_tg_po" ;
 	skos:altLabel	"2b Transparency - Public organisations" ;
 	ns11:membership	ns24:e_gov_2b_tg_po ;
 	skos:definition	"The extent to which public administrations publish information about their organisations (e.g. finance, organisational structure and responsibilities), and about their activities (e.g. the decision-making processes and regulations). " ;
@@ -2787,7 +2573,7 @@ ns7:e_gov_2c_tg_pd	rdf:type	ns10:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"2c Transparency - Personal data" ;
 	dct:source	ns38:egov_bench12_17 ;
-	skos:notation	"e_gov_2c_TG_PD" ;
+	skos:notation	"e_gov_2c_tg_pd" ;
 	skos:altLabel	"2c Transparency - Personal data" ;
 	ns11:membership	ns24:e_gov_2c_tg_pd ;
 	skos:definition	"The extent to which governments proactively inform users about how, when, and by whom their personal data is being processed" ;
@@ -2797,7 +2583,7 @@ ns7:e_gov_3_cm	rdf:type	ns10:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"3 Citizen Mobility" ;
 	dct:source	ns38:egov_bench12_17 ;
-	skos:notation	"e_gov_3_CM" ;
+	skos:notation	"e_gov_3_cm" ;
 	skos:altLabel	"3 Citizen Mobility" ;
 	ns11:membership	ns24:e_gov_3_cm ;
 	skos:definition	"The extent to which public services that are aimed at foreign  citizens are available online, usable, and implement eID and eDocument capabilities" ;
@@ -2807,7 +2593,7 @@ ns7:e_gov_3a_cm_oa	rdf:type	ns10:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"3a Citizen Mobility - Online availability" ;
 	dct:source	ns38:egov_bench12_17 ;
-	skos:notation	"e_gov_3a_CM_OA" ;
+	skos:notation	"e_gov_3a_cm_oa" ;
 	skos:altLabel	"3a Citizen Mobility - Online availability" ;
 	ns11:membership	ns24:e_gov_3a_cm_oa ;
 	skos:definition	"The extent to which a public service (or information concerning the service) aimed at foreign citizens  is available online." ;
@@ -2816,7 +2602,7 @@ ns7:e_gov_3b_cm_us	rdf:type	ns10:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"3b Citizen Mobility - Usability" ;
 	dct:source	ns38:egov_bench12_17 ;
-	skos:notation	"e_gov_3b_CM_US" ;
+	skos:notation	"e_gov_3b_cm_us" ;
 	skos:altLabel	"3b Citizen Mobility - Usability" ;
 	ns11:membership	ns24:e_gov_3b_cm_us ;
 	skos:definition	"Online support and help features on services aimed at foreign citizens." ;
@@ -2825,7 +2611,7 @@ ns7:e_gov_3c_cm_eidcb	rdf:type	ns10:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"3c Citizen Mobility - eID Cross Borders" ;
 	dct:source	ns38:egov_bench12_17 ;
-	skos:notation	"e_gov_3c_CM_EIDCB" ;
+	skos:notation	"e_gov_3c_cm_eidcb" ;
 	skos:altLabel	"3c Citizen Mobility - eID Cross Borders" ;
 	ns11:membership	ns24:e_gov_3c_cm_eidcb ;
 	skos:definition	"The possibility of using a foreign eID for accessing citizen services." ;
@@ -2835,7 +2621,7 @@ ns7:e_gov_3d_cm_edoccb	rdf:type	ns10:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"3d Citizen Mobility - eDocuments Cross Borders" ;
 	dct:source	ns38:egov_bench12_17 ;
-	skos:notation	"e_gov_3d_CM_EDOCCB" ;
+	skos:notation	"e_gov_3d_cm_edoccb" ;
 	skos:altLabel	"3d Citizen Mobility - eDocuments Cross Borders" ;
 	ns11:membership	ns24:e_gov_3d_cm_edoccb ;
 	skos:definition	"The possibility of sending/receiving eDocuments for a foreigner using citizen services" ;
@@ -2845,7 +2631,7 @@ ns7:e_gov_3e_cm_eu	rdf:type	ns10:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"3e Citizen Mobility - Ease of Use" ;
 	dct:source	ns38:egov_bench12_17 ;
-	skos:notation	"e_gov_3e_CM_EU" ;
+	skos:notation	"e_gov_3e_cm_eu" ;
 	skos:altLabel	"3e Citizen Mobility - Ease of Use" ;
 	ns11:membership	ns24:e_gov_3e_cm_eu ;
 	skos:definition	"Quality assessment by researchers indicating how intuitively and smoothly the online process steps for obtaining a public service can be completed by a foreign citizen.  It assesses  the extent to which the user achieved his/her goal, understood what he/she was supposed to do for obtaining the service, he/she found the succession of the process steps logical and he/she was actively engaged to improve the service." ;
@@ -2855,7 +2641,7 @@ ns7:e_gov_3f_cm_su	rdf:type	ns10:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"3f Citizen Mobility - Speed of Use" ;
 	dct:source	ns38:egov_bench12_17 ;
-	skos:notation	"e_gov_3f_CM_SU" ;
+	skos:notation	"e_gov_3f_cm_su" ;
 	skos:altLabel	"3f Citizen Mobility - Speed of Use" ;
 	ns11:membership	ns24:e_gov_3f_cm_su ;
 	skos:definition	"Quality assessment researchers indicating if  the online process steps for obtaining a public service could be completed within reasonable amount of time by a foreign citizen. It assesses the extent to which (foreign) citizens are able to submit information to the authority (or information was pre-filled), the time needed to obtain the service and the extent to which the services were structured efficiently.  " ;
@@ -2865,7 +2651,7 @@ ns7:e_gov_4_bm	rdf:type	ns10:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"4 Business Mobility" ;
 	dct:source	ns38:egov_bench12_17 ;
-	skos:notation	"e_gov_4_BM" ;
+	skos:notation	"e_gov_4_bm" ;
 	skos:altLabel	"4 Business Mobility" ;
 	ns11:membership	ns24:e_gov_4_bm ;
 	skos:definition	"The extent to which public services that are aimed at foreign  businesses are available online, usable, and implement eID and eDocument capabilities" ;
@@ -2875,7 +2661,7 @@ ns7:e_gov_4a_bm_oa	rdf:type	ns10:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"4a Business Mobility - Online availability" ;
 	dct:source	ns38:egov_bench12_17 ;
-	skos:notation	"e_gov_4a_BM_OA" ;
+	skos:notation	"e_gov_4a_bm_oa" ;
 	skos:altLabel	"4a Business Mobility - Online availability" ;
 	ns11:membership	ns24:e_gov_4a_bm_oa ;
 	skos:definition	"The extent to which a public service (or information concerning the service) aimed at foreign businesses  is available online." ;
@@ -2884,7 +2670,7 @@ ns7:e_gov_4c_bm_eidcb	rdf:type	ns10:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"4c Business Mobility - eID Cross Borders" ;
 	dct:source	ns38:egov_bench12_17 ;
-	skos:notation	"e_gov_4c_BM_EIDCB" ;
+	skos:notation	"e_gov_4c_bm_eidcb" ;
 	skos:altLabel	"4e Business Mobility - eID Cross Borders" ;
 	ns11:membership	ns24:e_gov_4c_bm_eidcb ;
 	skos:definition	"The possibility of using a foreign eID for accessing business services." ;
@@ -2894,7 +2680,7 @@ ns7:e_gov_4d_bm_edoccb	rdf:type	ns10:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"4d Business Mobility - eDocuments Cross Borders" ;
 	dct:source	ns38:egov_bench12_17 ;
-	skos:notation	"e_gov_4d_BM_EDOCCB" ;
+	skos:notation	"e_gov_4d_bm_edoccb" ;
 	skos:altLabel	"4f Business Mobility - eDocuments Cross Borders" ;
 	ns11:membership	ns24:e_gov_4d_bm_edoccb ;
 	skos:definition	"The possibility of sending/receiving eDocuments for a foreigner using business services" ;
@@ -2904,7 +2690,7 @@ ns7:e_gov_4e_bm_eu	rdf:type	ns10:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"4e Business Mobility - Ease of Use" ;
 	dct:source	ns38:egov_bench12_17 ;
-	skos:notation	"e_gov_4e_BM_EU" ;
+	skos:notation	"e_gov_4e_bm_eu" ;
 	skos:altLabel	"4g Business Mobility - Ease of Use" ;
 	ns11:membership	ns24:e_gov_4e_bm_eu ;
 	skos:definition	"Quality assessment by researchers indicating how intuitively and smoothly the online process steps for obtaining a public service can be completed by a foreign business.  It assesses  the extent to which the user achieved his/her goal, understood what he/she was supposed to do for obtaining the service, he/she found the succession of the process steps logical and he/she was actively engaged to improve the service." ;
@@ -2914,7 +2700,7 @@ ns7:e_gov_4f_bm_su	rdf:type	ns10:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"4f Business Mobility - Speed of Use" ;
 	dct:source	ns38:egov_bench12_17 ;
-	skos:notation	"e_gov_4f_BM_SU" ;
+	skos:notation	"e_gov_4f_bm_su" ;
 	skos:altLabel	"4h Business Mobility - Speed of Use" ;
 	ns11:membership	ns24:e_gov_4f_bm_su ;
 	skos:definition	"Quality assessment researchers indicating if  the online process steps for obtaining a public service could be completed within reasonable amount of time by a foreign business. It assesses the extent to which (foreign) businesses are able to submit information to the authority (or information was pre-filled), the time needed to obtain the service and the extent to which the services were structured efficiently.  " ;
@@ -2924,7 +2710,7 @@ ns7:e_gov_5_ke	rdf:type	skos:Concept ,
 		ns10:Indicator ;
 	skos:prefLabel	"5 Key Enablers" ;
 	dct:source	ns38:egov_bench12_17 ;
-	skos:notation	"e_gov_5_KE" ;
+	skos:notation	"e_gov_5_ke" ;
 	skos:altLabel	"5 Key Enablers" ;
 	ns11:membership	ns24:e_gov_5_ke ;
 	skos:definition	"The extent to which technical pre-conditions for eGovernment service provision are used. The key enablers used for measuring the quality of the services to businesses and citizens are:\na) Electronic Identification (eID)\nb) Electronic Documents (eDocuments)\nc) Authentic Sources\nd) Digital Post\ne) eSafe (now discontinued)\nf) Single Sign On (SSO) (now discontinued)" ;
@@ -2934,7 +2720,7 @@ ns7:e_gov_5a_ke_eid	rdf:type	skos:Concept ,
 		ns10:Indicator ;
 	skos:prefLabel	"5a Key Enablers - eID" ;
 	dct:source	ns38:egov_bench12_17 ;
-	skos:notation	"e_gov_5a_KE_EID" ;
+	skos:notation	"e_gov_5a_ke_eid" ;
 	skos:altLabel	"5a Key Enablers - eID" ;
 	ns11:membership	ns24:e_gov_5a_ke_eid ;
 	skos:definition	"Electronic Identification (eID) is a government-issued document for online identification, and authentication." ;
@@ -2943,7 +2729,7 @@ ns7:e_gov_5b_ke_edoc	rdf:type	skos:Concept ,
 		ns10:Indicator ;
 	skos:prefLabel	"5b Key Enablers - eDocuments" ;
 	dct:source	ns38:egov_bench12_17 ;
-	skos:notation	"e_gov_5b_KE_EDOC" ;
+	skos:notation	"e_gov_5b_ke_edoc" ;
 	skos:altLabel	"5b Key Enablers - eDocuments" ;
 	ns11:membership	ns24:e_gov_5b_ke_edoc ;
 	skos:definition	"A document which has been authenticated by its issuer using any means recognised under applicable national law, specifically through the use of electronic signatures, e.g. not a regular pdf or word document." ;
@@ -2952,7 +2738,7 @@ ns7:e_gov_5c_ke_as	rdf:type	skos:Concept ,
 		ns10:Indicator ;
 	skos:prefLabel	"5c Key Enablers - Authentic sources" ;
 	dct:source	ns38:egov_bench12_17 ;
-	skos:notation	"e_gov_5c_KE_AS" ;
+	skos:notation	"e_gov_5c_ke_as" ;
 	skos:altLabel	"5c Key Enablers - Authentic sources" ;
 	ns11:membership	ns24:e_gov_5c_ke_as ;
 	skos:definition	"Authentic Sources are base registries used by governments to automatically validate or fetch data relating to citizens or businesses." ;
@@ -2961,7 +2747,7 @@ ns7:e_gov_5d_ke_dp	rdf:type	skos:Concept ,
 		ns10:Indicator ;
 	skos:prefLabel	"5d Key Enablers - Digital Post" ;
 	dct:source	ns38:egov_bench12_17 ;
-	skos:notation	"e_gov_5d_KE_DP" ;
+	skos:notation	"e_gov_5d_ke_dp" ;
 	skos:altLabel	"5d Key Enablers - Digital Post" ;
 	ns11:membership	ns24:e_gov_5d_ke_dp ;
 	skos:definition	"Assesses whether public authorities allow citizens to receive communications digitally only, and hence reducing paper mailings. Digital Post refers to the possibility that governments communicate electronically-only with citizens or entrepreneurs through e.g. personal mailboxes or other digital post solutions." ;
@@ -2971,7 +2757,7 @@ ns7:e_gov_5e_ke_esafe	rdf:type	skos:Concept ,
 		ns10:Indicator ;
 	skos:prefLabel	"5e Key Enablers - eSafe" ;
 	dct:source	ns38:egov_bench12_17 ;
-	skos:notation	"e_gov_5e_KE_ESAFE" ;
+	skos:notation	"e_gov_5e_ke_esafe" ;
 	skos:altLabel	"5e Key Enablers - eSafe" ;
 	ns11:membership	ns24:e_gov_5e_ke_esafe ;
 	skos:definition	"A virtual repository for storing, administering and sharing personal electronic data and documents. It can be used to securely store personal documents in public service processes." ;
@@ -2981,7 +2767,7 @@ ns7:e_gov_5f_ke_sso	rdf:type	skos:Concept ,
 		ns10:Indicator ;
 	skos:prefLabel	"5f Key Enablers - Single Sign On (SSO)" ;
 	dct:source	ns38:egov_bench12_17 ;
-	skos:notation	"e_gov_5f_KE_SSO" ;
+	skos:notation	"e_gov_5f_ke_sso" ;
 	skos:altLabel	"5f Key Enablers - Single Sign On (SSO)" ;
 	ns11:membership	ns24:e_gov_5f_ke_sso ;
 	skos:definition	"A functionality that allows users to get access to multiple websites without the need to log in multiple times." ;
@@ -3128,7 +2914,7 @@ ns7:e_it_mext	rdf:type	ns10:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"Enterprises where ICT functions are mainly performed by external suppliers" ;
 	dct:source	ns38:estat_isoc_ci_eu_en2 ;
-	skos:notation	"E_IT_MEXT" ;
+	skos:notation	"e_it_mext" ;
 	skos:altLabel	"Enterprises where ICT functions are mainly performed by external suppliers" ;
 	ns11:membership	ns29:e_it_mext ;
 	skos:definition	"The majority of ICT functions, out of a list of seven, are mainly performed by external suppliers and not by own employees or by ICT specialist in parent or affiliate enterprises. The functions include: maintenance of ICT infrastructures, support for office software, development and support for web solutions or business management software/systems (e.g. ERP, CRM, HR, databases), security and data protection." ;
@@ -3138,7 +2924,7 @@ ns7:e_itsp2	rdf:type	ns10:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"Enterprises employing ICT specialists" ;
 	dct:source	ns38:estat_isoc_ci_eu_en2 ;
-	skos:notation	"E_ITSP2" ;
+	skos:notation	"e_itsp2" ;
 	skos:altLabel	"Enterprises employing ICT specialists" ;
 	ns11:membership	ns29:e_itsp2 ;
 	skos:definition	"ICT specialists are employees for whom ICT is the main job. For example, to develop, operate or maintain ICT systems or applications." ;
@@ -3148,7 +2934,7 @@ ns7:e_itspvac2	rdf:type	ns10:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"Enterprises reporting hard-to-fill vacancies for jobs requiring ICT specialist skills" ;
 	dct:source	ns38:estat_isoc_ci_eu_en2 ;
-	skos:notation	"E_ITSPVAC2" ;
+	skos:notation	"e_itspvac2" ;
 	skos:altLabel	"Enterprises reporting hard-to-fill vacancies for ICT specialist" ;
 	ns11:membership	ns29:e_itspvac2 ;
 	skos:definition	" Hard-to-fill vacancies during the previous calendar year refer to a range of situations in which enterprises find it difficult to find persons with particular skills (hard-to-fill vacancies due to skills shortage)." ;
@@ -3158,7 +2944,7 @@ ns7:e_itt2	rdf:type	ns10:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"Enterprise provided training to their personnel to develop/upgrade their ICT skills" ;
 	dct:source	ns38:estat_isoc_ske_ittn2 ;
-	skos:notation	"E_ITT2" ;
+	skos:notation	"e_itt2" ;
 	skos:altLabel	"Enterprise provided training to their personnel to develop/upgrade their ICT skills" ;
 	ns11:membership	ns29:e_itt2 ;
 	skos:definition	"Detailed results are available in the Eurostat table <a href=\"http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=isoc_ske_ittn2&lang=en\">ISOC_SKE_ITTN2</a>." ;
@@ -3223,7 +3009,7 @@ ns7:e_secpol1	rdf:type	ns10:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"Enterprises with a formally defined ICT security policy" ;
 	dct:source	ns38:estat_isoc_ci_eu_en2 ;
-	skos:notation	"E_SECPOL1" ;
+	skos:notation	"e_secpol1" ;
 	skos:altLabel	"Enterprises with a formally defined ICT security policy" ;
 	ns11:membership	ns35:e_secpol1 ;
 	skos:topConceptOf	ns1:indicator .
@@ -3269,7 +3055,7 @@ ns7:e_web	rdf:type	skos:Concept ,
 		ns10:Indicator ;
 	skos:prefLabel	"Enterprises having a web site or homepage" ;
 	dct:source	ns38:estat_isoc_ci_eu_en2 ;
-	skos:notation	"E_WEB" ;
+	skos:notation	"e_web" ;
 	skos:altLabel	"Enterprises having a web site or homepage" ;
 	ns11:membership	ns22:e_web ;
 	skos:note	"Enterprises with 10 or more persons employed. All manufacturing and service sectors, excluding the financial sector. Breaks in series because until 2008 economic activities according to NACE Rev 1.1 and from 2009 data are based on NACE Rev.2. Since 2010 data include also sector S95.1-Repair of computers and communication equipment." ;
@@ -3335,7 +3121,7 @@ ns7:eoa_tvchannels_tarfor	rdf:type	skos:Concept ,
 		ns10:Indicator ;
 	skos:prefLabel	"Linear TV channels established in a Member State and targeting foreign countries" ;
 	dct:source	ns38:eoa_yearbook2014 ;
-	skos:notation	"eoa_Tvchannels_tarfor" ;
+	skos:notation	"eoa_tvchannels_tarfor" ;
 	skos:altLabel	"Linear TV channels targeting foreign countries" ;
 	ns11:membership	ns9:eoa_tvchannels_tarfor ;
 	skos:note	"page 125" ;
@@ -3344,7 +3130,7 @@ ns7:eoa_vod_estab_otheu	rdf:type	skos:Concept ,
 		ns10:Indicator ;
 	skos:prefLabel	"Video on Demand services available in the country but established in another EU country" ;
 	dct:source	ns38:eoa_smart12-26 ;
-	skos:notation	"eoa_VoD_estab_otheu" ;
+	skos:notation	"eoa_vod_estab_otheu" ;
 	skos:altLabel	"VoD services available, established in another EU country" ;
 	ns11:membership	ns9:eoa_vod_estab_otheu ;
 	skos:definition	"Video on demand (VoD) services (all genre except adult) available in a Member State, but established in another EU country" ;
@@ -3380,7 +3166,7 @@ ns7:foa_cit	rdf:type	ns10:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"Basic public services for citizens, which are fully available online" ;
 	dct:source	ns38:capgemini ;
-	skos:notation	"FOA_cit" ;
+	skos:notation	"foa_cit" ;
 	skos:altLabel	"Availability of eGovernment services - citizens" ;
 	ns11:membership	ns21:foa_cit ;
 	skos:definition	"Percentage of public services for citizens out of a basket of 12 basic services (income taxes, job search, social security benefits, personal documents, car registration, building permissions, declaration to police, public libraries, certificates, enrolment in higher education, announcement of moving, health-related services) for which the entire procedure can be completed online" ;
@@ -3390,7 +3176,7 @@ ns7:foa_ent	rdf:type	ns10:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"Basic public services for enterprises, which are fully available online" ;
 	dct:source	ns38:capgemini ;
-	skos:notation	"FOA_ent" ;
+	skos:notation	"foa_ent" ;
 	skos:altLabel	"Availability of eGovernment services - enterprises" ;
 	ns11:membership	ns21:foa_ent ;
 	skos:definition	"Percentage of public services for enterprises out of a basket of 8 basic services (social contributions, corporate tax, VAT, company registration, statistical data, customs declaration, environment-related permits, public procurement) for which the entire procedure can be completed online" ;
@@ -3400,7 +3186,7 @@ ns7:fp7_ict_artic	rdf:type	ns10:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"Articles resulting from FP7 funded projects in ICT" ;
 	dct:source	ns38:smart11_39 ;
-	skos:notation	"FP7_ICT_artic" ;
+	skos:notation	"fp7_ict_artic" ;
 	skos:altLabel	"Articles from FP7 ICT projects" ;
 	ns11:membership	ns33:fp7_ict_artic ;
 	skos:definition	"Articles in journals reported through annual surveys of ongoing ICT research projects carried out by the European Commission - DG CONNECT. Outputs reported by participants have been validated in Elsevier\u2019s Scopus databases by UNU-MERIT \u2013 Maastricht University under the service contract SMART 2011/0039 funded by the European Commission - DG CONNECT" ;
@@ -3410,7 +3196,7 @@ ns7:fp7_ict_pat	rdf:type	ns10:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"Patents resulting from FP7 funded projects in ICT" ;
 	dct:source	ns38:smart11_39 ;
-	skos:notation	"FP7_ICT_pat" ;
+	skos:notation	"fp7_ict_pat" ;
 	skos:altLabel	"Patents from FP7 ICT projects" ;
 	ns11:membership	ns33:fp7_ict_pat ;
 	skos:definition	"Patents reported through annual surveys of ongoing ICT research projects carried out by the European Commission - DG CONNECT. Outputs reported by participants have been validated in EPO PATSTAT and Espacenet databases by UNU-MERIT \u2013 Maastricht University under the service contract SMART 2011/0039 funded by the European Commission - DG CONNECT" ;
@@ -3420,7 +3206,7 @@ ns7:fp7_ict_pub	rdf:type	ns10:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"Publications resulting from FP7 funded projects in ICT" ;
 	dct:source	ns38:smart11_39 ;
-	skos:notation	"FP7_ICT_pub" ;
+	skos:notation	"fp7_ict_pub" ;
 	skos:altLabel	"Publications from FP7 ICT projects" ;
 	ns11:membership	ns33:fp7_ict_pub ;
 	skos:definition	"Publications reported through annual surveys of ongoing ICT research projects carried out by the European Commission - DG CONNECT. Outputs reported by participants have been validated in Elsevier\u2019s Scopus databases by UNU-MERIT \u2013 Maastricht University under the service contract SMART 2011/0039 funded by the European Commission - DG CONNECT. \n* It includes articles in journals and trade journals, conference proceedings, books, book series" ;
@@ -3430,7 +3216,7 @@ ns7:fp7ict_afxp	rdf:type	ns10:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"Average EC funding per participation in FP7-ICT projects" ;
 	dct:source	ns38:mis ;
-	skos:notation	"FP7ICT_afxp" ;
+	skos:notation	"fp7ict_afxp" ;
 	skos:altLabel	"FP7 Average EC funding per participation" ;
 	ns11:membership	ns33:fp7ict_afxp ;
 	skos:definition	"EC funding is the funding committed by the European Commission through grant agreements signed during the reference year. The indicator measure the average EC funding attributed to each partner participation in a specific project." ;
@@ -3439,7 +3225,7 @@ ns7:fp7ict_cofin	rdf:type	ns10:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"FP7 EC effective cofinancing rate" ;
 	dct:source	ns38:mis ;
-	skos:notation	"FP7ICT_cofin" ;
+	skos:notation	"fp7ict_cofin" ;
 	skos:altLabel	"FP7 EC cofinancing rate" ;
 	ns11:membership	ns33:fp7ict_cofin ;
 	skos:definition	"The cofinancing rate is the % of projects total costs which are covered by EC funding grants. Figures include all partners and third parties (as subcontractors)." ;
@@ -3448,7 +3234,7 @@ ns7:fp7ict_ec_funding	rdf:type	ns10:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"EC funding to participants in FP7-ICT projects" ;
 	dct:source	ns38:mis ;
-	skos:notation	"FP7ICT_EC_funding" ;
+	skos:notation	"fp7ict_ec_funding" ;
 	skos:altLabel	"EC funding to FP7-ICT projects" ;
 	ns11:membership	ns33:fp7ict_ec_funding ;
 	skos:definition	"Value of European Commission funding committed through grant agreements signed, during the reference year, with participants in ICT research projects under the EU's Seventh Framework Programme (FP7). Projects under negotiation are not included." ;
@@ -3457,7 +3243,7 @@ ns7:fp7ict_ec_funding_prc	rdf:type	ns10:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"EC funding to private commercial organisations in FP7-ICT projects" ;
 	dct:source	ns38:mis ;
-	skos:notation	"FP7ICT_EC_funding_PRC" ;
+	skos:notation	"fp7ict_ec_funding_prc" ;
 	skos:altLabel	"EC funding to private commercial organisations in FP7-ICT projects" ;
 	ns11:membership	ns33:fp7ict_ec_funding_prc ;
 	skos:definition	"Value of European Commission funding committed through grant agreements signed, during the reference year, with private commercial organisations (SMEs and large enterprises) participating in ICT research projects under the EU's Seventh Framework Programme (FP7) - Cooperation and Capacities (e-infrastructures). " ;
@@ -3466,7 +3252,7 @@ ns7:fp7ict_ec_funding_smes	rdf:type	ns10:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"EC funding granted to SMEs in FP7-ICT projects" ;
 	dct:source	ns38:mis ;
-	skos:notation	"FP7ICT_EC_funding_SMEs" ;
+	skos:notation	"fp7ict_ec_funding_smes" ;
 	skos:altLabel	"EC funding to SMEs in FP7-ICT projects" ;
 	ns11:membership	ns33:fp7ict_ec_funding_smes ;
 	skos:definition	"Value of European Commission funding committed through grant agreements signed, during the reference year, with SMEs participating in ICT research projects under the EU's Seventh Framework Programme (FP7) - Cooperation and Capacities (e-infrastructures). " ;
@@ -3475,7 +3261,7 @@ ns7:fp7ict_newentry	rdf:type	ns10:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"Number of distinct organisations participating in FP7-ICT projects for the first time" ;
 	dct:source	ns38:mis ;
-	skos:notation	"FP7ICT_newENTRY" ;
+	skos:notation	"fp7ict_newentry" ;
 	skos:altLabel	"Number of NEW organisations in FP7-ICT projects" ;
 	ns11:membership	ns33:fp7ict_newentry ;
 	skos:definition	"The first call of FP7 ICT was in 2007 and all participants are considered as new ones. For each of the following years are counted only the organisations participating for the first time in FP7 ICT calls." ;
@@ -3484,7 +3270,7 @@ ns7:fp7ict_organisations	rdf:type	ns10:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"Number of distinct organisations participating in FP7-ICT projects" ;
 	dct:source	ns38:mis ;
-	skos:notation	"FP7ICT_organisations" ;
+	skos:notation	"fp7ict_organisations" ;
 	skos:altLabel	"Number of participants in FP7-ICT projects" ;
 	ns11:membership	ns33:fp7ict_organisations ;
 	skos:definition	"Organisations participating in FP7 ICT calls for research projects (Cooperation and Capacities and e-infrastructures programs) during the reference year." ;
@@ -3493,7 +3279,7 @@ ns7:fp7ict_particip	rdf:type	ns10:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"Total number of participations in FP7-ICT projects" ;
 	dct:source	ns38:mis ;
-	skos:notation	"FP7ICT_particip" ;
+	skos:notation	"fp7ict_particip" ;
 	skos:altLabel	"FP7 Total number of participations" ;
 	ns11:membership	ns33:fp7ict_particip ;
 	skos:definition	"Each project has multiple partners participating and each partner can participate in multiple projects. For each participation there could be an EC funding (some participations do not receive EC funding). Third parties are included as partners, receiveing or not EU funding." ;
@@ -3502,7 +3288,7 @@ ns7:fp7ict_particip_prc	rdf:type	ns10:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"Total number of participations  by private commercial organisations in FP7-ICT projects" ;
 	dct:source	ns38:mis ;
-	skos:notation	"FP7ICT_particip_PRC" ;
+	skos:notation	"fp7ict_particip_prc" ;
 	skos:altLabel	"Total number of private commercial organisations'participations in FP7-ICT projects" ;
 	ns11:membership	ns33:fp7ict_particip_prc ;
 	skos:definition	"Total number of participations by private commercial organisations (SMEs and large enterprises)in ICT research projects under the EU's Seventh Framework Programme (FP7) - Cooperation and Capacities (e-infrastructures). Each project has multiple partners participating and each partner can participate in multiple projects. " ;
@@ -3511,7 +3297,7 @@ ns7:fp7ict_particip_smes	rdf:type	ns10:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"Total number of participations by SMEs in FP7-ICT projects" ;
 	dct:source	ns38:mis ;
-	skos:notation	"FP7ICT_particip_SMEs" ;
+	skos:notation	"fp7ict_particip_smes" ;
 	skos:altLabel	"Total number of SMEs' participations in FP7-ICT projects" ;
 	ns11:membership	ns33:fp7ict_particip_smes ;
 	skos:definition	"Total number by participations of SMEs in ICT research projects under the EU's Seventh Framework Programme (FP7) - Cooperation and Capacities (e-infrastructures). Each project has multiple partners participating and each partner can participate in multiple projects. " ;
@@ -3520,7 +3306,7 @@ ns7:fp7ict_totcost	rdf:type	ns10:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"Total cost of FP7-ICT projects" ;
 	dct:source	ns38:mis ;
-	skos:notation	"FP7ICT_TOTcost" ;
+	skos:notation	"fp7ict_totcost" ;
 	skos:altLabel	"Total cost of FP7-ICT projects" ;
 	ns11:membership	ns33:fp7ict_totcost ;
 	skos:definition	"Value of the total cost of the ICT research projects for which a grant agreement was signed in the reference year, under the EU's Seventh Framework Programme (FP7). Total cost of the project is the sum of participants' total costs." ;
@@ -3549,7 +3335,7 @@ ns7:gdp	rdf:type	skos:Concept ,
 		ns10:Indicator ;
 	skos:prefLabel	"GDP - Gross domestic product at market prices" ;
 	dct:source	ns38:estat_nama_gdp_c ;
-	skos:notation	"GDP" ;
+	skos:notation	"gdp" ;
 	skos:altLabel	"GDP at market prices" ;
 	ns11:membership	ns13:gdp ;
 	skos:definition	"Eurostat estimation of GDP and main components - Current prices [nama_gdp_c]" ;
@@ -3558,7 +3344,7 @@ ns7:h2020_cofin	rdf:type	skos:Concept ,
 		ns10:Indicator ;
 	skos:prefLabel	"H2020 effective cofinancing rate" ;
 	dct:source	ns38:corda ;
-	skos:notation	"H2020_cofin" ;
+	skos:notation	"h2020_cofin" ;
 	skos:altLabel	"H2020 cofinancing rate" ;
 	ns11:membership	ns33:h2020_cofin ;
 	skos:definition	"The cofinancing rate is the % of projects total costs which are covered by EC funding grants. " ;
@@ -3567,7 +3353,7 @@ ns7:h2020_ec_funding	rdf:type	skos:Concept ,
 		ns10:Indicator ;
 	skos:prefLabel	"Total EC funding to participants in H2020 ICT projects" ;
 	dct:source	ns38:corda ;
-	skos:notation	"H2020_EC_funding" ;
+	skos:notation	"h2020_ec_funding" ;
 	skos:altLabel	"Total EC funding to H2020 ICT projects" ;
 	ns11:membership	ns33:h2020_ec_funding ;
 	skos:definition	"Value of European Commission funding committed through grant agreements signed, during the reference year, with participants in ICT research projects under Horizon 2020 (LEIT ICT, Excellent Science, Societal Challenges 1, 6 and 7). Projects under negotiation are not included." ;
@@ -3576,7 +3362,7 @@ ns7:h2020_newentry	rdf:type	skos:Concept ,
 		ns10:Indicator ;
 	skos:prefLabel	"Number of distinct organisations participating in H2020 ICT projects for the first time" ;
 	dct:source	ns38:corda ;
-	skos:notation	"H2020_newENTRY" ;
+	skos:notation	"h2020_newentry" ;
 	skos:altLabel	"Number of new organisations in H2020 projects" ;
 	ns11:membership	ns33:h2020_newentry ;
 	skos:definition	"Organisations participating for the first time in H2020 ICT calls, and which have not participated in FP7 ICT calls during 2007-2013 period." ;
@@ -3585,7 +3371,7 @@ ns7:h2020_organisations	rdf:type	skos:Concept ,
 		ns10:Indicator ;
 	skos:prefLabel	"Number of distinct organisations participating in H2020 ICT projects" ;
 	dct:source	ns38:corda ;
-	skos:notation	"H2020_organisations" ;
+	skos:notation	"h2020_organisations" ;
 	skos:altLabel	"H2020 Total number of organisations" ;
 	ns11:membership	ns33:h2020_organisations ;
 	skos:definition	"Organisations participating in H2020 ICT projects during the reference year." ;
@@ -3594,7 +3380,7 @@ ns7:h2020_particip	rdf:type	skos:Concept ,
 		ns10:Indicator ;
 	skos:prefLabel	"Total number of participations in H2020 ICT projects" ;
 	dct:source	ns38:corda ;
-	skos:notation	"H2020_particip" ;
+	skos:notation	"h2020_particip" ;
 	skos:altLabel	"H2020 Total number of participations" ;
 	ns11:membership	ns33:h2020_particip ;
 	skos:definition	"Each project has multiple partners participating and each partner can participate in multiple projects. For each participation there could be an EC funding (some participations do not receive EC funding). " ;
@@ -3603,7 +3389,7 @@ ns7:h2020_totcost	rdf:type	skos:Concept ,
 		ns10:Indicator ;
 	skos:prefLabel	"Total cost of H2020 ICT projects" ;
 	dct:source	ns38:corda ;
-	skos:notation	"H2020_TOTcost" ;
+	skos:notation	"h2020_totcost" ;
 	skos:altLabel	"Total cost of H2020 ICT projects" ;
 	ns11:membership	ns33:h2020_totcost ;
 	skos:definition	"Value of the total cost of the ICT research projects for which a grant agreement was signed in the reference year, under the Horizon 2020 LEIT ICT, Excellent Science, Societal Challenges 1, 6 and 7). Total cost of the project is the sum of participants' total costs." ;
@@ -3612,7 +3398,7 @@ ns7:h2020ict_afxp	rdf:type	skos:Concept ,
 		ns10:Indicator ;
 	skos:prefLabel	"Average EC funding per participation in H2020 ICT projects" ;
 	dct:source	ns38:corda ;
-	skos:notation	"H2020ICT_afxp" ;
+	skos:notation	"h2020ict_afxp" ;
 	skos:altLabel	"H2020 Average EC funding per participation" ;
 	ns11:membership	ns33:h2020ict_afxp ;
 	skos:definition	"EC funding is the funding committed by the European Commission through grant agreements signed during the reference year. The indicator measures the average EC funding attributed to each partner participation in a specific project." ;
@@ -3659,7 +3445,7 @@ ns7:hie_use_ex_admin	rdf:type	skos:Concept ,
 		ns10:Indicator ;
 	skos:prefLabel	"GPs exchanging medical patient data with other healthcare providers and professionals" ;
 	dct:source	ns38:bench_gp ;
-	skos:notation	"HIE_use_ex_admin" ;
+	skos:notation	"hie_use_ex_admin" ;
 	skos:altLabel	"GPs exchanging medical patient data with other healthcare providers and professionals" ;
 	ns11:membership	ns25:hie_use_ex_admin ;
 	skos:definition	"Percentatge of general practitioners using electronic networks to exchange medical patient data with other healthcare providers and professionals" ;
@@ -3668,7 +3454,7 @@ ns7:hie_use_pharm	rdf:type	skos:Concept ,
 		ns10:Indicator ;
 	skos:prefLabel	"GPs using electronic networks to transfer prescriptions to pharmacists" ;
 	dct:source	ns38:bench_gp ;
-	skos:notation	"HIE_use_pharm" ;
+	skos:notation	"hie_use_pharm" ;
 	skos:altLabel	"GPs using electronic networks to transfer prescriptions to pharmacists" ;
 	ns11:membership	ns25:hie_use_pharm ;
 	skos:definition	"Percentatge of general practitioners using electronic networks to transfer prescriptions to pharmacists" ;
@@ -3686,7 +3472,7 @@ ns7:households	rdf:type	ns10:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"Number of private Households" ;
 	dct:source	ns38:estat_lfst_hhnhwhtc ;
-	skos:notation	"Households" ;
+	skos:notation	"households" ;
 	skos:altLabel	"Number of private Households" ;
 	ns11:membership	ns13:households ;
 	skos:definition	"Number of private households (Eurostat table lfst_hhnhwhtc)" ;
@@ -3695,7 +3481,7 @@ ns7:i-dsk-c	rdf:type	ns10:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"Digital Skills - Communication domain" ;
 	dct:source	ns38:estat_isoc_sk_dskl_i ;
-	skos:notation	"i-DSK-C" ;
+	skos:notation	"i-dsk-c" ;
 	skos:altLabel	"Digital Skills - Communication " ;
 	ns11:membership	ns28:i-dsk-c ;
 	skos:definition	"These skills refer to the ability to communicate in digital environments, share resources through online tools, link with others and collaborate through digital tools, interact with and participate in communities and networks, cross-cultural awareness. The indicator is based on four activities internet users have been able to do online during previous 3 months. The scores are basic, above basic and none. Individuals not using internet are classified without digital skills." ;
@@ -3705,7 +3491,7 @@ ns7:i-dsk-i	rdf:type	ns10:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"Digital Skills - Information domain" ;
 	dct:source	ns38:estat_isoc_sk_dskl_i ;
-	skos:notation	"i-DSK-i" ;
+	skos:notation	"i-dsk-i" ;
 	skos:altLabel	"Digital Skills - Information " ;
 	ns11:membership	ns28:i-dsk-i ;
 	skos:definition	"Information processing skills refers to the ability to identify, locate, retrieve, store, organise and analyse digital information, judging its relevance and purpose. The indicator is based on five activities internet users have been able to do online during previous 3 months. The scores are basic, above basic and none. Individuals not using internet are classified without digital skills." ;
@@ -3715,7 +3501,7 @@ ns7:i-dsk-ind	rdf:type	ns10:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"Digital Skills Indicator (all individuals)" ;
 	dct:source	ns38:estat_isoc_sk_dskl_i ;
-	skos:notation	"i-DSK-IND" ;
+	skos:notation	"i-dsk-ind" ;
 	skos:altLabel	"Digital Skills Indicator (all individuals)" ;
 	ns11:membership	ns28:i-dsk-ind ;
 	skos:definition	"Persons that have been using internet during last 3 months are attributed a score on four digital competence domains: information, communication, content-creation and problem-solving, depending the activities they have been able to do. The scores are basic, above basic and below basic. Individuals not using internet are classified without digital skills. The four digital competence domains are aggregated in four logical groups." ;
@@ -3725,7 +3511,7 @@ ns7:i-dsk-iu3	rdf:type	ns10:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"Digital Skills Indicator (internet users)" ;
 	dct:source	ns38:estat_isoc_sk_dskl_i ;
-	skos:notation	"i-DSK-IU3" ;
+	skos:notation	"i-dsk-iu3" ;
 	skos:altLabel	"Digital Skills Indicator (internet users)" ;
 	ns11:membership	ns28:i-dsk-iu3 ;
 	skos:definition	"Persons that have been using internet during last 3 months are attributed a score on four digital competence domains: information, communication, content-creation and problem-solving, depending the activities they have been able to do. The scores are basic, above basic and below basic. Individuals not using internet are classified without digital skills. The four digital competence domains are aggregated in four logical groups." ;
@@ -3735,7 +3521,7 @@ ns7:i-dsk-ps	rdf:type	ns10:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"Digital Skills - Problem solving domain" ;
 	dct:source	ns38:estat_isoc_sk_dskl_i ;
-	skos:notation	"i-DSK-PS" ;
+	skos:notation	"i-dsk-ps" ;
 	skos:altLabel	"Digital Skills - Problem solving " ;
 	ns11:membership	ns28:i-dsk-ps ;
 	skos:definition	"Problem solving skills refers to the ability to identify digital needs and resources, make informed decisions as to which are the most appropriate digital tools according to the purpose or need, solve conceptual problems through digital means, creatively use technologies, solve technical problems, update one's own and others' competences. The indicator is based on three basic digital problems and familiarity with four online services internet users have been able to do during previous 3 months. The scores are basic, above basic and none. Individuals not using internet are classified without digital skills." ;
@@ -3745,7 +3531,7 @@ ns7:i-dsk-s	rdf:type	ns10:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"Digital Skills - Software for content manipulation" ;
 	dct:source	ns38:estat_isoc_sk_dskl_i ;
-	skos:notation	"i-DSK-S" ;
+	skos:notation	"i-dsk-s" ;
 	skos:altLabel	"Digital Skills - Software for content manipulation" ;
 	ns11:membership	ns28:i-dsk-s ;
 	skos:definition	"Software skills for content manipulation refer to the ability to create and edit new content (from word processing to images and video); integrate and re-elaborate previous knowledge and content; produce creative expressions, media outputs and programming; deal with and apply intellectual property rights and licences. The indicator is based on six activities internet users have been able to do during previous 3 months. The scores are basic, above basic and none. Individuals not using internet are classified without digital skills." ;
@@ -3854,7 +3640,7 @@ ns7:i_cook	rdf:type	skos:Concept ,
 		ns10:Indicator ;
 	skos:prefLabel	"Individuals who know that cookies can be used to trace movements of people on the internet" ;
 	dct:source	ns38:estat_isoc_cisci_prv ;
-	skos:notation	"I_COOK" ;
+	skos:notation	"i_cook" ;
 	skos:altLabel	"Awareness about cookies" ;
 	ns11:membership	ns35:i_cook ;
 	skos:definition	"Individuals who know that cookies can be used to trace movements of people on the internet" ;
@@ -3891,7 +3677,7 @@ ns7:i_dsk_bab	rdf:type	skos:Concept ,
 		ns10:Indicator ;
 	skos:prefLabel	"Individuals with basic or above basic digital skills" ;
 	dct:source	ns38:estat_isoc_sk_dskl_i ;
-	skos:notation	"i_DSK_BAB" ;
+	skos:notation	"i_dsk_bab" ;
 	skos:altLabel	"Individuals with basic or above basic digital skills" ;
 	ns11:membership	ns28:i_dsk_bab ;
 	skos:definition	"Persons that have been using internet during last 3 months are attributed a score on four digital competence domains: information, communication, content-creation and problem-solving, depending the activities they have been able to do. The scores in each domain are basic, above basic and below basic. Individuals not using internet are classified without digital skills. To be classified \"basic or above basic\" on the overall indicator an individual has to have basic or above basic skills in all the four Digital Competence domains included in the index: information, communication, content-creation and problem-solving." ;
@@ -3901,7 +3687,7 @@ ns7:i_dsk_c_bab	rdf:type	skos:Concept ,
 		ns10:Indicator ;
 	skos:prefLabel	"Basic or above basic Digital Skills - Communication domain" ;
 	dct:source	ns38:estat_isoc_sk_dskl_i ;
-	skos:notation	"i_DSK_C_BAB" ;
+	skos:notation	"i_dsk_c_bab" ;
 	skos:altLabel	"Basic or above basic Digital Skills - Communication domain" ;
 	ns11:membership	ns28:i_dsk_c_bab ;
 	skos:definition	"These skills refer to the ability to communicate in digital environments, share resources through online tools, link with others and collaborate through digital tools, interact with and participate in communities and networks, cross-cultural awareness. The indicator is based on four activities internet users have been able to do online during previous 3 months. The scores are basic, above basic and none. Individuals not using internet are classified without digital skills." ;
@@ -3911,7 +3697,7 @@ ns7:i_dsk_i_bab	rdf:type	skos:Concept ,
 		ns10:Indicator ;
 	skos:prefLabel	"Basic or above basic Digital Skills - Information domain" ;
 	dct:source	ns38:estat_isoc_sk_dskl_i ;
-	skos:notation	"i_DSK_i_BAB" ;
+	skos:notation	"i_dsk_i_bab" ;
 	skos:altLabel	"Basic or above basic Digital Skills - Information domain" ;
 	ns11:membership	ns28:i_dsk_i_bab ;
 	skos:definition	"Information processing skills refers to the ability to identify, locate, retrieve, store, organise and analyse digital information, judging its relevance and purpose. The indicator is based on five activities internet users have been able to do online during previous 3 months. The scores are basic, above basic and none. Individuals not using internet are classified without digital skills." ;
@@ -3921,7 +3707,7 @@ ns7:i_dsk_ps_bab	rdf:type	skos:Concept ,
 		ns10:Indicator ;
 	skos:prefLabel	"Basic or above basic Digital Skills - Problem solving domain" ;
 	dct:source	ns38:estat_isoc_sk_dskl_i ;
-	skos:notation	"i_DSK_PS_BAB" ;
+	skos:notation	"i_dsk_ps_bab" ;
 	skos:altLabel	"Basic or above basic Digital Skills - Problem solving domain" ;
 	ns11:membership	ns28:i_dsk_ps_bab ;
 	skos:definition	"Problem solving skills refers to the ability to identify digital needs and resources, make informed decisions as to which are the most appropriate digital tools according to the purpose or need, solve conceptual problems through digital means, creatively use technologies, solve technical problems, update one's own and others' competences. The indicator is based on three basic digital problems and familiarity with four online services internet users have been able to do during previous 3 months. The scores are basic, above basic and none. Individuals not using internet are classified without digital skills." ;
@@ -3931,7 +3717,7 @@ ns7:i_dsk_s_bab	rdf:type	skos:Concept ,
 		ns10:Indicator ;
 	skos:prefLabel	"Basic or above basic Digital Skills - Software for content manipulation" ;
 	dct:source	ns38:estat_isoc_sk_dskl_i ;
-	skos:notation	"i_DSK_S_BAB" ;
+	skos:notation	"i_dsk_s_bab" ;
 	skos:altLabel	"Basic or above basic Digital Skills - Software for content manipulation" ;
 	ns11:membership	ns28:i_dsk_s_bab ;
 	skos:definition	"Software skills for content manipulation refer to the ability to create and edit new content (from word processing to images and video); integrate and re-elaborate previous knowledge and content; produce creative expressions, media outputs and programming; deal with and apply intellectual property rights and licences. The indicator is based on six activities internet users have been able to do during previous 3 months. The scores are basic, above basic and none. Individuals not using internet are classified without digital skills." ;
@@ -4085,7 +3871,7 @@ ns7:i_iumapp	rdf:type	ns10:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"making an appointment with a practitioner via a website" ;
 	dct:source	ns38:estat_isoc_bde15cua ;
-	skos:notation	"I_IUMAPP" ;
+	skos:notation	"i_iumapp" ;
 	skos:altLabel	"Appointment with a practitioner via a website" ;
 	ns11:membership	ns25:i_iumapp ;
 	skos:definition	"Individuals have used Internet, in the last 3 months, for making an appointment with a practitioner via a website (e.g. of a hospital or a health care centre)" ;
@@ -4123,7 +3909,7 @@ ns7:i_iuph1	rdf:type	skos:Concept ,
 		ns10:Indicator ;
 	skos:prefLabel	"telephoning or video calls (via webcam) over the internet" ;
 	dct:source	ns38:estat_isoc_bde15cua ;
-	skos:notation	"I_IUPH1" ;
+	skos:notation	"i_iuph1" ;
 	skos:altLabel	"Telephoning or video calls" ;
 	ns11:membership	ns30:i_iuph1 ;
 	skos:note	"Biennial indicator. Break in time series between 2007 and 2008 because of new wording. Reconstructed time series using Eurostat varibales: i_iuph and i_iuph1." ;
@@ -4205,7 +3991,7 @@ ns7:i_sbgood	rdf:type	skos:Concept ,
 		ns10:Indicator ;
 	skos:prefLabel	"Security concerns kept individual from ordering or buying online" ;
 	dct:source	ns38:estat_isoc_cisci_ax ;
-	skos:notation	"I_SBGOOD" ;
+	skos:notation	"i_sbgood" ;
 	skos:altLabel	"Security concerns kept individual from buying online" ;
 	ns11:membership	ns35:i_sbgood ;
 	skos:definition	"Security concerns kept individual from ordering or buying goods or services for private use" ;
@@ -4214,7 +4000,7 @@ ns7:i_secfl	rdf:type	skos:Concept ,
 		ns10:Indicator ;
 	skos:prefLabel	"Individuals experienced financial loss" ;
 	dct:source	ns38:estat_isoc_cisci_pb ;
-	skos:notation	"I_SECFL" ;
+	skos:notation	"i_secfl" ;
 	skos:altLabel	"Individuals experienced financial loss" ;
 	ns11:membership	ns35:i_secfl ;
 	skos:definition	"Individuals experienced financial loss due to fraudulent payment (credit or debit) card use OR as a result of receiving fraudulent messages ('phishing') or getting redirected to fake websites asking for personal information ('pharming')." ;
@@ -4223,7 +4009,7 @@ ns7:i_secpif1	rdf:type	skos:Concept ,
 		ns10:Indicator ;
 	skos:prefLabel	"Individuals experienced abuse of personal information and/or other privacy violations" ;
 	dct:source	ns38:estat_isoc_cisci_pb ;
-	skos:notation	"I_SECPIF1" ;
+	skos:notation	"i_secpif1" ;
 	skos:altLabel	"Individuals experienced abuse of personal information/privacy violations " ;
 	ns11:membership	ns35:i_secpif1 ;
 	skos:definition	"Individuals experienced abuse of personal information sent on the Internet and/or other privacy violations (e.g. abuse of pictures, videos, personal data uploaded on community websites)" ;
@@ -4232,7 +4018,7 @@ ns7:i_secvir1	rdf:type	skos:Concept ,
 		ns10:Indicator ;
 	skos:prefLabel	"Individuals caught a virus or other computer infection resulting in loss of information or time" ;
 	dct:source	ns38:estat_isoc_cisci_pb ;
-	skos:notation	"I_SECVIR1" ;
+	skos:notation	"i_secvir1" ;
 	skos:altLabel	"Individuals caught a virus/computer infection" ;
 	ns11:membership	ns35:i_secvir1 ;
 	skos:definition	"Individuals caught a virus or other computer infection (e.g. worm or Trojan horse) resulting in loss of information or time" ;
@@ -4250,7 +4036,7 @@ ns7:ict_commit_in_trp	rdf:type	skos:Concept ,
 		ns10:Indicator ;
 	skos:prefLabel	"EU R&I committed funding for ICT" ;
 	dct:source	ns38:abac ;
-	skos:notation	"ICT_commit_in_trp" ;
+	skos:notation	"ict_commit_in_trp" ;
 	skos:altLabel	"EU R&I committed funding for ICT" ;
 	ns11:membership	ns33:ict_commit_in_trp ;
 	skos:definition	"Credit commitments for ICT Research and Innovation, during the reference year." ;
@@ -4435,7 +4221,7 @@ ns7:p_empmd	rdf:type	skos:Concept ,
 		ns10:Indicator ;
 	skos:prefLabel	"Persons employed which were provided a portable device by their employer (business sector)" ;
 	dct:source	ns38:estat_isoc_ci_eu_en2 ;
-	skos:notation	"P_EMPMD" ;
+	skos:notation	"p_empmd" ;
 	skos:altLabel	"Persons employed provided with a portable device by their enterprise" ;
 	ns11:membership	ns22:p_empmd ;
 	skos:definition	"The devices (portable computers, tablets, smartphones, PDA phones, etc.) should be provided for business use and the enterprises pay for all or at least up to a limit the subscription and the use costs. Are included only the enterprises with 10 or more persons employed, from all manufacturing and service sectors, excluding the financial sector." ;
@@ -4445,7 +4231,7 @@ ns7:p_iuse	rdf:type	skos:Concept ,
 		ns10:Indicator ;
 	skos:prefLabel	"Persons employed using computers with access to the Web at work (business sector)" ;
 	dct:source	ns38:estat_isoc_bde15b_p ;
-	skos:notation	"P_IUSE" ;
+	skos:notation	"p_iuse" ;
 	skos:altLabel	"Persons employed using computers at work" ;
 	ns11:membership	ns28:p_iuse ;
 	skos:definition	"The computers (desktop, laptop, smartphones, etc.) should have access to the World Wide Web and be used at least once a week. Are included only the enterprises with 10 or more persons employed, from all manufacturing and service sectors, excluding the financial sector." ;
@@ -4473,7 +4259,7 @@ ns7:population	rdf:type	skos:Concept ,
 		ns10:Indicator ;
 	skos:prefLabel	"Total population" ;
 	dct:source	ns38:eurostat_pop ;
-	skos:notation	"Population" ;
+	skos:notation	"population" ;
 	skos:altLabel	"Total population" ;
 	ns11:membership	ns13:population ;
 	skos:definition	"Total population estimate 1st of January of the same year (Eurostat table demo_pjan)" ;
@@ -4482,7 +4268,7 @@ ns7:price_internet_fixed_tel	rdf:type	skos:Concept ,
 		ns10:Indicator ;
 	skos:prefLabel	"Monthly price of  Fixed Broadband Internet Access offers including Fixed Telephony" ;
 	dct:source	ns38:biac ;
-	skos:notation	"Price_Internet_Fixed_Tel" ;
+	skos:notation	"price_internet_fixed_tel" ;
 	skos:altLabel	"Monthly price of  Internet + Fixed Telephony" ;
 	ns11:membership	ns14:price_internet_fixed_tel ;
 	skos:definition	"Monthly price of Fixed Broadband Internet Access offers including Fixed Telephony, including value added tax, excluding the aditional cost of telephony or cable line (if any). The minimum and median prices refer to the group of similar subscriptions offered by internet service providers. Offers are not weigthed with market shares, so the offers' median price cannot be interpreted as the median price paid by consumers." ;
@@ -4492,7 +4278,7 @@ ns7:price_internet_fixed_tel_tv	rdf:type	skos:Concept ,
 		ns10:Indicator ;
 	skos:prefLabel	"Monthly price of Internet Acccess + Fixed Telephony + TV bundles" ;
 	dct:source	ns38:biac ;
-	skos:notation	"Price_Internet_Fixed_Tel_TV" ;
+	skos:notation	"price_internet_fixed_tel_tv" ;
 	skos:altLabel	"Monthly price of Internet + Fixed Telephony + TV" ;
 	ns11:membership	ns14:price_internet_fixed_tel_tv ;
 	skos:definition	"Monthly price of Fixed Broadband Internet Access offers including Fixed Telephony and TV (analogue or digital television service), including value added tax, excluding the aditional cost of telephony or cable line (if any). The minimum and median prices refer to the group of similar subscriptions offered by internet service providers. Offers are not weigthed with market shares, so the offers' median price cannot be interpreted as the median price paid by consumers." ;
@@ -4502,7 +4288,7 @@ ns7:price_internet_only	rdf:type	skos:Concept ,
 		ns10:Indicator ;
 	skos:prefLabel	"Monthly price of standalone internet access" ;
 	dct:source	ns38:biac ;
-	skos:notation	"Price_Internet_only" ;
+	skos:notation	"price_internet_only" ;
 	skos:altLabel	"Monthly price of Internet Access only" ;
 	ns11:membership	ns14:price_internet_only ;
 	skos:definition	"Monthly price of standalone Fixed Broadband Internet Access offers, including value added tax, excluding the additional cost of telephony or cable line (if any). The minimum and median prices refer to the group of similar subscriptions offered by internet service providers. Offers are not weigthed with market shares, so the offers' median price cannot be interpreted as the median price paid by consumers." ;
@@ -4512,7 +4298,7 @@ ns7:spectrum_wbb	rdf:type	skos:Concept ,
 		ns10:Indicator ;
 	skos:prefLabel	"Spectrum assigned for wireless broadband in EU harmonised bands" ;
 	dct:source	ns38:eco_report_03_efis_comm ;
-	skos:notation	"spectrum_WBB" ;
+	skos:notation	"spectrum_wbb" ;
 	skos:altLabel	"Assigned spectrum WBB (EU harmonised bands)" ;
 	ns11:membership	ns32:spectrum_wbb ;
 	skos:definition	"Amount of spectrum assigned by Member States for wireless mobile broadband comunications (WBB) within the ranges harmonised by the European Union. Charts allow to compare with the total value of EU HARMONISED bands and with a simple EU AVERAGE of countries assignements. The policy target is to harmonise and assign 1200 MHz to WBB." ;
@@ -4611,7 +4397,7 @@ ns7:wid_ius	rdf:type	ns10:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"2 Internet user skills" ;
 	dct:source	ns38: ;
-	skos:notation	"WID_IUS" ;
+	skos:notation	"wid_ius" ;
 	skos:altLabel	"2 Internet user skills" ;
 	ns11:membership	ns37:wid_ius ;
 	skos:definition	"WID Internet user skills dimension calculated as the weighted average of the three indicators: 2.1 At least basic digital skills  (33.3%), 2.2 Above basic digital skills (33.3%), 2.3 Software skills (33.3%)." ;
@@ -4620,7 +4406,7 @@ ns7:wid_ius_abs	rdf:type	ns10:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"2.2 Above basic digital skills" ;
 	dct:source	ns38: ;
-	skos:notation	"WID_IUS_ABS" ;
+	skos:notation	"wid_ius_abs" ;
 	skos:altLabel	"2.2 Above basic digital skills" ;
 	ns11:membership	ns37:wid_ius_abs ;
 	skos:definition	"People with above basic digital skills in each of the following four dimensions: information, communication, problem solving, software for content creation. " ;
@@ -4629,7 +4415,7 @@ ns7:wid_ius_bs	rdf:type	ns10:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"2.1 At least basic digital skills" ;
 	dct:source	ns38: ;
-	skos:notation	"WID_IUS_BS" ;
+	skos:notation	"wid_ius_bs" ;
 	skos:altLabel	"2.1 At least basic digital skills" ;
 	ns11:membership	ns37:wid_ius_bs ;
 	skos:definition	"People with  at least basic digital skills in each of the following four dimensions: information, communication, problem solving, software for content creation. People possessing, at a minimum, the skills required to perform activities such as using e-mail, editing tools, installing new devices, etc. Further details on calculation methodology here: https://ec.europa.eu/digital-single-market/en/news/new-comprehensive-digital-skills-indicator" ;
@@ -4638,7 +4424,7 @@ ns7:wid_ius_ss	rdf:type	ns10:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"2.3 Software skills" ;
 	dct:source	ns38: ;
-	skos:notation	"WID_IUS_SS" ;
+	skos:notation	"wid_ius_ss" ;
 	skos:altLabel	"2.3 At least basic software skills" ;
 	ns11:membership	ns37:wid_ius_ss ;
 	skos:definition	"People who, in addition to having used basic software features such as word processing, used advanced spreadsheet functions, created a presentation or document integrating text, pictures and tables or charts, or wrote code in a programming language. " ;
@@ -4647,7 +4433,7 @@ ns7:wid_score	rdf:type	ns10:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"Women in Digital (WID) score" ;
 	dct:source	ns38: ;
-	skos:notation	"WiD_score" ;
+	skos:notation	"wid_score" ;
 	skos:altLabel	"Women in Digital (WID) score" ;
 	ns11:membership	ns37:wid_score ;
 	skos:definition	"Women in digital score calculated as the weighted average of the three sub-dimensions: 1 Use of internet  (33.3%), 2 Internet users skills (33.3%), 3 Specialist skills and employment (33.3%).\n\n" ;
@@ -4656,7 +4442,7 @@ ns7:wid_sse	rdf:type	ns10:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"3 Specialist skills and employment" ;
 	dct:source	ns38: ;
-	skos:notation	"WID_SSE" ;
+	skos:notation	"wid_sse" ;
 	skos:altLabel	"3 Specialist skills and employment" ;
 	ns11:membership	ns37:wid_sse ;
 	skos:definition	"WID Use of Internet Dimension calculated as the weighted average of the three indicators: \n3.1 STEM graduates (33.3%), 3.2 ICT specialists (33.3%), 3.3 Gender pay gap  (33.3%)." ;
@@ -4665,7 +4451,7 @@ ns7:wid_sse_gpg	rdf:type	ns10:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"3.3 Gender pay gap" ;
 	dct:source	ns38: ;
-	skos:notation	"WID_SSE_GPG" ;
+	skos:notation	"wid_sse_gpg" ;
 	skos:altLabel	"3.3 Unadjusted gender pay gap" ;
 	ns11:membership	ns37:wid_sse_gpg ;
 	skos:definition	"Gender pay gap in unadjusted form, measured as the difference between average gross hourly earnings of male paid employees and  female paid employees as a percentage of average gross hourly earnings of male paid employees. The indicator has been defined as unadjusted, because it gives an overall picture of gender inequalities in terms of pay and measures a concept which is broader than the concept of equal pay for equal work. All employees working in firms with ten or more employees, without restrictions for age and hours worked, are included." ;
@@ -4674,7 +4460,7 @@ ns7:wid_sse_icts	rdf:type	ns10:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"3.2 ICT specialists" ;
 	dct:source	ns38: ;
-	skos:notation	"WID_SSE_ICTS" ;
+	skos:notation	"wid_sse_icts" ;
 	skos:altLabel	"3.2 ICT specialists" ;
 	ns11:membership	ns37:wid_sse_icts ;
 	skos:definition	"Employed ICT specialists. Broad definition based on the ISCO-08 classification and including jobs like ICT service managers, ICT professionals, ICT technicians, ICT installers and servicers." ;
@@ -4683,7 +4469,7 @@ ns7:wid_sse_stem	rdf:type	ns10:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"3.1 STEM graduates" ;
 	dct:source	ns38: ;
-	skos:notation	"WID_SSE_STEM" ;
+	skos:notation	"wid_sse_stem" ;
 	skos:altLabel	"3.1 STEM graduates" ;
 	ns11:membership	ns37:wid_sse_stem ;
 	skos:definition	"People with a degree in a science, technology, maths or engineering-related subject" ;
@@ -4692,7 +4478,7 @@ ns7:wid_ui	rdf:type	ns10:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"1 Use of internet" ;
 	dct:source	ns38: ;
-	skos:notation	"WID_UI" ;
+	skos:notation	"wid_ui" ;
 	skos:altLabel	"1 Use of internet" ;
 	ns11:membership	ns37:wid_ui ;
 	skos:definition	"WID Use of internet dimension calculated as the weighted average of the seven indicators: \r\n1.1 Regular internet use (14.29%), 1.2 People who never used the internet (14.29%), 1.3 Online banking (14.29%), 1.4 Using professional social networks (14.29%), 1.5 Doing an online course (14.29%), 1.6 Online consultations or voting (14.29%), 1.7 eGovernment users (14.29%)." ;
@@ -4701,7 +4487,7 @@ ns7:wid_ui_egov	rdf:type	ns10:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"1.7 eGovernment users " ;
 	dct:source	ns38: ;
-	skos:notation	"WID_UI_EGOV" ;
+	skos:notation	"wid_ui_egov" ;
 	skos:altLabel	"1.7 eGovernment users " ;
 	ns11:membership	ns37:wid_ui_egov ;
 	skos:definition	"People who sent filled forms to public authorities, over the internet, previous 12 months " ;
@@ -4710,7 +4496,7 @@ ns7:wid_ui_ib	rdf:type	skos:Concept ,
 		ns10:Indicator ;
 	skos:prefLabel	"1.3 Online banking" ;
 	dct:source	ns38: ;
-	skos:notation	"WID_UI_IB" ;
+	skos:notation	"wid_ui_ib" ;
 	skos:altLabel	"1.3 Online banking" ;
 	ns11:membership	ns37:wid_ui_ib ;
 	skos:definition	"People who used the Internet to use online banking " ;
@@ -4719,7 +4505,7 @@ ns7:wid_ui_iu	rdf:type	skos:Concept ,
 		ns10:Indicator ;
 	skos:prefLabel	"1.1 Regular internet use" ;
 	dct:source	ns38: ;
-	skos:notation	"WID_UI_IU" ;
+	skos:notation	"wid_ui_iu" ;
 	skos:altLabel	"1.1 Regular internet use" ;
 	ns11:membership	ns37:wid_ui_iu ;
 	skos:definition	"People who used the Internet at least once a week" ;
@@ -4728,7 +4514,7 @@ ns7:wid_ui_nui	rdf:type	skos:Concept ,
 		ns10:Indicator ;
 	skos:prefLabel	"1.2 People who never used the internet" ;
 	dct:source	ns38: ;
-	skos:notation	"WID_UI_NUI" ;
+	skos:notation	"wid_ui_nui" ;
 	skos:altLabel	"1.2 People who never used the internet" ;
 	ns11:membership	ns37:wid_ui_nui ;
 	skos:definition	"People who never used the Internet" ;
@@ -4737,7 +4523,7 @@ ns7:wid_ui_oc	rdf:type	skos:Concept ,
 		ns10:Indicator ;
 	skos:prefLabel	"1.5 Doing an online course" ;
 	dct:source	ns38: ;
-	skos:notation	"WID_UI_OC" ;
+	skos:notation	"wid_ui_oc" ;
 	skos:altLabel	"1.5 Doing an online course" ;
 	ns11:membership	ns37:wid_ui_oc ;
 	skos:definition	"People who used the Internet for doing an online course (on any subject)" ;
@@ -4746,7 +4532,7 @@ ns7:wid_ui_part	rdf:type	skos:Concept ,
 		ns10:Indicator ;
 	skos:prefLabel	"1.6 Online consultations or voting" ;
 	dct:source	ns38: ;
-	skos:notation	"WID_UI_PART" ;
+	skos:notation	"wid_ui_part" ;
 	skos:altLabel	"1.6 Online consultations or voting" ;
 	ns11:membership	ns37:wid_ui_part ;
 	skos:definition	"People who took part in on-line consultations or voting to define civic or political issues (e.g. urban planning, signing a petition)" ;
@@ -4755,7 +4541,7 @@ ns7:wid_ui_ps	rdf:type	skos:Concept ,
 		ns10:Indicator ;
 	skos:prefLabel	"1.4 Using professional social networks" ;
 	dct:source	ns38: ;
-	skos:notation	"WID_UI_PS" ;
+	skos:notation	"wid_ui_ps" ;
 	skos:altLabel	"1.4 Using professional social networks" ;
 	ns11:membership	ns37:wid_ui_ps ;
 	skos:definition	"People who used Internet for participating in social or professional networks" ;
@@ -4764,8 +4550,320 @@ ns7:e_gov_4b_bm_us	rdf:type	ns10:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"4b Business Mobility - Usability" ;
 	dct:source	ns38:egov_bench12_17 ;
-	skos:notation	"e_gov_4b_BM_US" ;
+	skos:notation	"e_gov_4b_bm_us" ;
 	skos:altLabel	"4c Business Mobility - Usability" ;
 	ns11:membership	ns24:e_gov_4b_bm_us ;
 	skos:definition	"Online support and help features on services aimed at foreign businesses." ;
+	skos:topConceptOf	ns1:indicator .
+ns18:desi_1b3_5g	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"desi_ind" ;
+	ns11:member-of	ns12:desi_ind ;
+	ns11:order	"123" .
+ns18:desi_2a1_bds	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"desi_ind" ;
+	ns11:member-of	ns12:desi_ind ;
+	ns11:order	"211" .
+ns18:desi_2a2_abds	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"desi_ind" ;
+	ns11:member-of	ns12:desi_ind ;
+	ns11:order	"212" .
+ns18:desi_2a3_abss	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"desi_ind" ;
+	ns11:member-of	ns12:desi_ind ;
+	ns11:order	"213" .
+ns18:desi_2b2_fictspec	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"desi_ind" ;
+	ns11:member-of	ns12:desi_ind ;
+	ns11:order	"222" .
+ns18:desi_2b3_ictg	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"desi_ind" ;
+	ns11:member-of	ns12:desi_ind ;
+	ns11:order	"223" .
+ns18:desi_3a1_notiu	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"desi_ind" ;
+	ns11:member-of	ns12:desi_ind ;
+	ns11:order	" 311" .
+ns18:desi_3a2_iu	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"desi_ind" ;
+	ns11:member-of	ns12:desi_ind ;
+	ns11:order	" 312" .
+ns18:desi_3b1_news	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"desi_ind" ;
+	ns11:member-of	ns12:desi_ind ;
+	ns11:order	"321" .
+ns18:desi_3b2_mvg	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"desi_ind" ;
+	ns11:member-of	ns12:desi_ind ;
+	ns11:order	"322" .
+ns18:desi_3b3_vod	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"desi_ind" ;
+	ns11:member-of	ns12:desi_ind ;
+	ns11:order	"323" .
+ns18:desi_3b4_vidcall	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"desi_ind" ;
+	ns11:member-of	ns12:desi_ind ;
+	ns11:order	"324" .
+ns18:desi_3b5_socnet	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"desi_ind" ;
+	ns11:member-of	ns12:desi_ind ;
+	ns11:order	"325" .
+ns18:desi_3b6_profsocnet	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"desi_ind" ;
+	ns11:member-of	ns12:desi_ind ;
+	ns11:order	"326" .
+ns18:desi_3b7_courseon	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"desi_ind" ;
+	ns11:member-of	ns12:desi_ind ;
+	ns11:order	"327" .
+ns18:desi_3b8_convoton	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"desi_ind" ;
+	ns11:member-of	ns12:desi_ind ;
+	ns11:order	"328" .
+ns18:desi_3c3_sell	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"desi_ind" ;
+	ns11:member-of	ns12:desi_ind ;
+	ns11:order	"333" .
+ns18:desi_4a2_socmed	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"desi_ind" ;
+	ns11:member-of	ns12:desi_ind ;
+	ns11:order	"412" .
+ns18:desi_4a3_bigdat	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"desi_ind" ;
+	ns11:member-of	ns12:desi_ind ;
+	ns11:order	"413" .
+ns18:desi_4a4_cloud	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"desi_ind" ;
+	ns11:member-of	ns12:desi_ind ;
+	ns11:order	"414" .
+ns18:desi_5b2_mdataexch	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"desi_ind" ;
+	ns11:member-of	ns12:desi_ind ;
+	ns11:order	"522" .
+ns18:desi_5b3_epresc	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"desi_ind" ;
+	ns11:member-of	ns12:desi_ind ;
+	ns11:order	"523" .
+ns20:desi_3a_ui	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"desi_subdim" ;
+	ns11:member-of	ns12:desi_subdim ;
+	ns11:order	"31" .
+ns20:desi_3b_acton	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"desi_subdim" ;
+	ns11:member-of	ns12:desi_subdim ;
+	ns11:order	"32" .
+ns7:desi_1b3_5g	rdf:type	skos:Concept ,
+		ns10:Indicator ;
+	skos:prefLabel	"1b3 5G readiness" ;
+	dct:source	ns38:desi_1b3_5g ;
+	skos:notation	"desi_1b3_5g" ;
+	skos:altLabel	"1b3 5G readiness" ;
+	ns11:membership	ns18:desi_1b3_5g ;
+	skos:definition	"The amount of spectrum assigned and ready for 5G use by the end of 2020 within the so-called 5G pioneer bands. These bands are 700 MHz (703-733 MHz and 758-788 MHz), 3.6 GHz (3400-3800 MHz) and 26 GHz (1000 MHz within 24250-27500 MHz). All three spectrum bands have an equal weight" ;
+	skos:topConceptOf	ns1:indicator .
+ns7:desi_2a1_bds	rdf:type	skos:Concept ,
+		ns10:Indicator ;
+	skos:prefLabel	"2a1 At least Basic Digital Skills" ;
+	dct:source	ns38:desi_2a1_bds ;
+	skos:notation	"desi_2a1_bds" ;
+	skos:altLabel	"2a1 At least Basic Digital Skills" ;
+	ns11:membership	ns18:desi_2a1_bds ;
+	skos:definition	"People with \"basic\" or \"above basic\" digital skills in each of the following four dimensions: information, communication, problem solving and software for content creation (as measured by the number of activities carried out during the previous 3 months)" ;
+	skos:topConceptOf	ns1:indicator .
+ns7:desi_2a2_abds	rdf:type	skos:Concept ,
+		ns10:Indicator ;
+	skos:prefLabel	"2a2 Above basic digital skills" ;
+	dct:source	ns38:desi_2a2_abds ;
+	skos:notation	"desi_2a2_abds" ;
+	skos:altLabel	"2a2 Above basic digital skills" ;
+	ns11:membership	ns18:desi_2a2_abds ;
+	skos:definition	"People with \"above basic\" digital skills in each of the following four dimensions: information, communication, problem solving and software for content creation (as measured by the number of activities carried out during the previous 3 months)" ;
+	skos:topConceptOf	ns1:indicator .
+ns7:desi_2a3_abss	rdf:type	skos:Concept ,
+		ns10:Indicator ;
+	skos:prefLabel	"2a3 At least basic software skills" ;
+	dct:source	ns38:desi_2a3_abss ;
+	skos:notation	"desi_2a3_abss" ;
+	skos:altLabel	"2a3 At least basic software skills" ;
+	ns11:membership	ns18:desi_2a3_abss ;
+	skos:definition	"People who, in addition to having used basic software features such as word processing, have used advanced spreadsheet functions, created a presentation or document integrating text, pictures and tables or charts, or written code in a programming language" ;
+	skos:topConceptOf	ns1:indicator .
+ns7:desi_2b2_fictspec	rdf:type	skos:Concept ,
+		ns10:Indicator ;
+	skos:prefLabel	"2b2 Female ICT specialists" ;
+	dct:source	ns38:desi_2b2_fictspec ;
+	skos:notation	"desi_2b2_fictspec" ;
+	skos:altLabel	"2b2 Female ICT specialists" ;
+	ns11:membership	ns18:desi_2b2_fictspec ;
+	skos:definition	"Employed ICT specialists. Broad definition based on the ISCO-08 classification and including jobs like ICT service managers, ICT professionals, ICT technicians, ICT installers and servicers" ;
+	skos:topConceptOf	ns1:indicator .
+ns7:desi_2b3_ictg	rdf:type	skos:Concept ,
+		ns10:Indicator ;
+	skos:prefLabel	"2b3 ICT graduates" ;
+	dct:source	ns38:desi_2b3_ictg ;
+	skos:notation	"desi_2b3_ictg" ;
+	skos:altLabel	"2b3 ICT graduates" ;
+	ns11:membership	ns18:desi_2b3_ictg ;
+	skos:definition	"People with a degree in ICT" ;
+	skos:topConceptOf	ns1:indicator .
+ns7:desi_3a1_notiu	rdf:type	skos:Concept ,
+		ns10:Indicator ;
+	skos:prefLabel	"3a1 People who never used the internet" ;
+	dct:source	ns38:desi_3a1_notiu ;
+	skos:notation	"desi_3a1_notiu" ;
+	skos:altLabel	"3a1 People who never used the internet" ;
+	ns11:membership	ns18:desi_3a1_notiu ;
+	skos:definition	"People who never used the Internet" ;
+	skos:topConceptOf	ns1:indicator .
+ns7:desi_3a2_iu	rdf:type	skos:Concept ,
+		ns10:Indicator ;
+	skos:prefLabel	"3a2 Internet Users" ;
+	dct:source	ns38:desi_3a2_iu ;
+	skos:notation	"desi_3a2_iu" ;
+	skos:altLabel	"3a2 Internet Users" ;
+	ns11:membership	ns18:desi_3a2_iu ;
+	skos:definition	"People who use the Internet at least once a week" ;
+	skos:topConceptOf	ns1:indicator .
+ns7:desi_3a_ui	rdf:type	skos:Concept ,
+		ns10:Indicator ;
+	skos:prefLabel	"3a Internet use" ;
+	dct:source	ns38: ;
+	skos:notation	"desi_3a_ui" ;
+	skos:altLabel	"3a Internet use" ;
+	ns11:membership	ns20:desi_3a_ui ;
+	skos:definition	"DESI Internet Use sub-dimension calculated as the weighted average of the normalised indicators: 3a1 People who never used the internet (50%) and 3a2 Internet Users (50%) " ;
+	skos:topConceptOf	ns1:indicator .
+ns7:desi_3b1_news	rdf:type	skos:Concept ,
+		ns10:Indicator ;
+	skos:prefLabel	"3b1 News" ;
+	dct:source	ns38:desi_3b1_news ;
+	skos:notation	"desi_3b1_news" ;
+	skos:altLabel	"3b1 News" ;
+	ns11:membership	ns18:desi_3b1_news ;
+	skos:definition	"People who used the internet to read online news sites, newspapers or news magazines" ;
+	skos:topConceptOf	ns1:indicator .
+ns7:desi_3b2_mvg	rdf:type	skos:Concept ,
+		ns10:Indicator ;
+	skos:prefLabel	"3b2 Music, Videos and Games" ;
+	dct:source	ns38:desi_3b2_mvg ;
+	skos:notation	"desi_3b2_mvg" ;
+	skos:altLabel	"3b2 Music, Videos and Games" ;
+	ns11:membership	ns18:desi_3b2_mvg ;
+	skos:definition	"People who used the internet to play or download games, images, films or music" ;
+	skos:topConceptOf	ns1:indicator .
+ns7:desi_3b3_vod	rdf:type	skos:Concept ,
+		ns10:Indicator ;
+	skos:prefLabel	"3b3 Video on Demand" ;
+	dct:source	ns38:desi_3b3_vod ;
+	skos:notation	"desi_3b3_vod" ;
+	skos:altLabel	"3b3 Video on Demand" ;
+	ns11:membership	ns18:desi_3b3_vod ;
+	skos:definition	"People who used the internet to use Video on Demand services" ;
+	skos:topConceptOf	ns1:indicator .
+ns7:desi_3b4_vidcall	rdf:type	ns10:Indicator ,
+		skos:Concept ;
+	skos:prefLabel	"3b4 Video Calls" ;
+	dct:source	ns38:desi_3b4_vidcall ;
+	skos:notation	"desi_3b4_vidcall" ;
+	skos:altLabel	"3b4 Video Calls" ;
+	ns11:membership	ns18:desi_3b4_vidcall ;
+	skos:definition	"People who used the internet to make telephone or video calls (e.g. Skype)" ;
+	skos:topConceptOf	ns1:indicator .
+ns7:desi_3b5_socnet	rdf:type	ns10:Indicator ,
+		skos:Concept ;
+	skos:prefLabel	"3b5 Social Networks" ;
+	dct:source	ns38:desi_3b5_socnet ;
+	skos:notation	"desi_3b5_socnet" ;
+	skos:altLabel	"3b5 Social Networks" ;
+	ns11:membership	ns18:desi_3b5_socnet ;
+	skos:definition	"People who used the internet to participate in social networks (create user profile, post messages or other contributions)" ;
+	skos:topConceptOf	ns1:indicator .
+ns7:desi_3b6_profsocnet	rdf:type	ns10:Indicator ,
+		skos:Concept ;
+	skos:prefLabel	"3b6 Professional social networks" ;
+	dct:source	ns38:desi_3b6_profsocnet ;
+	skos:notation	"desi_3b6_profsocnet" ;
+	skos:altLabel	"3b6 Professional social networks" ;
+	ns11:membership	ns18:desi_3b6_profsocnet ;
+	skos:definition	"People who have used Internet for participating in social or professional networks" ;
+	skos:topConceptOf	ns1:indicator .
+ns7:desi_3b7_courseon	rdf:type	ns10:Indicator ,
+		skos:Concept ;
+	skos:prefLabel	"3b7 Doing an online course" ;
+	dct:source	ns38:desi_3b7_courseon ;
+	skos:notation	"desi_3b7_courseon" ;
+	skos:altLabel	"3b7 Doing an online course" ;
+	ns11:membership	ns18:desi_3b7_courseon ;
+	skos:definition	"People who have used the Internet for doing an online course (on any subject)" ;
+	skos:topConceptOf	ns1:indicator .
+ns7:desi_3b8_convoton	rdf:type	ns10:Indicator ,
+		skos:Concept ;
+	skos:prefLabel	"3b8 Online consultations and voting" ;
+	dct:source	ns38:desi_3b8_convoton ;
+	skos:notation	"desi_3b8_convoton" ;
+	skos:altLabel	"3b8 Online consultations and voting" ;
+	ns11:membership	ns18:desi_3b8_convoton ;
+	skos:definition	"People who took part in on-line consultations or voting to define civic or political issues (e.g. urban planning, signing a petition)" ;
+	skos:topConceptOf	ns1:indicator .
+ns7:desi_3b_acton	rdf:type	ns10:Indicator ,
+		skos:Concept ;
+	skos:prefLabel	"3b Activities online" ;
+	dct:source	ns38: ;
+	skos:notation	"desi_3b_acton" ;
+	skos:altLabel	"3b Activities online" ;
+	ns11:membership	ns20:desi_3b_acton ;
+	skos:definition	"DESI Activities Online sub-dimension calculated as the weighted average of the normalised indicators: 3b1 News (12.5%), 3b2 Music, Videos and Games (12.5%), 3b3 Video on Demand (12.5%), 3b4 Video Calls (12.5%), 3b5 Social Networks (12.5%), 3b6 Professional social networks (12.5%), 3b7 Doing an online course (12.5%) and 3b8 Online consultations and voting (12.5%)" ;
+	skos:topConceptOf	ns1:indicator .
+ns7:desi_3c3_sell	rdf:type	ns10:Indicator ,
+		skos:Concept ;
+	skos:prefLabel	"3c3 Selling online" ;
+	dct:source	ns38:desi_3c3_sell ;
+	skos:notation	"desi_3c3_sell" ;
+	skos:altLabel	"3c3 Selling online" ;
+	ns11:membership	ns18:desi_3c3_sell ;
+	skos:definition	"People who sold goods or services online" ;
+	skos:topConceptOf	ns1:indicator .
+ns7:desi_4a2_socmed	rdf:type	ns10:Indicator ,
+		skos:Concept ;
+	skos:prefLabel	"4a2 Social media" ;
+	dct:source	ns38:desi_4a2_socmed ;
+	skos:notation	"desi_4a2_socmed" ;
+	skos:altLabel	"4a2 Social media" ;
+	ns11:membership	ns18:desi_4a2_socmed ;
+	skos:definition	"Businesses using two or more of the following social media: social networks, enterprise's blog or microblog, multimedia content sharing websites, wiki based knowledge sharing tools. Using social media means that the enterprise have a user profile, an account or a user license depending on the requirements and the type of the social media" ;
+	skos:topConceptOf	ns1:indicator .
+ns7:desi_4a3_bigdat	rdf:type	ns10:Indicator ,
+		skos:Concept ;
+	skos:prefLabel	"4a3 Big data" ;
+	dct:source	ns38:desi_4a3_bigdat ;
+	skos:notation	"desi_4a3_bigdat" ;
+	skos:altLabel	"4a3 Big data" ;
+	ns11:membership	ns18:desi_4a3_bigdat ;
+	skos:definition	"Enterprises analysing big data from any data source" ;
+	skos:topConceptOf	ns1:indicator .
+ns7:desi_4a4_cloud	rdf:type	ns10:Indicator ,
+		skos:Concept ;
+	skos:prefLabel	"4a4 Cloud" ;
+	dct:source	ns38:desi_4a4_cloud ;
+	skos:notation	"desi_4a4_cloud" ;
+	skos:altLabel	"4a4 Cloud" ;
+	ns11:membership	ns18:desi_4a4_cloud ;
+	skos:definition	"Businesses purchasing at least one of the following cloud computing services: hosting of the enterprise's database, accounting software applications, CRM software, computing power" ;
+	skos:topConceptOf	ns1:indicator .
+ns7:desi_5b2_mdataexch	rdf:type	ns10:Indicator ,
+		skos:Concept ;
+	skos:prefLabel	"5b2 Medical data exchange" ;
+	dct:source	ns38:desi_5b2_mdataexch ;
+	skos:notation	"desi_5b2_mdataexch" ;
+	skos:altLabel	"5b2 Medical data exchange" ;
+	ns11:membership	ns18:desi_5b2_mdataexch ;
+	skos:definition	"General practitioners exchanging medical data with hospitals and doctors" ;
+	skos:topConceptOf	ns1:indicator .
+ns7:desi_5b3_epresc	rdf:type	ns10:Indicator ,
+		skos:Concept ;
+	skos:prefLabel	"5b3 e-Prescription" ;
+	dct:source	ns38:desi_5b3_epresc ;
+	skos:notation	"desi_5b3_epresc" ;
+	skos:altLabel	"5b3 e-Prescription" ;
+	ns11:membership	ns18:desi_5b3_epresc ;
+	skos:definition	"General practitioners using electronic prescriptions" ;
 	skos:topConceptOf	ns1:indicator .
