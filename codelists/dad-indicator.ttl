@@ -6,13 +6,24 @@ ns1:indicator	rdf:type	ns2:CodeList .
 ns1:indicator	rdf:type	skos:ConceptScheme .
 @prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
 @prefix dct:	<http://purl.org/dc/terms/> .
-ns1:indicator	dct:modified	"2019-06-11T11:46:49"^^xsd:dateTime .
+ns1:indicator	dct:modified	"2020-01-30T11:03:43"^^xsd:dateTime .
 @prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
 ns1:indicator	rdfs:isDefinedBy	<http://digital-agenda-data.eu/> ;
 	skos:prefLabel	"Code list for indicators used by Digital Agenda Scoreboard" ;
 	skos:notation	"CL_INDICATOR" .
 @prefix ns7:	<http://semantic.digital-agenda-data.eu/codelist/indicator/> .
-ns1:indicator	skos:hasTopConcept	ns7:desi_2b2_fictspec ,
+ns1:indicator	skos:hasTopConcept	ns7:old_i_dsk_i_b ,
+		ns7:old_i_dsk_ps_b ,
+		ns7:old_i_dsk_s_b ,
+		ns7:old_digskillindex ,
+		ns7:old_digskillindex_basicandabove ,
+		ns7:old_i_dsk_b ,
+		ns7:old_i_dsk_c_b ,
+		ns7:i_dsk_ps_ab ,
+		ns7:i_dsk_s_ab ,
+		ns7:i_dsk_l ,
+		ns7:i_dsk_x ,
+		ns7:desi_2b2_fictspec ,
 		ns7:desi_2b3_ictg ,
 		ns7:desi_3a1_notiu ,
 		ns7:desi_3a2_iu ,
@@ -23,6 +34,7 @@ ns1:indicator	skos:hasTopConcept	ns7:desi_2b2_fictspec ,
 		ns7:desi_1b3_5g ,
 		ns7:desi_2a1_bds ,
 		ns7:desi_2a2_abds ,
+		ns7:i_dsk_c_x ,
 		ns7:desi_2a3_abss ,
 		ns7:desi_4a3_bigdat ,
 		ns7:desi_4a4_cloud ,
@@ -36,6 +48,8 @@ ns1:indicator	skos:hasTopConcept	ns7:desi_2b2_fictspec ,
 		ns7:desi_3b_acton ,
 		ns7:desi_3c3_sell ,
 		ns7:desi_4a2_socmed ,
+		ns7:i_dsk_s_x ,
+		ns7:i_dsk_c_ab ,
 		ns7:e_gov_4b_bm_us ,
 		ns7:wid_ui_ib ,
 		ns7:wid_ui_iu ,
@@ -91,12 +105,15 @@ ns1:indicator	skos:hasTopConcept	ns7:desi_2b2_fictspec ,
 		ns7:mbb_3gcov ,
 		ns7:mbb_hspacov ,
 		ns7:mbb_ltecov ,
+		ns7:i_dsk_i_ab ,
+		ns7:i_dsk_ab ,
+		ns7:i_dsk_i_x ,
+		ns7:i_dsk_ps_x ,
 		ns7:desi_5a5_opendata ,
 		ns7:desi_5a_egov ,
 		ns7:desi_5b1_ehs ,
 		ns7:desi_5b_ehs ,
 		ns7:desi_sliders ,
-		ns7:digskillindex ,
 		ns7:desi_4b3_sellcb ,
 		ns7:desi_4b_ecomm ,
 		ns7:desi_5_dps ,
@@ -190,7 +207,6 @@ ns1:indicator	skos:hasTopConcept	ns7:desi_2b2_fictspec ,
 		ns7:e_broad ,
 		ns7:e_cc ,
 		ns7:e_cc_ge_me ,
-		ns7:digskillindex_basicandabove ,
 		ns7:e_ade ,
 		ns7:e_ads ,
 		ns7:e_ads_loc ,
@@ -320,12 +336,6 @@ ns1:indicator	skos:hasTopConcept	ns7:desi_2b2_fictspec ,
 		ns7:i_bserv ,
 		ns7:househ ,
 		ns7:households ,
-		ns7:i-dsk-c ,
-		ns7:i-dsk-i ,
-		ns7:i-dsk-ind ,
-		ns7:i-dsk-iu3 ,
-		ns7:i-dsk-ps ,
-		ns7:i-dsk-s ,
 		ns7:bb_speed100 ,
 		ns7:bb_speed2 ,
 		ns7:bb_speed30 ,
@@ -1147,78 +1157,30 @@ ns27:val_add_ict	rdf:type	ns10:IndicatorToGroupMembership ;
 	ns11:member-of	ns12:ict-sector ;
 	ns11:order	"5" .
 @prefix ns28:	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/> .
-ns28:digskillindex	rdf:type	ns10:IndicatorToGroupMembership ;
-	rdfs:label	"ict-skills" ;
-	ns11:member-of	ns12:ict-skills ;
-	ns11:order	"17" .
-ns28:digskillindex_basicandabove	rdf:type	ns10:IndicatorToGroupMembership ;
-	rdfs:label	"ict-skills" ;
-	ns11:member-of	ns12:ict-skills ;
-	ns11:order	"18" .
-ns28:i-dsk-c	rdf:type	ns10:IndicatorToGroupMembership ;
-	rdfs:label	"ict-skills" ;
-	ns11:member-of	ns12:ict-skills ;
-	ns11:order	"11" .
-ns28:i-dsk-i	rdf:type	ns10:IndicatorToGroupMembership ;
-	rdfs:label	"ict-skills" ;
-	ns11:member-of	ns12:ict-skills ;
-	ns11:order	"9" .
-ns28:i-dsk-ind	rdf:type	ns10:IndicatorToGroupMembership ;
-	rdfs:label	"ict-skills" ;
-	ns11:member-of	ns12:ict-skills ;
-	ns11:order	"7" .
-ns28:i-dsk-iu3	rdf:type	ns10:IndicatorToGroupMembership ;
-	rdfs:label	"ict-skills" ;
-	ns11:member-of	ns12:ict-skills ;
-	ns11:order	"6" .
-ns28:i-dsk-ps	rdf:type	ns10:IndicatorToGroupMembership ;
-	rdfs:label	"ict-skills" ;
-	ns11:member-of	ns12:ict-skills ;
-	ns11:order	"13" .
-ns28:i-dsk-s	rdf:type	ns10:IndicatorToGroupMembership ;
-	rdfs:label	"ict-skills" ;
-	ns11:member-of	ns12:ict-skills ;
-	ns11:order	"15" .
-ns28:i_cisk_sfjobx	rdf:type	ns10:IndicatorToGroupMembership ;
-	rdfs:label	"ict-skills" ;
-	ns11:member-of	ns12:ict-skills ;
-	ns11:order	"4" .
-ns28:i_cprg	rdf:type	ns10:IndicatorToGroupMembership ;
-	rdfs:label	"ict-skills" ;
-	ns11:member-of	ns12:ict-skills ;
-	ns11:order	"1" .
 ns28:i_dsk_bab	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"ict-skills" ;
 	ns11:member-of	ns12:ict-skills ;
-	ns11:order	"8" .
+	ns11:order	"13" .
 ns28:i_dsk_c_bab	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"ict-skills" ;
 	ns11:member-of	ns12:ict-skills ;
-	ns11:order	"12" .
+	ns11:order	"22" .
 ns28:i_dsk_i_bab	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"ict-skills" ;
 	ns11:member-of	ns12:ict-skills ;
-	ns11:order	"10" .
+	ns11:order	"18" .
 ns28:i_dsk_ps_bab	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"ict-skills" ;
 	ns11:member-of	ns12:ict-skills ;
-	ns11:order	"14" .
+	ns11:order	"26" .
 ns28:i_dsk_s_bab	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"ict-skills" ;
 	ns11:member-of	ns12:ict-skills ;
-	ns11:order	"16" .
-ns28:i_skedu	rdf:type	ns10:IndicatorToGroupMembership ;
-	rdfs:label	"ict-skills" ;
-	ns11:member-of	ns12:ict-skills ;
-	ns11:order	"2" .
-ns28:p_iuse	rdf:type	ns10:IndicatorToGroupMembership ;
-	rdfs:label	"ict-skills" ;
-	ns11:member-of	ns12:ict-skills ;
-	ns11:order	"3" .
+	ns11:order	"32" .
 ns28:st_grad	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"ict-skills" ;
 	ns11:member-of	ns12:ict-skills ;
-	ns11:order	"5" .
+	ns11:order	"91" .
 @prefix ns29:	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-specialist/> .
 ns29:e_it_mext	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"ict-specialist" ;
@@ -2225,26 +2187,6 @@ ns7:desi_sliders	rdf:type	skos:Concept ,
 	skos:altLabel	"DESI" ;
 	ns11:membership	ns19:desi_sliders ;
 	skos:definition	"DESI overall index, calculated as the weighted average of the five main DESI dimensions with the weights selected by the user: 1 Connectivity, 2 Human Capital, 3 Use of Internet, 4 Integration of Digital Technology and 5 Digital Public Services." ;
-	skos:topConceptOf	ns1:indicator .
-ns7:digskillindex	rdf:type	skos:Concept ,
-		ns10:Indicator ;
-	skos:prefLabel	"Digital skills indicator (internet users) - pilot 2012/2014" ;
-	dct:source	ns38:estat_isoc_sk_dskl_i ;
-	skos:notation	"digskillindex" ;
-	skos:altLabel	"Digital skills indicator (internet users) - pilot 2012/2014" ;
-	ns11:membership	ns28:digskillindex ;
-	skos:definition	"Persons that have been using internet during last 3 months are attributed a score on four digital competence domains: information, communication, content-creation and problem-solving, depending the activities they have been able to do. The scores are basic, above basic and below basic. Individuals not using internet are classified without digital skills. The four digital competence domains are aggregated in four logical groups." ;
-	skos:note	"This indicator has been piloted on the 2012 and 2014 micro-data from the Eurostat community survey on ICT usage by Households/Individuals using some proxy variables. It is not fully comparable with the regular implementation starting with the 2015 survey." ;
-	skos:topConceptOf	ns1:indicator .
-ns7:digskillindex_basicandabove	rdf:type	ns10:Indicator ,
-		skos:Concept ;
-	skos:prefLabel	"Individuals with basic or above basic digital skills - pilot 2012/2014" ;
-	dct:source	ns38:estat_isoc_sk_dskl_i ;
-	skos:notation	"digskillindex_basicandabove" ;
-	skos:altLabel	"Individuals with basic or above basic digital skills - pilot 2012/2014" ;
-	ns11:membership	ns28:digskillindex_basicandabove ;
-	skos:definition	"Persons that have been using internet during last 3 months are attributed a score on four digital competence domains: information, communication, content-creation and problem-solving, depending the activities they have been able to do. The scores in each domain are basic, above basic and below basic. Individuals not using internet are classified without digital skills. To be classified \"basic or above basic\" on the overall indicator an individual has to have basic or above basic skills in all the four Digital Competence domains included in the index: information, communication, content-creation and problem-solving." ;
-	skos:note	"This indicator has been piloted on the 2012 and 2014 micro-data from the Eurostat community survey on ICT usage by Households/Individuals using some proxy variables. It is not fully comparable with the regular implementation starting with the 2015 survey." ;
 	skos:topConceptOf	ns1:indicator .
 ns7:e_ade	rdf:type	ns10:Indicator ,
 		skos:Concept ;
@@ -3477,66 +3419,6 @@ ns7:households	rdf:type	ns10:Indicator ,
 	ns11:membership	ns13:households ;
 	skos:definition	"Number of private households (Eurostat table lfst_hhnhwhtc)" ;
 	skos:topConceptOf	ns1:indicator .
-ns7:i-dsk-c	rdf:type	ns10:Indicator ,
-		skos:Concept ;
-	skos:prefLabel	"Digital Skills - Communication domain" ;
-	dct:source	ns38:estat_isoc_sk_dskl_i ;
-	skos:notation	"i-dsk-c" ;
-	skos:altLabel	"Digital Skills - Communication " ;
-	ns11:membership	ns28:i-dsk-c ;
-	skos:definition	"These skills refer to the ability to communicate in digital environments, share resources through online tools, link with others and collaborate through digital tools, interact with and participate in communities and networks, cross-cultural awareness. The indicator is based on four activities internet users have been able to do online during previous 3 months. The scores are basic, above basic and none. Individuals not using internet are classified without digital skills." ;
-	skos:note	"Detailed results are available in the Eurostat table <a href=\"http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=isoc_sk_dskl_i&lang=en\">ISOC_SK_DSKL_I</a>. Consult the <a href=\"https://ec.europa.eu/digital-agenda/en/news/new-comprehensive-digital-skills-indicator\"> methodological note</a> on DG CONNECT newsroom." ;
-	skos:topConceptOf	ns1:indicator .
-ns7:i-dsk-i	rdf:type	ns10:Indicator ,
-		skos:Concept ;
-	skos:prefLabel	"Digital Skills - Information domain" ;
-	dct:source	ns38:estat_isoc_sk_dskl_i ;
-	skos:notation	"i-dsk-i" ;
-	skos:altLabel	"Digital Skills - Information " ;
-	ns11:membership	ns28:i-dsk-i ;
-	skos:definition	"Information processing skills refers to the ability to identify, locate, retrieve, store, organise and analyse digital information, judging its relevance and purpose. The indicator is based on five activities internet users have been able to do online during previous 3 months. The scores are basic, above basic and none. Individuals not using internet are classified without digital skills." ;
-	skos:note	"Detailed results are available in the Eurostat table <a href=\"http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=isoc_sk_dskl_i&lang=en\">ISOC_SK_DSKL_I</a>. Consult the <a href=\"https://ec.europa.eu/digital-agenda/en/news/new-comprehensive-digital-skills-indicator\"> methodological note</a> on DG CONNECT newsroom." ;
-	skos:topConceptOf	ns1:indicator .
-ns7:i-dsk-ind	rdf:type	ns10:Indicator ,
-		skos:Concept ;
-	skos:prefLabel	"Digital Skills Indicator (all individuals)" ;
-	dct:source	ns38:estat_isoc_sk_dskl_i ;
-	skos:notation	"i-dsk-ind" ;
-	skos:altLabel	"Digital Skills Indicator (all individuals)" ;
-	ns11:membership	ns28:i-dsk-ind ;
-	skos:definition	"Persons that have been using internet during last 3 months are attributed a score on four digital competence domains: information, communication, content-creation and problem-solving, depending the activities they have been able to do. The scores are basic, above basic and below basic. Individuals not using internet are classified without digital skills. The four digital competence domains are aggregated in four logical groups." ;
-	skos:note	"Detailed results are available in the Eurostat table <a href=\"http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=isoc_sk_dskl_i&lang=en\">ISOC_SK_DSKL_I</a>. Consult the <a href=\"https://ec.europa.eu/digital-agenda/en/news/new-comprehensive-digital-skills-indicator\"> methodological note</a> on DG CONNECT newsroom." ;
-	skos:topConceptOf	ns1:indicator .
-ns7:i-dsk-iu3	rdf:type	ns10:Indicator ,
-		skos:Concept ;
-	skos:prefLabel	"Digital Skills Indicator (internet users)" ;
-	dct:source	ns38:estat_isoc_sk_dskl_i ;
-	skos:notation	"i-dsk-iu3" ;
-	skos:altLabel	"Digital Skills Indicator (internet users)" ;
-	ns11:membership	ns28:i-dsk-iu3 ;
-	skos:definition	"Persons that have been using internet during last 3 months are attributed a score on four digital competence domains: information, communication, content-creation and problem-solving, depending the activities they have been able to do. The scores are basic, above basic and below basic. Individuals not using internet are classified without digital skills. The four digital competence domains are aggregated in four logical groups." ;
-	skos:note	"Detailed results are available in the Eurostat table <a href=\"http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=isoc_sk_dskl_i&lang=en\">ISOC_SK_DSKL_I</a>. Consult the <a href=\"https://ec.europa.eu/digital-agenda/en/news/new-comprehensive-digital-skills-indicator\"> methodological note</a> on DG CONNECT newsroom." ;
-	skos:topConceptOf	ns1:indicator .
-ns7:i-dsk-ps	rdf:type	ns10:Indicator ,
-		skos:Concept ;
-	skos:prefLabel	"Digital Skills - Problem solving domain" ;
-	dct:source	ns38:estat_isoc_sk_dskl_i ;
-	skos:notation	"i-dsk-ps" ;
-	skos:altLabel	"Digital Skills - Problem solving " ;
-	ns11:membership	ns28:i-dsk-ps ;
-	skos:definition	"Problem solving skills refers to the ability to identify digital needs and resources, make informed decisions as to which are the most appropriate digital tools according to the purpose or need, solve conceptual problems through digital means, creatively use technologies, solve technical problems, update one's own and others' competences. The indicator is based on three basic digital problems and familiarity with four online services internet users have been able to do during previous 3 months. The scores are basic, above basic and none. Individuals not using internet are classified without digital skills." ;
-	skos:note	"Detailed results are available in the Eurostat table <a href=\"http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=isoc_sk_dskl_i&lang=en\">ISOC_SK_DSKL_I</a>. Consult the <a href=\"https://ec.europa.eu/digital-agenda/en/news/new-comprehensive-digital-skills-indicator\"> methodological note</a> on DG CONNECT newsroom." ;
-	skos:topConceptOf	ns1:indicator .
-ns7:i-dsk-s	rdf:type	ns10:Indicator ,
-		skos:Concept ;
-	skos:prefLabel	"Digital Skills - Software for content manipulation" ;
-	dct:source	ns38:estat_isoc_sk_dskl_i ;
-	skos:notation	"i-dsk-s" ;
-	skos:altLabel	"Digital Skills - Software for content manipulation" ;
-	ns11:membership	ns28:i-dsk-s ;
-	skos:definition	"Software skills for content manipulation refer to the ability to create and edit new content (from word processing to images and video); integrate and re-elaborate previous knowledge and content; produce creative expressions, media outputs and programming; deal with and apply intellectual property rights and licences. The indicator is based on six activities internet users have been able to do during previous 3 months. The scores are basic, above basic and none. Individuals not using internet are classified without digital skills." ;
-	skos:note	"Detailed results are available in the Eurostat table <a href=\"http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=isoc_sk_dskl_i&lang=en\">ISOC_SK_DSKL_I</a>. Consult the <a href=\"https://ec.europa.eu/digital-agenda/en/news/new-comprehensive-digital-skills-indicator\"> methodological note</a> on DG CONNECT newsroom." ;
-	skos:topConceptOf	ns1:indicator .
 ns7:i_atsw	rdf:type	ns10:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"Individuals using anti-tracking software" ;
@@ -3633,7 +3515,7 @@ ns7:i_cisk_sfjobx	rdf:type	skos:Concept ,
 	dct:source	ns38:estat_isoc_sk_cskl_i ;
 	skos:notation	"i_cisk_sfjobx" ;
 	skos:altLabel	"ICT skills perceived as insufficient for the labour market" ;
-	ns11:membership	ns28:i_cisk_sfjobx ;
+	ns11:membership	ns29:i_cisk_sfjobx ;
 	skos:definition	"Individuals with an occupation as employees, self-employed or family workers, were asked if they judge their current computer or Internet skills to be sufficient (yes/not) if they were to look for a job or change job within a year." ;
 	skos:topConceptOf	ns1:indicator .
 ns7:i_cook	rdf:type	skos:Concept ,
@@ -3651,7 +3533,7 @@ ns7:i_cprg	rdf:type	skos:Concept ,
 	dct:source	ns38:estat_isoc_sk_cskl_i ;
 	skos:notation	"i_cprg" ;
 	skos:altLabel	"Have written a computer program" ;
-	ns11:membership	ns28:i_cprg ;
+	ns11:membership	ns29:i_cprg ;
 	skos:definition	"Individuals who have written a computer program using a specialised programming language. " ;
 	skos:note	"Break in series because before 2015 the activity could have been carried out ever, but since 2015 it refers to the last 12 months ." ;
 	skos:topConceptOf	ns1:indicator .
@@ -3675,50 +3557,50 @@ ns7:i_cweb	rdf:type	skos:Concept ,
 	skos:topConceptOf	ns1:indicator .
 ns7:i_dsk_bab	rdf:type	skos:Concept ,
 		ns10:Indicator ;
-	skos:prefLabel	"Individuals with basic or above basic digital skills" ;
+	skos:prefLabel	"Individuals with at least basic digital skills" ;
 	dct:source	ns38:estat_isoc_sk_dskl_i ;
 	skos:notation	"i_dsk_bab" ;
-	skos:altLabel	"Individuals with basic or above basic digital skills" ;
+	skos:altLabel	"Individuals with at least basic digital skills" ;
 	ns11:membership	ns28:i_dsk_bab ;
 	skos:definition	"Persons that have been using internet during last 3 months are attributed a score on four digital competence domains: information, communication, content-creation and problem-solving, depending the activities they have been able to do. The scores in each domain are basic, above basic and below basic. Individuals not using internet are classified without digital skills. To be classified \"basic or above basic\" on the overall indicator an individual has to have basic or above basic skills in all the four Digital Competence domains included in the index: information, communication, content-creation and problem-solving." ;
 	skos:note	"Detailed results are available in the Eurostat table <a href=\"http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=isoc_sk_dskl_i&lang=en\">ISOC_SK_DSKL_I</a>. Consult the <a href=\"https://ec.europa.eu/digital-agenda/en/news/new-comprehensive-digital-skills-indicator\"> methodological note</a> on DG CONNECT newsroom." ;
 	skos:topConceptOf	ns1:indicator .
 ns7:i_dsk_c_bab	rdf:type	skos:Concept ,
 		ns10:Indicator ;
-	skos:prefLabel	"Basic or above basic Digital Skills - Communication domain" ;
+	skos:prefLabel	"Individuals with at least basic digital skills in Communication domain" ;
 	dct:source	ns38:estat_isoc_sk_dskl_i ;
 	skos:notation	"i_dsk_c_bab" ;
-	skos:altLabel	"Basic or above basic Digital Skills - Communication domain" ;
+	skos:altLabel	"Communication Domain - At least Basic  Skills" ;
 	ns11:membership	ns28:i_dsk_c_bab ;
 	skos:definition	"These skills refer to the ability to communicate in digital environments, share resources through online tools, link with others and collaborate through digital tools, interact with and participate in communities and networks, cross-cultural awareness. The indicator is based on four activities internet users have been able to do online during previous 3 months. The scores are basic, above basic and none. Individuals not using internet are classified without digital skills." ;
 	skos:note	"Detailed results are available in the Eurostat table <a href=\"http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=isoc_sk_dskl_i&lang=en\">ISOC_SK_DSKL_I</a>. Consult the <a href=\"https://ec.europa.eu/digital-agenda/en/news/new-comprehensive-digital-skills-indicator\"> methodological note</a> on DG CONNECT newsroom." ;
 	skos:topConceptOf	ns1:indicator .
 ns7:i_dsk_i_bab	rdf:type	skos:Concept ,
 		ns10:Indicator ;
-	skos:prefLabel	"Basic or above basic Digital Skills - Information domain" ;
+	skos:prefLabel	"Individuals with at least basic digital skills in Information domain" ;
 	dct:source	ns38:estat_isoc_sk_dskl_i ;
 	skos:notation	"i_dsk_i_bab" ;
-	skos:altLabel	"Basic or above basic Digital Skills - Information domain" ;
+	skos:altLabel	"Information Domain - At least Basic  Skills" ;
 	ns11:membership	ns28:i_dsk_i_bab ;
 	skos:definition	"Information processing skills refers to the ability to identify, locate, retrieve, store, organise and analyse digital information, judging its relevance and purpose. The indicator is based on five activities internet users have been able to do online during previous 3 months. The scores are basic, above basic and none. Individuals not using internet are classified without digital skills." ;
 	skos:note	"Detailed results are available in the Eurostat table <a href=\"http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=isoc_sk_dskl_i&lang=en\">ISOC_SK_DSKL_I</a>. Consult the <a href=\"https://ec.europa.eu/digital-agenda/en/news/new-comprehensive-digital-skills-indicator\"> methodological note</a> on DG CONNECT newsroom." ;
 	skos:topConceptOf	ns1:indicator .
 ns7:i_dsk_ps_bab	rdf:type	skos:Concept ,
 		ns10:Indicator ;
-	skos:prefLabel	"Basic or above basic Digital Skills - Problem solving domain" ;
+	skos:prefLabel	"Individuals with at least basic digital skills in Problem solving domain" ;
 	dct:source	ns38:estat_isoc_sk_dskl_i ;
 	skos:notation	"i_dsk_ps_bab" ;
-	skos:altLabel	"Basic or above basic Digital Skills - Problem solving domain" ;
+	skos:altLabel	"Problem Solving Domain - At least Basic  Skills" ;
 	ns11:membership	ns28:i_dsk_ps_bab ;
 	skos:definition	"Problem solving skills refers to the ability to identify digital needs and resources, make informed decisions as to which are the most appropriate digital tools according to the purpose or need, solve conceptual problems through digital means, creatively use technologies, solve technical problems, update one's own and others' competences. The indicator is based on three basic digital problems and familiarity with four online services internet users have been able to do during previous 3 months. The scores are basic, above basic and none. Individuals not using internet are classified without digital skills." ;
 	skos:note	"Detailed results are available in the Eurostat table <a href=\"http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=isoc_sk_dskl_i&lang=en\">ISOC_SK_DSKL_I</a>. Consult the <a href=\"https://ec.europa.eu/digital-agenda/en/news/new-comprehensive-digital-skills-indicator\"> methodological note</a> on DG CONNECT newsroom." ;
 	skos:topConceptOf	ns1:indicator .
 ns7:i_dsk_s_bab	rdf:type	skos:Concept ,
 		ns10:Indicator ;
-	skos:prefLabel	"Basic or above basic Digital Skills - Software for content manipulation" ;
+	skos:prefLabel	"Individuals with at least basic digital skills in Software domain" ;
 	dct:source	ns38:estat_isoc_sk_dskl_i ;
 	skos:notation	"i_dsk_s_bab" ;
-	skos:altLabel	"Basic or above basic Digital Skills - Software for content manipulation" ;
+	skos:altLabel	"Software Domain - At least Basic  Skills" ;
 	ns11:membership	ns28:i_dsk_s_bab ;
 	skos:definition	"Software skills for content manipulation refer to the ability to create and edit new content (from word processing to images and video); integrate and re-elaborate previous knowledge and content; produce creative expressions, media outputs and programming; deal with and apply intellectual property rights and licences. The indicator is based on six activities internet users have been able to do during previous 3 months. The scores are basic, above basic and none. Individuals not using internet are classified without digital skills." ;
 	skos:note	"Detailed results are available in the Eurostat table <a href=\"http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=isoc_sk_dskl_i&lang=en\">ISOC_SK_DSKL_I</a>. Consult the <a href=\"https://ec.europa.eu/digital-agenda/en/news/new-comprehensive-digital-skills-indicator\"> methodological note</a> on DG CONNECT newsroom." ;
@@ -4029,7 +3911,7 @@ ns7:i_skedu	rdf:type	skos:Concept ,
 	dct:source	ns38:estat_isoc_sk_how_i ;
 	skos:notation	"i_skedu" ;
 	skos:altLabel	"ICT skills obtained through formal educational institutions" ;
-	ns11:membership	ns28:i_skedu ;
+	ns11:membership	ns29:i_skedu ;
 	skos:definition	"Individuals who have obtained ICT skills through formal educational institutions (school, college, university, etc.)" ;
 	skos:topConceptOf	ns1:indicator .
 ns7:ict_commit_in_trp	rdf:type	skos:Concept ,
@@ -4233,7 +4115,7 @@ ns7:p_iuse	rdf:type	skos:Concept ,
 	dct:source	ns38:estat_isoc_bde15b_p ;
 	skos:notation	"p_iuse" ;
 	skos:altLabel	"Persons employed using computers at work" ;
-	ns11:membership	ns28:p_iuse ;
+	ns11:membership	ns29:p_iuse ;
 	skos:definition	"The computers (desktop, laptop, smartphones, etc.) should have access to the World Wide Web and be used at least once a week. Are included only the enterprises with 10 or more persons employed, from all manufacturing and service sectors, excluding the financial sector." ;
 	skos:note	"Only the business sector is included in the scope: NACEv2 sectors from C10 to N82 (withouk financial services K) + S951." ;
 	skos:topConceptOf	ns1:indicator .
@@ -4866,4 +4748,272 @@ ns7:desi_5b3_epresc	rdf:type	ns10:Indicator ,
 	skos:altLabel	"5b3 e-Prescription" ;
 	ns11:membership	ns18:desi_5b3_epresc ;
 	skos:definition	"General practitioners using electronic prescriptions" ;
+	skos:topConceptOf	ns1:indicator .
+ns7:i_dsk_x	rdf:type	skos:Concept ,
+		ns10:Indicator ;
+	skos:prefLabel	"Individuals with no digital skills" ;
+	dct:source	ns38:estat_isoc_sk_dskl_i ;
+	skos:notation	"i_dsk_x" ;
+	skos:altLabel	"Individuals with \"no skills\"" ;
+	ns11:membership	ns28:i_dsk_x ;
+	skos:definition	"Persons that have been using internet during last 3 months are attributed a score on four digital competence domains: information, communication, content-creation and problem-solving, depending the activities they have been able to do. The scores in each domain are basic, above basic and below basic. Individuals not using internet are classified without digital skills. To be classified \"basic or above basic\" on the overall indicator an individual has to have basic or above basic skills in all the four Digital Competence domains included in the index: information, communication, content-creation and problem-solving." ;
+	skos:note	"Detailed results are available in the Eurostat table <a href=\"http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=isoc_sk_dskl_i&lang=en\">ISOC_SK_DSKL_I</a>. Consult the <a href=\"https://ec.europa.eu/digital-agenda/en/news/new-comprehensive-digital-skills-indicator\"> methodological note</a> on DG CONNECT newsroom." ;
+	skos:topConceptOf	ns1:indicator .
+ns7:i_dsk_c_x	rdf:type	ns10:Indicator ,
+		skos:Concept ;
+	skos:prefLabel	"Individuals with no digital skills in Communication domain" ;
+	dct:source	ns38:estat_isoc_sk_dskl_i ;
+	skos:notation	"i_dsk_c_x" ;
+	skos:altLabel	"Communication Domain - No Skills" ;
+	ns11:membership	ns28:i_dsk_c_x ;
+	skos:definition	"These skills refer to the ability to communicate in digital environments, share resources through online tools, link with others and collaborate through digital tools, interact with and participate in communities and networks, cross-cultural awareness. The indicator is based on four activities internet users have been able to do online during previous 3 months. The scores are basic, above basic and none. Individuals not using internet are classified without digital skills." ;
+	skos:note	"Detailed results are available in the Eurostat table <a href=\"http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=isoc_sk_dskl_i&lang=en\">ISOC_SK_DSKL_I</a>. Consult the <a href=\"https://ec.europa.eu/digital-agenda/en/news/new-comprehensive-digital-skills-indicator\"> methodological note</a> on DG CONNECT newsroom." ;
+	skos:topConceptOf	ns1:indicator .
+ns7:i_dsk_l	rdf:type	skos:Concept ,
+		ns10:Indicator ;
+	skos:prefLabel	"Individuals with low level of digital skills (missing some type of basic skills)" ;
+	dct:source	ns38:estat_isoc_sk_dskl_i ;
+	skos:notation	"i_dsk_l" ;
+	skos:altLabel	"Individuals with \"low\" level of skills " ;
+	ns11:membership	ns28:i_dsk_l ;
+	skos:definition	"Persons that have been using internet during last 3 months are attributed a score on four digital competence domains: information, communication, content-creation and problem-solving, depending the activities they have been able to do. The scores in each domain are basic, above basic and below basic. Individuals not using internet are classified without digital skills. To be classified \"basic or above basic\" on the overall indicator an individual has to have basic or above basic skills in all the four Digital Competence domains included in the index: information, communication, content-creation and problem-solving." ;
+	skos:note	"Detailed results are available in the Eurostat table <a href=\"http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=isoc_sk_dskl_i&lang=en\">ISOC_SK_DSKL_I</a>. Consult the <a href=\"https://ec.europa.eu/digital-agenda/en/news/new-comprehensive-digital-skills-indicator\"> methodological note</a> on DG CONNECT newsroom." ;
+	skos:topConceptOf	ns1:indicator .
+ns7:i_dsk_s_ab	rdf:type	ns10:Indicator ,
+		skos:Concept ;
+	skos:prefLabel	"Individuals with above basic level of digital skills in Software domain" ;
+	dct:source	ns38:estat_isoc_sk_dskl_i ;
+	skos:notation	"i_dsk_s_ab" ;
+	skos:altLabel	"Software Domain - Above Basic Skills" ;
+	ns11:membership	ns28:i_dsk_s_ab ;
+	skos:definition	"Software skills for content manipulation refer to the ability to create and edit new content (from word processing to images and video); integrate and re-elaborate previous knowledge and content; produce creative expressions, media outputs and programming; deal with and apply intellectual property rights and licences. The indicator is based on six activities internet users have been able to do during previous 3 months. The scores are basic, above basic and none. Individuals not using internet are classified without digital skills." ;
+	skos:note	"Detailed results are available in the Eurostat table <a href=\"http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=isoc_sk_dskl_i&lang=en\">ISOC_SK_DSKL_I</a>. Consult the <a href=\"https://ec.europa.eu/digital-agenda/en/news/new-comprehensive-digital-skills-indicator\"> methodological note</a> on DG CONNECT newsroom." ;
+	skos:topConceptOf	ns1:indicator .
+ns7:i_dsk_ps_ab	rdf:type	ns10:Indicator ,
+		skos:Concept ;
+	skos:prefLabel	"Individuals with above basic level of digital skills in Problem solving domain" ;
+	dct:source	ns38:estat_isoc_sk_dskl_i ;
+	skos:notation	"i_dsk_ps_ab" ;
+	skos:altLabel	"Problem Solving Domain - Above Basic Skills" ;
+	ns11:membership	ns28:i_dsk_ps_ab ;
+	skos:definition	"Problem solving skills refers to the ability to identify digital needs and resources, make informed decisions as to which are the most appropriate digital tools according to the purpose or need, solve conceptual problems through digital means, creatively use technologies, solve technical problems, update one's own and others' competences. The indicator is based on three basic digital problems and familiarity with four online services internet users have been able to do during previous 3 months. The scores are basic, above basic and none. Individuals not using internet are classified without digital skills." ;
+	skos:note	"Detailed results are available in the Eurostat table <a href=\"http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=isoc_sk_dskl_i&lang=en\">ISOC_SK_DSKL_I</a>. Consult the <a href=\"https://ec.europa.eu/digital-agenda/en/news/new-comprehensive-digital-skills-indicator\"> methodological note</a> on DG CONNECT newsroom." ;
+	skos:topConceptOf	ns1:indicator .
+ns7:i_dsk_ab	rdf:type	skos:Concept ,
+		ns10:Indicator ;
+	skos:prefLabel	"Individuals with above basic level of digital skills" ;
+	dct:source	ns38:estat_isoc_sk_dskl_i ;
+	skos:notation	"i_dsk_ab" ;
+	skos:altLabel	"Individuals with above basic level of skills" ;
+	ns11:membership	ns28:i_dsk_ab ;
+	skos:definition	"Persons that have been using internet during last 3 months are attributed a score on four digital competence domains: information, communication, content-creation and problem-solving, depending the activities they have been able to do. The scores in each domain are basic, above basic and below basic. Individuals not using internet are classified without digital skills. To be classified \"basic or above basic\" on the overall indicator an individual has to have basic or above basic skills in all the four Digital Competence domains included in the index: information, communication, content-creation and problem-solving." ;
+	skos:note	"Detailed results are available in the Eurostat table <a href=\"http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=isoc_sk_dskl_i&lang=en\">ISOC_SK_DSKL_I</a>. Consult the <a href=\"https://ec.europa.eu/digital-agenda/en/news/new-comprehensive-digital-skills-indicator\"> methodological note</a> on DG CONNECT newsroom." ;
+	skos:topConceptOf	ns1:indicator .
+ns7:i_dsk_i_x	rdf:type	skos:Concept ,
+		ns10:Indicator ;
+	skos:prefLabel	"Individuals with no digital skills in Information domain" ;
+	dct:source	ns38:estat_isoc_sk_dskl_i ;
+	skos:notation	"i_dsk_i_x" ;
+	skos:altLabel	"Information Domain - No Skills" ;
+	ns11:membership	ns28:i_dsk_i_x ;
+	skos:definition	"Information processing skills refers to the ability to identify, locate, retrieve, store, organise and analyse digital information, judging its relevance and purpose. The indicator is based on five activities internet users have been able to do online during previous 3 months. The scores are basic, above basic and none. Individuals not using internet are classified without digital skills." ;
+	skos:note	"Detailed results are available in the Eurostat table <a href=\"http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=isoc_sk_dskl_i&lang=en\">ISOC_SK_DSKL_I</a>. Consult the <a href=\"https://ec.europa.eu/digital-agenda/en/news/new-comprehensive-digital-skills-indicator\"> methodological note</a> on DG CONNECT newsroom." ;
+	skos:topConceptOf	ns1:indicator .
+ns7:i_dsk_ps_x	rdf:type	skos:Concept ,
+		ns10:Indicator ;
+	skos:prefLabel	"Individuals with no digital skills in Problem solving domain" ;
+	dct:source	ns38:estat_isoc_sk_dskl_i ;
+	skos:notation	"i_dsk_ps_x" ;
+	skos:altLabel	"Problem Solving Domain - No Skills" ;
+	ns11:membership	ns28:i_dsk_ps_x ;
+	skos:definition	"Problem solving skills refers to the ability to identify digital needs and resources, make informed decisions as to which are the most appropriate digital tools according to the purpose or need, solve conceptual problems through digital means, creatively use technologies, solve technical problems, update one's own and others' competences. The indicator is based on three basic digital problems and familiarity with four online services internet users have been able to do during previous 3 months. The scores are basic, above basic and none. Individuals not using internet are classified without digital skills." ;
+	skos:note	"Detailed results are available in the Eurostat table <a href=\"http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=isoc_sk_dskl_i&lang=en\">ISOC_SK_DSKL_I</a>. Consult the <a href=\"https://ec.europa.eu/digital-agenda/en/news/new-comprehensive-digital-skills-indicator\"> methodological note</a> on DG CONNECT newsroom." ;
+	skos:topConceptOf	ns1:indicator .
+ns7:i_dsk_i_ab	rdf:type	ns10:Indicator ,
+		skos:Concept ;
+	skos:prefLabel	"Individuals with above basic level of digital skills in Information domain" ;
+	dct:source	ns38:estat_isoc_sk_dskl_i ;
+	skos:notation	"i_dsk_i_ab" ;
+	skos:altLabel	"Information Domain - Above Basic Skills" ;
+	ns11:membership	ns28:i_dsk_i_ab ;
+	skos:definition	"Information processing skills refers to the ability to identify, locate, retrieve, store, organise and analyse digital information, judging its relevance and purpose. The indicator is based on five activities internet users have been able to do online during previous 3 months. The scores are basic, above basic and none. Individuals not using internet are classified without digital skills." ;
+	skos:note	"Detailed results are available in the Eurostat table <a href=\"http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=isoc_sk_dskl_i&lang=en\">ISOC_SK_DSKL_I</a>. Consult the <a href=\"https://ec.europa.eu/digital-agenda/en/news/new-comprehensive-digital-skills-indicator\"> methodological note</a> on DG CONNECT newsroom." ;
+	skos:topConceptOf	ns1:indicator .
+ns28:i_dsk_ab	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"ict-skills" ;
+	ns11:member-of	ns12:ict-skills ;
+	ns11:order	"12" .
+ns28:i_dsk_c_ab	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"ict-skills" ;
+	ns11:member-of	ns12:ict-skills ;
+	ns11:order	"21" .
+ns28:i_dsk_c_x	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"ict-skills" ;
+	ns11:member-of	ns12:ict-skills ;
+	ns11:order	"23" .
+ns28:i_dsk_i_ab	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"ict-skills" ;
+	ns11:member-of	ns12:ict-skills ;
+	ns11:order	"17" .
+ns28:i_dsk_i_x	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"ict-skills" ;
+	ns11:member-of	ns12:ict-skills ;
+	ns11:order	"19" .
+ns28:i_dsk_l	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"ict-skills" ;
+	ns11:member-of	ns12:ict-skills ;
+	ns11:order	"14" .
+ns28:i_dsk_ps_ab	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"ict-skills" ;
+	ns11:member-of	ns12:ict-skills ;
+	ns11:order	"25" .
+ns28:i_dsk_ps_x	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"ict-skills" ;
+	ns11:member-of	ns12:ict-skills ;
+	ns11:order	"27" .
+ns28:i_dsk_s_ab	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"ict-skills" ;
+	ns11:member-of	ns12:ict-skills ;
+	ns11:order	"30" .
+ns28:i_dsk_s_x	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"ict-skills" ;
+	ns11:member-of	ns12:ict-skills ;
+	ns11:order	"32" .
+ns28:i_dsk_x	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"ict-skills" ;
+	ns11:member-of	ns12:ict-skills ;
+	ns11:order	"15" .
+ns28:old_digskillindex	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"ict-skills" ;
+	ns11:member-of	ns12:ict-skills ;
+	ns11:order	"93" .
+ns28:old_digskillindex_basicandabove	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"ict-skills" ;
+	ns11:member-of	ns12:ict-skills ;
+	ns11:order	"92" .
+ns28:old_i_dsk_b	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"ict-skills" ;
+	ns11:member-of	ns12:ict-skills ;
+	ns11:order	"11" .
+ns28:old_i_dsk_c_b	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"ict-skills" ;
+	ns11:member-of	ns12:ict-skills ;
+	ns11:order	"20" .
+ns28:old_i_dsk_i_b	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"ict-skills" ;
+	ns11:member-of	ns12:ict-skills ;
+	ns11:order	"16" .
+ns28:old_i_dsk_ps_b	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"ict-skills" ;
+	ns11:member-of	ns12:ict-skills ;
+	ns11:order	"24" .
+ns28:old_i_dsk_s_b	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"ict-skills" ;
+	ns11:member-of	ns12:ict-skills ;
+	ns11:order	"28" .
+ns29:i_cisk_sfjobx	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"ict-specialist" ;
+	ns11:member-of	ns12:ict-specialist ;
+	ns11:order	"6" .
+ns29:i_cprg	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"ict-specialist" ;
+	ns11:member-of	ns12:ict-specialist ;
+	ns11:order	"9" .
+ns29:i_skedu	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"ict-specialist" ;
+	ns11:member-of	ns12:ict-specialist ;
+	ns11:order	"7" .
+ns29:p_iuse	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"ict-specialist" ;
+	ns11:member-of	ns12:ict-specialist ;
+	ns11:order	"8" .
+ns7:old_digskillindex	rdf:type	skos:Concept ,
+		ns10:Indicator ;
+	skos:prefLabel	"Digital skills indicator (internet users) - pilot 2012/2014" ;
+	dct:source	ns38:estat_isoc_sk_dskl_i ;
+	skos:notation	"old_digskillindex" ;
+	skos:altLabel	"Digital skills indicator (internet users) - pilot 2012/2014" ;
+	ns11:membership	ns28:old_digskillindex ;
+	skos:definition	"Persons that have been using internet during last 3 months are attributed a score on four digital competence domains: information, communication, content-creation and problem-solving, depending the activities they have been able to do. The scores are basic, above basic and below basic. Individuals not using internet are classified without digital skills. The four digital competence domains are aggregated in four logical groups." ;
+	skos:note	"This indicator has been piloted on the 2012 and 2014 micro-data from the Eurostat community survey on ICT usage by Households/Individuals using some proxy variables. It is not fully comparable with the regular implementation starting with the 2015 survey." ;
+	skos:topConceptOf	ns1:indicator .
+ns7:old_digskillindex_basicandabove	rdf:type	skos:Concept ,
+		ns10:Indicator ;
+	skos:prefLabel	"Individuals with basic or above basic digital skills - pilot 2012/2014" ;
+	dct:source	ns38:estat_isoc_sk_dskl_i ;
+	skos:notation	"old_digskillindex_basicandabove" ;
+	skos:altLabel	"Individuals with basic or above basic digital skills - pilot 2012/2014" ;
+	ns11:membership	ns28:old_digskillindex_basicandabove ;
+	skos:definition	"Persons that have been using internet during last 3 months are attributed a score on four digital competence domains: information, communication, content-creation and problem-solving, depending the activities they have been able to do. The scores in each domain are basic, above basic and below basic. Individuals not using internet are classified without digital skills. To be classified \"basic or above basic\" on the overall indicator an individual has to have basic or above basic skills in all the four Digital Competence domains included in the index: information, communication, content-creation and problem-solving." ;
+	skos:note	"This indicator has been piloted on the 2012 and 2014 micro-data from the Eurostat community survey on ICT usage by Households/Individuals using some proxy variables. It is not fully comparable with the regular implementation starting with the 2015 survey." ;
+	skos:topConceptOf	ns1:indicator .
+ns7:old_i_dsk_b	rdf:type	skos:Concept ,
+		ns10:Indicator ;
+	skos:prefLabel	"Individuals with a basic level of digital skills" ;
+	dct:source	ns38:estat_isoc_sk_dskl_i ;
+	skos:notation	"old_i_dsk_b" ;
+	skos:altLabel	"Individuals with a basic level of skills" ;
+	ns11:membership	ns28:old_i_dsk_b ;
+	skos:definition	"Persons that have been using internet during last 3 months are attributed a score on four digital competence domains: information, communication, content-creation and problem-solving, depending the activities they have been able to do. The scores in each domain are basic, above basic and below basic. Individuals not using internet are classified without digital skills. To be classified \"basic or above basic\" on the overall indicator an individual has to have basic or above basic skills in all the four Digital Competence domains included in the index: information, communication, content-creation and problem-solving." ;
+	skos:note	"Detailed results are available in the Eurostat table <a href=\"http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=isoc_sk_dskl_i&lang=en\">ISOC_SK_DSKL_I</a>. Consult the <a href=\"https://ec.europa.eu/digital-agenda/en/news/new-comprehensive-digital-skills-indicator\"> methodological note</a> on DG CONNECT newsroom." ;
+	skos:topConceptOf	ns1:indicator .
+ns7:old_i_dsk_c_b	rdf:type	skos:Concept ,
+		ns10:Indicator ;
+	skos:prefLabel	"Individuals with a basic level of digital skills in Communication domain" ;
+	dct:source	ns38:estat_isoc_sk_dskl_i ;
+	skos:notation	"old_i_dsk_c_b" ;
+	skos:altLabel	"Communication Domain - Basic Skills" ;
+	ns11:membership	ns28:old_i_dsk_c_b ;
+	skos:definition	"These skills refer to the ability to communicate in digital environments, share resources through online tools, link with others and collaborate through digital tools, interact with and participate in communities and networks, cross-cultural awareness. The indicator is based on four activities internet users have been able to do online during previous 3 months. The scores are basic, above basic and none. Individuals not using internet are classified without digital skills." ;
+	skos:note	"Detailed results are available in the Eurostat table <a href=\"http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=isoc_sk_dskl_i&lang=en\">ISOC_SK_DSKL_I</a>. Consult the <a href=\"https://ec.europa.eu/digital-agenda/en/news/new-comprehensive-digital-skills-indicator\"> methodological note</a> on DG CONNECT newsroom." ;
+	skos:topConceptOf	ns1:indicator .
+ns7:old_i_dsk_i_b	rdf:type	ns10:Indicator ,
+		skos:Concept ;
+	skos:prefLabel	"Individuals with a basic level of digital skills in Information domain" ;
+	dct:source	ns38:estat_isoc_sk_dskl_i ;
+	skos:notation	"old_i_dsk_i_b" ;
+	skos:altLabel	"Information Domain - Basic Skills" ;
+	ns11:membership	ns28:old_i_dsk_i_b ;
+	skos:definition	"Information processing skills refers to the ability to identify, locate, retrieve, store, organise and analyse digital information, judging its relevance and purpose. The indicator is based on five activities internet users have been able to do online during previous 3 months. The scores are basic, above basic and none. Individuals not using internet are classified without digital skills." ;
+	skos:note	"Detailed results are available in the Eurostat table <a href=\"http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=isoc_sk_dskl_i&lang=en\">ISOC_SK_DSKL_I</a>. Consult the <a href=\"https://ec.europa.eu/digital-agenda/en/news/new-comprehensive-digital-skills-indicator\"> methodological note</a> on DG CONNECT newsroom." ;
+	skos:topConceptOf	ns1:indicator .
+ns7:old_i_dsk_ps_b	rdf:type	ns10:Indicator ,
+		skos:Concept ;
+	skos:prefLabel	"Individuals with a basic level of digital skills in Problem solving domain" ;
+	dct:source	ns38:estat_isoc_sk_dskl_i ;
+	skos:notation	"old_i_dsk_ps_b" ;
+	skos:altLabel	"Problem Solving Domain - Basic Skills" ;
+	ns11:membership	ns28:old_i_dsk_ps_b ;
+	skos:definition	"Problem solving skills refers to the ability to identify digital needs and resources, make informed decisions as to which are the most appropriate digital tools according to the purpose or need, solve conceptual problems through digital means, creatively use technologies, solve technical problems, update one's own and others' competences. The indicator is based on three basic digital problems and familiarity with four online services internet users have been able to do during previous 3 months. The scores are basic, above basic and none. Individuals not using internet are classified without digital skills." ;
+	skos:note	"Detailed results are available in the Eurostat table <a href=\"http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=isoc_sk_dskl_i&lang=en\">ISOC_SK_DSKL_I</a>. Consult the <a href=\"https://ec.europa.eu/digital-agenda/en/news/new-comprehensive-digital-skills-indicator\"> methodological note</a> on DG CONNECT newsroom." ;
+	skos:topConceptOf	ns1:indicator .
+ns7:old_i_dsk_s_b	rdf:type	ns10:Indicator ,
+		skos:Concept ;
+	skos:prefLabel	"Individuals with a basic level of digital skills in Software domain" ;
+	dct:source	ns38:estat_isoc_sk_dskl_i ;
+	skos:notation	"old_i_dsk_s_b" ;
+	skos:altLabel	"Software Domain - Basic Skills" ;
+	ns11:membership	ns28:old_i_dsk_s_b ;
+	skos:definition	"Software skills for content manipulation refer to the ability to create and edit new content (from word processing to images and video); integrate and re-elaborate previous knowledge and content; produce creative expressions, media outputs and programming; deal with and apply intellectual property rights and licences. The indicator is based on six activities internet users have been able to do during previous 3 months. The scores are basic, above basic and none. Individuals not using internet are classified without digital skills." ;
+	skos:note	"Detailed results are available in the Eurostat table <a href=\"http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=isoc_sk_dskl_i&lang=en\">ISOC_SK_DSKL_I</a>. Consult the <a href=\"https://ec.europa.eu/digital-agenda/en/news/new-comprehensive-digital-skills-indicator\"> methodological note</a> on DG CONNECT newsroom." ;
+	skos:topConceptOf	ns1:indicator .
+ns7:i_dsk_s_x	rdf:type	ns10:Indicator ,
+		skos:Concept ;
+	skos:prefLabel	"Individuals with no digital skills in Software domain" ;
+	dct:source	ns38:estat_isoc_sk_dskl_i ;
+	skos:notation	"i_dsk_s_x" ;
+	skos:altLabel	"Software Domain - No Skills" ;
+	ns11:membership	ns28:i_dsk_s_x ;
+	skos:definition	"Software skills for content manipulation refer to the ability to create and edit new content (from word processing to images and video); integrate and re-elaborate previous knowledge and content; produce creative expressions, media outputs and programming; deal with and apply intellectual property rights and licences. The indicator is based on six activities internet users have been able to do during previous 3 months. The scores are basic, above basic and none. Individuals not using internet are classified without digital skills." ;
+	skos:note	"Detailed results are available in the Eurostat table <a href=\"http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=isoc_sk_dskl_i&lang=en\">ISOC_SK_DSKL_I</a>. Consult the <a href=\"https://ec.europa.eu/digital-agenda/en/news/new-comprehensive-digital-skills-indicator\"> methodological note</a> on DG CONNECT newsroom." ;
+	skos:topConceptOf	ns1:indicator .
+ns7:i_dsk_c_ab	rdf:type	ns10:Indicator ,
+		skos:Concept ;
+	skos:prefLabel	"Individuals with above basic level of digital skills in Communication domain" ;
+	dct:source	ns38:estat_isoc_sk_dskl_i ;
+	skos:notation	"i_dsk_c_ab" ;
+	skos:altLabel	"Communication Domain - Above Basic Skills" ;
+	ns11:membership	ns28:i_dsk_c_ab ;
+	skos:definition	"These skills refer to the ability to communicate in digital environments, share resources through online tools, link with others and collaborate through digital tools, interact with and participate in communities and networks, cross-cultural awareness. The indicator is based on four activities internet users have been able to do online during previous 3 months. The scores are basic, above basic and none. Individuals not using internet are classified without digital skills." ;
+	skos:note	"Detailed results are available in the Eurostat table <a href=\"http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=isoc_sk_dskl_i&lang=en\">ISOC_SK_DSKL_I</a>. Consult the <a href=\"https://ec.europa.eu/digital-agenda/en/news/new-comprehensive-digital-skills-indicator\"> methodological note</a> on DG CONNECT newsroom." ;
 	skos:topConceptOf	ns1:indicator .

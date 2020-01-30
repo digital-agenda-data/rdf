@@ -6,7 +6,7 @@ ns1:breakdown	rdf:type	ns2:CodeList .
 ns1:breakdown	rdf:type	skos:ConceptScheme .
 @prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
 @prefix dct:	<http://purl.org/dc/terms/> .
-ns1:breakdown	dct:modified	"2019-06-11T11:42:15"^^xsd:dateTime .
+ns1:breakdown	dct:modified	"2020-01-30T12:00:42"^^xsd:dateTime .
 @prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
 ns1:breakdown	rdfs:isDefinedBy	<http://digital-agenda-data.eu/> ;
 	skos:prefLabel	"Code list for breakdowns used by Digital Agenda Scoreboard" ;
@@ -39,6 +39,8 @@ ns1:breakdown	skos:hasTopConcept	ns7:desi_3c3_sell ,
 		<http://semantic.digital-agenda-data.eu/codelist/breakdown/5g_pb> ,
 		ns7:desi_1b3_5g ,
 		ns7:desi_2a1_bds ,
+		ns7:cb_for ,
+		ns7:cc_for ,
 		ns7:rf_ge1 ,
 		ns7:rf_ge2 ,
 		ns7:rural_pop ,
@@ -4164,6 +4166,28 @@ ns7:y65_74	rdf:type	skos:Concept ,
 	skos:altLabel	"Wholesale trade, except of motor vehicles and motorcycles 10+" ;
 	ns11:membership	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector/10_g46> ;
 	skos:topConceptOf	ns1:breakdown .
+ns16:cc_for	rdf:type	ns10:BreakdownToGroupMembership ;
+	rdfs:label	"byccitizen" ;
+	ns11:member-of	ns12:byccitizen ;
+	ns11:order	"5" .
+ns7:cb_for	rdf:type	ns10:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Individuals who are foreign-born" ;
+	skos:notation	"cb_for" ;
+	skos:altLabel	"Foreign-born" ;
+	ns11:membership	ns15:cb_for ;
+	skos:topConceptOf	ns1:breakdown .
+ns7:cc_for	rdf:type	ns10:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Non-nationals" ;
+	skos:notation	"cc_for" ;
+	skos:altLabel	"Non-nationals" ;
+	ns11:membership	ns16:cc_for ;
+	skos:topConceptOf	ns1:breakdown .
+ns15:cb_for	rdf:type	ns10:BreakdownToGroupMembership ;
+	rdfs:label	"bycbirth" ;
+	ns11:member-of	ns12:bycbirth ;
+	ns11:order	"5" .
 ns36:old_desi_1d_aff	rdf:type	ns10:BreakdownToGroupMembership ;
 	rdfs:label	"desi_1_conn" ;
 	ns11:member-of	ns12:desi_1_conn ;
