@@ -4331,7 +4331,8 @@ ns7:time-period	dct:modified	"2014-05-28T19:37:08+03:00"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://digital-agenda-data.eu/> ;
 	skos:prefLabel	"Code list for time-periods used by Digital Agenda Scoreboard" ;
 	skos:notation	"CL_TIME_PERIOD" ;
-	skos:hasTopConcept	<http://reference.data.gov.uk/id/gregorian-half/2009-H2> ,
+	skos:hasTopConcept	<http://reference.data.gov.uk/id/gregorian-month/2019-06> ,
+		<http://reference.data.gov.uk/id/gregorian-half/2009-H2> ,
 		<http://reference.data.gov.uk/id/gregorian-half/2010-H1> ,
 		<http://reference.data.gov.uk/id/gregorian-half/2010-H2> ,
 		<http://reference.data.gov.uk/id/gregorian-half/2011-H1> ,
@@ -4436,6 +4437,7 @@ ns7:time-period	dct:modified	"2014-05-28T19:37:08+03:00"^^xsd:dateTime ;
 		<http://reference.data.gov.uk/id/gregorian-year/2000> ,
 		<http://reference.data.gov.uk/id/gregorian-month/2017-12> ,
 		<http://reference.data.gov.uk/id/gregorian-month/2017-06> ,
+		<http://reference.data.gov.uk/id/gregorian-month/2018-12> ,
 		<http://reference.data.gov.uk/id/gregorian-month/2018-06> ,
 		<http://reference.data.gov.uk/id/gregorian-quarter/2004-Q3> ,
 		<http://reference.data.gov.uk/id/gregorian-year/2017> ,
