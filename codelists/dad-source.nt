@@ -736,6 +736,12 @@
 <http://semantic.digital-agenda-data.eu/codelist/source/estat_tps00188>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Eurostat, Table estat_tps00188: Science and technology graduates by sex" .
 <http://semantic.digital-agenda-data.eu/codelist/source/estat_tps00188>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/source> .
 <http://semantic.digital-agenda-data.eu/codelist/source/estat_tps00188>	<http://xmlns.com/foaf/0.1/page>	<http://ec.europa.eu/eurostat/web/products-datasets/-/educ_uoe_grad04> .
+<http://semantic.digital-agenda-data.eu/codelist/source/estathh_cocom>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Source> .
+<http://semantic.digital-agenda-data.eu/codelist/source/estathh_cocom>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/source/estathh_cocom>	<http://www.w3.org/2004/02/skos/core#definition>	"European Commission based on Eurostat - Community survey on ICT usage in Households and by Individuals, and Electronic communications market indicators collected by Commission services, through National Regulatory Authorities, for the Communications Committee (COCOM) - January and July reports." .
+<http://semantic.digital-agenda-data.eu/codelist/source/estathh_cocom>	<http://www.w3.org/2004/02/skos/core#notation>	"estathh_cocom" .
+<http://semantic.digital-agenda-data.eu/codelist/source/estathh_cocom>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"European Commission based on Eurostat - ICT Household survey and Communications Committee survey" .
+<http://semantic.digital-agenda-data.eu/codelist/source/estathh_cocom>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/source> .
 <http://semantic.digital-agenda-data.eu/codelist/source/eun12>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Source> .
 <http://semantic.digital-agenda-data.eu/codelist/source/eun12>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
 <http://semantic.digital-agenda-data.eu/codelist/source/eun12>	<http://www.w3.org/2004/02/skos/core#definition>	"The ESSIE Survey about ICT in Education - SMART 2010/0039 - is based on over 190,000 filled questionnaires from students, teachers and head teachers in 27 countries, collected during school-year 2011-12  (mainly between September and December 2011), with the purpose of benchmarking access, use and attitudes to IC Technologies in Europe's schools (Primary; Lower secondary; Upper secondary, both general and vocational)." .
@@ -982,7 +988,7 @@
 <http://semantic.digital-agenda-data.eu/codelist/source/smart11_39>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Analysis of publications and patents of ICT research in FP7" .
 <http://semantic.digital-agenda-data.eu/codelist/source/smart11_39>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/source> .
 <http://semantic.digital-agenda-data.eu/codelist/source/smart11_39>	<http://xmlns.com/foaf/0.1/page>	<http://ec.europa.eu/digital-agenda/en/digital-agenda-you/our-studies-and-open-datasets> .
-<http://semantic.digital-agenda-data.eu/codelist/source>	<http://purl.org/dc/terms/modified>	"2019-09-05T16:00:46"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://semantic.digital-agenda-data.eu/codelist/source>	<http://purl.org/dc/terms/modified>	"2020-02-17T11:02:44"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://semantic.digital-agenda-data.eu/codelist/source>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#ConceptScheme> .
 <http://semantic.digital-agenda-data.eu/codelist/source>	<http://www.w3.org/2000/01/rdf-schema#isDefinedBy>	<http://digital-agenda-data.eu/> .
 <http://semantic.digital-agenda-data.eu/codelist/source>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/source/abac> .
@@ -1090,6 +1096,7 @@
 <http://semantic.digital-agenda-data.eu/codelist/source>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/source/estat_nama_gdp_c> .
 <http://semantic.digital-agenda-data.eu/codelist/source>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/source/estat_randd> .
 <http://semantic.digital-agenda-data.eu/codelist/source>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/source/estat_tps00188> .
+<http://semantic.digital-agenda-data.eu/codelist/source>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/source/estathh_cocom> .
 <http://semantic.digital-agenda-data.eu/codelist/source>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/source/eun12> .
 <http://semantic.digital-agenda-data.eu/codelist/source>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/source/euripidis-estat> .
 <http://semantic.digital-agenda-data.eu/codelist/source>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/source/eurostat_ed> .

@@ -95,7 +95,7 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/broadband/bb_fttpcov>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/broadband/bb_fttpcov>	<http://www.w3.org/2000/01/rdf-schema#label>	"broadband" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/broadband/bb_hhi>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/broadband> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/broadband/bb_hhi>	<http://semantic.digital-agenda-data.eu/def/property/order>	"12" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/broadband/bb_hhi>	<http://semantic.digital-agenda-data.eu/def/property/order>	"20" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/broadband/bb_hhi>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/broadband/bb_hhi>	<http://www.w3.org/2000/01/rdf-schema#label>	"broadband" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/broadband/bb_lines>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/broadband> .
@@ -131,11 +131,11 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/broadband/bb_srcov>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/broadband/bb_srcov>	<http://www.w3.org/2000/01/rdf-schema#label>	"broadband" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/broadband/e_broad>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/broadband> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/broadband/e_broad>	<http://semantic.digital-agenda-data.eu/def/property/order>	"13" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/broadband/e_broad>	<http://semantic.digital-agenda-data.eu/def/property/order>	"14" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/broadband/e_broad>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/broadband/e_broad>	<http://www.w3.org/2000/01/rdf-schema#label>	"broadband" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/broadband/e_ispdf_ge30>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/broadband> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/broadband/e_ispdf_ge30>	<http://semantic.digital-agenda-data.eu/def/property/order>	"14" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/broadband/e_ispdf_ge30>	<http://semantic.digital-agenda-data.eu/def/property/order>	"15" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/broadband/e_ispdf_ge30>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/broadband/e_ispdf_ge30>	<http://www.w3.org/2000/01/rdf-schema#label>	"broadband" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/broadband/e_ispdfokx>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/broadband> .
@@ -152,6 +152,14 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/broadband/h_broad>	<http://semantic.digital-agenda-data.eu/def/property/order>	"10" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/broadband/h_broad>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/broadband/h_broad>	<http://www.w3.org/2000/01/rdf-schema#label>	"broadband" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/broadband/h_fbbfix>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/broadband> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/broadband/h_fbbfix>	<http://semantic.digital-agenda-data.eu/def/property/order>	"12" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/broadband/h_fbbfix>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/broadband/h_fbbfix>	<http://www.w3.org/2000/01/rdf-schema#label>	"broadband" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/broadband/h_ubbfix>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/broadband> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/broadband/h_ubbfix>	<http://semantic.digital-agenda-data.eu/def/property/order>	"13" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/broadband/h_ubbfix>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/broadband/h_ubbfix>	<http://www.w3.org/2000/01/rdf-schema#label>	"broadband" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi/desi>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi/desi>	<http://semantic.digital-agenda-data.eu/def/property/order>	"1" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi/desi>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
@@ -3379,6 +3387,15 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator/h_broad>	<http://www.w3.org/2004/02/skos/core#note>	"Scope includes Households with at least one member aged 16-74. " .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/h_broad>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Households having a broadband connection" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/h_broad>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/h_fbbfix>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/estathh_cocom> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/h_fbbfix>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/broadband/h_fbbfix> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/h_fbbfix>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/h_fbbfix>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/h_fbbfix>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Households with fast fixed broadband connection" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/h_fbbfix>	<http://www.w3.org/2004/02/skos/core#definition>	"Households with fast fixed broadband connection" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/h_fbbfix>	<http://www.w3.org/2004/02/skos/core#notation>	"h_fbbfix" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/h_fbbfix>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Households with fast fixed broadband connection" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/h_fbbfix>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/h_iacc>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/estat_isoc_bde15b_h> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/h_iacc>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/internet-usage/h_iacc> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/h_iacc>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
@@ -3389,6 +3406,15 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator/h_iacc>	<http://www.w3.org/2004/02/skos/core#note>	"Scope includes Households with at least one member aged 16-74." .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/h_iacc>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Households with access to the Internet at home" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/h_iacc>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/h_ubbfix>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/estathh_cocom> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/h_ubbfix>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/broadband/h_ubbfix> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/h_ubbfix>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/h_ubbfix>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/h_ubbfix>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Households with ultrafast fixed broadband connection" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/h_ubbfix>	<http://www.w3.org/2004/02/skos/core#definition>	"Households with ultrafast fixed broadband connection" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/h_ubbfix>	<http://www.w3.org/2004/02/skos/core#notation>	"h_ubbfix" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/h_ubbfix>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Households with ultrafast fixed broadband connection" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/h_ubbfix>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/h_xcost>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/estat-hh> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/h_xcost>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/bbquality/h_xcost> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/h_xcost>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
@@ -4623,7 +4649,7 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator/wid_ui_ps>	<http://www.w3.org/2004/02/skos/core#notation>	"wid_ui_ps" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/wid_ui_ps>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"1.4 Using professional social networks" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/wid_ui_ps>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://purl.org/dc/terms/modified>	"2020-01-30T11:03:43"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://purl.org/dc/terms/modified>	"2020-02-17T11:02:28"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://purl.org/linked-data/sdmx#CodeList> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#ConceptScheme> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2000/01/rdf-schema#isDefinedBy>	<http://digital-agenda-data.eu/> .
@@ -4841,7 +4867,9 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/h2020ict_afxp> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/h_bbfix> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/h_broad> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/h_fbbfix> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/h_iacc> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/h_ubbfix> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/h_xcost> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/hie_use_ex_admin> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/hie_use_pharm> .

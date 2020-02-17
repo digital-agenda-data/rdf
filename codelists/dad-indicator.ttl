@@ -6,7 +6,7 @@ ns1:indicator	rdf:type	ns2:CodeList .
 ns1:indicator	rdf:type	skos:ConceptScheme .
 @prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
 @prefix dct:	<http://purl.org/dc/terms/> .
-ns1:indicator	dct:modified	"2020-01-30T11:03:43"^^xsd:dateTime .
+ns1:indicator	dct:modified	"2020-02-17T11:02:28"^^xsd:dateTime .
 @prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
 ns1:indicator	rdfs:isDefinedBy	<http://digital-agenda-data.eu/> ;
 	skos:prefLabel	"Code list for indicators used by Digital Agenda Scoreboard" ;
@@ -22,6 +22,8 @@ ns1:indicator	skos:hasTopConcept	ns7:old_i_dsk_i_b ,
 		ns7:i_dsk_ps_ab ,
 		ns7:i_dsk_s_ab ,
 		ns7:i_dsk_l ,
+		ns7:h_fbbfix ,
+		ns7:h_ubbfix ,
 		ns7:i_dsk_x ,
 		ns7:desi_2b2_fictspec ,
 		ns7:desi_2b3_ictg ,
@@ -468,7 +470,7 @@ ns15:bb_fttpcov	rdf:type	ns10:IndicatorToGroupMembership ;
 ns15:bb_hhi	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"broadband" ;
 	ns11:member-of	ns12:broadband ;
-	ns11:order	"12" .
+	ns11:order	"20" .
 ns15:bb_lines	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"broadband" ;
 	ns11:member-of	ns12:broadband ;
@@ -504,11 +506,11 @@ ns15:bb_srcov	rdf:type	ns10:IndicatorToGroupMembership ;
 ns15:e_broad	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"broadband" ;
 	ns11:member-of	ns12:broadband ;
-	ns11:order	"13" .
+	ns11:order	"14" .
 ns15:e_ispdf_ge30	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"broadband" ;
 	ns11:member-of	ns12:broadband ;
-	ns11:order	"14" .
+	ns11:order	"15" .
 ns15:e_ispdfokx	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"broadband" ;
 	ns11:member-of	ns12:broadband .
@@ -4996,6 +4998,32 @@ ns7:old_i_dsk_s_b	rdf:type	ns10:Indicator ,
 	ns11:membership	ns28:old_i_dsk_s_b ;
 	skos:definition	"Software skills for content manipulation refer to the ability to create and edit new content (from word processing to images and video); integrate and re-elaborate previous knowledge and content; produce creative expressions, media outputs and programming; deal with and apply intellectual property rights and licences. The indicator is based on six activities internet users have been able to do during previous 3 months. The scores are basic, above basic and none. Individuals not using internet are classified without digital skills." ;
 	skos:note	"Detailed results are available in the Eurostat table <a href=\"http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=isoc_sk_dskl_i&lang=en\">ISOC_SK_DSKL_I</a>. Consult the <a href=\"https://ec.europa.eu/digital-agenda/en/news/new-comprehensive-digital-skills-indicator\"> methodological note</a> on DG CONNECT newsroom." ;
+	skos:topConceptOf	ns1:indicator .
+ns15:h_fbbfix	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"broadband" ;
+	ns11:member-of	ns12:broadband ;
+	ns11:order	"12" .
+ns15:h_ubbfix	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"broadband" ;
+	ns11:member-of	ns12:broadband ;
+	ns11:order	"13" .
+ns7:h_fbbfix	rdf:type	ns10:Indicator ,
+		skos:Concept ;
+	skos:prefLabel	"Households with fast fixed broadband connection" ;
+	dct:source	ns38:estathh_cocom ;
+	skos:notation	"h_fbbfix" ;
+	skos:altLabel	"Households with fast fixed broadband connection" ;
+	ns11:membership	ns15:h_fbbfix ;
+	skos:definition	"Households with fast fixed broadband connection" ;
+	skos:topConceptOf	ns1:indicator .
+ns7:h_ubbfix	rdf:type	ns10:Indicator ,
+		skos:Concept ;
+	skos:prefLabel	"Households with ultrafast fixed broadband connection" ;
+	dct:source	ns38:estathh_cocom ;
+	skos:notation	"h_ubbfix" ;
+	skos:altLabel	"Households with ultrafast fixed broadband connection" ;
+	ns11:membership	ns15:h_ubbfix ;
+	skos:definition	"Households with ultrafast fixed broadband connection" ;
 	skos:topConceptOf	ns1:indicator .
 ns7:i_dsk_s_x	rdf:type	ns10:Indicator ,
 		skos:Concept ;
