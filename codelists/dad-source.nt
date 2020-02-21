@@ -355,6 +355,13 @@
 <http://semantic.digital-agenda-data.eu/codelist/source/desi_5b3_epresc>	<http://www.w3.org/2004/02/skos/core#notation>	"desi_5b3_epresc" .
 <http://semantic.digital-agenda-data.eu/codelist/source/desi_5b3_epresc>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Benchmarking Deployment of eHealth among General Practitioners" .
 <http://semantic.digital-agenda-data.eu/codelist/source/desi_5b3_epresc>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/source> .
+<http://semantic.digital-agenda-data.eu/codelist/source/e_gov_bench>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Source> .
+<http://semantic.digital-agenda-data.eu/codelist/source/e_gov_bench>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/source/e_gov_bench>	<http://www.w3.org/2004/02/skos/core#definition>	"eGovernment Benchmarking Report" .
+<http://semantic.digital-agenda-data.eu/codelist/source/e_gov_bench>	<http://www.w3.org/2004/02/skos/core#notation>	"e_gov_bench" .
+<http://semantic.digital-agenda-data.eu/codelist/source/e_gov_bench>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"eGovernment Benchmarking Report" .
+<http://semantic.digital-agenda-data.eu/codelist/source/e_gov_bench>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/source> .
+<http://semantic.digital-agenda-data.eu/codelist/source/e_gov_bench>	<http://xmlns.com/foaf/0.1/page>	<https://ec.europa.eu/digital-single-market/en/news/egovernment-benchmark-2018-digital-efforts-european-countries-are-visibly-paying> .
 <http://semantic.digital-agenda-data.eu/codelist/source/eco_report_03_efis_comm>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Source> .
 <http://semantic.digital-agenda-data.eu/codelist/source/eco_report_03_efis_comm>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
 <http://semantic.digital-agenda-data.eu/codelist/source/eco_report_03_efis_comm>	<http://www.w3.org/2004/02/skos/core#definition>	"ECO Report 03, based on EFIS database, completed with direct communications between EU and Member States" .
@@ -988,7 +995,7 @@
 <http://semantic.digital-agenda-data.eu/codelist/source/smart11_39>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Analysis of publications and patents of ICT research in FP7" .
 <http://semantic.digital-agenda-data.eu/codelist/source/smart11_39>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/source> .
 <http://semantic.digital-agenda-data.eu/codelist/source/smart11_39>	<http://xmlns.com/foaf/0.1/page>	<http://ec.europa.eu/digital-agenda/en/digital-agenda-you/our-studies-and-open-datasets> .
-<http://semantic.digital-agenda-data.eu/codelist/source>	<http://purl.org/dc/terms/modified>	"2020-02-17T11:02:44"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://semantic.digital-agenda-data.eu/codelist/source>	<http://purl.org/dc/terms/modified>	"2020-02-21T11:41:26"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://semantic.digital-agenda-data.eu/codelist/source>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#ConceptScheme> .
 <http://semantic.digital-agenda-data.eu/codelist/source>	<http://www.w3.org/2000/01/rdf-schema#isDefinedBy>	<http://digital-agenda-data.eu/> .
 <http://semantic.digital-agenda-data.eu/codelist/source>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/source/abac> .
@@ -1043,6 +1050,7 @@
 <http://semantic.digital-agenda-data.eu/codelist/source>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/source/desi_5b1_ehs> .
 <http://semantic.digital-agenda-data.eu/codelist/source>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/source/desi_5b2_mdataexch> .
 <http://semantic.digital-agenda-data.eu/codelist/source>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/source/desi_5b3_epresc> .
+<http://semantic.digital-agenda-data.eu/codelist/source>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/source/e_gov_bench> .
 <http://semantic.digital-agenda-data.eu/codelist/source>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/source/eco_report_03_efis_comm> .
 <http://semantic.digital-agenda-data.eu/codelist/source>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/source/egov_bench12> .
 <http://semantic.digital-agenda-data.eu/codelist/source>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/source/egov_bench12_17> .

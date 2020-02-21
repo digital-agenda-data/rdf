@@ -6,7 +6,7 @@ ns1:indicator	rdf:type	ns2:CodeList .
 ns1:indicator	rdf:type	skos:ConceptScheme .
 @prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
 @prefix dct:	<http://purl.org/dc/terms/> .
-ns1:indicator	dct:modified	"2020-02-17T11:02:28"^^xsd:dateTime .
+ns1:indicator	dct:modified	"2020-02-21T11:41:03"^^xsd:dateTime .
 @prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
 ns1:indicator	rdfs:isDefinedBy	<http://digital-agenda-data.eu/> ;
 	skos:prefLabel	"Code list for indicators used by Digital Agenda Scoreboard" ;
@@ -22,6 +22,7 @@ ns1:indicator	skos:hasTopConcept	ns7:old_i_dsk_i_b ,
 		ns7:i_dsk_ps_ab ,
 		ns7:i_dsk_s_ab ,
 		ns7:i_dsk_l ,
+		ns7:e_gov_ebus ,
 		ns7:h_fbbfix ,
 		ns7:h_ubbfix ,
 		ns7:i_dsk_x ,
@@ -1070,15 +1071,15 @@ ns24:e_gov_5f_ke_sso	rdf:type	ns10:IndicatorToGroupMembership ;
 ns24:e_gov_dpsb	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"egovernment" ;
 	ns11:member-of	ns12:egovernment ;
-	ns11:order	"6" .
+	ns11:order	"7" .
 ns24:e_gov_ke	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"egovernment" ;
 	ns11:member-of	ns12:egovernment ;
-	ns11:order	"7" .
+	ns11:order	"8" .
 ns24:e_gov_opa	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"egovernment" ;
 	ns11:member-of	ns12:egovernment ;
-	ns11:order	"8" .
+	ns11:order	"9" .
 ns24:e_gov_osc	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"egovernment" ;
 	ns11:member-of	ns12:egovernment ;
@@ -1086,7 +1087,7 @@ ns24:e_gov_osc	rdf:type	ns10:IndicatorToGroupMembership ;
 ns24:e_gov_p	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"egovernment" ;
 	ns11:member-of	ns12:egovernment ;
-	ns11:order	"9" .
+	ns11:order	"10" .
 ns24:e_gov_pff	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"egovernment" ;
 	ns11:member-of	ns12:egovernment ;
@@ -2750,7 +2751,7 @@ ns7:e_gov_opa	rdf:type	skos:Concept ,
 ns7:e_gov_osc	rdf:type	skos:Concept ,
 		ns10:Indicator ;
 	skos:prefLabel	"Online Service Completion" ;
-	dct:source	ns38:egov_bench12 ;
+	dct:source	ns38:e_gov_bench ;
 	skos:notation	"e_gov_osc" ;
 	skos:altLabel	"Online Service Completion" ;
 	ns11:membership	ns24:e_gov_osc ;
@@ -2769,7 +2770,7 @@ ns7:e_gov_p	rdf:type	skos:Concept ,
 ns7:e_gov_pff	rdf:type	skos:Concept ,
 		ns10:Indicator ;
 	skos:prefLabel	"Pre-filled forms" ;
-	dct:source	ns38:egov_bench12 ;
+	dct:source	ns38:e_gov_bench ;
 	skos:notation	"e_gov_pff" ;
 	skos:altLabel	"Pre-filled forms" ;
 	ns11:membership	ns24:e_gov_pff ;
@@ -5024,6 +5025,19 @@ ns7:h_ubbfix	rdf:type	ns10:Indicator ,
 	skos:altLabel	"Households with ultrafast fixed broadband connection" ;
 	ns11:membership	ns15:h_ubbfix ;
 	skos:definition	"Households with ultrafast fixed broadband connection" ;
+	skos:topConceptOf	ns1:indicator .
+ns24:e_gov_ebus	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"egovernment" ;
+	ns11:member-of	ns12:egovernment ;
+	ns11:order	"6" .
+ns7:e_gov_ebus	rdf:type	ns10:Indicator ,
+		skos:Concept ;
+	skos:prefLabel	"Digital public services for businesses" ;
+	dct:source	ns38:e_gov_bench ;
+	skos:notation	"e_gov_ebus" ;
+	skos:altLabel	"Digital public services for businesses" ;
+	ns11:membership	ns24:e_gov_ebus ;
+	skos:definition	"The indicator broadly reflects the share of public services needed for starting a business and for conducting regular business operations that are available online for domestics as well as for foreign users. Services provided through a portal receive an higher score, services which provide only information (but have to be completed offline) receive a more limited score" ;
 	skos:topConceptOf	ns1:indicator .
 ns7:i_dsk_s_x	rdf:type	ns10:Indicator ,
 		skos:Concept ;
