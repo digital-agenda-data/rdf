@@ -30,14 +30,14 @@
 @prefix dad-prop:	<http://semantic.digital-agenda-data.eu/def/property/> .
 
 # DATASET METADATA
-<http://semantic.digital-agenda-data.eu/dataset/DESI>
+<http://semantic.digital-agenda-data.eu/dataset/e-gov>
 	rdf:type qb:DataSet , dcat:Dataset ;
 # DCAT Mandatory
-	dcterms:title	"Digital Economy and Society Index"@en ;
-	dcterms:description	"The Digital Economy and Society Index (DESI) is a composite index that summarises relevant indicators on Europe's digital performance and tracks the evolution of EU member states across five main dimensions: Connectivity, Human Capital, Use of Internet, Integration of Digital Technology, Digital Public Services."@en ;
+	dcterms:title	"e-Government Benchmark"@en ;
+	dcterms:description	"The e-government Benchmark framework corresponds with the key policy priorities in the e-government Action Plan and the Tallinn Declaration and brings insights on the state-of play of e-government in Europe. The measurement evaluates the maturity of online public services in terms of User centricity, Transparency, and use of Key enablers. It also brings the dimension of Cross-border service delivery, which is a truly European metric. Various indicators allow the comparison over the time and across countries. Over the years, the number of countries participating in the e-government benchmark has been increased. The list of countries currently includes the European Union Member States, Iceland, Norway, Montenegro, Republic of Serbia, Switzerland, Turkey as well as Albania and North Macedonia"@en ;
 # QB recommended properties
-	rdfs:label	"Digital Economy and Society Index"@en ;
-	rdfs:comment	"The Digital Economy and Society Index (DESI) is a composite index that summarises relevant indicators on Europe's digital performance and tracks the evolution of EU member states across five main dimensions: Connectivity, Human Capital, Use of Internet, Integration of Digital Technology, Digital Public Services."@en ;
+	rdfs:label	"e-Government Benchmark"@en ;
+	rdfs:comment	"The e-government Benchmark framework corresponds with the key policy priorities in the e-government Action Plan and the Tallinn Declaration and brings insights on the state-of play of e-government in Europe. The measurement evaluates the maturity of online public services in terms of User centricity, Transparency, and use of Key enablers. It also brings the dimension of Cross-border service delivery, which is a truly European metric. Various indicators allow the comparison over the time and across countries. Over the years, the number of countries participating in the e-government benchmark has been increased. The list of countries currently includes the European Union Member States, Iceland, Norway, Montenegro, Republic of Serbia, Switzerland, Turkey as well as Albania and North Macedonia"@en ;
 	dcterms:subject	sdmx-subject:3.3.3 ;
 
 	dcterms:license	<http://ec.europa.eu/geninfo/legal_notices_en.htm#copyright> ;
@@ -50,8 +50,8 @@
 		rdfs:label "DG CONNECT - Digital Economy and Skills (Unit F.4)" ;
 	];
 
-	dcat:distribution	<http://semantic.digital-agenda-data.eu/dataset/DESI/distribution/download> ;
-	dcat:distribution	<http://semantic.digital-agenda-data.eu/dataset/DESI/distribution/visualisation> ;
+	dcat:distribution	<http://semantic.digital-agenda-data.eu/dataset/e-gov/distribution/download> ;
+	dcat:distribution	<http://semantic.digital-agenda-data.eu/dataset/e-gov/distribution/visualisation> ;
 	dcat:keyword	
 		"Connectivity"@en ,
 		"Human capital"@en ,
@@ -71,13 +71,12 @@
 	dcterms:accessRights	<http://publications.europa.eu/resource/authority/access-right/PUBLIC>;
 	dcat:landingPage	<https://digital-agenda-data.eu/> ;
 	foaf:page	<https://digital-agenda-data.eu/> ;
-	dcterms:accrualPeriodicity	<http://publications.europa.eu/resource/authority/frequency/ANNUAL_2> ;
+	dcterms:accrualPeriodicity	<http://publications.europa.eu/resource/authority/frequency/ANNUAL> ;
 	dcterms:language <http://publications.europa.eu/resource/authority/language/ENG> ;
 	dcterms:spatial	<http://publications.europa.eu/resource/authority/country/EUR>;
-	dcterms:temporal	[ schema:startDate "2014-01-01"^^xsd:date ] ;
-	dcterms:identifier	"DESI" ;
-	#adms:identifier	[ skos:notation "DESI" ]
-	dcterms:issued	"2011-05-01T00:00:00Z"^^xsd:dateTime ;
+	dcterms:temporal	[ schema:startDate "2012-01-01"^^xsd:date ] ;
+	dcterms:identifier	"e-gov" ;
+	dcterms:issued	"2012-07-01T00:00:00Z"^^xsd:dateTime ;
 	dcterms:modified	"2020-04-09T00:00:00Z"^^xsd:dateTime ;
 	dcterms:conformsTo	<http://purl.org/linked-data/cube> ;
 
@@ -85,22 +84,17 @@
 # QB
 	qb:structure	<http://semantic.digital-agenda-data.eu/def/dsd/scoreboard>;
 
-# Linked data
-	foaf:isPrimaryTopicOf	<http://semantic.digital-agenda-data.eu/API/dataset/DESI.rdf> ;
-
 # ODP
 	adms:status	<http://purl.org/adms/status/Completed> .
 	# TODO: change to http://publications.europa.eu/resource/authority/dataset-status/COMPLETED
-
-# RELATED ENTITIES
 
 # License
 <http://ec.europa.eu/geninfo/legal_notices_en.htm#copyright>	dcterms:title	"Europa Legal Notice" .
 
 # DCAT Distribution
-<http://semantic.digital-agenda-data.eu/dataset/DESI/distribution/download>
+<http://semantic.digital-agenda-data.eu/dataset/e-gov/distribution/download>
 	rdf:type	dcat:Distribution ;
-	dcat:accessURL	<https://digital-agenda-data.eu/datasets/desi#download> ;
+	dcat:accessURL	<https://digital-agenda-data.eu/datasets/e-gov#download> ;
 	dcterms:description	"Download instructions";
 	dcterms:type	<http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE> ;
 	dcterms:format	<http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
@@ -108,19 +102,12 @@
 	dcat:mediaType	"text/turtle" .
 
 # StatDCAT Visualisation
-<http://semantic.digital-agenda-data.eu/dataset/DESI/distribution/visualisation>
+<http://semantic.digital-agenda-data.eu/dataset/e-gov/distribution/visualisation>
 	rdf:type	dcat:Distribution ;
 	dcterms:type	<http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION> ;
-	dcat:accessURL	<https://digital-agenda-data.eu/datasets/desi> ;
+	dcat:accessURL	<https://digital-agenda-data.eu/datasets/e-gov> ;
 	dcterms:license	<http://ec.europa.eu/geninfo/legal_notices_en.htm#copyright> ;
 	dcterms:description	"Dataset visualisations".
-
-# LD API page
-<http://semantic.digital-agenda-data.eu/API/dataset/DESI.rdf>
-	rdf:type	ld-api:Page ;
-	foaf:primaryTopic	<http://semantic.digital-agenda-data.eu/dataset/DESI> ;
-	ld-api:definition	<http://semantic.digital-agenda-data.eu/API/meta/dataset/_id.rdf> ;
-	ld-api:extendedMetadataVersion	<http://semantic.digital-agenda-data.eu/API/dataset/DESI.rdf?_metadata=all> .
 
 # Organization (contact point)
 <http://publications.europa.eu/resource/authority/corporate-body/CNECT/F4>

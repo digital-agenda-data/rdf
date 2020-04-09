@@ -34,10 +34,10 @@
 	rdf:type qb:DataSet , dcat:Dataset ;
 # DCAT Mandatory
 	dcterms:title	"Digital Agenda Key Indicators"@en ;
-	dcterms:description	"European Commission services selected more than 100 indicators, divided into thematic groups, which illustrate some key dimensions of the European information society (Telecom sector, Broadband, Mobile, Internet usage, Internet services, eGovernment, eCommerce, eBusiness, ICT Skills, Research and Development).\nThese indicators allow a comparison of progress across European countries as well as over time.\nYou can also browse the data with the help of a visualisation tools going at http://digital-agenda-data.eu/, where you are also able to download selected information."@en ;
+	dcterms:description	"European Commission services selected various indicators, divided into thematic groups, which illustrate some key dimensions of the European information society (Telecom sector, Broadband, Mobile, Internet usage, Internet services, eGovernment, eCommerce, eBusiness, ICT Skills, Research and Development). These indicators allow a comparison of progress across European countries as well as over time. Multiple interactive charts allow you to assess countries' profiles."@en ;
 # QB recommended properties
 	rdfs:label	"Digital Agenda Key Indicators"@en ;
-	rdfs:comment	"European Commission services selected more than 100 indicators, divided into thematic groups, which illustrate some key dimensions of the European information society (Telecom sector, Broadband, Mobile, Internet usage, Internet services, eGovernment, eCommerce, eBusiness, ICT Skills, Research and Development).\nThese indicators allow a comparison of progress across European countries as well as over time.\nYou can also browse the data with the help of a visualisation tools going at http://digital-agenda-data.eu/, where you are also able to download selected information."@en ;
+	rdfs:comment	"European Commission services selected various indicators, divided into thematic groups, which illustrate some key dimensions of the European information society (Telecom sector, Broadband, Mobile, Internet usage, Internet services, eGovernment, eCommerce, eBusiness, ICT Skills, Research and Development). These indicators allow a comparison of progress across European countries as well as over time. Multiple interactive charts allow you to assess countries' profiles."@en ;
 	dcterms:subject	sdmx-subject:3.3.3 ;
 		# TODO: here all concepts from dcat:theme could be listed
 
@@ -72,8 +72,8 @@
 
 # DCAT-AP optional properties / DCAT recommended properties
 	dcterms:accessRights	<http://publications.europa.eu/resource/authority/access-right/PUBLIC>;
-	dcat:landingPage	<http://digital-agenda-data.eu/> ;
-	foaf:page	<http://digital-agenda-data.eu/> ;
+	dcat:landingPage	<https://digital-agenda-data.eu/> ;
+	foaf:page	<https://digital-agenda-data.eu/> ;
 	dcterms:accrualPeriodicity	<http://publications.europa.eu/resource/authority/frequency/ANNUAL_2> ;
 	dcterms:language <http://publications.europa.eu/resource/authority/language/ENG> ;
 	dcterms:spatial	
@@ -86,7 +86,7 @@
 	dcterms:identifier	"digital-agenda-scoreboard-key-indicators" ;
 	#adms:identifier	[ skos:notation "digital-agenda-scoreboard-key-indicators" ]
 	dcterms:issued	"2011-05-01T00:00:00Z"^^xsd:dateTime ;
-	dcterms:modified	"2016-06-01T00:00:00Z"^^xsd:dateTime ;
+	dcterms:modified	"2020-04-09T00:00:00Z"^^xsd:dateTime ;
 	dcterms:conformsTo	<http://purl.org/linked-data/cube> ;
 
 
