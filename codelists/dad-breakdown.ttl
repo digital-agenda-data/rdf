@@ -6,7 +6,7 @@ ns1:breakdown	rdf:type	ns2:CodeList .
 ns1:breakdown	rdf:type	skos:ConceptScheme .
 @prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
 @prefix dct:	<http://purl.org/dc/terms/> .
-ns1:breakdown	dct:modified	"2020-01-30T12:00:42"^^xsd:dateTime .
+ns1:breakdown	dct:modified	"2020-05-14T10:53:52"^^xsd:dateTime .
 @prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
 ns1:breakdown	rdfs:isDefinedBy	<http://digital-agenda-data.eu/> ;
 	skos:prefLabel	"Code list for breakdowns used by Digital Agenda Scoreboard" ;
@@ -39,6 +39,14 @@ ns1:breakdown	skos:hasTopConcept	ns7:desi_3c3_sell ,
 		<http://semantic.digital-agenda-data.eu/codelist/breakdown/5g_pb> ,
 		ns7:desi_1b3_5g ,
 		ns7:desi_2a1_bds ,
+		ns7:isco_ict ,
+		ns7:isco_ictx ,
+		ns7:emp_con_prm ,
+		ns7:emp_con_tmp ,
+		ns7:emp_wkt_ft ,
+		ns7:emp_wkt_pt ,
+		ns7:ind_dch ,
+		ns7:ind_no_dch ,
 		ns7:cb_for ,
 		ns7:cc_for ,
 		ns7:rf_ge1 ,
@@ -4227,44 +4235,44 @@ ns44:desi_3b_acton	rdf:type	ns10:BreakdownToGroupMembership ;
 	ns11:order	"2" .
 @prefix ns78:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/desi_3a_ui/> .
 ns78:desi_3a1_notiu	rdf:type	ns10:BreakdownToGroupMembership ;
-	rdfs:label	"DESI_3A_UI" ;
+	rdfs:label	"desi_3a_ui" ;
 	ns11:member-of	ns12:desi_3a_ui ;
 	ns11:order	"1" .
 ns78:desi_3a2_iu	rdf:type	ns10:BreakdownToGroupMembership ;
-	rdfs:label	"DESI_3A_UI" ;
+	rdfs:label	"desi_3a_ui" ;
 	ns11:member-of	ns12:desi_3a_ui ;
 	ns11:order	"2" .
 @prefix ns79:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/desi_3b_acton/> .
 ns79:desi_3b1_news	rdf:type	ns10:BreakdownToGroupMembership ;
-	rdfs:label	"DESI_3B_ACTON" ;
+	rdfs:label	"desi_3b_acton" ;
 	ns11:member-of	ns12:desi_3b_acton ;
 	ns11:order	"1" .
 ns79:desi_3b2_mvg	rdf:type	ns10:BreakdownToGroupMembership ;
-	rdfs:label	"DESI_3B_ACTON" ;
+	rdfs:label	"desi_3b_acton" ;
 	ns11:member-of	ns12:desi_3b_acton ;
 	ns11:order	"2" .
 ns79:desi_3b3_vod	rdf:type	ns10:BreakdownToGroupMembership ;
-	rdfs:label	"DESI_3B_ACTON" ;
+	rdfs:label	"desi_3b_acton" ;
 	ns11:member-of	ns12:desi_3b_acton ;
 	ns11:order	"3" .
 ns79:desi_3b4_vidcall	rdf:type	ns10:BreakdownToGroupMembership ;
-	rdfs:label	"DESI_3B_ACTON" ;
+	rdfs:label	"desi_3b_acton" ;
 	ns11:member-of	ns12:desi_3b_acton ;
 	ns11:order	"4" .
 ns79:desi_3b5_socnet	rdf:type	ns10:BreakdownToGroupMembership ;
-	rdfs:label	"DESI_3B_ACTON" ;
+	rdfs:label	"desi_3b_acton" ;
 	ns11:member-of	ns12:desi_3b_acton ;
 	ns11:order	"5" .
 ns79:desi_3b6_profsocnet	rdf:type	ns10:BreakdownToGroupMembership ;
-	rdfs:label	"DESI_3B_ACTON" ;
+	rdfs:label	"desi_3b_acton" ;
 	ns11:member-of	ns12:desi_3b_acton ;
 	ns11:order	"6" .
 ns79:desi_3b7_courseon	rdf:type	ns10:BreakdownToGroupMembership ;
-	rdfs:label	"DESI_3B_ACTON" ;
+	rdfs:label	"desi_3b_acton" ;
 	ns11:member-of	ns12:desi_3b_acton ;
 	ns11:order	"7" .
 ns79:desi_3b8_convoton	rdf:type	ns10:BreakdownToGroupMembership ;
-	rdfs:label	"DESI_3B_ACTON" ;
+	rdfs:label	"desi_3b_acton" ;
 	ns11:member-of	ns12:desi_3b_acton ;
 	ns11:order	"8" .
 ns45:desi_3c3_sell	rdf:type	ns10:BreakdownToGroupMembership ;
@@ -4489,3 +4497,94 @@ ns7:old_desi_1d_aff	rdf:type	ns10:Breakdown ,
 	skos:altLabel	"1d Affordability" ;
 	ns11:membership	ns36:old_desi_1d_aff ;
 	skos:topConceptOf	ns1:breakdown .
+ns7:emp_con_prm	rdf:type	ns10:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Working with a permanent job or under contract of unlimited duration" ;
+	skos:notation	"emp_con_prm" ;
+	skos:altLabel	"Working with a permanent job or under contract of unlimited duration" .
+@prefix ns80:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/workingscheme/> .
+ns7:emp_con_prm	ns11:membership	ns80:emp_con_prm ;
+	skos:topConceptOf	ns1:breakdown .
+ns7:emp_con_tmp	rdf:type	ns10:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Working with a temporary job or under contract of limited duration" ;
+	skos:notation	"emp_con_tmp" ;
+	skos:altLabel	"Working with a temporary job or under contract of limited duration" ;
+	ns11:membership	ns80:emp_con_tmp ;
+	skos:topConceptOf	ns1:breakdown .
+ns7:emp_wkt_ft	rdf:type	ns10:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Employees working full time" ;
+	skos:notation	"emp_wkt_ft" ;
+	skos:altLabel	"Employees working full time" ;
+	ns11:membership	ns80:emp_wkt_ft ;
+	skos:topConceptOf	ns1:breakdown .
+ns7:emp_wkt_pt	rdf:type	ns10:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Employees working part time" ;
+	skos:notation	"emp_wkt_pt" ;
+	skos:altLabel	"Employees working part time" ;
+	ns11:membership	ns80:emp_wkt_pt ;
+	skos:topConceptOf	ns1:breakdown .
+ns7:ind_dch	rdf:type	ns10:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Individuals living in a household with children" ;
+	skos:notation	"ind_dch" ;
+	skos:altLabel	"Individuals living in a household with children" .
+@prefix ns81:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/childrenhh/> .
+ns7:ind_dch	ns11:membership	ns81:ind_dch ;
+	skos:topConceptOf	ns1:breakdown .
+ns7:ind_no_dch	rdf:type	ns10:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Individuals living in a household without children" ;
+	skos:notation	"ind_no_dch" ;
+	skos:altLabel	"Individuals living in a household without children" ;
+	ns11:membership	ns81:ind_no_dch ;
+	skos:topConceptOf	ns1:breakdown .
+ns7:isco_ict	rdf:type	skos:Concept ,
+		ns10:Breakdown ;
+	skos:prefLabel	"ICT professionals" ;
+	skos:notation	"isco_ict" ;
+	skos:altLabel	"ICT professionals" .
+@prefix ns82:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/ictproffession/> .
+ns7:isco_ict	ns11:membership	ns82:isco_ict ;
+	skos:topConceptOf	ns1:breakdown .
+ns7:isco_ictx	rdf:type	skos:Concept ,
+		ns10:Breakdown ;
+	skos:prefLabel	"Non ICT professionals" ;
+	skos:notation	"isco_ictx" ;
+	skos:altLabel	"Non ICT professionals" ;
+	ns11:membership	ns82:isco_ictx ;
+	skos:topConceptOf	ns1:breakdown .
+ns81:ind_dch	rdf:type	ns10:BreakdownToGroupMembership ;
+	rdfs:label	"childrenhh" ;
+	ns11:member-of	ns12:childrenhh ;
+	ns11:order	"1" .
+ns81:ind_no_dch	rdf:type	ns10:BreakdownToGroupMembership ;
+	rdfs:label	"childrenhh" ;
+	ns11:member-of	ns12:childrenhh ;
+	ns11:order	"2" .
+ns82:isco_ict	rdf:type	ns10:BreakdownToGroupMembership ;
+	rdfs:label	"ictproffession" ;
+	ns11:member-of	ns12:ictproffession ;
+	ns11:order	"1" .
+ns82:isco_ictx	rdf:type	ns10:BreakdownToGroupMembership ;
+	rdfs:label	"ictproffession" ;
+	ns11:member-of	ns12:ictproffession ;
+	ns11:order	"2" .
+ns80:emp_con_prm	rdf:type	ns10:BreakdownToGroupMembership ;
+	rdfs:label	"workingscheme" ;
+	ns11:member-of	ns12:workingscheme ;
+	ns11:order	"3" .
+ns80:emp_con_tmp	rdf:type	ns10:BreakdownToGroupMembership ;
+	rdfs:label	"workingscheme" ;
+	ns11:member-of	ns12:workingscheme ;
+	ns11:order	"4" .
+ns80:emp_wkt_ft	rdf:type	ns10:BreakdownToGroupMembership ;
+	rdfs:label	"workingscheme" ;
+	ns11:member-of	ns12:workingscheme ;
+	ns11:order	"1" .
+ns80:emp_wkt_pt	rdf:type	ns10:BreakdownToGroupMembership ;
+	rdfs:label	"workingscheme" ;
+	ns11:member-of	ns12:workingscheme ;
+	ns11:order	"2" .

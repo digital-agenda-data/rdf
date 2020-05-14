@@ -14,11 +14,11 @@
 
 ns1:breakdown-group
 	rdf:type	skos:ConceptScheme , ns3:CodeList ;
-	dct:modified	"2019-06-11T11:43:40"^^xsd:dateTime ;
+	dct:modified	"2020-05-14T10:51:00"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://digital-agenda-data.eu/> ;
 	skos:prefLabel	"Breakdown groups used by Digital Agenda Scoreboard" ;
 	skos:notation	"CL_BREAKDOWN_GROUP" ;
-	skos:hasTopConcept	ns7:by_location , ns7:byage3classes , ns7:byage6classes , ns7:bycbirth , ns7:byccitizen , ns7:byccsophistication , ns7:bydensity , ns7:bydigint2015 , ns7:bydownloadspeed , ns7:bydownloadspeed4 , ns7:byedu , ns7:byedugrade , ns7:byemp , ns7:byentsize , ns7:byentsize_s_m_l , ns7:byfbbtech , ns7:bygender , ns7:byictsector2subsec , ns7:byictsector6subsec , ns7:bynaceeu , ns7:bynacenat , ns7:byorganizationclass , ns7:byregion , ns7:byrisk , ns7:byskills , ns7:bytypeproduct , ns7:cnect_directorates , ns7:desi , ns7:desi_1_conn , ns7:desi_1a_fbb , ns7:desi_1b_mbb , ns7:desi_1c_speed , ns7:desi_1d_ultra , ns7:desi_1e_bbpi , ns7:desi_2_hc , ns7:desi_2a_bsu , ns7:desi_2b_asd , ns7:desi_3_ui , ns7:desi_3c_trans , ns7:desi_4_idt , ns7:desi_4a_bd , ns7:desi_4b_ecomm , ns7:desi_5_dps , ns7:desi_5a_egov , ns7:desi_5b_ehs , ns7:desi_totals , ns7:digskill_level , ns7:e_gov_1_ucg , ns7:e_gov_2_tg , ns7:e_gov_3_cm , ns7:e_gov_4_bm , ns7:e_gov_5_ke , ns7:e_gov_events , ns7:econsector , ns7:econsector_size , ns7:egov_le , ns7:epsi_dimensions , ns7:hhbyiq , ns7:hhbytype , ns7:infso_directorates , ns7:labour_force , ns7:manuf , ns7:mhz_bands , ns7:others , ns7:rural_pop , ns7:sos_agg , ns7:total , ns7:wid_score , ns7:desi_3a_ui , ns7:desi_3b_acton ;
+	skos:hasTopConcept	ns7:by_location , ns7:byage3classes , ns7:byage6classes , ns7:bycbirth , ns7:byccitizen , ns7:byccsophistication , ns7:bydensity , ns7:bydigint2015 , ns7:bydownloadspeed , ns7:bydownloadspeed4 , ns7:byedu , ns7:byedugrade , ns7:byemp , ns7:byentsize , ns7:byentsize_s_m_l , ns7:byfbbtech , ns7:bygender , ns7:byictsector2subsec , ns7:byictsector6subsec , ns7:bynaceeu , ns7:bynacenat , ns7:byorganizationclass , ns7:byregion , ns7:byrisk , ns7:byskills , ns7:bytypeproduct , ns7:cnect_directorates , ns7:desi , ns7:desi_1_conn , ns7:desi_1a_fbb , ns7:desi_1b_mbb , ns7:desi_1c_speed , ns7:desi_1d_ultra , ns7:desi_1e_bbpi , ns7:desi_2_hc , ns7:desi_2a_bsu , ns7:desi_2b_asd , ns7:desi_3_ui , ns7:desi_3c_trans , ns7:desi_4_idt , ns7:desi_4a_bd , ns7:desi_4b_ecomm , ns7:desi_5_dps , ns7:desi_5a_egov , ns7:desi_5b_ehs , ns7:desi_totals , ns7:digskill_level , ns7:e_gov_1_ucg , ns7:e_gov_2_tg , ns7:e_gov_3_cm , ns7:e_gov_4_bm , ns7:e_gov_5_ke , ns7:e_gov_events , ns7:econsector , ns7:econsector_size , ns7:egov_le , ns7:epsi_dimensions , ns7:hhbyiq , ns7:hhbytype , ns7:infso_directorates , ns7:labour_force , ns7:manuf , ns7:mhz_bands , ns7:others , ns7:rural_pop , ns7:sos_agg , ns7:total , ns7:wid_score , ns7:childrenhh , ns7:ictproffession , ns7:workingscheme , ns7:desi_3a_ui , ns7:desi_3b_acton ;
 	skos:inScheme	ns8:scheme .
 ns7:by_location
 	rdf:type	ns9:BreakdownGroup , skos:Concept ;
@@ -524,6 +524,30 @@ ns7:wid_score
 	skos:notation	"wid_score" ;
 	skos:altLabel	"Women in digital score" ;
 	ns10:order	"114" ;
+	skos:topConceptOf	ns1:breakdown-group .
+ns7:childrenhh
+	rdf:type	ns9:BreakdownGroup , skos:Concept ;
+	skos:prefLabel	"Household with or without  children" ;
+	skos:notation	"childrenhh" ;
+	skos:altLabel	"Household with or without  children" ;
+	ns10:order	"28" ;
+	skos:definition	"Breakdown by Individuals living in the household with or without  children" ;
+	skos:topConceptOf	ns1:breakdown-group .
+ns7:ictproffession
+	rdf:type	ns9:BreakdownGroup , skos:Concept ;
+	skos:prefLabel	"ICT and non-ICT profession" ;
+	skos:notation	"ictproffession" ;
+	skos:altLabel	"ICT and non-ICT profession" ;
+	ns10:order	"27" ;
+	skos:definition	"Breakdown by ICT and non-ICT profession" ;
+	skos:topConceptOf	ns1:breakdown-group .
+ns7:workingscheme
+	rdf:type	ns9:BreakdownGroup , skos:Concept ;
+	skos:prefLabel	"Working patterns and conditions" ;
+	skos:notation	"workingscheme" ;
+	skos:altLabel	"Working patterns and conditions" ;
+	ns10:order	"29" ;
+	skos:definition	"Breakdown by Working patterns(full/ part time) and conditions (contract duration)" ;
 	skos:topConceptOf	ns1:breakdown-group .
 ns7:desi_3a_ui
 	rdf:type	ns9:BreakdownGroup , skos:Concept ;
