@@ -184,46 +184,38 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_dim/desi_5_dps>	<http://semantic.digital-agenda-data.eu/def/property/order>	"5" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_dim/desi_5_dps>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_dim/desi_5_dps>	<http://www.w3.org/2000/01/rdf-schema#label>	"desi_dim" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_1a1_fbbc>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_1a1_fbbc>	<http://semantic.digital-agenda-data.eu/def/property/order>	"111" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_1a1_fbbc>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_1a1_fbbc>	<http://www.w3.org/2000/01/rdf-schema#label>	"desi_ind" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_1a2_fbbtu>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_1a2_fbbtu>	<http://semantic.digital-agenda-data.eu/def/property/order>	"112" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_1a2_fbbtu>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_1a2_fbbtu>	<http://www.w3.org/2000/01/rdf-schema#label>	"desi_ind" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_1b1_4g>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_1b1_4g>	<http://semantic.digital-agenda-data.eu/def/property/order>	"121" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_1b1_4g>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_1b1_4g>	<http://www.w3.org/2000/01/rdf-schema#label>	"desi_ind" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_1b2_mbbtu>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_1b2_mbbtu>	<http://semantic.digital-agenda-data.eu/def/property/order>	"122" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_1b2_mbbtu>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_1b2_mbbtu>	<http://www.w3.org/2000/01/rdf-schema#label>	"desi_ind" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_1b3_5g>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_1b3_5g>	<http://semantic.digital-agenda-data.eu/def/property/order>	"123" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_1b3_5g>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_1b3_5g>	<http://www.w3.org/2000/01/rdf-schema#label>	"desi_ind" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_1c1_ngac>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_1c1_ngac>	<http://semantic.digital-agenda-data.eu/def/property/order>	"131" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_1c1_ngac>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_1c1_ngac>	<http://www.w3.org/2000/01/rdf-schema#label>	"desi_ind" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_1c2_sfbb>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_1c2_sfbb>	<http://semantic.digital-agenda-data.eu/def/property/order>	"132" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_1c2_sfbb>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_1c2_sfbb>	<http://www.w3.org/2000/01/rdf-schema#label>	"desi_ind" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_1d1_ubbc>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_1d1_ubbc>	<http://semantic.digital-agenda-data.eu/def/property/order>	"141" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_1d1_ubbc>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_1d1_ubbc>	<http://www.w3.org/2000/01/rdf-schema#label>	"desi_ind" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_1d2_ubbta>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_1d2_ubbta>	<http://semantic.digital-agenda-data.eu/def/property/order>	"142" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_1d2_ubbta>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_1d2_ubbta>	<http://www.w3.org/2000/01/rdf-schema#label>	"desi_ind" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_1e1_bbpi>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_1e1_bbpi>	<http://semantic.digital-agenda-data.eu/def/property/order>	"151" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_1e1_bbpi>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_1e1_bbpi>	<http://www.w3.org/2000/01/rdf-schema#label>	"desi_ind" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_1a1_fbbtc>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_1a1_fbbtc>	<http://semantic.digital-agenda-data.eu/def/property/order>	"111" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_1a1_fbbtc>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_1a1_fbbtc>	<http://www.w3.org/2000/01/rdf-schema#label>	"desi_ind" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_1a2_ufbbtu>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_1a2_ufbbtu>	<http://semantic.digital-agenda-data.eu/def/property/order>	"112" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_1a2_ufbbtu>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_1a2_ufbbtu>	<http://www.w3.org/2000/01/rdf-schema#label>	"desi_ind" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_1b1_fbbc>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_1b1_fbbc>	<http://semantic.digital-agenda-data.eu/def/property/order>	"121" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_1b1_fbbc>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_1b1_fbbc>	<http://www.w3.org/2000/01/rdf-schema#label>	"desi_ind" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_1b2_vhcnc>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_1b2_vhcnc>	<http://semantic.digital-agenda-data.eu/def/property/order>	"122" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_1b2_vhcnc>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_1b2_vhcnc>	<http://www.w3.org/2000/01/rdf-schema#label>	"desi_ind" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_1c1_4g>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_1c1_4g>	<http://semantic.digital-agenda-data.eu/def/property/order>	"131" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_1c1_4g>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_1c1_4g>	<http://www.w3.org/2000/01/rdf-schema#label>	"desi_ind" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_1c2_mbbtu>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_1c2_mbbtu>	<http://semantic.digital-agenda-data.eu/def/property/order>	"132" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_1c2_mbbtu>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_1c2_mbbtu>	<http://www.w3.org/2000/01/rdf-schema#label>	"desi_ind" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_1c3_5g>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_1c3_5g>	<http://semantic.digital-agenda-data.eu/def/property/order>	"133" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_1c3_5g>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_1c3_5g>	<http://www.w3.org/2000/01/rdf-schema#label>	"desi_ind" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_1d1_bbpi>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_1d1_bbpi>	<http://semantic.digital-agenda-data.eu/def/property/order>	"141" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_1d1_bbpi>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_1d1_bbpi>	<http://www.w3.org/2000/01/rdf-schema#label>	"desi_ind" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_2a1_bds>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_2a1_bds>	<http://semantic.digital-agenda-data.eu/def/property/order>	"211" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_2a1_bds>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
@@ -276,18 +268,10 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_3b5_socnet>	<http://semantic.digital-agenda-data.eu/def/property/order>	"325" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_3b5_socnet>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_3b5_socnet>	<http://www.w3.org/2000/01/rdf-schema#label>	"desi_ind" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_3b6_profsocnet>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_3b6_profsocnet>	<http://semantic.digital-agenda-data.eu/def/property/order>	"326" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_3b6_profsocnet>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_3b6_profsocnet>	<http://www.w3.org/2000/01/rdf-schema#label>	"desi_ind" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_3b7_courseon>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_3b7_courseon>	<http://semantic.digital-agenda-data.eu/def/property/order>	"327" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_3b7_courseon>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_3b7_courseon>	<http://www.w3.org/2000/01/rdf-schema#label>	"desi_ind" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_3b8_convoton>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_3b8_convoton>	<http://semantic.digital-agenda-data.eu/def/property/order>	"328" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_3b8_convoton>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_3b8_convoton>	<http://www.w3.org/2000/01/rdf-schema#label>	"desi_ind" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_3b6_courseon>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_3b6_courseon>	<http://semantic.digital-agenda-data.eu/def/property/order>	"326" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_3b6_courseon>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_3b6_courseon>	<http://www.w3.org/2000/01/rdf-schema#label>	"desi_ind" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_3c1_bank>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_3c1_bank>	<http://semantic.digital-agenda-data.eu/def/property/order>	"331" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_3c1_bank>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
@@ -348,42 +332,38 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_5a5_opendata>	<http://semantic.digital-agenda-data.eu/def/property/order>	"515" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_5a5_opendata>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_5a5_opendata>	<http://www.w3.org/2000/01/rdf-schema#label>	"desi_ind" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_5b1_ehs>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_5b1_ehs>	<http://semantic.digital-agenda-data.eu/def/property/order>	"521" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_5b1_ehs>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_5b1_ehs>	<http://www.w3.org/2000/01/rdf-schema#label>	"desi_ind" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_5b2_mdataexch>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_5b2_mdataexch>	<http://semantic.digital-agenda-data.eu/def/property/order>	"522" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_5b2_mdataexch>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_5b2_mdataexch>	<http://www.w3.org/2000/01/rdf-schema#label>	"desi_ind" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_5b3_epresc>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_5b3_epresc>	<http://semantic.digital-agenda-data.eu/def/property/order>	"523" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_5b3_epresc>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_5b3_epresc>	<http://www.w3.org/2000/01/rdf-schema#label>	"desi_ind" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_5b1_ehs_old>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_5b1_ehs_old>	<http://semantic.digital-agenda-data.eu/def/property/order>	"521" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_5b1_ehs_old>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_5b1_ehs_old>	<http://www.w3.org/2000/01/rdf-schema#label>	"desi_ind" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_5b2_mdataexch_old>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_5b2_mdataexch_old>	<http://semantic.digital-agenda-data.eu/def/property/order>	"522" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_5b2_mdataexch_old>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_5b2_mdataexch_old>	<http://www.w3.org/2000/01/rdf-schema#label>	"desi_ind" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_5b3_epresc_old>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_5b3_epresc_old>	<http://semantic.digital-agenda-data.eu/def/property/order>	"523" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_5b3_epresc_old>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_5b3_epresc_old>	<http://www.w3.org/2000/01/rdf-schema#label>	"desi_ind" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_sliders/desi_sliders>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_sliders> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_sliders/desi_sliders>	<http://semantic.digital-agenda-data.eu/def/property/order>	"1" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_sliders/desi_sliders>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_sliders/desi_sliders>	<http://www.w3.org/2000/01/rdf-schema#label>	"desi_sliders" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim/desi_1a_fbb>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim/desi_1a_fbb>	<http://semantic.digital-agenda-data.eu/def/property/order>	"11" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim/desi_1a_fbb>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim/desi_1a_fbb>	<http://www.w3.org/2000/01/rdf-schema#label>	"desi_subdim" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim/desi_1b_mbb>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim/desi_1b_mbb>	<http://semantic.digital-agenda-data.eu/def/property/order>	"12" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim/desi_1b_mbb>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim/desi_1b_mbb>	<http://www.w3.org/2000/01/rdf-schema#label>	"desi_subdim" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim/desi_1c_speed>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim/desi_1c_speed>	<http://semantic.digital-agenda-data.eu/def/property/order>	"13" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim/desi_1c_speed>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim/desi_1c_speed>	<http://www.w3.org/2000/01/rdf-schema#label>	"desi_subdim" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim/desi_1d_ultra>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim/desi_1d_ultra>	<http://semantic.digital-agenda-data.eu/def/property/order>	"14" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim/desi_1d_ultra>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim/desi_1d_ultra>	<http://www.w3.org/2000/01/rdf-schema#label>	"desi_subdim" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim/desi_1e_bbpi>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim/desi_1e_bbpi>	<http://semantic.digital-agenda-data.eu/def/property/order>	"15" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim/desi_1e_bbpi>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim/desi_1e_bbpi>	<http://www.w3.org/2000/01/rdf-schema#label>	"desi_subdim" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim/desi_1a_fbbtc>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim/desi_1a_fbbtc>	<http://semantic.digital-agenda-data.eu/def/property/order>	"11" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim/desi_1a_fbbtc>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim/desi_1a_fbbtc>	<http://www.w3.org/2000/01/rdf-schema#label>	"desi_subdim" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim/desi_1b_fbbc>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim/desi_1b_fbbc>	<http://semantic.digital-agenda-data.eu/def/property/order>	"12" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim/desi_1b_fbbc>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim/desi_1b_fbbc>	<http://www.w3.org/2000/01/rdf-schema#label>	"desi_subdim" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim/desi_1c_mbb>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim/desi_1c_mbb>	<http://semantic.digital-agenda-data.eu/def/property/order>	"13" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim/desi_1c_mbb>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim/desi_1c_mbb>	<http://www.w3.org/2000/01/rdf-schema#label>	"desi_subdim" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim/desi_1d_bbpi>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim/desi_1d_bbpi>	<http://semantic.digital-agenda-data.eu/def/property/order>	"14" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim/desi_1d_bbpi>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim/desi_1d_bbpi>	<http://www.w3.org/2000/01/rdf-schema#label>	"desi_subdim" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim/desi_2a_bsu>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim/desi_2a_bsu>	<http://semantic.digital-agenda-data.eu/def/property/order>	"21" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim/desi_2a_bsu>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
@@ -416,10 +396,10 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim/desi_5a_egov>	<http://semantic.digital-agenda-data.eu/def/property/order>	"51" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim/desi_5a_egov>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim/desi_5a_egov>	<http://www.w3.org/2000/01/rdf-schema#label>	"desi_subdim" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim/desi_5b_ehs>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim/desi_5b_ehs>	<http://semantic.digital-agenda-data.eu/def/property/order>	"52" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim/desi_5b_ehs>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim/desi_5b_ehs>	<http://www.w3.org/2000/01/rdf-schema#label>	"desi_subdim" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim/desi_5b_ehsold>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim/desi_5b_ehsold>	<http://semantic.digital-agenda-data.eu/def/property/order>	"52" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim/desi_5b_ehsold>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim/desi_5b_ehsold>	<http://www.w3.org/2000/01/rdf-schema#label>	"desi_subdim" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/discontinued/bb_fcov>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/discontinued> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/discontinued/bb_fcov>	<http://semantic.digital-agenda-data.eu/def/property/order>	"16" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/discontinued/bb_fcov>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
@@ -1635,145 +1615,118 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1_conn>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1_conn>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1_conn>	<http://www.w3.org/2004/02/skos/core#altLabel>	"1 Connectivity" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1_conn>	<http://www.w3.org/2004/02/skos/core#definition>	"DESI Connectivity Dimension calculated as the weighted average of the five sub-dimensions: 1a Fixed Broadband (18.5%), 1b Mobile Broadband (35%), 1c Fast broadband (18.5%), 1d Ultrafast broadband (18.5%) and 1e Broadband price index (9.5%)" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1_conn>	<http://www.w3.org/2004/02/skos/core#definition>	"DESI Connectivity Dimension calculated as the weighted average of the five sub-dimensions: 1a Fixed Broadband take-up (25%), 1b Fixed broadband coverage (25%), 1c Mobile broadband (35%) and 1d Broadband price index (15%)" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1_conn>	<http://www.w3.org/2004/02/skos/core#notation>	"desi_1_conn" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1_conn>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"1 Connectivity" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1_conn>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1a1_fbbc>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/desi_1a1_fbbc> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1a1_fbbc>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_1a1_fbbc> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1a1_fbbc>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1a1_fbbc>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1a1_fbbc>	<http://www.w3.org/2004/02/skos/core#altLabel>	"1a1 Fixed Broadband Coverage" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1a1_fbbc>	<http://www.w3.org/2004/02/skos/core#definition>	"Percentage of households covered by broadband: xDSL, cable (basic and NGA), FTTP or WiMax networks" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1a1_fbbc>	<http://www.w3.org/2004/02/skos/core#notation>	"desi_1a1_fbbc" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1a1_fbbc>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"1a1 Fixed BB Coverage" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1a1_fbbc>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1a2_fbbtu>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/desi_1a2_fbbtu> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1a2_fbbtu>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_1a2_fbbtu> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1a2_fbbtu>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1a2_fbbtu>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1a2_fbbtu>	<http://www.w3.org/2004/02/skos/core#altLabel>	"1a2 Fixed Broadband Take-up" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1a2_fbbtu>	<http://www.w3.org/2004/02/skos/core#definition>	"Percentage of households subscribing to broadband: xDSL, cable (basic and NGA), FTTP or WiMax networks" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1a2_fbbtu>	<http://www.w3.org/2004/02/skos/core#notation>	"desi_1a2_fbbtu" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1a2_fbbtu>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"1a2 Fixed BB Take-up" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1a2_fbbtu>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1a_fbb>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1a_fbb>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim/desi_1a_fbb> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1a_fbb>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1a_fbb>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1a_fbb>	<http://www.w3.org/2004/02/skos/core#altLabel>	"1a Fixed Broadband" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1a_fbb>	<http://www.w3.org/2004/02/skos/core#definition>	"DESI Fixed Broadband sub-dimension calculated as the weighted average of the normalised indicators: 1a1 Fixed BB Coverage (50%), 1a2 Fixed BB Take-up (50%)" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1a_fbb>	<http://www.w3.org/2004/02/skos/core#notation>	"desi_1a_fbb" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1a_fbb>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"1a Fixed Broadband" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1a_fbb>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1b1_4g>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/desi_1b1_4g> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1b1_4g>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_1b1_4g> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1b1_4g>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1b1_4g>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1b1_4g>	<http://www.w3.org/2004/02/skos/core#altLabel>	"1b1 4G Coverage" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1b1_4g>	<http://www.w3.org/2004/02/skos/core#definition>	"Percentage of populated areas coverage by 4G - measured as the average coverage of telecom operators in each country" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1b1_4g>	<http://www.w3.org/2004/02/skos/core#notation>	"desi_1b1_4g" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1b1_4g>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"1b1 4G Coverage" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1b1_4g>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1b2_mbbtu>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/desi_1b2_mbbtu> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1b2_mbbtu>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_1b2_mbbtu> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1b2_mbbtu>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1b2_mbbtu>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1b2_mbbtu>	<http://www.w3.org/2004/02/skos/core#altLabel>	"1b2 Mobile Broadband Take-up" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1b2_mbbtu>	<http://www.w3.org/2004/02/skos/core#definition>	"Number of mobile data subscriptions per 100 people" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1b2_mbbtu>	<http://www.w3.org/2004/02/skos/core#notation>	"desi_1b2_mbbtu" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1b2_mbbtu>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"1b2 Mobile BB Take-up" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1b2_mbbtu>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1b3_5g>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/desi_1b3_5g> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1b3_5g>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_1b3_5g> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1b3_5g>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1b3_5g>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1b3_5g>	<http://www.w3.org/2004/02/skos/core#altLabel>	"1b3 5G readiness" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1b3_5g>	<http://www.w3.org/2004/02/skos/core#definition>	"The amount of spectrum assigned and ready for 5G use by the end of 2020 within the so-called 5G pioneer bands. These bands are 700 MHz (703-733 MHz and 758-788 MHz), 3.6 GHz (3400-3800 MHz) and 26 GHz (1000 MHz within 24250-27500 MHz). All three spectrum bands have an equal weight" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1b3_5g>	<http://www.w3.org/2004/02/skos/core#notation>	"desi_1b3_5g" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1b3_5g>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"1b3 5G readiness" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1b3_5g>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1b_mbb>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1b_mbb>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim/desi_1b_mbb> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1b_mbb>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1b_mbb>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1b_mbb>	<http://www.w3.org/2004/02/skos/core#altLabel>	"1b Mobile Broadband" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1b_mbb>	<http://www.w3.org/2004/02/skos/core#definition>	"DESI Mobile Broadband sub-dimension calculated as the weighted average of the normalised indicators: 1b1 4G Coverage (33%), 1b2 Mobile BB Take-up (33%) and 1b3 5G readiness (33%)" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1b_mbb>	<http://www.w3.org/2004/02/skos/core#notation>	"desi_1b_mbb" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1b_mbb>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"1b Mobile Broadband" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1b_mbb>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1c1_ngac>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/desi_1c1_ngac> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1c1_ngac>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_1c1_ngac> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1c1_ngac>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1c1_ngac>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1c1_ngac>	<http://www.w3.org/2004/02/skos/core#altLabel>	"1c1 Fast broadband (NGA) coverage" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1c1_ngac>	<http://www.w3.org/2004/02/skos/core#definition>	"Percentage of households covered by broadband of at least 30 Mbps download. Considered technologies are FTTH, FTTB, Cable Docsis 3.0 and VDSL" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1c1_ngac>	<http://www.w3.org/2004/02/skos/core#notation>	"desi_1c1_ngac" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1c1_ngac>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"1c1 NGA Coverage" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1c1_ngac>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1c2_sfbb>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/desi_1c2_sfbb> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1c2_sfbb>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_1c2_sfbb> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1c2_sfbb>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1c2_sfbb>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1c2_sfbb>	<http://www.w3.org/2004/02/skos/core#altLabel>	"1c2 Fast broadband take-up" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1c2_sfbb>	<http://www.w3.org/2004/02/skos/core#definition>	"Percentage of households subscribing to broadband of at least 30 Mbps" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1c2_sfbb>	<http://www.w3.org/2004/02/skos/core#notation>	"desi_1c2_sfbb" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1c2_sfbb>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"1c2 Fast BB take-up" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1c2_sfbb>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1c_speed>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1c_speed>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim/desi_1c_speed> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1c_speed>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1c_speed>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1c_speed>	<http://www.w3.org/2004/02/skos/core#altLabel>	"1c Fast Broadband" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1c_speed>	<http://www.w3.org/2004/02/skos/core#definition>	"DESI Fast Broadband sub-dimension calculated as the weighted average of the normalised indicators: 1c1 NGA Coverage (50%), 1c2 Fast BB take-up (50%)" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1c_speed>	<http://www.w3.org/2004/02/skos/core#notation>	"desi_1c_speed" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1c_speed>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"1c Fast Broadband" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1c_speed>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1d1_ubbc>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/desi_1d1_ubbc> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1d1_ubbc>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_1d1_ubbc> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1d1_ubbc>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1d1_ubbc>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1d1_ubbc>	<http://www.w3.org/2004/02/skos/core#altLabel>	"1d1 Ultrafast broadband coverage" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1d1_ubbc>	<http://www.w3.org/2004/02/skos/core#definition>	"Percentage of households covered by broadband of at least 100 Mbps download. Considered technologies are FTTH, FTTB and Cable Docsis 3.0" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1d1_ubbc>	<http://www.w3.org/2004/02/skos/core#notation>	"desi_1d1_ubbc" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1d1_ubbc>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"1d1 Ultrafast BB Coverage" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1d1_ubbc>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1d2_ubbta>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/desi_1d2_ubbta> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1d2_ubbta>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_1d2_ubbta> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1d2_ubbta>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1d2_ubbta>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1d2_ubbta>	<http://www.w3.org/2004/02/skos/core#altLabel>	"1d2 Ultrafast broadband take-up" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1d2_ubbta>	<http://www.w3.org/2004/02/skos/core#definition>	"Percentage of households subscribing to broadband of at least 100 Mbps" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1d2_ubbta>	<http://www.w3.org/2004/02/skos/core#notation>	"desi_1d2_ubbta" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1d2_ubbta>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"1d2 Ultrafast BB Take-up" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1d2_ubbta>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1d_ultra>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1d_ultra>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim/desi_1d_ultra> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1d_ultra>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1d_ultra>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1d_ultra>	<http://www.w3.org/2004/02/skos/core#altLabel>	"1d Ultrafast Broadband" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1d_ultra>	<http://www.w3.org/2004/02/skos/core#definition>	"DESI Ultrafast speed sub-dimension calculated as the weighted average of the normalised indicators: 1d1 Ultrafast BB Coverage (50%), 1d2 Ultrafast BB Take-up (50%)" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1d_ultra>	<http://www.w3.org/2004/02/skos/core#notation>	"desi_1d_ultra" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1d_ultra>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"1d Ultrafast Broadband" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1d_ultra>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1e1_bbpi>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/desi_1e1_bbpi> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1e1_bbpi>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_1e1_bbpi> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1e1_bbpi>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1e1_bbpi>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1e1_bbpi>	<http://www.w3.org/2004/02/skos/core#altLabel>	"1e1 Broadband price index" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1e1_bbpi>	<http://www.w3.org/2004/02/skos/core#definition>	"The Broadband Price Index measures the prices of twelve representative broadband baskets as the percentage of household income. The baskets include three speed categories (12-30 Mbps, 30-100 Mbps and at least 100 Mbps) and four types of products (standalone internet, internet + TV, internet + fixed telephony and internet + TV + fixed telephony)" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1e1_bbpi>	<http://www.w3.org/2004/02/skos/core#notation>	"desi_1e1_bbpi" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1e1_bbpi>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"1e1 Broadband Price Index" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1e1_bbpi>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1e_bbpi>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1e_bbpi>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim/desi_1e_bbpi> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1e_bbpi>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1e_bbpi>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1e_bbpi>	<http://www.w3.org/2004/02/skos/core#altLabel>	"1e Broadband price index" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1e_bbpi>	<http://www.w3.org/2004/02/skos/core#definition>	"DESI Broadband price index sub-dimension calculated as the weighted average of the normalised indicator: 1e1 Broadband Price Index (100%)" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1e_bbpi>	<http://www.w3.org/2004/02/skos/core#notation>	"desi_1e_bbpi" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1e_bbpi>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"1e Broadband price index" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1e_bbpi>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1a1_fbbtc>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/desi_1a1_fbbtc> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1a1_fbbtc>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_1a1_fbbtc> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1a1_fbbtc>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1a1_fbbtc>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1a1_fbbtc>	<http://www.w3.org/2004/02/skos/core#altLabel>	"1a1 Overall fixed broadband take-up" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1a1_fbbtc>	<http://www.w3.org/2004/02/skos/core#definition>	"Percentage of households subscribing to fixed broadband" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1a1_fbbtc>	<http://www.w3.org/2004/02/skos/core#notation>	"desi_1a1_fbbtc" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1a1_fbbtc>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"1a1 Overall fixed BB take-up" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1a1_fbbtc>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1a2_ufbbtu>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/desi_1a2_ufbbtu> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1a2_ufbbtu>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_1a2_ufbbtu> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1a2_ufbbtu>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1a2_ufbbtu>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1a2_ufbbtu>	<http://www.w3.org/2004/02/skos/core#altLabel>	"1a2 At least 100 Mbps fixed broadband take-up" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1a2_ufbbtu>	<http://www.w3.org/2004/02/skos/core#definition>	"Percentage of households subscribing to fixed broadband of at least 100 Mbps, calculated as overall fixed broadband take-up" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1a2_ufbbtu>	<http://www.w3.org/2004/02/skos/core#notation>	"desi_1a2_ufbbtu" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1a2_ufbbtu>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"1a2 At least 100 Mbps fixed BB take-up" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1a2_ufbbtu>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1a_fbbtc>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1a_fbbtc>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim/desi_1a_fbbtc> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1a_fbbtc>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1a_fbbtc>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1a_fbbtc>	<http://www.w3.org/2004/02/skos/core#altLabel>	"1a Fixed broadband take-up" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1a_fbbtc>	<http://www.w3.org/2004/02/skos/core#definition>	"DESI Fixed Broadband take -up sub-dimension calculated as the weighted average of the normalised indicators: 1a1 Overall fixed broadband take-up (50%), 1a2 At least 100 Mbps fixed broadband take-up (50%)" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1a_fbbtc>	<http://www.w3.org/2004/02/skos/core#notation>	"desi_1a_fbbtc" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1a_fbbtc>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"1a Fixed broadband take-up" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1a_fbbtc>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1b1_fbbc>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/desi_1b1_fbbc> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1b1_fbbc>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_1b1_fbbc> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1b1_fbbc>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1b1_fbbc>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1b1_fbbc>	<http://www.w3.org/2004/02/skos/core#altLabel>	"1b1 Fast broadband (NGA) coverage" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1b1_fbbc>	<http://www.w3.org/2004/02/skos/core#definition>	"Percentage of households covered by fixed broadband of at least 30 Mbps download. The technologies considered are FTTH, FTTB, Cable Docsis 3.0 and VDS" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1b1_fbbc>	<http://www.w3.org/2004/02/skos/core#notation>	"desi_1b1_fbbc" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1b1_fbbc>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"1b1 Fast BB (NGA) coverage" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1b1_fbbc>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1b2_vhcnc>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/desi_1b2_vhcnc> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1b2_vhcnc>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_1b2_vhcnc> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1b2_vhcnc>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1b2_vhcnc>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1b2_vhcnc>	<http://www.w3.org/2004/02/skos/core#altLabel>	"1b2 Fixed Very High Capacity Network (VHCN) coverage" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1b2_vhcnc>	<http://www.w3.org/2004/02/skos/core#definition>	"Percentage of households covered by any fixed VHCN. The technologies considered are FTTH and FTTB for 2015-2018 and FTTH, FTTB and Cable Docsis 3.1 for 201" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1b2_vhcnc>	<http://www.w3.org/2004/02/skos/core#notation>	"desi_1b2_vhcnc" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1b2_vhcnc>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"1b2 Fixed Very High Capacity Network (VHCN) coverage" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1b2_vhcnc>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1b_fbbc>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1b_fbbc>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim/desi_1b_fbbc> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1b_fbbc>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1b_fbbc>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1b_fbbc>	<http://www.w3.org/2004/02/skos/core#altLabel>	"1b Fixed broadband coverage" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1b_fbbc>	<http://www.w3.org/2004/02/skos/core#definition>	"DESI Fixed Broadband coverage sub-dimension calculated as the weighted average of the normalised indicators: 1b1 Fast broadband (NGA) coverage (50%), Fixed Very High Capacity Network (VHCN) coverage (50%)" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1b_fbbc>	<http://www.w3.org/2004/02/skos/core#notation>	"desi_1b_fbbc" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1b_fbbc>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"1b Fixed broadband coverage" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1b_fbbc>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1c1_4g>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/desi_1c1_4g> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1c1_4g>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_1c1_4g> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1c1_4g>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1c1_4g>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1c1_4g>	<http://www.w3.org/2004/02/skos/core#altLabel>	"1c1 4G coverage" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1c1_4g>	<http://www.w3.org/2004/02/skos/core#definition>	"Percentage of populated areas with coverage by 4G - measured as the average coverage of telecom operators in each country" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1c1_4g>	<http://www.w3.org/2004/02/skos/core#notation>	"desi_1c1_4g" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1c1_4g>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"1c1 4G coverage" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1c1_4g>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1c2_mbbtu>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/desi_1c2_mbbtu> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1c2_mbbtu>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_1c2_mbbtu> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1c2_mbbtu>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1c2_mbbtu>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1c2_mbbtu>	<http://www.w3.org/2004/02/skos/core#altLabel>	"1c2 Mobile broadband take-up" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1c2_mbbtu>	<http://www.w3.org/2004/02/skos/core#definition>	"Number of mobile data subscriptions per 100 people" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1c2_mbbtu>	<http://www.w3.org/2004/02/skos/core#notation>	"desi_1c2_mbbtu" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1c2_mbbtu>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"1c2 Mobile BB take-up" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1c2_mbbtu>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1c3_5g>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/desi_1c3_5g> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1c3_5g>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_1c3_5g> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1c3_5g>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1c3_5g>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1c3_5g>	<http://www.w3.org/2004/02/skos/core#altLabel>	"1c3 5G readiness" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1c3_5g>	<http://www.w3.org/2004/02/skos/core#definition>	"The amount of spectrum assigned and ready for 5G use by the end of 2020 within the so-called 5G pioneer bands. These bands are 700 MHz (703-733 MHz and 758-788 MHz), 3.6 GHz (3400-3800 MHz) and 26 GHz (1000 MHz within 24250-27500 MHz). All three spectrum bands have an equal weight" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1c3_5g>	<http://www.w3.org/2004/02/skos/core#notation>	"desi_1c3_5g" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1c3_5g>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"1c3 5G readiness" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1c3_5g>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1c_mbb>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1c_mbb>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim/desi_1c_mbb> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1c_mbb>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1c_mbb>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1c_mbb>	<http://www.w3.org/2004/02/skos/core#altLabel>	"1c Mobile broadband" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1c_mbb>	<http://www.w3.org/2004/02/skos/core#definition>	"DESI Mobile Broadband sub-dimension calculated as the weighted average of the normalised indicators: 1c1 4G coverage (33%), 1c2 Mobile broadband take-up (33%) and 1c3 5G readiness (33%)" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1c_mbb>	<http://www.w3.org/2004/02/skos/core#notation>	"desi_1c_mbb" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1c_mbb>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"1c Mobile broadband" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1c_mbb>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1d1_bbpi>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/desi_1d_bbpi> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1d1_bbpi>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_1d1_bbpi> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1d1_bbpi>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1d1_bbpi>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1d1_bbpi>	<http://www.w3.org/2004/02/skos/core#altLabel>	"1d1 Broadband price index" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1d1_bbpi>	<http://www.w3.org/2004/02/skos/core#definition>	"The broadband price index measures the prices of representative baskets of fixed, mobile and converged broadband offers" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1d1_bbpi>	<http://www.w3.org/2004/02/skos/core#notation>	"desi_1d1_bbpi" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1d1_bbpi>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"1d1 Broadband price index" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1d1_bbpi>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1d_bbpi>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1d_bbpi>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim/desi_1d_bbpi> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1d_bbpi>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1d_bbpi>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1d_bbpi>	<http://www.w3.org/2004/02/skos/core#altLabel>	"1d Broadband price index" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1d_bbpi>	<http://www.w3.org/2004/02/skos/core#definition>	"DESI Broadband price index sub-dimension calculated as the weighted average of the normalised indicator: 1d1 Broadband Price Index (100%)" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1d_bbpi>	<http://www.w3.org/2004/02/skos/core#notation>	"desi_1d_bbpi" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1d_bbpi>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"1d Broadband price index" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1d_bbpi>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/desi_2_hc>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/desi_2_hc>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_dim/desi_2_hc> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/desi_2_hc>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
@@ -1935,39 +1888,21 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator/desi_3b5_socnet>	<http://www.w3.org/2004/02/skos/core#notation>	"desi_3b5_socnet" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/desi_3b5_socnet>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"3b5 Social Networks" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/desi_3b5_socnet>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_3b6_profsocnet>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/desi_3b6_profsocnet> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_3b6_profsocnet>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_3b6_profsocnet> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_3b6_profsocnet>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_3b6_profsocnet>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_3b6_profsocnet>	<http://www.w3.org/2004/02/skos/core#altLabel>	"3b6 Professional social networks" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_3b6_profsocnet>	<http://www.w3.org/2004/02/skos/core#definition>	"People who have used Internet for participating in social or professional networks" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_3b6_profsocnet>	<http://www.w3.org/2004/02/skos/core#notation>	"desi_3b6_profsocnet" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_3b6_profsocnet>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"3b6 Professional social networks" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_3b6_profsocnet>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_3b7_courseon>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/desi_3b7_courseon> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_3b7_courseon>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_3b7_courseon> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_3b7_courseon>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_3b7_courseon>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_3b7_courseon>	<http://www.w3.org/2004/02/skos/core#altLabel>	"3b7 Doing an online course" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_3b7_courseon>	<http://www.w3.org/2004/02/skos/core#definition>	"People who have used the Internet for doing an online course (on any subject)" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_3b7_courseon>	<http://www.w3.org/2004/02/skos/core#notation>	"desi_3b7_courseon" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_3b7_courseon>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"3b7 Doing an online course" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_3b7_courseon>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_3b8_convoton>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/desi_3b8_convoton> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_3b8_convoton>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_3b8_convoton> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_3b8_convoton>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_3b8_convoton>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_3b8_convoton>	<http://www.w3.org/2004/02/skos/core#altLabel>	"3b8 Online consultations and voting" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_3b8_convoton>	<http://www.w3.org/2004/02/skos/core#definition>	"People who took part in on-line consultations or voting to define civic or political issues (e.g. urban planning, signing a petition)" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_3b8_convoton>	<http://www.w3.org/2004/02/skos/core#notation>	"desi_3b8_convoton" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_3b8_convoton>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"3b8 Online consultations and voting" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_3b8_convoton>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_3b6_courseon>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/desi_3b6_courseon> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_3b6_courseon>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_3b6_courseon> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_3b6_courseon>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_3b6_courseon>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_3b6_courseon>	<http://www.w3.org/2004/02/skos/core#altLabel>	"3b6 Doing an online course" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_3b6_courseon>	<http://www.w3.org/2004/02/skos/core#definition>	"People who have used the Internet for doing an online course (on any subject)" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_3b6_courseon>	<http://www.w3.org/2004/02/skos/core#notation>	"desi_3b6_courseon" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_3b6_courseon>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"3b6 Doing an online course" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_3b6_courseon>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/desi_3b_acton>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/desi_3b_acton>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim/desi_3b_acton> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/desi_3b_acton>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/desi_3b_acton>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/desi_3b_acton>	<http://www.w3.org/2004/02/skos/core#altLabel>	"3b Activities online" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_3b_acton>	<http://www.w3.org/2004/02/skos/core#definition>	"DESI Activities Online sub-dimension calculated as the weighted average of the normalised indicators: 3b1 News (12.5%), 3b2 Music, Videos and Games (12.5%), 3b3 Video on Demand (12.5%), 3b4 Video Calls (12.5%), 3b5 Social Networks (12.5%), 3b6 Professional social networks (12.5%), 3b7 Doing an online course (12.5%) and 3b8 Online consultations and voting (12.5%)" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_3b_acton>	<http://www.w3.org/2004/02/skos/core#definition>	"DESI Activities Online sub-dimension calculated as the weighted average of the normalised indicators: 3b1 News (16.6%), 3b2 Music, Videos and Games (16.6%), 3b3 Video on Demand (16.6%), 3b4 Video Calls (16.6%), 3b5 Social Networks (16.6%), and 3b6 Doing an online course (16.6%) " .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/desi_3b_acton>	<http://www.w3.org/2004/02/skos/core#notation>	"desi_3b_acton" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/desi_3b_acton>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"3b Activities online" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/desi_3b_acton>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
@@ -2103,7 +2038,7 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5_dps>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5_dps>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5_dps>	<http://www.w3.org/2004/02/skos/core#altLabel>	"5 Digital Public Services" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5_dps>	<http://www.w3.org/2004/02/skos/core#definition>	"DESI Digital Public Services Dimension calculated as the weighted average of two sub-dimensions: 5a e-Government (80%) and 5b e-Health (20%)" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5_dps>	<http://www.w3.org/2004/02/skos/core#definition>	"DESI Digital Public Services Dimension calculated as the weighted average of two sub-dimensions: 5a e-Government (100%)" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5_dps>	<http://www.w3.org/2004/02/skos/core#notation>	"desi_5_dps" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5_dps>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"5 Digital Public Services" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5_dps>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
@@ -2161,42 +2096,42 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5a_egov>	<http://www.w3.org/2004/02/skos/core#notation>	"desi_5a_egov" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5a_egov>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"5a e-Government" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5a_egov>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5b1_ehs>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/desi_5b1_ehs> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5b1_ehs>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_5b1_ehs> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5b1_ehs>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5b1_ehs>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5b1_ehs>	<http://www.w3.org/2004/02/skos/core#altLabel>	"5b1 e-Health" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5b1_ehs>	<http://www.w3.org/2004/02/skos/core#definition>	"Percentage of people who used health and care services provided online without having to go to the hospital or doctors surgery (for example, by getting a prescription or a consultation online)" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5b1_ehs>	<http://www.w3.org/2004/02/skos/core#notation>	"desi_5b1_ehs" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5b1_ehs>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"5b1 e-Health" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5b1_ehs>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5b2_mdataexch>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/desi_5b2_mdataexch> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5b2_mdataexch>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_5b2_mdataexch> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5b2_mdataexch>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5b2_mdataexch>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5b2_mdataexch>	<http://www.w3.org/2004/02/skos/core#altLabel>	"5b2 Medical data exchange" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5b2_mdataexch>	<http://www.w3.org/2004/02/skos/core#definition>	"General practitioners exchanging medical data with hospitals and doctors" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5b2_mdataexch>	<http://www.w3.org/2004/02/skos/core#notation>	"desi_5b2_mdataexch" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5b2_mdataexch>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"5b2 Medical data exchange" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5b2_mdataexch>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5b3_epresc>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/desi_5b3_epresc> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5b3_epresc>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_5b3_epresc> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5b3_epresc>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5b3_epresc>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5b3_epresc>	<http://www.w3.org/2004/02/skos/core#altLabel>	"5b3 e-Prescription" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5b3_epresc>	<http://www.w3.org/2004/02/skos/core#definition>	"General practitioners using electronic prescriptions" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5b3_epresc>	<http://www.w3.org/2004/02/skos/core#notation>	"desi_5b3_epresc" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5b3_epresc>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"5b3 e-Prescription" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5b3_epresc>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5b_ehs>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5b_ehs>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim/desi_5b_ehs> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5b_ehs>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5b_ehs>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5b_ehs>	<http://www.w3.org/2004/02/skos/core#altLabel>	"5b e-Health" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5b_ehs>	<http://www.w3.org/2004/02/skos/core#definition>	"DESI e-Health sub-dimension calculated as the weighted average of the normalised indicators: 5b1 e-Health (33%), 5b2 Medical data exchange (33%) and 5b3 e-Prescription (33%)" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5b_ehs>	<http://www.w3.org/2004/02/skos/core#notation>	"desi_5b_ehs" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5b_ehs>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"5b e-Health" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5b_ehs>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5b1_ehs_old>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/desi_5b1_ehs> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5b1_ehs_old>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_5b1_ehs_old> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5b1_ehs_old>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5b1_ehs_old>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5b1_ehs_old>	<http://www.w3.org/2004/02/skos/core#altLabel>	"5b1 e-Health" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5b1_ehs_old>	<http://www.w3.org/2004/02/skos/core#definition>	"Percentage of people who used health and care services provided online without having to go to the hospital or doctors surgery (for example, by getting a prescription or a consultation online)" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5b1_ehs_old>	<http://www.w3.org/2004/02/skos/core#notation>	"desi_5b1_ehs_old" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5b1_ehs_old>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"5b1 e-Health" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5b1_ehs_old>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5b2_mdataexch_old>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/desi_5b2_mdataexch> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5b2_mdataexch_old>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_5b2_mdataexch_old> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5b2_mdataexch_old>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5b2_mdataexch_old>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5b2_mdataexch_old>	<http://www.w3.org/2004/02/skos/core#altLabel>	"5b2 Medical data exchange" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5b2_mdataexch_old>	<http://www.w3.org/2004/02/skos/core#definition>	"General practitioners exchanging medical data with hospitals and doctors" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5b2_mdataexch_old>	<http://www.w3.org/2004/02/skos/core#notation>	"desi_5b2_mdataexch_old" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5b2_mdataexch_old>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"5b2 Medical data exchange" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5b2_mdataexch_old>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5b3_epresc_old>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/desi_5b3_epresc> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5b3_epresc_old>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/desi_5b3_epresc_old> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5b3_epresc_old>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5b3_epresc_old>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5b3_epresc_old>	<http://www.w3.org/2004/02/skos/core#altLabel>	"5b3 e-Prescription" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5b3_epresc_old>	<http://www.w3.org/2004/02/skos/core#definition>	"General practitioners using electronic prescriptions" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5b3_epresc_old>	<http://www.w3.org/2004/02/skos/core#notation>	"desi_5b3_epresc_old" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5b3_epresc_old>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"5b3 e-Prescription" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5b3_epresc_old>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5b_ehsold>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5b_ehsold>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim/desi_5b_ehsold> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5b_ehsold>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5b_ehsold>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5b_ehsold>	<http://www.w3.org/2004/02/skos/core#altLabel>	"5b e-Health" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5b_ehsold>	<http://www.w3.org/2004/02/skos/core#definition>	"DESI e-Health sub-dimension calculated as the weighted average of the normalised indicators: 5b1 e-Health (33%), 5b2 Medical data exchange (33%) and 5b3 e-Prescription (33%)" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5b_ehsold>	<http://www.w3.org/2004/02/skos/core#notation>	"desi_5b_ehsold" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5b_ehsold>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"5b e-Health" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5b_ehsold>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/desi_sliders>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/desi_sliders>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_sliders/desi_sliders> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/desi_sliders>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
@@ -4662,7 +4597,7 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator/wid_ui_ps>	<http://www.w3.org/2004/02/skos/core#notation>	"wid_ui_ps" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/wid_ui_ps>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"1.4 Using professional social networks" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/wid_ui_ps>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://purl.org/dc/terms/modified>	"2020-02-21T11:41:03"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://purl.org/dc/terms/modified>	"2020-06-11T11:45:05"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://purl.org/linked-data/sdmx#CodeList> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#ConceptScheme> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2000/01/rdf-schema#isDefinedBy>	<http://digital-agenda-data.eu/> .
@@ -4693,21 +4628,18 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/c1_datatraffic> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/desi> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1_conn> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1a1_fbbc> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1a2_fbbtu> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1a_fbb> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1b1_4g> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1b2_mbbtu> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1b3_5g> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1b_mbb> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1c1_ngac> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1c2_sfbb> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1c_speed> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1d1_ubbc> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1d2_ubbta> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1d_ultra> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1e1_bbpi> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1e_bbpi> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1a1_fbbtc> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1a2_ufbbtu> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1a_fbbtc> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1b1_fbbc> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1b2_vhcnc> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1b_fbbc> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1c1_4g> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1c2_mbbtu> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1c3_5g> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1c_mbb> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1d1_bbpi> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1d_bbpi> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_2_hc> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_2a1_bds> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_2a2_abds> .
@@ -4726,9 +4658,7 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_3b3_vod> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_3b4_vidcall> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_3b5_socnet> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_3b6_profsocnet> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_3b7_courseon> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_3b8_convoton> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_3b6_courseon> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_3b_acton> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_3c1_bank> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_3c2_shop> .
@@ -4751,10 +4681,10 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5a4_psb> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5a5_opendata> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5a_egov> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5b1_ehs> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5b2_mdataexch> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5b3_epresc> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5b_ehs> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5b1_ehs_old> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5b2_mdataexch_old> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5b3_epresc_old> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5b_ehsold> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_sliders> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/e_ade> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/e_ads> .

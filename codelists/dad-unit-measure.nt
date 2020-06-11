@@ -271,6 +271,12 @@
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/od_score>	<http://www.w3.org/2004/02/skos/core#notation>	"od_score" .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/od_score>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Percentage of the maximum open data score" .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/od_score>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/old_pc_desi_5b_ehs_old>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/old_pc_desi_5b_ehs_old>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/old_pc_desi_5b_ehs_old>	<http://www.w3.org/2004/02/skos/core#definition>	"Weighted score of a DESI indicator" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/old_pc_desi_5b_ehs_old>	<http://www.w3.org/2004/02/skos/core#notation>	"old_pc_desi_5b_ehs_old" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/old_pc_desi_5b_ehs_old>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"weighted score (0 to 100)" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/old_pc_desi_5b_ehs_old>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_adm_cinema>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_adm_cinema>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_adm_cinema>	<http://www.w3.org/2004/02/skos/core#altLabel>	"% of total admissions " .
@@ -288,121 +294,115 @@
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi>	<http://www.w3.org/2004/02/skos/core#definition>	"Weighted score of the DESI dimension" .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_desi" .
-<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"weighted score" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"weighted score (0 to 100)" .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1_conn>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1_conn>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1_conn>	<http://www.w3.org/2004/02/skos/core#definition>	"Weighted score of the DESI Sub-dimension" .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1_conn>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_desi_1_conn" .
-<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1_conn>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"weighted score" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1_conn>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"weighted score (0 to 100)" .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1_conn>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
-<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1a_fbb>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
-<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1a_fbb>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
-<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1a_fbb>	<http://www.w3.org/2004/02/skos/core#definition>	"Weighted score of a DESI indicator" .
-<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1a_fbb>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_desi_1a_fbb" .
-<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1a_fbb>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"weighted score" .
-<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1a_fbb>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
-<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1b_mbb>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
-<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1b_mbb>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
-<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1b_mbb>	<http://www.w3.org/2004/02/skos/core#definition>	"Weighted score of a DESI indicator" .
-<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1b_mbb>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_desi_1b_mbb" .
-<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1b_mbb>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"weighted score" .
-<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1b_mbb>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
-<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1c_speed>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
-<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1c_speed>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
-<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1c_speed>	<http://www.w3.org/2004/02/skos/core#definition>	"Weighted score of a DESI indicator" .
-<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1c_speed>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_desi_1c_speed" .
-<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1c_speed>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"weighted score" .
-<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1c_speed>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
-<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1d_ultra>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
-<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1d_ultra>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
-<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1d_ultra>	<http://www.w3.org/2004/02/skos/core#definition>	"Weighted score of a DESI indicator" .
-<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1d_ultra>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_desi_1d_ultra" .
-<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1d_ultra>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"weighted score" .
-<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1d_ultra>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1a_fbbtc>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1a_fbbtc>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1a_fbbtc>	<http://www.w3.org/2004/02/skos/core#definition>	"Weighted score of a DESI indicator" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1a_fbbtc>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_desi_1a_fbbtc" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1a_fbbtc>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"weighted score (0 to 100)" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1a_fbbtc>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1b_fbbc>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1b_fbbc>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1b_fbbc>	<http://www.w3.org/2004/02/skos/core#definition>	"Weighted score of a DESI indicator" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1b_fbbc>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_desi_1b_fbbc" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1b_fbbc>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"weighted score (0 to 100)" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1b_fbbc>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1c_mbb>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1c_mbb>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1c_mbb>	<http://www.w3.org/2004/02/skos/core#definition>	"Weighted score of a DESI indicator" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1c_mbb>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_desi_1c_mbb" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1c_mbb>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"weighted score (0 to 100)" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1c_mbb>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1d_bbpi>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1d_bbpi>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1d_bbpi>	<http://www.w3.org/2004/02/skos/core#definition>	"Weighted score of a DESI indicator" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1d_bbpi>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_desi_1d_bbpi" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1d_bbpi>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"weighted score (0 to 100)" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1d_bbpi>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_2_hc>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_2_hc>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_2_hc>	<http://www.w3.org/2004/02/skos/core#definition>	"Weighted score of the DESI Sub-dimension" .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_2_hc>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_desi_2_hc" .
-<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_2_hc>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"weighted score" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_2_hc>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"weighted score (0 to 100)" .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_2_hc>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_2a_bsu>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_2a_bsu>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_2a_bsu>	<http://www.w3.org/2004/02/skos/core#definition>	"Weighted score of a DESI indicator" .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_2a_bsu>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_desi_2a_bsu" .
-<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_2a_bsu>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"weighted score" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_2a_bsu>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"weighted score (0 to 100)" .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_2a_bsu>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_2b_asd>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_2b_asd>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_2b_asd>	<http://www.w3.org/2004/02/skos/core#definition>	"Weighted score of a DESI indicator" .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_2b_asd>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_desi_2b_asd" .
-<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_2b_asd>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"weighted score" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_2b_asd>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"weighted score (0 to 100)" .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_2b_asd>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_3_ui>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_3_ui>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_3_ui>	<http://www.w3.org/2004/02/skos/core#definition>	"Weighted score of the DESI Sub-dimension" .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_3_ui>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_desi_3_ui" .
-<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_3_ui>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"weighted score" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_3_ui>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"weighted score (0 to 100)" .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_3_ui>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_3a_ui>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_3a_ui>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_3a_ui>	<http://www.w3.org/2004/02/skos/core#definition>	"Weighted score of a DESI indicator" .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_3a_ui>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_desi_3a_ui" .
-<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_3a_ui>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"weighted score" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_3a_ui>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"weighted score (0 to 100)" .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_3a_ui>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_3b_acton>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_3b_acton>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_3b_acton>	<http://www.w3.org/2004/02/skos/core#definition>	"Weighted score of a DESI indicator" .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_3b_acton>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_desi_3b_acton" .
-<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_3b_acton>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"weighted score" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_3b_acton>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"weighted score (0 to 100)" .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_3b_acton>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_3c_trans>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_3c_trans>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_3c_trans>	<http://www.w3.org/2004/02/skos/core#definition>	"Weighted score of a DESI indicator" .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_3c_trans>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_desi_3c_trans" .
-<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_3c_trans>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"weighted score" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_3c_trans>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"weighted score (0 to 100)" .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_3c_trans>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_4_idt>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_4_idt>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_4_idt>	<http://www.w3.org/2004/02/skos/core#definition>	"Weighted score of the DESI Sub-dimension" .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_4_idt>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_desi_4_idt" .
-<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_4_idt>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"weighted score" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_4_idt>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"weighted score (0 to 100)" .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_4_idt>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_4a_bd>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_4a_bd>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_4a_bd>	<http://www.w3.org/2004/02/skos/core#definition>	"Weighted score of a DESI indicator" .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_4a_bd>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_desi_4a_bd" .
-<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_4a_bd>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"weighted score" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_4a_bd>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"weighted score (0 to 100)" .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_4a_bd>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_4b_ecomm>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_4b_ecomm>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_4b_ecomm>	<http://www.w3.org/2004/02/skos/core#definition>	"Weighted score of a DESI indicator" .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_4b_ecomm>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_desi_4b_ecomm" .
-<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_4b_ecomm>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"weighted score" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_4b_ecomm>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"weighted score (0 to 100)" .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_4b_ecomm>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_5_dps>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_5_dps>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_5_dps>	<http://www.w3.org/2004/02/skos/core#definition>	"Weighted score of the DESI Sub-dimension" .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_5_dps>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_desi_5_dps" .
-<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_5_dps>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"weighted score" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_5_dps>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"weighted score (0 to 100)" .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_5_dps>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_5a_egov>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_5a_egov>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_5a_egov>	<http://www.w3.org/2004/02/skos/core#definition>	"Weighted score of a DESI indicator" .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_5a_egov>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_desi_5a_egov" .
-<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_5a_egov>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"weighted score" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_5a_egov>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"weighted score (0 to 100)" .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_5a_egov>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
-<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_5b_ehs>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
-<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_5b_ehs>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
-<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_5b_ehs>	<http://www.w3.org/2004/02/skos/core#definition>	"Weighted score of a DESI indicator" .
-<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_5b_ehs>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_desi_5b_ehs" .
-<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_5b_ehs>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"weighted score" .
-<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_5b_ehs>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_sliders>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_sliders>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_sliders>	<http://www.w3.org/2004/02/skos/core#definition>	"Weighted score of the DESI dimension" .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_sliders>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_desi_sliders" .
-<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_sliders>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"weighted score" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_sliders>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"weighted score (0 to 100)" .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_sliders>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_digskillindex>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_digskillindex>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
@@ -882,7 +882,7 @@
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/wid_score>	<http://www.w3.org/2004/02/skos/core#notation>	"wid_score" .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/wid_score>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Score (0 to 1)" .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/wid_score>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
-<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://purl.org/dc/terms/modified>	"2019-06-11T11:42:53"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://purl.org/dc/terms/modified>	"2020-06-11T11:23:51"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://purl.org/linked-data/sdmx#CodeList> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#ConceptScheme> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2000/01/rdf-schema#isDefinedBy>	<http://digital-agenda-data.eu/> .
@@ -928,14 +928,15 @@
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nr_pub> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nr_x10mil_ecfund> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/od_score> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/old_pc_desi_5b_ehs_old> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_adm_cinema> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_bb_lines> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1_conn> .
-<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1a_fbb> .
-<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1b_mbb> .
-<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1c_speed> .
-<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1d_ultra> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1a_fbbtc> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1b_fbbc> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1c_mbb> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1d_bbpi> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_2_hc> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_2a_bsu> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_2b_asd> .
@@ -948,7 +949,6 @@
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_4b_ecomm> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_5_dps> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_5a_egov> .
-<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_5b_ehs> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_sliders> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_digskillindex> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_dispo_income> .

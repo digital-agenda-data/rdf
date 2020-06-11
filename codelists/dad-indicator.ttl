@@ -6,7 +6,7 @@ ns1:indicator	rdf:type	ns2:CodeList .
 ns1:indicator	rdf:type	skos:ConceptScheme .
 @prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
 @prefix dct:	<http://purl.org/dc/terms/> .
-ns1:indicator	dct:modified	"2020-02-21T11:41:03"^^xsd:dateTime .
+ns1:indicator	dct:modified	"2020-06-11T11:45:05"^^xsd:dateTime .
 @prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
 ns1:indicator	rdfs:isDefinedBy	<http://digital-agenda-data.eu/> ;
 	skos:prefLabel	"Code list for indicators used by Digital Agenda Scoreboard" ;
@@ -25,6 +25,23 @@ ns1:indicator	skos:hasTopConcept	ns7:old_i_dsk_i_b ,
 		ns7:e_gov_ebus ,
 		ns7:h_fbbfix ,
 		ns7:h_ubbfix ,
+		ns7:desi_5b2_mdataexch_old ,
+		ns7:desi_5b3_epresc_old ,
+		ns7:desi_5b_ehsold ,
+		ns7:desi_1c1_4g ,
+		ns7:desi_1c2_mbbtu ,
+		ns7:desi_1c3_5g ,
+		ns7:desi_1c_mbb ,
+		ns7:desi_1d1_bbpi ,
+		ns7:desi_1d_bbpi ,
+		ns7:desi_3b6_courseon ,
+		ns7:desi_5b1_ehs_old ,
+		ns7:desi_1a1_fbbtc ,
+		ns7:desi_1a2_ufbbtu ,
+		ns7:desi_1a_fbbtc ,
+		ns7:desi_1b1_fbbc ,
+		ns7:desi_1b2_vhcnc ,
+		ns7:desi_1b_fbbc ,
 		ns7:i_dsk_x ,
 		ns7:desi_2b2_fictspec ,
 		ns7:desi_2b3_ictg ,
@@ -34,20 +51,14 @@ ns1:indicator	skos:hasTopConcept	ns7:old_i_dsk_i_b ,
 		ns7:desi_3b1_news ,
 		ns7:desi_3b2_mvg ,
 		ns7:desi_3b3_vod ,
-		ns7:desi_1b3_5g ,
 		ns7:desi_2a1_bds ,
 		ns7:desi_2a2_abds ,
 		ns7:i_dsk_c_x ,
 		ns7:desi_2a3_abss ,
 		ns7:desi_4a3_bigdat ,
 		ns7:desi_4a4_cloud ,
-		ns7:desi_5b2_mdataexch ,
-		ns7:desi_5b3_epresc ,
 		ns7:desi_3b4_vidcall ,
 		ns7:desi_3b5_socnet ,
-		ns7:desi_3b6_profsocnet ,
-		ns7:desi_3b7_courseon ,
-		ns7:desi_3b8_convoton ,
 		ns7:desi_3b_acton ,
 		ns7:desi_3c3_sell ,
 		ns7:desi_4a2_socmed ,
@@ -114,8 +125,6 @@ ns1:indicator	skos:hasTopConcept	ns7:old_i_dsk_i_b ,
 		ns7:i_dsk_ps_x ,
 		ns7:desi_5a5_opendata ,
 		ns7:desi_5a_egov ,
-		ns7:desi_5b1_ehs ,
-		ns7:desi_5b_ehs ,
 		ns7:desi_sliders ,
 		ns7:desi_4b3_sellcb ,
 		ns7:desi_4b_ecomm ,
@@ -135,25 +144,11 @@ ns1:indicator	skos:hasTopConcept	ns7:old_i_dsk_i_b ,
 		ns7:desi_2b1_ictspec ,
 		ns7:desi_2b_asd ,
 		ns7:desi_3_ui ,
-		ns7:desi_1d_ultra ,
-		ns7:desi_1e1_bbpi ,
-		ns7:desi_1e_bbpi ,
 		ns7:desi_2_hc ,
 		ns7:desi_2a_bsu ,
-		ns7:desi_1b2_mbbtu ,
-		ns7:desi_1b_mbb ,
-		ns7:desi_1c1_ngac ,
-		ns7:desi_1c2_sfbb ,
-		ns7:desi_1c_speed ,
-		ns7:desi_1d1_ubbc ,
-		ns7:desi_1d2_ubbta ,
 		ns7:c1_datatraffic ,
 		ns7:desi ,
 		ns7:desi_1_conn ,
-		ns7:desi_1a1_fbbc ,
-		ns7:desi_1a2_fbbtu ,
-		ns7:desi_1a_fbb ,
-		ns7:desi_1b1_4g ,
 		ns7:e_gov_ke ,
 		ns7:e_gov_opa ,
 		ns7:e_gov_osc ,
@@ -553,42 +548,6 @@ ns17:desi_5_dps	rdf:type	ns10:IndicatorToGroupMembership ;
 	ns11:member-of	ns12:desi_dim ;
 	ns11:order	"5" .
 @prefix ns18:	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/> .
-ns18:desi_1a1_fbbc	rdf:type	ns10:IndicatorToGroupMembership ;
-	rdfs:label	"desi_ind" ;
-	ns11:member-of	ns12:desi_ind ;
-	ns11:order	"111" .
-ns18:desi_1a2_fbbtu	rdf:type	ns10:IndicatorToGroupMembership ;
-	rdfs:label	"desi_ind" ;
-	ns11:member-of	ns12:desi_ind ;
-	ns11:order	"112" .
-ns18:desi_1b1_4g	rdf:type	ns10:IndicatorToGroupMembership ;
-	rdfs:label	"desi_ind" ;
-	ns11:member-of	ns12:desi_ind ;
-	ns11:order	"121" .
-ns18:desi_1b2_mbbtu	rdf:type	ns10:IndicatorToGroupMembership ;
-	rdfs:label	"desi_ind" ;
-	ns11:member-of	ns12:desi_ind ;
-	ns11:order	"122" .
-ns18:desi_1c1_ngac	rdf:type	ns10:IndicatorToGroupMembership ;
-	rdfs:label	"desi_ind" ;
-	ns11:member-of	ns12:desi_ind ;
-	ns11:order	"131" .
-ns18:desi_1c2_sfbb	rdf:type	ns10:IndicatorToGroupMembership ;
-	rdfs:label	"desi_ind" ;
-	ns11:member-of	ns12:desi_ind ;
-	ns11:order	"132" .
-ns18:desi_1d1_ubbc	rdf:type	ns10:IndicatorToGroupMembership ;
-	rdfs:label	"desi_ind" ;
-	ns11:member-of	ns12:desi_ind ;
-	ns11:order	"141" .
-ns18:desi_1d2_ubbta	rdf:type	ns10:IndicatorToGroupMembership ;
-	rdfs:label	"desi_ind" ;
-	ns11:member-of	ns12:desi_ind ;
-	ns11:order	"142" .
-ns18:desi_1e1_bbpi	rdf:type	ns10:IndicatorToGroupMembership ;
-	rdfs:label	"desi_ind" ;
-	ns11:member-of	ns12:desi_ind ;
-	ns11:order	"151" .
 ns18:desi_2b1_ictspec	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
 	ns11:member-of	ns12:desi_ind ;
@@ -637,36 +596,12 @@ ns18:desi_5a5_opendata	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
 	ns11:member-of	ns12:desi_ind ;
 	ns11:order	"515" .
-ns18:desi_5b1_ehs	rdf:type	ns10:IndicatorToGroupMembership ;
-	rdfs:label	"desi_ind" ;
-	ns11:member-of	ns12:desi_ind ;
-	ns11:order	"521" .
 @prefix ns19:	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_sliders/> .
 ns19:desi_sliders	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"desi_sliders" ;
 	ns11:member-of	ns12:desi_sliders ;
 	ns11:order	"1" .
 @prefix ns20:	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim/> .
-ns20:desi_1a_fbb	rdf:type	ns10:IndicatorToGroupMembership ;
-	rdfs:label	"desi_subdim" ;
-	ns11:member-of	ns12:desi_subdim ;
-	ns11:order	"11" .
-ns20:desi_1b_mbb	rdf:type	ns10:IndicatorToGroupMembership ;
-	rdfs:label	"desi_subdim" ;
-	ns11:member-of	ns12:desi_subdim ;
-	ns11:order	"12" .
-ns20:desi_1c_speed	rdf:type	ns10:IndicatorToGroupMembership ;
-	rdfs:label	"desi_subdim" ;
-	ns11:member-of	ns12:desi_subdim ;
-	ns11:order	"13" .
-ns20:desi_1d_ultra	rdf:type	ns10:IndicatorToGroupMembership ;
-	rdfs:label	"desi_subdim" ;
-	ns11:member-of	ns12:desi_subdim ;
-	ns11:order	"14" .
-ns20:desi_1e_bbpi	rdf:type	ns10:IndicatorToGroupMembership ;
-	rdfs:label	"desi_subdim" ;
-	ns11:member-of	ns12:desi_subdim ;
-	ns11:order	"15" .
 ns20:desi_2a_bsu	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"desi_subdim" ;
 	ns11:member-of	ns12:desi_subdim ;
@@ -691,10 +626,6 @@ ns20:desi_5a_egov	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"desi_subdim" ;
 	ns11:member-of	ns12:desi_subdim ;
 	ns11:order	"51" .
-ns20:desi_5b_ehs	rdf:type	ns10:IndicatorToGroupMembership ;
-	rdfs:label	"desi_subdim" ;
-	ns11:member-of	ns12:desi_subdim ;
-	ns11:order	"52" .
 @prefix ns21:	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/discontinued/> .
 ns21:bb_fcov	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"discontinued" ;
@@ -1838,133 +1769,7 @@ ns7:desi_1_conn	rdf:type	ns10:Indicator ,
 	skos:notation	"desi_1_conn" ;
 	skos:altLabel	"1 Connectivity" ;
 	ns11:membership	ns17:desi_1_conn ;
-	skos:definition	"DESI Connectivity Dimension calculated as the weighted average of the five sub-dimensions: 1a Fixed Broadband (18.5%), 1b Mobile Broadband (35%), 1c Fast broadband (18.5%), 1d Ultrafast broadband (18.5%) and 1e Broadband price index (9.5%)" ;
-	skos:topConceptOf	ns1:indicator .
-ns7:desi_1a1_fbbc	rdf:type	ns10:Indicator ,
-		skos:Concept ;
-	skos:prefLabel	"1a1 Fixed BB Coverage" ;
-	dct:source	ns38:desi_1a1_fbbc ;
-	skos:notation	"desi_1a1_fbbc" ;
-	skos:altLabel	"1a1 Fixed Broadband Coverage" ;
-	ns11:membership	ns18:desi_1a1_fbbc ;
-	skos:definition	"Percentage of households covered by broadband: xDSL, cable (basic and NGA), FTTP or WiMax networks" ;
-	skos:topConceptOf	ns1:indicator .
-ns7:desi_1a2_fbbtu	rdf:type	ns10:Indicator ,
-		skos:Concept ;
-	skos:prefLabel	"1a2 Fixed BB Take-up" ;
-	dct:source	ns38:desi_1a2_fbbtu ;
-	skos:notation	"desi_1a2_fbbtu" ;
-	skos:altLabel	"1a2 Fixed Broadband Take-up" ;
-	ns11:membership	ns18:desi_1a2_fbbtu ;
-	skos:definition	"Percentage of households subscribing to broadband: xDSL, cable (basic and NGA), FTTP or WiMax networks" ;
-	skos:topConceptOf	ns1:indicator .
-ns7:desi_1a_fbb	rdf:type	ns10:Indicator ,
-		skos:Concept ;
-	skos:prefLabel	"1a Fixed Broadband" ;
-	dct:source	ns38: ;
-	skos:notation	"desi_1a_fbb" ;
-	skos:altLabel	"1a Fixed Broadband" ;
-	ns11:membership	ns20:desi_1a_fbb ;
-	skos:definition	"DESI Fixed Broadband sub-dimension calculated as the weighted average of the normalised indicators: 1a1 Fixed BB Coverage (50%), 1a2 Fixed BB Take-up (50%)" ;
-	skos:topConceptOf	ns1:indicator .
-ns7:desi_1b1_4g	rdf:type	ns10:Indicator ,
-		skos:Concept ;
-	skos:prefLabel	"1b1 4G Coverage" ;
-	dct:source	ns38:desi_1b1_4g ;
-	skos:notation	"desi_1b1_4g" ;
-	skos:altLabel	"1b1 4G Coverage" ;
-	ns11:membership	ns18:desi_1b1_4g ;
-	skos:definition	"Percentage of populated areas coverage by 4G - measured as the average coverage of telecom operators in each country" ;
-	skos:topConceptOf	ns1:indicator .
-ns7:desi_1b2_mbbtu	rdf:type	ns10:Indicator ,
-		skos:Concept ;
-	skos:prefLabel	"1b2 Mobile BB Take-up" ;
-	dct:source	ns38:desi_1b2_mbbtu ;
-	skos:notation	"desi_1b2_mbbtu" ;
-	skos:altLabel	"1b2 Mobile Broadband Take-up" ;
-	ns11:membership	ns18:desi_1b2_mbbtu ;
-	skos:definition	"Number of mobile data subscriptions per 100 people" ;
-	skos:topConceptOf	ns1:indicator .
-ns7:desi_1b_mbb	rdf:type	ns10:Indicator ,
-		skos:Concept ;
-	skos:prefLabel	"1b Mobile Broadband" ;
-	dct:source	ns38: ;
-	skos:notation	"desi_1b_mbb" ;
-	skos:altLabel	"1b Mobile Broadband" ;
-	ns11:membership	ns20:desi_1b_mbb ;
-	skos:definition	"DESI Mobile Broadband sub-dimension calculated as the weighted average of the normalised indicators: 1b1 4G Coverage (33%), 1b2 Mobile BB Take-up (33%) and 1b3 5G readiness (33%)" ;
-	skos:topConceptOf	ns1:indicator .
-ns7:desi_1c1_ngac	rdf:type	ns10:Indicator ,
-		skos:Concept ;
-	skos:prefLabel	"1c1 NGA Coverage" ;
-	dct:source	ns38:desi_1c1_ngac ;
-	skos:notation	"desi_1c1_ngac" ;
-	skos:altLabel	"1c1 Fast broadband (NGA) coverage" ;
-	ns11:membership	ns18:desi_1c1_ngac ;
-	skos:definition	"Percentage of households covered by broadband of at least 30 Mbps download. Considered technologies are FTTH, FTTB, Cable Docsis 3.0 and VDSL" ;
-	skos:topConceptOf	ns1:indicator .
-ns7:desi_1c2_sfbb	rdf:type	ns10:Indicator ,
-		skos:Concept ;
-	skos:prefLabel	"1c2 Fast BB take-up" ;
-	dct:source	ns38:desi_1c2_sfbb ;
-	skos:notation	"desi_1c2_sfbb" ;
-	skos:altLabel	"1c2 Fast broadband take-up" ;
-	ns11:membership	ns18:desi_1c2_sfbb ;
-	skos:definition	"Percentage of households subscribing to broadband of at least 30 Mbps" ;
-	skos:topConceptOf	ns1:indicator .
-ns7:desi_1c_speed	rdf:type	ns10:Indicator ,
-		skos:Concept ;
-	skos:prefLabel	"1c Fast Broadband" ;
-	dct:source	ns38: ;
-	skos:notation	"desi_1c_speed" ;
-	skos:altLabel	"1c Fast Broadband" ;
-	ns11:membership	ns20:desi_1c_speed ;
-	skos:definition	"DESI Fast Broadband sub-dimension calculated as the weighted average of the normalised indicators: 1c1 NGA Coverage (50%), 1c2 Fast BB take-up (50%)" ;
-	skos:topConceptOf	ns1:indicator .
-ns7:desi_1d1_ubbc	rdf:type	ns10:Indicator ,
-		skos:Concept ;
-	skos:prefLabel	"1d1 Ultrafast BB Coverage" ;
-	dct:source	ns38:desi_1d1_ubbc ;
-	skos:notation	"desi_1d1_ubbc" ;
-	skos:altLabel	"1d1 Ultrafast broadband coverage" ;
-	ns11:membership	ns18:desi_1d1_ubbc ;
-	skos:definition	"Percentage of households covered by broadband of at least 100 Mbps download. Considered technologies are FTTH, FTTB and Cable Docsis 3.0" ;
-	skos:topConceptOf	ns1:indicator .
-ns7:desi_1d2_ubbta	rdf:type	ns10:Indicator ,
-		skos:Concept ;
-	skos:prefLabel	"1d2 Ultrafast BB Take-up" ;
-	dct:source	ns38:desi_1d2_ubbta ;
-	skos:notation	"desi_1d2_ubbta" ;
-	skos:altLabel	"1d2 Ultrafast broadband take-up" ;
-	ns11:membership	ns18:desi_1d2_ubbta ;
-	skos:definition	"Percentage of households subscribing to broadband of at least 100 Mbps" ;
-	skos:topConceptOf	ns1:indicator .
-ns7:desi_1d_ultra	rdf:type	skos:Concept ,
-		ns10:Indicator ;
-	skos:prefLabel	"1d Ultrafast Broadband" ;
-	dct:source	ns38: ;
-	skos:notation	"desi_1d_ultra" ;
-	skos:altLabel	"1d Ultrafast Broadband" ;
-	ns11:membership	ns20:desi_1d_ultra ;
-	skos:definition	"DESI Ultrafast speed sub-dimension calculated as the weighted average of the normalised indicators: 1d1 Ultrafast BB Coverage (50%), 1d2 Ultrafast BB Take-up (50%)" ;
-	skos:topConceptOf	ns1:indicator .
-ns7:desi_1e1_bbpi	rdf:type	skos:Concept ,
-		ns10:Indicator ;
-	skos:prefLabel	"1e1 Broadband Price Index" ;
-	dct:source	ns38:desi_1e1_bbpi ;
-	skos:notation	"desi_1e1_bbpi" ;
-	skos:altLabel	"1e1 Broadband price index" ;
-	ns11:membership	ns18:desi_1e1_bbpi ;
-	skos:definition	"The Broadband Price Index measures the prices of twelve representative broadband baskets as the percentage of household income. The baskets include three speed categories (12-30 Mbps, 30-100 Mbps and at least 100 Mbps) and four types of products (standalone internet, internet + TV, internet + fixed telephony and internet + TV + fixed telephony)" ;
-	skos:topConceptOf	ns1:indicator .
-ns7:desi_1e_bbpi	rdf:type	skos:Concept ,
-		ns10:Indicator ;
-	skos:prefLabel	"1e Broadband price index" ;
-	dct:source	ns38: ;
-	skos:notation	"desi_1e_bbpi" ;
-	skos:altLabel	"1e Broadband price index" ;
-	ns11:membership	ns20:desi_1e_bbpi ;
-	skos:definition	"DESI Broadband price index sub-dimension calculated as the weighted average of the normalised indicator: 1e1 Broadband Price Index (100%)" ;
+	skos:definition	"DESI Connectivity Dimension calculated as the weighted average of the five sub-dimensions: 1a Fixed Broadband take-up (25%), 1b Fixed broadband coverage (25%), 1c Mobile broadband (35%) and 1d Broadband price index (15%)" ;
 	skos:topConceptOf	ns1:indicator .
 ns7:desi_2_hc	rdf:type	skos:Concept ,
 		ns10:Indicator ;
@@ -2108,7 +1913,7 @@ ns7:desi_5_dps	rdf:type	skos:Concept ,
 	skos:notation	"desi_5_dps" ;
 	skos:altLabel	"5 Digital Public Services" ;
 	ns11:membership	ns17:desi_5_dps ;
-	skos:definition	"DESI Digital Public Services Dimension calculated as the weighted average of two sub-dimensions: 5a e-Government (80%) and 5b e-Health (20%)" ;
+	skos:definition	"DESI Digital Public Services Dimension calculated as the weighted average of two sub-dimensions: 5a e-Government (100%)" ;
 	skos:topConceptOf	ns1:indicator .
 ns7:desi_5a1_egovu	rdf:type	skos:Concept ,
 		ns10:Indicator ;
@@ -2163,24 +1968,6 @@ ns7:desi_5a_egov	rdf:type	skos:Concept ,
 	skos:altLabel	"5a e-Government" ;
 	ns11:membership	ns20:desi_5a_egov ;
 	skos:definition	"DESI e-Government sub-dimension calculated as the weighted average of the normalised indicators: 5a1 e-Government Users (20%), 5a2 Pre-filled Forms (20%), 5a3 Online Service Completion (20%), 5a4 Digital public services for businesses (20%) and 5a5 Open Data (20%)" ;
-	skos:topConceptOf	ns1:indicator .
-ns7:desi_5b1_ehs	rdf:type	skos:Concept ,
-		ns10:Indicator ;
-	skos:prefLabel	"5b1 e-Health" ;
-	dct:source	ns38:desi_5b1_ehs ;
-	skos:notation	"desi_5b1_ehs" ;
-	skos:altLabel	"5b1 e-Health" ;
-	ns11:membership	ns18:desi_5b1_ehs ;
-	skos:definition	"Percentage of people who used health and care services provided online without having to go to the hospital or doctors surgery (for example, by getting a prescription or a consultation online)" ;
-	skos:topConceptOf	ns1:indicator .
-ns7:desi_5b_ehs	rdf:type	skos:Concept ,
-		ns10:Indicator ;
-	skos:prefLabel	"5b e-Health" ;
-	dct:source	ns38: ;
-	skos:notation	"desi_5b_ehs" ;
-	skos:altLabel	"5b e-Health" ;
-	ns11:membership	ns20:desi_5b_ehs ;
-	skos:definition	"DESI e-Health sub-dimension calculated as the weighted average of the normalised indicators: 5b1 e-Health (33%), 5b2 Medical data exchange (33%) and 5b3 e-Prescription (33%)" ;
 	skos:topConceptOf	ns1:indicator .
 ns7:desi_sliders	rdf:type	skos:Concept ,
 		ns10:Indicator ;
@@ -4440,10 +4227,6 @@ ns7:e_gov_4b_bm_us	rdf:type	ns10:Indicator ,
 	ns11:membership	ns24:e_gov_4b_bm_us ;
 	skos:definition	"Online support and help features on services aimed at foreign businesses." ;
 	skos:topConceptOf	ns1:indicator .
-ns18:desi_1b3_5g	rdf:type	ns10:IndicatorToGroupMembership ;
-	rdfs:label	"desi_ind" ;
-	ns11:member-of	ns12:desi_ind ;
-	ns11:order	"123" .
 ns18:desi_2a1_bds	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
 	ns11:member-of	ns12:desi_ind ;
@@ -4492,18 +4275,6 @@ ns18:desi_3b5_socnet	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
 	ns11:member-of	ns12:desi_ind ;
 	ns11:order	"325" .
-ns18:desi_3b6_profsocnet	rdf:type	ns10:IndicatorToGroupMembership ;
-	rdfs:label	"desi_ind" ;
-	ns11:member-of	ns12:desi_ind ;
-	ns11:order	"326" .
-ns18:desi_3b7_courseon	rdf:type	ns10:IndicatorToGroupMembership ;
-	rdfs:label	"desi_ind" ;
-	ns11:member-of	ns12:desi_ind ;
-	ns11:order	"327" .
-ns18:desi_3b8_convoton	rdf:type	ns10:IndicatorToGroupMembership ;
-	rdfs:label	"desi_ind" ;
-	ns11:member-of	ns12:desi_ind ;
-	ns11:order	"328" .
 ns18:desi_3c3_sell	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
 	ns11:member-of	ns12:desi_ind ;
@@ -4520,14 +4291,6 @@ ns18:desi_4a4_cloud	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
 	ns11:member-of	ns12:desi_ind ;
 	ns11:order	"414" .
-ns18:desi_5b2_mdataexch	rdf:type	ns10:IndicatorToGroupMembership ;
-	rdfs:label	"desi_ind" ;
-	ns11:member-of	ns12:desi_ind ;
-	ns11:order	"522" .
-ns18:desi_5b3_epresc	rdf:type	ns10:IndicatorToGroupMembership ;
-	rdfs:label	"desi_ind" ;
-	ns11:member-of	ns12:desi_ind ;
-	ns11:order	"523" .
 ns20:desi_3a_ui	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"desi_subdim" ;
 	ns11:member-of	ns12:desi_subdim ;
@@ -4536,15 +4299,6 @@ ns20:desi_3b_acton	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"desi_subdim" ;
 	ns11:member-of	ns12:desi_subdim ;
 	ns11:order	"32" .
-ns7:desi_1b3_5g	rdf:type	skos:Concept ,
-		ns10:Indicator ;
-	skos:prefLabel	"1b3 5G readiness" ;
-	dct:source	ns38:desi_1b3_5g ;
-	skos:notation	"desi_1b3_5g" ;
-	skos:altLabel	"1b3 5G readiness" ;
-	ns11:membership	ns18:desi_1b3_5g ;
-	skos:definition	"The amount of spectrum assigned and ready for 5G use by the end of 2020 within the so-called 5G pioneer bands. These bands are 700 MHz (703-733 MHz and 758-788 MHz), 3.6 GHz (3400-3800 MHz) and 26 GHz (1000 MHz within 24250-27500 MHz). All three spectrum bands have an equal weight" ;
-	skos:topConceptOf	ns1:indicator .
 ns7:desi_2a1_bds	rdf:type	skos:Concept ,
 		ns10:Indicator ;
 	skos:prefLabel	"2a1 At least Basic Digital Skills" ;
@@ -4662,33 +4416,6 @@ ns7:desi_3b5_socnet	rdf:type	ns10:Indicator ,
 	ns11:membership	ns18:desi_3b5_socnet ;
 	skos:definition	"People who used the internet to participate in social networks (create user profile, post messages or other contributions)" ;
 	skos:topConceptOf	ns1:indicator .
-ns7:desi_3b6_profsocnet	rdf:type	ns10:Indicator ,
-		skos:Concept ;
-	skos:prefLabel	"3b6 Professional social networks" ;
-	dct:source	ns38:desi_3b6_profsocnet ;
-	skos:notation	"desi_3b6_profsocnet" ;
-	skos:altLabel	"3b6 Professional social networks" ;
-	ns11:membership	ns18:desi_3b6_profsocnet ;
-	skos:definition	"People who have used Internet for participating in social or professional networks" ;
-	skos:topConceptOf	ns1:indicator .
-ns7:desi_3b7_courseon	rdf:type	ns10:Indicator ,
-		skos:Concept ;
-	skos:prefLabel	"3b7 Doing an online course" ;
-	dct:source	ns38:desi_3b7_courseon ;
-	skos:notation	"desi_3b7_courseon" ;
-	skos:altLabel	"3b7 Doing an online course" ;
-	ns11:membership	ns18:desi_3b7_courseon ;
-	skos:definition	"People who have used the Internet for doing an online course (on any subject)" ;
-	skos:topConceptOf	ns1:indicator .
-ns7:desi_3b8_convoton	rdf:type	ns10:Indicator ,
-		skos:Concept ;
-	skos:prefLabel	"3b8 Online consultations and voting" ;
-	dct:source	ns38:desi_3b8_convoton ;
-	skos:notation	"desi_3b8_convoton" ;
-	skos:altLabel	"3b8 Online consultations and voting" ;
-	ns11:membership	ns18:desi_3b8_convoton ;
-	skos:definition	"People who took part in on-line consultations or voting to define civic or political issues (e.g. urban planning, signing a petition)" ;
-	skos:topConceptOf	ns1:indicator .
 ns7:desi_3b_acton	rdf:type	ns10:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"3b Activities online" ;
@@ -4696,7 +4423,7 @@ ns7:desi_3b_acton	rdf:type	ns10:Indicator ,
 	skos:notation	"desi_3b_acton" ;
 	skos:altLabel	"3b Activities online" ;
 	ns11:membership	ns20:desi_3b_acton ;
-	skos:definition	"DESI Activities Online sub-dimension calculated as the weighted average of the normalised indicators: 3b1 News (12.5%), 3b2 Music, Videos and Games (12.5%), 3b3 Video on Demand (12.5%), 3b4 Video Calls (12.5%), 3b5 Social Networks (12.5%), 3b6 Professional social networks (12.5%), 3b7 Doing an online course (12.5%) and 3b8 Online consultations and voting (12.5%)" ;
+	skos:definition	"DESI Activities Online sub-dimension calculated as the weighted average of the normalised indicators: 3b1 News (16.6%), 3b2 Music, Videos and Games (16.6%), 3b3 Video on Demand (16.6%), 3b4 Video Calls (16.6%), 3b5 Social Networks (16.6%), and 3b6 Doing an online course (16.6%) " ;
 	skos:topConceptOf	ns1:indicator .
 ns7:desi_3c3_sell	rdf:type	ns10:Indicator ,
 		skos:Concept ;
@@ -4733,24 +4460,6 @@ ns7:desi_4a4_cloud	rdf:type	ns10:Indicator ,
 	skos:altLabel	"4a4 Cloud" ;
 	ns11:membership	ns18:desi_4a4_cloud ;
 	skos:definition	"Businesses purchasing at least one of the following cloud computing services: hosting of the enterprise's database, accounting software applications, CRM software, computing power" ;
-	skos:topConceptOf	ns1:indicator .
-ns7:desi_5b2_mdataexch	rdf:type	ns10:Indicator ,
-		skos:Concept ;
-	skos:prefLabel	"5b2 Medical data exchange" ;
-	dct:source	ns38:desi_5b2_mdataexch ;
-	skos:notation	"desi_5b2_mdataexch" ;
-	skos:altLabel	"5b2 Medical data exchange" ;
-	ns11:membership	ns18:desi_5b2_mdataexch ;
-	skos:definition	"General practitioners exchanging medical data with hospitals and doctors" ;
-	skos:topConceptOf	ns1:indicator .
-ns7:desi_5b3_epresc	rdf:type	ns10:Indicator ,
-		skos:Concept ;
-	skos:prefLabel	"5b3 e-Prescription" ;
-	dct:source	ns38:desi_5b3_epresc ;
-	skos:notation	"desi_5b3_epresc" ;
-	skos:altLabel	"5b3 e-Prescription" ;
-	ns11:membership	ns18:desi_5b3_epresc ;
-	skos:definition	"General practitioners using electronic prescriptions" ;
 	skos:topConceptOf	ns1:indicator .
 ns7:i_dsk_x	rdf:type	skos:Concept ,
 		ns10:Indicator ;
@@ -5058,4 +4767,225 @@ ns7:i_dsk_c_ab	rdf:type	ns10:Indicator ,
 	ns11:membership	ns28:i_dsk_c_ab ;
 	skos:definition	"These skills refer to the ability to communicate in digital environments, share resources through online tools, link with others and collaborate through digital tools, interact with and participate in communities and networks, cross-cultural awareness. The indicator is based on four activities internet users have been able to do online during previous 3 months. The scores are basic, above basic and none. Individuals not using internet are classified without digital skills." ;
 	skos:note	"Detailed results are available in the Eurostat table <a href=\"http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=isoc_sk_dskl_i&lang=en\">ISOC_SK_DSKL_I</a>. Consult the <a href=\"https://ec.europa.eu/digital-agenda/en/news/new-comprehensive-digital-skills-indicator\"> methodological note</a> on DG CONNECT newsroom." ;
+	skos:topConceptOf	ns1:indicator .
+ns18:desi_1a1_fbbtc	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"desi_ind" ;
+	ns11:member-of	ns12:desi_ind ;
+	ns11:order	"111" .
+ns18:desi_1a2_ufbbtu	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"desi_ind" ;
+	ns11:member-of	ns12:desi_ind ;
+	ns11:order	"112" .
+ns18:desi_1b1_fbbc	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"desi_ind" ;
+	ns11:member-of	ns12:desi_ind ;
+	ns11:order	"121" .
+ns18:desi_1b2_vhcnc	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"desi_ind" ;
+	ns11:member-of	ns12:desi_ind ;
+	ns11:order	"122" .
+ns18:desi_1c1_4g	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"desi_ind" ;
+	ns11:member-of	ns12:desi_ind ;
+	ns11:order	"131" .
+ns18:desi_1c2_mbbtu	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"desi_ind" ;
+	ns11:member-of	ns12:desi_ind ;
+	ns11:order	"132" .
+ns18:desi_1c3_5g	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"desi_ind" ;
+	ns11:member-of	ns12:desi_ind ;
+	ns11:order	"133" .
+ns18:desi_1d1_bbpi	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"desi_ind" ;
+	ns11:member-of	ns12:desi_ind ;
+	ns11:order	"141" .
+ns18:desi_3b6_courseon	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"desi_ind" ;
+	ns11:member-of	ns12:desi_ind ;
+	ns11:order	"326" .
+ns18:desi_5b1_ehs_old	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"desi_ind" ;
+	ns11:member-of	ns12:desi_ind ;
+	ns11:order	"521" .
+ns18:desi_5b2_mdataexch_old	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"desi_ind" ;
+	ns11:member-of	ns12:desi_ind ;
+	ns11:order	"522" .
+ns18:desi_5b3_epresc_old	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"desi_ind" ;
+	ns11:member-of	ns12:desi_ind ;
+	ns11:order	"523" .
+ns20:desi_1a_fbbtc	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"desi_subdim" ;
+	ns11:member-of	ns12:desi_subdim ;
+	ns11:order	"11" .
+ns20:desi_1b_fbbc	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"desi_subdim" ;
+	ns11:member-of	ns12:desi_subdim ;
+	ns11:order	"12" .
+ns20:desi_1c_mbb	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"desi_subdim" ;
+	ns11:member-of	ns12:desi_subdim ;
+	ns11:order	"13" .
+ns20:desi_1d_bbpi	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"desi_subdim" ;
+	ns11:member-of	ns12:desi_subdim ;
+	ns11:order	"14" .
+ns20:desi_5b_ehsold	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"desi_subdim" ;
+	ns11:member-of	ns12:desi_subdim ;
+	ns11:order	"52" .
+ns7:desi_1a1_fbbtc	rdf:type	ns10:Indicator ,
+		skos:Concept ;
+	skos:prefLabel	"1a1 Overall fixed BB take-up" ;
+	dct:source	ns38:desi_1a1_fbbtc ;
+	skos:notation	"desi_1a1_fbbtc" ;
+	skos:altLabel	"1a1 Overall fixed broadband take-up" ;
+	ns11:membership	ns18:desi_1a1_fbbtc ;
+	skos:definition	"Percentage of households subscribing to fixed broadband" ;
+	skos:topConceptOf	ns1:indicator .
+ns7:desi_1a2_ufbbtu	rdf:type	ns10:Indicator ,
+		skos:Concept ;
+	skos:prefLabel	"1a2 At least 100 Mbps fixed BB take-up" ;
+	dct:source	ns38:desi_1a2_ufbbtu ;
+	skos:notation	"desi_1a2_ufbbtu" ;
+	skos:altLabel	"1a2 At least 100 Mbps fixed broadband take-up" ;
+	ns11:membership	ns18:desi_1a2_ufbbtu ;
+	skos:definition	"Percentage of households subscribing to fixed broadband of at least 100 Mbps, calculated as overall fixed broadband take-up" ;
+	skos:topConceptOf	ns1:indicator .
+ns7:desi_1a_fbbtc	rdf:type	ns10:Indicator ,
+		skos:Concept ;
+	skos:prefLabel	"1a Fixed broadband take-up" ;
+	dct:source	ns38: ;
+	skos:notation	"desi_1a_fbbtc" ;
+	skos:altLabel	"1a Fixed broadband take-up" ;
+	ns11:membership	ns20:desi_1a_fbbtc ;
+	skos:definition	"DESI Fixed Broadband take -up sub-dimension calculated as the weighted average of the normalised indicators: 1a1 Overall fixed broadband take-up (50%), 1a2 At least 100 Mbps fixed broadband take-up (50%)" ;
+	skos:topConceptOf	ns1:indicator .
+ns7:desi_1b1_fbbc	rdf:type	ns10:Indicator ,
+		skos:Concept ;
+	skos:prefLabel	"1b1 Fast BB (NGA) coverage" ;
+	dct:source	ns38:desi_1b1_fbbc ;
+	skos:notation	"desi_1b1_fbbc" ;
+	skos:altLabel	"1b1 Fast broadband (NGA) coverage" ;
+	ns11:membership	ns18:desi_1b1_fbbc ;
+	skos:definition	"Percentage of households covered by fixed broadband of at least 30 Mbps download. The technologies considered are FTTH, FTTB, Cable Docsis 3.0 and VDS" ;
+	skos:topConceptOf	ns1:indicator .
+ns7:desi_1b2_vhcnc	rdf:type	ns10:Indicator ,
+		skos:Concept ;
+	skos:prefLabel	"1b2 Fixed Very High Capacity Network (VHCN) coverage" ;
+	dct:source	ns38:desi_1b2_vhcnc ;
+	skos:notation	"desi_1b2_vhcnc" ;
+	skos:altLabel	"1b2 Fixed Very High Capacity Network (VHCN) coverage" ;
+	ns11:membership	ns18:desi_1b2_vhcnc ;
+	skos:definition	"Percentage of households covered by any fixed VHCN. The technologies considered are FTTH and FTTB for 2015-2018 and FTTH, FTTB and Cable Docsis 3.1 for 201" ;
+	skos:topConceptOf	ns1:indicator .
+ns7:desi_1b_fbbc	rdf:type	ns10:Indicator ,
+		skos:Concept ;
+	skos:prefLabel	"1b Fixed broadband coverage" ;
+	dct:source	ns38: ;
+	skos:notation	"desi_1b_fbbc" ;
+	skos:altLabel	"1b Fixed broadband coverage" ;
+	ns11:membership	ns20:desi_1b_fbbc ;
+	skos:definition	"DESI Fixed Broadband coverage sub-dimension calculated as the weighted average of the normalised indicators: 1b1 Fast broadband (NGA) coverage (50%), Fixed Very High Capacity Network (VHCN) coverage (50%)" ;
+	skos:topConceptOf	ns1:indicator .
+ns7:desi_1c1_4g	rdf:type	ns10:Indicator ,
+		skos:Concept ;
+	skos:prefLabel	"1c1 4G coverage" ;
+	dct:source	ns38:desi_1c1_4g ;
+	skos:notation	"desi_1c1_4g" ;
+	skos:altLabel	"1c1 4G coverage" ;
+	ns11:membership	ns18:desi_1c1_4g ;
+	skos:definition	"Percentage of populated areas with coverage by 4G - measured as the average coverage of telecom operators in each country" ;
+	skos:topConceptOf	ns1:indicator .
+ns7:desi_1c2_mbbtu	rdf:type	ns10:Indicator ,
+		skos:Concept ;
+	skos:prefLabel	"1c2 Mobile BB take-up" ;
+	dct:source	ns38:desi_1c2_mbbtu ;
+	skos:notation	"desi_1c2_mbbtu" ;
+	skos:altLabel	"1c2 Mobile broadband take-up" ;
+	ns11:membership	ns18:desi_1c2_mbbtu ;
+	skos:definition	"Number of mobile data subscriptions per 100 people" ;
+	skos:topConceptOf	ns1:indicator .
+ns7:desi_1c3_5g	rdf:type	ns10:Indicator ,
+		skos:Concept ;
+	skos:prefLabel	"1c3 5G readiness" ;
+	dct:source	ns38:desi_1c3_5g ;
+	skos:notation	"desi_1c3_5g" ;
+	skos:altLabel	"1c3 5G readiness" ;
+	ns11:membership	ns18:desi_1c3_5g ;
+	skos:definition	"The amount of spectrum assigned and ready for 5G use by the end of 2020 within the so-called 5G pioneer bands. These bands are 700 MHz (703-733 MHz and 758-788 MHz), 3.6 GHz (3400-3800 MHz) and 26 GHz (1000 MHz within 24250-27500 MHz). All three spectrum bands have an equal weight" ;
+	skos:topConceptOf	ns1:indicator .
+ns7:desi_1c_mbb	rdf:type	ns10:Indicator ,
+		skos:Concept ;
+	skos:prefLabel	"1c Mobile broadband" ;
+	dct:source	ns38: ;
+	skos:notation	"desi_1c_mbb" ;
+	skos:altLabel	"1c Mobile broadband" ;
+	ns11:membership	ns20:desi_1c_mbb ;
+	skos:definition	"DESI Mobile Broadband sub-dimension calculated as the weighted average of the normalised indicators: 1c1 4G coverage (33%), 1c2 Mobile broadband take-up (33%) and 1c3 5G readiness (33%)" ;
+	skos:topConceptOf	ns1:indicator .
+ns7:desi_1d1_bbpi	rdf:type	ns10:Indicator ,
+		skos:Concept ;
+	skos:prefLabel	"1d1 Broadband price index" ;
+	dct:source	ns38:desi_1d_bbpi ;
+	skos:notation	"desi_1d1_bbpi" ;
+	skos:altLabel	"1d1 Broadband price index" ;
+	ns11:membership	ns18:desi_1d1_bbpi ;
+	skos:definition	"The broadband price index measures the prices of representative baskets of fixed, mobile and converged broadband offers" ;
+	skos:topConceptOf	ns1:indicator .
+ns7:desi_1d_bbpi	rdf:type	ns10:Indicator ,
+		skos:Concept ;
+	skos:prefLabel	"1d Broadband price index" ;
+	dct:source	ns38: ;
+	skos:notation	"desi_1d_bbpi" ;
+	skos:altLabel	"1d Broadband price index" ;
+	ns11:membership	ns20:desi_1d_bbpi ;
+	skos:definition	"DESI Broadband price index sub-dimension calculated as the weighted average of the normalised indicator: 1d1 Broadband Price Index (100%)" ;
+	skos:topConceptOf	ns1:indicator .
+ns7:desi_3b6_courseon	rdf:type	ns10:Indicator ,
+		skos:Concept ;
+	skos:prefLabel	"3b6 Doing an online course" ;
+	dct:source	ns38:desi_3b6_courseon ;
+	skos:notation	"desi_3b6_courseon" ;
+	skos:altLabel	"3b6 Doing an online course" ;
+	ns11:membership	ns18:desi_3b6_courseon ;
+	skos:definition	"People who have used the Internet for doing an online course (on any subject)" ;
+	skos:topConceptOf	ns1:indicator .
+ns7:desi_5b1_ehs_old	rdf:type	ns10:Indicator ,
+		skos:Concept ;
+	skos:prefLabel	"5b1 e-Health" ;
+	dct:source	ns38:desi_5b1_ehs ;
+	skos:notation	"desi_5b1_ehs_old" ;
+	skos:altLabel	"5b1 e-Health" ;
+	ns11:membership	ns18:desi_5b1_ehs_old ;
+	skos:definition	"Percentage of people who used health and care services provided online without having to go to the hospital or doctors surgery (for example, by getting a prescription or a consultation online)" ;
+	skos:topConceptOf	ns1:indicator .
+ns7:desi_5b2_mdataexch_old	rdf:type	skos:Concept ,
+		ns10:Indicator ;
+	skos:prefLabel	"5b2 Medical data exchange" ;
+	dct:source	ns38:desi_5b2_mdataexch ;
+	skos:notation	"desi_5b2_mdataexch_old" ;
+	skos:altLabel	"5b2 Medical data exchange" ;
+	ns11:membership	ns18:desi_5b2_mdataexch_old ;
+	skos:definition	"General practitioners exchanging medical data with hospitals and doctors" ;
+	skos:topConceptOf	ns1:indicator .
+ns7:desi_5b3_epresc_old	rdf:type	skos:Concept ,
+		ns10:Indicator ;
+	skos:prefLabel	"5b3 e-Prescription" ;
+	dct:source	ns38:desi_5b3_epresc ;
+	skos:notation	"desi_5b3_epresc_old" ;
+	skos:altLabel	"5b3 e-Prescription" ;
+	ns11:membership	ns18:desi_5b3_epresc_old ;
+	skos:definition	"General practitioners using electronic prescriptions" ;
+	skos:topConceptOf	ns1:indicator .
+ns7:desi_5b_ehsold	rdf:type	skos:Concept ,
+		ns10:Indicator ;
+	skos:prefLabel	"5b e-Health" ;
+	dct:source	ns38: ;
+	skos:notation	"desi_5b_ehsold" ;
+	skos:altLabel	"5b e-Health" ;
+	ns11:membership	ns20:desi_5b_ehsold ;
+	skos:definition	"DESI e-Health sub-dimension calculated as the weighted average of the normalised indicators: 5b1 e-Health (33%), 5b2 Medical data exchange (33%) and 5b3 e-Prescription (33%)" ;
 	skos:topConceptOf	ns1:indicator .
