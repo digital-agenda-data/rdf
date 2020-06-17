@@ -1705,7 +1705,7 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1c_mbb>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1c_mbb>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1c_mbb>	<http://www.w3.org/2004/02/skos/core#altLabel>	"1c Mobile broadband" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1c_mbb>	<http://www.w3.org/2004/02/skos/core#definition>	"DESI Mobile Broadband sub-dimension calculated as the weighted average of the normalised indicators: 1c1 4G coverage (33%), 1c2 Mobile broadband take-up (33%) and 1c3 5G readiness (33%)" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1c_mbb>	<http://www.w3.org/2004/02/skos/core#definition>	"DESI Mobile Broadband sub-dimension calculated as the weighted average of the normalised indicators: 1c1 4G coverage (25%), 1c2 Mobile broadband take-up (25%) and 1c3 5G readiness (50%)" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1c_mbb>	<http://www.w3.org/2004/02/skos/core#notation>	"desi_1c_mbb" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1c_mbb>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"1c Mobile broadband" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/desi_1c_mbb>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
@@ -1992,9 +1992,8 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator/desi_4a_bd>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/desi_4a_bd>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/desi_4a_bd>	<http://www.w3.org/2004/02/skos/core#altLabel>	"4a Business digitisation" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_4a_bd>	<http://www.w3.org/2004/02/skos/core#definition>	"DESI Business Digitisation sub-dimension calculated as the weighted average of the normalised indicators: 4a1 Electronic Information Sharing (25%), 4a2 Social media (25%), 4a3 Big data (25%) and 4a4 Cloud (25%)" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_4a_bd>	<http://www.w3.org/2004/02/skos/core#definition>	"DESI Business Digitisation sub-dimension calculated as the weighted average of the normalised indicators: 4a1 Electronic Information Sharing (16.7%), 4a2 Social media (16.7%), 4a3 Big data (33.3%) and 4a4 Cloud (33.3%)" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/desi_4a_bd>	<http://www.w3.org/2004/02/skos/core#notation>	"desi_4a_bd" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_4a_bd>	<http://www.w3.org/2004/02/skos/core#note>	"DESI 2014 does not comprise the indicator 4a5 Cloud, the weights of the remaining indicators are adjusted at 25% each." .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/desi_4a_bd>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"4a Business digitisation" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/desi_4a_bd>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/desi_4b1_smeso>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/desi_4b1_smeso> .
@@ -2038,7 +2037,7 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5_dps>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5_dps>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5_dps>	<http://www.w3.org/2004/02/skos/core#altLabel>	"5 Digital Public Services" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5_dps>	<http://www.w3.org/2004/02/skos/core#definition>	"DESI Digital Public Services Dimension calculated as the weighted average of two sub-dimensions: 5a e-Government (100%)" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5_dps>	<http://www.w3.org/2004/02/skos/core#definition>	"DESI Digital Public Services Dimension calculated by taking the score for 5a e-Government" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5_dps>	<http://www.w3.org/2004/02/skos/core#notation>	"desi_5_dps" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5_dps>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"5 Digital Public Services" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/desi_5_dps>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
@@ -4597,7 +4596,7 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator/wid_ui_ps>	<http://www.w3.org/2004/02/skos/core#notation>	"wid_ui_ps" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/wid_ui_ps>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"1.4 Using professional social networks" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/wid_ui_ps>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://purl.org/dc/terms/modified>	"2020-06-11T11:45:05"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://purl.org/dc/terms/modified>	"2020-06-17T14:46:02"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://purl.org/linked-data/sdmx#CodeList> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#ConceptScheme> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2000/01/rdf-schema#isDefinedBy>	<http://digital-agenda-data.eu/> .

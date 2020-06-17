@@ -6,7 +6,7 @@ ns1:indicator	rdf:type	ns2:CodeList .
 ns1:indicator	rdf:type	skos:ConceptScheme .
 @prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
 @prefix dct:	<http://purl.org/dc/terms/> .
-ns1:indicator	dct:modified	"2020-06-11T11:45:05"^^xsd:dateTime .
+ns1:indicator	dct:modified	"2020-06-17T14:46:02"^^xsd:dateTime .
 @prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
 ns1:indicator	rdfs:isDefinedBy	<http://digital-agenda-data.eu/> ;
 	skos:prefLabel	"Code list for indicators used by Digital Agenda Scoreboard" ;
@@ -1867,8 +1867,7 @@ ns7:desi_4a_bd	rdf:type	ns10:Indicator ,
 	skos:notation	"desi_4a_bd" ;
 	skos:altLabel	"4a Business digitisation" ;
 	ns11:membership	ns20:desi_4a_bd ;
-	skos:definition	"DESI Business Digitisation sub-dimension calculated as the weighted average of the normalised indicators: 4a1 Electronic Information Sharing (25%), 4a2 Social media (25%), 4a3 Big data (25%) and 4a4 Cloud (25%)" ;
-	skos:note	"DESI 2014 does not comprise the indicator 4a5 Cloud, the weights of the remaining indicators are adjusted at 25% each." ;
+	skos:definition	"DESI Business Digitisation sub-dimension calculated as the weighted average of the normalised indicators: 4a1 Electronic Information Sharing (16.7%), 4a2 Social media (16.7%), 4a3 Big data (33.3%) and 4a4 Cloud (33.3%)" ;
 	skos:topConceptOf	ns1:indicator .
 ns7:desi_4b1_smeso	rdf:type	ns10:Indicator ,
 		skos:Concept ;
@@ -1913,7 +1912,7 @@ ns7:desi_5_dps	rdf:type	skos:Concept ,
 	skos:notation	"desi_5_dps" ;
 	skos:altLabel	"5 Digital Public Services" ;
 	ns11:membership	ns17:desi_5_dps ;
-	skos:definition	"DESI Digital Public Services Dimension calculated as the weighted average of two sub-dimensions: 5a e-Government (100%)" ;
+	skos:definition	"DESI Digital Public Services Dimension calculated by taking the score for 5a e-Government" ;
 	skos:topConceptOf	ns1:indicator .
 ns7:desi_5a1_egovu	rdf:type	skos:Concept ,
 		ns10:Indicator ;
@@ -4924,7 +4923,7 @@ ns7:desi_1c_mbb	rdf:type	ns10:Indicator ,
 	skos:notation	"desi_1c_mbb" ;
 	skos:altLabel	"1c Mobile broadband" ;
 	ns11:membership	ns20:desi_1c_mbb ;
-	skos:definition	"DESI Mobile Broadband sub-dimension calculated as the weighted average of the normalised indicators: 1c1 4G coverage (33%), 1c2 Mobile broadband take-up (33%) and 1c3 5G readiness (33%)" ;
+	skos:definition	"DESI Mobile Broadband sub-dimension calculated as the weighted average of the normalised indicators: 1c1 4G coverage (25%), 1c2 Mobile broadband take-up (25%) and 1c3 5G readiness (50%)" ;
 	skos:topConceptOf	ns1:indicator .
 ns7:desi_1d1_bbpi	rdf:type	ns10:Indicator ,
 		skos:Concept ;
