@@ -76,7 +76,7 @@
 	dcterms:accrualPeriodicity	<http://publications.europa.eu/resource/authority/frequency/ANNUAL_2> ;
 	dcterms:language <http://publications.europa.eu/resource/authority/language/ENG> ;
 	dcterms:spatial	<http://publications.europa.eu/resource/authority/country/EUR>;
-	dcterms:temporal	[ schema:startDate "2002-01-01"^^xsd:date ] ;
+	dcterms:temporal	[ dcat:startDate "2002-01-01"^^xsd:date ] ;
 	dcterms:identifier	"lead-indicators" ;
 	dcterms:issued	"2011-05-01T00:00:00Z"^^xsd:dateTime ;
 	dcterms:modified	"2016-06-01T00:00:00Z"^^xsd:dateTime ;
@@ -106,7 +106,8 @@
 	dcterms:type	<http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE> ;
 	dcterms:format	<http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
 	dcterms:license	<http://ec.europa.eu/geninfo/legal_notices_en.htm#copyright> ;
-	dcat:mediaType	"text/turtle" .
+	dcat:mediaType	"text/turtle" ;
+	dcat:accessService	[ dcat:endpointURL <http://digital-agenda-data.eu/sparql> ] .
 
 # StatDCAT Visualisation
 <http://semantic.digital-agenda-data.eu/dataset/lead-indicators/distribution/visualisation>
