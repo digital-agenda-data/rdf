@@ -6,7 +6,7 @@ ns1:breakdown	rdf:type	ns2:CodeList .
 ns1:breakdown	rdf:type	skos:ConceptScheme .
 @prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
 @prefix dct:	<http://purl.org/dc/terms/> .
-ns1:breakdown	dct:modified	"2020-06-11T11:23:38"^^xsd:dateTime .
+ns1:breakdown	dct:modified	"2020-12-07T18:24:44"^^xsd:dateTime .
 @prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
 ns1:breakdown	rdfs:isDefinedBy	<http://digital-agenda-data.eu/> ;
 	skos:prefLabel	"Code list for breakdowns used by Digital Agenda Scoreboard" ;
@@ -29,6 +29,7 @@ ns1:breakdown	skos:hasTopConcept	ns7:desi_1c2_mbbtu ,
 		ns7:desi_1c1_4g ,
 		ns7:desi_5b3_epresc_old ,
 		ns7:desi_5b_ehs_old ,
+		ns7:men ,
 		ns7:desi_3c3_sell ,
 		ns7:desi_4a2_socmed ,
 		ns7:desi_4a3_bigdat ,
@@ -185,6 +186,7 @@ ns1:breakdown	skos:hasTopConcept	ns7:desi_1c2_mbbtu ,
 		ns7:so_02 ,
 		ns7:so_03 ,
 		ns7:so_04 ,
+		ns7:women ,
 		<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_j58_60> ,
 		<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_j61> ,
 		<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_j62_63> ,
@@ -4173,6 +4175,21 @@ ns7:desi_5b_ehs_old	rdf:type	ns10:Breakdown ,
 	skos:altLabel	"5b e-Health" ;
 	ns11:membership	ns43:desi_5b_ehs_old ;
 	skos:topConceptOf	ns1:breakdown .
+ns28:men	rdf:type	ns10:BreakdownToGroupMembership ;
+	rdfs:label	"bygender" ;
+	ns11:member-of	ns12:bygender ;
+	ns11:order	"11" .
+ns28:women	rdf:type	ns10:BreakdownToGroupMembership ;
+	rdfs:label	"bygender" ;
+	ns11:member-of	ns12:bygender ;
+	ns11:order	"10" .
+ns7:men	rdf:type	ns10:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Men" ;
+	skos:notation	"men" ;
+	skos:altLabel	"Men" ;
+	ns11:membership	ns28:men ;
+	skos:topConceptOf	ns1:breakdown .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/10_g46>	rdf:type	ns10:Breakdown ,
 		skos:Concept ;
 	skos:prefLabel	"Wholesale trade, except of motor vehicles and motorcycles 10+" ;
@@ -4202,6 +4219,13 @@ ns15:cb_for	rdf:type	ns10:BreakdownToGroupMembership ;
 	rdfs:label	"bycbirth" ;
 	ns11:member-of	ns12:bycbirth ;
 	ns11:order	"5" .
+ns7:women	rdf:type	ns10:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Women" ;
+	skos:notation	"women" ;
+	skos:altLabel	"Women" ;
+	ns11:membership	ns28:women ;
+	skos:topConceptOf	ns1:breakdown .
 ns70:old_desi_1d_aff	rdf:type	ns10:BreakdownToGroupMembership ;
 	rdfs:label	"desi_1_conn" ;
 	ns11:member-of	ns12:desi_1_conn ;

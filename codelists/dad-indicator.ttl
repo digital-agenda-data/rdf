@@ -6,7 +6,7 @@ ns1:indicator	rdf:type	ns2:CodeList .
 ns1:indicator	rdf:type	skos:ConceptScheme .
 @prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
 @prefix dct:	<http://purl.org/dc/terms/> .
-ns1:indicator	dct:modified	"2020-06-17T14:46:02"^^xsd:dateTime .
+ns1:indicator	dct:modified	"2020-12-07T18:25:17"^^xsd:dateTime .
 @prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
 ns1:indicator	rdfs:isDefinedBy	<http://digital-agenda-data.eu/> ;
 	skos:prefLabel	"Code list for indicators used by Digital Agenda Scoreboard" ;
@@ -19,6 +19,7 @@ ns1:indicator	skos:hasTopConcept	ns7:old_i_dsk_i_b ,
 		ns7:old_digskillindex_basicandabove ,
 		ns7:old_i_dsk_b ,
 		ns7:old_i_dsk_c_b ,
+		ns7:old_wid_ui_ps ,
 		ns7:i_dsk_ps_ab ,
 		ns7:i_dsk_s_ab ,
 		ns7:i_dsk_l ,
@@ -70,7 +71,6 @@ ns1:indicator	skos:hasTopConcept	ns7:old_i_dsk_i_b ,
 		ns7:wid_ui_nui ,
 		ns7:wid_ui_oc ,
 		ns7:wid_ui_part ,
-		ns7:wid_ui_ps ,
 		ns7:wid_ius_ss ,
 		ns7:wid_score ,
 		ns7:wid_sse ,
@@ -1520,10 +1520,6 @@ ns37:wid_ui_part	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"wid" ;
 	ns11:member-of	ns12:wid ;
 	ns11:order	"8" .
-ns37:wid_ui_ps	rdf:type	ns10:IndicatorToGroupMembership ;
-	rdfs:label	"wid" ;
-	ns11:member-of	ns12:wid ;
-	ns11:order	"6" .
 ns7:aaaa_cov	rdf:type	ns10:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"IPv6 readiness - websites having a AAAA coverage in DNS records (as % of most visited websites)" .
@@ -4152,14 +4148,14 @@ ns7:wid_ui	rdf:type	ns10:Indicator ,
 	skos:notation	"wid_ui" ;
 	skos:altLabel	"1 Use of internet" ;
 	ns11:membership	ns37:wid_ui ;
-	skos:definition	"WID Use of internet dimension calculated as the weighted average of the seven indicators: \r\n1.1 Regular internet use (14.29%), 1.2 People who never used the internet (14.29%), 1.3 Online banking (14.29%), 1.4 Using professional social networks (14.29%), 1.5 Doing an online course (14.29%), 1.6 Online consultations or voting (14.29%), 1.7 eGovernment users (14.29%)." ;
+	skos:definition	"WID Use of internet dimension calculated as the weighted average of the six indicators: \r\n1.1 Regular internet use (16.67%), 1.2 People who never used the internet (16.67%), 1.3 Online banking (16.67%), 1.4 Doing an online course (16.67%), 1.5 Online consultations or voting (16.67%), 1.6 eGovernment users (16.67%)." ;
 	skos:topConceptOf	ns1:indicator .
 ns7:wid_ui_egov	rdf:type	ns10:Indicator ,
 		skos:Concept ;
-	skos:prefLabel	"1.7 eGovernment users " ;
+	skos:prefLabel	"1.6 eGovernment users " ;
 	dct:source	ns38: ;
 	skos:notation	"wid_ui_egov" ;
-	skos:altLabel	"1.7 eGovernment users " ;
+	skos:altLabel	"1.6 eGovernment users " ;
 	ns11:membership	ns37:wid_ui_egov ;
 	skos:definition	"People who sent filled forms to public authorities, over the internet, previous 12 months " ;
 	skos:topConceptOf	ns1:indicator .
@@ -4192,29 +4188,33 @@ ns7:wid_ui_nui	rdf:type	skos:Concept ,
 	skos:topConceptOf	ns1:indicator .
 ns7:wid_ui_oc	rdf:type	skos:Concept ,
 		ns10:Indicator ;
-	skos:prefLabel	"1.5 Doing an online course" ;
+	skos:prefLabel	"1.4 Doing an online course" ;
 	dct:source	ns38: ;
 	skos:notation	"wid_ui_oc" ;
-	skos:altLabel	"1.5 Doing an online course" ;
+	skos:altLabel	"1.4 Doing an online course" ;
 	ns11:membership	ns37:wid_ui_oc ;
 	skos:definition	"People who used the Internet for doing an online course (on any subject)" ;
 	skos:topConceptOf	ns1:indicator .
 ns7:wid_ui_part	rdf:type	skos:Concept ,
 		ns10:Indicator ;
-	skos:prefLabel	"1.6 Online consultations or voting" ;
+	skos:prefLabel	"1.5 Online consultations or voting" ;
 	dct:source	ns38: ;
 	skos:notation	"wid_ui_part" ;
-	skos:altLabel	"1.6 Online consultations or voting" ;
+	skos:altLabel	"1.5 Online consultations or voting" ;
 	ns11:membership	ns37:wid_ui_part ;
 	skos:definition	"People who took part in on-line consultations or voting to define civic or political issues (e.g. urban planning, signing a petition)" ;
 	skos:topConceptOf	ns1:indicator .
-ns7:wid_ui_ps	rdf:type	skos:Concept ,
-		ns10:Indicator ;
+ns37:old_wid_ui_ps	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"wid" ;
+	ns11:member-of	ns12:wid ;
+	ns11:order	"6" .
+ns7:old_wid_ui_ps	rdf:type	ns10:Indicator ,
+		skos:Concept ;
 	skos:prefLabel	"1.4 Using professional social networks" ;
 	dct:source	ns38: ;
-	skos:notation	"wid_ui_ps" ;
+	skos:notation	"old_wid_ui_ps" ;
 	skos:altLabel	"1.4 Using professional social networks" ;
-	ns11:membership	ns37:wid_ui_ps ;
+	ns11:membership	ns37:old_wid_ui_ps ;
 	skos:definition	"People who used Internet for participating in social or professional networks" ;
 	skos:topConceptOf	ns1:indicator .
 ns7:e_gov_4b_bm_us	rdf:type	ns10:Indicator ,

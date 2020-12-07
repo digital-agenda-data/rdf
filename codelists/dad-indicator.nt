@@ -1305,6 +1305,10 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/telecom/tel_rev>	<http://semantic.digital-agenda-data.eu/def/property/order>	"1" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/telecom/tel_rev>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/telecom/tel_rev>	<http://www.w3.org/2000/01/rdf-schema#label>	"telecom" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/wid/old_wid_ui_ps>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/wid> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/wid/old_wid_ui_ps>	<http://semantic.digital-agenda-data.eu/def/property/order>	"6" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/wid/old_wid_ui_ps>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/wid/old_wid_ui_ps>	<http://www.w3.org/2000/01/rdf-schema#label>	"wid" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/wid/wid_ius>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/wid> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/wid/wid_ius>	<http://semantic.digital-agenda-data.eu/def/property/order>	"10" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/wid/wid_ius>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
@@ -1369,10 +1373,6 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/wid/wid_ui_part>	<http://semantic.digital-agenda-data.eu/def/property/order>	"8" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/wid/wid_ui_part>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/wid/wid_ui_part>	<http://www.w3.org/2000/01/rdf-schema#label>	"wid" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/wid/wid_ui_ps>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/wid> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/wid/wid_ui_ps>	<http://semantic.digital-agenda-data.eu/def/property/order>	"6" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/wid/wid_ui_ps>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/wid/wid_ui_ps>	<http://www.w3.org/2000/01/rdf-schema#label>	"wid" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/aaaa_cov>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/ipv6obs> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/aaaa_cov>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/internet-usage/aaaa_cov> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/aaaa_cov>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
@@ -4267,6 +4267,15 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator/old_i_dsk_s_b>	<http://www.w3.org/2004/02/skos/core#note>	"Detailed results are available in the Eurostat table <a href=\"http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=isoc_sk_dskl_i&lang=en\">ISOC_SK_DSKL_I</a>. Consult the <a href=\"https://ec.europa.eu/digital-agenda/en/news/new-comprehensive-digital-skills-indicator\"> methodological note</a> on DG CONNECT newsroom." .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/old_i_dsk_s_b>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Individuals with a basic level of digital skills in Software domain" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/old_i_dsk_s_b>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/old_wid_ui_ps>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/old_wid_ui_ps>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/wid/old_wid_ui_ps> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/old_wid_ui_ps>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/old_wid_ui_ps>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/old_wid_ui_ps>	<http://www.w3.org/2004/02/skos/core#altLabel>	"1.4 Using professional social networks" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/old_wid_ui_ps>	<http://www.w3.org/2004/02/skos/core#definition>	"People who used Internet for participating in social or professional networks" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/old_wid_ui_ps>	<http://www.w3.org/2004/02/skos/core#notation>	"old_wid_ui_ps" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/old_wid_ui_ps>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"1.4 Using professional social networks" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/old_wid_ui_ps>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/p_empmd>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/estat_isoc_ci_eu_en2> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/p_empmd>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/p_empmd> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/p_empmd>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
@@ -4529,7 +4538,7 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator/wid_ui>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/wid_ui>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/wid_ui>	<http://www.w3.org/2004/02/skos/core#altLabel>	"1 Use of internet" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/wid_ui>	<http://www.w3.org/2004/02/skos/core#definition>	"WID Use of internet dimension calculated as the weighted average of the seven indicators: \r\n1.1 Regular internet use (14.29%), 1.2 People who never used the internet (14.29%), 1.3 Online banking (14.29%), 1.4 Using professional social networks (14.29%), 1.5 Doing an online course (14.29%), 1.6 Online consultations or voting (14.29%), 1.7 eGovernment users (14.29%)." .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/wid_ui>	<http://www.w3.org/2004/02/skos/core#definition>	"WID Use of internet dimension calculated as the weighted average of the six indicators: \r\n1.1 Regular internet use (16.67%), 1.2 People who never used the internet (16.67%), 1.3 Online banking (16.67%), 1.4 Doing an online course (16.67%), 1.5 Online consultations or voting (16.67%), 1.6 eGovernment users (16.67%)." .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/wid_ui>	<http://www.w3.org/2004/02/skos/core#notation>	"wid_ui" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/wid_ui>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"1 Use of internet" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/wid_ui>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
@@ -4537,10 +4546,10 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator/wid_ui_egov>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/wid/wid_ui_egov> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/wid_ui_egov>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/wid_ui_egov>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/wid_ui_egov>	<http://www.w3.org/2004/02/skos/core#altLabel>	"1.7 eGovernment users " .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/wid_ui_egov>	<http://www.w3.org/2004/02/skos/core#altLabel>	"1.6 eGovernment users " .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/wid_ui_egov>	<http://www.w3.org/2004/02/skos/core#definition>	"People who sent filled forms to public authorities, over the internet, previous 12 months " .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/wid_ui_egov>	<http://www.w3.org/2004/02/skos/core#notation>	"wid_ui_egov" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/wid_ui_egov>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"1.7 eGovernment users " .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/wid_ui_egov>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"1.6 eGovernment users " .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/wid_ui_egov>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/wid_ui_ib>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/wid_ui_ib>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/wid/wid_ui_ib> .
@@ -4573,30 +4582,21 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator/wid_ui_oc>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/wid/wid_ui_oc> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/wid_ui_oc>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/wid_ui_oc>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/wid_ui_oc>	<http://www.w3.org/2004/02/skos/core#altLabel>	"1.5 Doing an online course" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/wid_ui_oc>	<http://www.w3.org/2004/02/skos/core#altLabel>	"1.4 Doing an online course" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/wid_ui_oc>	<http://www.w3.org/2004/02/skos/core#definition>	"People who used the Internet for doing an online course (on any subject)" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/wid_ui_oc>	<http://www.w3.org/2004/02/skos/core#notation>	"wid_ui_oc" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/wid_ui_oc>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"1.5 Doing an online course" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/wid_ui_oc>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"1.4 Doing an online course" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/wid_ui_oc>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/wid_ui_part>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/wid_ui_part>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/wid/wid_ui_part> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/wid_ui_part>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/wid_ui_part>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/wid_ui_part>	<http://www.w3.org/2004/02/skos/core#altLabel>	"1.6 Online consultations or voting" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/wid_ui_part>	<http://www.w3.org/2004/02/skos/core#altLabel>	"1.5 Online consultations or voting" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/wid_ui_part>	<http://www.w3.org/2004/02/skos/core#definition>	"People who took part in on-line consultations or voting to define civic or political issues (e.g. urban planning, signing a petition)" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/wid_ui_part>	<http://www.w3.org/2004/02/skos/core#notation>	"wid_ui_part" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/wid_ui_part>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"1.6 Online consultations or voting" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/wid_ui_part>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"1.5 Online consultations or voting" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/wid_ui_part>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/wid_ui_ps>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/wid_ui_ps>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/wid/wid_ui_ps> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/wid_ui_ps>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/wid_ui_ps>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/wid_ui_ps>	<http://www.w3.org/2004/02/skos/core#altLabel>	"1.4 Using professional social networks" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/wid_ui_ps>	<http://www.w3.org/2004/02/skos/core#definition>	"People who used Internet for participating in social or professional networks" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/wid_ui_ps>	<http://www.w3.org/2004/02/skos/core#notation>	"wid_ui_ps" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/wid_ui_ps>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"1.4 Using professional social networks" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/wid_ui_ps>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://purl.org/dc/terms/modified>	"2020-06-17T14:46:02"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://purl.org/dc/terms/modified>	"2020-12-07T18:25:17"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://purl.org/linked-data/sdmx#CodeList> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#ConceptScheme> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2000/01/rdf-schema#isDefinedBy>	<http://digital-agenda-data.eu/> .
@@ -4910,6 +4910,7 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/old_i_dsk_i_b> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/old_i_dsk_ps_b> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/old_i_dsk_s_b> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/old_wid_ui_ps> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/p_empmd> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/p_iuse> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/pay_on_time_projects> .
@@ -4945,7 +4946,6 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/wid_ui_nui> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/wid_ui_oc> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/wid_ui_part> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/wid_ui_ps> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#inScheme>	<http://semantic.digital-agenda-data.eu/def/scheme> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#notation>	"CL_INDICATOR" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Code list for indicators used by Digital Agenda Scoreboard" .
