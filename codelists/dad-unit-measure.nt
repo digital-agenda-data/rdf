@@ -1,0 +1,1027 @@
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/corehours_million>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/corehours_million>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/corehours_million>	<http://www.w3.org/2004/02/skos/core#altLabel>	"million core hours" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/corehours_million>	<http://www.w3.org/2004/02/skos/core#definition>	"million core hours" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/corehours_million>	<http://www.w3.org/2004/02/skos/core#notation>	"corehours_million" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/corehours_million>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"million core hours" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/corehours_million>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/cum_nr_artic>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/cum_nr_artic>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/cum_nr_artic>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Cumulated nb of articles" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/cum_nr_artic>	<http://www.w3.org/2004/02/skos/core#definition>	"Cumulated figure of articles resulting from FP7 ICT projects reported and validated over the years 2007 - 2013" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/cum_nr_artic>	<http://www.w3.org/2004/02/skos/core#notation>	"cum_nr_artic" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/cum_nr_artic>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Cumulated number of articles" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/cum_nr_artic>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/cum_nr_pat>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/cum_nr_pat>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/cum_nr_pat>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Cumulated nb of patents" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/cum_nr_pat>	<http://www.w3.org/2004/02/skos/core#definition>	"Cumulated figure of patents resulting from FP7 ICT projects reported and validated over the years 2007 - 2013." .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/cum_nr_pat>	<http://www.w3.org/2004/02/skos/core#notation>	"cum_nr_pat" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/cum_nr_pat>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Cumulated number of patents" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/cum_nr_pat>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/cum_nr_pub>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/cum_nr_pub>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/cum_nr_pub>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Cumulated nb of publications" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/cum_nr_pub>	<http://www.w3.org/2004/02/skos/core#definition>	"Cumulated figure of publications resulting from FP7 ICT projects reported and validated over the years 2007 - 2013" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/cum_nr_pub>	<http://www.w3.org/2004/02/skos/core#notation>	"cum_nr_pub" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/cum_nr_pub>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Cumulated number of publications" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/cum_nr_pub>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/cum_x10mil_ecfund>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/cum_x10mil_ecfund>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/cum_x10mil_ecfund>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Cumulated nb per 10 Million EURO" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/cum_x10mil_ecfund>	<http://www.w3.org/2004/02/skos/core#definition>	"Cumulated figures resulting from FP7 ICT projects per Euro 10M spent. It considers the projects over the period 2007-2013" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/cum_x10mil_ecfund>	<http://www.w3.org/2004/02/skos/core#notation>	"cum_x10mil_ecfund" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/cum_x10mil_ecfund>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Cumulated number per 10 Million EURO of EC funding" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/cum_x10mil_ecfund>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/days>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/days>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/days>	<http://www.w3.org/2004/02/skos/core#altLabel>	"calendar days" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/days>	<http://www.w3.org/2004/02/skos/core#definition>	"Calendar days." .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/days>	<http://www.w3.org/2004/02/skos/core#notation>	"days" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/days>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"calendar days" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/days>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/desi_score>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/desi_score>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/desi_score>	<http://www.w3.org/2004/02/skos/core#altLabel>	"DESI score" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/desi_score>	<http://www.w3.org/2004/02/skos/core#definition>	"Score in the scope of the DESI, normalised between 0 and 1" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/desi_score>	<http://www.w3.org/2004/02/skos/core#notation>	"desi_score" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/desi_score>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"score (0 to 1)" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/desi_score>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/egov_score>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/egov_score>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/egov_score>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Score (0 to 100)" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/egov_score>	<http://www.w3.org/2004/02/skos/core#definition>	"The score of the country, from a minimum of 0 to a maximum of 100." .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/egov_score>	<http://www.w3.org/2004/02/skos/core#notation>	"egov_score" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/egov_score>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Score (0 to 100)" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/egov_score>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/epsiscore_pts>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/epsiscore_pts>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/epsiscore_pts>	<http://www.w3.org/2004/02/skos/core#altLabel>	"PSI points" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/epsiscore_pts>	<http://www.w3.org/2004/02/skos/core#definition>	"Can range from 0 to 100 for each of the 7 sub-dimensions. The overall score is the sum of the sub-dimension scores and can range from 0 to 700." .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/epsiscore_pts>	<http://www.w3.org/2004/02/skos/core#notation>	"epsiscore_pts" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/epsiscore_pts>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"PSI scoreboard points" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/epsiscore_pts>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/euro>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/euro>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/euro>	<http://www.w3.org/2004/02/skos/core#altLabel>	"euro" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/euro>	<http://www.w3.org/2004/02/skos/core#notation>	"euro" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/euro>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Euro" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/euro>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/euro_x_hab>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/euro_x_hab>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/euro_x_hab>	<http://www.w3.org/2004/02/skos/core#altLabel>	"euro x habitant" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/euro_x_hab>	<http://www.w3.org/2004/02/skos/core#definition>	"Habitants are the total population 1st of Jan of the same year (Eurostat)" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/euro_x_hab>	<http://www.w3.org/2004/02/skos/core#notation>	"euro_x_hab" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/euro_x_hab>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Euro per habitant" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/euro_x_hab>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/euro_x_million_gbaord>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/euro_x_million_gbaord>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/euro_x_million_gbaord>	<http://www.w3.org/2004/02/skos/core#altLabel>	"euro x million of GBAORD" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/euro_x_million_gbaord>	<http://www.w3.org/2004/02/skos/core#definition>	"GBAORD - Government budget appropriations or outlays for research and development (Eurostat)" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/euro_x_million_gbaord>	<http://www.w3.org/2004/02/skos/core#notation>	"euro_x_million_gbaord" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/euro_x_million_gbaord>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Euro per Million of GBAORD" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/euro_x_million_gbaord>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/euro_x_million_of_gdp>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/euro_x_million_of_gdp>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/euro_x_million_of_gdp>	<http://www.w3.org/2004/02/skos/core#altLabel>	"euro x million of GDP" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/euro_x_million_of_gdp>	<http://www.w3.org/2004/02/skos/core#definition>	"GDP-Gross domestic product at current prices of the same year (Eurostat nama_gdp_c)." .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/euro_x_million_of_gdp>	<http://www.w3.org/2004/02/skos/core#notation>	"euro_x_million_of_gdp" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/euro_x_million_of_gdp>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Euro per Million of GDP" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/euro_x_million_of_gdp>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/eurocent>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/eurocent>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/eurocent>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Euro cents" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/eurocent>	<http://www.w3.org/2004/02/skos/core#notation>	"eurocent" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/eurocent>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Euro cents" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/eurocent>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/gbpskm>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/gbpskm>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/gbpskm>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Gbpskm" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/gbpskm>	<http://www.w3.org/2004/02/skos/core#definition>	"gigabits per second times km" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/gbpskm>	<http://www.w3.org/2004/02/skos/core#notation>	"gbpskm" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/gbpskm>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"gigabits per second times km" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/gbpskm>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/habitants>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/habitants>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/habitants>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Number of habitants" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/habitants>	<http://www.w3.org/2004/02/skos/core#notation>	"habitants" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/habitants>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Number of habitants" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/habitants>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/hhi>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/hhi>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/hhi>	<http://www.w3.org/2004/02/skos/core#altLabel>	"HHI score" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/hhi>	<http://www.w3.org/2004/02/skos/core#definition>	"Herfindahl index calculated for different connection technologies" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/hhi>	<http://www.w3.org/2004/02/skos/core#notation>	"hhi" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/hhi>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"HHI score" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/hhi>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/ia12ave>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/ia12ave>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/ia12ave>	<http://www.w3.org/2004/02/skos/core#definition>	"Average of the number of different activities, out of a list of 12, realised by internet users. Computed by DG CONNECT using Eurostat data." .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/ia12ave>	<http://www.w3.org/2004/02/skos/core#notation>	"ia12ave" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/ia12ave>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Diversification index average" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/ia12ave>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/median_euro_ppp>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/median_euro_ppp>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/median_euro_ppp>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Median price in euros (PPPs corrected)" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/median_euro_ppp>	<http://www.w3.org/2004/02/skos/core#definition>	"Median price between similar offers, which value in euros is corrected using Purchasing Power Parities (PPPs), based on consumer price indices." .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/median_euro_ppp>	<http://www.w3.org/2004/02/skos/core#notation>	"median_euro_ppp" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/median_euro_ppp>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Median price in euros, corrected using Purchasing Power Parities" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/median_euro_ppp>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/mhz>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/mhz>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/mhz>	<http://www.w3.org/2004/02/skos/core#altLabel>	"MHz" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/mhz>	<http://www.w3.org/2004/02/skos/core#definition>	"Mega Hertz" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/mhz>	<http://www.w3.org/2004/02/skos/core#notation>	"mhz" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/mhz>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"MHz" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/mhz>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/million_euro>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/million_euro>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/million_euro>	<http://www.w3.org/2004/02/skos/core#altLabel>	"million euro" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/million_euro>	<http://www.w3.org/2004/02/skos/core#notation>	"million_euro" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/million_euro>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Million Euro" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/million_euro>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/minimum_euro_ppp>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/minimum_euro_ppp>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/minimum_euro_ppp>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Minimum price in euros (PPPs corrected)" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/minimum_euro_ppp>	<http://www.w3.org/2004/02/skos/core#definition>	"Minimun price between similar offers, which value in euros is corrected using Purchasing Power Parities (PPPs), based on consumer price indices." .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/minimum_euro_ppp>	<http://www.w3.org/2004/02/skos/core#notation>	"minimum_euro_ppp" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/minimum_euro_ppp>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Minimum price in euros, corrected using Purchasing Power Parities" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/minimum_euro_ppp>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/mio_hh>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/mio_hh>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/mio_hh>	<http://www.w3.org/2004/02/skos/core#altLabel>	"million of households" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/mio_hh>	<http://www.w3.org/2004/02/skos/core#definition>	"Households with at least one member aged 16-74. " .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/mio_hh>	<http://www.w3.org/2004/02/skos/core#notation>	"mio_hh" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/mio_hh>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"million of households" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/mio_hh>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/mio_ind>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/mio_ind>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/mio_ind>	<http://www.w3.org/2004/02/skos/core#altLabel>	"million of individuals" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/mio_ind>	<http://www.w3.org/2004/02/skos/core#definition>	"Individuals aged 16-74" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/mio_ind>	<http://www.w3.org/2004/02/skos/core#notation>	"mio_ind" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/mio_ind>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"million of individuals" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/mio_ind>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nb_channel>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nb_channel>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nb_channel>	<http://www.w3.org/2004/02/skos/core#altLabel>	"nb of channels" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nb_channel>	<http://www.w3.org/2004/02/skos/core#notation>	"nb_channel" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nb_channel>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Number of TV channels" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nb_channel>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nb_empl>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nb_empl>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nb_empl>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Number of employed persons" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nb_empl>	<http://www.w3.org/2004/02/skos/core#notation>	"nb_empl" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nb_empl>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Number of employed persons" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nb_empl>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nb_ent>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nb_ent>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nb_ent>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Number of enterprises" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nb_ent>	<http://www.w3.org/2004/02/skos/core#notation>	"nb_ent" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nb_ent>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Number of enterprises" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nb_ent>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nb_infr_case>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nb_infr_case>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nb_infr_case>	<http://www.w3.org/2004/02/skos/core#altLabel>	"nb of infringement cases" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nb_infr_case>	<http://www.w3.org/2004/02/skos/core#definition>	"Number of NIF infringement cases against Member States" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nb_infr_case>	<http://www.w3.org/2004/02/skos/core#notation>	"nb_infr_case" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nb_infr_case>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Number of NIF infringement cases" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nb_infr_case>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nb_vod_service>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nb_vod_service>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nb_vod_service>	<http://www.w3.org/2004/02/skos/core#altLabel>	"nb of VoD services" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nb_vod_service>	<http://www.w3.org/2004/02/skos/core#notation>	"nb_vod_service" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nb_vod_service>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Number of Video on Demand services" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nb_vod_service>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nb_x1000inh_20_29>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nb_x1000inh_20_29>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nb_x1000inh_20_29>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Number per 1 000 inhabitants aged 20-29 years" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nb_x1000inh_20_29>	<http://www.w3.org/2004/02/skos/core#definition>	"Number per 1 000 inhabitants aged 20-29 years" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nb_x1000inh_20_29>	<http://www.w3.org/2004/02/skos/core#notation>	"nb_x1000inh_20_29" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nb_x1000inh_20_29>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Number per 1 000 inhabitants aged 20-29 years" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nb_x1000inh_20_29>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nb_x100stud>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nb_x100stud>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nb_x100stud>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Number per 100 students" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nb_x100stud>	<http://www.w3.org/2004/02/skos/core#notation>	"nb_x100stud" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nb_x100stud>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Number per 100 students" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nb_x100stud>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nbr_lines>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nbr_lines>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nbr_lines>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Number of subscriptions" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nbr_lines>	<http://www.w3.org/2004/02/skos/core#definition>	"Number of fixed subsciptions (lines)" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nbr_lines>	<http://www.w3.org/2004/02/skos/core#notation>	"nbr_lines" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nbr_lines>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Number of subscriptions" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nbr_lines>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nbr_organisations>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nbr_organisations>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nbr_organisations>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Number of organizations" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nbr_organisations>	<http://www.w3.org/2004/02/skos/core#notation>	"nbr_organisations" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nbr_organisations>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Number of organizations" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nbr_organisations>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nbr_participations>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nbr_participations>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nbr_participations>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Number of participations" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nbr_participations>	<http://www.w3.org/2004/02/skos/core#notation>	"nbr_participations" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nbr_participations>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Number of participations" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nbr_participations>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nbr_subs>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nbr_subs>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nbr_subs>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Number of subscriptions" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nbr_subs>	<http://www.w3.org/2004/02/skos/core#notation>	"nbr_subs" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nbr_subs>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Number of subscriptions" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nbr_subs>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/no_posts>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/no_posts>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/no_posts>	<http://www.w3.org/2004/02/skos/core#altLabel>	"nb of posts" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/no_posts>	<http://www.w3.org/2004/02/skos/core#definition>	"Number of posts in DG CONNECT." .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/no_posts>	<http://www.w3.org/2004/02/skos/core#notation>	"no_posts" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/no_posts>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Number of posts" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/no_posts>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nr_artic>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nr_artic>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nr_artic>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Nb of articles" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nr_artic>	<http://www.w3.org/2004/02/skos/core#definition>	"Articles (reported and validated) resulting from FP7 ICT projects terminated in the reference year" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nr_artic>	<http://www.w3.org/2004/02/skos/core#notation>	"nr_artic" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nr_artic>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Number of articles" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nr_artic>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nr_pat>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nr_pat>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nr_pat>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Nb of patents" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nr_pat>	<http://www.w3.org/2004/02/skos/core#definition>	"Patents (reported and validated) resulting from FP7 ICT projects terminated in the reference year" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nr_pat>	<http://www.w3.org/2004/02/skos/core#notation>	"nr_pat" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nr_pat>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Number of patents" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nr_pat>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nr_pub>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nr_pub>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nr_pub>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Nb of publications" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nr_pub>	<http://www.w3.org/2004/02/skos/core#definition>	"Publications (reported and validated) resulting from FP7 ICT projects terminated in the reference year" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nr_pub>	<http://www.w3.org/2004/02/skos/core#notation>	"nr_pub" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nr_pub>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Number of publications" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nr_pub>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nr_x10mil_ecfund>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nr_x10mil_ecfund>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nr_x10mil_ecfund>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Nb per 10 Million EURO" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nr_x10mil_ecfund>	<http://www.w3.org/2004/02/skos/core#definition>	"Number of research outputs resulting from FP7 ICT projects, terminated in the reference year, per 10M Euro of EC funding spent for their implementation. " .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nr_x10mil_ecfund>	<http://www.w3.org/2004/02/skos/core#notation>	"nr_x10mil_ecfund" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nr_x10mil_ecfund>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Number per 10 Million EURO of EC funding" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nr_x10mil_ecfund>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/od_score>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/od_score>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/od_score>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Percentage of maximum score" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/od_score>	<http://www.w3.org/2004/02/skos/core#notation>	"od_score" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/od_score>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Percentage of the maximum open data score" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/od_score>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/old_pc_desi_5b_ehs_old>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/old_pc_desi_5b_ehs_old>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/old_pc_desi_5b_ehs_old>	<http://www.w3.org/2004/02/skos/core#definition>	"Weighted score of a DESI indicator" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/old_pc_desi_5b_ehs_old>	<http://www.w3.org/2004/02/skos/core#notation>	"old_pc_desi_5b_ehs_old" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/old_pc_desi_5b_ehs_old>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"weighted score (0 to 100)" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/old_pc_desi_5b_ehs_old>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_adm_cinema>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_adm_cinema>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_adm_cinema>	<http://www.w3.org/2004/02/skos/core#altLabel>	"% of total admissions " .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_adm_cinema>	<http://www.w3.org/2004/02/skos/core#definition>	"Percentage of total admissions in cinemas" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_adm_cinema>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_adm_cinema" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_adm_cinema>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Percentage of total admissions " .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_adm_cinema>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_bb_lines>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_bb_lines>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_bb_lines>	<http://www.w3.org/2004/02/skos/core#altLabel>	"% of fixed broadband subscriptions" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_bb_lines>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_bb_lines" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_bb_lines>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Percentage of fixed broadband subscriptions" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_bb_lines>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi>	<http://www.w3.org/2004/02/skos/core#definition>	"Weighted score of the DESI dimension" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_desi" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"weighted score (0 to 100)" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1_conn>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1_conn>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1_conn>	<http://www.w3.org/2004/02/skos/core#definition>	"Weighted score of the DESI Sub-dimension" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1_conn>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_desi_1_conn" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1_conn>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"weighted score (0 to 100)" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1_conn>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1a_fbbtc>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1a_fbbtc>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1a_fbbtc>	<http://www.w3.org/2004/02/skos/core#definition>	"Weighted score of a DESI indicator" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1a_fbbtc>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_desi_1a_fbbtc" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1a_fbbtc>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"weighted score (0 to 100)" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1a_fbbtc>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1b_fbbc>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1b_fbbc>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1b_fbbc>	<http://www.w3.org/2004/02/skos/core#definition>	"Weighted score of a DESI indicator" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1b_fbbc>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_desi_1b_fbbc" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1b_fbbc>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"weighted score (0 to 100)" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1b_fbbc>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1c_mbb>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1c_mbb>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1c_mbb>	<http://www.w3.org/2004/02/skos/core#definition>	"Weighted score of a DESI indicator" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1c_mbb>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_desi_1c_mbb" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1c_mbb>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"weighted score (0 to 100)" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1c_mbb>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1d_bbpi>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1d_bbpi>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1d_bbpi>	<http://www.w3.org/2004/02/skos/core#definition>	"Weighted score of a DESI indicator" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1d_bbpi>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_desi_1d_bbpi" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1d_bbpi>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"weighted score (0 to 100)" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1d_bbpi>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_2_hc>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_2_hc>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_2_hc>	<http://www.w3.org/2004/02/skos/core#definition>	"Weighted score of the DESI Sub-dimension" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_2_hc>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_desi_2_hc" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_2_hc>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"weighted score (0 to 100)" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_2_hc>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_2a_bsu>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_2a_bsu>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_2a_bsu>	<http://www.w3.org/2004/02/skos/core#definition>	"Weighted score of a DESI indicator" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_2a_bsu>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_desi_2a_bsu" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_2a_bsu>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"weighted score (0 to 100)" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_2a_bsu>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_2b_asd>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_2b_asd>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_2b_asd>	<http://www.w3.org/2004/02/skos/core#definition>	"Weighted score of a DESI indicator" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_2b_asd>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_desi_2b_asd" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_2b_asd>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"weighted score (0 to 100)" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_2b_asd>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_3_ui>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_3_ui>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_3_ui>	<http://www.w3.org/2004/02/skos/core#definition>	"Weighted score of the DESI Sub-dimension" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_3_ui>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_desi_3_ui" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_3_ui>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"weighted score (0 to 100)" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_3_ui>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_3a_ui>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_3a_ui>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_3a_ui>	<http://www.w3.org/2004/02/skos/core#definition>	"Weighted score of a DESI indicator" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_3a_ui>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_desi_3a_ui" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_3a_ui>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"weighted score (0 to 100)" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_3a_ui>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_3b_acton>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_3b_acton>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_3b_acton>	<http://www.w3.org/2004/02/skos/core#definition>	"Weighted score of a DESI indicator" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_3b_acton>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_desi_3b_acton" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_3b_acton>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"weighted score (0 to 100)" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_3b_acton>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_3c_trans>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_3c_trans>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_3c_trans>	<http://www.w3.org/2004/02/skos/core#definition>	"Weighted score of a DESI indicator" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_3c_trans>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_desi_3c_trans" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_3c_trans>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"weighted score (0 to 100)" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_3c_trans>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_4_idt>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_4_idt>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_4_idt>	<http://www.w3.org/2004/02/skos/core#definition>	"Weighted score of the DESI Sub-dimension" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_4_idt>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_desi_4_idt" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_4_idt>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"weighted score (0 to 100)" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_4_idt>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_4a_bd>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_4a_bd>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_4a_bd>	<http://www.w3.org/2004/02/skos/core#definition>	"Weighted score of a DESI indicator" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_4a_bd>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_desi_4a_bd" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_4a_bd>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"weighted score (0 to 100)" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_4a_bd>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_4b_ecomm>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_4b_ecomm>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_4b_ecomm>	<http://www.w3.org/2004/02/skos/core#definition>	"Weighted score of a DESI indicator" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_4b_ecomm>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_desi_4b_ecomm" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_4b_ecomm>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"weighted score (0 to 100)" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_4b_ecomm>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_5_dps>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_5_dps>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_5_dps>	<http://www.w3.org/2004/02/skos/core#definition>	"Weighted score of the DESI Sub-dimension" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_5_dps>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_desi_5_dps" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_5_dps>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"weighted score (0 to 100)" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_5_dps>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_5a_egov>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_5a_egov>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_5a_egov>	<http://www.w3.org/2004/02/skos/core#definition>	"Weighted score of a DESI indicator" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_5a_egov>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_desi_5a_egov" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_5a_egov>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"weighted score (0 to 100)" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_5a_egov>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_sliders>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_sliders>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_sliders>	<http://www.w3.org/2004/02/skos/core#definition>	"Weighted score of the DESI dimension" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_sliders>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_desi_sliders" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_sliders>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"weighted score (0 to 100)" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_sliders>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_digskillindex>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_digskillindex>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_digskillindex>	<http://www.w3.org/2004/02/skos/core#altLabel>	"% of internet users" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_digskillindex>	<http://www.w3.org/2004/02/skos/core#definition>	"Individuals having used internet during last 3 months" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_digskillindex>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_digskillindex" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_digskillindex>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Percentage of internet users" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_digskillindex>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_dispo_income>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_dispo_income>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_dispo_income>	<http://www.w3.org/2004/02/skos/core#altLabel>	"% of disposable income" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_dispo_income>	<http://www.w3.org/2004/02/skos/core#definition>	"Real adjusted gross disposable income of households per capita, extracted from  Eurostat table  <a href=\"http://ec.europa.eu/eurostat/tgm/table.do?tab=table&plugin=1&language=en&pcode=tec00113\">tec00113</a>." .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_dispo_income>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_dispo_income" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_dispo_income>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Percentage of disposable income" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_dispo_income>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_e_cc>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_e_cc>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_e_cc>	<http://www.w3.org/2004/02/skos/core#altLabel>	"% of enterprises purchasing Cloud Computing services" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_e_cc>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_e_cc" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_e_cc>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"percentage of enterprises purchasing Cloud Computing services" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_e_cc>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_e_gov_ke>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_e_gov_ke>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_e_gov_ke>	<http://www.w3.org/2004/02/skos/core#definition>	"Weighted score of the use of key enablers" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_e_gov_ke>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_e_gov_ke" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_e_gov_ke>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"weighted score" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_e_gov_ke>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_e_gov_oa>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_e_gov_oa>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_e_gov_oa>	<http://www.w3.org/2004/02/skos/core#definition>	"Weighted score of the service availability" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_e_gov_oa>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_e_gov_oa" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_e_gov_oa>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"weighted score" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_e_gov_oa>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ebhh_tv>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ebhh_tv>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ebhh_tv>	<http://www.w3.org/2004/02/skos/core#altLabel>	"% of housaholds having a TV" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ebhh_tv>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_ebhh_tv" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ebhh_tv>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Percentage of housaholds having a TV" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ebhh_tv>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_edigint2015>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_edigint2015>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_edigint2015>	<http://www.w3.org/2000/01/rdf-schema#seeAlso>	<http://eurostat.linked-statistics.org/dic/unit#PC_ENT> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_edigint2015>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Percentage of enterprises (all sectors)" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_edigint2015>	<http://www.w3.org/2004/02/skos/core#definition>	"Enterprises with 10 or more persons employed. All manufacturing and service sectors, excluding the financial sector. (breakdown code 10_C10_S951_XK)" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_edigint2015>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_edigint2015" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_edigint2015>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Percentage of enterprises (all sectors)" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_edigint2015>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_emp>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_emp>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_emp>	<http://www.w3.org/2004/02/skos/core#altLabel>	"% of total employment" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_emp>	<http://www.w3.org/2004/02/skos/core#definition>	"Total employement in enterprises with 10 or more persons employed, all manufacturing and service sectors, excluding the financial sector. Based on the average number of employed persons during the previous year." .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_emp>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_emp" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_emp>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Percentage of total employment" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_emp>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_emp_pmd>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_emp_pmd>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_emp_pmd>	<http://www.w3.org/2004/02/skos/core#altLabel>	"% of employees working in enterprises which provide mobile devices" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_emp_pmd>	<http://www.w3.org/2004/02/skos/core#definition>	"Total employement in enterprises which provide portable devices to some employees, with 10 or more persons employed, all manufacturing and service sectors, excluding the financial sector. Based on the average number of employed persons during the previous year." .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_emp_pmd>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_emp_pmd" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_emp_pmd>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Percentage of employees working in enterprises which provide mobile devices" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_emp_pmd>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ent>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ent>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ent>	<http://www.w3.org/2000/01/rdf-schema#seeAlso>	<http://eurostat.linked-statistics.org/dic/unit#PC_ENT> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ent>	<http://www.w3.org/2004/02/skos/core#altLabel>	"% of enterprises" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ent>	<http://www.w3.org/2004/02/skos/core#definition>	"Enterprises with 10 or more persons employed. All manufacturing and service sectors, excluding the financial sector. Breaks in series because until 2008 economic activities according to NACE Rev 1.1 and from 2009 data are based on NACE Rev.2. Since 2010 include also sector S 95.1-Repair of computers and communication equipment." .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ent>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_ent" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ent>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Percentage of enterprises" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ent>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ent_aesell>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ent_aesell>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ent_aesell>	<http://www.w3.org/2004/02/skos/core#altLabel>	"% of enterprises receiving e-commerce orders" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ent_aesell>	<http://www.w3.org/2004/02/skos/core#definition>	"Percentage of enterprises receiving e-commerce orders over the last calendar year" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ent_aesell>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_ent_aesell" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ent_aesell>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Percentage of enterprises receiving e-commerce orders over the last calendar year" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ent_aesell>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ent_awsell>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ent_awsell>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ent_awsell>	<http://www.w3.org/2004/02/skos/core#altLabel>	"% of enterprises with web sales" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ent_awsell>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_ent_awsell" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ent_awsell>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Percentage of enterprises with web sales" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ent_awsell>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ent_itsprcr2>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ent_itsprcr2>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ent_itsprcr2>	<http://www.w3.org/2004/02/skos/core#altLabel>	"% of enterprises which recruited/tried to recruit ICT specialist" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ent_itsprcr2>	<http://www.w3.org/2004/02/skos/core#definition>	"Limited comparability between 2007 and 2012 results.  Enterprises with 10 or more persons employed. All manufacturing and service sectors, excluding the financial sector. Breaks in series because until 2008 economic activities according to NACE Rev 1.1 and from 2009 data are based on NACE Rev.2. Since 2010 include also sector S 95.1-Repair of computers and communication equipment." .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ent_itsprcr2>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_ent_itsprcr2" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ent_itsprcr2>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Percentage of enterprises which recruited/tried to recruit personnel for jobs requiring ICT specialist skills" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ent_itsprcr2>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_epsi_score>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_epsi_score>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_epsi_score>	<http://www.w3.org/2004/02/skos/core#altLabel>	"PSI points in %" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_epsi_score>	<http://www.w3.org/2004/02/skos/core#definition>	"Can range from 0 to 100 for each of the 7 sub-dimensions. The overall score is the sum of the sub-dimension scores and can range from 0 to 700." .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_epsi_score>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_epsi_score" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_epsi_score>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"PSI scoreboard points in %" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_epsi_score>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_exp>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_exp>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_exp>	<http://www.w3.org/2004/02/skos/core#altLabel>	"% of total export" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_exp>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_exp" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_exp>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Percentage of total export" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_exp>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_fp7ict_ec_funding>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_fp7ict_ec_funding>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_fp7ict_ec_funding>	<http://www.w3.org/2004/02/skos/core#altLabel>	"% of EC funding" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_fp7ict_ec_funding>	<http://www.w3.org/2004/02/skos/core#definition>	"Value of European Commission funding committed through grant agreements signed, during the reference year, with participants in ICT research projects under the EU's Seventh Framework Programme (FP7). Projects under negotiation are not included." .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_fp7ict_ec_funding>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_fp7ict_ec_funding" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_fp7ict_ec_funding>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Percentage of EC funding" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_fp7ict_ec_funding>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_fp7ict_particip>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_fp7ict_particip>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_fp7ict_particip>	<http://www.w3.org/2004/02/skos/core#altLabel>	"% of participations" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_fp7ict_particip>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_fp7ict_particip" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_fp7ict_particip>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Percentage of participations" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_fp7ict_particip>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_gbaord>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_gbaord>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_gbaord>	<http://www.w3.org/2004/02/skos/core#altLabel>	"% of public R&D expediture" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_gbaord>	<http://www.w3.org/2004/02/skos/core#definition>	"GBAORD - Government budget appropriations or outlays for research and development" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_gbaord>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_gbaord" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_gbaord>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Percentage of public R&D expediture" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_gbaord>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_gp>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_gp>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_gp>	<http://www.w3.org/2004/02/skos/core#altLabel>	"% of general practitioners" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_gp>	<http://www.w3.org/2004/02/skos/core#definition>	"Percentage of general practitioners, based on valid answers." .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_gp>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_gp" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_gp>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Percentage of general practitioners" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_gp>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_grad>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_grad>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_grad>	<http://www.w3.org/2004/02/skos/core#altLabel>	"% of graduates" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_grad>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_grad" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_grad>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Percentage of graduates" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_grad>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_grants>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_grants>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_grants>	<http://www.w3.org/2004/02/skos/core#altLabel>	"% of grants" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_grants>	<http://www.w3.org/2004/02/skos/core#definition>	"Percentage of grants agreements signed during the reference year" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_grants>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_grants" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_grants>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Percentage of grants" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_grants>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_gva>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_gva>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_gva>	<http://www.w3.org/2004/02/skos/core#altLabel>	"% of ICT Gross Value Added" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_gva>	<http://www.w3.org/2004/02/skos/core#definition>	"Gross Value Added of the ICT sector estimated by JRC-IPTS PREDICT2 project, based on Eurostat data." .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_gva>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_gva" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_gva>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Percentage of ICT Gross Value Added" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_gva>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_h2020_ec_funding>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_h2020_ec_funding>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_h2020_ec_funding>	<http://www.w3.org/2004/02/skos/core#altLabel>	"% of EC funding" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_h2020_ec_funding>	<http://www.w3.org/2004/02/skos/core#definition>	"Value of European Commission funding committed through grant agreements signed, during the reference year, with participants in ICT research projects in H2020. Projects under negotiation are not included." .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_h2020_ec_funding>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_h2020_ec_funding" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_h2020_ec_funding>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Percentage of EC funding" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_h2020_ec_funding>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_h2020_particip>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_h2020_particip>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_h2020_particip>	<http://www.w3.org/2004/02/skos/core#altLabel>	"% of participations" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_h2020_particip>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_h2020_particip" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_h2020_particip>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Percentage of participations" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_h2020_particip>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_hh>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_hh>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_hh>	<http://www.w3.org/2000/01/rdf-schema#seeAlso>	<http://eurostat.linked-statistics.org/dic/unit#PC_HH> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_hh>	<http://www.w3.org/2004/02/skos/core#altLabel>	"% of households" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_hh>	<http://www.w3.org/2004/02/skos/core#definition>	"Households with at least one member aged 16-74. " .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_hh>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_hh" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_hh>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Percentage of households" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_hh>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_hh_all>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_hh_all>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_hh_all>	<http://www.w3.org/2004/02/skos/core#altLabel>	"% of households" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_hh_all>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_hh_all" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_hh_all>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Percentage of households" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_hh_all>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_i-dsk-c>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_i-dsk-c>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_i-dsk-c>	<http://www.w3.org/2004/02/skos/core#altLabel>	"% of internet users" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_i-dsk-c>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_i-dsk-c" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_i-dsk-c>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"percentage of internet users" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_i-dsk-c>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_i-dsk-i>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_i-dsk-i>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_i-dsk-i>	<http://www.w3.org/2004/02/skos/core#altLabel>	"% of internet users" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_i-dsk-i>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_i-dsk-i" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_i-dsk-i>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"percentage of internet users" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_i-dsk-i>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_i-dsk-ind>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_i-dsk-ind>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_i-dsk-ind>	<http://www.w3.org/2004/02/skos/core#altLabel>	"% of individuals" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_i-dsk-ind>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_i-dsk-ind" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_i-dsk-ind>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"percentage of individuals" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_i-dsk-ind>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_i-dsk-iu3>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_i-dsk-iu3>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_i-dsk-iu3>	<http://www.w3.org/2004/02/skos/core#altLabel>	"% of internet users" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_i-dsk-iu3>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_i-dsk-iu3" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_i-dsk-iu3>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"percentage of internet users" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_i-dsk-iu3>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_i-dsk-ps>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_i-dsk-ps>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_i-dsk-ps>	<http://www.w3.org/2004/02/skos/core#altLabel>	"% of internet users" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_i-dsk-ps>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_i-dsk-ps" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_i-dsk-ps>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"percentage of internet users" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_i-dsk-ps>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_i-dsk-s>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_i-dsk-s>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_i-dsk-s>	<http://www.w3.org/2004/02/skos/core#altLabel>	"% of internet users" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_i-dsk-s>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_i-dsk-s" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_i-dsk-s>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"percentage of internet users" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_i-dsk-s>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ict_ent>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ict_ent>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ict_ent>	<http://www.w3.org/2004/02/skos/core#altLabel>	"% of ICT sector enterprises" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ict_ent>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_ict_ent" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ict_ent>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Percentage of ICT sector enterprises" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ict_ent>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ict_spec>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ict_spec>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ict_spec>	<http://www.w3.org/2004/02/skos/core#altLabel>	"% of ICT specialists" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ict_spec>	<http://www.w3.org/2004/02/skos/core#definition>	"Percentage of ICT specialists" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ict_spec>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_ict_spec" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ict_spec>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Percentage of ICT specialists" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ict_spec>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_igov12nrt>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_igov12nrt>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_igov12nrt>	<http://www.w3.org/2004/02/skos/core#altLabel>	"% of individuals who need to submit official forms" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_igov12nrt>	<http://www.w3.org/2004/02/skos/core#definition>	"This denominator is derived from two questions: one counting people who submitted forms online and another one about reasons for not doing such online submission because they did not have to submit official forms at all." .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_igov12nrt>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_igov12nrt" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_igov12nrt>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"% of individuals who need to submit official forms to administrative authorities" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_igov12nrt>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_imp>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_imp>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_imp>	<http://www.w3.org/2004/02/skos/core#altLabel>	"% of total import" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_imp>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_imp" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_imp>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Percentage of total import" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_imp>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_income>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_income>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_income>	<http://www.w3.org/2004/02/skos/core#altLabel>	"% of icnome" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_income>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_income" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_income>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Percentage of income" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_income>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ind>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ind>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ind>	<http://www.w3.org/2000/01/rdf-schema#seeAlso>	<http://eurostat.linked-statistics.org/dic/unit#PC_IND> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ind>	<http://www.w3.org/2004/02/skos/core#altLabel>	"% of individuals" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ind>	<http://www.w3.org/2004/02/skos/core#definition>	"Individuals aged 16-74" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ind>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_ind" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ind>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Percentage of individuals" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ind>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ind_blt12>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ind_blt12>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ind_blt12>	<http://www.w3.org/2004/02/skos/core#altLabel>	"% of individuals buying online" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ind_blt12>	<http://www.w3.org/2004/02/skos/core#definition>	"Percentage of individuals who ordered goods or services, over the Internet, for private use, in the last year" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ind_blt12>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_ind_blt12" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ind_blt12>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Percentage of individuals who ordered goods or services over the Internet" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ind_blt12>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ind_emp>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ind_emp>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ind_emp>	<http://www.w3.org/2004/02/skos/core#altLabel>	"% of total employment" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ind_emp>	<http://www.w3.org/2004/02/skos/core#definition>	"Total number of Persons in employment as defined for the Labour Force Survey" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ind_emp>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_ind_emp" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ind_emp>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Percentage of total employment" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ind_emp>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ind_fem_emp>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ind_fem_emp>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ind_fem_emp>	<http://www.w3.org/2004/02/skos/core#altLabel>	"% of female employment" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ind_fem_emp>	<http://www.w3.org/2004/02/skos/core#definition>	"Total number of Female in employment" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ind_fem_emp>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_ind_fem_emp" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ind_fem_emp>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Percentage of females employment" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ind_fem_emp>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ind_form>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ind_form>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ind_form>	<http://www.w3.org/2004/02/skos/core#altLabel>	"% of internet users (last year) who need to submit filled form" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ind_form>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_ind_form" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ind_form>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Percentage of individuals who used Internet (last year) and need to submit filled forms" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ind_form>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ind_igov12nrt>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ind_igov12nrt>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ind_igov12nrt>	<http://www.w3.org/2004/02/skos/core#altLabel>	"% of individuals who need to submit official forms" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ind_igov12nrt>	<http://www.w3.org/2004/02/skos/core#definition>	"This denominator is derived from two questions: one counting people who submitted forms online and another one about reasons for not doing such online submission because they did not have to submit official forms at all." .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ind_igov12nrt>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_ind_igov12nrt" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ind_igov12nrt>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"% of individuals who need to submit official forms to administrative authorities" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ind_igov12nrt>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ind_ilt12>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ind_ilt12>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ind_ilt12>	<http://www.w3.org/2000/01/rdf-schema#seeAlso>	<http://eurostat.linked-statistics.org/dic/unit#PC_IND_ILT12> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ind_ilt12>	<http://www.w3.org/2004/02/skos/core#altLabel>	"% of internet users (last year)" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ind_ilt12>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_ind_ilt12" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ind_ilt12>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Percentage of individuals who used Internet within the last year" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ind_ilt12>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ind_iu3>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ind_iu3>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ind_iu3>	<http://www.w3.org/2000/01/rdf-schema#seeAlso>	<http://eurostat.linked-statistics.org/dic/unit#PC_IND_IU3> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ind_iu3>	<http://www.w3.org/2004/02/skos/core#altLabel>	"% of internet users (last 3 months)" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ind_iu3>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_ind_iu3" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ind_iu3>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Percentage of individuals who used Internet in the last 3 months" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ind_iu3>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_lines>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_lines>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_lines>	<http://www.w3.org/2004/02/skos/core#altLabel>	"% of fixed broadband subscriptions" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_lines>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_lines" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_lines>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Percentage of fixed broadband subscriptions" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_lines>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_male_earning>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_male_earning>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_male_earning>	<http://www.w3.org/2000/01/rdf-schema#seeAlso>	<Eurostat\u0020-\u0020Structure\u0020of\u0020Earnings\u0020Survey\u0020(SES).\u0020https://ec.europa.eu/eurostat/en/web/products-datasets/-/SDG_05_20> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_male_earning>	<http://www.w3.org/2004/02/skos/core#altLabel>	"% of average gross hourly earnings of men" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_male_earning>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_male_earning" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_male_earning>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Percentage of average gross hourly earnings of men" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_male_earning>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_nomspeed>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_nomspeed>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_nomspeed>	<http://www.w3.org/2004/02/skos/core#altLabel>	"% of the advertised Speed" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_nomspeed>	<http://www.w3.org/2004/02/skos/core#definition>	"The measurement of the actual Speed is compared with the Advertised download Speed as indicated in the offers subscribed by the sample of users." .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_nomspeed>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_nomspeed" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_nomspeed>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Percentage of the advertised Speed" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_nomspeed>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_organisations>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_organisations>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_organisations>	<http://www.w3.org/2004/02/skos/core#altLabel>	"% of organisations" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_organisations>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_organisations" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_organisations>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Percentage of organizations" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_organisations>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_pop>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_pop>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_pop>	<http://www.w3.org/2000/01/rdf-schema#seeAlso>	<http://eurostat.linked-statistics.org/dic/unit#PC_POP> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_pop>	<http://www.w3.org/2004/02/skos/core#altLabel>	"% of total population" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_pop>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_pop" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_pop>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Percentage of total population" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_pop>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_posts>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_posts>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_posts>	<http://www.w3.org/2004/02/skos/core#altLabel>	"% of posts" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_posts>	<http://www.w3.org/2004/02/skos/core#definition>	"Percentage of posts in DG CONNECT." .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_posts>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_posts" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_posts>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Percentage of posts" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_posts>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_projects>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_projects>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_projects>	<http://www.w3.org/2004/02/skos/core#altLabel>	"% of projects" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_projects>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_projects" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_projects>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Percentage of projects" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_projects>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_pub_serv_for_citizen>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_pub_serv_for_citizen>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_pub_serv_for_citizen>	<http://www.w3.org/2004/02/skos/core#altLabel>	"% pub serv for citizen" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_pub_serv_for_citizen>	<http://www.w3.org/2004/02/skos/core#definition>	"Percentage of public services for citizens out of a basket of 12." .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_pub_serv_for_citizen>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_pub_serv_for_citizen" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_pub_serv_for_citizen>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Percentage  of public services for citizens" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_pub_serv_for_citizen>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_pub_serv_for_ent>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_pub_serv_for_ent>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_pub_serv_for_ent>	<http://www.w3.org/2004/02/skos/core#altLabel>	"% pub serv for ent" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_pub_serv_for_ent>	<http://www.w3.org/2004/02/skos/core#definition>	"Percentage of public services for enterprises out of a basket of 8." .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_pub_serv_for_ent>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_pub_serv_for_ent" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_pub_serv_for_ent>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Percentage  of public services for enterprises" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_pub_serv_for_ent>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_rural_pop>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_rural_pop>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_rural_pop>	<http://www.w3.org/2004/02/skos/core#altLabel>	"% of rural population" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_rural_pop>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_rural_pop" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_rural_pop>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Percentage of rural population" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_rural_pop>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_schools>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_schools>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_schools>	<http://www.w3.org/2004/02/skos/core#altLabel>	"% of schools" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_schools>	<http://www.w3.org/2004/02/skos/core#definition>	"Each school has an equal weight, independently of the number of students" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_schools>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_schools" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_schools>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Percentage of schools" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_schools>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_spectrum_assigned>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_spectrum_assigned>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_spectrum_assigned>	<http://www.w3.org/2004/02/skos/core#altLabel>	"% of harmonized spectrum assigned" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_spectrum_assigned>	<http://www.w3.org/2004/02/skos/core#definition>	"Percentage of harmonized spectrum assigned, without consideration of the not assigned due to lack of demand. " .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_spectrum_assigned>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_spectrum_assigned" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_spectrum_assigned>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Percentage of harmonized spectrum assigned" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_spectrum_assigned>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_spectrum_wbb>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_spectrum_wbb>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_spectrum_wbb>	<http://www.w3.org/2004/02/skos/core#altLabel>	"MHz assigned " .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_spectrum_wbb>	<http://www.w3.org/2004/02/skos/core#definition>	"Assigned number of MHz" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_spectrum_wbb>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_spectrum_wbb" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_spectrum_wbb>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"MHz assigned " .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_spectrum_wbb>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_subs>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_subs>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_subs>	<http://www.w3.org/2004/02/skos/core#altLabel>	"% of subscribers" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_subs>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_subs" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_subs>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Percentage of subscribers" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_subs>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_tel_rev>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_tel_rev>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_tel_rev>	<http://www.w3.org/2004/02/skos/core#altLabel>	"% of revenue of the Electronic Communication Sector" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_tel_rev>	<http://www.w3.org/2004/02/skos/core#definition>	"Total includes wholesale and retail revenues from electronic communications perceived in the reference year by all telecom operators (VAT excluded)." .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_tel_rev>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_tel_rev" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_tel_rev>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Percentage of total revenue of the Electronic Communication Sector" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_tel_rev>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_total_cost>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_total_cost>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_total_cost>	<http://www.w3.org/2004/02/skos/core#altLabel>	"% of total cost" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_total_cost>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_total_cost" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_total_cost>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Percentage of total cost" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_total_cost>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_trp_commit>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_trp_commit>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_trp_commit>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Share of EU R&I committed funding" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_trp_commit>	<http://www.w3.org/2004/02/skos/core#definition>	"Share of credit commitments for EU Research and Innovation programs" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_trp_commit>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_trp_commit" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_trp_commit>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Percentage of EU R&I committed funding" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_trp_commit>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_turn>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_turn>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_turn>	<http://www.w3.org/2000/01/rdf-schema#seeAlso>	<http://eurostat.linked-statistics.org/dic/unit#PC_TURN> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_turn>	<http://www.w3.org/2004/02/skos/core#altLabel>	"% of turnover" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_turn>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_turn" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_turn>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Percentage of total turnover" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_turn>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_websites>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_websites>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_websites>	<http://www.w3.org/2004/02/skos/core#altLabel>	"% of websites" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_websites>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_websites" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_websites>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Percentage of websites" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_websites>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/psi_score>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/psi_score>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/psi_score>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Score (0 to 700)" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/psi_score>	<http://www.w3.org/2004/02/skos/core#definition>	"The score of the country, from a minimum of 0 to a maximum of 700." .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/psi_score>	<http://www.w3.org/2004/02/skos/core#notation>	"psi_score" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/psi_score>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Score (0 to 700)" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/psi_score>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/subs_per_100_pop>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/subs_per_100_pop>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/subs_per_100_pop>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Subscriptions per 100 people" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/subs_per_100_pop>	<http://www.w3.org/2004/02/skos/core#definition>	"Number of subscriptions every 100 people. Depending of the indicator, subscriptions can be fixed lines or mobile active SIM cards." .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/subs_per_100_pop>	<http://www.w3.org/2004/02/skos/core#notation>	"subs_per_100_pop" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/subs_per_100_pop>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Number of subscriptions per 100 people" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/subs_per_100_pop>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/terabite>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/terabite>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/terabite>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Terabits x month" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/terabite>	<http://www.w3.org/2004/02/skos/core#definition>	"Terabits x month" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/terabite>	<http://www.w3.org/2004/02/skos/core#notation>	"terabite" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/terabite>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Terabits x month" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/terabite>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/th_ind>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/th_ind>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/th_ind>	<http://www.w3.org/2004/02/skos/core#altLabel>	"thousand of individuals " .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/th_ind>	<http://www.w3.org/2004/02/skos/core#definition>	"thousand of individuals aged 16-74" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/th_ind>	<http://www.w3.org/2004/02/skos/core#notation>	"th_ind" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/th_ind>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"thousand of individuals " .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/th_ind>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/thousand_euro>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/thousand_euro>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/thousand_euro>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Thousand Euro" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/thousand_euro>	<http://www.w3.org/2004/02/skos/core#notation>	"thousand_euro" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/thousand_euro>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Thousand Euro" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/thousand_euro>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/thousand_hh>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/thousand_hh>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/thousand_hh>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Thousand of households" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/thousand_hh>	<http://www.w3.org/2004/02/skos/core#notation>	"thousand_hh" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/thousand_hh>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Thousand of households" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/thousand_hh>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/thousand_ind>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/thousand_ind>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/thousand_ind>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Thousand of individuals " .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/thousand_ind>	<http://www.w3.org/2004/02/skos/core#notation>	"thousand_ind" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/thousand_ind>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Thousand of individuals " .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/thousand_ind>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/wid_score>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/wid_score>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/wid_score>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Score (0 to 1)" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/wid_score>	<http://www.w3.org/2004/02/skos/core#definition>	"Women in Digital Score" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/wid_score>	<http://www.w3.org/2004/02/skos/core#notation>	"wid_score" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/wid_score>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Score (0 to 1)" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/wid_score>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://purl.org/dc/terms/modified>	"2020-06-11T11:23:51"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://purl.org/linked-data/sdmx#CodeList> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2000/01/rdf-schema#isDefinedBy>	<http://digital-agenda-data.eu/> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2000/01/rdf-schema#seeAlso>	<http://eurostat.linked-statistics.org/dic/unit> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/corehours_million> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/cum_nr_artic> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/cum_nr_pat> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/cum_nr_pub> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/cum_x10mil_ecfund> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/days> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/desi_score> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/egov_score> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/epsiscore_pts> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/euro> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/euro_x_hab> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/euro_x_million_gbaord> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/euro_x_million_of_gdp> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/eurocent> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/gbpskm> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/habitants> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/hhi> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/ia12ave> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/median_euro_ppp> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/mhz> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/million_euro> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/minimum_euro_ppp> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/mio_hh> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/mio_ind> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nb_channel> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nb_empl> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nb_ent> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nb_infr_case> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nb_vod_service> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nb_x1000inh_20_29> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nb_x100stud> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nbr_lines> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nbr_organisations> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nbr_participations> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nbr_subs> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/no_posts> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nr_artic> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nr_pat> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nr_pub> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nr_x10mil_ecfund> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/od_score> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/old_pc_desi_5b_ehs_old> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_adm_cinema> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_bb_lines> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1_conn> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1a_fbbtc> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1b_fbbc> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1c_mbb> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_1d_bbpi> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_2_hc> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_2a_bsu> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_2b_asd> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_3_ui> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_3a_ui> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_3b_acton> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_3c_trans> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_4_idt> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_4a_bd> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_4b_ecomm> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_5_dps> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_5a_egov> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi_sliders> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_digskillindex> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_dispo_income> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_e_cc> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_e_gov_ke> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_e_gov_oa> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ebhh_tv> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_edigint2015> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_emp> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_emp_pmd> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ent> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ent_aesell> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ent_awsell> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ent_itsprcr2> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_epsi_score> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_exp> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_fp7ict_ec_funding> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_fp7ict_particip> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_gbaord> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_gp> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_grad> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_grants> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_gva> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_h2020_ec_funding> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_h2020_particip> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_hh> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_hh_all> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_i-dsk-c> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_i-dsk-i> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_i-dsk-ind> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_i-dsk-iu3> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_i-dsk-ps> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_i-dsk-s> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ict_ent> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ict_spec> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_igov12nrt> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_imp> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_income> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ind> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ind_blt12> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ind_emp> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ind_fem_emp> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ind_form> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ind_igov12nrt> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ind_ilt12> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_ind_iu3> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_lines> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_male_earning> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_nomspeed> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_organisations> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_pop> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_posts> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_projects> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_pub_serv_for_citizen> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_pub_serv_for_ent> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_rural_pop> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_schools> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_spectrum_assigned> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_spectrum_wbb> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_subs> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_tel_rev> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_total_cost> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_trp_commit> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_turn> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_websites> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/psi_score> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/subs_per_100_pop> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/terabite> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/th_ind> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/thousand_euro> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/thousand_hh> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/thousand_ind> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/wid_score> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#inScheme>	<http://semantic.digital-agenda-data.eu/def/scheme> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#notation>	"CL_UNIT_MEASURE" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Code list for units of measure used by Digital Agenda Scoreboard" .
