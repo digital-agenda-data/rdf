@@ -714,6 +714,18 @@
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/digskill_level/dsk_x>	<http://semantic.digital-agenda-data.eu/def/property/order>	"7" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/digskill_level/dsk_x>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/BreakdownToGroupMembership> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/digskill_level/dsk_x>	<http://www.w3.org/2000/01/rdf-schema#label>	"digskill_level" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_1_uc/e_gov_1a_uc_oa>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_1_uc> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_1_uc/e_gov_1a_uc_oa>	<http://semantic.digital-agenda-data.eu/def/property/order>	"1" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_1_uc/e_gov_1a_uc_oa>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/BreakdownToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_1_uc/e_gov_1a_uc_oa>	<http://www.w3.org/2000/01/rdf-schema#label>	"e_gov_1_uc" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_1_uc/e_gov_1b_uc_mf>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_1_uc> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_1_uc/e_gov_1b_uc_mf>	<http://semantic.digital-agenda-data.eu/def/property/order>	"2" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_1_uc/e_gov_1b_uc_mf>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/BreakdownToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_1_uc/e_gov_1b_uc_mf>	<http://www.w3.org/2000/01/rdf-schema#label>	"e_gov_1_uc" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_1_uc/e_gov_1c_uc_us>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_1_uc> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_1_uc/e_gov_1c_uc_us>	<http://semantic.digital-agenda-data.eu/def/property/order>	"3" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_1_uc/e_gov_1c_uc_us>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/BreakdownToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_1_uc/e_gov_1c_uc_us>	<http://www.w3.org/2000/01/rdf-schema#label>	"e_gov_1_uc" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_1_ucg/e_gov_1a_ucg_oa>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_1_ucg> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_1_ucg/e_gov_1a_ucg_oa>	<http://semantic.digital-agenda-data.eu/def/property/order>	"1" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_1_ucg/e_gov_1a_ucg_oa>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/BreakdownToGroupMembership> .
@@ -746,6 +758,22 @@
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_2_tg/e_gov_2c_tg_pd>	<http://semantic.digital-agenda-data.eu/def/property/order>	"3" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_2_tg/e_gov_2c_tg_pd>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/BreakdownToGroupMembership> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_2_tg/e_gov_2c_tg_pd>	<http://www.w3.org/2000/01/rdf-schema#label>	"e_gov_2_tg" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_2_tr/e_gov_2a_tr_sd>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_2_tr> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_2_tr/e_gov_2a_tr_sd>	<http://semantic.digital-agenda-data.eu/def/property/order>	"1" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_2_tr/e_gov_2a_tr_sd>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/BreakdownToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_2_tr/e_gov_2a_tr_sd>	<http://www.w3.org/2000/01/rdf-schema#label>	"e_gov_2_tr" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_2_tr/e_gov_2c_tr_pd>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_2_tr> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_2_tr/e_gov_2c_tr_pd>	<http://semantic.digital-agenda-data.eu/def/property/order>	"2" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_2_tr/e_gov_2c_tr_pd>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/BreakdownToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_2_tr/e_gov_2c_tr_pd>	<http://www.w3.org/2000/01/rdf-schema#label>	"e_gov_2_tr" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_2_tr/e_gov_2c_tr_sd>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_2_tr> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_2_tr/e_gov_2c_tr_sd>	<http://semantic.digital-agenda-data.eu/def/property/order>	"3" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_2_tr/e_gov_2c_tr_sd>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/BreakdownToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_2_tr/e_gov_2c_tr_sd>	<http://www.w3.org/2000/01/rdf-schema#label>	"e_gov_2_tr" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_2_tr/e_gov_2x_tr_po>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_2_tr> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_2_tr/e_gov_2x_tr_po>	<http://semantic.digital-agenda-data.eu/def/property/order>	"4" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_2_tr/e_gov_2x_tr_po>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/BreakdownToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_2_tr/e_gov_2x_tr_po>	<http://www.w3.org/2000/01/rdf-schema#label>	"e_gov_2_tr" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_3_cm/e_gov_3a_cm_oa>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_3_cm> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_3_cm/e_gov_3a_cm_oa>	<http://semantic.digital-agenda-data.eu/def/property/order>	"1" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_3_cm/e_gov_3a_cm_oa>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/BreakdownToGroupMembership> .
@@ -770,6 +798,22 @@
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_3_cm/e_gov_3f_cm_su>	<http://semantic.digital-agenda-data.eu/def/property/order>	"6" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_3_cm/e_gov_3f_cm_su>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/BreakdownToGroupMembership> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_3_cm/e_gov_3f_cm_su>	<http://www.w3.org/2000/01/rdf-schema#label>	"e_gov_3_cm" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_3_ke/e_gov_3a_ke_eid>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_3_ke> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_3_ke/e_gov_3a_ke_eid>	<http://semantic.digital-agenda-data.eu/def/property/order>	"1" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_3_ke/e_gov_3a_ke_eid>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/BreakdownToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_3_ke/e_gov_3a_ke_eid>	<http://www.w3.org/2000/01/rdf-schema#label>	"e_gov_3_ke" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_3_ke/e_gov_3b_ke_edoc>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_3_ke> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_3_ke/e_gov_3b_ke_edoc>	<http://semantic.digital-agenda-data.eu/def/property/order>	"2" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_3_ke/e_gov_3b_ke_edoc>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/BreakdownToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_3_ke/e_gov_3b_ke_edoc>	<http://www.w3.org/2000/01/rdf-schema#label>	"e_gov_3_ke" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_3_ke/e_gov_3c_ke_as>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_3_ke> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_3_ke/e_gov_3c_ke_as>	<http://semantic.digital-agenda-data.eu/def/property/order>	"3" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_3_ke/e_gov_3c_ke_as>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/BreakdownToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_3_ke/e_gov_3c_ke_as>	<http://www.w3.org/2000/01/rdf-schema#label>	"e_gov_3_ke" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_3_ke/e_gov_3d_ke_dp>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_3_ke> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_3_ke/e_gov_3d_ke_dp>	<http://semantic.digital-agenda-data.eu/def/property/order>	"4" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_3_ke/e_gov_3d_ke_dp>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/BreakdownToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_3_ke/e_gov_3d_ke_dp>	<http://www.w3.org/2000/01/rdf-schema#label>	"e_gov_3_ke" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_4_bm/e_gov_4a_bm_oa>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_4_bm> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_4_bm/e_gov_4a_bm_oa>	<http://semantic.digital-agenda-data.eu/def/property/order>	"1" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_4_bm/e_gov_4a_bm_oa>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/BreakdownToGroupMembership> .
@@ -794,6 +838,22 @@
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_4_bm/e_gov_4f_bm_su>	<http://semantic.digital-agenda-data.eu/def/property/order>	"6" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_4_bm/e_gov_4f_bm_su>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/BreakdownToGroupMembership> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_4_bm/e_gov_4f_bm_su>	<http://www.w3.org/2000/01/rdf-schema#label>	"e_gov_4_bm" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_4_cb/e_gov_4a_cb_oa>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_4_cb> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_4_cb/e_gov_4a_cb_oa>	<http://semantic.digital-agenda-data.eu/def/property/order>	"1" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_4_cb/e_gov_4a_cb_oa>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/BreakdownToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_4_cb/e_gov_4a_cb_oa>	<http://www.w3.org/2000/01/rdf-schema#label>	"e_gov_4_cb" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_4_cb/e_gov_4b_cb_us>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_4_cb> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_4_cb/e_gov_4b_cb_us>	<http://semantic.digital-agenda-data.eu/def/property/order>	"2" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_4_cb/e_gov_4b_cb_us>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/BreakdownToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_4_cb/e_gov_4b_cb_us>	<http://www.w3.org/2000/01/rdf-schema#label>	"e_gov_4_cb" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_4_cb/e_gov_4c_cb_eid>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_4_cb> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_4_cb/e_gov_4c_cb_eid>	<http://semantic.digital-agenda-data.eu/def/property/order>	"3" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_4_cb/e_gov_4c_cb_eid>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/BreakdownToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_4_cb/e_gov_4c_cb_eid>	<http://www.w3.org/2000/01/rdf-schema#label>	"e_gov_4_cb" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_4_cb/e_gov_4d_cb_edoc>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_4_cb> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_4_cb/e_gov_4d_cb_edoc>	<http://semantic.digital-agenda-data.eu/def/property/order>	"4" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_4_cb/e_gov_4d_cb_edoc>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/BreakdownToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_4_cb/e_gov_4d_cb_edoc>	<http://www.w3.org/2000/01/rdf-schema#label>	"e_gov_4_cb" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_5_ke/e_gov_5a_ke_eid>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_5_ke> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_5_ke/e_gov_5a_ke_eid>	<http://semantic.digital-agenda-data.eu/def/property/order>	"1" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_5_ke/e_gov_5a_ke_eid>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/BreakdownToGroupMembership> .
@@ -850,6 +910,14 @@
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_events/e_gov_events_8>	<http://semantic.digital-agenda-data.eu/def/property/order>	"8" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_events/e_gov_events_8>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/BreakdownToGroupMembership> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_events/e_gov_events_8>	<http://www.w3.org/2000/01/rdf-schema#label>	"e_gov_events" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_scope/e_gov_scope_1>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_scope> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_scope/e_gov_scope_1>	<http://semantic.digital-agenda-data.eu/def/property/order>	"1" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_scope/e_gov_scope_1>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/BreakdownToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_scope/e_gov_scope_1>	<http://www.w3.org/2000/01/rdf-schema#label>	"e_gov_scope" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_scope/e_gov_scope_2>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_scope> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_scope/e_gov_scope_2>	<http://semantic.digital-agenda-data.eu/def/property/order>	"2" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_scope/e_gov_scope_2>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/BreakdownToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_scope/e_gov_scope_2>	<http://www.w3.org/2000/01/rdf-schema#label>	"e_gov_scope" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector/10_c10_18>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector/10_c10_18>	<http://semantic.digital-agenda-data.eu/def/property/order>	"1" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector/10_c10_18>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/BreakdownToGroupMembership> .
@@ -1791,7 +1859,7 @@
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/all_egov_le>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Breakdown> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/all_egov_le>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/all_egov_le>	<http://www.w3.org/2004/02/skos/core#altLabel>	"All Life Events" .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/all_egov_le>	<http://www.w3.org/2004/02/skos/core#definition>	"The following life events are included in the scope: Business Start Up, Losing and Finding a Job, Studying, Regular business operations, moving (General administration), Owning and driving a car, Starting a Small Claims procedure." .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/all_egov_le>	<http://www.w3.org/2004/02/skos/core#definition>	"The following life events are included in the scope: Regular business operations and Business Start-up, Moving, Owning and driving a car, Starting a small claims procedure, Family, Career and Studying" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/all_egov_le>	<http://www.w3.org/2004/02/skos/core#notation>	"all_egov_le" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/all_egov_le>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"All Life Events" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/all_egov_le>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/breakdown> .
@@ -2532,6 +2600,14 @@
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_di_vlo>	<http://www.w3.org/2004/02/skos/core#notation>	"e_di_vlo" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_di_vlo>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Very Low (0-3)" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_di_vlo>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/breakdown> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_1a_uc_oa>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_1_uc/e_gov_1a_uc_oa> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_1a_uc_oa>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Breakdown> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_1a_uc_oa>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_1a_uc_oa>	<http://www.w3.org/2004/02/skos/core#altLabel>	"1.1 User centricity - Online availability" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_1a_uc_oa>	<http://www.w3.org/2004/02/skos/core#definition>	"eGovernment services related to User centricity - Online availability" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_1a_uc_oa>	<http://www.w3.org/2004/02/skos/core#notation>	"e_gov_1a_uc_oa" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_1a_uc_oa>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"1.1 User centricity - Online availability" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_1a_uc_oa>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/breakdown> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_1a_ucg_oa>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_1_ucg/e_gov_1a_ucg_oa> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_1a_ucg_oa>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Breakdown> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_1a_ucg_oa>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
@@ -2540,6 +2616,14 @@
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_1a_ucg_oa>	<http://www.w3.org/2004/02/skos/core#notation>	"e_gov_1a_ucg_oa" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_1a_ucg_oa>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"1a User Centric Government - Online availability" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_1a_ucg_oa>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/breakdown> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_1b_uc_mf>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_1_uc/e_gov_1b_uc_mf> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_1b_uc_mf>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Breakdown> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_1b_uc_mf>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_1b_uc_mf>	<http://www.w3.org/2004/02/skos/core#altLabel>	"1.2 User centricity - Mobile friendliness" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_1b_uc_mf>	<http://www.w3.org/2004/02/skos/core#definition>	"eGovernment services related to User centricity - Mobile friendliness" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_1b_uc_mf>	<http://www.w3.org/2004/02/skos/core#notation>	"e_gov_1b_uc_mf" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_1b_uc_mf>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"1.2 User centricity - Mobile friendliness" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_1b_uc_mf>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/breakdown> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_1b_ucg_us>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_1_ucg/e_gov_1b_ucg_us> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_1b_ucg_us>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Breakdown> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_1b_ucg_us>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
@@ -2548,6 +2632,14 @@
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_1b_ucg_us>	<http://www.w3.org/2004/02/skos/core#notation>	"e_gov_1b_ucg_us" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_1b_ucg_us>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"1b User Centric Government - Usability" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_1b_ucg_us>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/breakdown> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_1c_uc_us>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_1_uc/e_gov_1c_uc_us> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_1c_uc_us>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Breakdown> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_1c_uc_us>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_1c_uc_us>	<http://www.w3.org/2004/02/skos/core#altLabel>	"1.3 User centricity - User support" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_1c_uc_us>	<http://www.w3.org/2004/02/skos/core#definition>	"eGovernment services related to User centricity - User support" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_1c_uc_us>	<http://www.w3.org/2004/02/skos/core#notation>	"e_gov_1c_uc_us" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_1c_uc_us>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"1.3 User centricity - User support" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_1c_uc_us>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/breakdown> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_1c_ucg_mf>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_1_ucg/e_gov_1c_ucg_mf> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_1c_ucg_mf>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Breakdown> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_1c_ucg_mf>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
@@ -2580,6 +2672,14 @@
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_2a_tg_sd>	<http://www.w3.org/2004/02/skos/core#notation>	"e_gov_2a_tg_sd" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_2a_tg_sd>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"2a Transparent Government - Service delivery" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_2a_tg_sd>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/breakdown> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_2a_tr_sd>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_2_tr/e_gov_2a_tr_sd> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_2a_tr_sd>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Breakdown> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_2a_tr_sd>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_2a_tr_sd>	<http://www.w3.org/2004/02/skos/core#altLabel>	"2.1 Transparency - Transparency of service delivery" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_2a_tr_sd>	<http://www.w3.org/2004/02/skos/core#definition>	"eGovernment services related to Transparency - Transparency of service delivery" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_2a_tr_sd>	<http://www.w3.org/2004/02/skos/core#notation>	"e_gov_2a_tr_sd" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_2a_tr_sd>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"2.1 Transparency - Transparency of service delivery" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_2a_tr_sd>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/breakdown> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_2b_tg_po>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_2_tg/e_gov_2b_tg_po> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_2b_tg_po>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Breakdown> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_2b_tg_po>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
@@ -2596,6 +2696,30 @@
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_2c_tg_pd>	<http://www.w3.org/2004/02/skos/core#notation>	"e_gov_2c_tg_pd" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_2c_tg_pd>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"2c Transparent Government - Personal data" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_2c_tg_pd>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/breakdown> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_2c_tr_pd>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_2_tr/e_gov_2c_tr_pd> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_2c_tr_pd>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Breakdown> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_2c_tr_pd>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_2c_tr_pd>	<http://www.w3.org/2004/02/skos/core#altLabel>	"2.2 Transparency - Transparency of personal data" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_2c_tr_pd>	<http://www.w3.org/2004/02/skos/core#definition>	"eGovernment services related to Transparency - Transparency of personal data" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_2c_tr_pd>	<http://www.w3.org/2004/02/skos/core#notation>	"e_gov_2c_tr_pd" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_2c_tr_pd>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"2.2 Transparency - Transparency of personal data" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_2c_tr_pd>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/breakdown> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_2c_tr_sd>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_2_tr/e_gov_2c_tr_sd> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_2c_tr_sd>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Breakdown> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_2c_tr_sd>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_2c_tr_sd>	<http://www.w3.org/2004/02/skos/core#altLabel>	"2.3 Transparency - Transparency of service design" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_2c_tr_sd>	<http://www.w3.org/2004/02/skos/core#definition>	"eGovernment services related to Transparency - Transparency of service design" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_2c_tr_sd>	<http://www.w3.org/2004/02/skos/core#notation>	"e_gov_2c_tr_sd" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_2c_tr_sd>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"2.3 Transparency - Transparency of service design" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_2c_tr_sd>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/breakdown> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_2x_tr_po>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_2_tr/e_gov_2x_tr_po> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_2x_tr_po>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Breakdown> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_2x_tr_po>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_2x_tr_po>	<http://www.w3.org/2004/02/skos/core#altLabel>	"2.X Transparency - Transparency of public organisations (old indicator)" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_2x_tr_po>	<http://www.w3.org/2004/02/skos/core#definition>	"Transparency - Transparency of public organisations" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_2x_tr_po>	<http://www.w3.org/2004/02/skos/core#notation>	"e_gov_2x_tr_po" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_2x_tr_po>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"2.X Transparency - Transparency of public organisations (old indicator)" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_2x_tr_po>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/breakdown> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_3a_cm_oa>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_3_cm/e_gov_3a_cm_oa> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_3a_cm_oa>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Breakdown> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_3a_cm_oa>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
@@ -2604,6 +2728,14 @@
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_3a_cm_oa>	<http://www.w3.org/2004/02/skos/core#notation>	"e_gov_3a_cm_oa" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_3a_cm_oa>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"3a Citizen Mobility - Online availability" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_3a_cm_oa>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/breakdown> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_3a_ke_eid>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_3_ke/e_gov_3a_ke_eid> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_3a_ke_eid>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Breakdown> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_3a_ke_eid>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_3a_ke_eid>	<http://www.w3.org/2004/02/skos/core#altLabel>	"3.1 Key enablers - eID" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_3a_ke_eid>	<http://www.w3.org/2004/02/skos/core#definition>	"eGovernment services related to Key enablers - eID" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_3a_ke_eid>	<http://www.w3.org/2004/02/skos/core#notation>	"e_gov_3a_ke_eid" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_3a_ke_eid>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"3.1 Key enablers - eID" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_3a_ke_eid>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/breakdown> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_3b_cm_us>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_3_cm/e_gov_3b_cm_us> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_3b_cm_us>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Breakdown> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_3b_cm_us>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
@@ -2612,6 +2744,14 @@
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_3b_cm_us>	<http://www.w3.org/2004/02/skos/core#notation>	"e_gov_3b_cm_us" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_3b_cm_us>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"3b Citizen Mobility - Usability" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_3b_cm_us>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/breakdown> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_3b_ke_edoc>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_3_ke/e_gov_3b_ke_edoc> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_3b_ke_edoc>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Breakdown> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_3b_ke_edoc>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_3b_ke_edoc>	<http://www.w3.org/2004/02/skos/core#altLabel>	"3.2 Key enabler - eDocuments" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_3b_ke_edoc>	<http://www.w3.org/2004/02/skos/core#definition>	"eGovernment services related to Key enabler - eDocuments" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_3b_ke_edoc>	<http://www.w3.org/2004/02/skos/core#notation>	"e_gov_3b_ke_edoc" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_3b_ke_edoc>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"3.2 Key enabler - eDocuments" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_3b_ke_edoc>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/breakdown> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_3c_cm_eidcb>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_3_cm/e_gov_3c_cm_eidcb> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_3c_cm_eidcb>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Breakdown> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_3c_cm_eidcb>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
@@ -2620,6 +2760,14 @@
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_3c_cm_eidcb>	<http://www.w3.org/2004/02/skos/core#notation>	"e_gov_3c_cm_eidcb" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_3c_cm_eidcb>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"3c Citizen Mobility - eID Cross Borders" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_3c_cm_eidcb>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/breakdown> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_3c_ke_as>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_3_ke/e_gov_3c_ke_as> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_3c_ke_as>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Breakdown> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_3c_ke_as>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_3c_ke_as>	<http://www.w3.org/2004/02/skos/core#altLabel>	"3.3 Key enabler - Authentic sources" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_3c_ke_as>	<http://www.w3.org/2004/02/skos/core#definition>	"eGovernment services related to Key enabler - Authentic sources" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_3c_ke_as>	<http://www.w3.org/2004/02/skos/core#notation>	"e_gov_3c_ke_as" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_3c_ke_as>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"3.3 Key enabler - Authentic sources" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_3c_ke_as>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/breakdown> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_3d_cm_edoccb>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_3_cm/e_gov_3d_cm_edoccb> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_3d_cm_edoccb>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Breakdown> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_3d_cm_edoccb>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
@@ -2628,6 +2776,14 @@
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_3d_cm_edoccb>	<http://www.w3.org/2004/02/skos/core#notation>	"e_gov_3d_cm_edoccb" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_3d_cm_edoccb>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"3d Citizen Mobility - eDocuments Cross Borders" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_3d_cm_edoccb>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/breakdown> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_3d_ke_dp>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_3_ke/e_gov_3d_ke_dp> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_3d_ke_dp>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Breakdown> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_3d_ke_dp>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_3d_ke_dp>	<http://www.w3.org/2004/02/skos/core#altLabel>	"3.4 Key enabler - Digital Post" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_3d_ke_dp>	<http://www.w3.org/2004/02/skos/core#definition>	"eGovernment services related to Key enabler - Digital Post" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_3d_ke_dp>	<http://www.w3.org/2004/02/skos/core#notation>	"e_gov_3d_ke_dp" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_3d_ke_dp>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"3.4 Key enabler - Digital Post" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_3d_ke_dp>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/breakdown> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_3e_cm_eu>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_3_cm/e_gov_3e_cm_eu> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_3e_cm_eu>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Breakdown> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_3e_cm_eu>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
@@ -2652,6 +2808,14 @@
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_4a_bm_oa>	<http://www.w3.org/2004/02/skos/core#notation>	"e_gov_4a_bm_oa" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_4a_bm_oa>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"4a Business Mobility - Online availability" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_4a_bm_oa>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/breakdown> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_4a_cb_oa>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_4_cb/e_gov_4a_cb_oa> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_4a_cb_oa>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Breakdown> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_4a_cb_oa>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_4a_cb_oa>	<http://www.w3.org/2004/02/skos/core#altLabel>	"4.1 Cross-border services - Cross-border online availability" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_4a_cb_oa>	<http://www.w3.org/2004/02/skos/core#definition>	"eGovernment services related to Cross-border services - Cross-border online availability" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_4a_cb_oa>	<http://www.w3.org/2004/02/skos/core#notation>	"e_gov_4a_cb_oa" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_4a_cb_oa>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"4.1 Cross-border services - Cross-border online availability" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_4a_cb_oa>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/breakdown> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_4b_bm_us>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_4_bm/e_gov_4b_bm_us> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_4b_bm_us>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Breakdown> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_4b_bm_us>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
@@ -2660,6 +2824,14 @@
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_4b_bm_us>	<http://www.w3.org/2004/02/skos/core#notation>	"e_gov_4b_bm_us" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_4b_bm_us>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"4b Business Mobility - Usability" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_4b_bm_us>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/breakdown> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_4b_cb_us>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_4_cb/e_gov_4b_cb_us> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_4b_cb_us>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Breakdown> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_4b_cb_us>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_4b_cb_us>	<http://www.w3.org/2004/02/skos/core#altLabel>	"4.2 Cross-border services - Cross-border user support" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_4b_cb_us>	<http://www.w3.org/2004/02/skos/core#definition>	"eGovernment services related to Cross-border services - Cross-border user support" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_4b_cb_us>	<http://www.w3.org/2004/02/skos/core#notation>	"e_gov_4b_cb_us" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_4b_cb_us>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"4.2 Cross-border services - Cross-border user support" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_4b_cb_us>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/breakdown> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_4c_bm_eidcb>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_4_bm/e_gov_4c_bm_eidcb> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_4c_bm_eidcb>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Breakdown> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_4c_bm_eidcb>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
@@ -2668,6 +2840,14 @@
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_4c_bm_eidcb>	<http://www.w3.org/2004/02/skos/core#notation>	"e_gov_4c_bm_eidcb" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_4c_bm_eidcb>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"4c Business Mobility - eID Cross Borders" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_4c_bm_eidcb>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/breakdown> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_4c_cb_eid>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_4_cb/e_gov_4c_cb_eid> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_4c_cb_eid>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Breakdown> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_4c_cb_eid>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_4c_cb_eid>	<http://www.w3.org/2004/02/skos/core#altLabel>	"4.3 Cross-border services - Cross-border eID" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_4c_cb_eid>	<http://www.w3.org/2004/02/skos/core#definition>	"eGovernment services related to Cross-border services - Cross-border eID" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_4c_cb_eid>	<http://www.w3.org/2004/02/skos/core#notation>	"e_gov_4c_cb_eid" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_4c_cb_eid>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"4.3 Cross-border services - Cross-border eID" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_4c_cb_eid>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/breakdown> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_4d_bm_edoccb>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_4_bm/e_gov_4d_bm_edoccb> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_4d_bm_edoccb>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Breakdown> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_4d_bm_edoccb>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
@@ -2676,6 +2856,14 @@
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_4d_bm_edoccb>	<http://www.w3.org/2004/02/skos/core#notation>	"e_gov_4d_bm_edoccb" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_4d_bm_edoccb>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"4d Business Mobility - eDocuments Cross Borders" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_4d_bm_edoccb>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/breakdown> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_4d_cb_edoc>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_4_cb/e_gov_4d_cb_edoc> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_4d_cb_edoc>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Breakdown> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_4d_cb_edoc>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_4d_cb_edoc>	<http://www.w3.org/2004/02/skos/core#altLabel>	"4.4 Cross-border services - Cross-border eDocuments" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_4d_cb_edoc>	<http://www.w3.org/2004/02/skos/core#definition>	"eGovernment services related to Cross-border services - Cross-border eDocuments" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_4d_cb_edoc>	<http://www.w3.org/2004/02/skos/core#notation>	"e_gov_4d_cb_edoc" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_4d_cb_edoc>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"4.4 Cross-border services - Cross-border eDocuments" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_4d_cb_edoc>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/breakdown> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_4e_bm_eu>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_4_bm/e_gov_4e_bm_eu> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_4e_bm_eu>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Breakdown> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_4e_bm_eu>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
@@ -2744,23 +2932,23 @@
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_events_1>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Breakdown> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_events_1>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_events_1>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Regular business operations" .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_events_1>	<http://www.w3.org/2004/02/skos/core#definition>	"A business life event that covers 11 services related to regular business operations, such as administrative and tax requirements, human resources and refund of VAT." .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_events_1>	<http://www.w3.org/2004/02/skos/core#definition>	"A business life event related to the economic affairs domain, covering services around: tax and corporate finance, VAT and business changes. A total of 11 services are assessed under this life event." .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_events_1>	<http://www.w3.org/2004/02/skos/core#notation>	"e_gov_events_1" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_events_1>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Regular business operations" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_events_1>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/breakdown> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_events_2>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_events/e_gov_events_2> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_events_2>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Breakdown> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_events_2>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_events_2>	<http://www.w3.org/2004/02/skos/core#altLabel>	"General administration: moving" .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_events_2>	<http://www.w3.org/2004/02/skos/core#definition>	"This concise life event illustrates the journey in case of moving places: from deregistering to registering address in the new town. It also includes notifications to other public organizations and utilities." .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_events_2>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Moving" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_events_2>	<http://www.w3.org/2004/02/skos/core#definition>	"A citizens life event related to the housing domain, covering services around: find, adapt and move to new house, and moving and living abroad. A total of 8 services are assessed under this life event." .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_events_2>	<http://www.w3.org/2004/02/skos/core#notation>	"e_gov_events_2" .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_events_2>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"General administration: moving" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_events_2>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Moving" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_events_2>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/breakdown> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_events_3>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_events/e_gov_events_3> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_events_3>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Breakdown> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_events_3>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_events_3>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Owning and driving a car" .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_events_3>	<http://www.w3.org/2004/02/skos/core#definition>	"A total of 12 services concerning buying and registering a car and driving fines, and related to car taxes, parking permits and other administrative requirements." .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_events_3>	<http://www.w3.org/2004/02/skos/core#definition>	"A citizen life event related to the transport domain, covering services around: buying a car, and taxes, certificates and permits. A total of 11 services are assessed under this life event." .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_events_3>	<http://www.w3.org/2004/02/skos/core#notation>	"e_gov_events_3" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_events_3>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Owning and driving a car" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_events_3>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/breakdown> .
@@ -2768,7 +2956,7 @@
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_events_4>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Breakdown> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_events_4>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_events_4>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Starting a small claims procedure" .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_events_4>	<http://www.w3.org/2004/02/skos/core#definition>	"This life event is part of the Justice domain, and captures the journey of someone willing to start a small claims procedure: from orientation and initiation to retrieving verdict and appeal." .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_events_4>	<http://www.w3.org/2004/02/skos/core#definition>	"A citizen life event related to the justice domain, covering services around: preparing claim, issuing claim and monitoring status and appeal. A total of 7 services are assessed under this life event." .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_events_4>	<http://www.w3.org/2004/02/skos/core#notation>	"e_gov_events_4" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_events_4>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Starting a small claims procedure" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_events_4>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/breakdown> .
@@ -2776,7 +2964,7 @@
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_events_5>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Breakdown> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_events_5>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_events_5>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Business Start-up" .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_events_5>	<http://www.w3.org/2004/02/skos/core#definition>	"This life event covers 33 services, both mandatory services as well as information needs, that allow an entrepreneur to start his business. It includes orientation, administrative and register requirements, and tax and insurance related matters. Early trading operations refers to activities regarding hiring employees and requesting an environmental permit." .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_events_5>	<http://www.w3.org/2004/02/skos/core#definition>	"A business life event related to the economic affairs domain, covering services around: orientation, administrative requirements, basic registration, tax-related matters, insurance-related matters, hiring a first employee and request an environmental permit. A total of 16 services are assessed under this life event." .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_events_5>	<http://www.w3.org/2004/02/skos/core#notation>	"e_gov_events_5" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_events_5>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Business Start-up" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_events_5>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/breakdown> .
@@ -2784,26 +2972,42 @@
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_events_6>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Breakdown> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_events_6>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_events_6>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Family" .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_events_6>	<http://www.w3.org/2004/02/skos/core#definition>	"Including services that are typical for young families, such as: marriage (or other partnerships), birth and related (financial) rights, renovating a house, and also looking forward to your financial situation at a later age." .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_events_6>	<http://www.w3.org/2004/02/skos/core#definition>	"A citizen life event related to the social protection domain, covering services around: birth, marriage, personal documents and registering death. A total of 10 services are assessed under this life event." .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_events_6>	<http://www.w3.org/2004/02/skos/core#notation>	"e_gov_events_6" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_events_6>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Family" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_events_6>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/breakdown> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_events_7>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_events/e_gov_events_7> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_events_7>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Breakdown> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_events_7>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_events_7>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Losing and Finding a Job" .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_events_7>	<http://www.w3.org/2004/02/skos/core#definition>	"From immediate actions for unemployed to applications for additional benefits and allowances, this life event captures vital elements when becoming unemployed. It also include various services concerning job search and participating in training programs, supporting people to find a job. A complete set of 22 services is assessed." .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_events_7>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Career" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_events_7>	<http://www.w3.org/2004/02/skos/core#definition>	"A citizen life event related to the employment domain, covering services around: immediate actions for unemployed, guidance on additional benefits and allowances, maintaining applicable benefits, finding a new job and fulfilling duties being employed and retiring. A total of 19 services are assessed under this life event." .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_events_7>	<http://www.w3.org/2004/02/skos/core#notation>	"e_gov_events_7" .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_events_7>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Losing and Finding a Job" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_events_7>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Career" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_events_7>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/breakdown> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_events_8>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_events/e_gov_events_8> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_events_8>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Breakdown> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_events_8>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_events_8>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Studying" .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_events_8>	<http://www.w3.org/2004/02/skos/core#definition>	"In this life event, comprising of 14 services, it is evaluated to what extent enrolment in higher education can be done online. It also includes the orientation, such as gaining a clear understanding of admission requirements. Furthermore support services during study are part of the assessment, for instance career advice and portability of student grant when studying abroad." .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_events_8>	<http://www.w3.org/2004/02/skos/core#definition>	"A citizen life event related to the educational domain, covering services around: orientation, enrolment and study guidance. A total of 11 services are assessed under this life event." .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_events_8>	<http://www.w3.org/2004/02/skos/core#notation>	"e_gov_events_8" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_events_8>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Studying" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_events_8>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/breakdown> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_scope_1>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_scope/e_gov_scope_1> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_scope_1>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Breakdown> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_scope_1>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_scope_1>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Citizen life events" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_scope_1>	<http://www.w3.org/2004/02/skos/core#definition>	"The citizen life events are: Moving, Owning and driving a car, Starting a small claims procedure, Family, Career and Studying" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_scope_1>	<http://www.w3.org/2004/02/skos/core#notation>	"e_gov_scope_1" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_scope_1>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Citizen life events" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_scope_1>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/breakdown> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_scope_2>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_scope/e_gov_scope_2> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_scope_2>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Breakdown> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_scope_2>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_scope_2>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Business life events" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_scope_2>	<http://www.w3.org/2004/02/skos/core#definition>	"The business life events are: Regular business operations and Business Start-up" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_scope_2>	<http://www.w3.org/2004/02/skos/core#notation>	"e_gov_scope_2" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_scope_2>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Business life events" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_scope_2>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/breakdown> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/ec_all>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/cnect_directorates/ec_all> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/ec_all>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/infso_directorates/ec_all> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/ec_all>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Breakdown> .
@@ -4107,7 +4311,7 @@
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/y65_74>	<http://www.w3.org/2004/02/skos/core#notation>	"y65_74" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/y65_74>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Individuals, 65 to 74 years old" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/y65_74>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/breakdown> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://purl.org/dc/terms/modified>	"2020-12-07T18:24:44"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://purl.org/dc/terms/modified>	"2021-03-19T12:57:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://purl.org/linked-data/sdmx#CodeList> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#ConceptScheme> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2000/01/rdf-schema#isDefinedBy>	<http://digital-agenda-data.eu/> .
@@ -4261,24 +4465,39 @@
 <http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_di_lo> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_di_vhi> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_di_vlo> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_1a_uc_oa> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_1a_ucg_oa> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_1b_uc_mf> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_1b_ucg_us> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_1c_uc_us> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_1c_ucg_mf> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_1d_ucg_eu> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_1e_ucg_su> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_2a_tg_sd> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_2a_tr_sd> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_2b_tg_po> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_2c_tg_pd> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_2c_tr_pd> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_2c_tr_sd> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_2x_tr_po> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_3a_cm_oa> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_3a_ke_eid> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_3b_cm_us> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_3b_ke_edoc> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_3c_cm_eidcb> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_3c_ke_as> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_3d_cm_edoccb> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_3d_ke_dp> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_3e_cm_eu> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_3f_cm_su> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_4a_bm_oa> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_4a_cb_oa> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_4b_bm_us> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_4b_cb_us> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_4c_bm_eidcb> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_4c_cb_eid> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_4d_bm_edoccb> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_4d_cb_edoc> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_4e_bm_eu> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_4f_bm_su> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_5a_ke_eid> .
@@ -4295,6 +4514,8 @@
 <http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_events_6> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_events_7> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_events_8> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_scope_1> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown/e_gov_scope_2> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown/ec_all> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown/edocuments> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown/egov_le_bus> .

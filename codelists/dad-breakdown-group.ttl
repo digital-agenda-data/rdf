@@ -14,11 +14,11 @@
 
 ns1:breakdown-group
 	rdf:type	skos:ConceptScheme , ns3:CodeList ;
-	dct:modified	"2020-06-11T11:23:24"^^xsd:dateTime ;
+	dct:modified	"2021-03-19T12:57:13"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://digital-agenda-data.eu/> ;
 	skos:prefLabel	"Breakdown groups used by Digital Agenda Scoreboard" ;
 	skos:notation	"CL_BREAKDOWN_GROUP" ;
-	skos:hasTopConcept	ns7:by_location , ns7:byage3classes , ns7:byage6classes , ns7:bycbirth , ns7:byccitizen , ns7:byccsophistication , ns7:bydensity , ns7:bydigint2015 , ns7:bydownloadspeed , ns7:bydownloadspeed4 , ns7:byedu , ns7:byedugrade , ns7:byemp , ns7:byentsize , ns7:byentsize_s_m_l , ns7:byfbbtech , ns7:bygender , ns7:byictsector2subsec , ns7:byictsector6subsec , ns7:bynaceeu , ns7:bynacenat , ns7:byorganizationclass , ns7:byregion , ns7:byrisk , ns7:byskills , ns7:bytypeproduct , ns7:cnect_directorates , ns7:desi , ns7:desi_1_conn , ns7:desi_2_hc , ns7:desi_2a_bsu , ns7:desi_2b_asd , ns7:desi_3_ui , ns7:desi_3c_trans , ns7:desi_4_idt , ns7:desi_4a_bd , ns7:desi_4b_ecomm , ns7:desi_5_dps , ns7:desi_5a_egov , ns7:desi_totals , ns7:digskill_level , ns7:e_gov_1_ucg , ns7:e_gov_2_tg , ns7:e_gov_3_cm , ns7:e_gov_4_bm , ns7:e_gov_5_ke , ns7:e_gov_events , ns7:econsector , ns7:econsector_size , ns7:egov_le , ns7:epsi_dimensions , ns7:hhbyiq , ns7:hhbytype , ns7:infso_directorates , ns7:labour_force , ns7:manuf , ns7:mhz_bands , ns7:others , ns7:rural_pop , ns7:sos_agg , ns7:total , ns7:wid_score , ns7:desi_1a_fbbtc , ns7:desi_1b_fbbc , ns7:desi_1c_mbb , ns7:desi_1d_bbpi , ns7:childrenhh , ns7:ictproffession , ns7:workingscheme , ns7:desi_3a_ui , ns7:desi_3b_acton ;
+	skos:hasTopConcept	ns7:by_location , ns7:byage3classes , ns7:byage6classes , ns7:bycbirth , ns7:byccitizen , ns7:byccsophistication , ns7:bydensity , ns7:bydigint2015 , ns7:bydownloadspeed , ns7:bydownloadspeed4 , ns7:byedu , ns7:byedugrade , ns7:byemp , ns7:byentsize , ns7:byentsize_s_m_l , ns7:byfbbtech , ns7:bygender , ns7:byictsector2subsec , ns7:byictsector6subsec , ns7:bynaceeu , ns7:bynacenat , ns7:byorganizationclass , ns7:byregion , ns7:byrisk , ns7:byskills , ns7:bytypeproduct , ns7:cnect_directorates , ns7:desi , ns7:desi_1_conn , ns7:desi_2_hc , ns7:desi_2a_bsu , ns7:desi_2b_asd , ns7:desi_3_ui , ns7:desi_3c_trans , ns7:desi_4_idt , ns7:desi_4a_bd , ns7:desi_4b_ecomm , ns7:desi_5_dps , ns7:desi_5a_egov , ns7:desi_totals , ns7:digskill_level , ns7:e_gov_1_ucg , ns7:e_gov_2_tg , ns7:e_gov_3_cm , ns7:e_gov_4_bm , ns7:e_gov_5_ke , ns7:e_gov_events , ns7:econsector , ns7:econsector_size , ns7:egov_le , ns7:epsi_dimensions , ns7:hhbyiq , ns7:hhbytype , ns7:infso_directorates , ns7:labour_force , ns7:manuf , ns7:mhz_bands , ns7:others , ns7:rural_pop , ns7:sos_agg , ns7:total , ns7:wid_score , ns7:desi_1a_fbbtc , ns7:desi_1b_fbbc , ns7:desi_1c_mbb , ns7:desi_1d_bbpi , ns7:e_gov_1_uc , ns7:e_gov_2_tr , ns7:e_gov_3_ke , ns7:e_gov_4_cb , ns7:e_gov_scope , ns7:childrenhh , ns7:ictproffession , ns7:workingscheme , ns7:desi_3a_ui , ns7:desi_3b_acton ;
 	skos:inScheme	ns8:scheme .
 ns7:by_location
 	rdf:type	ns9:BreakdownGroup , skos:Concept ;
@@ -512,6 +512,46 @@ ns7:desi_1d_bbpi
 	skos:prefLabel	"Indicators under 1d Broadband price index" ;
 	skos:notation	"desi_1d_bbpi" ;
 	ns10:order	"11" ;
+	skos:topConceptOf	ns1:breakdown-group .
+ns7:e_gov_1_uc
+	rdf:type	ns9:BreakdownGroup , skos:Concept ;
+	skos:prefLabel	"User centricity" ;
+	skos:notation	"e_gov_1_uc" ;
+	skos:altLabel	"User centricity" ;
+	ns10:order	"108" ;
+	skos:definition	"Breakdown by User centricity" ;
+	skos:topConceptOf	ns1:breakdown-group .
+ns7:e_gov_2_tr
+	rdf:type	ns9:BreakdownGroup , skos:Concept ;
+	skos:prefLabel	"Transparency" ;
+	skos:notation	"e_gov_2_tr" ;
+	skos:altLabel	"Transparency" ;
+	ns10:order	"109" ;
+	skos:definition	"Breakdown by Transparency" ;
+	skos:topConceptOf	ns1:breakdown-group .
+ns7:e_gov_3_ke
+	rdf:type	ns9:BreakdownGroup , skos:Concept ;
+	skos:prefLabel	"Key Enablers" ;
+	skos:notation	"e_gov_3_ke" ;
+	skos:altLabel	"Key Enablers" ;
+	ns10:order	"110" ;
+	skos:definition	"Breakdown by Key Enablers" ;
+	skos:topConceptOf	ns1:breakdown-group .
+ns7:e_gov_4_cb
+	rdf:type	ns9:BreakdownGroup , skos:Concept ;
+	skos:prefLabel	"Cross-border services" ;
+	skos:notation	"e_gov_4_cb" ;
+	skos:altLabel	"Cross-border services" ;
+	ns10:order	"111" ;
+	skos:definition	"Breakdown by Cross-border services" ;
+	skos:topConceptOf	ns1:breakdown-group .
+ns7:e_gov_scope
+	rdf:type	ns9:BreakdownGroup , skos:Concept ;
+	skos:prefLabel	"Citizen and business" ;
+	skos:notation	"e_gov_scope" ;
+	skos:altLabel	"Citizen and business" ;
+	ns10:order	"112" ;
+	skos:definition	"Breakdown by citizens and business life events" ;
 	skos:topConceptOf	ns1:breakdown-group .
 ns7:childrenhh
 	rdf:type	ns9:BreakdownGroup , skos:Concept ;

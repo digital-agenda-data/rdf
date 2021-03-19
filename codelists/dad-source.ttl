@@ -25,14 +25,16 @@
 @prefix ns24:	<http://ec.europa.eu/digital-agenda/en/news/> .
 @prefix ns25:	<http://epp.eurostat.ec.europa.eu/portal/page/portal/employment_unemployment_lfs/methodology/> .
 @prefix ns26:	<http://ec.europa.eu/digital-agenda/en/digital-agenda-you/> .
+@prefix ns27:	<https://www.europeandataportal.eu/en/impact-studies/> .
+@prefix ns28:	<https://ec.europa.eu/digital-single-market/en/> .
 
 ns1:source
 	rdf:type	skos:ConceptScheme ;
-	dct:modified	"2020-06-11T11:24:20"^^xsd:dateTime ;
+	dct:modified	"2021-03-19T15:42:09"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://digital-agenda-data.eu/> ;
 	skos:prefLabel	"Sources used by Digital Agenda Scoreboard indicators" ;
 	skos:notation	"CL_SOURCE" ;
-	skos:hasTopConcept	ns6:abac , ns6:bench_gp , ns6:berec_roam , ns6:biac , ns6:capgemini , ns6:cnect-estat , ns6:cocom , ns6:corda , ns6:desi_2b1_ictspec , ns6:desi_3c1_bank , ns6:desi_3c2_shop , ns6:desi_4a1_eis , ns6:desi_4b1_smeso , ns6:desi_4b2_ecomturn , ns6:desi_4b3_sellcb , ns6:desi_5a1_egovu , ns6:desi_5a2_prefform , ns6:desi_5a3_osercomp , ns6:desi_5a4_psb , ns6:desi_5a5_opendata , ns6:eco_report_03_efis_comm , ns6:egov_bench12 , ns6:egov_bench12_17 , ns6:einfraegi , ns6:einfrageant , ns6:einfraprace , ns6:eoa_smart12-26 , ns6:eoa_yearbook2014 , ns6:epsi , ns6:epsiplatform , ns6:estat-ent , ns6:estat-hh , ns6:estat-lfs , ns6:estat-lfs-sks , ns6:estat-trade , ns6:estat_gba_nabsfin07 , ns6:estat_isoc_bde15b_e , ns6:estat_isoc_bde15b_h , ns6:estat_isoc_bde15b_p , ns6:estat_isoc_bde15cbc , ns6:estat_isoc_bde15cua , ns6:estat_isoc_bde15dec , ns6:estat_isoc_bde15dip , ns6:estat_isoc_bde15disc , ns6:estat_isoc_bde15dth , ns6:estat_isoc_bde15ee , ns6:estat_isoc_ci_ac_i , ns6:estat_isoc_ci_eu_en2 , ns6:estat_isoc_ci_eu_i , ns6:estat_isoc_ci_ifp_fu , ns6:estat_isoc_ci_ifp_iu , ns6:estat_isoc_ci_im_i , ns6:estat_isoc_cicce_use , ns6:estat_isoc_cisci_ax , ns6:estat_isoc_cisci_pb , ns6:estat_isoc_cisci_prv , ns6:estat_isoc_cismt , ns6:estat_isoc_ec_eseln2 , ns6:estat_isoc_ec_ibuy , ns6:estat_isoc_ec_iprb , ns6:estat_isoc_pibi_ictbn2 , ns6:estat_isoc_r_gov_i , ns6:estat_isoc_r_iuse_i , ns6:estat_isoc_sk_cskl_i , ns6:estat_isoc_sk_dskl_i , ns6:estat_isoc_sk_how_i , ns6:estat_isoc_sk_iskl_i , ns6:estat_isoc_ske_ittn2 , ns6:estat_isoc_sks_itspt , ns6:estat_lfst_hhnhwhtc , ns6:estat_nama_gdp_c , ns6:estat_randd , ns6:estat_tps00188 , ns6:eun12 , ns6:euripidis-estat , ns6:eurostat_ed , ns6:eurostat_nat_acc , ns6:eurostat_pop , ns6:idate , ns6:ihs_tech , ns6:ipv6obs , ns6:jrc-ictspec3 , ns6:jrc_ict_randd , ns6:mis , ns6:nif_database , ns6:old_desi_5b1_mdataexch , ns6:old_desi_5b2_epresc , ns6:point_topic , ns6:samknows , ns6:smart11_39 , ns6:desi_2a1_bds , ns6:desi_2a2_abds , ns6:desi_2a3_abss , ns6:desi_2b2_fictspec , ns6:desi_2b3_ictg , ns6:desi_3a1_notiu , ns6:desi_3a2_iu , ns6:desi_3b1_news , ns6:desi_3b2_mvg , ns6:desi_3b3_vod , ns6:desi_3b4_vidcall , ns6:desi_3b5_socnet , ns6:desi_3c3_sell , ns6:desi_4a2_socmed , ns6:desi_4a3_bigdat , ns6:desi_4a4_cloud , ns6:estathh_cocom , ns6:e_gov_bench , ns6:desi_1a1_fbbtc , ns6:desi_1a2_ufbbtu , ns6:desi_1b1_fbbc , ns6:desi_1b2_vhcnc , ns6:desi_1c1_4g , ns6:desi_1c2_mbbtu , ns6:desi_1c3_5g , ns6:desi_1d1_bbpi , ns6:desi_3b6_courseon , ns6:desi_3b6_profsocnet_old , ns6:desi_3b8_convoton_old , ns6:old_desi_5b1_ehs_old , ns6:old_desi_5b2_mdataexch_old , ns6:old_desi_5b3_epresc_old ;
+	skos:hasTopConcept	ns6:abac , ns6:bench_gp , ns6:berec_roam , ns6:biac , ns6:capgemini , ns6:cnect-estat , ns6:cocom , ns6:corda , ns6:desi_2b1_ictspec , ns6:desi_3c1_bank , ns6:desi_3c2_shop , ns6:desi_4a1_eis , ns6:desi_4b1_smeso , ns6:desi_4b2_ecomturn , ns6:desi_4b3_sellcb , ns6:desi_5a1_egovu , ns6:desi_5a2_prefform , ns6:desi_5a3_osercomp , ns6:desi_5a4_psb , ns6:desi_5a5_opendata , ns6:eco_report_03_efis_comm , ns6:egov_bench12 , ns6:egov_bench12_17 , ns6:einfraegi , ns6:einfrageant , ns6:einfraprace , ns6:eoa_smart12-26 , ns6:eoa_yearbook2014 , ns6:epsi , ns6:epsiplatform , ns6:estat-ent , ns6:estat-hh , ns6:estat-lfs , ns6:estat-lfs-sks , ns6:estat-trade , ns6:estat_gba_nabsfin07 , ns6:estat_isoc_bde15b_e , ns6:estat_isoc_bde15b_h , ns6:estat_isoc_bde15b_p , ns6:estat_isoc_bde15cbc , ns6:estat_isoc_bde15cua , ns6:estat_isoc_bde15dec , ns6:estat_isoc_bde15dip , ns6:estat_isoc_bde15disc , ns6:estat_isoc_bde15dth , ns6:estat_isoc_bde15ee , ns6:estat_isoc_ci_ac_i , ns6:estat_isoc_ci_eu_en2 , ns6:estat_isoc_ci_eu_i , ns6:estat_isoc_ci_ifp_fu , ns6:estat_isoc_ci_ifp_iu , ns6:estat_isoc_ci_im_i , ns6:estat_isoc_cicce_use , ns6:estat_isoc_cisci_ax , ns6:estat_isoc_cisci_pb , ns6:estat_isoc_cisci_prv , ns6:estat_isoc_cismt , ns6:estat_isoc_ec_eseln2 , ns6:estat_isoc_ec_ibuy , ns6:estat_isoc_ec_iprb , ns6:estat_isoc_pibi_ictbn2 , ns6:estat_isoc_r_gov_i , ns6:estat_isoc_r_iuse_i , ns6:estat_isoc_sk_cskl_i , ns6:estat_isoc_sk_dskl_i , ns6:estat_isoc_sk_how_i , ns6:estat_isoc_sk_iskl_i , ns6:estat_isoc_ske_ittn2 , ns6:estat_isoc_sks_itspt , ns6:estat_lfst_hhnhwhtc , ns6:estat_nama_gdp_c , ns6:estat_randd , ns6:estat_tps00188 , ns6:eun12 , ns6:euripidis-estat , ns6:eurostat_ed , ns6:eurostat_nat_acc , ns6:eurostat_pop , ns6:idate , ns6:ihs_tech , ns6:ipv6obs , ns6:jrc-ictspec3 , ns6:jrc_ict_randd , ns6:mis , ns6:nif_database , ns6:old_desi_5b1_mdataexch , ns6:old_desi_5b2_epresc , ns6:point_topic , ns6:samknows , ns6:smart11_39 , ns6:cocom_new , ns6:european_data_portal , ns6:desi_2a1_bds , ns6:desi_2a2_abds , ns6:desi_2a3_abss , ns6:desi_2b2_fictspec , ns6:desi_2b3_ictg , ns6:desi_3a1_notiu , ns6:desi_3a2_iu , ns6:desi_3b1_news , ns6:desi_3b2_mvg , ns6:desi_3b3_vod , ns6:desi_3b4_vidcall , ns6:desi_3b5_socnet , ns6:desi_3c3_sell , ns6:desi_4a2_socmed , ns6:desi_4a3_bigdat , ns6:desi_4a4_cloud , ns6:bc2020 , ns6:estathh_cocom , ns6:e_gov_bench , ns6:desi_1a1_fbbtc , ns6:desi_1a2_ufbbtu , ns6:desi_1b1_fbbc , ns6:desi_1b2_vhcnc , ns6:desi_1c1_4g , ns6:desi_1c2_mbbtu , ns6:desi_1c3_5g , ns6:desi_1d1_bbpi , ns6:desi_3b6_courseon , ns6:desi_3b6_profsocnet_old , ns6:desi_3b8_convoton_old , ns6:old_desi_5b1_ehs_old , ns6:old_desi_5b2_mdataexch_old , ns6:old_desi_5b3_epresc_old ;
 	skos:inScheme	ns7:scheme .
 ns6:abac
 	rdf:type	ns8:Source , skos:Concept ;
@@ -680,7 +682,20 @@ ns6:smart11_39
 	skos:prefLabel	"Analysis of publications and patents of ICT research in FP7" ;
 	foaf:page	ns26:our-studies-and-open-datasets ;
 	skos:notation	"smart11_39" ;
-	skos:definition	": Analysis conducted by DG CONNECT Unit F4, based on results of the study SMART 2011/0039 which main results are published in: Jacob, J., Sanditov, B., Smirnov, E., Wintjes, R., Surpatean, A., Notten, A., & Sasso, S. (Forthcoming). Analysis of publications and patents of ICT research in FP7. Brussels, European Commission. " ;
+	skos:definition	"Analysis conducted by DG CONNECT Unit F4, based on results of the study SMART 2011/0039 which main results are published in: Jacob, J., Sanditov, B., Smirnov, E., Wintjes, R., Surpatean, A., Notten, A., & Sasso, S. (Forthcoming). Analysis of publications and patents of ICT research in FP7. Brussels, European Commission. " ;
+	skos:topConceptOf	ns1:source .
+ns6:cocom_new
+	rdf:type	ns8:Source , skos:Concept ;
+	skos:prefLabel	"Communications Committee survey" ;
+	skos:notation	"cocom_new" ;
+	skos:definition	"European Commission services, through the Communications Committee (COCOM)" ;
+	skos:topConceptOf	ns1:source .
+ns6:european_data_portal
+	rdf:type	ns8:Source , skos:Concept ;
+	skos:prefLabel	"European Data Portal" ;
+	foaf:page	ns27:open-data-maturity ;
+	skos:notation	"european_data_portal" ;
+	skos:definition	"European Data Portal" ;
 	skos:topConceptOf	ns1:source .
 ns6:desi_2a1_bds
 	rdf:type	ns8:Source , skos:Concept ;
@@ -793,6 +808,13 @@ ns6:desi_4a4_cloud
 	foaf:page	<http://digital-agenda-data.eu/charts/analyse-one-indicator-and-compare-countries#chart={\u0022indicator-group\u0022:\u0022any\u0022,\u0022indicator\u0022:\u0022e_cc_ge_me\u0022,\u0022breakdown\u0022:\u0022ent_all_xfin\u0022,\u0022unit-measure\u0022:\u0022pc_ent\u0022,\u0022ref-area\u0022:[\u0022AT\u0022,\u0022BE\u0022,\u0022BG\u0022,\u0022HR\u0022,\u0022CY\u0022,\u0022CZ\u0022,\u0022DK\u0022,\u0022EE\u0022,\u0022EU\u0022,\u0022FI\u0022,\u0022FR\u0022,\u0022DE\u0022,\u0022EL\u0022,\u0022HU\u0022,\u0022IE\u0022,\u0022IT\u0022,\u0022LV\u0022,\u0022LT\u0022,\u0022LU\u0022,\u0022MT\u0022,\u0022NL\u0022,\u0022PL\u0022,\u0022PT\u0022,\u0022RO\u0022,\u0022SK\u0022,\u0022SI\u0022,\u0022ES\u0022,\u0022SE\u0022,\u0022UK\u0022]}> ;
 	skos:notation	"desi_4a4_cloud" ;
 	skos:definition	"Eurostat - Community survey on ICT usage and eCommerce in Enterprises" ;
+	skos:topConceptOf	ns1:source .
+ns6:bc2020
+	rdf:type	ns8:Source , skos:Concept ;
+	skos:prefLabel	"Broadband coverage in Europe studies" ;
+	foaf:page	ns28:broadband-connectivity ;
+	skos:notation	"bc2020" ;
+	skos:definition	"IHS Markit, Omdia, Point Topic and VVA, Broadband coverage in Europe studies" ;
 	skos:topConceptOf	ns1:source .
 ns6:estathh_cocom
 	rdf:type	ns8:Source , skos:Concept ;

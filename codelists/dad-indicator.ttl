@@ -6,13 +6,15 @@ ns1:indicator	rdf:type	ns2:CodeList .
 ns1:indicator	rdf:type	skos:ConceptScheme .
 @prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
 @prefix dct:	<http://purl.org/dc/terms/> .
-ns1:indicator	dct:modified	"2020-12-07T18:25:17"^^xsd:dateTime .
+ns1:indicator	dct:modified	"2021-03-19T16:43:12"^^xsd:dateTime .
 @prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
 ns1:indicator	rdfs:isDefinedBy	<http://digital-agenda-data.eu/> ;
 	skos:prefLabel	"Code list for indicators used by Digital Agenda Scoreboard" ;
 	skos:notation	"CL_INDICATOR" .
 @prefix ns7:	<http://semantic.digital-agenda-data.eu/codelist/indicator/> .
-ns1:indicator	skos:hasTopConcept	ns7:old_i_dsk_i_b ,
+ns1:indicator	skos:hasTopConcept	ns7:e_gov_dpsc ,
+		ns7:e_gov_od ,
+		ns7:old_i_dsk_i_b ,
 		ns7:old_i_dsk_ps_b ,
 		ns7:old_i_dsk_s_b ,
 		ns7:old_digskillindex ,
@@ -20,6 +22,30 @@ ns1:indicator	skos:hasTopConcept	ns7:old_i_dsk_i_b ,
 		ns7:old_i_dsk_b ,
 		ns7:old_i_dsk_c_b ,
 		ns7:old_wid_ui_ps ,
+		ns7:e_gov_4c_cb_eid ,
+		ns7:e_gov_4d_cb_edoc ,
+		ns7:mbb_5gcov ,
+		ns7:mbb_r5gcov ,
+		ns7:e_gov_3_ke ,
+		ns7:e_gov_3a_ke_eid ,
+		ns7:e_gov_3b_ke_edoc ,
+		ns7:e_gov_3c_ke_as ,
+		ns7:e_gov_3d_ke_dp ,
+		ns7:e_gov_4_cb ,
+		ns7:e_gov_4a_cb_oa ,
+		ns7:e_gov_4b_cb_us ,
+		ns7:e_gov_1a_uc_oa ,
+		ns7:e_gov_1b_uc_mf ,
+		ns7:e_gov_1c_uc_us ,
+		ns7:e_gov_2_tr ,
+		ns7:e_gov_2a_tr_sd ,
+		ns7:e_gov_2c_tr_pd ,
+		ns7:e_gov_2c_tr_sd ,
+		ns7:e_gov_2x_tr_po ,
+		<http://semantic.digital-agenda-data.eu/codelist/indicator/5g_read> ,
+		ns7:bb_rvhcncov ,
+		ns7:bb_vhcncov ,
+		ns7:e_gov_1_uc ,
 		ns7:i_dsk_ps_ab ,
 		ns7:i_dsk_s_ab ,
 		ns7:i_dsk_l ,
@@ -152,7 +178,6 @@ ns1:indicator	skos:hasTopConcept	ns7:old_i_dsk_i_b ,
 		ns7:e_gov_ke ,
 		ns7:e_gov_opa ,
 		ns7:e_gov_osc ,
-		ns7:e_gov_p ,
 		ns7:e_gov_pff ,
 		ns7:e_igov ,
 		ns7:e_igov2pr ,
@@ -164,7 +189,6 @@ ns1:indicator	skos:hasTopConcept	ns7:old_i_dsk_i_b ,
 		ns7:e_gov_5d_ke_dp ,
 		ns7:e_gov_5e_ke_esafe ,
 		ns7:e_gov_5f_ke_sso ,
-		ns7:e_gov_dpsb ,
 		ns7:e_gov_3e_cm_eu ,
 		ns7:e_gov_3f_cm_su ,
 		ns7:e_gov_4_bm ,
@@ -458,23 +482,22 @@ ns14:price_internet_only	rdf:type	ns10:IndicatorToGroupMembership ;
 ns15:bb_dsl	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"broadband" ;
 	ns11:member-of	ns12:broadband ;
-	ns11:order	"8" .
+	ns11:order	"17" .
 ns15:bb_fttpcov	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"broadband" ;
 	ns11:member-of	ns12:broadband ;
-	ns11:order	"17" .
+	ns11:order	"7" .
 ns15:bb_hhi	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"broadband" ;
-	ns11:member-of	ns12:broadband ;
-	ns11:order	"20" .
+	ns11:member-of	ns12:broadband .
 ns15:bb_lines	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"broadband" ;
 	ns11:member-of	ns12:broadband ;
-	ns11:order	"5" .
+	ns11:order	"16" .
 ns15:bb_ne	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"broadband" ;
 	ns11:member-of	ns12:broadband ;
-	ns11:order	"7" .
+	ns11:order	"18" .
 ns15:bb_ngacov	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"broadband" ;
 	ns11:member-of	ns12:broadband ;
@@ -482,45 +505,47 @@ ns15:bb_ngacov	rdf:type	ns10:IndicatorToGroupMembership ;
 ns15:bb_penet	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"broadband" ;
 	ns11:member-of	ns12:broadband ;
-	ns11:order	"6" .
+	ns11:order	"15" .
 ns15:bb_rfttpcov	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"broadband" ;
 	ns11:member-of	ns12:broadband ;
-	ns11:order	"18" .
+	ns11:order	"8" .
 ns15:bb_rngacov	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"broadband" ;
 	ns11:member-of	ns12:broadband ;
-	ns11:order	"19" .
+	ns11:order	"4" .
 ns15:bb_scov	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"broadband" ;
 	ns11:member-of	ns12:broadband ;
-	ns11:order	"1" .
+	ns11:order	"5" .
 ns15:bb_srcov	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"broadband" ;
 	ns11:member-of	ns12:broadband ;
-	ns11:order	"2" .
+	ns11:order	"6" .
 ns15:e_broad	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"broadband" ;
 	ns11:member-of	ns12:broadband ;
-	ns11:order	"14" .
+	ns11:order	"13" .
 ns15:e_ispdf_ge30	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"broadband" ;
 	ns11:member-of	ns12:broadband ;
-	ns11:order	"15" .
+	ns11:order	"14" .
 ns15:e_ispdfokx	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"broadband" ;
-	ns11:member-of	ns12:broadband .
+	ns11:member-of	ns12:broadband ;
+	ns11:order	"19" .
 ns15:e_ispdfokx_ge100	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"broadband" ;
-	ns11:member-of	ns12:broadband .
+	ns11:member-of	ns12:broadband ;
+	ns11:order	"20" .
 ns15:h_bbfix	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"broadband" ;
 	ns11:member-of	ns12:broadband ;
-	ns11:order	"11" .
+	ns11:order	"10" .
 ns15:h_broad	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"broadband" ;
 	ns11:member-of	ns12:broadband ;
-	ns11:order	"10" .
+	ns11:order	"9" .
 @prefix ns16:	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi/> .
 ns16:desi	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"desi" ;
@@ -999,10 +1024,6 @@ ns24:e_gov_5f_ke_sso	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"egovernment" ;
 	ns11:member-of	ns12:egovernment ;
 	ns11:order	"11156" .
-ns24:e_gov_dpsb	rdf:type	ns10:IndicatorToGroupMembership ;
-	rdfs:label	"egovernment" ;
-	ns11:member-of	ns12:egovernment ;
-	ns11:order	"7" .
 ns24:e_gov_ke	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"egovernment" ;
 	ns11:member-of	ns12:egovernment ;
@@ -1014,15 +1035,11 @@ ns24:e_gov_opa	rdf:type	ns10:IndicatorToGroupMembership ;
 ns24:e_gov_osc	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"egovernment" ;
 	ns11:member-of	ns12:egovernment ;
-	ns11:order	"3" .
-ns24:e_gov_p	rdf:type	ns10:IndicatorToGroupMembership ;
-	rdfs:label	"egovernment" ;
-	ns11:member-of	ns12:egovernment ;
-	ns11:order	"10" .
+	ns11:order	"7" .
 ns24:e_gov_pff	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"egovernment" ;
 	ns11:member-of	ns12:egovernment ;
-	ns11:order	"4" .
+	ns11:order	"2" .
 ns24:epsi_score	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"egovernment" ;
 	ns11:member-of	ns12:egovernment ;
@@ -1030,11 +1047,11 @@ ns24:epsi_score	rdf:type	ns10:IndicatorToGroupMembership ;
 ns24:i_igov12rt	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"egovernment" ;
 	ns11:member-of	ns12:egovernment ;
-	ns11:order	"2" .
+	ns11:order	"1" .
 ns24:i_iugov12	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"egovernment" ;
 	ns11:member-of	ns12:egovernment ;
-	ns11:order	"1" .
+	ns11:order	"6" .
 @prefix ns25:	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ehealth/> .
 ns25:hie_use_ex_admin	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"ehealth" ;
@@ -1218,59 +1235,59 @@ ns31:i_iux	rdf:type	ns10:IndicatorToGroupMembership ;
 ns32:e_pmd	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"mobile" ;
 	ns11:member-of	ns12:mobile ;
-	ns11:order	"9" .
+	ns11:order	"12" .
 ns32:i_iu3g	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"mobile" ;
 	ns11:member-of	ns12:mobile ;
-	ns11:order	"8" .
+	ns11:order	"11" .
 ns32:mbb_hspacov	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"mobile" ;
 	ns11:member-of	ns12:mobile ;
-	ns11:order	"1" .
+	ns11:order	"6" .
 ns32:mbb_ltecov	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"mobile" ;
 	ns11:member-of	ns12:mobile ;
-	ns11:order	"2" .
+	ns11:order	"4" .
 ns32:mbb_penet	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"mobile" ;
 	ns11:member-of	ns12:mobile ;
-	ns11:order	"6" .
+	ns11:order	"10" .
 ns32:mbb_rhspacov	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"mobile" ;
 	ns11:member-of	ns12:mobile ;
-	ns11:order	"14" .
+	ns11:order	"7" .
 ns32:mbb_rltecov	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"mobile" ;
 	ns11:member-of	ns12:mobile ;
-	ns11:order	"15" .
+	ns11:order	"5" .
 ns32:mob_arpu	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"mobile" ;
 	ns11:member-of	ns12:mobile ;
-	ns11:order	"10" .
+	ns11:order	"14" .
 ns32:mob_ms	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"mobile" ;
 	ns11:member-of	ns12:mobile ;
-	ns11:order	"7" .
+	ns11:order	"13" .
 ns32:mob_mtr	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"mobile" ;
 	ns11:member-of	ns12:mobile ;
-	ns11:order	"13" .
+	ns11:order	"17" .
 ns32:mob_penet	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"mobile" ;
 	ns11:member-of	ns12:mobile ;
-	ns11:order	"5" .
+	ns11:order	"9" .
 ns32:mob_roam	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"mobile" ;
 	ns11:member-of	ns12:mobile ;
-	ns11:order	"11" .
+	ns11:order	"15" .
 ns32:mob_subs	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"mobile" ;
 	ns11:member-of	ns12:mobile ;
-	ns11:order	"4" .
+	ns11:order	"8" .
 ns32:spectrum_wbb	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"mobile" ;
 	ns11:member-of	ns12:mobile ;
-	ns11:order	"12" .
+	ns11:order	"16" .
 @prefix ns33:	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/research-and-development/> .
 ns33:avg_ttg	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"research-and-development" ;
@@ -1579,7 +1596,7 @@ ns7:bb_fcov	rdf:type	ns10:Indicator ,
 ns7:bb_fttpcov	rdf:type	ns10:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"Fibre to the Premises coverage/availability (as a % of households)" ;
-	dct:source	ns38:point_topic ;
+	dct:source	ns38:bc2020 ;
 	skos:notation	"bb_fttpcov" ;
 	skos:altLabel	"Fibre to the Premises coverage" ;
 	ns11:membership	ns15:bb_fttpcov ;
@@ -1615,7 +1632,7 @@ ns7:bb_ne	rdf:type	skos:Concept ,
 ns7:bb_ngacov	rdf:type	skos:Concept ,
 		ns10:Indicator ;
 	skos:prefLabel	"NGA broadband coverage/availability (as a % of households)" ;
-	dct:source	ns38:point_topic ;
+	dct:source	ns38:bc2020 ;
 	skos:notation	"bb_ngacov" ;
 	skos:altLabel	"NGA broadband coverage/availability" ;
 	ns11:membership	ns15:bb_ngacov ;
@@ -1633,7 +1650,7 @@ ns7:bb_penet	rdf:type	skos:Concept ,
 ns7:bb_rfttpcov	rdf:type	skos:Concept ,
 		ns10:Indicator ;
 	skos:prefLabel	"Rural Fibre to the Premises coverage/availability (as a % of households)" ;
-	dct:source	ns38:point_topic ;
+	dct:source	ns38:bc2020 ;
 	skos:notation	"bb_rfttpcov" ;
 	skos:altLabel	"Rural Fibre to the Premises coverage" ;
 	ns11:membership	ns15:bb_rfttpcov ;
@@ -1642,7 +1659,7 @@ ns7:bb_rfttpcov	rdf:type	skos:Concept ,
 ns7:bb_rngacov	rdf:type	skos:Concept ,
 		ns10:Indicator ;
 	skos:prefLabel	"Rural NGA broadband coverage/availability (as a % of households)" ;
-	dct:source	ns38:point_topic ;
+	dct:source	ns38:bc2020 ;
 	skos:notation	"bb_rngacov" ;
 	skos:altLabel	"Rural NGA broadband coverage" ;
 	ns11:membership	ns15:bb_rngacov ;
@@ -1651,7 +1668,7 @@ ns7:bb_rngacov	rdf:type	skos:Concept ,
 ns7:bb_scov	rdf:type	skos:Concept ,
 		ns10:Indicator ;
 	skos:prefLabel	"Standard fixed broadband coverage/availability (as a % of households)" ;
-	dct:source	ns38:point_topic ;
+	dct:source	ns38:bc2020 ;
 	skos:notation	"bb_scov" ;
 	skos:altLabel	"Standard fixed broadband coverage/availability" ;
 	ns11:membership	ns15:bb_scov ;
@@ -1696,7 +1713,7 @@ ns7:bb_speed30	rdf:type	skos:Concept ,
 ns7:bb_srcov	rdf:type	skos:Concept ,
 		ns10:Indicator ;
 	skos:prefLabel	"Rural standard fixed broadband coverage (as a % of households)" ;
-	dct:source	ns38:point_topic ;
+	dct:source	ns38:bc2020 ;
 	skos:notation	"bb_srcov" ;
 	skos:altLabel	"Rural standard fixed broadband coverage" ;
 	ns11:membership	ns15:bb_srcov ;
@@ -2500,16 +2517,6 @@ ns7:e_gov_5f_ke_sso	rdf:type	skos:Concept ,
 	skos:definition	"A functionality that allows users to get access to multiple websites without the need to log in multiple times." ;
 	skos:note	"This indicator has been discontinued starting from 2016" ;
 	skos:topConceptOf	ns1:indicator .
-ns7:e_gov_dpsb	rdf:type	skos:Concept ,
-		ns10:Indicator ;
-	skos:prefLabel	"Digital Public Services for Businesses" ;
-	dct:source	ns38:egov_bench13 ;
-	skos:notation	"e_gov_dpsb" ;
-	skos:altLabel	"Digital Public Services for Businesses" ;
-	ns11:membership	ns24:e_gov_dpsb ;
-	skos:definition	"The the extent to which a service or information concerning the service is provided online, and via a portal. Availability of services per Member State and per life event" ;
-	skos:note	"Services that are offered fully, partially or not at all online. Also there is a distinction between services that are offered via a portal, or not." ;
-	skos:topConceptOf	ns1:indicator .
 ns7:e_gov_ke	rdf:type	skos:Concept ,
 		ns10:Indicator ;
 	skos:prefLabel	"Key Enablers" ;
@@ -2538,16 +2545,7 @@ ns7:e_gov_osc	rdf:type	skos:Concept ,
 	skos:altLabel	"Online Service Completion" ;
 	ns11:membership	ns24:e_gov_osc ;
 	skos:definition	"Share of the steps in a Public Service life event that can be completed online (Online availability sub-indicator for User centricity of the eGovernment benchmark)" ;
-	skos:topConceptOf	ns1:indicator .
-ns7:e_gov_p	rdf:type	skos:Concept ,
-		ns10:Indicator ;
-	skos:prefLabel	"Penetration" ;
-	dct:source	ns38:egov_bench16 ;
-	skos:notation	"e_gov_p" ;
-	skos:altLabel	"Penetration" ;
-	ns11:membership	ns24:e_gov_p ;
-	skos:definition	"The extent to which use of the online channel is widespread among users of government services." ;
-	skos:note	"It is composed by: -Internet use (submitting completed forms - in the last twelve months); -Percentage of individuals who need to submit official forms to administrative authorities" ;
+	skos:note	"The indicator was measuring: Basic and Extended services for National services only till 2019. From 2020 the new indicator, \"Digital Public Services for Citizens\", was introduced. Together with the \"Digital Public Services for Business' they are fully covering the spectrum of online services. \nThe data was recalculated to include EU27 Average." ;
 	skos:topConceptOf	ns1:indicator .
 ns7:e_gov_pff	rdf:type	skos:Concept ,
 		ns10:Indicator ;
@@ -2557,6 +2555,7 @@ ns7:e_gov_pff	rdf:type	skos:Concept ,
 	skos:altLabel	"Pre-filled forms" ;
 	ns11:membership	ns24:e_gov_pff ;
 	skos:definition	"Amount of data that is pre-filled in Public Services' online forms (Authentic sources Key Enabler indicator of eGovernment benchmark)" ;
+	skos:note	"The data was recalculated to include EU27 Average." ;
 	skos:topConceptOf	ns1:indicator .
 ns7:e_igov	rdf:type	skos:Concept ,
 		ns10:Indicator ;
@@ -3788,7 +3787,7 @@ ns7:mbb_hspacov	rdf:type	ns10:Indicator ,
 ns7:mbb_ltecov	rdf:type	ns10:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"4G mobile broadband (LTE) coverage (as a % of households)" ;
-	dct:source	ns38:point_topic ;
+	dct:source	ns38:bc2020 ;
 	skos:notation	"mbb_ltecov" ;
 	skos:altLabel	"4G mobile broadband coverage" ;
 	ns11:membership	ns32:mbb_ltecov ;
@@ -3808,14 +3807,14 @@ ns7:mbb_rhspacov	rdf:type	ns10:Indicator ,
 	skos:prefLabel	"Rural advanced 3G mobile broadband (HSPA) coverage (as a % of households)" ;
 	dct:source	ns38:point_topic ;
 	skos:notation	"mbb_rhspacov" ;
-	skos:altLabel	"Advanced 3G mobile broadband coverage" ;
+	skos:altLabel	"Rural Advanced 3G mobile broadband coverage" ;
 	ns11:membership	ns32:mbb_rhspacov ;
 	skos:definition	"Coverage is a supply indicator defined as the percentage of Households living in areas covered by advanced third generation mobile broadband (HSPA protocol). Rural areas are defined as those with less than 100 people per km2." ;
 	skos:topConceptOf	ns1:indicator .
 ns7:mbb_rltecov	rdf:type	ns10:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"Rural 4G mobile broadband (LTE) coverage (as a % of households)" ;
-	dct:source	ns38:point_topic ;
+	dct:source	ns38:bc2020 ;
 	skos:notation	"mbb_rltecov" ;
 	skos:altLabel	"Rural 4G mobile broadband coverage" ;
 	ns11:membership	ns32:mbb_rltecov ;
@@ -4460,6 +4459,347 @@ ns7:desi_4a4_cloud	rdf:type	ns10:Indicator ,
 	ns11:membership	ns18:desi_4a4_cloud ;
 	skos:definition	"Businesses purchasing at least one of the following cloud computing services: hosting of the enterprise's database, accounting software applications, CRM software, computing power" ;
 	skos:topConceptOf	ns1:indicator .
+ns15:bb_rvhcncov	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"broadband" ;
+	ns11:member-of	ns12:broadband ;
+	ns11:order	"2" .
+ns15:bb_vhcncov	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"broadband" ;
+	ns11:member-of	ns12:broadband ;
+	ns11:order	"1" .
+ns24:e_gov_1_uc	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"egovernment" ;
+	ns11:member-of	ns12:egovernment ;
+	ns11:order	"1111" .
+ns24:e_gov_1a_uc_oa	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"egovernment" ;
+	ns11:member-of	ns12:egovernment ;
+	ns11:order	"11111" .
+ns24:e_gov_1b_uc_mf	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"egovernment" ;
+	ns11:member-of	ns12:egovernment ;
+	ns11:order	"11112" .
+ns24:e_gov_1c_uc_us	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"egovernment" ;
+	ns11:member-of	ns12:egovernment ;
+	ns11:order	"11113" .
+ns24:e_gov_2_tr	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"egovernment" ;
+	ns11:member-of	ns12:egovernment ;
+	ns11:order	"1112" .
+ns24:e_gov_2a_tr_sd	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"egovernment" ;
+	ns11:member-of	ns12:egovernment ;
+	ns11:order	"11121" .
+ns24:e_gov_2c_tr_pd	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"egovernment" ;
+	ns11:member-of	ns12:egovernment ;
+	ns11:order	"11122" .
+ns24:e_gov_2c_tr_sd	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"egovernment" ;
+	ns11:member-of	ns12:egovernment ;
+	ns11:order	"11123" .
+ns24:e_gov_2x_tr_po	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"egovernment" ;
+	ns11:member-of	ns12:egovernment ;
+	ns11:order	"11124" .
+ns24:e_gov_3_ke	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"egovernment" ;
+	ns11:member-of	ns12:egovernment ;
+	ns11:order	"1113" .
+ns24:e_gov_3a_ke_eid	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"egovernment" ;
+	ns11:member-of	ns12:egovernment ;
+	ns11:order	"11131" .
+ns24:e_gov_3b_ke_edoc	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"egovernment" ;
+	ns11:member-of	ns12:egovernment ;
+	ns11:order	"11132" .
+ns24:e_gov_3c_ke_as	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"egovernment" ;
+	ns11:member-of	ns12:egovernment ;
+	ns11:order	"11133" .
+ns24:e_gov_3d_ke_dp	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"egovernment" ;
+	ns11:member-of	ns12:egovernment ;
+	ns11:order	"11134" .
+ns24:e_gov_4_cb	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"egovernment" ;
+	ns11:member-of	ns12:egovernment ;
+	ns11:order	"1114" .
+ns24:e_gov_4a_cb_oa	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"egovernment" ;
+	ns11:member-of	ns12:egovernment ;
+	ns11:order	"11141" .
+ns24:e_gov_4b_cb_us	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"egovernment" ;
+	ns11:member-of	ns12:egovernment ;
+	ns11:order	"11142" .
+ns24:e_gov_4c_cb_eid	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"egovernment" ;
+	ns11:member-of	ns12:egovernment ;
+	ns11:order	"11143" .
+ns24:e_gov_4d_cb_edoc	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"egovernment" ;
+	ns11:member-of	ns12:egovernment ;
+	ns11:order	"11144" .
+ns24:e_gov_dpsc	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"egovernment" ;
+	ns11:member-of	ns12:egovernment ;
+	ns11:order	"3" .
+ns24:e_gov_od	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"egovernment" ;
+	ns11:member-of	ns12:egovernment ;
+	ns11:order	"5" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/mobile/5g_read>	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"mobile" ;
+	ns11:member-of	ns12:mobile ;
+	ns11:order	"3" .
+ns32:mbb_5gcov	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"mobile" ;
+	ns11:member-of	ns12:mobile ;
+	ns11:order	"1" .
+ns32:mbb_r5gcov	rdf:type	ns10:IndicatorToGroupMembership ;
+	rdfs:label	"mobile" ;
+	ns11:member-of	ns12:mobile ;
+	ns11:order	"2" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/5g_read>	rdf:type	ns10:Indicator ,
+		skos:Concept ;
+	skos:prefLabel	"5G readiness" ;
+	dct:source	ns38:cocom_new ;
+	skos:notation	"5g_read" ;
+	skos:altLabel	"5G readiness" ;
+	ns11:membership	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/mobile/5g_read> ;
+	skos:definition	"The amount of spectrum assigned and ready for 5G use within the so-called 5G pioneer bands. These bands are 700 MHz (703-733 MHz and 758-788 MHz), 3.6 GHz (3400-3800 MHz) and 26 GHz (1000 MHz within 24250-27500 MHz). All three spectrum bands have an equal weight." ;
+	skos:topConceptOf	ns1:indicator .
+ns7:bb_rvhcncov	rdf:type	ns10:Indicator ,
+		skos:Concept ;
+	skos:prefLabel	"Rural Fixed Very High Capacity Network (VHCN) coverage" ;
+	dct:source	ns38:bc2020 ;
+	skos:notation	"bb_rvhcncov" ;
+	skos:altLabel	"Rural Fixed Very High Capacity Network (VHCN) coverage" ;
+	ns11:membership	ns15:bb_rvhcncov ;
+	skos:definition	"Percentage of households covered by any fixed VHCN. The technologies considered are FTTH and FTTB for 2015-2018 and FTTH, FTTB and Cable Docsis 3.1 for 2019 onwards." ;
+	skos:topConceptOf	ns1:indicator .
+ns7:bb_vhcncov	rdf:type	ns10:Indicator ,
+		skos:Concept ;
+	skos:prefLabel	"Fixed Very High Capacity Network (VHCN) coverage" ;
+	dct:source	ns38:bc2020 ;
+	skos:notation	"bb_vhcncov" ;
+	skos:altLabel	"Fixed Very High Capacity Network (VHCN) coverage" ;
+	ns11:membership	ns15:bb_vhcncov ;
+	skos:definition	"Percentage of households covered by any fixed VHCN. The technologies considered are FTTH and FTTB for 2015-2018 and FTTH, FTTB and Cable Docsis 3.1 for 2019 onwards.\nRural areas are defined as those with less than 100 people per km2." ;
+	skos:topConceptOf	ns1:indicator .
+ns7:e_gov_1_uc	rdf:type	ns10:Indicator ,
+		skos:Concept ;
+	skos:prefLabel	"1 User centricity" ;
+	dct:source	ns38:egov_bench ;
+	skos:notation	"e_gov_1_uc" ;
+	skos:altLabel	"1 User centricity" ;
+	ns11:membership	ns24:e_gov_1_uc ;
+	skos:definition	"The extent to which information and services are available online, supported online and compatible with mobile devices.D362" ;
+	skos:topConceptOf	ns1:indicator .
+ns7:e_gov_1a_uc_oa	rdf:type	ns10:Indicator ,
+		skos:Concept ;
+	skos:prefLabel	"1.1 User centricity - Online availability" ;
+	dct:source	ns38:egov_bench ;
+	skos:notation	"e_gov_1a_uc_oa" ;
+	skos:altLabel	"1.1 User centricity - Online availability" ;
+	ns11:membership	ns24:e_gov_1a_uc_oa ;
+	skos:definition	"The extent to which informational and transactional services and information concerning these services is provided online, and can be reached via a portal website." ;
+	skos:topConceptOf	ns1:indicator .
+ns7:e_gov_1b_uc_mf	rdf:type	ns10:Indicator ,
+		skos:Concept ;
+	skos:prefLabel	"1.2 User centricity - Mobile friendliness" ;
+	dct:source	ns38:egov_bench ;
+	skos:notation	"e_gov_1b_uc_mf" ;
+	skos:altLabel	"1.2 User centricity - Mobile friendliness" ;
+	ns11:membership	ns24:e_gov_1b_uc_mf ;
+	skos:definition	"The extent to which services are provided through a mobile-friendly interface, an interface that is responsive to the mobile device." ;
+	skos:topConceptOf	ns1:indicator .
+ns7:e_gov_1c_uc_us	rdf:type	ns10:Indicator ,
+		skos:Concept ;
+	skos:prefLabel	"1.3 User centricity - User support" ;
+	dct:source	ns38:egov_bench ;
+	skos:notation	"e_gov_1c_uc_us" ;
+	skos:altLabel	"1.3 User centricity - User support" ;
+	ns11:membership	ns24:e_gov_1c_uc_us ;
+	skos:definition	"The extent to which online support, help features, and feedback mechanisms are available." ;
+	skos:topConceptOf	ns1:indicator .
+ns7:e_gov_2_tr	rdf:type	ns10:Indicator ,
+		skos:Concept ;
+	skos:prefLabel	"2 Transparency" ;
+	dct:source	ns38:egov_bench ;
+	skos:notation	"e_gov_2_tr" ;
+	skos:altLabel	"2 Transparency" ;
+	ns11:membership	ns24:e_gov_2_tr ;
+	skos:definition	"The extent to which service processes are transparent, services are designed with user involvement and users can manage their personal data." ;
+	skos:topConceptOf	ns1:indicator .
+ns7:e_gov_2a_tr_sd	rdf:type	ns10:Indicator ,
+		skos:Concept ;
+	skos:prefLabel	"2.1 Transparency - Transparency of service delivery" ;
+	dct:source	ns38:egov_bench ;
+	skos:notation	"e_gov_2a_tr_sd" ;
+	skos:altLabel	"2.1 Transparency - Transparency of service delivery" ;
+	ns11:membership	ns24:e_gov_2a_tr_sd ;
+	skos:definition	"The extent to which the service process and expectations are clarified." ;
+	skos:topConceptOf	ns1:indicator .
+ns7:e_gov_2c_tr_pd	rdf:type	ns10:Indicator ,
+		skos:Concept ;
+	skos:prefLabel	"2.2 Transparency - Transparency of personal data" ;
+	dct:source	ns38:egov_bench ;
+	skos:notation	"e_gov_2c_tr_pd" ;
+	skos:altLabel	"2.2 Transparency - Transparency of personal data" ;
+	ns11:membership	ns24:e_gov_2c_tr_pd ;
+	skos:definition	"The extent to which user can manage their personal data held by government organisations." ;
+	skos:topConceptOf	ns1:indicator .
+ns7:e_gov_2c_tr_sd	rdf:type	ns10:Indicator ,
+		skos:Concept ;
+	skos:prefLabel	"2.3 Transparency - Transparency of service design" ;
+	dct:source	ns38:egov_bench ;
+	skos:notation	"e_gov_2c_tr_sd" ;
+	skos:altLabel	"2.3 Transparency - Transparency of service design" ;
+	ns11:membership	ns24:e_gov_2c_tr_sd ;
+	skos:definition	"The extent to which user are informed on and involved in policy and service design processes." ;
+	skos:topConceptOf	ns1:indicator .
+ns7:e_gov_2x_tr_po	rdf:type	ns10:Indicator ,
+		skos:Concept ;
+	skos:prefLabel	"2.X Transparency - Transparency of public organisations (old indicator)" ;
+	dct:source	ns38:egov_bench ;
+	skos:notation	"e_gov_2x_tr_po" ;
+	skos:altLabel	"2.X Transparency - Transparency of public organisations (old indicator)" ;
+	ns11:membership	ns24:e_gov_2x_tr_po ;
+	skos:definition	"The extent to which public administrations publish information about their organisations (e.g. finance, organisational structure and responsibilities), and about their activities (e.g. the decision-making processes and regulations). " ;
+	skos:note	"This indicator has been discontinued starting from 2020" ;
+	skos:topConceptOf	ns1:indicator .
+ns7:e_gov_3_ke	rdf:type	skos:Concept ,
+		ns10:Indicator ;
+	skos:prefLabel	"3 Key Enablers" ;
+	dct:source	ns38:egov_bench ;
+	skos:notation	"e_gov_3_ke" ;
+	skos:altLabel	"3 Key Enablers" ;
+	ns11:membership	ns24:e_gov_3_ke ;
+	skos:definition	"The extent to which main IT enablers (eIDs, eDocuments, Authentic sources, Digital post and security) are available during services processes, which can be used to assess the presence of the technical pre-conditions of the efficient and effective use of online services." ;
+	skos:topConceptOf	ns1:indicator .
+ns7:e_gov_3a_ke_eid	rdf:type	skos:Concept ,
+		ns10:Indicator ;
+	skos:prefLabel	"3.1 Key enablers - eID" ;
+	dct:source	ns38:egov_bench ;
+	skos:notation	"e_gov_3a_ke_eid" ;
+	skos:altLabel	"3.1 Key enablers - eID" ;
+	ns11:membership	ns24:e_gov_3a_ke_eid ;
+	skos:definition	"The extent to which electronic Identification (eID), any means accepted by eGovernment services (e.g. smartcards, username and password) for online identification, can be used during service processes." ;
+	skos:topConceptOf	ns1:indicator .
+ns7:e_gov_3b_ke_edoc	rdf:type	skos:Concept ,
+		ns10:Indicator ;
+	skos:prefLabel	"3.2 Key enabler - eDocuments" ;
+	dct:source	ns38:egov_bench ;
+	skos:notation	"e_gov_3b_ke_edoc" ;
+	skos:altLabel	"3.2 Key enabler - eDocuments" ;
+	ns11:membership	ns24:e_gov_3b_ke_edoc ;
+	skos:definition	"The extent to which electronic documents (eDocuments), any document in digital form that the user needs to submit/upload in order to complete an eGovernment service, or that the user obtains as a proof or a result of the service (e.g. certificate, diploma, proof of registration) can be used during service processes. " ;
+	skos:topConceptOf	ns1:indicator .
+ns7:e_gov_3c_ke_as	rdf:type	skos:Concept ,
+		ns10:Indicator ;
+	skos:prefLabel	"3.3 Key enabler - Authentic sources" ;
+	dct:source	ns38:egov_bench ;
+	skos:notation	"e_gov_3c_ke_as" ;
+	skos:altLabel	"3.3 Key enabler - Authentic sources" ;
+	ns11:membership	ns24:e_gov_3c_ke_as ;
+	skos:definition	"The extent to which Authentic Sources, base registries used by governments to automatically validate or fetch data relating to citizens or businesses, can be used during the service process." ;
+	skos:topConceptOf	ns1:indicator .
+ns7:e_gov_3d_ke_dp	rdf:type	skos:Concept ,
+		ns10:Indicator ;
+	skos:prefLabel	"3.4 Key enabler - Digital Post" ;
+	dct:source	ns38:egov_bench ;
+	skos:notation	"e_gov_3d_ke_dp" ;
+	skos:altLabel	"3.4 Key enabler - Digital Post" ;
+	ns11:membership	ns24:e_gov_3d_ke_dp ;
+	skos:definition	"The extent to which public authorities allow citizens to receive communications digitally only and opt-out for paper mailings. Digital Post refers to the possibility that governments communicate electronically-only with citizens or entrepreneurs through e.g. personal mailboxes or other digital postal solutions." ;
+	skos:topConceptOf	ns1:indicator .
+ns7:e_gov_4_cb	rdf:type	skos:Concept ,
+		ns10:Indicator ;
+	skos:prefLabel	"4 Cross-border services" ;
+	dct:source	ns38:egov_bench ;
+	skos:notation	"e_gov_4_cb" ;
+	skos:altLabel	"4 Cross-border services" ;
+	ns11:membership	ns24:e_gov_4_cb ;
+	skos:definition	"The extent to which information and services are available online, usable, and integrated with eIDs and eDocuments for users from other European countries." ;
+	skos:topConceptOf	ns1:indicator .
+ns7:e_gov_4a_cb_oa	rdf:type	skos:Concept ,
+		ns10:Indicator ;
+	skos:prefLabel	"4.1 Cross-border services - Cross-border online availability" ;
+	dct:source	ns38:egov_bench ;
+	skos:notation	"e_gov_4a_cb_oa" ;
+	skos:altLabel	"4.1 Cross-border services - Cross-border online availability" ;
+	ns11:membership	ns24:e_gov_4a_cb_oa ;
+	skos:definition	"The extent to which informational and transactional services and information concerning these services is provided online for users from other European countries." ;
+	skos:topConceptOf	ns1:indicator .
+ns7:e_gov_4b_cb_us	rdf:type	skos:Concept ,
+		ns10:Indicator ;
+	skos:prefLabel	"4.2 Cross-border services - Cross-border user support" ;
+	dct:source	ns38:egov_bench ;
+	skos:notation	"e_gov_4b_cb_us" ;
+	skos:altLabel	"4.2 Cross-border services - Cross-border user support" ;
+	ns11:membership	ns24:e_gov_4b_cb_us ;
+	skos:definition	"The extent to which online support, help features, and feedback mechanisms are available for users from other European countries." ;
+	skos:topConceptOf	ns1:indicator .
+ns7:e_gov_4c_cb_eid	rdf:type	skos:Concept ,
+		ns10:Indicator ;
+	skos:prefLabel	"4.3 Cross-border services - Cross-border eID" ;
+	dct:source	ns38:egov_bench ;
+	skos:notation	"e_gov_4c_cb_eid" ;
+	skos:altLabel	"4.3 Cross-border services - Cross-border eID" ;
+	ns11:membership	ns24:e_gov_4c_cb_eid ;
+	skos:definition	"The extent to which electronic Identification (eID) can be used during service processes by users from other European countries, a government-issued document for online identification, and authentication." ;
+	skos:topConceptOf	ns1:indicator .
+ns7:e_gov_4d_cb_edoc	rdf:type	skos:Concept ,
+		ns10:Indicator ;
+	skos:prefLabel	"4.4 Cross-border services - Cross-border eDocuments" ;
+	dct:source	ns38:egov_bench ;
+	skos:notation	"e_gov_4d_cb_edoc" ;
+	skos:altLabel	"4.4 Cross-border services - Cross-border eDocuments" ;
+	ns11:membership	ns24:e_gov_4d_cb_edoc ;
+	skos:definition	"The extent to which electronic documents (eDocuments) can be used during service processes by users from other European countries, documents that have been authenticated by its issuer using any means recognised under applicable national law, specifically through the use of electronic signatures, e.g. not a regular PDF or Word file." ;
+	skos:topConceptOf	ns1:indicator .
+ns7:mbb_5gcov	rdf:type	skos:Concept ,
+		ns10:Indicator ;
+	skos:prefLabel	"5G mobile broadband coverage (as a % of households)" ;
+	dct:source	ns38:bc2020 ;
+	skos:notation	"mbb_5gcov" ;
+	skos:altLabel	"5G mobile broadband coverage" ;
+	ns11:membership	ns32:mbb_5gcov ;
+	skos:definition	"Coverage is a supply indicator defined as the percentage of Households living in areas covered by fifth generation mobile broadband. " ;
+	skos:topConceptOf	ns1:indicator .
+ns7:mbb_r5gcov	rdf:type	skos:Concept ,
+		ns10:Indicator ;
+	skos:prefLabel	"Rural 5G mobile broadband coverage (as a % of households)" ;
+	dct:source	ns38:bc2020 ;
+	skos:notation	"mbb_r5gcov" ;
+	skos:altLabel	"Rural 5G mobile broadband coverage" ;
+	ns11:membership	ns32:mbb_r5gcov ;
+	skos:definition	"Coverage is a supply indicator defined as the percentage of Households living in areas covered by fifth generation mobile broadband. \nRural areas are defined as those with less than 100 people per km2." ;
+	skos:topConceptOf	ns1:indicator .
+ns7:e_gov_dpsc	rdf:type	skos:Concept ,
+		ns10:Indicator ;
+	skos:prefLabel	"Digital Public Services for Citizens" ;
+	dct:source	ns38:e_gov_bench ;
+	skos:notation	"e_gov_dpsc" ;
+	skos:altLabel	"Digital Public Services for Citizens" ;
+	ns11:membership	ns24:e_gov_dpsc ;
+	skos:definition	"The extent to which a service or information concerning service for citizens is provided online, and via a portal. Services that are offered fully, partially or not at all online. " ;
+	skos:note	"It is calculated as the average of the national and cross-border online availability for basic and extended services within the citizen-related Life Events from the last two\nyears (Family, Career, Studying, Moving, Owning and driving a car and Starting a small claims procedure)." ;
+	skos:topConceptOf	ns1:indicator .
+ns7:e_gov_od	rdf:type	skos:Concept ,
+		ns10:Indicator ;
+	skos:prefLabel	"Open Data" ;
+	dct:source	ns38:european_data_portal ;
+	skos:notation	"e_gov_od" ;
+	skos:altLabel	"Open Data" ;
+	ns11:membership	ns24:e_gov_od ;
+	skos:definition	"A series of indicators have been selected to measure Open Data maturity across Europe. These indicators cover the level of development of national policies promoting Open Data, an assessment of the features made available on national data portals as well as the expected impact and quality of Open Data." ;
+	skos:note	"This composite indicator comprises 4 dimensions:\ni)Open Data Policy that focuses on the presence of specific  olicies and strategies to foster open data at national level; \nii) Open Data Impact that looks at the activities performed to monitor and measure open re-use and the impact derived by such re-use; \niii) Open Data Portal that focuses on advanced portal  unctions that enable both versed and less versed users to access open data via the national portal and features that enhance the interaction between publishers and re-users (via forum and discussion boards); and \niv) Open Data Quality that focuses on the measures  dopted by portal managers to ensure the systematic harvesting of metadata from sources across the country, as well as the  urrency of the available metadata and where possible the actual data, the monitoring of the compliance with the DCAT-AP metadata standard as well as the quality of  eployment of the published data.\nBreak in series in 2020 due to methodological changes.\nThe data was recalculated to include EU27 Average.\nFor more information please consult: https://www.europeandataportal.eu/en/impact-studies/open-data-maturity" ;
+	skos:topConceptOf	ns1:indicator .
 ns7:i_dsk_x	rdf:type	skos:Concept ,
 		ns10:Indicator ;
 	skos:prefLabel	"Individuals with no digital skills" ;
@@ -4711,11 +5051,11 @@ ns7:old_i_dsk_s_b	rdf:type	ns10:Indicator ,
 ns15:h_fbbfix	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"broadband" ;
 	ns11:member-of	ns12:broadband ;
-	ns11:order	"12" .
+	ns11:order	"11" .
 ns15:h_ubbfix	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"broadband" ;
 	ns11:member-of	ns12:broadband ;
-	ns11:order	"13" .
+	ns11:order	"12" .
 ns7:h_fbbfix	rdf:type	ns10:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"Households with fast fixed broadband connection" ;
@@ -4737,15 +5077,16 @@ ns7:h_ubbfix	rdf:type	ns10:Indicator ,
 ns24:e_gov_ebus	rdf:type	ns10:IndicatorToGroupMembership ;
 	rdfs:label	"egovernment" ;
 	ns11:member-of	ns12:egovernment ;
-	ns11:order	"6" .
+	ns11:order	"4" .
 ns7:e_gov_ebus	rdf:type	ns10:Indicator ,
 		skos:Concept ;
-	skos:prefLabel	"Digital public services for businesses" ;
-	dct:source	ns38:e_gov_bench ;
+	skos:prefLabel	"Digital Public Services for Businesses" ;
+	dct:source	ns38:egov_bench ;
 	skos:notation	"e_gov_ebus" ;
-	skos:altLabel	"Digital public services for businesses" ;
+	skos:altLabel	"Digital Public Services for Businesses" ;
 	ns11:membership	ns24:e_gov_ebus ;
-	skos:definition	"The indicator broadly reflects the share of public services needed for starting a business and for conducting regular business operations that are available online for domestics as well as for foreign users. Services provided through a portal receive an higher score, services which provide only information (but have to be completed offline) receive a more limited score" ;
+	skos:definition	"The extent to which a service or information concerning service for businesses is provided online and via a portal. Services that are offered fully, partially or not at all online. " ;
+	skos:note	"It is calculated as the average of the national and cross-border online availability for basic and extended services within the business-related Life Events from the last two\nyears (Business Start-up and Regular Business\nOperations). Until 2019 (included), the indicator was measuring Basic services for National and Cross-Border. Meaning that as of 2020, the extended services were also added.\nThe data was recalculated to include EU27 Average. " ;
 	skos:topConceptOf	ns1:indicator .
 ns7:i_dsk_s_x	rdf:type	ns10:Indicator ,
 		skos:Concept ;

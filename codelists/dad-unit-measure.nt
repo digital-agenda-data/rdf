@@ -277,6 +277,13 @@
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/old_pc_desi_5b_ehs_old>	<http://www.w3.org/2004/02/skos/core#notation>	"old_pc_desi_5b_ehs_old" .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/old_pc_desi_5b_ehs_old>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"weighted score (0 to 100)" .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/old_pc_desi_5b_ehs_old>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/opendata_score>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/opendata_score>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/opendata_score>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Score (0 to 100)" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/opendata_score>	<http://www.w3.org/2004/02/skos/core#definition>	"The score of the country, from a minimum of 0 to a maximum of 100." .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/opendata_score>	<http://www.w3.org/2004/02/skos/core#notation>	"opendata_score" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/opendata_score>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Score (0 to 100)" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/opendata_score>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_adm_cinema>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_adm_cinema>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_adm_cinema>	<http://www.w3.org/2004/02/skos/core#altLabel>	"% of total admissions " .
@@ -882,7 +889,7 @@
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/wid_score>	<http://www.w3.org/2004/02/skos/core#notation>	"wid_score" .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/wid_score>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Score (0 to 1)" .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/wid_score>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
-<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://purl.org/dc/terms/modified>	"2020-06-11T11:23:51"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://purl.org/dc/terms/modified>	"2021-03-19T12:57:32"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://purl.org/linked-data/sdmx#CodeList> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#ConceptScheme> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2000/01/rdf-schema#isDefinedBy>	<http://digital-agenda-data.eu/> .
@@ -929,6 +936,7 @@
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/nr_x10mil_ecfund> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/od_score> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/old_pc_desi_5b_ehs_old> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/opendata_score> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_adm_cinema> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_bb_lines> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_desi> .

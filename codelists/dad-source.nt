@@ -5,6 +5,13 @@
 <http://semantic.digital-agenda-data.eu/codelist/source/abac>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"ABAC" .
 <http://semantic.digital-agenda-data.eu/codelist/source/abac>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/source> .
 <http://semantic.digital-agenda-data.eu/codelist/source/abac>	<http://xmlns.com/foaf/0.1/page>	<http://europa.eu/rapid/press-release_MEMO-05-94_en.htm?locale=en> .
+<http://semantic.digital-agenda-data.eu/codelist/source/bc2020>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Source> .
+<http://semantic.digital-agenda-data.eu/codelist/source/bc2020>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/source/bc2020>	<http://www.w3.org/2004/02/skos/core#definition>	"IHS Markit, Omdia, Point Topic and VVA, Broadband coverage in Europe studies" .
+<http://semantic.digital-agenda-data.eu/codelist/source/bc2020>	<http://www.w3.org/2004/02/skos/core#notation>	"bc2020" .
+<http://semantic.digital-agenda-data.eu/codelist/source/bc2020>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Broadband coverage in Europe studies" .
+<http://semantic.digital-agenda-data.eu/codelist/source/bc2020>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/source> .
+<http://semantic.digital-agenda-data.eu/codelist/source/bc2020>	<http://xmlns.com/foaf/0.1/page>	<https://ec.europa.eu/digital-single-market/en/broadband-connectivity> .
 <http://semantic.digital-agenda-data.eu/codelist/source/bench_gp>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Source> .
 <http://semantic.digital-agenda-data.eu/codelist/source/bench_gp>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
 <http://semantic.digital-agenda-data.eu/codelist/source/bench_gp>	<http://www.w3.org/2004/02/skos/core#definition>	"Studies committed by DG Connect to monitor the adoption of eHealth technologies by General Practitioners: 2007, 2013" .
@@ -51,6 +58,12 @@
 <http://semantic.digital-agenda-data.eu/codelist/source/cocom>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Communications Committee survey" .
 <http://semantic.digital-agenda-data.eu/codelist/source/cocom>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/source> .
 <http://semantic.digital-agenda-data.eu/codelist/source/cocom>	<http://xmlns.com/foaf/0.1/page>	<http://ec.europa.eu/digital-agenda/about-fast-and-ultra-fast-internet-access> .
+<http://semantic.digital-agenda-data.eu/codelist/source/cocom_new>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Source> .
+<http://semantic.digital-agenda-data.eu/codelist/source/cocom_new>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/source/cocom_new>	<http://www.w3.org/2004/02/skos/core#definition>	"European Commission services, through the Communications Committee (COCOM)" .
+<http://semantic.digital-agenda-data.eu/codelist/source/cocom_new>	<http://www.w3.org/2004/02/skos/core#notation>	"cocom_new" .
+<http://semantic.digital-agenda-data.eu/codelist/source/cocom_new>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Communications Committee survey" .
+<http://semantic.digital-agenda-data.eu/codelist/source/cocom_new>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/source> .
 <http://semantic.digital-agenda-data.eu/codelist/source/corda>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Source> .
 <http://semantic.digital-agenda-data.eu/codelist/source/corda>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
 <http://semantic.digital-agenda-data.eu/codelist/source/corda>	<http://www.w3.org/2004/02/skos/core#definition>	"Common Research Data Warehouse" .
@@ -735,6 +748,13 @@
 <http://semantic.digital-agenda-data.eu/codelist/source/euripidis-estat>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"JRC-IPTS Euripidis project based on Eurostat Business demography data" .
 <http://semantic.digital-agenda-data.eu/codelist/source/euripidis-estat>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/source> .
 <http://semantic.digital-agenda-data.eu/codelist/source/euripidis-estat>	<http://xmlns.com/foaf/0.1/page>	<http://ec.europa.eu/eurostat/web/products-datasets/-/educ_uoe_grad03> .
+<http://semantic.digital-agenda-data.eu/codelist/source/european_data_portal>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Source> .
+<http://semantic.digital-agenda-data.eu/codelist/source/european_data_portal>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/source/european_data_portal>	<http://www.w3.org/2004/02/skos/core#definition>	"European Data Portal" .
+<http://semantic.digital-agenda-data.eu/codelist/source/european_data_portal>	<http://www.w3.org/2004/02/skos/core#notation>	"european_data_portal" .
+<http://semantic.digital-agenda-data.eu/codelist/source/european_data_portal>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"European Data Portal" .
+<http://semantic.digital-agenda-data.eu/codelist/source/european_data_portal>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/source> .
+<http://semantic.digital-agenda-data.eu/codelist/source/european_data_portal>	<http://xmlns.com/foaf/0.1/page>	<https://www.europeandataportal.eu/en/impact-studies/open-data-maturity> .
 <http://semantic.digital-agenda-data.eu/codelist/source/eurostat_ed>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Source> .
 <http://semantic.digital-agenda-data.eu/codelist/source/eurostat_ed>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
 <http://semantic.digital-agenda-data.eu/codelist/source/eurostat_ed>	<http://www.w3.org/2004/02/skos/core#definition>	"Eurostat education statistics (table educ_uoe_grad04 and tps00188) " .
@@ -861,21 +881,23 @@
 <http://semantic.digital-agenda-data.eu/codelist/source/samknows>	<http://xmlns.com/foaf/0.1/page>	<http://ec.europa.eu/digital-agenda/en/news/quality-broadband-services-eu-samknows-study-internet-speeds> .
 <http://semantic.digital-agenda-data.eu/codelist/source/smart11_39>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Source> .
 <http://semantic.digital-agenda-data.eu/codelist/source/smart11_39>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
-<http://semantic.digital-agenda-data.eu/codelist/source/smart11_39>	<http://www.w3.org/2004/02/skos/core#definition>	": Analysis conducted by DG CONNECT Unit F4, based on results of the study SMART 2011/0039 which main results are published in: Jacob, J., Sanditov, B., Smirnov, E., Wintjes, R., Surpatean, A., Notten, A., & Sasso, S. (Forthcoming). Analysis of publications and patents of ICT research in FP7. Brussels, European Commission. " .
+<http://semantic.digital-agenda-data.eu/codelist/source/smart11_39>	<http://www.w3.org/2004/02/skos/core#definition>	"Analysis conducted by DG CONNECT Unit F4, based on results of the study SMART 2011/0039 which main results are published in: Jacob, J., Sanditov, B., Smirnov, E., Wintjes, R., Surpatean, A., Notten, A., & Sasso, S. (Forthcoming). Analysis of publications and patents of ICT research in FP7. Brussels, European Commission. " .
 <http://semantic.digital-agenda-data.eu/codelist/source/smart11_39>	<http://www.w3.org/2004/02/skos/core#notation>	"smart11_39" .
 <http://semantic.digital-agenda-data.eu/codelist/source/smart11_39>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Analysis of publications and patents of ICT research in FP7" .
 <http://semantic.digital-agenda-data.eu/codelist/source/smart11_39>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/source> .
 <http://semantic.digital-agenda-data.eu/codelist/source/smart11_39>	<http://xmlns.com/foaf/0.1/page>	<http://ec.europa.eu/digital-agenda/en/digital-agenda-you/our-studies-and-open-datasets> .
-<http://semantic.digital-agenda-data.eu/codelist/source>	<http://purl.org/dc/terms/modified>	"2020-06-11T11:24:20"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://semantic.digital-agenda-data.eu/codelist/source>	<http://purl.org/dc/terms/modified>	"2021-03-19T15:42:09"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://semantic.digital-agenda-data.eu/codelist/source>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#ConceptScheme> .
 <http://semantic.digital-agenda-data.eu/codelist/source>	<http://www.w3.org/2000/01/rdf-schema#isDefinedBy>	<http://digital-agenda-data.eu/> .
 <http://semantic.digital-agenda-data.eu/codelist/source>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/source/abac> .
+<http://semantic.digital-agenda-data.eu/codelist/source>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/source/bc2020> .
 <http://semantic.digital-agenda-data.eu/codelist/source>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/source/bench_gp> .
 <http://semantic.digital-agenda-data.eu/codelist/source>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/source/berec_roam> .
 <http://semantic.digital-agenda-data.eu/codelist/source>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/source/biac> .
 <http://semantic.digital-agenda-data.eu/codelist/source>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/source/capgemini> .
 <http://semantic.digital-agenda-data.eu/codelist/source>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/source/cnect-estat> .
 <http://semantic.digital-agenda-data.eu/codelist/source>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/source/cocom> .
+<http://semantic.digital-agenda-data.eu/codelist/source>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/source/cocom_new> .
 <http://semantic.digital-agenda-data.eu/codelist/source>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/source/corda> .
 <http://semantic.digital-agenda-data.eu/codelist/source>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/source/desi_1a1_fbbtc> .
 <http://semantic.digital-agenda-data.eu/codelist/source>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/source/desi_1a2_ufbbtu> .
@@ -973,6 +995,7 @@
 <http://semantic.digital-agenda-data.eu/codelist/source>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/source/estathh_cocom> .
 <http://semantic.digital-agenda-data.eu/codelist/source>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/source/eun12> .
 <http://semantic.digital-agenda-data.eu/codelist/source>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/source/euripidis-estat> .
+<http://semantic.digital-agenda-data.eu/codelist/source>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/source/european_data_portal> .
 <http://semantic.digital-agenda-data.eu/codelist/source>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/source/eurostat_ed> .
 <http://semantic.digital-agenda-data.eu/codelist/source>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/source/eurostat_nat_acc> .
 <http://semantic.digital-agenda-data.eu/codelist/source>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/source/eurostat_pop> .
