@@ -25,12 +25,12 @@
 @prefix ns24:	<http://ec.europa.eu/digital-agenda/en/news/> .
 @prefix ns25:	<http://epp.eurostat.ec.europa.eu/portal/page/portal/employment_unemployment_lfs/methodology/> .
 @prefix ns26:	<http://ec.europa.eu/digital-agenda/en/digital-agenda-you/> .
-@prefix ns27:	<https://www.europeandataportal.eu/en/impact-studies/> .
-@prefix ns28:	<https://ec.europa.eu/digital-single-market/en/> .
+@prefix ns27:	<https://ec.europa.eu/digital-single-market/en/> .
+@prefix ns28:	<https://www.europeandataportal.eu/en/impact-studies/> .
 
 ns1:source
 	rdf:type	skos:ConceptScheme ;
-	dct:modified	"2021-03-19T15:42:09"^^xsd:dateTime ;
+	dct:modified	"2021-03-22T09:28:22"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://digital-agenda-data.eu/> ;
 	skos:prefLabel	"Sources used by Digital Agenda Scoreboard indicators" ;
 	skos:notation	"CL_SOURCE" ;
@@ -687,13 +687,14 @@ ns6:smart11_39
 ns6:cocom_new
 	rdf:type	ns8:Source , skos:Concept ;
 	skos:prefLabel	"Communications Committee survey" ;
+	foaf:page	ns27:broadband-connectivity ;
 	skos:notation	"cocom_new" ;
 	skos:definition	"European Commission services, through the Communications Committee (COCOM)" ;
 	skos:topConceptOf	ns1:source .
 ns6:european_data_portal
 	rdf:type	ns8:Source , skos:Concept ;
 	skos:prefLabel	"European Data Portal" ;
-	foaf:page	ns27:open-data-maturity ;
+	foaf:page	ns28:open-data-maturity ;
 	skos:notation	"european_data_portal" ;
 	skos:definition	"European Data Portal" ;
 	skos:topConceptOf	ns1:source .
@@ -812,7 +813,7 @@ ns6:desi_4a4_cloud
 ns6:bc2020
 	rdf:type	ns8:Source , skos:Concept ;
 	skos:prefLabel	"Broadband coverage in Europe studies" ;
-	foaf:page	ns28:broadband-connectivity ;
+	foaf:page	ns27:broadband-connectivity ;
 	skos:notation	"bc2020" ;
 	skos:definition	"IHS Markit, Omdia, Point Topic and VVA, Broadband coverage in Europe studies" ;
 	skos:topConceptOf	ns1:source .
