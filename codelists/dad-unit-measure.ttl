@@ -12,44 +12,20 @@
 @prefix ns11:	<http://eurostat.linked-statistics.org/dic/unit#> .
 @prefix ns12:	<Eurostat\u0020-\u0020Structure\u0020of\u0020Earnings\u0020Survey\u0020(SES).\u0020https://ec.europa.eu/eurostat/en/web/products-datasets/-/> .
 
-ns1:old_pc_desi_5b_ehs_old
+ns1:pc_ind_iugov12
 	rdf:type	ns2:UnitMeasure , skos:Concept ;
-	skos:prefLabel	"weighted score (0 to 100)" ;
-	skos:notation	"old_pc_desi_5b_ehs_old" ;
-	skos:definition	"Weighted score of a DESI indicator" ;
-	skos:topConceptOf	ns4:unit-measure .
-ns1:pc_desi_1a_fbbtc
-	rdf:type	ns2:UnitMeasure , skos:Concept ;
-	skos:prefLabel	"weighted score (0 to 100)" ;
-	skos:notation	"pc_desi_1a_fbbtc" ;
-	skos:definition	"Weighted score of a DESI indicator" ;
-	skos:topConceptOf	ns4:unit-measure .
-ns1:pc_desi_1b_fbbc
-	rdf:type	ns2:UnitMeasure , skos:Concept ;
-	skos:prefLabel	"weighted score (0 to 100)" ;
-	skos:notation	"pc_desi_1b_fbbc" ;
-	skos:definition	"Weighted score of a DESI indicator" ;
-	skos:topConceptOf	ns4:unit-measure .
-ns1:pc_desi_1c_mbb
-	rdf:type	ns2:UnitMeasure , skos:Concept ;
-	skos:prefLabel	"weighted score (0 to 100)" ;
-	skos:notation	"pc_desi_1c_mbb" ;
-	skos:definition	"Weighted score of a DESI indicator" ;
-	skos:topConceptOf	ns4:unit-measure .
-ns1:pc_desi_1d_bbpi
-	rdf:type	ns2:UnitMeasure , skos:Concept ;
-	skos:prefLabel	"weighted score (0 to 100)" ;
-	skos:notation	"pc_desi_1d_bbpi" ;
-	skos:definition	"Weighted score of a DESI indicator" ;
+	skos:prefLabel	"Percentage of individuals who used the Internet, in the last 12 months, for interaction with public authorities" ;
+	skos:notation	"pc_ind_iugov12" ;
+	skos:altLabel	"% of internet users  who interacted with public authorities (last year)" ;
 	skos:topConceptOf	ns4:unit-measure .
 ns4:unit-measure
 	rdf:type	skos:ConceptScheme , ns5:CodeList ;
-	dct:modified	"2021-03-19T12:57:32"^^xsd:dateTime ;
+	dct:modified	"2021-11-12T10:34:50"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://digital-agenda-data.eu/> ;
 	rdfs:seeAlso	ns9:unit ;
 	skos:prefLabel	"Code list for units of measure used by Digital Agenda Scoreboard" ;
 	skos:notation	"CL_UNIT_MEASURE" ;
-	skos:hasTopConcept	ns1:old_pc_desi_5b_ehs_old , ns1:pc_desi_1a_fbbtc , ns1:pc_desi_1b_fbbc , ns1:pc_desi_1c_mbb , ns1:pc_desi_1d_bbpi , ns1:corehours_million , ns1:cum_nr_artic , ns1:cum_nr_pat , ns1:cum_nr_pub , ns1:cum_x10mil_ecfund , ns1:days , ns1:desi_score , ns1:egov_score , ns1:epsiscore_pts , ns1:euro , ns1:euro_x_hab , ns1:euro_x_million_gbaord , ns1:euro_x_million_of_gdp , ns1:eurocent , ns1:gbpskm , ns1:habitants , ns1:hhi , ns1:ia12ave , ns1:median_euro_ppp , ns1:mhz , ns1:million_euro , ns1:minimum_euro_ppp , ns1:mio_hh , ns1:mio_ind , ns1:nb_channel , ns1:nb_empl , ns1:nb_ent , ns1:nb_infr_case , ns1:nb_vod_service , ns1:nb_x1000inh_20_29 , ns1:nb_x100stud , ns1:nbr_lines , ns1:nbr_organisations , ns1:nbr_participations , ns1:nbr_subs , ns1:no_posts , ns1:nr_artic , ns1:nr_pat , ns1:nr_pub , ns1:nr_x10mil_ecfund , ns1:od_score , ns1:pc_adm_cinema , ns1:pc_bb_lines , ns1:pc_desi , ns1:pc_desi_1_conn , ns1:pc_desi_2_hc , ns1:pc_desi_2a_bsu , ns1:pc_desi_2b_asd , ns1:pc_desi_3_ui , ns1:pc_desi_3c_trans , ns1:pc_desi_4_idt , ns1:pc_desi_4a_bd , ns1:pc_desi_4b_ecomm , ns1:pc_desi_5_dps , ns1:pc_desi_5a_egov , ns1:pc_desi_sliders , ns1:pc_digskillindex , ns1:pc_dispo_income , ns1:pc_e_cc , ns1:pc_e_gov_ke , ns1:pc_e_gov_oa , ns1:pc_ebhh_tv , ns1:pc_edigint2015 , ns1:pc_emp , ns1:pc_emp_pmd , ns1:pc_ent , ns1:pc_ent_aesell , ns1:pc_ent_awsell , ns1:pc_ent_itsprcr2 , ns1:pc_epsi_score , ns1:pc_exp , ns1:pc_fp7ict_ec_funding , ns1:pc_fp7ict_particip , ns1:pc_gbaord , ns1:pc_gp , ns1:pc_grants , ns1:pc_gva , ns1:pc_h2020_ec_funding , ns1:pc_h2020_particip , ns1:pc_hh , ns1:pc_hh_all , ns1:pc_i-dsk-c , ns1:pc_i-dsk-i , ns1:pc_i-dsk-ind , ns1:pc_i-dsk-iu3 , ns1:pc_i-dsk-ps , ns1:pc_i-dsk-s , ns1:pc_ict_ent , ns1:pc_ict_spec , ns1:pc_igov12nrt , ns1:pc_imp , ns1:pc_income , ns1:pc_ind , ns1:pc_ind_blt12 , ns1:pc_ind_emp , ns1:pc_ind_form , ns1:pc_ind_igov12nrt , ns1:pc_ind_ilt12 , ns1:pc_ind_iu3 , ns1:pc_lines , ns1:pc_male_earning , ns1:pc_nomspeed , ns1:pc_organisations , ns1:pc_pop , ns1:pc_posts , ns1:pc_projects , ns1:pc_pub_serv_for_citizen , ns1:pc_pub_serv_for_ent , ns1:pc_rural_pop , ns1:pc_schools , ns1:pc_spectrum_assigned , ns1:pc_spectrum_wbb , ns1:pc_subs , ns1:pc_tel_rev , ns1:pc_total_cost , ns1:pc_trp_commit , ns1:pc_turn , ns1:pc_websites , ns1:psi_score , ns1:subs_per_100_pop , ns1:terabite , ns1:th_ind , ns1:thousand_euro , ns1:thousand_hh , ns1:thousand_ind , ns1:wid_score , ns1:pc_desi_3a_ui , ns1:pc_desi_3b_acton , ns1:pc_grad , ns1:pc_ind_fem_emp , ns1:opendata_score ;
+	skos:hasTopConcept	ns1:pc_ind_iugov12 , ns1:corehours_million , ns1:cum_nr_artic , ns1:cum_nr_pat , ns1:cum_nr_pub , ns1:cum_x10mil_ecfund , ns1:days , ns1:desi_score , ns1:egov_score , ns1:epsiscore_pts , ns1:euro , ns1:euro_x_hab , ns1:euro_x_million_gbaord , ns1:euro_x_million_of_gdp , ns1:eurocent , ns1:gbpskm , ns1:habitants , ns1:hhi , ns1:ia12ave , ns1:median_euro_ppp , ns1:mhz , ns1:million_euro , ns1:minimum_euro_ppp , ns1:mio_hh , ns1:mio_ind , ns1:nb_channel , ns1:nb_empl , ns1:nb_ent , ns1:nb_infr_case , ns1:nb_vod_service , ns1:nb_x1000inh_20_29 , ns1:nb_x100stud , ns1:nbr_lines , ns1:nbr_organisations , ns1:nbr_participations , ns1:nbr_subs , ns1:no_posts , ns1:nr_artic , ns1:nr_pat , ns1:nr_pub , ns1:nr_x10mil_ecfund , ns1:od_score , ns1:pc_adm_cinema , ns1:pc_bb_lines , ns1:pc_desi , ns1:pc_desi_sliders , ns1:pc_digskillindex , ns1:pc_dispo_income , ns1:pc_e_cc , ns1:pc_e_gov_ke , ns1:pc_e_gov_oa , ns1:pc_ebhh_tv , ns1:pc_edigint2015 , ns1:pc_emp , ns1:pc_emp_pmd , ns1:pc_ent , ns1:pc_ent_aesell , ns1:pc_ent_awsell , ns1:pc_ent_itsprcr2 , ns1:pc_epsi_score , ns1:pc_exp , ns1:pc_fp7ict_ec_funding , ns1:pc_fp7ict_particip , ns1:pc_gbaord , ns1:pc_gp , ns1:pc_grants , ns1:pc_gva , ns1:pc_h2020_ec_funding , ns1:pc_h2020_particip , ns1:pc_hh , ns1:pc_hh_all , ns1:pc_i-dsk-c , ns1:pc_i-dsk-i , ns1:pc_i-dsk-ind , ns1:pc_i-dsk-iu3 , ns1:pc_i-dsk-ps , ns1:pc_i-dsk-s , ns1:pc_ict_ent , ns1:pc_ict_spec , ns1:pc_igov12nrt , ns1:pc_imp , ns1:pc_income , ns1:pc_ind , ns1:pc_ind_blt12 , ns1:pc_ind_emp , ns1:pc_ind_form , ns1:pc_ind_igov12nrt , ns1:pc_ind_ilt12 , ns1:pc_ind_iu3 , ns1:pc_lines , ns1:pc_male_earning , ns1:pc_nomspeed , ns1:pc_organisations , ns1:pc_pop , ns1:pc_posts , ns1:pc_projects , ns1:pc_pub_serv_for_citizen , ns1:pc_pub_serv_for_ent , ns1:pc_rural_pop , ns1:pc_schools , ns1:pc_spectrum_assigned , ns1:pc_spectrum_wbb , ns1:pc_subs , ns1:pc_tel_rev , ns1:pc_total_cost , ns1:pc_trp_commit , ns1:pc_turn , ns1:pc_websites , ns1:psi_score , ns1:subs_per_100_pop , ns1:terabite , ns1:th_ind , ns1:thousand_euro , ns1:thousand_hh , ns1:thousand_ind , ns1:wid_score , ns1:pc_grad , ns1:pc_ind_fem_emp , ns1:pc_desi_c_bbpi , ns1:pc_desi_c_fbbc , ns1:pc_desi_c_fbbtc , ns1:pc_desi_c_mbb , ns1:pc_desi_conn , ns1:pc_desi_dps , ns1:pc_desi_dps_egov , ns1:pc_desi_hc , ns1:pc_desi_hc_asd , ns1:pc_desi_hc_bsu , ns1:pc_desi_idt , ns1:pc_desi_idt_di , ns1:pc_desi_idt_dtb , ns1:pc_desi_idt_ecomm , ns1:opendata_score ;
 	skos:inScheme	ns10:scheme .
 ns1:corehours_million
 	rdf:type	ns2:UnitMeasure , skos:Concept ;
@@ -343,72 +319,6 @@ ns1:pc_desi
 	skos:notation	"pc_desi" ;
 	skos:definition	"Weighted score of the DESI dimension" ;
 	skos:topConceptOf	ns4:unit-measure .
-ns1:pc_desi_1_conn
-	rdf:type	ns2:UnitMeasure , skos:Concept ;
-	skos:prefLabel	"weighted score (0 to 100)" ;
-	skos:notation	"pc_desi_1_conn" ;
-	skos:definition	"Weighted score of the DESI Sub-dimension" ;
-	skos:topConceptOf	ns4:unit-measure .
-ns1:pc_desi_2_hc
-	rdf:type	ns2:UnitMeasure , skos:Concept ;
-	skos:prefLabel	"weighted score (0 to 100)" ;
-	skos:notation	"pc_desi_2_hc" ;
-	skos:definition	"Weighted score of the DESI Sub-dimension" ;
-	skos:topConceptOf	ns4:unit-measure .
-ns1:pc_desi_2a_bsu
-	rdf:type	ns2:UnitMeasure , skos:Concept ;
-	skos:prefLabel	"weighted score (0 to 100)" ;
-	skos:notation	"pc_desi_2a_bsu" ;
-	skos:definition	"Weighted score of a DESI indicator" ;
-	skos:topConceptOf	ns4:unit-measure .
-ns1:pc_desi_2b_asd
-	rdf:type	ns2:UnitMeasure , skos:Concept ;
-	skos:prefLabel	"weighted score (0 to 100)" ;
-	skos:notation	"pc_desi_2b_asd" ;
-	skos:definition	"Weighted score of a DESI indicator" ;
-	skos:topConceptOf	ns4:unit-measure .
-ns1:pc_desi_3_ui
-	rdf:type	ns2:UnitMeasure , skos:Concept ;
-	skos:prefLabel	"weighted score (0 to 100)" ;
-	skos:notation	"pc_desi_3_ui" ;
-	skos:definition	"Weighted score of the DESI Sub-dimension" ;
-	skos:topConceptOf	ns4:unit-measure .
-ns1:pc_desi_3c_trans
-	rdf:type	ns2:UnitMeasure , skos:Concept ;
-	skos:prefLabel	"weighted score (0 to 100)" ;
-	skos:notation	"pc_desi_3c_trans" ;
-	skos:definition	"Weighted score of a DESI indicator" ;
-	skos:topConceptOf	ns4:unit-measure .
-ns1:pc_desi_4_idt
-	rdf:type	ns2:UnitMeasure , skos:Concept ;
-	skos:prefLabel	"weighted score (0 to 100)" ;
-	skos:notation	"pc_desi_4_idt" ;
-	skos:definition	"Weighted score of the DESI Sub-dimension" ;
-	skos:topConceptOf	ns4:unit-measure .
-ns1:pc_desi_4a_bd
-	rdf:type	ns2:UnitMeasure , skos:Concept ;
-	skos:prefLabel	"weighted score (0 to 100)" ;
-	skos:notation	"pc_desi_4a_bd" ;
-	skos:definition	"Weighted score of a DESI indicator" ;
-	skos:topConceptOf	ns4:unit-measure .
-ns1:pc_desi_4b_ecomm
-	rdf:type	ns2:UnitMeasure , skos:Concept ;
-	skos:prefLabel	"weighted score (0 to 100)" ;
-	skos:notation	"pc_desi_4b_ecomm" ;
-	skos:definition	"Weighted score of a DESI indicator" ;
-	skos:topConceptOf	ns4:unit-measure .
-ns1:pc_desi_5_dps
-	rdf:type	ns2:UnitMeasure , skos:Concept ;
-	skos:prefLabel	"weighted score (0 to 100)" ;
-	skos:notation	"pc_desi_5_dps" ;
-	skos:definition	"Weighted score of the DESI Sub-dimension" ;
-	skos:topConceptOf	ns4:unit-measure .
-ns1:pc_desi_5a_egov
-	rdf:type	ns2:UnitMeasure , skos:Concept ;
-	skos:prefLabel	"weighted score (0 to 100)" ;
-	skos:notation	"pc_desi_5a_egov" ;
-	skos:definition	"Weighted score of a DESI indicator" ;
-	skos:topConceptOf	ns4:unit-measure .
 ns1:pc_desi_sliders
 	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"weighted score (0 to 100)" ;
@@ -690,9 +600,9 @@ ns1:pc_ind_igov12nrt
 ns1:pc_ind_ilt12
 	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	rdfs:seeAlso	ns11:PC_IND_ILT12 ;
-	skos:prefLabel	"Percentage of individuals who used Internet within the last year" ;
+	skos:prefLabel	"Percentage of individuals who used Internet within the last 12 months" ;
 	skos:notation	"pc_ind_ilt12" ;
-	skos:altLabel	"% of internet users (last year)" ;
+	skos:altLabel	"% of internet users (last 12 months)" ;
 	skos:topConceptOf	ns4:unit-measure .
 ns1:pc_ind_iu3
 	rdf:type	ns2:UnitMeasure , skos:Concept ;
@@ -880,18 +790,6 @@ ns1:wid_score
 	skos:altLabel	"Score (0 to 1)" ;
 	skos:definition	"Women in Digital Score" ;
 	skos:topConceptOf	ns4:unit-measure .
-ns1:pc_desi_3a_ui
-	rdf:type	ns2:UnitMeasure , skos:Concept ;
-	skos:prefLabel	"weighted score (0 to 100)" ;
-	skos:notation	"pc_desi_3a_ui" ;
-	skos:definition	"Weighted score of a DESI indicator" ;
-	skos:topConceptOf	ns4:unit-measure .
-ns1:pc_desi_3b_acton
-	rdf:type	ns2:UnitMeasure , skos:Concept ;
-	skos:prefLabel	"weighted score (0 to 100)" ;
-	skos:notation	"pc_desi_3b_acton" ;
-	skos:definition	"Weighted score of a DESI indicator" ;
-	skos:topConceptOf	ns4:unit-measure .
 ns1:pc_grad
 	rdf:type	ns2:UnitMeasure , skos:Concept ;
 	skos:prefLabel	"Percentage of graduates" ;
@@ -904,6 +802,90 @@ ns1:pc_ind_fem_emp
 	skos:notation	"pc_ind_fem_emp" ;
 	skos:altLabel	"% of female employment" ;
 	skos:definition	"Total number of Female in employment" ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_desi_c_bbpi
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
+	skos:prefLabel	"weighted score (0 to 100)" ;
+	skos:notation	"pc_desi_c_bbpi" ;
+	skos:definition	"Weighted score of a DESI indicator" ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_desi_c_fbbc
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
+	skos:prefLabel	"weighted score (0 to 100)" ;
+	skos:notation	"pc_desi_c_fbbc" ;
+	skos:definition	"Weighted score of a DESI indicator" ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_desi_c_fbbtc
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
+	skos:prefLabel	"weighted score (0 to 100)" ;
+	skos:notation	"pc_desi_c_fbbtc" ;
+	skos:definition	"Weighted score of a DESI indicator" ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_desi_c_mbb
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
+	skos:prefLabel	"weighted score (0 to 100)" ;
+	skos:notation	"pc_desi_c_mbb" ;
+	skos:definition	"Weighted score of a DESI indicator" ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_desi_conn
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
+	skos:prefLabel	"weighted score (0 to 100)" ;
+	skos:notation	"pc_desi_conn" ;
+	skos:definition	"Weighted score of the DESI Sub-dimension" ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_desi_dps
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
+	skos:prefLabel	"weighted score (0 to 100)" ;
+	skos:notation	"pc_desi_dps" ;
+	skos:definition	"Weighted score of the DESI Sub-dimension" ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_desi_dps_egov
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
+	skos:prefLabel	"weighted score (0 to 100)" ;
+	skos:notation	"pc_desi_dps_egov" ;
+	skos:definition	"Weighted score of a DESI indicator" ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_desi_hc
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
+	skos:prefLabel	"weighted score (0 to 100)" ;
+	skos:notation	"pc_desi_hc" ;
+	skos:definition	"Weighted score of the DESI Sub-dimension" ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_desi_hc_asd
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
+	skos:prefLabel	"weighted score (0 to 100)" ;
+	skos:notation	"pc_desi_hc_asd" ;
+	skos:definition	"Weighted score of a DESI indicator" ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_desi_hc_bsu
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
+	skos:prefLabel	"weighted score (0 to 100)" ;
+	skos:notation	"pc_desi_hc_bsu" ;
+	skos:definition	"Weighted score of a DESI indicator" ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_desi_idt
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
+	skos:prefLabel	"weighted score (0 to 100)" ;
+	skos:notation	"pc_desi_idt" ;
+	skos:definition	"Weighted score of the DESI Sub-dimension" ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_desi_idt_di
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
+	skos:prefLabel	"weighted score (0 to 100)" ;
+	skos:notation	"pc_desi_idt_di" ;
+	skos:definition	"Weighted score of a DESI indicator" ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_desi_idt_dtb
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
+	skos:prefLabel	"weighted score (0 to 100)" ;
+	skos:notation	"pc_desi_idt_dtb" ;
+	skos:definition	"Weighted score of a DESI indicator" ;
+	skos:topConceptOf	ns4:unit-measure .
+ns1:pc_desi_idt_ecomm
+	rdf:type	ns2:UnitMeasure , skos:Concept ;
+	skos:prefLabel	"weighted score (0 to 100)" ;
+	skos:notation	"pc_desi_idt_ecomm" ;
+	skos:definition	"Weighted score of a DESI indicator" ;
 	skos:topConceptOf	ns4:unit-measure .
 ns1:opendata_score
 	rdf:type	ns2:UnitMeasure , skos:Concept ;

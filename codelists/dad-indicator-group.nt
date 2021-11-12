@@ -26,15 +26,15 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorGroup> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi>	<http://www.w3.org/2004/02/skos/core#notation>	"desi" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"DESI Overall Index" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"DESI Stacked" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_dim>	<http://semantic.digital-agenda-data.eu/def/property/order>	"2" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_dim>	<http://semantic.digital-agenda-data.eu/def/property/order>	"3" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_dim>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorGroup> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_dim>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_dim>	<http://www.w3.org/2004/02/skos/core#notation>	"desi_dim" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_dim>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"DESI Dimensions" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_dim>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind>	<http://semantic.digital-agenda-data.eu/def/property/order>	"4" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind>	<http://semantic.digital-agenda-data.eu/def/property/order>	"5" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorGroup> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind>	<http://www.w3.org/2004/02/skos/core#notation>	"desi_ind" .
@@ -46,12 +46,18 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_sliders>	<http://www.w3.org/2004/02/skos/core#notation>	"desi_sliders" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_sliders>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"DESI Overall Index - weight sliders" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_sliders>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim>	<http://semantic.digital-agenda-data.eu/def/property/order>	"3" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim>	<http://semantic.digital-agenda-data.eu/def/property/order>	"4" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorGroup> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim>	<http://www.w3.org/2004/02/skos/core#notation>	"desi_subdim" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"DESI Sub-dimensions" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_total>	<http://semantic.digital-agenda-data.eu/def/property/order>	"2" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_total>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorGroup> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_total>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_total>	<http://www.w3.org/2004/02/skos/core#notation>	"desi_total" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_total>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"DESI Overall Index" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_total>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/discontinued>	<http://semantic.digital-agenda-data.eu/def/property/order>	"900" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/discontinued>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorGroup> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/discontinued>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
@@ -154,7 +160,7 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/wid>	<http://www.w3.org/2004/02/skos/core#notation>	"wid" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/wid>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Women in Digital" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/wid>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group>	<http://purl.org/dc/terms/modified>	"2019-06-11T11:44:08"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group>	<http://purl.org/dc/terms/modified>	"2021-11-12T10:34:28"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://purl.org/linked-data/sdmx#CodeList> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#ConceptScheme> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group>	<http://www.w3.org/2000/01/rdf-schema#isDefinedBy>	<http://digital-agenda-data.eu/> .
@@ -167,6 +173,7 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_sliders> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_total> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/discontinued> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ecommerce> .
