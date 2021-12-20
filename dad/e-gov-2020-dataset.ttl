@@ -30,14 +30,14 @@
 @prefix dad-prop:	<http://semantic.digital-agenda-data.eu/def/property/> .
 
 # DATASET METADATA
-<http://semantic.digital-agenda-data.eu/dataset/e-gov>
+<http://semantic.digital-agenda-data.eu/dataset/e-gov-2020>
 	rdf:type qb:DataSet , dcat:Dataset ;
 # DCAT Mandatory
-	dcterms:title	"e-Government Benchmark (2013-2019)"@en ;
-	dcterms:description	"The e-government Benchmark framework corresponds with the key policy priorities in the e-government Action Plan and the Tallinn Declaration and brings insights on the state-of play of e-government in Europe. The measurement evaluates the maturity of online public services in terms of User centricity, Transparency, and use of Key enablers. It also brings the dimension of Cross-border service delivery, which is a truly European metric. Various indicators allow the comparison over the time and across countries. Over the years, the number of countries participating in the e-government benchmark has been increased. The list of countries currently includes the European Union Member States, Iceland, Norway, Montenegro, Republic of Serbia, Switzerland, Turkey as well as Albania and North Macedonia"@en ;
+	dcterms:title	"e-Government Benchmark (from 2020 onwards)"@en ;
+	dcterms:description	"The e-Government Benchmark framework corresponds with the key policy priorities in the e-government Action Plan, the Tallinn and Berlin Declarations. The e-Government Benchmark framework reflects on the Digital Decade and it brings insights on the state-of play of e-government in Europe. The measurement evaluates the maturity of online public services in terms of User centricity, Transparency, and use of Key enablers. It also brings the dimension of Cross-border service delivery, which is a truly European metric. The new method presents various changes e.g. simplified life events by measuring less services for national users, substantially increasing the amount of services that are measured cross-border, including the Career and the Family life events, and addition of Health life events for odd years together with relabeling of some indicators. Various indicators allow the comparison over the time and across countries. The list of countries currently includes the European Union Member States, Iceland, Norway, Montenegro, Republic of Serbia, Switzerland, Turkey as well as Albania and North Macedonia"@en ;
 # QB recommended properties
-	rdfs:label	"e-Government Benchmark (2013-2019)"@en ;
-	rdfs:comment	"The e-government Benchmark framework corresponds with the key policy priorities in the e-government Action Plan and the Tallinn Declaration and brings insights on the state-of play of e-government in Europe. The measurement evaluates the maturity of online public services in terms of User centricity, Transparency, and use of Key enablers. It also brings the dimension of Cross-border service delivery, which is a truly European metric. Various indicators allow the comparison over the time and across countries. Over the years, the number of countries participating in the e-government benchmark has been increased. The list of countries currently includes the European Union Member States, Iceland, Norway, Montenegro, Republic of Serbia, Switzerland, Turkey as well as Albania and North Macedonia"@en ;
+	rdfs:label	"e-Government Benchmark (from 2020 onwards)"@en ;
+	rdfs:comment	"The e-Government Benchmark framework corresponds with the key policy priorities in the e-government Action Plan, the Tallinn and Berlin Declarations. The e-Government Benchmark framework reflects on the Digital Decade and it brings insights on the state-of play of e-government in Europe. The measurement evaluates the maturity of online public services in terms of User centricity, Transparency, and use of Key enablers. It also brings the dimension of Cross-border service delivery, which is a truly European metric. The new method presents various changes e.g. simplified life events by measuring less services for national users, substantially increasing the amount of services that are measured cross-border, including the Career and the Family life events, and addition of Health life events for odd years together with relabeling of some indicators. Various indicators allow the comparison over the time and across countries. The list of countries currently includes the European Union Member States, Iceland, Norway, Montenegro, Republic of Serbia, Switzerland, Turkey as well as Albania and North Macedonia"@en ;
 	dcterms:subject	sdmx-subject:3.3.3 ;
 
 	dcterms:license	<http://ec.europa.eu/geninfo/legal_notices_en.htm#copyright> ;
@@ -46,12 +46,12 @@
 		a vcard:Organization;
 		vcard:fn "Digital Economy, Recovery Plan and Skills (CNECT.F.4)" ;
 		vcard:hasEmail <mailto:CNECT-F4@ec.europa.eu> ;
-		vcard:hasURL <https://op.europa.eu/en/web/who-is-who/organization/-/organization/CNECT/COM_CRF_232234> ;
+		vcard:hasURL <https://ec.europa.eu/digital-single-market/en/content/digital-economy-and-skills-unit-f4> ;
 		rdfs:label "Digital Economy, Recovery Plan and Skills (CNECT.F.4)" ;
 	];
 
-	dcat:distribution	<http://semantic.digital-agenda-data.eu/dataset/e-gov/distribution/download> ;
-	dcat:distribution	<http://semantic.digital-agenda-data.eu/dataset/e-gov/distribution/visualisation> ;
+	dcat:distribution	<http://semantic.digital-agenda-data.eu/dataset/e-gov-2020/distribution/download> ;
+	dcat:distribution	<http://semantic.digital-agenda-data.eu/dataset/e-gov-2020/distribution/visualisation> ;
 	dcat:keyword	
 		"Connectivity"@en ,
 		"Human capital"@en ,
@@ -74,8 +74,8 @@
 	dcterms:accrualPeriodicity	<http://publications.europa.eu/resource/authority/frequency/ANNUAL> ;
 	dcterms:language <http://publications.europa.eu/resource/authority/language/ENG> ;
 	dcterms:spatial	<http://publications.europa.eu/resource/authority/country/EUR>;
-	dcterms:temporal	[ dcat:startDate "2013-01-01"^^xsd:date; dcat:endDate "2019-12-31"^^xsd:date ] ;
-	dcterms:identifier	"e-gov" ;
+	dcterms:temporal	[ dcat:startDate "2020-01-01"^^xsd:date ] ;
+	dcterms:identifier	"e-gov-2020" ;
 	dcterms:issued	"2012-07-01T00:00:00Z"^^xsd:dateTime ;
 	dcterms:modified	"2020-04-09T00:00:00Z"^^xsd:dateTime ;
 	dcterms:conformsTo	<http://purl.org/linked-data/cube> ;
@@ -92,9 +92,9 @@
 <http://ec.europa.eu/geninfo/legal_notices_en.htm#copyright>	dcterms:title	"Europa Legal Notice" .
 
 # DCAT Distribution
-<http://semantic.digital-agenda-data.eu/dataset/e-gov/distribution/download>
+<http://semantic.digital-agenda-data.eu/dataset/e-gov-2020/distribution/download>
 	rdf:type	dcat:Distribution ;
-	dcat:accessURL	<https://digital-agenda-data.eu/datasets/e-gov#download> ;
+	dcat:accessURL	<https://digital-agenda-data.eu/datasets/e-gov-2020#download> ;
 	dcterms:description	"Download instructions";
 	dcterms:type	<http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE> ;
 	dcterms:format	<http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
@@ -103,19 +103,19 @@
 	dcat:accessService	[ dcat:endpointURL <http://digital-agenda-data.eu/sparql> ] .
 
 # StatDCAT Visualisation
-<http://semantic.digital-agenda-data.eu/dataset/e-gov/distribution/visualisation>
+<http://semantic.digital-agenda-data.eu/dataset/e-gov-2020/distribution/visualisation>
 	rdf:type	dcat:Distribution ;
 	dcterms:type	<http://publications.europa.eu/resource/authority/distribution-type/VISUALIZATION> ;
-	dcat:accessURL	<https://digital-agenda-data.eu/datasets/e-gov> ;
+	dcat:accessURL	<https://digital-agenda-data.eu/datasets/e-gov-2020> ;
 	dcterms:license	<http://ec.europa.eu/geninfo/legal_notices_en.htm#copyright> ;
 	dcterms:description	"Dataset visualisations".
 
 # Organization (contact point)
 <http://publications.europa.eu/resource/authority/corporate-body/CNECT/F4>
 	a vcard:Organization, foaf:Organization;
-	rdfs:label "Digital Economy, Recovery Plan and Skills (CNECT.F.4)" ;
+	rdfs:label "DG CONNECT - Digital Economy and Skills (Unit F.4)" ;
 	foaf:mbox	"mailto:CNECT-F4@ec.europa.eu" ;
-	foaf:name	"Digital Economy, Recovery Plan and Skills (CNECT.F.4)" ;
+	foaf:name	"DG CONNECT - Digital Economy and Skills (Unit F.4)" ;
 	foaf:workplaceHomepage	<https://ec.europa.eu/digital-single-market/en/dg-connect> .
 
 
