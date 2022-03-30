@@ -457,10 +457,18 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_ads>	<http://semantic.digital-agenda-data.eu/def/property/order>	"15" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_ads>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_ads>	<http://www.w3.org/2000/01/rdf-schema#label>	"ebusiness" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_ai_tany>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_ai_tany>	<http://semantic.digital-agenda-data.eu/def/property/order>	"31"^^<http://www.w3.org/2001/XMLSchema#byte> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_ai_tany>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_ai_tany>	<http://www.w3.org/2000/01/rdf-schema#label>	"ebusiness" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_bd>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_bd>	<http://semantic.digital-agenda-data.eu/def/property/order>	"30" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_bd>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_bd>	<http://www.w3.org/2000/01/rdf-schema#label>	"ebusiness" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_cc1_si>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_cc1_si>	<http://semantic.digital-agenda-data.eu/def/property/order>	"27"^^<http://www.w3.org/2001/XMLSchema#byte> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_cc1_si>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_cc1_si>	<http://www.w3.org/2000/01/rdf-schema#label>	"ebusiness" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_cc>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_cc>	<http://semantic.digital-agenda-data.eu/def/property/order>	"27" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_cc>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
@@ -906,6 +914,102 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-sector/val_add_ict>	<http://semantic.digital-agenda-data.eu/def/property/order>	"5" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-sector/val_add_ict>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-sector/val_add_ict>	<http://www.w3.org/2000/01/rdf-schema#label>	"ict-sector" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_ab>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_ab>	<http://semantic.digital-agenda-data.eu/def/property/order>	"116"^^<http://www.w3.org/2001/XMLSchema#byte> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_ab>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_ab>	<http://www.w3.org/2000/01/rdf-schema#label>	"ict-skills" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_b>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_b>	<http://semantic.digital-agenda-data.eu/def/property/order>	"117"^^<http://www.w3.org/2001/XMLSchema#byte> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_b>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_b>	<http://www.w3.org/2000/01/rdf-schema#label>	"ict-skills" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_bab>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_bab>	<http://semantic.digital-agenda-data.eu/def/property/order>	"118"^^<http://www.w3.org/2001/XMLSchema#byte> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_bab>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_bab>	<http://www.w3.org/2000/01/rdf-schema#label>	"ict-skills" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_cc_ab>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_cc_ab>	<http://semantic.digital-agenda-data.eu/def/property/order>	"104"^^<http://www.w3.org/2001/XMLSchema#byte> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_cc_ab>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_cc_ab>	<http://www.w3.org/2000/01/rdf-schema#label>	"ict-skills" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_cc_b>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_cc_b>	<http://semantic.digital-agenda-data.eu/def/property/order>	"105"^^<http://www.w3.org/2001/XMLSchema#byte> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_cc_b>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_cc_b>	<http://www.w3.org/2000/01/rdf-schema#label>	"ict-skills" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_cc_bab>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_cc_bab>	<http://semantic.digital-agenda-data.eu/def/property/order>	"106"^^<http://www.w3.org/2001/XMLSchema#byte> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_cc_bab>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_cc_bab>	<http://www.w3.org/2000/01/rdf-schema#label>	"ict-skills" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_dcc_ab>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_dcc_ab>	<http://semantic.digital-agenda-data.eu/def/property/order>	"107"^^<http://www.w3.org/2001/XMLSchema#byte> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_dcc_ab>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_dcc_ab>	<http://www.w3.org/2000/01/rdf-schema#label>	"ict-skills" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_dcc_b>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_dcc_b>	<http://semantic.digital-agenda-data.eu/def/property/order>	"108"^^<http://www.w3.org/2001/XMLSchema#byte> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_dcc_b>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_dcc_b>	<http://www.w3.org/2000/01/rdf-schema#label>	"ict-skills" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_dcc_bab>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_dcc_bab>	<http://semantic.digital-agenda-data.eu/def/property/order>	"109"^^<http://www.w3.org/2001/XMLSchema#byte> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_dcc_bab>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_dcc_bab>	<http://www.w3.org/2000/01/rdf-schema#label>	"ict-skills" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_ic_s>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_ic_s>	<http://semantic.digital-agenda-data.eu/def/property/order>	"124"^^<http://www.w3.org/2001/XMLSchema#byte> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_ic_s>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_ic_s>	<http://www.w3.org/2000/01/rdf-schema#label>	"ict-skills" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_il_ab>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_il_ab>	<http://semantic.digital-agenda-data.eu/def/property/order>	"101"^^<http://www.w3.org/2001/XMLSchema#byte> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_il_ab>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_il_ab>	<http://www.w3.org/2000/01/rdf-schema#label>	"ict-skills" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_il_b>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_il_b>	<http://semantic.digital-agenda-data.eu/def/property/order>	"102"^^<http://www.w3.org/2001/XMLSchema#byte> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_il_b>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_il_b>	<http://www.w3.org/2000/01/rdf-schema#label>	"ict-skills" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_il_bab>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_il_bab>	<http://semantic.digital-agenda-data.eu/def/property/order>	"103"^^<http://www.w3.org/2001/XMLSchema#byte> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_il_bab>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_il_bab>	<http://www.w3.org/2000/01/rdf-schema#label>	"ict-skills" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_lm>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_lm>	<http://semantic.digital-agenda-data.eu/def/property/order>	"121"^^<http://www.w3.org/2001/XMLSchema#byte> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_lm>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_lm>	<http://www.w3.org/2000/01/rdf-schema#label>	"ict-skills" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_lw>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_lw>	<http://semantic.digital-agenda-data.eu/def/property/order>	"119"^^<http://www.w3.org/2001/XMLSchema#byte> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_lw>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_lw>	<http://www.w3.org/2000/01/rdf-schema#label>	"ict-skills" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_n>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_n>	<http://semantic.digital-agenda-data.eu/def/property/order>	"120"^^<http://www.w3.org/2001/XMLSchema#byte> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_n>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_n>	<http://www.w3.org/2000/01/rdf-schema#label>	"ict-skills" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_na>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_na>	<http://semantic.digital-agenda-data.eu/def/property/order>	"123"^^<http://www.w3.org/2001/XMLSchema#byte> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_na>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_na>	<http://www.w3.org/2000/01/rdf-schema#label>	"ict-skills" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_ps_ab>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_ps_ab>	<http://semantic.digital-agenda-data.eu/def/property/order>	"113"^^<http://www.w3.org/2001/XMLSchema#byte> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_ps_ab>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_ps_ab>	<http://www.w3.org/2000/01/rdf-schema#label>	"ict-skills" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_ps_b>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_ps_b>	<http://semantic.digital-agenda-data.eu/def/property/order>	"114"^^<http://www.w3.org/2001/XMLSchema#byte> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_ps_b>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_ps_b>	<http://www.w3.org/2000/01/rdf-schema#label>	"ict-skills" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_ps_bab>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_ps_bab>	<http://semantic.digital-agenda-data.eu/def/property/order>	"115"^^<http://www.w3.org/2001/XMLSchema#byte> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_ps_bab>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_ps_bab>	<http://www.w3.org/2000/01/rdf-schema#label>	"ict-skills" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_sf_ab>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_sf_ab>	<http://semantic.digital-agenda-data.eu/def/property/order>	"110"^^<http://www.w3.org/2001/XMLSchema#byte> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_sf_ab>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_sf_ab>	<http://www.w3.org/2000/01/rdf-schema#label>	"ict-skills" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_sf_b>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_sf_b>	<http://semantic.digital-agenda-data.eu/def/property/order>	"111"^^<http://www.w3.org/2001/XMLSchema#byte> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_sf_b>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_sf_b>	<http://www.w3.org/2000/01/rdf-schema#label>	"ict-skills" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_sf_bab>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_sf_bab>	<http://semantic.digital-agenda-data.eu/def/property/order>	"112"^^<http://www.w3.org/2001/XMLSchema#byte> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_sf_bab>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_sf_bab>	<http://www.w3.org/2000/01/rdf-schema#label>	"ict-skills" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_x>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_x>	<http://semantic.digital-agenda-data.eu/def/property/order>	"122"^^<http://www.w3.org/2001/XMLSchema#byte> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_x>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_x>	<http://www.w3.org/2000/01/rdf-schema#label>	"ict-skills" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk_ab>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk_ab>	<http://semantic.digital-agenda-data.eu/def/property/order>	"12" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk_ab>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
@@ -2169,6 +2273,15 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_aeseu>	<http://www.w3.org/2004/02/skos/core#note>	"Enterprises with 10 or more persons employed. All manufacturing and service sectors, excluding the financial sector. Breaks in series because until 2008 economic activities according to NACE Rev 1.1 and from 2009 data are based on NACE Rev.2. Since 2010 data include also sector S 95.1-Repair of computers and communication equipment." .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_aeseu>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Enterprises having done electronic sales to other EU countries in the last calender year" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_aeseu>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/e_ai_tany>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/estat_isoc_eb_ai> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/e_ai_tany>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_ai_tany> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/e_ai_tany>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/e_ai_tany>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/e_ai_tany>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Enterprises using AI technologies" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/e_ai_tany>	<http://www.w3.org/2004/02/skos/core#definition>	"Enterprises using at least one of the following AI technologies: analysis of written language, converting spoken language into machine-readable format, generating written or spoken language,  identifying objects or persons based on images,  machine learning (e.g. deep learning), automating different workflows or assisting in decision making or enabling physical movement of machines via autonomous decisions based on observation of surroundings" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/e_ai_tany>	<http://www.w3.org/2004/02/skos/core#notation>	"e_ai_tany" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/e_ai_tany>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Enterprises using AI technologies" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/e_ai_tany>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_aws>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_aws>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ecommerce/e_aws> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_aws>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
@@ -2248,6 +2361,15 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_broad>	<http://www.w3.org/2004/02/skos/core#note>	"Enterprises with 10 or more persons employed. All manufacturing and service sectors, excluding the financial sector. Breaks in series because until 2008 economic activities according to NACE Rev 1.1 and from 2009 data are based on NACE Rev.2. Since 2010 data include also sector S 95.1-Repair of computers and communication equipment." .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_broad>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Enterprises having a fixed broadband connection" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_broad>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/e_cc1_si>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/estat_isoc_cicce_use> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/e_cc1_si>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_cc1_si> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/e_cc1_si>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/e_cc1_si>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/e_cc1_si>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Enterprises buying sophisticated or intermediate cloud computing services" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/e_cc1_si>	<http://www.w3.org/2004/02/skos/core#definition>	"Enterprises purchasing at least one of the following cloud computing services: accounting/finance/ERP software, CRM software, hosting for the enterprise's database, hosted environment for application development" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/e_cc1_si>	<http://www.w3.org/2004/02/skos/core#notation>	"e_cc1_si" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/e_cc1_si>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Enterprises buying sophisticated or intermediate cloud computing services" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/e_cc1_si>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_cc>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/estat_isoc_cicce_use> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_cc>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_cc> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_cc>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
@@ -3699,6 +3821,198 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator/i_cweb>	<http://www.w3.org/2004/02/skos/core#notation>	"i_cweb" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/i_cweb>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Individuals who have created a Web page" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/i_cweb>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_ab>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/estat_isoc_sk_dskl_i21> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_ab>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_ab> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_ab>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_ab>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_ab>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Individuals with above basic overall digital skills" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_ab>	<http://www.w3.org/2004/02/skos/core#notation>	"i_dsk2_ab" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_ab>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Individuals with above basic overall digital skills" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_ab>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_b>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/estat_isoc_sk_dskl_i21> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_b>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_b> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_b>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_b>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_b>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Individuals with basic overall digital skills" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_b>	<http://www.w3.org/2004/02/skos/core#notation>	"i_dsk2_b" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_b>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Individuals with basic overall digital skills" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_b>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_bab>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/estat_isoc_sk_dskl_i21> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_bab>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_bab> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_bab>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_bab>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_bab>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Individuals with basic or above basic overall digital skills" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_bab>	<http://www.w3.org/2004/02/skos/core#notation>	"i_dsk2_bab" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_bab>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Individuals with basic or above basic overall digital skills" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_bab>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_cc_ab>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/estat_isoc_sk_dskl_i21> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_cc_ab>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_cc_ab> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_cc_ab>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_cc_ab>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_cc_ab>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Individuals with above basic communication and collaboration\u00A0 skills" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_cc_ab>	<http://www.w3.org/2004/02/skos/core#notation>	"i_dsk2_cc_ab" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_cc_ab>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Individuals with above basic communication and collaboration\u00A0 skills" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_cc_ab>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_cc_b>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/estat_isoc_sk_dskl_i21> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_cc_b>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_cc_b> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_cc_b>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_cc_b>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_cc_b>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Individuals with basic communication and collaboration\u00A0 skills" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_cc_b>	<http://www.w3.org/2004/02/skos/core#notation>	"i_dsk2_cc_b" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_cc_b>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Individuals with basic communication and collaboration\u00A0 skills" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_cc_b>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_cc_bab>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/estat_isoc_sk_dskl_i21> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_cc_bab>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_cc_bab> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_cc_bab>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_cc_bab>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_cc_bab>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Individuals with basic or above basic communication and collaboration skills" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_cc_bab>	<http://www.w3.org/2004/02/skos/core#notation>	"i_dsk2_cc_bab" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_cc_bab>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Individuals with basic or above basic communication and collaboration skills" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_cc_bab>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_dcc_ab>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/estat_isoc_sk_dskl_i21> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_dcc_ab>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_dcc_ab> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_dcc_ab>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_dcc_ab>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_dcc_ab>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Individuals with above basic digital content creation\u00A0 skills" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_dcc_ab>	<http://www.w3.org/2004/02/skos/core#notation>	"i_dsk2_dcc_ab" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_dcc_ab>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Individuals with above basic digital content creation\u00A0 skills" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_dcc_ab>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_dcc_b>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/estat_isoc_sk_dskl_i21> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_dcc_b>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_dcc_b> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_dcc_b>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_dcc_b>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_dcc_b>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Individuals with basic digital content creation\u00A0 skills" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_dcc_b>	<http://www.w3.org/2004/02/skos/core#notation>	"i_dsk2_dcc_b" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_dcc_b>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Individuals with basic digital content creation\u00A0 skills" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_dcc_b>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_dcc_bab>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/estat_isoc_sk_dskl_i21> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_dcc_bab>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_dcc_bab> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_dcc_bab>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_dcc_bab>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_dcc_bab>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Individuals with basic or above basic digital content creation skills" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_dcc_bab>	<http://www.w3.org/2004/02/skos/core#notation>	"i_dsk2_dcc_bab" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_dcc_bab>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Individuals with basic or above basic digital content creation skills" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_dcc_bab>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_ic_s>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/estat_isoc_sk_dskl_i21> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_ic_s>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_ic_s> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_ic_s>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_ic_s>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_ic_s>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Individuals with online information and communication skills" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_ic_s>	<http://www.w3.org/2004/02/skos/core#notation>	"i_dsk2_ic_s" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_ic_s>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Individuals with online information and communication skills" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_ic_s>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_il_ab>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/estat_isoc_sk_dskl_i21> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_il_ab>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_il_ab> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_il_ab>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_il_ab>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_il_ab>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Individuals with above basic information and data literacy\u00A0 skills" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_il_ab>	<http://www.w3.org/2004/02/skos/core#notation>	"i_dsk2_il_ab" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_il_ab>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Individuals with above basic information and data literacy\u00A0 skills" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_il_ab>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_il_b>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/estat_isoc_sk_dskl_i21> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_il_b>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_il_b> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_il_b>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_il_b>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_il_b>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Individuals with basic information and data literacy\u00A0 skills" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_il_b>	<http://www.w3.org/2004/02/skos/core#notation>	"i_dsk2_il_b" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_il_b>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Individuals with basic information and data literacy\u00A0 skills" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_il_b>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_il_bab>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/estat_isoc_sk_dskl_i21> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_il_bab>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_il_bab> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_il_bab>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_il_bab>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_il_bab>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Individuals with basic or above basic information and data literacy\u00A0 skills" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_il_bab>	<http://www.w3.org/2004/02/skos/core#notation>	"i_dsk2_il_bab" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_il_bab>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Individuals with basic or above basic information and data literacy\u00A0 skills" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_il_bab>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_lm>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/estat_isoc_sk_dskl_i21> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_lm>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_lm> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_lm>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_lm>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_lm>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Individuals with limited overall digital skills" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_lm>	<http://www.w3.org/2004/02/skos/core#notation>	"i_dsk2_lm" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_lm>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Individuals with limited overall digital skills" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_lm>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_lw>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/estat_isoc_sk_dskl_i21> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_lw>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_lw> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_lw>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_lw>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_lw>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Individuals with low overall digital skills" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_lw>	<http://www.w3.org/2004/02/skos/core#notation>	"i_dsk2_lw" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_lw>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Individuals with low overall digital skills" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_lw>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_n>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/estat_isoc_sk_dskl_i21> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_n>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_n> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_n>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_n>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_n>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Individuals with narrow overall digital skills" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_n>	<http://www.w3.org/2004/02/skos/core#notation>	"i_dsk2_n" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_n>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Individuals with narrow overall digital skills" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_n>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_na>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/estat_isoc_sk_dskl_i21> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_na>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_na> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_na>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_na>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_na>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Digital skills could not be assessed because the individual has not used the internet in the last 3 months" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_na>	<http://www.w3.org/2004/02/skos/core#notation>	"i_dsk2_na" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_na>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Digital skills could not be assessed because the individual has not used the internet in the last 3 months" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_na>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_ps_ab>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/estat_isoc_sk_dskl_i21> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_ps_ab>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_ps_ab> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_ps_ab>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_ps_ab>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_ps_ab>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Individuals with above basic problem solving\u00A0 skills" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_ps_ab>	<http://www.w3.org/2004/02/skos/core#notation>	"i_dsk2_ps_ab" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_ps_ab>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Individuals with above basic problem solving\u00A0 skills" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_ps_ab>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_ps_b>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/estat_isoc_sk_dskl_i21> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_ps_b>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_ps_b> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_ps_b>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_ps_b>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_ps_b>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Individuals with basic problem solving skills" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_ps_b>	<http://www.w3.org/2004/02/skos/core#notation>	"i_dsk2_ps_b" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_ps_b>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Individuals with basic problem solving skills" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_ps_b>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_ps_bab>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/estat_isoc_sk_dskl_i21> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_ps_bab>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_ps_bab> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_ps_bab>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_ps_bab>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_ps_bab>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Individuals with basic or above basic problem solving skills" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_ps_bab>	<http://www.w3.org/2004/02/skos/core#notation>	"i_dsk2_ps_bab" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_ps_bab>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Individuals with basic or above basic problem solving skills" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_ps_bab>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_sf_ab>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/estat_isoc_sk_dskl_i21> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_sf_ab>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_sf_ab> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_sf_ab>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_sf_ab>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_sf_ab>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Individuals with above basic safety\u00A0 skills" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_sf_ab>	<http://www.w3.org/2004/02/skos/core#notation>	"i_dsk2_sf_ab" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_sf_ab>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Individuals with above basic safety\u00A0 skills" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_sf_ab>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_sf_b>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/estat_isoc_sk_dskl_i21> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_sf_b>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_sf_b> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_sf_b>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_sf_b>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_sf_b>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Individuals with basic safety skills" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_sf_b>	<http://www.w3.org/2004/02/skos/core#notation>	"i_dsk2_sf_b" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_sf_b>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Individuals with basic safety skills" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_sf_b>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_sf_bab>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/estat_isoc_sk_dskl_i21> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_sf_bab>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_sf_bab> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_sf_bab>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_sf_bab>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_sf_bab>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Individuals with basic or above basic safety skills" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_sf_bab>	<http://www.w3.org/2004/02/skos/core#notation>	"i_dsk2_sf_bab" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_sf_bab>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Individuals with basic or above basic safety skills" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_sf_bab>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_x>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/estat_isoc_sk_dskl_i21> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_x>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk2_x> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_x>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_x>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_x>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Individuals with no overall digital skills" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_x>	<http://www.w3.org/2004/02/skos/core#notation>	"i_dsk2_x" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_x>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Individuals with no overall digital skills" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_x>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk_ab>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/estat_isoc_sk_dskl_i> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk_ab>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/i_dsk_ab> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk_ab>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
@@ -4770,7 +5084,7 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator/wid_ui_part>	<http://www.w3.org/2004/02/skos/core#notation>	"wid_ui_part" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/wid_ui_part>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"1.5 Online consultations or voting" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/wid_ui_part>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://purl.org/dc/terms/modified>	"2021-11-12T10:34:12"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://purl.org/dc/terms/modified>	"2022-03-30T18:06:22"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://purl.org/linked-data/sdmx#CodeList> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#ConceptScheme> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2000/01/rdf-schema#isDefinedBy>	<http://digital-agenda-data.eu/> .
@@ -4857,6 +5171,7 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/e_ads_loc> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/e_ads_trk> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/e_aeseu> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/e_ai_tany> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/e_aws> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/e_aws_cmp> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/e_aws_cown> .
@@ -4865,6 +5180,7 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/e_awsval_cown> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/e_bd> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/e_broad> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/e_cc1_si> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/e_cc> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/e_cc_ge_me> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/e_cc_pcpu> .
@@ -5019,6 +5335,30 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/i_cprg> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/i_csk_ge_me> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/i_cweb> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_ab> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_b> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_bab> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_cc_ab> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_cc_b> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_cc_bab> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_dcc_ab> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_dcc_b> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_dcc_bab> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_ic_s> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_il_ab> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_il_b> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_il_bab> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_lm> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_lw> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_n> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_na> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_ps_ab> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_ps_b> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_ps_bab> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_sf_ab> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_sf_b> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_sf_bab> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk2_x> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk_ab> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk_bab> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/i_dsk_c_ab> .
