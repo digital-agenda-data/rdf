@@ -29,21 +29,13 @@ ns1:e_cc1_si	rdf:type	ns2:Indicator ,
 ns8:indicator	rdf:type	ns9:CodeList ,
 		skos:ConceptScheme .
 @prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
-ns8:indicator	dct:modified	"2022-03-30T18:06:22"^^xsd:dateTime .
+ns8:indicator	dct:modified	"2022-04-01T19:24:35"^^xsd:dateTime .
 @prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
 ns8:indicator	rdfs:isDefinedBy	<http://digital-agenda-data.eu/> ;
 	skos:prefLabel	"Code list for indicators used by Digital Agenda Scoreboard" ;
 	skos:notation	"CL_INDICATOR" ;
 	skos:hasTopConcept	ns1:e_gov_dpsc ,
 		ns1:e_gov_od ,
-		ns1:old_i_dsk_i_b ,
-		ns1:old_i_dsk_ps_b ,
-		ns1:old_i_dsk_s_b ,
-		ns1:old_digskillindex ,
-		ns1:old_digskillindex_basicandabove ,
-		ns1:old_i_dsk_b ,
-		ns1:old_i_dsk_c_b ,
-		ns1:old_wid_ui_ps ,
 		ns1:desi_dps_prefform ,
 		ns1:desi_dps_pscit ,
 		ns1:desi_idt_smedi ,
@@ -67,8 +59,6 @@ ns8:indicator	rdfs:isDefinedBy	<http://digital-agenda-data.eu/> ;
 		ns1:e_gov_1c_uc_us ,
 		ns1:e_gov_2_tr ,
 		ns1:e_gov_2a_tr_sd ,
-		ns1:e_gov_2c_tr_pd ,
-		ns1:e_gov_2c_tr_sd ,
 		ns1:e_gov_2x_tr_po ,
 		<http://semantic.digital-agenda-data.eu/codelist/indicator/5g_read> ,
 		ns1:bb_rvhcncov ,
@@ -90,44 +80,13 @@ ns8:indicator	rdfs:isDefinedBy	<http://digital-agenda-data.eu/> ;
 		ns1:i_dsk_c_x ,
 		ns1:i_dsk_s_x ,
 		ns1:i_dsk_c_ab ,
+		ns1:e_gov_0_score ,
+		ns1:e_gov_2b_tr_pd ,
+		ns1:e_gov_2c_tr_de ,
 		ns1:e_gov_4b_bm_us ,
-		ns1:wid_ui_ib ,
-		ns1:wid_ui_iu ,
-		ns1:wid_ui_nui ,
-		ns1:wid_ui_oc ,
-		ns1:wid_ui_part ,
-		ns1:wid_ius_ss ,
-		ns1:wid_score ,
-		ns1:wid_sse ,
-		ns1:wid_sse_gpg ,
-		ns1:wid_sse_icts ,
-		ns1:wid_sse_stem ,
-		ns1:wid_ui ,
-		ns1:wid_ui_egov ,
-		ns1:transparent_egov ,
-		ns1:ttg_in_scope ,
-		ns1:user_centric_egov ,
-		ns1:val_add_ict ,
-		ns1:vod ,
-		ns1:wid_ius ,
-		ns1:wid_ius_abs ,
-		ns1:wid_ius_bs ,
-		ns1:price_internet_fixed_tel_tv ,
-		ns1:price_internet_only ,
-		ns1:spectrum_wbb ,
 		ns1:st_grad ,
-		ns1:tel_ftr ,
-		ns1:tel_inv ,
-		ns1:tel_llu ,
-		ns1:tel_rev ,
 		ns1:mob_roam ,
 		ns1:mob_subs ,
-		ns1:p_empmd ,
-		ns1:p_iuse ,
-		ns1:pay_on_time_projects ,
-		ns1:pop ,
-		ns1:population ,
-		ns1:price_internet_fixed_tel ,
 		ns1:mbb_penet ,
 		ns1:mbb_rhspacov ,
 		ns1:mbb_rltecov ,
@@ -300,10 +259,6 @@ ns8:indicator	rdfs:isDefinedBy	<http://digital-agenda-data.eu/> ;
 		ns1:i_iumc ,
 		ns1:i_iunw ,
 		ns1:i_iuolc ,
-		ns1:i_ihif ,
-		ns1:i_ilt12 ,
-		ns1:i_isk_ge_me ,
-		ns1:i_iu3 ,
 		ns1:i_iu3g ,
 		ns1:i_iubk ,
 		ns1:i_iueduif ,
@@ -312,10 +267,6 @@ ns8:indicator	rdfs:isDefinedBy	<http://digital-agenda-data.eu/> ;
 		ns1:i_dsk_i_bab ,
 		ns1:i_dsk_ps_bab ,
 		ns1:i_dsk_s_bab ,
-		ns1:i_ia12ave ,
-		ns1:i_iday ,
-		ns1:i_igov12rt ,
-		ns1:i_igovrt ,
 		ns1:i_cc ,
 		ns1:i_cisk_sfjob ,
 		ns1:i_cisk_sfjobx ,
@@ -448,10 +399,6 @@ ns13:i_iuvod	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"audiovisual" ;
 	ns6:member-of	ns14:audiovisual ;
 	ns6:order	"12" .
-ns13:vod	rdf:type	ns2:IndicatorToGroupMembership ;
-	rdfs:label	"audiovisual" ;
-	ns6:member-of	ns14:audiovisual ;
-	ns6:order	"11" .
 @prefix ns15:	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/back/> .
 ns15:gdp	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"back" ;
@@ -465,14 +412,6 @@ ns15:households	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"back" ;
 	ns6:member-of	ns14:back ;
 	ns6:order	"5" .
-ns15:pop	rdf:type	ns2:IndicatorToGroupMembership ;
-	rdfs:label	"back" ;
-	ns6:member-of	ns14:back ;
-	ns6:order	"2" .
-ns15:population	rdf:type	ns2:IndicatorToGroupMembership ;
-	rdfs:label	"back" ;
-	ns6:member-of	ns14:back ;
-	ns6:order	"3" .
 @prefix ns16:	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/bbquality/> .
 ns16:actspeed	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"bbquality" ;
@@ -502,18 +441,6 @@ ns16:h_xcost	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"bbquality" ;
 	ns6:member-of	ns14:bbquality ;
 	ns6:order	"10" .
-ns16:price_internet_fixed_tel	rdf:type	ns2:IndicatorToGroupMembership ;
-	rdfs:label	"bbquality" ;
-	ns6:member-of	ns14:bbquality ;
-	ns6:order	"7" .
-ns16:price_internet_fixed_tel_tv	rdf:type	ns2:IndicatorToGroupMembership ;
-	rdfs:label	"bbquality" ;
-	ns6:member-of	ns14:bbquality ;
-	ns6:order	"8" .
-ns16:price_internet_only	rdf:type	ns2:IndicatorToGroupMembership ;
-	rdfs:label	"bbquality" ;
-	ns6:member-of	ns14:bbquality ;
-	ns6:order	"6" .
 @prefix ns17:	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/broadband/> .
 ns17:bb_dsl	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"broadband" ;
@@ -645,14 +572,6 @@ ns20:i_cweb	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"discontinued" ;
 	ns6:member-of	ns14:discontinued ;
 	ns6:order	"9" .
-ns20:i_igovrt	rdf:type	ns2:IndicatorToGroupMembership ;
-	rdfs:label	"discontinued" ;
-	ns6:member-of	ns14:discontinued ;
-	ns6:order	"24" .
-ns20:i_isk_ge_me	rdf:type	ns2:IndicatorToGroupMembership ;
-	rdfs:label	"discontinued" ;
-	ns6:member-of	ns14:discontinued ;
-	ns6:order	"11" .
 ns20:i_iugov	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"discontinued" ;
 	ns6:member-of	ns14:discontinued ;
@@ -669,14 +588,6 @@ ns20:mob_arpm	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"discontinued" ;
 	ns6:member-of	ns14:discontinued ;
 	ns6:order	"18" .
-ns20:transparent_egov	rdf:type	ns2:IndicatorToGroupMembership ;
-	rdfs:label	"discontinued" ;
-	ns6:member-of	ns14:discontinued ;
-	ns6:order	"22" .
-ns20:user_centric_egov	rdf:type	ns2:IndicatorToGroupMembership ;
-	rdfs:label	"discontinued" ;
-	ns6:member-of	ns14:discontinued ;
-	ns6:order	"21" .
 ns7:e_ads	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ebusiness" ;
 	ns6:member-of	ns14:ebusiness ;
@@ -765,10 +676,6 @@ ns7:edigint2015	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ebusiness" ;
 	ns6:member-of	ns14:ebusiness ;
 	ns6:order	"18" .
-ns7:p_empmd	rdf:type	ns2:IndicatorToGroupMembership ;
-	rdfs:label	"ebusiness" ;
-	ns6:member-of	ns14:ebusiness ;
-	ns6:order	"13" .
 @prefix ns21:	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ecommerce/> .
 ns21:e_aeseu	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ecommerce" ;
@@ -984,10 +891,6 @@ ns22:epsi_score	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"egovernment" ;
 	ns6:member-of	ns14:egovernment ;
 	ns6:order	"5" .
-ns22:i_igov12rt	rdf:type	ns2:IndicatorToGroupMembership ;
-	rdfs:label	"egovernment" ;
-	ns6:member-of	ns14:egovernment ;
-	ns6:order	"1" .
 ns22:i_iugov12	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"egovernment" ;
 	ns6:member-of	ns14:egovernment ;
@@ -1001,10 +904,6 @@ ns23:hie_use_pharm	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ehealth" ;
 	ns6:member-of	ns14:ehealth ;
 	ns6:order	"3" .
-ns23:i_ihif	rdf:type	ns2:IndicatorToGroupMembership ;
-	rdfs:label	"ehealth" ;
-	ns6:member-of	ns14:ehealth ;
-	ns6:order	"1" .
 ns23:i_iumapp	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ehealth" ;
 	ns6:member-of	ns14:ehealth ;
@@ -1043,35 +942,31 @@ ns25:labour_prod_ict	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ict-sector" ;
 	ns6:member-of	ns14:ict-sector ;
 	ns6:order	"7" .
-ns25:val_add_ict	rdf:type	ns2:IndicatorToGroupMembership ;
-	rdfs:label	"ict-sector" ;
-	ns6:member-of	ns14:ict-sector ;
-	ns6:order	"5" .
 @prefix ns26:	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-skills/> .
 ns26:i_dsk_bab	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ict-skills" ;
 	ns6:member-of	ns14:ict-skills ;
-	ns6:order	"13" .
+	ns6:order	"1112" .
 ns26:i_dsk_c_bab	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ict-skills" ;
 	ns6:member-of	ns14:ict-skills ;
-	ns6:order	"22" .
+	ns6:order	"1115" .
 ns26:i_dsk_i_bab	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ict-skills" ;
 	ns6:member-of	ns14:ict-skills ;
-	ns6:order	"18" .
+	ns6:order	"1118" .
 ns26:i_dsk_ps_bab	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ict-skills" ;
 	ns6:member-of	ns14:ict-skills ;
-	ns6:order	"26" .
+	ns6:order	"1122" .
 ns26:i_dsk_s_bab	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ict-skills" ;
 	ns6:member-of	ns14:ict-skills ;
-	ns6:order	"32" .
+	ns6:order	"1125" .
 ns26:st_grad	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ict-skills" ;
 	ns6:member-of	ns14:ict-skills ;
-	ns6:order	"91" .
+	ns6:order	"30" .
 @prefix ns27:	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-specialist/> .
 ns27:e_it_mext	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ict-specialist" ;
@@ -1143,22 +1038,6 @@ ns29:h_iacc	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"internet-usage" ;
 	ns6:member-of	ns14:internet-usage ;
 	ns6:order	"1" .
-ns29:i_ia12ave	rdf:type	ns2:IndicatorToGroupMembership ;
-	rdfs:label	"internet-usage" ;
-	ns6:member-of	ns14:internet-usage ;
-	ns6:order	"8" .
-ns29:i_iday	rdf:type	ns2:IndicatorToGroupMembership ;
-	rdfs:label	"internet-usage" ;
-	ns6:member-of	ns14:internet-usage ;
-	ns6:order	"5" .
-ns29:i_ilt12	rdf:type	ns2:IndicatorToGroupMembership ;
-	rdfs:label	"internet-usage" ;
-	ns6:member-of	ns14:internet-usage ;
-	ns6:order	"3" .
-ns29:i_iu3	rdf:type	ns2:IndicatorToGroupMembership ;
-	rdfs:label	"internet-usage" ;
-	ns6:member-of	ns14:internet-usage ;
-	ns6:order	"2" .
 ns29:i_iumc	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"internet-usage" ;
 	ns6:member-of	ns14:internet-usage ;
@@ -1224,10 +1103,6 @@ ns30:mob_subs	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"mobile" ;
 	ns6:member-of	ns14:mobile ;
 	ns6:order	"8" .
-ns30:spectrum_wbb	rdf:type	ns2:IndicatorToGroupMembership ;
-	rdfs:label	"mobile" ;
-	ns6:member-of	ns14:mobile ;
-	ns6:order	"16" .
 @prefix ns31:	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/research-and-development/> .
 ns31:avg_ttg	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"research-and-development" ;
@@ -1329,14 +1204,6 @@ ns31:ict_commit_in_trp	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"research-and-development" ;
 	ns6:member-of	ns14:research-and-development ;
 	ns6:order	"20" .
-ns31:pay_on_time_projects	rdf:type	ns2:IndicatorToGroupMembership ;
-	rdfs:label	"research-and-development" ;
-	ns6:member-of	ns14:research-and-development ;
-	ns6:order	"23" .
-ns31:ttg_in_scope	rdf:type	ns2:IndicatorToGroupMembership ;
-	rdfs:label	"research-and-development" ;
-	ns6:member-of	ns14:research-and-development ;
-	ns6:order	"22" .
 @prefix ns32:	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/research_einfra/> .
 ns32:c1_bandwidth	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"research_einfra" ;
@@ -1395,88 +1262,6 @@ ns33:i_secvir1	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"security-privacy" ;
 	ns6:member-of	ns14:security-privacy ;
 	ns6:order	"4" .
-@prefix ns34:	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/telecom/> .
-ns34:tel_ftr	rdf:type	ns2:IndicatorToGroupMembership ;
-	rdfs:label	"telecom" ;
-	ns6:member-of	ns14:telecom ;
-	ns6:order	"3" .
-ns34:tel_inv	rdf:type	ns2:IndicatorToGroupMembership ;
-	rdfs:label	"telecom" ;
-	ns6:member-of	ns14:telecom ;
-	ns6:order	"2" .
-ns34:tel_llu	rdf:type	ns2:IndicatorToGroupMembership ;
-	rdfs:label	"telecom" ;
-	ns6:member-of	ns14:telecom ;
-	ns6:order	"4" .
-ns34:tel_rev	rdf:type	ns2:IndicatorToGroupMembership ;
-	rdfs:label	"telecom" ;
-	ns6:member-of	ns14:telecom ;
-	ns6:order	"1" .
-@prefix ns35:	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/wid/> .
-ns35:wid_ius	rdf:type	ns2:IndicatorToGroupMembership ;
-	rdfs:label	"wid" ;
-	ns6:member-of	ns14:wid ;
-	ns6:order	"10" .
-ns35:wid_ius_abs	rdf:type	ns2:IndicatorToGroupMembership ;
-	rdfs:label	"wid" ;
-	ns6:member-of	ns14:wid ;
-	ns6:order	"12" .
-ns35:wid_ius_bs	rdf:type	ns2:IndicatorToGroupMembership ;
-	rdfs:label	"wid" ;
-	ns6:member-of	ns14:wid ;
-	ns6:order	"11" .
-ns35:wid_ius_ss	rdf:type	ns2:IndicatorToGroupMembership ;
-	rdfs:label	"wid" ;
-	ns6:member-of	ns14:wid ;
-	ns6:order	"13" .
-ns35:wid_score	rdf:type	ns2:IndicatorToGroupMembership ;
-	rdfs:label	"wid" ;
-	ns6:member-of	ns14:wid ;
-	ns6:order	"1" .
-ns35:wid_sse	rdf:type	ns2:IndicatorToGroupMembership ;
-	rdfs:label	"wid" ;
-	ns6:member-of	ns14:wid ;
-	ns6:order	"14" .
-ns35:wid_sse_gpg	rdf:type	ns2:IndicatorToGroupMembership ;
-	rdfs:label	"wid" ;
-	ns6:member-of	ns14:wid ;
-	ns6:order	"17" .
-ns35:wid_sse_icts	rdf:type	ns2:IndicatorToGroupMembership ;
-	rdfs:label	"wid" ;
-	ns6:member-of	ns14:wid ;
-	ns6:order	"16" .
-ns35:wid_sse_stem	rdf:type	ns2:IndicatorToGroupMembership ;
-	rdfs:label	"wid" ;
-	ns6:member-of	ns14:wid ;
-	ns6:order	"15" .
-ns35:wid_ui	rdf:type	ns2:IndicatorToGroupMembership ;
-	rdfs:label	"wid" ;
-	ns6:member-of	ns14:wid ;
-	ns6:order	"2" .
-ns35:wid_ui_egov	rdf:type	ns2:IndicatorToGroupMembership ;
-	rdfs:label	"wid" ;
-	ns6:member-of	ns14:wid ;
-	ns6:order	"9" .
-ns35:wid_ui_ib	rdf:type	ns2:IndicatorToGroupMembership ;
-	rdfs:label	"wid" ;
-	ns6:member-of	ns14:wid ;
-	ns6:order	"5" .
-ns35:wid_ui_iu	rdf:type	ns2:IndicatorToGroupMembership ;
-	rdfs:label	"wid" ;
-	ns6:member-of	ns14:wid ;
-	ns6:order	"3" .
-ns35:wid_ui_nui	rdf:type	ns2:IndicatorToGroupMembership ;
-	rdfs:label	"wid" ;
-	ns6:member-of	ns14:wid ;
-	ns6:order	"4" .
-ns35:wid_ui_oc	rdf:type	ns2:IndicatorToGroupMembership ;
-	rdfs:label	"wid" ;
-	ns6:member-of	ns14:wid ;
-	ns6:order	"7" .
-ns35:wid_ui_part	rdf:type	ns2:IndicatorToGroupMembership ;
-	rdfs:label	"wid" ;
-	ns6:member-of	ns14:wid ;
-	ns6:order	"8" .
 ns1:aaaa_cov	rdf:type	ns2:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"IPv6 readiness - websites having a AAAA coverage in DNS records (as % of most visited websites)" ;
@@ -3074,123 +2859,53 @@ ns1:i_cweb	rdf:type	skos:Concept ,
 	skos:topConceptOf	ns8:indicator .
 ns1:i_dsk_bab	rdf:type	skos:Concept ,
 		ns2:Indicator ;
-	skos:prefLabel	"Individuals with at least basic digital skills" ;
+	skos:prefLabel	"DSI 2015-2019 Individuals with at least basic digital skills" ;
 	dct:source	ns5:estat_isoc_sk_dskl_i ;
 	skos:notation	"i_dsk_bab" ;
-	skos:altLabel	"Individuals with at least basic digital skills" ;
+	skos:altLabel	"DSI 2015-2019 - At least basic digital skills" ;
 	ns6:membership	ns26:i_dsk_bab ;
 	skos:definition	"Persons that have been using internet during last 3 months are attributed a score on four digital competence domains: information, communication, content-creation and problem-solving, depending the activities they have been able to do. The scores in each domain are basic, above basic and below basic. Individuals not using internet are classified without digital skills. To be classified \"basic or above basic\" on the overall indicator an individual has to have basic or above basic skills in all the four Digital Competence domains included in the index: information, communication, content-creation and problem-solving." ;
 	skos:note	"Detailed results are available in the Eurostat table <a href=\"http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=isoc_sk_dskl_i&lang=en\">ISOC_SK_DSKL_I</a>. Consult the <a href=\"https://ec.europa.eu/digital-agenda/en/news/new-comprehensive-digital-skills-indicator\"> methodological note</a> on DG CONNECT newsroom." ;
 	skos:topConceptOf	ns8:indicator .
 ns1:i_dsk_c_bab	rdf:type	skos:Concept ,
 		ns2:Indicator ;
-	skos:prefLabel	"Individuals with at least basic digital skills in Communication domain" ;
+	skos:prefLabel	"DSI 2015-2019 Individuals with at least basic digital skills in Communication domain" ;
 	dct:source	ns5:estat_isoc_sk_dskl_i ;
 	skos:notation	"i_dsk_c_bab" ;
-	skos:altLabel	"Communication Domain - At least Basic  Skills" ;
+	skos:altLabel	"DSI 2015-2019 - Communication Domain - At least Basic  Skills" ;
 	ns6:membership	ns26:i_dsk_c_bab ;
 	skos:definition	"These skills refer to the ability to communicate in digital environments, share resources through online tools, link with others and collaborate through digital tools, interact with and participate in communities and networks, cross-cultural awareness. The indicator is based on four activities internet users have been able to do online during previous 3 months. The scores are basic, above basic and none. Individuals not using internet are classified without digital skills." ;
 	skos:note	"Detailed results are available in the Eurostat table <a href=\"http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=isoc_sk_dskl_i&lang=en\">ISOC_SK_DSKL_I</a>. Consult the <a href=\"https://ec.europa.eu/digital-agenda/en/news/new-comprehensive-digital-skills-indicator\"> methodological note</a> on DG CONNECT newsroom." ;
 	skos:topConceptOf	ns8:indicator .
 ns1:i_dsk_i_bab	rdf:type	skos:Concept ,
 		ns2:Indicator ;
-	skos:prefLabel	"Individuals with at least basic digital skills in Information domain" ;
+	skos:prefLabel	"DSI 2015-2019 Individuals with at least basic digital skills in Information domain" ;
 	dct:source	ns5:estat_isoc_sk_dskl_i ;
 	skos:notation	"i_dsk_i_bab" ;
-	skos:altLabel	"Information Domain - At least Basic  Skills" ;
+	skos:altLabel	"DSI 2015-2019 - Information Domain - At least Basic  Skills" ;
 	ns6:membership	ns26:i_dsk_i_bab ;
 	skos:definition	"Information processing skills refers to the ability to identify, locate, retrieve, store, organise and analyse digital information, judging its relevance and purpose. The indicator is based on five activities internet users have been able to do online during previous 3 months. The scores are basic, above basic and none. Individuals not using internet are classified without digital skills." ;
 	skos:note	"Detailed results are available in the Eurostat table <a href=\"http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=isoc_sk_dskl_i&lang=en\">ISOC_SK_DSKL_I</a>. Consult the <a href=\"https://ec.europa.eu/digital-agenda/en/news/new-comprehensive-digital-skills-indicator\"> methodological note</a> on DG CONNECT newsroom." ;
 	skos:topConceptOf	ns8:indicator .
 ns1:i_dsk_ps_bab	rdf:type	skos:Concept ,
 		ns2:Indicator ;
-	skos:prefLabel	"Individuals with at least basic digital skills in Problem solving domain" ;
+	skos:prefLabel	"DSI 2015-2019 Individuals with at least basic digital skills in Problem solving domain" ;
 	dct:source	ns5:estat_isoc_sk_dskl_i ;
 	skos:notation	"i_dsk_ps_bab" ;
-	skos:altLabel	"Problem Solving Domain - At least Basic  Skills" ;
+	skos:altLabel	"DSI 2015-2019 - Problem Solving Domain - At least Basic  Skills" ;
 	ns6:membership	ns26:i_dsk_ps_bab ;
 	skos:definition	"Problem solving skills refers to the ability to identify digital needs and resources, make informed decisions as to which are the most appropriate digital tools according to the purpose or need, solve conceptual problems through digital means, creatively use technologies, solve technical problems, update one's own and others' competences. The indicator is based on three basic digital problems and familiarity with four online services internet users have been able to do during previous 3 months. The scores are basic, above basic and none. Individuals not using internet are classified without digital skills." ;
 	skos:note	"Detailed results are available in the Eurostat table <a href=\"http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=isoc_sk_dskl_i&lang=en\">ISOC_SK_DSKL_I</a>. Consult the <a href=\"https://ec.europa.eu/digital-agenda/en/news/new-comprehensive-digital-skills-indicator\"> methodological note</a> on DG CONNECT newsroom." ;
 	skos:topConceptOf	ns8:indicator .
 ns1:i_dsk_s_bab	rdf:type	skos:Concept ,
 		ns2:Indicator ;
-	skos:prefLabel	"Individuals with at least basic digital skills in Software domain" ;
+	skos:prefLabel	"DSI 2015-2019 Individuals with at least basic digital skills in Software domain" ;
 	dct:source	ns5:estat_isoc_sk_dskl_i ;
 	skos:notation	"i_dsk_s_bab" ;
-	skos:altLabel	"Software Domain - At least Basic  Skills" ;
+	skos:altLabel	"DSI 2015-2019 - Software Domain - At least Basic  Skills" ;
 	ns6:membership	ns26:i_dsk_s_bab ;
 	skos:definition	"Software skills for content manipulation refer to the ability to create and edit new content (from word processing to images and video); integrate and re-elaborate previous knowledge and content; produce creative expressions, media outputs and programming; deal with and apply intellectual property rights and licences. The indicator is based on six activities internet users have been able to do during previous 3 months. The scores are basic, above basic and none. Individuals not using internet are classified without digital skills." ;
 	skos:note	"Detailed results are available in the Eurostat table <a href=\"http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=isoc_sk_dskl_i&lang=en\">ISOC_SK_DSKL_I</a>. Consult the <a href=\"https://ec.europa.eu/digital-agenda/en/news/new-comprehensive-digital-skills-indicator\"> methodological note</a> on DG CONNECT newsroom." ;
-	skos:topConceptOf	ns8:indicator .
-ns1:i_ia12ave	rdf:type	skos:Concept ,
-		ns2:Indicator ;
-	skos:prefLabel	"Diversification index for the activities realised online by internet users" ;
-	dct:source	ns5:estat_isoc_bde15cua ;
-	skos:notation	"i_ia12ave" ;
-	skos:altLabel	"Diversification index for internet usage" ;
-	ns6:membership	ns29:i_ia12ave ;
-	skos:definition	"The diversification index is based on counting how many activities, out of a list of 12, have been realised at least once in the previous months. It is computed at individual level for those individuals having used internet in the last 3 months." ;
-	skos:note	"The 12 activities included in the index are: sending/receiving e-mails, information about goods and services, reading online newspapers/news, information on travel/accommodation services, posting messages to social media, interaction with public authorities, internet banking, telephoning or video calls, selling goods or services, purchases of content (films,music,software,etc), purchase of goods, purchase of services." ;
-	skos:topConceptOf	ns8:indicator .
-ns1:i_iday	rdf:type	skos:Concept ,
-		ns2:Indicator ;
-	skos:prefLabel	"Individuals who are frequent internet users (every day or almost every day)" ;
-	dct:source	ns5:estat_isoc_bde15cua ;
-	skos:notation	"i_iday" ;
-	skos:altLabel	"Frequent internet users" ;
-	ns6:membership	ns29:i_iday ;
-	skos:definition	"Individuals using the internet every day or almost every day, in the last 3 months." ;
-	skos:topConceptOf	ns8:indicator .
-ns1:i_igov12rt	rdf:type	skos:Concept ,
-		ns2:Indicator ;
-	skos:prefLabel	"Individuals submitting completed forms to public authorities, over the internet, last 12 months" ;
-	dct:source	ns5:estat_isoc_r_gov_i ;
-	skos:notation	"i_igov12rt" ;
-	skos:altLabel	"Citizens submitting filled forms to eGov services, last 12 months" ;
-	ns6:membership	ns22:i_igov12rt ;
-	skos:topConceptOf	ns8:indicator .
-ns1:i_igovrt	rdf:type	skos:Concept ,
-		ns2:Indicator ;
-	skos:prefLabel	"sending filled forms to public authorities, over the internet, last 3 months" ;
-	dct:source	ns5:estat_isoc_ci_ac_i ;
-	skos:notation	"i_igovrt" ;
-	skos:altLabel	"Sending filled forms to eGov services, last 3 months" ;
-	ns6:membership	ns20:i_igovrt ;
-	skos:note	"Indicator collected until 2010." ;
-	skos:topConceptOf	ns8:indicator .
-ns1:i_ihif	rdf:type	ns2:Indicator ,
-		skos:Concept ;
-	skos:prefLabel	"seeking online information about health" ;
-	dct:source	ns5:estat_isoc_bde15cua ;
-	skos:notation	"i_ihif" ;
-	skos:altLabel	"Seeking health information" ;
-	ns6:membership	ns23:i_ihif ;
-	skos:definition	"Individuals using internet in the last 3 months, seeking information about health: injury, disease, nutrition, improving health, etc." ;
-	skos:topConceptOf	ns8:indicator .
-ns1:i_ilt12	rdf:type	ns2:Indicator ,
-		skos:Concept ;
-	skos:prefLabel	"Individuals who have used internet in the last 12 months" ;
-	dct:source	ns5:estat_isoc_ci_ifp_iu ;
-	skos:notation	"i_ilt12" ;
-	skos:altLabel	"Internet used in the last 12 months" ;
-	ns6:membership	ns29:i_ilt12 ;
-	skos:topConceptOf	ns8:indicator .
-ns1:i_isk_ge_me	rdf:type	ns2:Indicator ,
-		skos:Concept ;
-	skos:prefLabel	"Individuals with medium or high internet skills (3 or more of 6 internet activities)" ;
-	dct:source	ns5:estat_isoc_sk_iskl_i ;
-	skos:notation	"i_isk_ge_me" ;
-	skos:altLabel	"Individuals with medium or high internet skills" ;
-	ns6:membership	ns20:i_isk_ge_me ;
-	skos:definition	"The indicator counts individuals having ever carried out at least 3 of the following 6 activities: using a search engine to find information, sending e-mails with attached files, posting messages to chatrooms, newsgroups or an online discussion forum, using the internet to make telephone calls, using peer-to-peer file sharing for exchanging movies or music, creating a webpage. Only those having ever used the internet were proposed the question." ;
-	skos:topConceptOf	ns8:indicator .
-ns1:i_iu3	rdf:type	ns2:Indicator ,
-		skos:Concept ;
-	skos:prefLabel	"Individuals who have used internet in the last 3 months" ;
-	dct:source	ns5:estat_isoc_ci_ifp_iu ;
-	skos:notation	"i_iu3" ;
-	skos:altLabel	"Internet used in the last 3 months" ;
-	ns6:membership	ns29:i_iu3 ;
 	skos:topConceptOf	ns8:indicator .
 ns1:i_iu3g	rdf:type	ns2:Indicator ,
 		skos:Concept ;
@@ -3616,92 +3331,6 @@ ns1:mob_subs	rdf:type	skos:Concept ,
 	ns6:membership	ns30:mob_subs ;
 	skos:definition	"Mobile subscriptions are defined as the number of active SIM cards. It includes both voice and data services, installed in telephones, modem, usb keys or other devices." ;
 	skos:topConceptOf	ns8:indicator .
-ns1:p_empmd	rdf:type	skos:Concept ,
-		ns2:Indicator ;
-	skos:prefLabel	"Persons employed which were provided a portable device by their employer (business sector)" ;
-	dct:source	ns5:estat_isoc_ci_eu_en2 ;
-	skos:notation	"p_empmd" ;
-	skos:altLabel	"Persons employed provided with a portable device by their enterprise" ;
-	ns6:membership	ns7:p_empmd ;
-	skos:definition	"The devices (portable computers, tablets, smartphones, PDA phones, etc.) should be provided for business use and the enterprises pay for all or at least up to a limit the subscription and the use costs. Are included only the enterprises with 10 or more persons employed, from all manufacturing and service sectors, excluding the financial sector." ;
-	skos:note	"The 2011 question was limited to portable devices using at least 3G technology to connect to the internet." ;
-	skos:topConceptOf	ns8:indicator .
-ns1:p_iuse	rdf:type	skos:Concept ,
-		ns2:Indicator ;
-	skos:prefLabel	"Persons employed using computers with access to the Web at work (business sector)" ;
-	dct:source	ns5:estat_isoc_bde15b_p ;
-	skos:notation	"p_iuse" ;
-	skos:altLabel	"Persons employed using computers at work" ;
-	ns6:membership	ns27:p_iuse ;
-	skos:definition	"The computers (desktop, laptop, smartphones, etc.) should have access to the World Wide Web and be used at least once a week. Are included only the enterprises with 10 or more persons employed, from all manufacturing and service sectors, excluding the financial sector." ;
-	skos:note	"Only the business sector is included in the scope: NACEv2 sectors from C10 to N82 (withouk financial services K) + S951." ;
-	skos:topConceptOf	ns8:indicator .
-ns1:pay_on_time_projects	rdf:type	skos:Concept ,
-		ns2:Indicator ;
-	skos:prefLabel	"Projects paid on time" ;
-	dct:source	ns5:abac ;
-	skos:notation	"pay_on_time_projects" ;
-	skos:altLabel	"Projects paid on time" ;
-	ns6:membership	ns31:pay_on_time_projects ;
-	skos:definition	"Number of research projects paid on time (30-90 days depending on the transaction)" ;
-	skos:topConceptOf	ns8:indicator .
-ns1:pop	rdf:type	skos:Concept ,
-		ns2:Indicator ;
-	skos:prefLabel	"Number of individuals aged 16-74" ;
-	dct:source	ns5:estat-hh ;
-	skos:notation	"pop" ;
-	skos:altLabel	"Number of individuals aged 16-74" ;
-	ns6:membership	ns15:pop ;
-	skos:definition	"Estimation of the number of individuals aged 16-74, for the purpose of the survey on ICT usage by individuals and households." ;
-	skos:topConceptOf	ns8:indicator .
-ns1:population	rdf:type	skos:Concept ,
-		ns2:Indicator ;
-	skos:prefLabel	"Total population" ;
-	dct:source	ns5:eurostat_pop ;
-	skos:notation	"population" ;
-	skos:altLabel	"Total population" ;
-	ns6:membership	ns15:population ;
-	skos:definition	"Total population estimate 1st of January of the same year (Eurostat table demo_pjan)" ;
-	skos:topConceptOf	ns8:indicator .
-ns1:price_internet_fixed_tel	rdf:type	skos:Concept ,
-		ns2:Indicator ;
-	skos:prefLabel	"Monthly price of  Fixed Broadband Internet Access offers including Fixed Telephony" ;
-	dct:source	ns5:biac ;
-	skos:notation	"price_internet_fixed_tel" ;
-	skos:altLabel	"Monthly price of  Internet + Fixed Telephony" ;
-	ns6:membership	ns16:price_internet_fixed_tel ;
-	skos:definition	"Monthly price of Fixed Broadband Internet Access offers including Fixed Telephony, including value added tax, excluding the aditional cost of telephony or cable line (if any). The minimum and median prices refer to the group of similar subscriptions offered by internet service providers. Offers are not weigthed with market shares, so the offers' median price cannot be interpreted as the median price paid by consumers." ;
-	skos:note	"If no data is present for a country, it is because no corresponding offers have been found on the national market." ;
-	skos:topConceptOf	ns8:indicator .
-ns1:price_internet_fixed_tel_tv	rdf:type	skos:Concept ,
-		ns2:Indicator ;
-	skos:prefLabel	"Monthly price of Internet Acccess + Fixed Telephony + TV bundles" ;
-	dct:source	ns5:biac ;
-	skos:notation	"price_internet_fixed_tel_tv" ;
-	skos:altLabel	"Monthly price of Internet + Fixed Telephony + TV" ;
-	ns6:membership	ns16:price_internet_fixed_tel_tv ;
-	skos:definition	"Monthly price of Fixed Broadband Internet Access offers including Fixed Telephony and TV (analogue or digital television service), including value added tax, excluding the aditional cost of telephony or cable line (if any). The minimum and median prices refer to the group of similar subscriptions offered by internet service providers. Offers are not weigthed with market shares, so the offers' median price cannot be interpreted as the median price paid by consumers." ;
-	skos:note	"If no data is present for a country, it is because no corresponding offers have been found on the national market." ;
-	skos:topConceptOf	ns8:indicator .
-ns1:price_internet_only	rdf:type	skos:Concept ,
-		ns2:Indicator ;
-	skos:prefLabel	"Monthly price of standalone internet access" ;
-	dct:source	ns5:biac ;
-	skos:notation	"price_internet_only" ;
-	skos:altLabel	"Monthly price of Internet Access only" ;
-	ns6:membership	ns16:price_internet_only ;
-	skos:definition	"Monthly price of standalone Fixed Broadband Internet Access offers, including value added tax, excluding the additional cost of telephony or cable line (if any). The minimum and median prices refer to the group of similar subscriptions offered by internet service providers. Offers are not weigthed with market shares, so the offers' median price cannot be interpreted as the median price paid by consumers." ;
-	skos:note	"If no data is present for a country, it is because no corresponding offers have been found on the national market." ;
-	skos:topConceptOf	ns8:indicator .
-ns1:spectrum_wbb	rdf:type	skos:Concept ,
-		ns2:Indicator ;
-	skos:prefLabel	"Spectrum assigned for wireless broadband in EU harmonised bands" ;
-	dct:source	ns5:eco_report_03_efis_comm ;
-	skos:notation	"spectrum_wbb" ;
-	skos:altLabel	"Assigned spectrum WBB (EU harmonised bands)" ;
-	ns6:membership	ns30:spectrum_wbb ;
-	skos:definition	"Amount of spectrum assigned by Member States for wireless mobile broadband comunications (WBB) within the ranges harmonised by the European Union. Charts allow to compare with the total value of EU HARMONISED bands and with a simple EU AVERAGE of countries assignements. The policy target is to harmonise and assign 1200 MHz to WBB." ;
-	skos:topConceptOf	ns8:indicator .
 ns1:st_grad	rdf:type	skos:Concept ,
 		ns2:Indicator ;
 	skos:prefLabel	"Science and technology graduates" ;
@@ -3711,243 +3340,44 @@ ns1:st_grad	rdf:type	skos:Concept ,
 	ns6:membership	ns26:st_grad ;
 	skos:definition	"Tertiary graduates in science and technology per 1 000 inhabitants aged 20-29 years includes new tertiary graduates in a calendar year from both public and private institutions completing graduate and post graduate studies compared to an age group that corresponds to the typical graduation age in most countries." ;
 	skos:topConceptOf	ns8:indicator .
-ns1:tel_ftr	rdf:type	skos:Concept ,
-		ns2:Indicator ;
-	skos:prefLabel	"Fixed voice termination rate" ;
-	dct:source	ns5:cocom ;
-	skos:notation	"tel_ftr" ;
-	skos:altLabel	"Fixed voice termination rate" ;
-	ns6:membership	ns34:tel_ftr ;
-	skos:definition	"Wholesale call termination charges of the incumbent operator in fixed voice tecephony for local calls" ;
-	skos:topConceptOf	ns8:indicator .
-ns1:tel_inv	rdf:type	skos:Concept ,
-		ns2:Indicator ;
-	skos:prefLabel	"Total investment in networks by the electronic communications sector" ;
-	dct:source	ns5:cocom ;
-	skos:notation	"tel_inv" ;
-	skos:altLabel	"Total investment in networks by the electronic communications sector" ;
-	ns6:membership	ns34:tel_inv ;
-	skos:definition	"Total investment includes both tangible and intangible investment in telecommunication networks (without license fees) by all telecom operators" ;
-	skos:topConceptOf	ns8:indicator .
-ns1:tel_llu	rdf:type	skos:Concept ,
-		ns2:Indicator ;
-	skos:prefLabel	"Local Loop Unbundling: total monthly charge" ;
-	dct:source	ns5:cocom ;
-	skos:notation	"tel_llu" ;
-	skos:altLabel	"Local Loop Unbundling: total monthly charge" ;
-	ns6:membership	ns34:tel_llu ;
-	skos:definition	"The monthly total wholesale cost for Local Loop Unbundling charged by incumbent operators, Calculated as the sum of the monthly charge and 1/36  of the conncetion fee " ;
-	skos:topConceptOf	ns8:indicator .
-ns1:tel_rev	rdf:type	skos:Concept ,
-		ns2:Indicator ;
-	skos:prefLabel	"Total revenues of the electronic communications sector" ;
-	dct:source	ns5:cocom ;
-	skos:notation	"tel_rev" ;
-	skos:altLabel	"Total revenues of the electronic communications sector" ;
-	ns6:membership	ns34:tel_rev ;
-	skos:definition	"Total includes wholesale and retail revenues from electronic communications perceived in the reference year by all telecom operators (VAT excluded)" ;
-	skos:topConceptOf	ns8:indicator .
-ns1:transparent_egov	rdf:type	ns2:Indicator ,
+ns22:e_gov_0_score	rdf:type	ns2:IndicatorToGroupMembership ;
+	rdfs:label	"egovernment" ;
+	ns6:member-of	ns14:egovernment ;
+	ns6:order	"1110" .
+ns22:e_gov_2b_tr_pd	rdf:type	ns2:IndicatorToGroupMembership ;
+	rdfs:label	"egovernment" ;
+	ns6:member-of	ns14:egovernment ;
+	ns6:order	"11122" .
+ns22:e_gov_2c_tr_de	rdf:type	ns2:IndicatorToGroupMembership ;
+	rdfs:label	"egovernment" ;
+	ns6:member-of	ns14:egovernment ;
+	ns6:order	"11123" .
+ns1:e_gov_0_score	rdf:type	ns2:Indicator ,
 		skos:Concept ;
-	skos:prefLabel	"Transparency Score of eGovernment Services" ;
-	dct:source	ns5:egov_bench12 ;
-	skos:notation	"transparent_egov" ;
-	skos:altLabel	"Transparency Score" ;
-	ns6:membership	ns20:transparent_egov ;
-	skos:definition	"The Transparency score indicates to what extent eGovernment services are transparent. It assesses three aspects of transparency: to what extent public authorities are transparent regarding their own responsibilities and performance, to what extent they are transparent regarding the process of service delivery, and to what extent they are transparent regarding the personal data involved in service delivery." ;
+	skos:prefLabel	"0 Overall Score" ;
+	dct:source	ns5:egov_bench ;
+	skos:notation	"e_gov_0_score" ;
+	skos:altLabel	"0 Overall Score" ;
+	ns6:membership	ns22:e_gov_0_score ;
+	skos:definition	"The overall eGovernment maturity score that captures the scores of all four dimensions, which consist of 14 underlying indicators, broken down into 48 survey questions" ;
 	skos:topConceptOf	ns8:indicator .
-ns1:ttg_in_scope	rdf:type	ns2:Indicator ,
+ns1:e_gov_2b_tr_pd	rdf:type	ns2:Indicator ,
 		skos:Concept ;
-	skos:prefLabel	"Grants signed within scope" ;
-	dct:source	ns5:corda ;
-	skos:notation	"ttg_in_scope" ;
-	skos:altLabel	"Grants signed within scope" ;
-	ns6:membership	ns31:ttg_in_scope ;
-	skos:definition	"The Time to Grant (TTG) is defined as the time lapsed from a call's closing date (deadline for submission of proposals) to that of a grant signature by the European Commission. In the case of two-stage calls for proposals, it is the second stage call deadline that is used in the calculation of the Time to Grant. Time to grant is expressed in calendar days. For H2020, signature within scope reflects the grants signed in less than 245 days." ;
+	skos:prefLabel	"2.2 Transparency - Transparency of personal data" ;
+	dct:source	ns5:egov_bench ;
+	skos:notation	"e_gov_2b_tr_pd" ;
+	skos:altLabel	"2.2 Transparency - Transparency of personal data" ;
+	ns6:membership	ns22:e_gov_2b_tr_pd ;
+	skos:definition	"The extent to which user can manage their personal data held by government organisations." ;
 	skos:topConceptOf	ns8:indicator .
-ns1:user_centric_egov	rdf:type	ns2:Indicator ,
+ns1:e_gov_2c_tr_de	rdf:type	ns2:Indicator ,
 		skos:Concept ;
-	skos:prefLabel	"User Centricity Score of eGovernment services" ;
-	dct:source	ns5:egov_bench12 ;
-	skos:notation	"user_centric_egov" ;
-	skos:altLabel	"User Centricity Score" ;
-	ns6:membership	ns20:user_centric_egov ;
-	skos:definition	"The User centricity score indicates to what extent (information about) a service is provided online and how usable it is (e.g., if support, help and feedback functionality exist online), as well as quality assessments by researchers on the service's ease and speed of use." ;
-	skos:topConceptOf	ns8:indicator .
-ns1:val_add_ict	rdf:type	ns2:Indicator ,
-		skos:Concept ;
-	skos:prefLabel	"Value added of the ICT sector" ;
-	dct:source	ns5:jrc_ict_randd ;
-	skos:notation	"val_add_ict" ;
-	skos:altLabel	"Value added of the ICT sector" ;
-	ns6:membership	ns25:val_add_ict ;
-	skos:definition	"Value added. In the System of National Accounts it is defined as the value of output less the value of intermediate consumption; it is a measure of the contribution to GDP made by an individual producer, industry or sector." ;
-	skos:topConceptOf	ns8:indicator .
-ns1:vod	rdf:type	ns2:Indicator ,
-		skos:Concept ;
-	skos:prefLabel	"Households subscribed to Video on Demand" ;
-	dct:source	ns5:ihs_tech ;
-	skos:notation	"vod" ;
-	skos:altLabel	"Households subscribed to Video on Demand" ;
-	ns6:membership	ns13:vod ;
-	skos:definition	"Percentage of households subscribing to any form of Video on Demand; EU average calculated as the average of the 26 MS (for which data is available) weighted by the number of households in each of them in 2013" ;
-	skos:topConceptOf	ns8:indicator .
-ns1:wid_ius	rdf:type	ns2:Indicator ,
-		skos:Concept ;
-	skos:prefLabel	"2 Internet user skills" ;
-	dct:source	ns5: ;
-	skos:notation	"wid_ius" ;
-	skos:altLabel	"2 Internet user skills" ;
-	ns6:membership	ns35:wid_ius ;
-	skos:definition	"WID Internet user skills dimension calculated as the weighted average of the three indicators: 2.1 At least basic digital skills  (33.3%), 2.2 Above basic digital skills (33.3%), 2.3 Software skills (33.3%)." ;
-	skos:topConceptOf	ns8:indicator .
-ns1:wid_ius_abs	rdf:type	ns2:Indicator ,
-		skos:Concept ;
-	skos:prefLabel	"2.2 Above basic digital skills" ;
-	dct:source	ns5: ;
-	skos:notation	"wid_ius_abs" ;
-	skos:altLabel	"2.2 Above basic digital skills" ;
-	ns6:membership	ns35:wid_ius_abs ;
-	skos:definition	"People with above basic digital skills in each of the following four dimensions: information, communication, problem solving, software for content creation. " ;
-	skos:topConceptOf	ns8:indicator .
-ns1:wid_ius_bs	rdf:type	ns2:Indicator ,
-		skos:Concept ;
-	skos:prefLabel	"2.1 At least basic digital skills" ;
-	dct:source	ns5: ;
-	skos:notation	"wid_ius_bs" ;
-	skos:altLabel	"2.1 At least basic digital skills" ;
-	ns6:membership	ns35:wid_ius_bs ;
-	skos:definition	"People with  at least basic digital skills in each of the following four dimensions: information, communication, problem solving, software for content creation. People possessing, at a minimum, the skills required to perform activities such as using e-mail, editing tools, installing new devices, etc. Further details on calculation methodology here: https://ec.europa.eu/digital-single-market/en/news/new-comprehensive-digital-skills-indicator" ;
-	skos:topConceptOf	ns8:indicator .
-ns1:wid_ius_ss	rdf:type	ns2:Indicator ,
-		skos:Concept ;
-	skos:prefLabel	"2.3 Software skills" ;
-	dct:source	ns5: ;
-	skos:notation	"wid_ius_ss" ;
-	skos:altLabel	"2.3 At least basic software skills" ;
-	ns6:membership	ns35:wid_ius_ss ;
-	skos:definition	"People who, in addition to having used basic software features such as word processing, used advanced spreadsheet functions, created a presentation or document integrating text, pictures and tables or charts, or wrote code in a programming language. " ;
-	skos:topConceptOf	ns8:indicator .
-ns1:wid_score	rdf:type	ns2:Indicator ,
-		skos:Concept ;
-	skos:prefLabel	"Women in Digital (WID) score" ;
-	dct:source	ns5: ;
-	skos:notation	"wid_score" ;
-	skos:altLabel	"Women in Digital (WID) score" ;
-	ns6:membership	ns35:wid_score ;
-	skos:definition	"Women in digital score calculated as the weighted average of the three sub-dimensions: 1 Use of internet  (33.3%), 2 Internet users skills (33.3%), 3 Specialist skills and employment (33.3%).\n\n" ;
-	skos:topConceptOf	ns8:indicator .
-ns1:wid_sse	rdf:type	ns2:Indicator ,
-		skos:Concept ;
-	skos:prefLabel	"3 Specialist skills and employment" ;
-	dct:source	ns5: ;
-	skos:notation	"wid_sse" ;
-	skos:altLabel	"3 Specialist skills and employment" ;
-	ns6:membership	ns35:wid_sse ;
-	skos:definition	"WID Use of Internet Dimension calculated as the weighted average of the three indicators: \n3.1 STEM graduates (33.3%), 3.2 ICT specialists (33.3%), 3.3 Gender pay gap  (33.3%)." ;
-	skos:topConceptOf	ns8:indicator .
-ns1:wid_sse_gpg	rdf:type	ns2:Indicator ,
-		skos:Concept ;
-	skos:prefLabel	"3.3 Gender pay gap" ;
-	dct:source	ns5: ;
-	skos:notation	"wid_sse_gpg" ;
-	skos:altLabel	"3.3 Unadjusted gender pay gap" ;
-	ns6:membership	ns35:wid_sse_gpg ;
-	skos:definition	"Gender pay gap in unadjusted form, measured as the difference between average gross hourly earnings of male paid employees and  female paid employees as a percentage of average gross hourly earnings of male paid employees. The indicator has been defined as unadjusted, because it gives an overall picture of gender inequalities in terms of pay and measures a concept which is broader than the concept of equal pay for equal work. All employees working in firms with ten or more employees, without restrictions for age and hours worked, are included." ;
-	skos:topConceptOf	ns8:indicator .
-ns1:wid_sse_icts	rdf:type	ns2:Indicator ,
-		skos:Concept ;
-	skos:prefLabel	"3.2 ICT specialists" ;
-	dct:source	ns5: ;
-	skos:notation	"wid_sse_icts" ;
-	skos:altLabel	"3.2 ICT specialists" ;
-	ns6:membership	ns35:wid_sse_icts ;
-	skos:definition	"Employed ICT specialists. Broad definition based on the ISCO-08 classification and including jobs like ICT service managers, ICT professionals, ICT technicians, ICT installers and servicers." ;
-	skos:topConceptOf	ns8:indicator .
-ns1:wid_sse_stem	rdf:type	ns2:Indicator ,
-		skos:Concept ;
-	skos:prefLabel	"3.1 STEM graduates" ;
-	dct:source	ns5: ;
-	skos:notation	"wid_sse_stem" ;
-	skos:altLabel	"3.1 STEM graduates" ;
-	ns6:membership	ns35:wid_sse_stem ;
-	skos:definition	"People with a degree in a science, technology, maths or engineering-related subject" ;
-	skos:topConceptOf	ns8:indicator .
-ns1:wid_ui	rdf:type	ns2:Indicator ,
-		skos:Concept ;
-	skos:prefLabel	"1 Use of internet" ;
-	dct:source	ns5: ;
-	skos:notation	"wid_ui" ;
-	skos:altLabel	"1 Use of internet" ;
-	ns6:membership	ns35:wid_ui ;
-	skos:definition	"WID Use of internet dimension calculated as the weighted average of the six indicators: \r\n1.1 Regular internet use (16.67%), 1.2 People who never used the internet (16.67%), 1.3 Online banking (16.67%), 1.4 Doing an online course (16.67%), 1.5 Online consultations or voting (16.67%), 1.6 eGovernment users (16.67%)." ;
-	skos:topConceptOf	ns8:indicator .
-ns1:wid_ui_egov	rdf:type	ns2:Indicator ,
-		skos:Concept ;
-	skos:prefLabel	"1.6 eGovernment users " ;
-	dct:source	ns5: ;
-	skos:notation	"wid_ui_egov" ;
-	skos:altLabel	"1.6 eGovernment users " ;
-	ns6:membership	ns35:wid_ui_egov ;
-	skos:definition	"People who sent filled forms to public authorities, over the internet, previous 12 months " ;
-	skos:topConceptOf	ns8:indicator .
-ns1:wid_ui_ib	rdf:type	skos:Concept ,
-		ns2:Indicator ;
-	skos:prefLabel	"1.3 Online banking" ;
-	dct:source	ns5: ;
-	skos:notation	"wid_ui_ib" ;
-	skos:altLabel	"1.3 Online banking" ;
-	ns6:membership	ns35:wid_ui_ib ;
-	skos:definition	"People who used the Internet to use online banking " ;
-	skos:topConceptOf	ns8:indicator .
-ns1:wid_ui_iu	rdf:type	skos:Concept ,
-		ns2:Indicator ;
-	skos:prefLabel	"1.1 Regular internet use" ;
-	dct:source	ns5: ;
-	skos:notation	"wid_ui_iu" ;
-	skos:altLabel	"1.1 Regular internet use" ;
-	ns6:membership	ns35:wid_ui_iu ;
-	skos:definition	"People who used the Internet at least once a week" ;
-	skos:topConceptOf	ns8:indicator .
-ns1:wid_ui_nui	rdf:type	skos:Concept ,
-		ns2:Indicator ;
-	skos:prefLabel	"1.2 People who never used the internet" ;
-	dct:source	ns5: ;
-	skos:notation	"wid_ui_nui" ;
-	skos:altLabel	"1.2 People who never used the internet" ;
-	ns6:membership	ns35:wid_ui_nui ;
-	skos:definition	"People who never used the Internet" ;
-	skos:topConceptOf	ns8:indicator .
-ns1:wid_ui_oc	rdf:type	skos:Concept ,
-		ns2:Indicator ;
-	skos:prefLabel	"1.4 Doing an online course" ;
-	dct:source	ns5: ;
-	skos:notation	"wid_ui_oc" ;
-	skos:altLabel	"1.4 Doing an online course" ;
-	ns6:membership	ns35:wid_ui_oc ;
-	skos:definition	"People who used the Internet for doing an online course (on any subject)" ;
-	skos:topConceptOf	ns8:indicator .
-ns1:wid_ui_part	rdf:type	skos:Concept ,
-		ns2:Indicator ;
-	skos:prefLabel	"1.5 Online consultations or voting" ;
-	dct:source	ns5: ;
-	skos:notation	"wid_ui_part" ;
-	skos:altLabel	"1.5 Online consultations or voting" ;
-	ns6:membership	ns35:wid_ui_part ;
-	skos:definition	"People who took part in on-line consultations or voting to define civic or political issues (e.g. urban planning, signing a petition)" ;
-	skos:topConceptOf	ns8:indicator .
-ns35:old_wid_ui_ps	rdf:type	ns2:IndicatorToGroupMembership ;
-	rdfs:label	"wid" ;
-	ns6:member-of	ns14:wid ;
-	ns6:order	"6" .
-ns1:old_wid_ui_ps	rdf:type	ns2:Indicator ,
-		skos:Concept ;
-	skos:prefLabel	"1.4 Using professional social networks" ;
-	dct:source	ns5: ;
-	skos:notation	"old_wid_ui_ps" ;
-	skos:altLabel	"1.4 Using professional social networks" ;
-	ns6:membership	ns35:old_wid_ui_ps ;
-	skos:definition	"People who used Internet for participating in social or professional networks" ;
+	skos:prefLabel	"2.3 Transparency - Transparency of service design" ;
+	dct:source	ns5:egov_bench ;
+	skos:notation	"e_gov_2c_tr_de" ;
+	skos:altLabel	"2.3 Transparency - Transparency of service design" ;
+	ns6:membership	ns22:e_gov_2c_tr_de ;
+	skos:definition	"The extent to which user are informed on and involved in policy and service design processes." ;
 	skos:topConceptOf	ns8:indicator .
 ns1:e_gov_4b_bm_us	rdf:type	ns2:Indicator ,
 		skos:Concept ;
@@ -3990,14 +3420,6 @@ ns22:e_gov_2a_tr_sd	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"egovernment" ;
 	ns6:member-of	ns14:egovernment ;
 	ns6:order	"11121" .
-ns22:e_gov_2c_tr_pd	rdf:type	ns2:IndicatorToGroupMembership ;
-	rdfs:label	"egovernment" ;
-	ns6:member-of	ns14:egovernment ;
-	ns6:order	"11122" .
-ns22:e_gov_2c_tr_sd	rdf:type	ns2:IndicatorToGroupMembership ;
-	rdfs:label	"egovernment" ;
-	ns6:member-of	ns14:egovernment ;
-	ns6:order	"11123" .
 ns22:e_gov_2x_tr_po	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"egovernment" ;
 	ns6:member-of	ns14:egovernment ;
@@ -4092,7 +3514,7 @@ ns1:bb_vhcncov	rdf:type	ns2:Indicator ,
 ns1:e_gov_1_uc	rdf:type	ns2:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"1 User centricity" ;
-	dct:source	ns5:egov_bench ;
+	dct:source	ns5: ;
 	skos:notation	"e_gov_1_uc" ;
 	skos:altLabel	"1 User centricity" ;
 	ns6:membership	ns22:e_gov_1_uc ;
@@ -4142,24 +3564,6 @@ ns1:e_gov_2a_tr_sd	rdf:type	ns2:Indicator ,
 	skos:altLabel	"2.1 Transparency - Transparency of service delivery" ;
 	ns6:membership	ns22:e_gov_2a_tr_sd ;
 	skos:definition	"The extent to which the service process and expectations are clarified." ;
-	skos:topConceptOf	ns8:indicator .
-ns1:e_gov_2c_tr_pd	rdf:type	ns2:Indicator ,
-		skos:Concept ;
-	skos:prefLabel	"2.2 Transparency - Transparency of personal data" ;
-	dct:source	ns5:egov_bench ;
-	skos:notation	"e_gov_2c_tr_pd" ;
-	skos:altLabel	"2.2 Transparency - Transparency of personal data" ;
-	ns6:membership	ns22:e_gov_2c_tr_pd ;
-	skos:definition	"The extent to which user can manage their personal data held by government organisations." ;
-	skos:topConceptOf	ns8:indicator .
-ns1:e_gov_2c_tr_sd	rdf:type	ns2:Indicator ,
-		skos:Concept ;
-	skos:prefLabel	"2.3 Transparency - Transparency of service design" ;
-	dct:source	ns5:egov_bench ;
-	skos:notation	"e_gov_2c_tr_sd" ;
-	skos:altLabel	"2.3 Transparency - Transparency of service design" ;
-	ns6:membership	ns22:e_gov_2c_tr_sd ;
-	skos:definition	"The extent to which user are informed on and involved in policy and service design processes." ;
 	skos:topConceptOf	ns8:indicator .
 ns1:e_gov_2x_tr_po	rdf:type	ns2:Indicator ,
 		skos:Concept ;
@@ -4285,8 +3689,8 @@ ns1:desi_4g	rdf:type	ns2:Indicator ,
 	dct:source	ns5:desi_4g ;
 	skos:notation	"desi_4g" ;
 	skos:altLabel	"4G coverage" .
-@prefix ns36:	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/> .
-ns1:desi_4g	ns6:membership	ns36:desi_4g ;
+@prefix ns34:	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_ind/> .
+ns1:desi_4g	ns6:membership	ns34:desi_4g ;
 	skos:definition	"Percentage of populated areas with coverage by 4G" ;
 	skos:topConceptOf	ns8:indicator .
 ns1:desi_5g	rdf:type	ns2:Indicator ,
@@ -4295,7 +3699,7 @@ ns1:desi_5g	rdf:type	ns2:Indicator ,
 	dct:source	ns5:desi_5g ;
 	skos:notation	"desi_5g" ;
 	skos:altLabel	"5G readiness" ;
-	ns6:membership	ns36:desi_5g ;
+	ns6:membership	ns34:desi_5g ;
 	skos:definition	"The amount of spectrum assigned and ready for 5G use by the end of 2020 within the so-called 5G pioneer bands. These bands are 700 MHz (703-733 MHz and 758-788 MHz), 3.6 GHz (3400-3800 MHz) and 26 GHz (1000 MHz within 24250-27500 MHz). All three spectrum bands have an equal weight" ;
 	skos:topConceptOf	ns8:indicator .
 ns1:desi_5gc	rdf:type	ns2:Indicator ,
@@ -4304,7 +3708,7 @@ ns1:desi_5gc	rdf:type	ns2:Indicator ,
 	dct:source	ns5:desi_5gc ;
 	skos:notation	"desi_5gc" ;
 	skos:altLabel	"5G coverage" ;
-	ns6:membership	ns36:desi_5gc ;
+	ns6:membership	ns34:desi_5gc ;
 	skos:definition	"Percentage of populated areas with coverage by 5G" ;
 	skos:topConceptOf	ns8:indicator .
 ns1:desi_bbpi	rdf:type	ns2:Indicator ,
@@ -4313,7 +3717,7 @@ ns1:desi_bbpi	rdf:type	ns2:Indicator ,
 	dct:source	ns5:desi_bbpi ;
 	skos:notation	"desi_bbpi" ;
 	skos:altLabel	"Broadband price index" ;
-	ns6:membership	ns36:desi_bbpi ;
+	ns6:membership	ns34:desi_bbpi ;
 	skos:definition	"The broadband price index measures the prices of representative baskets of fixed, mobile and converged broadband offers" ;
 	skos:topConceptOf	ns8:indicator .
 ns1:desi_c_bbpi	rdf:type	ns2:Indicator ,
@@ -4322,8 +3726,8 @@ ns1:desi_c_bbpi	rdf:type	ns2:Indicator ,
 	dct:source	ns5: ;
 	skos:notation	"desi_c_bbpi" ;
 	skos:altLabel	"Broadband price index" .
-@prefix ns37:	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim/> .
-ns1:desi_c_bbpi	ns6:membership	ns37:desi_c_bbpi ;
+@prefix ns35:	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_subdim/> .
+ns1:desi_c_bbpi	ns6:membership	ns35:desi_c_bbpi ;
 	skos:topConceptOf	ns8:indicator .
 ns1:desi_c_fbbc	rdf:type	ns2:Indicator ,
 		skos:Concept ;
@@ -4331,7 +3735,7 @@ ns1:desi_c_fbbc	rdf:type	ns2:Indicator ,
 	dct:source	ns5: ;
 	skos:notation	"desi_c_fbbc" ;
 	skos:altLabel	"Fixed broadband coverage" ;
-	ns6:membership	ns37:desi_c_fbbc ;
+	ns6:membership	ns35:desi_c_fbbc ;
 	skos:topConceptOf	ns8:indicator .
 ns1:desi_c_fbbtc	rdf:type	ns2:Indicator ,
 		skos:Concept ;
@@ -4339,7 +3743,7 @@ ns1:desi_c_fbbtc	rdf:type	ns2:Indicator ,
 	dct:source	ns5: ;
 	skos:notation	"desi_c_fbbtc" ;
 	skos:altLabel	"Fixed broadband take-up" ;
-	ns6:membership	ns37:desi_c_fbbtc ;
+	ns6:membership	ns35:desi_c_fbbtc ;
 	skos:topConceptOf	ns8:indicator .
 ns1:desi_c_mbb	rdf:type	ns2:Indicator ,
 		skos:Concept ;
@@ -4347,7 +3751,7 @@ ns1:desi_c_mbb	rdf:type	ns2:Indicator ,
 	dct:source	ns5: ;
 	skos:notation	"desi_c_mbb" ;
 	skos:altLabel	"Mobile broadband" ;
-	ns6:membership	ns37:desi_c_mbb ;
+	ns6:membership	ns35:desi_c_mbb ;
 	skos:topConceptOf	ns8:indicator .
 ns1:desi_conn	rdf:type	ns2:Indicator ,
 		skos:Concept ;
@@ -4355,8 +3759,8 @@ ns1:desi_conn	rdf:type	ns2:Indicator ,
 	dct:source	ns5: ;
 	skos:notation	"desi_conn" ;
 	skos:altLabel	"Connectivity" .
-@prefix ns38:	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_dim/> .
-ns1:desi_conn	ns6:membership	ns38:desi_conn ;
+@prefix ns36:	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_dim/> .
+ns1:desi_conn	ns6:membership	ns36:desi_conn ;
 	skos:topConceptOf	ns8:indicator .
 ns1:desi_dps	rdf:type	ns2:Indicator ,
 		skos:Concept ;
@@ -4364,7 +3768,7 @@ ns1:desi_dps	rdf:type	ns2:Indicator ,
 	dct:source	ns5: ;
 	skos:notation	"desi_dps" ;
 	skos:altLabel	"Digital Public Services" ;
-	ns6:membership	ns38:desi_dps ;
+	ns6:membership	ns36:desi_dps ;
 	skos:topConceptOf	ns8:indicator .
 ns1:desi_dps_egov	rdf:type	ns2:Indicator ,
 		skos:Concept ;
@@ -4372,7 +3776,7 @@ ns1:desi_dps_egov	rdf:type	ns2:Indicator ,
 	dct:source	ns5: ;
 	skos:notation	"desi_dps_egov" ;
 	skos:altLabel	"e-Government" ;
-	ns6:membership	ns37:desi_dps_egov ;
+	ns6:membership	ns35:desi_dps_egov ;
 	skos:topConceptOf	ns8:indicator .
 ns1:desi_dps_egovuser	rdf:type	ns2:Indicator ,
 		skos:Concept ;
@@ -4380,7 +3784,7 @@ ns1:desi_dps_egovuser	rdf:type	ns2:Indicator ,
 	dct:source	ns5:desi_dps_egovuser ;
 	skos:notation	"desi_dps_egovuser" ;
 	skos:altLabel	"e-Government Users" ;
-	ns6:membership	ns36:desi_dps_egovuser ;
+	ns6:membership	ns34:desi_dps_egovuser ;
 	skos:definition	"Individuals who used the Internet, in the last 12 months, for interaction with public authorities" ;
 	skos:topConceptOf	ns8:indicator .
 ns1:desi_dps_opendata	rdf:type	ns2:Indicator ,
@@ -4389,7 +3793,7 @@ ns1:desi_dps_opendata	rdf:type	ns2:Indicator ,
 	dct:source	ns5:desi_dps_opendata ;
 	skos:notation	"desi_dps_opendata" ;
 	skos:altLabel	"Open Data" ;
-	ns6:membership	ns36:desi_dps_opendata ;
+	ns6:membership	ns34:desi_dps_opendata ;
 	skos:definition	"This composite indicator measures to what extent countries have an open data policy in place (including the transposition of the revised PSI Directive), the estimated political, social and economic impact of open data and the characteristics (functionalities, data availability and usage) of the national data portal." ;
 	skos:topConceptOf	ns8:indicator .
 ns1:desi_dps_psbiz	rdf:type	ns2:Indicator ,
@@ -4398,7 +3802,7 @@ ns1:desi_dps_psbiz	rdf:type	ns2:Indicator ,
 	dct:source	ns5:desi_dps_psbiz ;
 	skos:notation	"desi_dps_psbiz" ;
 	skos:altLabel	"Digital public services for businesses" ;
-	ns6:membership	ns36:desi_dps_psbiz ;
+	ns6:membership	ns34:desi_dps_psbiz ;
 	skos:definition	"The indicator broadly reflects the share of public services needed for starting a business and conducting regular business operations that are available online for domestic as well as foreign users. Services provided through a portal receive a higher score, services which provide only information (but have to be completed offline) receive a more limited score." ;
 	skos:topConceptOf	ns8:indicator .
 ns1:desi_fbbc	rdf:type	ns2:Indicator ,
@@ -4407,7 +3811,7 @@ ns1:desi_fbbc	rdf:type	ns2:Indicator ,
 	dct:source	ns5:desi_fbbc ;
 	skos:notation	"desi_fbbc" ;
 	skos:altLabel	"Fast broadband (NGA) coverage" ;
-	ns6:membership	ns36:desi_fbbc ;
+	ns6:membership	ns34:desi_fbbc ;
 	skos:definition	"Percentage of households covered by fixed broadband of at least 30 Mbps download. The technologies considered are FTTH, FTTB, Cable Docsis 3.0 and VDS" ;
 	skos:topConceptOf	ns8:indicator .
 ns1:desi_fbbtc	rdf:type	skos:Concept ,
@@ -4416,7 +3820,7 @@ ns1:desi_fbbtc	rdf:type	skos:Concept ,
 	dct:source	ns5:desi_fbbtc ;
 	skos:notation	"desi_fbbtc" ;
 	skos:altLabel	"Overall fixed broadband take-up" ;
-	ns6:membership	ns36:desi_fbbtc ;
+	ns6:membership	ns34:desi_fbbtc ;
 	skos:definition	"Percentage of households subscribing to fixed broadband" ;
 	skos:topConceptOf	ns8:indicator .
 ns1:desi_gbpstc	rdf:type	skos:Concept ,
@@ -4425,7 +3829,7 @@ ns1:desi_gbpstc	rdf:type	skos:Concept ,
 	dct:source	ns5:desi_gbpstc ;
 	skos:notation	"desi_gbpstc" ;
 	skos:altLabel	"At least 1 Gbps take-up" ;
-	ns6:membership	ns36:desi_gbpstc ;
+	ns6:membership	ns34:desi_gbpstc ;
 	skos:definition	"Percentage of households subscribing to fixed broadband of at least 1 Gbps, calculated as overall fixed broadband take-up " ;
 	skos:topConceptOf	ns8:indicator .
 ns1:desi_hc	rdf:type	skos:Concept ,
@@ -4434,7 +3838,7 @@ ns1:desi_hc	rdf:type	skos:Concept ,
 	dct:source	ns5: ;
 	skos:notation	"desi_hc" ;
 	skos:altLabel	"Human Capital" ;
-	ns6:membership	ns38:desi_hc ;
+	ns6:membership	ns36:desi_hc ;
 	skos:topConceptOf	ns8:indicator .
 ns1:desi_hc_abds	rdf:type	skos:Concept ,
 		ns2:Indicator ;
@@ -4442,7 +3846,7 @@ ns1:desi_hc_abds	rdf:type	skos:Concept ,
 	dct:source	ns5:desi_hc_abds ;
 	skos:notation	"desi_hc_abds" ;
 	skos:altLabel	"Above basic digital skills" ;
-	ns6:membership	ns36:desi_hc_abds ;
+	ns6:membership	ns34:desi_hc_abds ;
 	skos:definition	"Individuals with \u2018above basic\u2019 digital skills in each of the following four dimensions: information, communication, problem solving and software for content creation (as measured by the number of activities carried out during the previous 3 months). " ;
 	skos:topConceptOf	ns8:indicator .
 ns1:desi_hc_abss	rdf:type	skos:Concept ,
@@ -4451,7 +3855,7 @@ ns1:desi_hc_abss	rdf:type	skos:Concept ,
 	dct:source	ns5:desi_hc_abss ;
 	skos:notation	"desi_hc_abss" ;
 	skos:altLabel	"At least basic software skills" ;
-	ns6:membership	ns36:desi_hc_abss ;
+	ns6:membership	ns34:desi_hc_abss ;
 	skos:definition	"Individuals who, in addition to having used basic software features such as word processing, have used advanced spreadsheet functions, created a presentation or document integrating text, pictures and tables or charts, or written code in a programming language. " ;
 	skos:topConceptOf	ns8:indicator .
 ns1:desi_hc_asd	rdf:type	skos:Concept ,
@@ -4460,7 +3864,7 @@ ns1:desi_hc_asd	rdf:type	skos:Concept ,
 	dct:source	ns5: ;
 	skos:notation	"desi_hc_asd" ;
 	skos:altLabel	"Advanced Skills and Development" ;
-	ns6:membership	ns37:desi_hc_asd ;
+	ns6:membership	ns35:desi_hc_asd ;
 	skos:topConceptOf	ns8:indicator .
 ns1:desi_hc_bds	rdf:type	skos:Concept ,
 		ns2:Indicator ;
@@ -4468,7 +3872,7 @@ ns1:desi_hc_bds	rdf:type	skos:Concept ,
 	dct:source	ns5:desi_hc_bds ;
 	skos:notation	"desi_hc_bds" ;
 	skos:altLabel	"At least Basic Digital Skills" ;
-	ns6:membership	ns36:desi_hc_bds ;
+	ns6:membership	ns34:desi_hc_bds ;
 	skos:definition	"Individuals with \u2018basic\u2019 or \u2018above basic\u2019 digital skills in each of the following four dimensions: information, communication, problem solving and software for content creation (as measured by the number of activities carried out during the previous 3 months). " ;
 	skos:topConceptOf	ns8:indicator .
 ns1:desi_hc_bsu	rdf:type	skos:Concept ,
@@ -4477,7 +3881,7 @@ ns1:desi_hc_bsu	rdf:type	skos:Concept ,
 	dct:source	ns5: ;
 	skos:notation	"desi_hc_bsu" ;
 	skos:altLabel	"Internet User Skills" ;
-	ns6:membership	ns37:desi_hc_bsu ;
+	ns6:membership	ns35:desi_hc_bsu ;
 	skos:topConceptOf	ns8:indicator .
 ns1:desi_hc_entict	rdf:type	skos:Concept ,
 		ns2:Indicator ;
@@ -4485,7 +3889,7 @@ ns1:desi_hc_entict	rdf:type	skos:Concept ,
 	dct:source	ns5:desi_hc_entict ;
 	skos:notation	"desi_hc_entict" ;
 	skos:altLabel	"Enterprises providing ICT training " ;
-	ns6:membership	ns36:desi_hc_entict ;
+	ns6:membership	ns34:desi_hc_entict ;
 	skos:definition	"Enterprises who provided training in ICT to their personnel" ;
 	skos:topConceptOf	ns8:indicator .
 ns1:desi_hc_fictspec	rdf:type	skos:Concept ,
@@ -4494,7 +3898,7 @@ ns1:desi_hc_fictspec	rdf:type	skos:Concept ,
 	dct:source	ns5:desi_hc_fictspec ;
 	skos:notation	"desi_hc_fictspec" ;
 	skos:altLabel	"Female ICT specialists" ;
-	ns6:membership	ns36:desi_hc_fictspec ;
+	ns6:membership	ns34:desi_hc_fictspec ;
 	skos:definition	"Employed female ICT specialists. Broad definition based on the ISCO-08 classification and including jobs like ICT service managers, ICT professionals, ICT technicians, ICT installers and servicers." ;
 	skos:topConceptOf	ns8:indicator .
 ns1:desi_hc_ictg	rdf:type	skos:Concept ,
@@ -4503,7 +3907,7 @@ ns1:desi_hc_ictg	rdf:type	skos:Concept ,
 	dct:source	ns5:desi_hc_ictg ;
 	skos:notation	"desi_hc_ictg" ;
 	skos:altLabel	"ICT graduates" ;
-	ns6:membership	ns36:desi_hc_ictg ;
+	ns6:membership	ns34:desi_hc_ictg ;
 	skos:definition	"Individuals with a degree in ICT" ;
 	skos:topConceptOf	ns8:indicator .
 ns1:desi_hc_ictspec	rdf:type	skos:Concept ,
@@ -4512,7 +3916,7 @@ ns1:desi_hc_ictspec	rdf:type	skos:Concept ,
 	dct:source	ns5:desi_hc_ictspec ;
 	skos:notation	"desi_hc_ictspec" ;
 	skos:altLabel	"ICT Specialists" ;
-	ns6:membership	ns36:desi_hc_ictspec ;
+	ns6:membership	ns34:desi_hc_ictspec ;
 	skos:definition	"Employed ICT specialists. Broad definition based on the ISCO-08 classification and including jobs like ICT service managers, ICT professionals, ICT technicians, ICT installers and servicers." ;
 	skos:topConceptOf	ns8:indicator .
 ns1:desi_idt	rdf:type	skos:Concept ,
@@ -4521,7 +3925,7 @@ ns1:desi_idt	rdf:type	skos:Concept ,
 	dct:source	ns5: ;
 	skos:notation	"desi_idt" ;
 	skos:altLabel	"Integration of Digital Technology" ;
-	ns6:membership	ns38:desi_idt ;
+	ns6:membership	ns36:desi_idt ;
 	skos:topConceptOf	ns8:indicator .
 ns1:desi_idt_ai	rdf:type	skos:Concept ,
 		ns2:Indicator ;
@@ -4529,7 +3933,7 @@ ns1:desi_idt_ai	rdf:type	skos:Concept ,
 	dct:source	ns5:desi_idt_ai ;
 	skos:notation	"desi_idt_ai" ;
 	skos:altLabel	"AI" ;
-	ns6:membership	ns36:desi_idt_ai ;
+	ns6:membership	ns34:desi_idt_ai ;
 	skos:definition	"Enterprises using at least 2 AI technologies" ;
 	skos:topConceptOf	ns8:indicator .
 ns1:desi_idt_bigdat	rdf:type	skos:Concept ,
@@ -4538,7 +3942,7 @@ ns1:desi_idt_bigdat	rdf:type	skos:Concept ,
 	dct:source	ns5:desi_idt_bigdat ;
 	skos:notation	"desi_idt_bigdat" ;
 	skos:altLabel	"Big data" ;
-	ns6:membership	ns36:desi_idt_bigdat ;
+	ns6:membership	ns34:desi_idt_bigdat ;
 	skos:definition	"Enterprises analysing big data from any data source" ;
 	skos:topConceptOf	ns8:indicator .
 ns1:desi_idt_cloud	rdf:type	skos:Concept ,
@@ -4547,7 +3951,7 @@ ns1:desi_idt_cloud	rdf:type	skos:Concept ,
 	dct:source	ns5:desi_idt_cloud ;
 	skos:notation	"desi_idt_cloud" ;
 	skos:altLabel	"Cloud" ;
-	ns6:membership	ns36:desi_idt_cloud ;
+	ns6:membership	ns34:desi_idt_cloud ;
 	skos:definition	"Enterprises purchasing at least one of the following cloud computing services: hosting of the enterprise's database, accounting software applications, CRM software, computing power" ;
 	skos:topConceptOf	ns8:indicator .
 ns1:desi_idt_di	rdf:type	ns2:Indicator ,
@@ -4556,7 +3960,7 @@ ns1:desi_idt_di	rdf:type	ns2:Indicator ,
 	dct:source	ns5: ;
 	skos:notation	"desi_idt_di" ;
 	skos:altLabel	"Digital intensity" ;
-	ns6:membership	ns37:desi_idt_di ;
+	ns6:membership	ns35:desi_idt_di ;
 	skos:topConceptOf	ns8:indicator .
 ns1:desi_idt_dtb	rdf:type	ns2:Indicator ,
 		skos:Concept ;
@@ -4564,7 +3968,7 @@ ns1:desi_idt_dtb	rdf:type	ns2:Indicator ,
 	dct:source	ns5: ;
 	skos:notation	"desi_idt_dtb" ;
 	skos:altLabel	"Digital technologies for businesses" ;
-	ns6:membership	ns37:desi_idt_dtb ;
+	ns6:membership	ns35:desi_idt_dtb ;
 	skos:topConceptOf	ns8:indicator .
 ns1:desi_idt_ecomm	rdf:type	ns2:Indicator ,
 		skos:Concept ;
@@ -4572,7 +3976,7 @@ ns1:desi_idt_ecomm	rdf:type	ns2:Indicator ,
 	dct:source	ns5: ;
 	skos:notation	"desi_idt_ecomm" ;
 	skos:altLabel	"e-Commerce" ;
-	ns6:membership	ns37:desi_idt_ecomm ;
+	ns6:membership	ns35:desi_idt_ecomm ;
 	skos:topConceptOf	ns8:indicator .
 ns1:desi_idt_ecomturn	rdf:type	ns2:Indicator ,
 		skos:Concept ;
@@ -4580,7 +3984,7 @@ ns1:desi_idt_ecomturn	rdf:type	ns2:Indicator ,
 	dct:source	ns5:desi_idt_ecomturn ;
 	skos:notation	"desi_idt_ecomturn" ;
 	skos:altLabel	"e-Commerce turnover" ;
-	ns6:membership	ns36:desi_idt_ecomturn ;
+	ns6:membership	ns34:desi_idt_ecomturn ;
 	skos:definition	"SMEs total turnover from e-commerce" ;
 	skos:topConceptOf	ns8:indicator .
 ns1:desi_idt_einv	rdf:type	ns2:Indicator ,
@@ -4589,7 +3993,7 @@ ns1:desi_idt_einv	rdf:type	ns2:Indicator ,
 	dct:source	ns5:desi_idt_einv ;
 	skos:notation	"desi_idt_einv" ;
 	skos:altLabel	"e-Invoices" ;
-	ns6:membership	ns36:desi_idt_einv ;
+	ns6:membership	ns34:desi_idt_einv ;
 	skos:definition	"Enterprises sending e-invoices, suitable for automated processing" ;
 	skos:topConceptOf	ns8:indicator .
 ns1:desi_idt_eis	rdf:type	ns2:Indicator ,
@@ -4598,7 +4002,7 @@ ns1:desi_idt_eis	rdf:type	ns2:Indicator ,
 	dct:source	ns5:desi_idt_eis ;
 	skos:notation	"desi_idt_eis" ;
 	skos:altLabel	"Electronic Information Sharing" ;
-	ns6:membership	ns36:desi_idt_eis ;
+	ns6:membership	ns34:desi_idt_eis ;
 	skos:definition	"Enterprises who have in use an ERP (enterprise resource planning) software package to share information between different functional areas (e.g. accounting, planning, production, marketing)" ;
 	skos:topConceptOf	ns8:indicator .
 ns1:desi_idt_ictsust	rdf:type	ns2:Indicator ,
@@ -4607,7 +4011,7 @@ ns1:desi_idt_ictsust	rdf:type	ns2:Indicator ,
 	dct:source	ns5:desi_idt_ictsust ;
 	skos:notation	"desi_idt_ictsust" ;
 	skos:altLabel	"ICT for environmental sustainability" ;
-	ns6:membership	ns36:desi_idt_ictsust ;
+	ns6:membership	ns34:desi_idt_ictsust ;
 	skos:definition	"The indicator measures the level of support that adopted ICT technologies offered to enterprises to engage in more environmentally-friendly actions. The level of intensity is measured based on the number of environmental actions (maximum 10) reported by enterprises to have been facilitated by the use of ICT. The following categorisation was achieved: low intensity (0 to 4 actions), medium intensity (5 to 7 actions) and high intensity (8 to 10 actions)." ;
 	skos:topConceptOf	ns8:indicator .
 ns1:desi_idt_sellcb	rdf:type	ns2:Indicator ,
@@ -4616,7 +4020,7 @@ ns1:desi_idt_sellcb	rdf:type	ns2:Indicator ,
 	dct:source	ns5:desi_idt_sellcb ;
 	skos:notation	"desi_idt_sellcb" ;
 	skos:altLabel	"Selling online cross-border" ;
-	ns6:membership	ns36:desi_idt_sellcb ;
+	ns6:membership	ns34:desi_idt_sellcb ;
 	skos:definition	"SMEs that carried out electronic sales to other EU countries" ;
 	skos:topConceptOf	ns8:indicator .
 ns1:desi_idt_smeso	rdf:type	ns2:Indicator ,
@@ -4625,7 +4029,7 @@ ns1:desi_idt_smeso	rdf:type	ns2:Indicator ,
 	dct:source	ns5:desi_idt_smeso ;
 	skos:notation	"desi_idt_smeso" ;
 	skos:altLabel	"SMEs selling online" ;
-	ns6:membership	ns36:desi_idt_smeso ;
+	ns6:membership	ns34:desi_idt_smeso ;
 	skos:definition	"SMEs selling online (at least 1% of turnover)" ;
 	skos:topConceptOf	ns8:indicator .
 ns1:desi_idt_socmed	rdf:type	ns2:Indicator ,
@@ -4634,7 +4038,7 @@ ns1:desi_idt_socmed	rdf:type	ns2:Indicator ,
 	dct:source	ns5:desi_idt_socmed ;
 	skos:notation	"desi_idt_socmed" ;
 	skos:altLabel	"Social media" ;
-	ns6:membership	ns36:desi_idt_socmed ;
+	ns6:membership	ns34:desi_idt_socmed ;
 	skos:definition	"Enterprises using two or more of the following social media: social networks, enterprise's blog or microblog, multimedia content sharing websites, wiki-based knowledge sharing tools. Using social media means that the enterprise has a user profile, an account or a user license depending on the requirements and the type of the social media. " ;
 	skos:topConceptOf	ns8:indicator .
 ns1:desi_mbbtu	rdf:type	ns2:Indicator ,
@@ -4643,7 +4047,7 @@ ns1:desi_mbbtu	rdf:type	ns2:Indicator ,
 	dct:source	ns5:desi_mbbtu ;
 	skos:notation	"desi_mbbtu" ;
 	skos:altLabel	"Mobile broadband take-up" ;
-	ns6:membership	ns36:desi_mbbtu ;
+	ns6:membership	ns34:desi_mbbtu ;
 	skos:definition	"Number of mobile data subscriptions per 100 people" ;
 	skos:topConceptOf	ns8:indicator .
 ns1:desi_total	rdf:type	ns2:Indicator ,
@@ -4652,8 +4056,8 @@ ns1:desi_total	rdf:type	ns2:Indicator ,
 	dct:source	ns5: ;
 	skos:notation	"desi_total" ;
 	skos:altLabel	"DESI Total " .
-@prefix ns39:	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_total/> .
-ns1:desi_total	ns6:membership	ns39:desi_total ;
+@prefix ns37:	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/desi_total/> .
+ns1:desi_total	ns6:membership	ns37:desi_total ;
 	skos:definition	"DESI overall index score per country" ;
 	skos:topConceptOf	ns8:indicator .
 ns1:desi_ufbbtu	rdf:type	ns2:Indicator ,
@@ -4662,7 +4066,7 @@ ns1:desi_ufbbtu	rdf:type	ns2:Indicator ,
 	dct:source	ns5:desi_ufbbtu ;
 	skos:notation	"desi_ufbbtu" ;
 	skos:altLabel	"At least 100 Mbps fixed broadband take-up" ;
-	ns6:membership	ns36:desi_ufbbtu ;
+	ns6:membership	ns34:desi_ufbbtu ;
 	skos:definition	"Percentage of households subscribing to fixed broadband of at least 100 Mbps, calculated as overall fixed broadband take-up" ;
 	skos:topConceptOf	ns8:indicator .
 ns1:desi_vhcnc	rdf:type	ns2:Indicator ,
@@ -4671,7 +4075,7 @@ ns1:desi_vhcnc	rdf:type	ns2:Indicator ,
 	dct:source	ns5:desi_vhcnc ;
 	skos:notation	"desi_vhcnc" ;
 	skos:altLabel	"Fixed Very High Capacity Network (VHCN) coverage" ;
-	ns6:membership	ns36:desi_vhcnc ;
+	ns6:membership	ns34:desi_vhcnc ;
 	skos:definition	"Percentage of households covered by any fixed VHCN. The technologies considered are FTTH and FTTB for 2015-2018 and FTTH, FTTB and Cable Docsis 3.1 for 201" ;
 	skos:topConceptOf	ns8:indicator .
 ns1:desi_dps_prefform	rdf:type	ns2:Indicator ,
@@ -4680,7 +4084,7 @@ ns1:desi_dps_prefform	rdf:type	ns2:Indicator ,
 	dct:source	ns5:desi_dps_prefform ;
 	skos:notation	"desi_dps_prefform" ;
 	skos:altLabel	"Pre-filled Forms" ;
-	ns6:membership	ns36:desi_dps_prefform ;
+	ns6:membership	ns34:desi_dps_prefform ;
 	skos:definition	"Amount of data that is pre-filled in public services' online forms" ;
 	skos:topConceptOf	ns8:indicator .
 ns1:desi_dps_pscit	rdf:type	ns2:Indicator ,
@@ -4689,7 +4093,7 @@ ns1:desi_dps_pscit	rdf:type	ns2:Indicator ,
 	dct:source	ns5:desi_dps_pscit ;
 	skos:notation	"desi_dps_pscit" ;
 	skos:altLabel	"Digital public services for citizens" ;
-	ns6:membership	ns36:desi_dps_pscit ;
+	ns6:membership	ns34:desi_dps_pscit ;
 	skos:definition	"The share of administrative steps that can be done online for major life events (birth of a child, new residence, etc.) for citizens" ;
 	skos:topConceptOf	ns8:indicator .
 ns1:desi_idt_smedi	rdf:type	ns2:Indicator ,
@@ -4698,297 +4102,336 @@ ns1:desi_idt_smedi	rdf:type	ns2:Indicator ,
 	dct:source	ns5:desi_idt_smedi ;
 	skos:notation	"desi_idt_smedi" ;
 	skos:altLabel	"SMEs with at least a basic level of digital intensity" ;
-	ns6:membership	ns36:desi_idt_smedi ;
+	ns6:membership	ns34:desi_idt_smedi ;
 	skos:definition	"The digital intensity score is based on counting how many out of 12 selected technologies are used by enterprises. A basic level requires usage of at least 4 technologies. " ;
 	skos:topConceptOf	ns8:indicator .
 ns7:e_ai_tany	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ebusiness" ;
 	ns6:member-of	ns14:ebusiness ;
-	ns6:order	"31"^^xsd:byte .
+	ns6:order	"31" .
 ns7:e_cc1_si	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ebusiness" ;
 	ns6:member-of	ns14:ebusiness ;
-	ns6:order	"27"^^xsd:byte .
+	ns6:order	"27" .
 ns1:i_dsk2_ab	rdf:type	skos:Concept ,
 		ns2:Indicator ;
-	skos:prefLabel	"Individuals with above basic overall digital skills" ;
+	skos:prefLabel	"DSI 2.0 - Individuals with above basic overall digital skills" ;
 	dct:source	ns5:estat_isoc_sk_dskl_i21 ;
 	skos:notation	"i_dsk2_ab" ;
-	skos:altLabel	"Individuals with above basic overall digital skills" ;
+	skos:altLabel	"DSI 2.0 -  Above basic overall digital skills (from 2021)" ;
 	ns6:membership	ns26:i_dsk2_ab ;
+	skos:definition	"Individuals with  \u201Cabove basic digital skills\u201D in all 5 areas." ;
 	skos:topConceptOf	ns8:indicator .
 ns1:i_dsk2_b	rdf:type	skos:Concept ,
 		ns2:Indicator ;
-	skos:prefLabel	"Individuals with basic overall digital skills" ;
+	skos:prefLabel	"DSI 2.0 - Individuals with basic overall digital skills" ;
 	dct:source	ns5:estat_isoc_sk_dskl_i21 ;
 	skos:notation	"i_dsk2_b" ;
-	skos:altLabel	"Individuals with basic overall digital skills" ;
+	skos:altLabel	"DSI 2.0 - Basic overall digital skills (from 2021)" ;
 	ns6:membership	ns26:i_dsk2_b ;
+	skos:definition	" The skills in 5 areas are at 'at least basic level' (some can be \u201Cbasic\u201D and some can be \u201Cabove basic\u201D, but not all 5 areas are \u201Cabove basic\u201D." ;
 	skos:topConceptOf	ns8:indicator .
 ns1:i_dsk2_bab	rdf:type	skos:Concept ,
 		ns2:Indicator ;
-	skos:prefLabel	"Individuals with basic or above basic overall digital skills" ;
+	skos:prefLabel	"DSI 2.0 - Individuals with at least basic overall digital skills" ;
 	dct:source	ns5:estat_isoc_sk_dskl_i21 ;
 	skos:notation	"i_dsk2_bab" ;
-	skos:altLabel	"Individuals with basic or above basic overall digital skills" ;
+	skos:altLabel	"DSI 2.0 - At least basic overall digital skills (from 2021)" ;
 	ns6:membership	ns26:i_dsk2_bab ;
+	skos:definition	"The sum of basic and above basic skills." ;
 	skos:topConceptOf	ns8:indicator .
 ns1:i_dsk2_cc_ab	rdf:type	skos:Concept ,
 		ns2:Indicator ;
-	skos:prefLabel	"Individuals with above basic communication and collaboration\u00A0 skills" ;
+	skos:prefLabel	"DSI 2.0 - Individuals with above basic communication and collaboration\u00A0 skills" ;
 	dct:source	ns5:estat_isoc_sk_dskl_i21 ;
 	skos:notation	"i_dsk2_cc_ab" ;
-	skos:altLabel	"Individuals with above basic communication and collaboration\u00A0 skills" ;
+	skos:altLabel	"DSI 2.0 - Communication and collaboration - Above basic skills (from 2021)" ;
 	ns6:membership	ns26:i_dsk2_cc_ab ;
+	skos:definition	"Above basic: more than one activity from activities used for calculating the communication and collaboration skills" ;
+	skos:note	"Definition in Digital Competence Framework 2.0: To interact, communicate and collaborate through digital technologies while being aware of cultural and generational diversity. To participate in society through public and private digital services and participatory citizenship. To manage one\u2019s digital identity and reputation.\n\nSending/receiving emails (IUEM);\nTelephoning/video calls over the internet (IUPH1);\nInstant messaging (IUCHAT1);\nParticipating in social networks (IUSNET);\nExpressing opinions on civic or political issues on websites or in social media (IUPOL2);\nTaking part in online consultations or voting to define civic or political issues (IUVOTE)." ;
 	skos:topConceptOf	ns8:indicator .
 ns1:i_dsk2_cc_b	rdf:type	skos:Concept ,
 		ns2:Indicator ;
-	skos:prefLabel	"Individuals with basic communication and collaboration\u00A0 skills" ;
+	skos:prefLabel	"DSI 2.0 - Individuals with basic communication and collaboration\u00A0 skills" ;
 	dct:source	ns5:estat_isoc_sk_dskl_i21 ;
 	skos:notation	"i_dsk2_cc_b" ;
-	skos:altLabel	"Individuals with basic communication and collaboration\u00A0 skills" ;
+	skos:altLabel	"DSI 2.0 - Communication and collaboration - Basic\u00A0skills (from 2021)" ;
 	ns6:membership	ns26:i_dsk2_cc_b ;
+	skos:definition	"Basic: one activity from activities used for calculating the communication and collaboration skills" ;
+	skos:note	"Definition in Digital Competence Framework 2.0: To interact, communicate and collaborate through digital technologies while being aware of cultural and generational diversity. To participate in society through public and private digital services and participatory citizenship. To manage one\u2019s digital identity and reputation.\n\nSending/receiving emails (IUEM);\nTelephoning/video calls over the internet (IUPH1);\nInstant messaging (IUCHAT1);\nParticipating in social networks (IUSNET);\nExpressing opinions on civic or political issues on websites or in social media (IUPOL2);\nTaking part in online consultations or voting to define civic or political issues (IUVOTE)." ;
 	skos:topConceptOf	ns8:indicator .
 ns1:i_dsk2_cc_bab	rdf:type	skos:Concept ,
 		ns2:Indicator ;
-	skos:prefLabel	"Individuals with basic or above basic communication and collaboration skills" ;
+	skos:prefLabel	"DSI 2.0 - Individuals with basic or above basic communication and collaboration skills" ;
 	dct:source	ns5:estat_isoc_sk_dskl_i21 ;
 	skos:notation	"i_dsk2_cc_bab" ;
-	skos:altLabel	"Individuals with basic or above basic communication and collaboration skills" ;
+	skos:altLabel	"DSI 2.0 - Communication and collaboration - Basic or above basic skills (from 2021)" ;
 	ns6:membership	ns26:i_dsk2_cc_bab ;
+	skos:definition	"At least basic skills - sum of basic and above basic skills. " ;
+	skos:note	"Definition in Digital Competence Framework 2.0: To interact, communicate and collaborate through digital technologies while being aware of cultural and generational diversity. To participate in society through public and private digital services and participatory citizenship. To manage one\u2019s digital identity and reputation." ;
 	skos:topConceptOf	ns8:indicator .
 ns1:i_dsk2_dcc_ab	rdf:type	skos:Concept ,
 		ns2:Indicator ;
-	skos:prefLabel	"Individuals with above basic digital content creation\u00A0 skills" ;
+	skos:prefLabel	"DSI 2.0 - Individuals with above basic digital content creation\u00A0 skills" ;
 	dct:source	ns5:estat_isoc_sk_dskl_i21 ;
 	skos:notation	"i_dsk2_dcc_ab" ;
-	skos:altLabel	"Individuals with above basic digital content creation\u00A0 skills" ;
+	skos:altLabel	"DSI 2.0 - Digital content creation - Above basic\u00A0skills (from 2021)" ;
 	ns6:membership	ns26:i_dsk2_dcc_ab ;
+	skos:definition	"Above basic: 3 or more activities from activities used for calculating the digital content creation\u00A0skills" ;
+	skos:note	"Definition in Digital Competence Framework 2.0: To create and edit digital content. To improve and integrate information and content into an existing body of knowledge while understanding how copyright and licences are to be applied. To know how to give understandable instructions for a computer system.\n\nUsing word processing software (CWRD1);\nUsing spreadsheet software (CXLS1);\nEditing photos, video or audio files (CEPVA1);\nCopying or moving files (such as documents, data, images, video) between folders, devices (via e-mail, instant messaging, USB, cable) or on the cloud (CXFER1);\nCreating files (such as documents, image, videos) incorporating several elements such as text, picture, table, chart, animation or sound (CPRES2);\nUsing advanced features of spreadsheet software (functions, formulas, macros and other developer functions) to organize, analyse, structure or modify data (CXLSADV1);\nWriting code in a programming language (CPRG2)." ;
 	skos:topConceptOf	ns8:indicator .
 ns1:i_dsk2_dcc_b	rdf:type	skos:Concept ,
 		ns2:Indicator ;
-	skos:prefLabel	"Individuals with basic digital content creation\u00A0 skills" ;
+	skos:prefLabel	"DSI 2.0 - Individuals with basic digital content creation\u00A0skills" ;
 	dct:source	ns5:estat_isoc_sk_dskl_i21 ;
 	skos:notation	"i_dsk2_dcc_b" ;
-	skos:altLabel	"Individuals with basic digital content creation\u00A0 skills" ;
+	skos:altLabel	"DSI 2.0 - Digital content creation - Basic skills (from 2021)" ;
 	ns6:membership	ns26:i_dsk2_dcc_b ;
+	skos:definition	"Basic: one or two activities from activities used for calculating the digital content creation skills" ;
+	skos:note	"Definition in Digital Competence Framework 2.0: To create and edit digital content. To improve and integrate information and content into an existing body of knowledge while understanding how copyright and licences are to be applied. To know how to give understandable instructions for a computer system.\n\nUsing word processing software (CWRD1);\nUsing spreadsheet software (CXLS1);\nEditing photos, video or audio files (CEPVA1);\nCopying or moving files (such as documents, data, images, video) between folders, devices (via e-mail, instant messaging, USB, cable) or on the cloud (CXFER1);\nCreating files (such as documents, image, videos) incorporating several elements such as text, picture, table, chart, animation or sound (CPRES2);\nUsing advanced features of spreadsheet software (functions, formulas, macros and other developer functions) to organize, analyse, structure or modify data (CXLSADV1);\nWriting code in a programming language (CPRG2)." ;
 	skos:topConceptOf	ns8:indicator .
 ns1:i_dsk2_dcc_bab	rdf:type	skos:Concept ,
 		ns2:Indicator ;
-	skos:prefLabel	"Individuals with basic or above basic digital content creation skills" ;
+	skos:prefLabel	"DSI 2.0 - Individuals with basic or above basic digital content creation skills" ;
 	dct:source	ns5:estat_isoc_sk_dskl_i21 ;
 	skos:notation	"i_dsk2_dcc_bab" ;
-	skos:altLabel	"Individuals with basic or above basic digital content creation skills" ;
+	skos:altLabel	"DSI 2.0 - Digital content creation - Basic or above basic skills (from 2021)" ;
 	ns6:membership	ns26:i_dsk2_dcc_bab ;
+	skos:definition	"At least basic skills - sum of basic and above basic skills. " ;
+	skos:note	"Definition in Digital Competence Framework 2.0: To create and edit digital content. To improve and integrate information and content into an existing body of knowledge while understanding how copyright and licences are to be applied. To know how to give understandable instructions for a computer system.\n\nUsing word processing software (CWRD1);\nUsing spreadsheet software (CXLS1);\nEditing photos, video or audio files (CEPVA1);\nCopying or moving files (such as documents, data, images, video) between folders, devices (via e-mail, instant messaging, USB, cable) or on the cloud (CXFER1);\nCreating files (such as documents, image, videos) incorporating several elements such as text, picture, table, chart, animation or sound (CPRES2);\nUsing advanced features of spreadsheet software (functions, formulas, macros and other developer functions) to organize, analyse, structure or modify data (CXLSADV1);\nWriting code in a programming language (CPRG2)." ;
 	skos:topConceptOf	ns8:indicator .
 ns1:i_dsk2_ic_s	rdf:type	skos:Concept ,
 		ns2:Indicator ;
-	skos:prefLabel	"Individuals with online information and communication skills" ;
+	skos:prefLabel	"DSI 2.0 - Individuals with online information and communication skills" ;
 	dct:source	ns5:estat_isoc_sk_dskl_i21 ;
 	skos:notation	"i_dsk2_ic_s" ;
-	skos:altLabel	"Individuals with online information and communication skills" ;
+	skos:altLabel	"DSI 2.0 - Online information and communication skills (from 2021)" ;
 	ns6:membership	ns26:i_dsk2_ic_s ;
+	skos:definition	"Individuals with online information and communication skills (at \u201Cbasic\u201D or \u201Cabove basic\u201D level) and have \u201Cno skills\u201D in 3 remaining areas (Digital content creation, Safety, and Problem solving)\n" ;
+	skos:note	"At least one variable from the following list (Information and data literacy skills):\nFinding information about goods or services (IUIF);\nSeeking health-related information (IHIF);\nReading online news sites, newspapers or news magazines (IUNW1);\nActivities related to fact-checking online information and its sources (TICCSFOI, TICIDIS, TICNIDIS, TICXND).\nAND\n\nAt least one variable from the following list (Communication and collaboration skills):\nSending/receiving emails (IUEM);\nTelephoning/video calls over the internet (IUPH1);\nInstant messaging (IUCHAT1);\nParticipating in social networks (IUSNET);\nExpressing opinions on civic or political issues on websites or in social media (IUPOL2);\nTaking part in online consultations or voting to define civic or political issues (IUVOTE).\n \nAND individuals have \u201Cno skills\u201D in 3 remaining areas (Digital content creation, Safety, and Problem solving)" ;
 	skos:topConceptOf	ns8:indicator .
 ns1:i_dsk2_il_ab	rdf:type	skos:Concept ,
 		ns2:Indicator ;
-	skos:prefLabel	"Individuals with above basic information and data literacy\u00A0 skills" ;
+	skos:prefLabel	"DSI 2.0 - Individuals with above basic information and data literacy\u00A0 skills" ;
 	dct:source	ns5:estat_isoc_sk_dskl_i21 ;
 	skos:notation	"i_dsk2_il_ab" ;
-	skos:altLabel	"Individuals with above basic information and data literacy\u00A0 skills" ;
+	skos:altLabel	"DSI 2.0 - Information and data literacy- Above basic\u00A0skills (from 2021)" ;
 	ns6:membership	ns26:i_dsk2_il_ab ;
+	skos:definition	"Above basic: more than one activity from activities used for calculating the information and data literacy skills." ;
+	skos:note	"Definition in Digital Competence Framework 2.0:\u00A0\u00A0To articulate information needs, to locate and retrieve digital data, information and content. To judge the relevance of the source and its content. To store, manage, organize digital data, information and content.\n\nFinding information about goods or services (IUIF);\nSeeking health-related information (IHIF);\nReading online news sites, newspapers or news magazines (IUNW1);\nActivities related to fact-checking online information and its sources (TICCSFOI, TICIDIS, TICNIDIS, TICXND)." ;
 	skos:topConceptOf	ns8:indicator .
 ns1:i_dsk2_il_b	rdf:type	skos:Concept ,
 		ns2:Indicator ;
-	skos:prefLabel	"Individuals with basic information and data literacy\u00A0 skills" ;
+	skos:prefLabel	"DSI 2.0 - Individuals with basic information and data literacy\u00A0 skills" ;
 	dct:source	ns5:estat_isoc_sk_dskl_i21 ;
 	skos:notation	"i_dsk2_il_b" ;
-	skos:altLabel	"Individuals with basic information and data literacy\u00A0 skills" ;
+	skos:altLabel	"DSI 2.0 - Information and data literacy - Basic skills (from 2021)" ;
 	ns6:membership	ns26:i_dsk2_il_b ;
+	skos:definition	"Basic: one activity from activities used for calculating the information and data literacy skills." ;
+	skos:note	"Definition in Digital Competence Framework 2.0:\u00A0\u00A0To articulate information needs, to locate and retrieve digital data, information and content. To judge the relevance of the source and its content. To store, manage, organize digital data, information and content.\n\nFinding information about goods or services (IUIF);\nSeeking health-related information (IHIF);\nReading online news sites, newspapers or news magazines (IUNW1);\nActivities related to fact-checking online information and its sources (TICCSFOI, TICIDIS, TICNIDIS, TICXND)." ;
 	skos:topConceptOf	ns8:indicator .
 ns1:i_dsk2_il_bab	rdf:type	skos:Concept ,
 		ns2:Indicator ;
-	skos:prefLabel	"Individuals with basic or above basic information and data literacy\u00A0 skills" ;
+	skos:prefLabel	"DSI 2.0 - Individuals with basic or above basic information and data literacy\u00A0 skills" ;
 	dct:source	ns5:estat_isoc_sk_dskl_i21 ;
 	skos:notation	"i_dsk2_il_bab" ;
-	skos:altLabel	"Individuals with basic or above basic information and data literacy\u00A0 skills" ;
+	skos:altLabel	"DSI 2.0 - Information and data literacy - Basic or above basic\u00A0skills (from 2021)" ;
 	ns6:membership	ns26:i_dsk2_il_bab ;
+	skos:definition	"At least basic skills - sum of basic and above basic skills. " ;
+	skos:note	"Definition in Digital Competence Framework 2.0:\u00A0\u00A0To articulate information needs, to locate and retrieve digital data, information and content. To judge the relevance of the source and its content. To store, manage, organize digital data, information and content.\n" ;
 	skos:topConceptOf	ns8:indicator .
 ns1:i_dsk2_lm	rdf:type	skos:Concept ,
 		ns2:Indicator ;
-	skos:prefLabel	"Individuals with limited overall digital skills" ;
+	skos:prefLabel	"DSI 2.0 - Individuals with limited overall digital skills (2 out of 5)" ;
 	dct:source	ns5:estat_isoc_sk_dskl_i21 ;
 	skos:notation	"i_dsk2_lm" ;
-	skos:altLabel	"Individuals with limited overall digital skills" ;
+	skos:altLabel	"DSI 2.0 - Limited overall digital skills (2 out of 5) - (from 2021)" ;
 	ns6:membership	ns26:i_dsk2_lm ;
+	skos:definition	"Individuals have \u201Cbasic\u201D or \u201Cabove basic\u201D level in 2 areas and \u201Cno skills\u201D in 3 areas (2 out of 5)." ;
 	skos:topConceptOf	ns8:indicator .
 ns1:i_dsk2_lw	rdf:type	skos:Concept ,
 		ns2:Indicator ;
-	skos:prefLabel	"Individuals with low overall digital skills" ;
+	skos:prefLabel	"DSI 2.0 - Individuals with low overall digital skills (4 out of 5)" ;
 	dct:source	ns5:estat_isoc_sk_dskl_i21 ;
 	skos:notation	"i_dsk2_lw" ;
-	skos:altLabel	"Individuals with low overall digital skills" ;
+	skos:altLabel	"DSI 2.0 - Low overall digital skills (4 out of 5) - (from 2021)" ;
 	ns6:membership	ns26:i_dsk2_lw ;
+	skos:definition	"Individuals have \u201Cbasic\u201D or \u201Cabove basic\u201D level in 4 areas and \u201Cno skills\u201D in 1 area (4 out of 5)." ;
 	skos:topConceptOf	ns8:indicator .
 ns1:i_dsk2_n	rdf:type	ns2:Indicator ,
 		skos:Concept ;
-	skos:prefLabel	"Individuals with narrow overall digital skills" ;
+	skos:prefLabel	"DSI 2.0 - Individuals with narrow overall digital skills (3 out of 5)" ;
 	dct:source	ns5:estat_isoc_sk_dskl_i21 ;
 	skos:notation	"i_dsk2_n" ;
-	skos:altLabel	"Individuals with narrow overall digital skills" ;
+	skos:altLabel	"DSI 2.0 - Narrow overall digital skills (3 out of 5) - (from 2021)" ;
 	ns6:membership	ns26:i_dsk2_n ;
+	skos:definition	"Individuals have \u201Cbasic\u201D or \u201Cabove basic\u201D level in 3 areas and \u201Cno skills\u201D in 2 areas (3 out of 5)." ;
 	skos:topConceptOf	ns8:indicator .
 ns1:i_dsk2_ps_ab	rdf:type	ns2:Indicator ,
 		skos:Concept ;
-	skos:prefLabel	"Individuals with above basic problem solving\u00A0 skills" ;
+	skos:prefLabel	"DSI 2.0 - Individuals with above basic problem solving\u00A0 skills" ;
 	dct:source	ns5:estat_isoc_sk_dskl_i21 ;
 	skos:notation	"i_dsk2_ps_ab" ;
-	skos:altLabel	"Individuals with above basic problem solving\u00A0 skills" ;
+	skos:altLabel	"DSI 2.0 - Problem solving- Above basic skills (from 2021)" ;
 	ns6:membership	ns26:i_dsk2_ps_ab ;
+	skos:definition	"Above basic: 3 or more activities from activities used for calculating the problem solving\u00A0 skills" ;
+	skos:note	"Definition in Digital Competence Framework 2.0: To identify needs and problems, and to resolve conceptual problems and problem situations in digital environments. To use digital tools to innovate processes and products. To keep up-to-date with the digital evolution.\n\nDownloading or installing software or apps (CINSAPP1);\nChanging settings of software, app or device (CCONF1);\nOnline purchases (in the last 12 months) (IBUY=1 or IBUY=2);\nSelling online (IUSELL);\nUsed online learning resources (IUOLC or IUOLM);\nInternet banking (IUBK);\nLooking for a job or sending a job application (IUJOB)" ;
 	skos:topConceptOf	ns8:indicator .
 ns1:i_dsk2_ps_b	rdf:type	skos:Concept ,
 		ns2:Indicator ;
-	skos:prefLabel	"Individuals with basic problem solving skills" ;
+	skos:prefLabel	"DSI 2.0 - Individuals with basic problem solving skills" ;
 	dct:source	ns5:estat_isoc_sk_dskl_i21 ;
 	skos:notation	"i_dsk2_ps_b" ;
-	skos:altLabel	"Individuals with basic problem solving skills" ;
+	skos:altLabel	"DSI 2.0 - Problem solving- Basic skills (from 2021)" ;
 	ns6:membership	ns26:i_dsk2_ps_b ;
+	skos:definition	"Basic: one or two activities from activities used for calculating the problem solving\u00A0 skills" ;
+	skos:note	"Definition in Digital Competence Framework 2.0: To identify needs and problems, and to resolve conceptual problems and problem situations in digital environments. To use digital tools to innovate processes and products. To keep up-to-date with the digital evolution.\n\nDownloading or installing software or apps (CINSAPP1);\nChanging settings of software, app or device (CCONF1);\nOnline purchases (in the last 12 months) (IBUY=1 or IBUY=2);\nSelling online (IUSELL);\nUsed online learning resources (IUOLC or IUOLM);\nInternet banking (IUBK);\nLooking for a job or sending a job application (IUJOB)" ;
 	skos:topConceptOf	ns8:indicator .
 ns1:i_dsk2_ps_bab	rdf:type	skos:Concept ,
 		ns2:Indicator ;
-	skos:prefLabel	"Individuals with basic or above basic problem solving skills" ;
+	skos:prefLabel	"DSI 2.0 - Individuals with basic or above basic problem solving skills" ;
 	dct:source	ns5:estat_isoc_sk_dskl_i21 ;
 	skos:notation	"i_dsk2_ps_bab" ;
-	skos:altLabel	"Individuals with basic or above basic problem solving skills" ;
+	skos:altLabel	"DSI 2.0 - Problem solving - Basic or above basic skills (from 2021)" ;
 	ns6:membership	ns26:i_dsk2_ps_bab ;
+	skos:definition	"At least basic skills - sum of basic and above basic skills. " ;
+	skos:note	"Definition in Digital Competence Framework 2.0: To identify needs and problems, and to resolve conceptual problems and problem situations in digital environments. To use digital tools to innovate processes and products. To keep up-to-date with the digital evolution.\n\nDownloading or installing software or apps (CINSAPP1);\nChanging settings of software, app or device (CCONF1);\nOnline purchases (in the last 12 months) (IBUY=1 or IBUY=2);\nSelling online (IUSELL);\nUsed online learning resources (IUOLC or IUOLM);\nInternet banking (IUBK);\nLooking for a job or sending a job application (IUJOB)" ;
 	skos:topConceptOf	ns8:indicator .
 ns1:i_dsk2_sf_ab	rdf:type	skos:Concept ,
 		ns2:Indicator ;
-	skos:prefLabel	"Individuals with above basic safety\u00A0 skills" ;
+	skos:prefLabel	"DSI 2.0 - Individuals with above basic safety\u00A0 skills" ;
 	dct:source	ns5:estat_isoc_sk_dskl_i21 ;
 	skos:notation	"i_dsk2_sf_ab" ;
-	skos:altLabel	"Individuals with above basic safety\u00A0 skills" ;
+	skos:altLabel	"DSI 2.0 - Safety - Above basic\u00A0skills (from 2021)" ;
 	ns6:membership	ns26:i_dsk2_sf_ab ;
+	skos:definition	"Above basic: 3 or more activities from activities used for calculating the safety skills" ;
+	skos:note	"Definition in Digital Competence Framework 2.0: To protect devices, content, personal data and privacy in digital environments. To protect physical and psychological health, and to be aware of digital technologies for social well-being and social inclusion. To be aware of the environmental impact of digital technologies and their use.\n\nManaging access to own personal data by checking that the website where the respondent provided personal data was secure (MAPS_CWSC);\nManaging access to own personal data by reading privacy statements before providing personal data (MAPS_RPS);\nManaging access to own personal data by restricting or refusing access to own geographical location (MAPS_RRGL);\nManaging access to own personal data by limiting access to profile or content on social networking sites or shared online storage (MAPS_LAP);\nManaging access to own personal data by refusing allowing use of personal data for advertising purposes (MAPS_RAAD);\nChanging settings in own internet browser to prevent or limit cookies on any of the respondent devices (PCOOK1)." ;
 	skos:topConceptOf	ns8:indicator .
 ns1:i_dsk2_sf_b	rdf:type	skos:Concept ,
 		ns2:Indicator ;
-	skos:prefLabel	"Individuals with basic safety skills" ;
+	skos:prefLabel	"DSI 2.0 - Individuals with basic safety skills" ;
 	dct:source	ns5:estat_isoc_sk_dskl_i21 ;
 	skos:notation	"i_dsk2_sf_b" ;
-	skos:altLabel	"Individuals with basic safety skills" ;
+	skos:altLabel	"DSI 2.0 - Safety - Basic skills (from 2021)" ;
 	ns6:membership	ns26:i_dsk2_sf_b ;
+	skos:definition	"Basic: one or two activities from activities used for calculating the safety skills" ;
+	skos:note	"Definition in Digital Competence Framework 2.0: To protect devices, content, personal data and privacy in digital environments. To protect physical and psychological health, and to be aware of digital technologies for social well-being and social inclusion. To be aware of the environmental impact of digital technologies and their use.\n\nManaging access to own personal data by checking that the website where the respondent provided personal data was secure (MAPS_CWSC);\nManaging access to own personal data by reading privacy statements before providing personal data (MAPS_RPS);\nManaging access to own personal data by restricting or refusing access to own geographical location (MAPS_RRGL);\nManaging access to own personal data by limiting access to profile or content on social networking sites or shared online storage (MAPS_LAP);\nManaging access to own personal data by refusing allowing use of personal data for advertising purposes (MAPS_RAAD);\nChanging settings in own internet browser to prevent or limit cookies on any of the respondent devices (PCOOK1)." ;
 	skos:topConceptOf	ns8:indicator .
 ns1:i_dsk2_sf_bab	rdf:type	skos:Concept ,
 		ns2:Indicator ;
-	skos:prefLabel	"Individuals with basic or above basic safety skills" ;
+	skos:prefLabel	"DSI 2.0 - Individuals with basic or above basic safety skills" ;
 	dct:source	ns5:estat_isoc_sk_dskl_i21 ;
 	skos:notation	"i_dsk2_sf_bab" ;
-	skos:altLabel	"Individuals with basic or above basic safety skills" ;
+	skos:altLabel	"DSI 2.0 - Safety - Basic or above basic skills (from 2021)" ;
 	ns6:membership	ns26:i_dsk2_sf_bab ;
+	skos:definition	"At least basic skills - sum of basic and above basic skills. " ;
+	skos:note	"Definition in Digital Competence Framework 2.0: To protect devices, content, personal data and privacy in digital environments. To protect physical and psychological health, and to be aware of digital technologies for social well-being and social inclusion. To be aware of the environmental impact of digital technologies and their use.\n\nManaging access to own personal data by checking that the website where the respondent provided personal data was secure (MAPS_CWSC);\nManaging access to own personal data by reading privacy statements before providing personal data (MAPS_RPS);\nManaging access to own personal data by restricting or refusing access to own geographical location (MAPS_RRGL);\nManaging access to own personal data by limiting access to profile or content on social networking sites or shared online storage (MAPS_LAP);\nManaging access to own personal data by refusing allowing use of personal data for advertising purposes (MAPS_RAAD);\nChanging settings in own internet browser to prevent or limit cookies on any of the respondent devices (PCOOK1)." ;
 	skos:topConceptOf	ns8:indicator .
 ns1:i_dsk2_x	rdf:type	skos:Concept ,
 		ns2:Indicator ;
-	skos:prefLabel	"Individuals with no overall digital skills" ;
+	skos:prefLabel	"DSI 2.0 - Individuals with no overall digital skills" ;
 	dct:source	ns5:estat_isoc_sk_dskl_i21 ;
 	skos:notation	"i_dsk2_x" ;
-	skos:altLabel	"Individuals with no overall digital skills" ;
+	skos:altLabel	"DSI 2.0 - No overall digital skills (from 2021)" ;
 	ns6:membership	ns26:i_dsk2_x ;
+	skos:definition	"Individuals have \u201Cno skills\u201D in 4 areas or \u201Cno skills\u201D in all 5 areas despite declaring having used the internet at least once during last 3 months." ;
 	skos:topConceptOf	ns8:indicator .
 ns26:i_dsk2_ab	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ict-skills" ;
 	ns6:member-of	ns14:ict-skills ;
-	ns6:order	"116"^^xsd:byte .
+	ns6:order	"2" .
 ns26:i_dsk2_b	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ict-skills" ;
 	ns6:member-of	ns14:ict-skills ;
-	ns6:order	"117"^^xsd:byte .
+	ns6:order	"1" .
 ns26:i_dsk2_bab	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ict-skills" ;
 	ns6:member-of	ns14:ict-skills ;
-	ns6:order	"118"^^xsd:byte .
+	ns6:order	"3" .
 ns26:i_dsk2_cc_ab	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ict-skills" ;
 	ns6:member-of	ns14:ict-skills ;
-	ns6:order	"104"^^xsd:byte .
+	ns6:order	"14" .
 ns26:i_dsk2_cc_b	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ict-skills" ;
 	ns6:member-of	ns14:ict-skills ;
-	ns6:order	"105"^^xsd:byte .
+	ns6:order	"13" .
 ns26:i_dsk2_cc_bab	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ict-skills" ;
 	ns6:member-of	ns14:ict-skills ;
-	ns6:order	"106"^^xsd:byte .
+	ns6:order	"15" .
 ns26:i_dsk2_dcc_ab	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ict-skills" ;
 	ns6:member-of	ns14:ict-skills ;
-	ns6:order	"107"^^xsd:byte .
+	ns6:order	"17" .
 ns26:i_dsk2_dcc_b	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ict-skills" ;
 	ns6:member-of	ns14:ict-skills ;
-	ns6:order	"108"^^xsd:byte .
+	ns6:order	"16" .
 ns26:i_dsk2_dcc_bab	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ict-skills" ;
 	ns6:member-of	ns14:ict-skills ;
-	ns6:order	"109"^^xsd:byte .
+	ns6:order	"18" .
 ns26:i_dsk2_ic_s	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ict-skills" ;
 	ns6:member-of	ns14:ict-skills ;
-	ns6:order	"124"^^xsd:byte .
+	ns6:order	"9" .
 ns26:i_dsk2_il_ab	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ict-skills" ;
 	ns6:member-of	ns14:ict-skills ;
-	ns6:order	"101"^^xsd:byte .
+	ns6:order	"11" .
 ns26:i_dsk2_il_b	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ict-skills" ;
 	ns6:member-of	ns14:ict-skills ;
-	ns6:order	"102"^^xsd:byte .
+	ns6:order	"10" .
 ns26:i_dsk2_il_bab	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ict-skills" ;
 	ns6:member-of	ns14:ict-skills ;
-	ns6:order	"103"^^xsd:byte .
+	ns6:order	"12" .
 ns26:i_dsk2_lm	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ict-skills" ;
 	ns6:member-of	ns14:ict-skills ;
-	ns6:order	"121"^^xsd:byte .
+	ns6:order	"6" .
 ns26:i_dsk2_lw	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ict-skills" ;
 	ns6:member-of	ns14:ict-skills ;
-	ns6:order	"119"^^xsd:byte .
+	ns6:order	"4" .
 ns26:i_dsk2_n	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ict-skills" ;
 	ns6:member-of	ns14:ict-skills ;
-	ns6:order	"120"^^xsd:byte .
+	ns6:order	"5" .
 ns26:i_dsk2_na	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ict-skills" ;
 	ns6:member-of	ns14:ict-skills ;
-	ns6:order	"123"^^xsd:byte .
+	ns6:order	"8" .
 ns26:i_dsk2_ps_ab	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ict-skills" ;
 	ns6:member-of	ns14:ict-skills ;
-	ns6:order	"113"^^xsd:byte .
+	ns6:order	"23" .
 ns26:i_dsk2_ps_b	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ict-skills" ;
 	ns6:member-of	ns14:ict-skills ;
-	ns6:order	"114"^^xsd:byte .
+	ns6:order	"22" .
 ns26:i_dsk2_ps_bab	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ict-skills" ;
 	ns6:member-of	ns14:ict-skills ;
-	ns6:order	"115"^^xsd:byte .
+	ns6:order	"24" .
 ns26:i_dsk2_sf_ab	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ict-skills" ;
 	ns6:member-of	ns14:ict-skills ;
-	ns6:order	"110"^^xsd:byte .
+	ns6:order	"20" .
 ns26:i_dsk2_sf_b	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ict-skills" ;
 	ns6:member-of	ns14:ict-skills ;
-	ns6:order	"111"^^xsd:byte .
+	ns6:order	"19" .
 ns26:i_dsk2_sf_bab	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ict-skills" ;
 	ns6:member-of	ns14:ict-skills ;
-	ns6:order	"112"^^xsd:byte .
+	ns6:order	"21" .
 ns26:i_dsk2_x	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ict-skills" ;
 	ns6:member-of	ns14:ict-skills ;
-	ns6:order	"122"^^xsd:byte .
+	ns6:order	"7" .
 ns1:e_gov_dpsc	rdf:type	skos:Concept ,
 		ns2:Indicator ;
 	skos:prefLabel	"Digital Public Services for Citizens" ;
@@ -5011,98 +4454,99 @@ ns1:e_gov_od	rdf:type	skos:Concept ,
 	skos:topConceptOf	ns8:indicator .
 ns1:i_dsk_x	rdf:type	skos:Concept ,
 		ns2:Indicator ;
-	skos:prefLabel	"Individuals with no digital skills" ;
+	skos:prefLabel	"DSI 2015-2019 Individuals with no digital skills" ;
 	dct:source	ns5:estat_isoc_sk_dskl_i ;
 	skos:notation	"i_dsk_x" ;
-	skos:altLabel	"Individuals with \"no skills\"" ;
+	skos:altLabel	"DSI 2015-2019 - No overall digital skills" ;
 	ns6:membership	ns26:i_dsk_x ;
 	skos:definition	"Persons that have been using internet during last 3 months are attributed a score on four digital competence domains: information, communication, content-creation and problem-solving, depending the activities they have been able to do. The scores in each domain are basic, above basic and below basic. Individuals not using internet are classified without digital skills. To be classified \"basic or above basic\" on the overall indicator an individual has to have basic or above basic skills in all the four Digital Competence domains included in the index: information, communication, content-creation and problem-solving." ;
 	skos:note	"Detailed results are available in the Eurostat table <a href=\"http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=isoc_sk_dskl_i&lang=en\">ISOC_SK_DSKL_I</a>. Consult the <a href=\"https://ec.europa.eu/digital-agenda/en/news/new-comprehensive-digital-skills-indicator\"> methodological note</a> on DG CONNECT newsroom." ;
 	skos:topConceptOf	ns8:indicator .
 ns1:i_dsk_c_x	rdf:type	ns2:Indicator ,
 		skos:Concept ;
-	skos:prefLabel	"Individuals with no digital skills in Communication domain" ;
+	skos:prefLabel	"DSI 2015-2019 Individuals with no digital skills in Communication domain" ;
 	dct:source	ns5:estat_isoc_sk_dskl_i ;
 	skos:notation	"i_dsk_c_x" ;
-	skos:altLabel	"Communication Domain - No Skills" ;
+	skos:altLabel	"DSI 2015-2019 - Communication Domain - No Skills" ;
 	ns6:membership	ns26:i_dsk_c_x ;
 	skos:definition	"These skills refer to the ability to communicate in digital environments, share resources through online tools, link with others and collaborate through digital tools, interact with and participate in communities and networks, cross-cultural awareness. The indicator is based on four activities internet users have been able to do online during previous 3 months. The scores are basic, above basic and none. Individuals not using internet are classified without digital skills." ;
 	skos:note	"Detailed results are available in the Eurostat table <a href=\"http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=isoc_sk_dskl_i&lang=en\">ISOC_SK_DSKL_I</a>. Consult the <a href=\"https://ec.europa.eu/digital-agenda/en/news/new-comprehensive-digital-skills-indicator\"> methodological note</a> on DG CONNECT newsroom." ;
 	skos:topConceptOf	ns8:indicator .
 ns1:i_dsk2_na	rdf:type	skos:Concept ,
 		ns2:Indicator ;
-	skos:prefLabel	"Digital skills could not be assessed because the individual has not used the internet in the last 3 months" ;
+	skos:prefLabel	"DSI 2.0 - Digital skills could not be assessed because the individual has not used the internet in the last 3 months" ;
 	dct:source	ns5:estat_isoc_sk_dskl_i21 ;
 	skos:notation	"i_dsk2_na" ;
-	skos:altLabel	"Digital skills could not be assessed because the individual has not used the internet in the last 3 months" ;
+	skos:altLabel	"DSI 2.0 - Digital skills could not be assessed because the individual has not used the internet in the last 3 months (from 2021)" ;
 	ns6:membership	ns26:i_dsk2_na ;
+	skos:definition	"Individuals that have not used the internet in the last 3 months and skills could have not been assessed." ;
 	skos:topConceptOf	ns8:indicator .
 ns1:i_dsk_l	rdf:type	skos:Concept ,
 		ns2:Indicator ;
-	skos:prefLabel	"Individuals with low level of digital skills (missing some type of basic skills)" ;
+	skos:prefLabel	"DSI 2015-2019 Individuals with low level of digital skills (missing some type of basic skills)" ;
 	dct:source	ns5:estat_isoc_sk_dskl_i ;
 	skos:notation	"i_dsk_l" ;
-	skos:altLabel	"Individuals with \"low\" level of skills " ;
+	skos:altLabel	"DSI 2015-2019 - Individuals with \"low\" level of skills " ;
 	ns6:membership	ns26:i_dsk_l ;
 	skos:definition	"Persons that have been using internet during last 3 months are attributed a score on four digital competence domains: information, communication, content-creation and problem-solving, depending the activities they have been able to do. The scores in each domain are basic, above basic and below basic. Individuals not using internet are classified without digital skills. To be classified \"basic or above basic\" on the overall indicator an individual has to have basic or above basic skills in all the four Digital Competence domains included in the index: information, communication, content-creation and problem-solving." ;
 	skos:note	"Detailed results are available in the Eurostat table <a href=\"http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=isoc_sk_dskl_i&lang=en\">ISOC_SK_DSKL_I</a>. Consult the <a href=\"https://ec.europa.eu/digital-agenda/en/news/new-comprehensive-digital-skills-indicator\"> methodological note</a> on DG CONNECT newsroom." ;
 	skos:topConceptOf	ns8:indicator .
 ns1:i_dsk_s_ab	rdf:type	ns2:Indicator ,
 		skos:Concept ;
-	skos:prefLabel	"Individuals with above basic level of digital skills in Software domain" ;
+	skos:prefLabel	"DSI 2015-2019 Individuals with above basic level of digital skills in Software domain" ;
 	dct:source	ns5:estat_isoc_sk_dskl_i ;
 	skos:notation	"i_dsk_s_ab" ;
-	skos:altLabel	"Software Domain - Above Basic Skills" ;
+	skos:altLabel	"DSI 2015-2019 - Software Domain - Above Basic Skills" ;
 	ns6:membership	ns26:i_dsk_s_ab ;
 	skos:definition	"Software skills for content manipulation refer to the ability to create and edit new content (from word processing to images and video); integrate and re-elaborate previous knowledge and content; produce creative expressions, media outputs and programming; deal with and apply intellectual property rights and licences. The indicator is based on six activities internet users have been able to do during previous 3 months. The scores are basic, above basic and none. Individuals not using internet are classified without digital skills." ;
 	skos:note	"Detailed results are available in the Eurostat table <a href=\"http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=isoc_sk_dskl_i&lang=en\">ISOC_SK_DSKL_I</a>. Consult the <a href=\"https://ec.europa.eu/digital-agenda/en/news/new-comprehensive-digital-skills-indicator\"> methodological note</a> on DG CONNECT newsroom." ;
 	skos:topConceptOf	ns8:indicator .
 ns1:i_dsk_ps_ab	rdf:type	ns2:Indicator ,
 		skos:Concept ;
-	skos:prefLabel	"Individuals with above basic level of digital skills in Problem solving domain" ;
+	skos:prefLabel	"DSI 2015-2019 Individuals with above basic level of digital skills in Problem solving domain" ;
 	dct:source	ns5:estat_isoc_sk_dskl_i ;
 	skos:notation	"i_dsk_ps_ab" ;
-	skos:altLabel	"Problem Solving Domain - Above Basic Skills" ;
+	skos:altLabel	"DSI 2015-2019 - Problem Solving Domain - Above Basic Skills" ;
 	ns6:membership	ns26:i_dsk_ps_ab ;
 	skos:definition	"Problem solving skills refers to the ability to identify digital needs and resources, make informed decisions as to which are the most appropriate digital tools according to the purpose or need, solve conceptual problems through digital means, creatively use technologies, solve technical problems, update one's own and others' competences. The indicator is based on three basic digital problems and familiarity with four online services internet users have been able to do during previous 3 months. The scores are basic, above basic and none. Individuals not using internet are classified without digital skills." ;
 	skos:note	"Detailed results are available in the Eurostat table <a href=\"http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=isoc_sk_dskl_i&lang=en\">ISOC_SK_DSKL_I</a>. Consult the <a href=\"https://ec.europa.eu/digital-agenda/en/news/new-comprehensive-digital-skills-indicator\"> methodological note</a> on DG CONNECT newsroom." ;
 	skos:topConceptOf	ns8:indicator .
 ns1:i_dsk_ab	rdf:type	skos:Concept ,
 		ns2:Indicator ;
-	skos:prefLabel	"Individuals with above basic level of digital skills" ;
+	skos:prefLabel	"DSI 2015-2019 Individuals with above basic level of digital skills" ;
 	dct:source	ns5:estat_isoc_sk_dskl_i ;
 	skos:notation	"i_dsk_ab" ;
-	skos:altLabel	"Individuals with above basic level of skills" ;
+	skos:altLabel	"DSI 2015-2019 - Above basic level of skills" ;
 	ns6:membership	ns26:i_dsk_ab ;
 	skos:definition	"Persons that have been using internet during last 3 months are attributed a score on four digital competence domains: information, communication, content-creation and problem-solving, depending the activities they have been able to do. The scores in each domain are basic, above basic and below basic. Individuals not using internet are classified without digital skills. To be classified \"basic or above basic\" on the overall indicator an individual has to have basic or above basic skills in all the four Digital Competence domains included in the index: information, communication, content-creation and problem-solving." ;
 	skos:note	"Detailed results are available in the Eurostat table <a href=\"http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=isoc_sk_dskl_i&lang=en\">ISOC_SK_DSKL_I</a>. Consult the <a href=\"https://ec.europa.eu/digital-agenda/en/news/new-comprehensive-digital-skills-indicator\"> methodological note</a> on DG CONNECT newsroom." ;
 	skos:topConceptOf	ns8:indicator .
 ns1:i_dsk_i_x	rdf:type	skos:Concept ,
 		ns2:Indicator ;
-	skos:prefLabel	"Individuals with no digital skills in Information domain" ;
+	skos:prefLabel	"DSI 2015-2019 Individuals with no digital skills in Information domain" ;
 	dct:source	ns5:estat_isoc_sk_dskl_i ;
 	skos:notation	"i_dsk_i_x" ;
-	skos:altLabel	"Information Domain - No Skills" ;
+	skos:altLabel	"DSI 2015-2019 - Information Domain - No Skills" ;
 	ns6:membership	ns26:i_dsk_i_x ;
 	skos:definition	"Information processing skills refers to the ability to identify, locate, retrieve, store, organise and analyse digital information, judging its relevance and purpose. The indicator is based on five activities internet users have been able to do online during previous 3 months. The scores are basic, above basic and none. Individuals not using internet are classified without digital skills." ;
 	skos:note	"Detailed results are available in the Eurostat table <a href=\"http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=isoc_sk_dskl_i&lang=en\">ISOC_SK_DSKL_I</a>. Consult the <a href=\"https://ec.europa.eu/digital-agenda/en/news/new-comprehensive-digital-skills-indicator\"> methodological note</a> on DG CONNECT newsroom." ;
 	skos:topConceptOf	ns8:indicator .
 ns1:i_dsk_ps_x	rdf:type	skos:Concept ,
 		ns2:Indicator ;
-	skos:prefLabel	"Individuals with no digital skills in Problem solving domain" ;
+	skos:prefLabel	"DSI 2015-2019 Individuals with no digital skills in Problem solving domain" ;
 	dct:source	ns5:estat_isoc_sk_dskl_i ;
 	skos:notation	"i_dsk_ps_x" ;
-	skos:altLabel	"Problem Solving Domain - No Skills" ;
+	skos:altLabel	"DSI 2015-2019 - Problem Solving Domain - No Skills" ;
 	ns6:membership	ns26:i_dsk_ps_x ;
 	skos:definition	"Problem solving skills refers to the ability to identify digital needs and resources, make informed decisions as to which are the most appropriate digital tools according to the purpose or need, solve conceptual problems through digital means, creatively use technologies, solve technical problems, update one's own and others' competences. The indicator is based on three basic digital problems and familiarity with four online services internet users have been able to do during previous 3 months. The scores are basic, above basic and none. Individuals not using internet are classified without digital skills." ;
 	skos:note	"Detailed results are available in the Eurostat table <a href=\"http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=isoc_sk_dskl_i&lang=en\">ISOC_SK_DSKL_I</a>. Consult the <a href=\"https://ec.europa.eu/digital-agenda/en/news/new-comprehensive-digital-skills-indicator\"> methodological note</a> on DG CONNECT newsroom." ;
 	skos:topConceptOf	ns8:indicator .
 ns1:i_dsk_i_ab	rdf:type	ns2:Indicator ,
 		skos:Concept ;
-	skos:prefLabel	"Individuals with above basic level of digital skills in Information domain" ;
+	skos:prefLabel	"DSI 2015-2019 Individuals with above basic level of digital skills in Information domain" ;
 	dct:source	ns5:estat_isoc_sk_dskl_i ;
 	skos:notation	"i_dsk_i_ab" ;
-	skos:altLabel	"Information Domain - Above Basic Skills" ;
+	skos:altLabel	"DSI 2015-2019 - Information Domain - Above Basic Skills" ;
 	ns6:membership	ns26:i_dsk_i_ab ;
 	skos:definition	"Information processing skills refers to the ability to identify, locate, retrieve, store, organise and analyse digital information, judging its relevance and purpose. The indicator is based on five activities internet users have been able to do online during previous 3 months. The scores are basic, above basic and none. Individuals not using internet are classified without digital skills." ;
 	skos:note	"Detailed results are available in the Eurostat table <a href=\"http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=isoc_sk_dskl_i&lang=en\">ISOC_SK_DSKL_I</a>. Consult the <a href=\"https://ec.europa.eu/digital-agenda/en/news/new-comprehensive-digital-skills-indicator\"> methodological note</a> on DG CONNECT newsroom." ;
@@ -5110,75 +4554,47 @@ ns1:i_dsk_i_ab	rdf:type	ns2:Indicator ,
 ns26:i_dsk_ab	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ict-skills" ;
 	ns6:member-of	ns14:ict-skills ;
-	ns6:order	"12" .
+	ns6:order	"1111" .
 ns26:i_dsk_c_ab	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ict-skills" ;
 	ns6:member-of	ns14:ict-skills ;
-	ns6:order	"21" .
+	ns6:order	"1114" .
 ns26:i_dsk_c_x	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ict-skills" ;
 	ns6:member-of	ns14:ict-skills ;
-	ns6:order	"23" .
+	ns6:order	"1116" .
 ns26:i_dsk_i_ab	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ict-skills" ;
 	ns6:member-of	ns14:ict-skills ;
-	ns6:order	"17" .
+	ns6:order	"1117" .
 ns26:i_dsk_i_x	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ict-skills" ;
 	ns6:member-of	ns14:ict-skills ;
-	ns6:order	"19" .
+	ns6:order	"1119" .
 ns26:i_dsk_l	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ict-skills" ;
 	ns6:member-of	ns14:ict-skills ;
-	ns6:order	"14" .
+	ns6:order	"1120" .
 ns26:i_dsk_ps_ab	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ict-skills" ;
 	ns6:member-of	ns14:ict-skills ;
-	ns6:order	"25" .
+	ns6:order	"1121" .
 ns26:i_dsk_ps_x	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ict-skills" ;
 	ns6:member-of	ns14:ict-skills ;
-	ns6:order	"27" .
+	ns6:order	"1123" .
 ns26:i_dsk_s_ab	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ict-skills" ;
 	ns6:member-of	ns14:ict-skills ;
-	ns6:order	"30" .
+	ns6:order	"1124" .
 ns26:i_dsk_s_x	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ict-skills" ;
 	ns6:member-of	ns14:ict-skills ;
-	ns6:order	"32" .
+	ns6:order	"1126" .
 ns26:i_dsk_x	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ict-skills" ;
 	ns6:member-of	ns14:ict-skills ;
-	ns6:order	"15" .
-ns26:old_digskillindex	rdf:type	ns2:IndicatorToGroupMembership ;
-	rdfs:label	"ict-skills" ;
-	ns6:member-of	ns14:ict-skills ;
-	ns6:order	"93" .
-ns26:old_digskillindex_basicandabove	rdf:type	ns2:IndicatorToGroupMembership ;
-	rdfs:label	"ict-skills" ;
-	ns6:member-of	ns14:ict-skills ;
-	ns6:order	"92" .
-ns26:old_i_dsk_b	rdf:type	ns2:IndicatorToGroupMembership ;
-	rdfs:label	"ict-skills" ;
-	ns6:member-of	ns14:ict-skills ;
-	ns6:order	"11" .
-ns26:old_i_dsk_c_b	rdf:type	ns2:IndicatorToGroupMembership ;
-	rdfs:label	"ict-skills" ;
-	ns6:member-of	ns14:ict-skills ;
-	ns6:order	"20" .
-ns26:old_i_dsk_i_b	rdf:type	ns2:IndicatorToGroupMembership ;
-	rdfs:label	"ict-skills" ;
-	ns6:member-of	ns14:ict-skills ;
-	ns6:order	"16" .
-ns26:old_i_dsk_ps_b	rdf:type	ns2:IndicatorToGroupMembership ;
-	rdfs:label	"ict-skills" ;
-	ns6:member-of	ns14:ict-skills ;
-	ns6:order	"24" .
-ns26:old_i_dsk_s_b	rdf:type	ns2:IndicatorToGroupMembership ;
-	rdfs:label	"ict-skills" ;
-	ns6:member-of	ns14:ict-skills ;
-	ns6:order	"28" .
+	ns6:order	"1113" .
 ns27:i_cisk_sfjobx	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ict-specialist" ;
 	ns6:member-of	ns14:ict-specialist ;
@@ -5191,80 +4607,6 @@ ns27:i_skedu	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ict-specialist" ;
 	ns6:member-of	ns14:ict-specialist ;
 	ns6:order	"7" .
-ns27:p_iuse	rdf:type	ns2:IndicatorToGroupMembership ;
-	rdfs:label	"ict-specialist" ;
-	ns6:member-of	ns14:ict-specialist ;
-	ns6:order	"8" .
-ns1:old_digskillindex	rdf:type	skos:Concept ,
-		ns2:Indicator ;
-	skos:prefLabel	"Digital skills indicator (internet users) - pilot 2012/2014" ;
-	dct:source	ns5:estat_isoc_sk_dskl_i ;
-	skos:notation	"old_digskillindex" ;
-	skos:altLabel	"Digital skills indicator (internet users) - pilot 2012/2014" ;
-	ns6:membership	ns26:old_digskillindex ;
-	skos:definition	"Persons that have been using internet during last 3 months are attributed a score on four digital competence domains: information, communication, content-creation and problem-solving, depending the activities they have been able to do. The scores are basic, above basic and below basic. Individuals not using internet are classified without digital skills. The four digital competence domains are aggregated in four logical groups." ;
-	skos:note	"This indicator has been piloted on the 2012 and 2014 micro-data from the Eurostat community survey on ICT usage by Households/Individuals using some proxy variables. It is not fully comparable with the regular implementation starting with the 2015 survey." ;
-	skos:topConceptOf	ns8:indicator .
-ns1:old_digskillindex_basicandabove	rdf:type	skos:Concept ,
-		ns2:Indicator ;
-	skos:prefLabel	"Individuals with basic or above basic digital skills - pilot 2012/2014" ;
-	dct:source	ns5:estat_isoc_sk_dskl_i ;
-	skos:notation	"old_digskillindex_basicandabove" ;
-	skos:altLabel	"Individuals with basic or above basic digital skills - pilot 2012/2014" ;
-	ns6:membership	ns26:old_digskillindex_basicandabove ;
-	skos:definition	"Persons that have been using internet during last 3 months are attributed a score on four digital competence domains: information, communication, content-creation and problem-solving, depending the activities they have been able to do. The scores in each domain are basic, above basic and below basic. Individuals not using internet are classified without digital skills. To be classified \"basic or above basic\" on the overall indicator an individual has to have basic or above basic skills in all the four Digital Competence domains included in the index: information, communication, content-creation and problem-solving." ;
-	skos:note	"This indicator has been piloted on the 2012 and 2014 micro-data from the Eurostat community survey on ICT usage by Households/Individuals using some proxy variables. It is not fully comparable with the regular implementation starting with the 2015 survey." ;
-	skos:topConceptOf	ns8:indicator .
-ns1:old_i_dsk_b	rdf:type	skos:Concept ,
-		ns2:Indicator ;
-	skos:prefLabel	"Individuals with a basic level of digital skills" ;
-	dct:source	ns5:estat_isoc_sk_dskl_i ;
-	skos:notation	"old_i_dsk_b" ;
-	skos:altLabel	"Individuals with a basic level of skills" ;
-	ns6:membership	ns26:old_i_dsk_b ;
-	skos:definition	"Persons that have been using internet during last 3 months are attributed a score on four digital competence domains: information, communication, content-creation and problem-solving, depending the activities they have been able to do. The scores in each domain are basic, above basic and below basic. Individuals not using internet are classified without digital skills. To be classified \"basic or above basic\" on the overall indicator an individual has to have basic or above basic skills in all the four Digital Competence domains included in the index: information, communication, content-creation and problem-solving." ;
-	skos:note	"Detailed results are available in the Eurostat table <a href=\"http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=isoc_sk_dskl_i&lang=en\">ISOC_SK_DSKL_I</a>. Consult the <a href=\"https://ec.europa.eu/digital-agenda/en/news/new-comprehensive-digital-skills-indicator\"> methodological note</a> on DG CONNECT newsroom." ;
-	skos:topConceptOf	ns8:indicator .
-ns1:old_i_dsk_c_b	rdf:type	skos:Concept ,
-		ns2:Indicator ;
-	skos:prefLabel	"Individuals with a basic level of digital skills in Communication domain" ;
-	dct:source	ns5:estat_isoc_sk_dskl_i ;
-	skos:notation	"old_i_dsk_c_b" ;
-	skos:altLabel	"Communication Domain - Basic Skills" ;
-	ns6:membership	ns26:old_i_dsk_c_b ;
-	skos:definition	"These skills refer to the ability to communicate in digital environments, share resources through online tools, link with others and collaborate through digital tools, interact with and participate in communities and networks, cross-cultural awareness. The indicator is based on four activities internet users have been able to do online during previous 3 months. The scores are basic, above basic and none. Individuals not using internet are classified without digital skills." ;
-	skos:note	"Detailed results are available in the Eurostat table <a href=\"http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=isoc_sk_dskl_i&lang=en\">ISOC_SK_DSKL_I</a>. Consult the <a href=\"https://ec.europa.eu/digital-agenda/en/news/new-comprehensive-digital-skills-indicator\"> methodological note</a> on DG CONNECT newsroom." ;
-	skos:topConceptOf	ns8:indicator .
-ns1:old_i_dsk_i_b	rdf:type	ns2:Indicator ,
-		skos:Concept ;
-	skos:prefLabel	"Individuals with a basic level of digital skills in Information domain" ;
-	dct:source	ns5:estat_isoc_sk_dskl_i ;
-	skos:notation	"old_i_dsk_i_b" ;
-	skos:altLabel	"Information Domain - Basic Skills" ;
-	ns6:membership	ns26:old_i_dsk_i_b ;
-	skos:definition	"Information processing skills refers to the ability to identify, locate, retrieve, store, organise and analyse digital information, judging its relevance and purpose. The indicator is based on five activities internet users have been able to do online during previous 3 months. The scores are basic, above basic and none. Individuals not using internet are classified without digital skills." ;
-	skos:note	"Detailed results are available in the Eurostat table <a href=\"http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=isoc_sk_dskl_i&lang=en\">ISOC_SK_DSKL_I</a>. Consult the <a href=\"https://ec.europa.eu/digital-agenda/en/news/new-comprehensive-digital-skills-indicator\"> methodological note</a> on DG CONNECT newsroom." ;
-	skos:topConceptOf	ns8:indicator .
-ns1:old_i_dsk_ps_b	rdf:type	ns2:Indicator ,
-		skos:Concept ;
-	skos:prefLabel	"Individuals with a basic level of digital skills in Problem solving domain" ;
-	dct:source	ns5:estat_isoc_sk_dskl_i ;
-	skos:notation	"old_i_dsk_ps_b" ;
-	skos:altLabel	"Problem Solving Domain - Basic Skills" ;
-	ns6:membership	ns26:old_i_dsk_ps_b ;
-	skos:definition	"Problem solving skills refers to the ability to identify digital needs and resources, make informed decisions as to which are the most appropriate digital tools according to the purpose or need, solve conceptual problems through digital means, creatively use technologies, solve technical problems, update one's own and others' competences. The indicator is based on three basic digital problems and familiarity with four online services internet users have been able to do during previous 3 months. The scores are basic, above basic and none. Individuals not using internet are classified without digital skills." ;
-	skos:note	"Detailed results are available in the Eurostat table <a href=\"http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=isoc_sk_dskl_i&lang=en\">ISOC_SK_DSKL_I</a>. Consult the <a href=\"https://ec.europa.eu/digital-agenda/en/news/new-comprehensive-digital-skills-indicator\"> methodological note</a> on DG CONNECT newsroom." ;
-	skos:topConceptOf	ns8:indicator .
-ns1:old_i_dsk_s_b	rdf:type	ns2:Indicator ,
-		skos:Concept ;
-	skos:prefLabel	"Individuals with a basic level of digital skills in Software domain" ;
-	dct:source	ns5:estat_isoc_sk_dskl_i ;
-	skos:notation	"old_i_dsk_s_b" ;
-	skos:altLabel	"Software Domain - Basic Skills" ;
-	ns6:membership	ns26:old_i_dsk_s_b ;
-	skos:definition	"Software skills for content manipulation refer to the ability to create and edit new content (from word processing to images and video); integrate and re-elaborate previous knowledge and content; produce creative expressions, media outputs and programming; deal with and apply intellectual property rights and licences. The indicator is based on six activities internet users have been able to do during previous 3 months. The scores are basic, above basic and none. Individuals not using internet are classified without digital skills." ;
-	skos:note	"Detailed results are available in the Eurostat table <a href=\"http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=isoc_sk_dskl_i&lang=en\">ISOC_SK_DSKL_I</a>. Consult the <a href=\"https://ec.europa.eu/digital-agenda/en/news/new-comprehensive-digital-skills-indicator\"> methodological note</a> on DG CONNECT newsroom." ;
-	skos:topConceptOf	ns8:indicator .
 ns17:h_fbbfix	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"broadband" ;
 	ns6:member-of	ns14:broadband ;
@@ -5307,213 +4649,213 @@ ns1:e_gov_ebus	rdf:type	ns2:Indicator ,
 	skos:topConceptOf	ns8:indicator .
 ns1:i_dsk_s_x	rdf:type	ns2:Indicator ,
 		skos:Concept ;
-	skos:prefLabel	"Individuals with no digital skills in Software domain" ;
+	skos:prefLabel	"DSI 2015-2019 Individuals with no digital skills in Software domain" ;
 	dct:source	ns5:estat_isoc_sk_dskl_i ;
 	skos:notation	"i_dsk_s_x" ;
-	skos:altLabel	"Software Domain - No Skills" ;
+	skos:altLabel	"DSI 2015-2019 - Software Domain - No Skills" ;
 	ns6:membership	ns26:i_dsk_s_x ;
 	skos:definition	"Software skills for content manipulation refer to the ability to create and edit new content (from word processing to images and video); integrate and re-elaborate previous knowledge and content; produce creative expressions, media outputs and programming; deal with and apply intellectual property rights and licences. The indicator is based on six activities internet users have been able to do during previous 3 months. The scores are basic, above basic and none. Individuals not using internet are classified without digital skills." ;
 	skos:note	"Detailed results are available in the Eurostat table <a href=\"http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=isoc_sk_dskl_i&lang=en\">ISOC_SK_DSKL_I</a>. Consult the <a href=\"https://ec.europa.eu/digital-agenda/en/news/new-comprehensive-digital-skills-indicator\"> methodological note</a> on DG CONNECT newsroom." ;
 	skos:topConceptOf	ns8:indicator .
 ns1:i_dsk_c_ab	rdf:type	ns2:Indicator ,
 		skos:Concept ;
-	skos:prefLabel	"Individuals with above basic level of digital skills in Communication domain" ;
+	skos:prefLabel	"DSI 2015-2019 Individuals with above basic level of digital skills in Communication domain" ;
 	dct:source	ns5:estat_isoc_sk_dskl_i ;
 	skos:notation	"i_dsk_c_ab" ;
-	skos:altLabel	"Communication Domain - Above Basic Skills" ;
+	skos:altLabel	"DSI 2015-2019 - Communication Domain - Above Basic Skills" ;
 	ns6:membership	ns26:i_dsk_c_ab ;
 	skos:definition	"These skills refer to the ability to communicate in digital environments, share resources through online tools, link with others and collaborate through digital tools, interact with and participate in communities and networks, cross-cultural awareness. The indicator is based on four activities internet users have been able to do online during previous 3 months. The scores are basic, above basic and none. Individuals not using internet are classified without digital skills." ;
 	skos:note	"Detailed results are available in the Eurostat table <a href=\"http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=isoc_sk_dskl_i&lang=en\">ISOC_SK_DSKL_I</a>. Consult the <a href=\"https://ec.europa.eu/digital-agenda/en/news/new-comprehensive-digital-skills-indicator\"> methodological note</a> on DG CONNECT newsroom." ;
 	skos:topConceptOf	ns8:indicator .
-ns38:desi_conn	rdf:type	ns2:IndicatorToGroupMembership ;
+ns36:desi_conn	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"desi_dim" ;
 	ns6:member-of	ns14:desi_dim ;
 	ns6:order	"2" .
-ns38:desi_dps	rdf:type	ns2:IndicatorToGroupMembership ;
+ns36:desi_dps	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"desi_dim" ;
 	ns6:member-of	ns14:desi_dim ;
 	ns6:order	"4" .
-ns38:desi_hc	rdf:type	ns2:IndicatorToGroupMembership ;
+ns36:desi_hc	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"desi_dim" ;
 	ns6:member-of	ns14:desi_dim ;
 	ns6:order	"1" .
-ns38:desi_idt	rdf:type	ns2:IndicatorToGroupMembership ;
+ns36:desi_idt	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"desi_dim" ;
 	ns6:member-of	ns14:desi_dim ;
 	ns6:order	"3" .
-ns36:desi_4g	rdf:type	ns2:IndicatorToGroupMembership ;
+ns34:desi_4g	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
 	ns6:member-of	ns14:desi_ind ;
 	ns6:order	"231" .
-ns36:desi_5g	rdf:type	ns2:IndicatorToGroupMembership ;
+ns34:desi_5g	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
 	ns6:member-of	ns14:desi_ind ;
 	ns6:order	"232" .
-ns36:desi_5gc	rdf:type	ns2:IndicatorToGroupMembership ;
+ns34:desi_5gc	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
 	ns6:member-of	ns14:desi_ind ;
 	ns6:order	"233" .
-ns36:desi_bbpi	rdf:type	ns2:IndicatorToGroupMembership ;
+ns34:desi_bbpi	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
 	ns6:member-of	ns14:desi_ind ;
 	ns6:order	"241" .
-ns36:desi_dps_egovuser	rdf:type	ns2:IndicatorToGroupMembership ;
+ns34:desi_dps_egovuser	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
 	ns6:member-of	ns14:desi_ind ;
 	ns6:order	"411" .
-ns36:desi_dps_opendata	rdf:type	ns2:IndicatorToGroupMembership ;
+ns34:desi_dps_opendata	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
 	ns6:member-of	ns14:desi_ind ;
 	ns6:order	"415" .
-ns36:desi_dps_prefform	rdf:type	ns2:IndicatorToGroupMembership ;
+ns34:desi_dps_prefform	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
 	ns6:member-of	ns14:desi_ind ;
 	ns6:order	"412" .
-ns36:desi_dps_psbiz	rdf:type	ns2:IndicatorToGroupMembership ;
+ns34:desi_dps_psbiz	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
 	ns6:member-of	ns14:desi_ind ;
 	ns6:order	"414" .
-ns36:desi_dps_pscit	rdf:type	ns2:IndicatorToGroupMembership ;
+ns34:desi_dps_pscit	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
 	ns6:member-of	ns14:desi_ind ;
 	ns6:order	"413" .
-ns36:desi_fbbc	rdf:type	ns2:IndicatorToGroupMembership ;
+ns34:desi_fbbc	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
 	ns6:member-of	ns14:desi_ind ;
 	ns6:order	"221" .
-ns36:desi_fbbtc	rdf:type	ns2:IndicatorToGroupMembership ;
+ns34:desi_fbbtc	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
 	ns6:member-of	ns14:desi_ind ;
 	ns6:order	"211" .
-ns36:desi_gbpstc	rdf:type	ns2:IndicatorToGroupMembership ;
+ns34:desi_gbpstc	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
 	ns6:member-of	ns14:desi_ind ;
 	ns6:order	"213" .
-ns36:desi_hc_abds	rdf:type	ns2:IndicatorToGroupMembership ;
+ns34:desi_hc_abds	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
 	ns6:member-of	ns14:desi_ind ;
 	ns6:order	"112" .
-ns36:desi_hc_abss	rdf:type	ns2:IndicatorToGroupMembership ;
+ns34:desi_hc_abss	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
 	ns6:member-of	ns14:desi_ind ;
 	ns6:order	"113" .
-ns36:desi_hc_bds	rdf:type	ns2:IndicatorToGroupMembership ;
+ns34:desi_hc_bds	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
 	ns6:member-of	ns14:desi_ind ;
 	ns6:order	"111" .
-ns36:desi_hc_entict	rdf:type	ns2:IndicatorToGroupMembership ;
+ns34:desi_hc_entict	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
 	ns6:member-of	ns14:desi_ind ;
 	ns6:order	"123" .
-ns36:desi_hc_fictspec	rdf:type	ns2:IndicatorToGroupMembership ;
+ns34:desi_hc_fictspec	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
 	ns6:member-of	ns14:desi_ind ;
 	ns6:order	"122" .
-ns36:desi_hc_ictg	rdf:type	ns2:IndicatorToGroupMembership ;
+ns34:desi_hc_ictg	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
 	ns6:member-of	ns14:desi_ind ;
 	ns6:order	"124" .
-ns36:desi_hc_ictspec	rdf:type	ns2:IndicatorToGroupMembership ;
+ns34:desi_hc_ictspec	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
 	ns6:member-of	ns14:desi_ind ;
 	ns6:order	"121" .
-ns36:desi_idt_ai	rdf:type	ns2:IndicatorToGroupMembership ;
+ns34:desi_idt_ai	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
 	ns6:member-of	ns14:desi_ind ;
 	ns6:order	"325" .
-ns36:desi_idt_bigdat	rdf:type	ns2:IndicatorToGroupMembership ;
+ns34:desi_idt_bigdat	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
 	ns6:member-of	ns14:desi_ind ;
 	ns6:order	"323" .
-ns36:desi_idt_cloud	rdf:type	ns2:IndicatorToGroupMembership ;
+ns34:desi_idt_cloud	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
 	ns6:member-of	ns14:desi_ind ;
 	ns6:order	"324" .
-ns36:desi_idt_ecomturn	rdf:type	ns2:IndicatorToGroupMembership ;
+ns34:desi_idt_ecomturn	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
 	ns6:member-of	ns14:desi_ind ;
 	ns6:order	"332" .
-ns36:desi_idt_einv	rdf:type	ns2:IndicatorToGroupMembership ;
+ns34:desi_idt_einv	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
 	ns6:member-of	ns14:desi_ind ;
 	ns6:order	"327" .
-ns36:desi_idt_eis	rdf:type	ns2:IndicatorToGroupMembership ;
+ns34:desi_idt_eis	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
 	ns6:member-of	ns14:desi_ind ;
 	ns6:order	"321" .
-ns36:desi_idt_ictsust	rdf:type	ns2:IndicatorToGroupMembership ;
+ns34:desi_idt_ictsust	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
 	ns6:member-of	ns14:desi_ind ;
 	ns6:order	"326" .
-ns36:desi_idt_sellcb	rdf:type	ns2:IndicatorToGroupMembership ;
+ns34:desi_idt_sellcb	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
 	ns6:member-of	ns14:desi_ind ;
 	ns6:order	"333" .
-ns36:desi_idt_smedi	rdf:type	ns2:IndicatorToGroupMembership ;
+ns34:desi_idt_smedi	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
 	ns6:member-of	ns14:desi_ind ;
 	ns6:order	"311" .
-ns36:desi_idt_smeso	rdf:type	ns2:IndicatorToGroupMembership ;
+ns34:desi_idt_smeso	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
 	ns6:member-of	ns14:desi_ind ;
 	ns6:order	"331" .
-ns36:desi_idt_socmed	rdf:type	ns2:IndicatorToGroupMembership ;
+ns34:desi_idt_socmed	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
 	ns6:member-of	ns14:desi_ind ;
 	ns6:order	"322" .
-ns36:desi_mbbtu	rdf:type	ns2:IndicatorToGroupMembership ;
+ns34:desi_mbbtu	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
 	ns6:member-of	ns14:desi_ind ;
 	ns6:order	"234" .
-ns36:desi_ufbbtu	rdf:type	ns2:IndicatorToGroupMembership ;
+ns34:desi_ufbbtu	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
 	ns6:member-of	ns14:desi_ind ;
 	ns6:order	"212" .
-ns36:desi_vhcnc	rdf:type	ns2:IndicatorToGroupMembership ;
+ns34:desi_vhcnc	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"desi_ind" ;
 	ns6:member-of	ns14:desi_ind ;
 	ns6:order	"222" .
-ns37:desi_c_bbpi	rdf:type	ns2:IndicatorToGroupMembership ;
+ns35:desi_c_bbpi	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"desi_subdim" ;
 	ns6:member-of	ns14:desi_subdim ;
 	ns6:order	"24" .
-ns37:desi_c_fbbc	rdf:type	ns2:IndicatorToGroupMembership ;
+ns35:desi_c_fbbc	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"desi_subdim" ;
 	ns6:member-of	ns14:desi_subdim ;
 	ns6:order	"22" .
-ns37:desi_c_fbbtc	rdf:type	ns2:IndicatorToGroupMembership ;
+ns35:desi_c_fbbtc	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"desi_subdim" ;
 	ns6:member-of	ns14:desi_subdim ;
 	ns6:order	"21" .
-ns37:desi_c_mbb	rdf:type	ns2:IndicatorToGroupMembership ;
+ns35:desi_c_mbb	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"desi_subdim" ;
 	ns6:member-of	ns14:desi_subdim ;
 	ns6:order	"23" .
-ns37:desi_dps_egov	rdf:type	ns2:IndicatorToGroupMembership ;
+ns35:desi_dps_egov	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"desi_subdim" ;
 	ns6:member-of	ns14:desi_subdim ;
 	ns6:order	"41" .
-ns37:desi_hc_asd	rdf:type	ns2:IndicatorToGroupMembership ;
+ns35:desi_hc_asd	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"desi_subdim" ;
 	ns6:member-of	ns14:desi_subdim ;
 	ns6:order	"12" .
-ns37:desi_hc_bsu	rdf:type	ns2:IndicatorToGroupMembership ;
+ns35:desi_hc_bsu	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"desi_subdim" ;
 	ns6:member-of	ns14:desi_subdim ;
 	ns6:order	"11" .
-ns37:desi_idt_di	rdf:type	ns2:IndicatorToGroupMembership ;
+ns35:desi_idt_di	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"desi_subdim" ;
 	ns6:member-of	ns14:desi_subdim ;
 	ns6:order	"31" .
-ns37:desi_idt_dtb	rdf:type	ns2:IndicatorToGroupMembership ;
+ns35:desi_idt_dtb	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"desi_subdim" ;
 	ns6:member-of	ns14:desi_subdim ;
 	ns6:order	"32" .
-ns37:desi_idt_ecomm	rdf:type	ns2:IndicatorToGroupMembership ;
+ns35:desi_idt_ecomm	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"desi_subdim" ;
 	ns6:member-of	ns14:desi_subdim ;
 	ns6:order	"33" .
-ns39:desi_total	rdf:type	ns2:IndicatorToGroupMembership ;
+ns37:desi_total	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"desi_total" ;
 	ns6:member-of	ns14:desi_total ;
 	ns6:order	"1" .
