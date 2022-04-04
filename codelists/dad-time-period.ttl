@@ -4334,6 +4334,7 @@ ns7:time-period	dct:modified	"2014-05-28T19:37:08+03:00"^^xsd:dateTime ;
 	skos:hasTopConcept	<http://reference.data.gov.uk/id/gregorian-year/2020> ,
 		<http://reference.data.gov.uk/id/gregorian-month/2019-12> ,
 		<http://reference.data.gov.uk/id/gregorian-month/2019-06> ,
+		<http://reference.data.gov.uk/id/gregorian-month/2020-12> ,
 		<http://reference.data.gov.uk/id/gregorian-month/2020-06> ,
 		<http://reference.data.gov.uk/id/gregorian-year/2021> ,
 		<http://reference.data.gov.uk/id/gregorian-half/2009-H2> ,
@@ -4452,6 +4453,7 @@ ns7:time-period	skos:hasTopConcept	ns48:EC_ALL ,
 		<http://reference.data.gov.uk/id/gregorian-year/2013> ,
 		<http://reference.data.gov.uk/id/gregorian-year/2014> ,
 		<http://reference.data.gov.uk/id/gregorian-year/2015> ,
-		<http://reference.data.gov.uk/id/gregorian-year/2016> .
+		<http://reference.data.gov.uk/id/gregorian-year/2016> ,
+		<http://reference.data.gov.uk/id/gregorian-month/2021-06> .
 @prefix ns49:	<http://semantic.digital-agenda-data.eu/def/> .
 ns7:time-period	skos:inScheme	ns49:scheme .
