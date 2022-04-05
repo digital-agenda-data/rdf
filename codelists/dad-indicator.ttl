@@ -1,21 +1,57 @@
 @prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ns1:	<http://semantic.digital-agenda-data.eu/codelist/indicator/> .
 @prefix ns2:	<http://semantic.digital-agenda-data.eu/def/class/> .
-ns1:e_ai_tany	rdf:type	ns2:Indicator .
+ns1:e_di3_hi	rdf:type	ns2:Indicator .
 @prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
-ns1:e_ai_tany	rdf:type	skos:Concept ;
-	skos:prefLabel	"Enterprises using AI technologies" .
+ns1:e_di3_hi	rdf:type	skos:Concept ;
+	skos:prefLabel	"Enterprises with high digital intensity index (DII v3)" .
 @prefix dct:	<http://purl.org/dc/terms/> .
 @prefix ns5:	<http://semantic.digital-agenda-data.eu/codelist/source/> .
-ns1:e_ai_tany	dct:source	ns5:estat_isoc_eb_ai ;
-	skos:notation	"e_ai_tany" ;
-	skos:altLabel	"Enterprises using AI technologies" .
+ns1:e_di3_hi	dct:source	ns5:estat_isoc_e_dii ;
+	skos:notation	"e_di3_hi" ;
+	skos:altLabel	"Enterprises with high digital intensity index (DII v3)" .
 @prefix ns6:	<http://semantic.digital-agenda-data.eu/def/property/> .
 @prefix ns7:	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/> .
-ns1:e_ai_tany	ns6:membership	ns7:e_ai_tany ;
-	skos:definition	"Enterprises using at least one of the following AI technologies: analysis of written language, converting spoken language into machine-readable format, generating written or spoken language,  identifying objects or persons based on images,  machine learning (e.g. deep learning), automating different workflows or assisting in decision making or enabling physical movement of machines via autonomous decisions based on observation of surroundings" .
+ns1:e_di3_hi	ns6:membership	ns7:e_di3_hi ;
+	skos:definition	"Enterprises with high digital intensity index (DII v3)" .
 @prefix ns8:	<http://semantic.digital-agenda-data.eu/codelist/> .
-ns1:e_ai_tany	skos:topConceptOf	ns8:indicator .
+ns1:e_di3_hi	skos:topConceptOf	ns8:indicator .
+ns1:e_di3_lo	rdf:type	ns2:Indicator ,
+		skos:Concept ;
+	skos:prefLabel	"Enterprises with low digital intensity index (DII v3)" ;
+	dct:source	ns5:estat_isoc_e_dii ;
+	skos:notation	"e_di3_lo" ;
+	skos:altLabel	"Enterprises with low digital intensity index (DII v3)" ;
+	ns6:membership	ns7:e_di3_lo ;
+	skos:definition	"Enterprises with low digital intensity index (DII v3)" ;
+	skos:topConceptOf	ns8:indicator .
+ns1:e_di3_vhi	rdf:type	ns2:Indicator ,
+		skos:Concept ;
+	skos:prefLabel	"Enterprises with very high digital intensity index (DII v3)" ;
+	dct:source	ns5:estat_isoc_e_dii ;
+	skos:notation	"e_di3_vhi" ;
+	skos:altLabel	"Enterprises with very high digital intensity index (DII v3)" ;
+	ns6:membership	ns7:e_di3_vhi ;
+	skos:definition	"Enterprises with very high digital intensity index (DII v3)" ;
+	skos:topConceptOf	ns8:indicator .
+ns1:e_di3_vlo	rdf:type	ns2:Indicator ,
+		skos:Concept ;
+	skos:prefLabel	"Enterprises with very low digital intensity index (DII v3)" ;
+	dct:source	ns5:estat_isoc_e_dii ;
+	skos:notation	"e_di3_vlo" ;
+	skos:altLabel	"Enterprises with very low digital intensity index (DII v3)" ;
+	ns6:membership	ns7:e_di3_vlo ;
+	skos:definition	"Enterprises with very low digital intensity index (DII v3)" ;
+	skos:topConceptOf	ns8:indicator .
+ns1:e_ai_tany	rdf:type	ns2:Indicator ,
+		skos:Concept ;
+	skos:prefLabel	"Enterprises using AI technologies" ;
+	dct:source	ns5:estat_isoc_eb_ai ;
+	skos:notation	"e_ai_tany" ;
+	skos:altLabel	"Enterprises using AI technologies" ;
+	ns6:membership	ns7:e_ai_tany ;
+	skos:definition	"Enterprises using at least one of the following AI technologies: analysis of written language, converting spoken language into machine-readable format, generating written or spoken language,  identifying objects or persons based on images,  machine learning (e.g. deep learning), automating different workflows or assisting in decision making or enabling physical movement of machines via autonomous decisions based on observation of surroundings" ;
+	skos:topConceptOf	ns8:indicator .
 ns1:e_cc1_si	rdf:type	ns2:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"Enterprises buying sophisticated or intermediate cloud computing services" ;
@@ -29,7 +65,7 @@ ns1:e_cc1_si	rdf:type	ns2:Indicator ,
 ns8:indicator	rdf:type	ns9:CodeList ,
 		skos:ConceptScheme .
 @prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
-ns8:indicator	dct:modified	"2022-04-01T19:24:35"^^xsd:dateTime .
+ns8:indicator	dct:modified	"2022-04-05T18:35:08"^^xsd:dateTime .
 @prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
 ns8:indicator	rdfs:isDefinedBy	<http://digital-agenda-data.eu/> ;
 	skos:prefLabel	"Code list for indicators used by Digital Agenda Scoreboard" ;
@@ -39,9 +75,15 @@ ns8:indicator	rdfs:isDefinedBy	<http://digital-agenda-data.eu/> ;
 		ns1:desi_dps_prefform ,
 		ns1:desi_dps_pscit ,
 		ns1:desi_idt_smedi ,
+		ns1:e_bda ,
+		ns1:e_inv4s_ap ,
 		ns1:e_ai_tany ,
 		ns1:e_cc1_si ,
 		ns1:i_dsk2_na ,
+		ns1:e_di3_hi ,
+		ns1:e_di3_lo ,
+		ns1:e_di3_vhi ,
+		ns1:e_di3_vlo ,
 		ns1:e_gov_4c_cb_eid ,
 		ns1:e_gov_4d_cb_edoc ,
 		ns1:mbb_5gcov ,
@@ -4480,6 +4522,47 @@ ns1:i_dsk2_na	rdf:type	skos:Concept ,
 	skos:altLabel	"DSI 2.0 - Digital skills could not be assessed because the individual has not used the internet in the last 3 months (from 2021)" ;
 	ns6:membership	ns26:i_dsk2_na ;
 	skos:definition	"Individuals that have not used the internet in the last 3 months and skills could have not been assessed." ;
+	skos:topConceptOf	ns8:indicator .
+ns7:e_bda	rdf:type	ns2:IndicatorToGroupMembership ;
+	rdfs:label	"ebusiness" ;
+	ns6:member-of	ns14:ebusiness ;
+	ns6:order	"30" .
+ns7:e_di3_hi	rdf:type	ns2:IndicatorToGroupMembership ;
+	rdfs:label	"ebusiness" ;
+	ns6:member-of	ns14:ebusiness ;
+	ns6:order	"19"^^xsd:byte .
+ns7:e_di3_lo	rdf:type	ns2:IndicatorToGroupMembership ;
+	rdfs:label	"ebusiness" ;
+	ns6:member-of	ns14:ebusiness ;
+	ns6:order	"20"^^xsd:byte .
+ns7:e_di3_vhi	rdf:type	ns2:IndicatorToGroupMembership ;
+	rdfs:label	"ebusiness" ;
+	ns6:member-of	ns14:ebusiness ;
+	ns6:order	"18"^^xsd:byte .
+ns7:e_di3_vlo	rdf:type	ns2:IndicatorToGroupMembership ;
+	rdfs:label	"ebusiness" ;
+	ns6:member-of	ns14:ebusiness ;
+	ns6:order	"21"^^xsd:byte .
+ns7:e_inv4s_ap	rdf:type	ns2:IndicatorToGroupMembership ;
+	rdfs:label	"ebusiness" ;
+	ns6:member-of	ns14:ebusiness ;
+	ns6:order	"8"^^xsd:byte .
+ns1:e_bda	rdf:type	ns2:Indicator ,
+		skos:Concept ;
+	skos:prefLabel	"Enterprises analysing big data (2020)" ;
+	dct:source	ns5:estat_isoc_eb_bd ;
+	skos:notation	"e_bda" ;
+	skos:altLabel	"Enterprises analysing big data (2020)" ;
+	ns6:membership	ns7:e_bda ;
+	skos:definition	"Analyse big data internally from any data source or externally" ;
+	skos:topConceptOf	ns8:indicator .
+ns1:e_inv4s_ap	rdf:type	ns2:Indicator ,
+		skos:Concept ;
+	skos:prefLabel	"Enterprises sending e-invoices, suitable for automatic processing" ;
+	dct:source	ns5:estat_isoc_bde15disc ;
+	skos:notation	"e_inv4s_ap" ;
+	skos:altLabel	"Enterprises sending eInvoices, suitable for automatic processing" ;
+	ns6:membership	ns7:e_inv4s_ap ;
 	skos:topConceptOf	ns8:indicator .
 ns1:i_dsk_l	rdf:type	skos:Concept ,
 		ns2:Indicator ;

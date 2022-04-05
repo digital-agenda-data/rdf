@@ -546,6 +546,13 @@
 <http://semantic.digital-agenda-data.eu/codelist/source/estat_isoc_cismt>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Eurostat, Table isoc_cismt: Social media use by type" .
 <http://semantic.digital-agenda-data.eu/codelist/source/estat_isoc_cismt>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/source> .
 <http://semantic.digital-agenda-data.eu/codelist/source/estat_isoc_cismt>	<http://xmlns.com/foaf/0.1/page>	<http://ec.europa.eu/eurostat/web/products-datasets/-/isoc_cismt> .
+<http://semantic.digital-agenda-data.eu/codelist/source/estat_isoc_e_dii>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Source> .
+<http://semantic.digital-agenda-data.eu/codelist/source/estat_isoc_e_dii>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/source/estat_isoc_e_dii>	<http://www.w3.org/2004/02/skos/core#definition>	"Eurostat, Table isoc_e_dii: Digital Intensity" .
+<http://semantic.digital-agenda-data.eu/codelist/source/estat_isoc_e_dii>	<http://www.w3.org/2004/02/skos/core#notation>	"estat_isoc_e_dii" .
+<http://semantic.digital-agenda-data.eu/codelist/source/estat_isoc_e_dii>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Eurostat, Table isoc_e_dii: Digital Intensity" .
+<http://semantic.digital-agenda-data.eu/codelist/source/estat_isoc_e_dii>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/source> .
+<http://semantic.digital-agenda-data.eu/codelist/source/estat_isoc_e_dii>	<http://xmlns.com/foaf/0.1/page>	<https://ec.europa.eu/eurostat/web/products-datasets/-/isoc_e_dii> .
 <http://semantic.digital-agenda-data.eu/codelist/source/estat_isoc_eb_ai>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Source> .
 <http://semantic.digital-agenda-data.eu/codelist/source/estat_isoc_eb_ai>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
 <http://semantic.digital-agenda-data.eu/codelist/source/estat_isoc_eb_ai>	<http://www.w3.org/2004/02/skos/core#definition>	"Eurostat, Table isoc_eb_ai: Artificial intelligence" .
@@ -553,6 +560,13 @@
 <http://semantic.digital-agenda-data.eu/codelist/source/estat_isoc_eb_ai>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Eurostat, Table isoc_eb_ai: Artificial intelligence" .
 <http://semantic.digital-agenda-data.eu/codelist/source/estat_isoc_eb_ai>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/source> .
 <http://semantic.digital-agenda-data.eu/codelist/source/estat_isoc_eb_ai>	<http://xmlns.com/foaf/0.1/page>	<https://ec.europa.eu/eurostat/web/products-datasets/-/isoc_eb_ai> .
+<http://semantic.digital-agenda-data.eu/codelist/source/estat_isoc_eb_bd>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Source> .
+<http://semantic.digital-agenda-data.eu/codelist/source/estat_isoc_eb_bd>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/source/estat_isoc_eb_bd>	<http://www.w3.org/2004/02/skos/core#definition>	"Eurostat, Table isoc_eb_bd: Big data analysis" .
+<http://semantic.digital-agenda-data.eu/codelist/source/estat_isoc_eb_bd>	<http://www.w3.org/2004/02/skos/core#notation>	"estat_isoc_eb_bd" .
+<http://semantic.digital-agenda-data.eu/codelist/source/estat_isoc_eb_bd>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Eurostat, Table isoc_eb_bd: Big data analysis" .
+<http://semantic.digital-agenda-data.eu/codelist/source/estat_isoc_eb_bd>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/source> .
+<http://semantic.digital-agenda-data.eu/codelist/source/estat_isoc_eb_bd>	<http://xmlns.com/foaf/0.1/page>	<https://ec.europa.eu/eurostat/web/products-datasets/-/isoc_eb_bd> .
 <http://semantic.digital-agenda-data.eu/codelist/source/estat_isoc_ec_eseln2>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Source> .
 <http://semantic.digital-agenda-data.eu/codelist/source/estat_isoc_ec_eseln2>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
 <http://semantic.digital-agenda-data.eu/codelist/source/estat_isoc_ec_eseln2>	<http://www.w3.org/2004/02/skos/core#definition>	"Eurostat, Table isoc_ec_eseln2: Enterprises selling via internet and/or networks other than internet (NACE Rev. 2 activity)" .
@@ -798,7 +812,7 @@
 <http://semantic.digital-agenda-data.eu/codelist/source/smart11_39>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Analysis of publications and patents of ICT research in FP7" .
 <http://semantic.digital-agenda-data.eu/codelist/source/smart11_39>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/source> .
 <http://semantic.digital-agenda-data.eu/codelist/source/smart11_39>	<http://xmlns.com/foaf/0.1/page>	<http://ec.europa.eu/digital-agenda/en/digital-agenda-you/our-studies-and-open-datasets> .
-<http://semantic.digital-agenda-data.eu/codelist/source>	<http://purl.org/dc/terms/modified>	"2022-03-30T18:08:01"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://semantic.digital-agenda-data.eu/codelist/source>	<http://purl.org/dc/terms/modified>	"2022-04-05T18:55:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://semantic.digital-agenda-data.eu/codelist/source>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#ConceptScheme> .
 <http://semantic.digital-agenda-data.eu/codelist/source>	<http://www.w3.org/2000/01/rdf-schema#isDefinedBy>	<http://digital-agenda-data.eu/> .
 <http://semantic.digital-agenda-data.eu/codelist/source>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/source/abac> .
@@ -882,7 +896,9 @@
 <http://semantic.digital-agenda-data.eu/codelist/source>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/source/estat_isoc_cisci_pb> .
 <http://semantic.digital-agenda-data.eu/codelist/source>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/source/estat_isoc_cisci_prv> .
 <http://semantic.digital-agenda-data.eu/codelist/source>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/source/estat_isoc_cismt> .
+<http://semantic.digital-agenda-data.eu/codelist/source>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/source/estat_isoc_e_dii> .
 <http://semantic.digital-agenda-data.eu/codelist/source>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/source/estat_isoc_eb_ai> .
+<http://semantic.digital-agenda-data.eu/codelist/source>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/source/estat_isoc_eb_bd> .
 <http://semantic.digital-agenda-data.eu/codelist/source>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/source/estat_isoc_ec_eseln2> .
 <http://semantic.digital-agenda-data.eu/codelist/source>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/source/estat_isoc_ec_ibuy> .
 <http://semantic.digital-agenda-data.eu/codelist/source>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/source/estat_isoc_ec_iprb> .
