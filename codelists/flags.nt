@@ -20,6 +20,10 @@
 <http://eurostat.linked-statistics.org/dic/flags#c> <http://www.w3.org/2004/02/skos/core#inScheme> <http://eurostat.linked-statistics.org/dic/flags> .
 <http://eurostat.linked-statistics.org/dic/flags#c> <http://www.w3.org/2004/02/skos/core#notation> "c" .
 <http://eurostat.linked-statistics.org/dic/flags#c> <http://www.w3.org/2004/02/skos/core#prefLabel> "confidential"@en .
+<http://eurostat.linked-statistics.org/dic/flags#d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://eurostat.linked-statistics.org/dic/flags#d> <http://www.w3.org/2004/02/skos/core#inScheme> <http://eurostat.linked-statistics.org/dic/flags> .
+<http://eurostat.linked-statistics.org/dic/flags#d> <http://www.w3.org/2004/02/skos/core#notation> "d" .
+<http://eurostat.linked-statistics.org/dic/flags#d> <http://www.w3.org/2004/02/skos/core#prefLabel> "definition differs (see metadata)"@en .
 <http://eurostat.linked-statistics.org/dic/flags#e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://eurostat.linked-statistics.org/dic/flags#e> <http://www.w3.org/2004/02/skos/core#inScheme> <http://eurostat.linked-statistics.org/dic/flags> .
 <http://eurostat.linked-statistics.org/dic/flags#e> <http://www.w3.org/2004/02/skos/core#notation> "e" .
