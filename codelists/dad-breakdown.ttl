@@ -213,7 +213,7 @@ ns20:breakdown	rdf:type	ns21:CodeList .
 ns20:breakdown	rdf:type	skos:ConceptScheme .
 @prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
 @prefix dct:	<http://purl.org/dc/terms/> .
-ns20:breakdown	dct:modified	"2022-04-01T16:01:08"^^xsd:dateTime ;
+ns20:breakdown	dct:modified	"2022-04-06T16:54:37"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://digital-agenda-data.eu/> ;
 	skos:prefLabel	"Code list for breakdowns used by Digital Agenda Scoreboard" ;
 	skos:notation	"CL_BREAKDOWN" .
@@ -2738,7 +2738,7 @@ ns25:egov_life_events	rdf:type	ns2:Breakdown ,
 	skos:notation	"egov_life_events" ;
 	skos:altLabel	"All Life Events" ;
 	ns4:membership	ns71:egov_life_events ;
-	skos:definition	"Biennial average over 8 (7 before 2016) life events. 4 life events being measured in odd years (e.g.2013, 2015, 2017 etc.) and 4 life events in even years (2012, 2014, 2016 etc.). \nOdd years life events consist of: Regular business operations;  General administration: moving; Owning and driving a car; Starting a small claims procedure. Even years life events consists of: Business Start-up; Losing and Finding a Job; Studying and Family*. \n*Family life event was introduced in 2016, therefore for the scores of 2013, 2014 and 2016 the total score was calculated over 7 life events." ;
+	skos:definition	"Biennial average over 9 life events. Life events are packages of government services which are usually provided by multiple government agencies around a subject that occur in relation each other, from the perspective of the citizen or entrepreneur concerned. In other words, life events are chains of services that are logically coherent from the perspective of actual users.\n5 life events being measured in odd years (e.g.2021, 2023) and 4 life events in even years (2020, 2022). \nOdd years life events consist of: Regular business operations;  Transport; Starting a small claims procedure; Moving; and Health. Even years life events consists of: Business Start-up; Career; Studying and Family. \n* Health life event was introduced in 2021" ;
 	skos:topConceptOf	ns20:breakdown .
 ns25:eid	rdf:type	ns2:Breakdown ,
 		skos:Concept ;

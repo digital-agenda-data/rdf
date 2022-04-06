@@ -65,7 +65,7 @@ ns1:e_cc1_si	rdf:type	ns2:Indicator ,
 ns8:indicator	rdf:type	ns9:CodeList ,
 		skos:ConceptScheme .
 @prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
-ns8:indicator	dct:modified	"2022-04-05T18:35:08"^^xsd:dateTime .
+ns8:indicator	dct:modified	"2022-04-06T17:22:49"^^xsd:dateTime .
 @prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
 ns8:indicator	rdfs:isDefinedBy	<http://digital-agenda-data.eu/> ;
 	skos:prefLabel	"Code list for indicators used by Digital Agenda Scoreboard" ;
@@ -411,6 +411,7 @@ ns8:indicator	rdfs:isDefinedBy	<http://digital-agenda-data.eu/> ;
 		ns1:i_dsk2_cc_b ,
 		ns1:i_dsk2_cc_bab ,
 		ns1:i_dsk2_dcc_ab ,
+		ns1:ict_grad ,
 		ns1:i_dsk2_n ,
 		ns1:i_dsk2_ps_ab .
 @prefix ns12:	<http://semantic.digital-agenda-data.eu/def/> .
@@ -633,7 +634,7 @@ ns20:mob_arpm	rdf:type	ns2:IndicatorToGroupMembership ;
 ns7:e_ads	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ebusiness" ;
 	ns6:member-of	ns14:ebusiness ;
-	ns6:order	"15" .
+	ns6:order	"14" .
 ns7:e_bd	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ebusiness" ;
 	ns6:member-of	ns14:ebusiness ;
@@ -673,11 +674,11 @@ ns7:e_erp1	rdf:type	ns2:IndicatorToGroupMembership ;
 ns7:e_invsnd	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ebusiness" ;
 	ns6:member-of	ns14:ebusiness ;
-	ns6:order	"8" .
+	ns6:order	"6" .
 ns7:e_pmd_app	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ebusiness" ;
 	ns6:member-of	ns14:ebusiness ;
-	ns6:order	"14" .
+	ns6:order	"13" .
 ns7:e_ra	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ebusiness" ;
 	ns6:member-of	ns14:ebusiness ;
@@ -685,19 +686,19 @@ ns7:e_ra	rdf:type	ns2:IndicatorToGroupMembership ;
 ns7:e_rfac	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ebusiness" ;
 	ns6:member-of	ns14:ebusiness ;
-	ns6:order	"21" .
+	ns6:order	"23" .
 ns7:e_rfid	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ebusiness" ;
 	ns6:member-of	ns14:ebusiness ;
-	ns6:order	"20" .
+	ns6:order	"22" .
 ns7:e_rfpsas	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ebusiness" ;
 	ns6:member-of	ns14:ebusiness ;
-	ns6:order	"22" .
+	ns6:order	"24" .
 ns7:e_sisc	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ebusiness" ;
 	ns6:member-of	ns14:ebusiness ;
-	ns6:order	"7" .
+	ns6:order	"4" .
 ns7:e_sm_any	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ebusiness" ;
 	ns6:member-of	ns14:ebusiness ;
@@ -717,7 +718,7 @@ ns7:e_webf2	rdf:type	ns2:IndicatorToGroupMembership ;
 ns7:edigint2015	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ebusiness" ;
 	ns6:member-of	ns14:ebusiness ;
-	ns6:order	"18" .
+	ns6:order	"15" .
 @prefix ns21:	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ecommerce/> .
 ns21:e_aeseu	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ecommerce" ;
@@ -1663,7 +1664,7 @@ ns1:e_bd	rdf:type	ns2:Indicator ,
 	skos:prefLabel	"Enterprises analysing big data from any data source" ;
 	dct:source	ns5:estat-ent ;
 	skos:notation	"e_bd" ;
-	skos:altLabel	"Enterprises analysing big data from any data source" ;
+	skos:altLabel	"Enterprises analysing big data from any data source (until 2018)" ;
 	ns6:membership	ns7:e_bd ;
 	skos:definition	"Analyse big data from any data source" ;
 	skos:topConceptOf	ns8:indicator .
@@ -2159,10 +2160,10 @@ ns1:e_inv	rdf:type	ns2:Indicator ,
 	skos:topConceptOf	ns8:indicator .
 ns1:e_invsnd	rdf:type	ns2:Indicator ,
 		skos:Concept ;
-	skos:prefLabel	"Enterprises sending e-invoices (derived indicator)" ;
+	skos:prefLabel	"Enterprises sending e-invoices (derived indicator, until 2017)" ;
 	dct:source	ns5:estat_isoc_bde15disc ;
 	skos:notation	"e_invsnd" ;
-	skos:altLabel	"Enterprises sending e-invoices" ;
+	skos:altLabel	"Enterprises sending e-invoices (until 2017)" ;
 	ns6:membership	ns7:e_invsnd ;
 	skos:definition	"The indicator refers to sending invoices in an agreed standard format (as EDIFACT, XML, etc) which allows their automatic processing, without the individual message being manually typed. Eurostat variable e_inv3sbg_ap_gt0" ;
 	skos:note	"Break in series in 2011 because of a new more precise question. Break in series in 2014 because of introduction of a limitation to invoices sent to business or public organisations." ;
@@ -3430,6 +3431,19 @@ ns1:e_gov_4b_bm_us	rdf:type	ns2:Indicator ,
 	ns6:membership	ns22:e_gov_4b_bm_us ;
 	skos:definition	"Online support and help features on services aimed at foreign businesses." ;
 	skos:topConceptOf	ns8:indicator .
+ns26:ict_grad	rdf:type	ns2:IndicatorToGroupMembership ;
+	rdfs:label	"ict-skills" ;
+	ns6:member-of	ns14:ict-skills ;
+	ns6:order	"31" .
+ns1:ict_grad	rdf:type	skos:Concept ,
+		ns2:Indicator ;
+	skos:prefLabel	"ICT graduates" ;
+	dct:source	ns5:estat_educ_uoe_grad03 ;
+	skos:notation	"ict_grad" ;
+	skos:altLabel	"ICT graduates" ;
+	ns6:membership	ns26:ict_grad ;
+	skos:definition	"Individuals with a degree in ICT" ;
+	skos:topConceptOf	ns8:indicator .
 ns17:bb_rvhcncov	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"broadband" ;
 	ns6:member-of	ns14:broadband ;
@@ -4530,39 +4544,40 @@ ns7:e_bda	rdf:type	ns2:IndicatorToGroupMembership ;
 ns7:e_di3_hi	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ebusiness" ;
 	ns6:member-of	ns14:ebusiness ;
-	ns6:order	"19"^^xsd:byte .
+	ns6:order	"19" .
 ns7:e_di3_lo	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ebusiness" ;
 	ns6:member-of	ns14:ebusiness ;
-	ns6:order	"20"^^xsd:byte .
+	ns6:order	"20" .
 ns7:e_di3_vhi	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ebusiness" ;
 	ns6:member-of	ns14:ebusiness ;
-	ns6:order	"18"^^xsd:byte .
+	ns6:order	"18" .
 ns7:e_di3_vlo	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ebusiness" ;
 	ns6:member-of	ns14:ebusiness ;
-	ns6:order	"21"^^xsd:byte .
+	ns6:order	"21" .
 ns7:e_inv4s_ap	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ebusiness" ;
 	ns6:member-of	ns14:ebusiness ;
-	ns6:order	"8"^^xsd:byte .
+	ns6:order	"5" .
 ns1:e_bda	rdf:type	ns2:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"Enterprises analysing big data (2020)" ;
 	dct:source	ns5:estat_isoc_eb_bd ;
 	skos:notation	"e_bda" ;
-	skos:altLabel	"Enterprises analysing big data (2020)" ;
+	skos:altLabel	"Enterprises analysing big data from any data source" ;
 	ns6:membership	ns7:e_bda ;
 	skos:definition	"Analyse big data internally from any data source or externally" ;
 	skos:topConceptOf	ns8:indicator .
 ns1:e_inv4s_ap	rdf:type	ns2:Indicator ,
 		skos:Concept ;
-	skos:prefLabel	"Enterprises sending e-invoices, suitable for automatic processing" ;
+	skos:prefLabel	"Enterprises sending e-invoices" ;
 	dct:source	ns5:estat_isoc_bde15disc ;
 	skos:notation	"e_inv4s_ap" ;
-	skos:altLabel	"Enterprises sending eInvoices, suitable for automatic processing" ;
+	skos:altLabel	"Enterprises sending e-invoices" ;
 	ns6:membership	ns7:e_inv4s_ap ;
+	skos:definition	"Enterprises sending eInvoices, suitable for automatic processing" ;
 	skos:topConceptOf	ns8:indicator .
 ns1:i_dsk_l	rdf:type	skos:Concept ,
 		ns2:Indicator ;

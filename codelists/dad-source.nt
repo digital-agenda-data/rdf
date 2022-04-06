@@ -387,6 +387,13 @@
 <http://semantic.digital-agenda-data.eu/codelist/source/estat-trade>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Eurostat - Trade statistics" .
 <http://semantic.digital-agenda-data.eu/codelist/source/estat-trade>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/source> .
 <http://semantic.digital-agenda-data.eu/codelist/source/estat-trade>	<http://xmlns.com/foaf/0.1/page>	<http://ec.europa.eu/eurostat/web/international-trade/data/database> .
+<http://semantic.digital-agenda-data.eu/codelist/source/estat_educ_uoe_grad03>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Source> .
+<http://semantic.digital-agenda-data.eu/codelist/source/estat_educ_uoe_grad03>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/source/estat_educ_uoe_grad03>	<http://www.w3.org/2004/02/skos/core#definition>	"Eurostat (table educ_uoe_grad03, using selection ISCED11=ED5-8) and and ISCEDF_13 [F06] Information and Communication Technologies" .
+<http://semantic.digital-agenda-data.eu/codelist/source/estat_educ_uoe_grad03>	<http://www.w3.org/2004/02/skos/core#notation>	"estat_educ_uoe_grad03" .
+<http://semantic.digital-agenda-data.eu/codelist/source/estat_educ_uoe_grad03>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Eurostat, Table educ_uoe_grad03: Distribution of graduates at education level and programme orientation by sex and field of education" .
+<http://semantic.digital-agenda-data.eu/codelist/source/estat_educ_uoe_grad03>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/source> .
+<http://semantic.digital-agenda-data.eu/codelist/source/estat_educ_uoe_grad03>	<http://xmlns.com/foaf/0.1/page>	<https://ec.europa.eu/eurostat/web/products-datasets/-/educ_uoe_grad03> .
 <http://semantic.digital-agenda-data.eu/codelist/source/estat_gba_nabsfin07>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Source> .
 <http://semantic.digital-agenda-data.eu/codelist/source/estat_gba_nabsfin07>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
 <http://semantic.digital-agenda-data.eu/codelist/source/estat_gba_nabsfin07>	<http://www.w3.org/2004/02/skos/core#definition>	"Eurostat, Table gba_nabsfin07: Total GBAORD by NABS 2007 socio-economic objectives" .
@@ -812,7 +819,7 @@
 <http://semantic.digital-agenda-data.eu/codelist/source/smart11_39>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Analysis of publications and patents of ICT research in FP7" .
 <http://semantic.digital-agenda-data.eu/codelist/source/smart11_39>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/source> .
 <http://semantic.digital-agenda-data.eu/codelist/source/smart11_39>	<http://xmlns.com/foaf/0.1/page>	<http://ec.europa.eu/digital-agenda/en/digital-agenda-you/our-studies-and-open-datasets> .
-<http://semantic.digital-agenda-data.eu/codelist/source>	<http://purl.org/dc/terms/modified>	"2022-04-05T18:55:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://semantic.digital-agenda-data.eu/codelist/source>	<http://purl.org/dc/terms/modified>	"2022-04-06T17:18:05"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://semantic.digital-agenda-data.eu/codelist/source>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#ConceptScheme> .
 <http://semantic.digital-agenda-data.eu/codelist/source>	<http://www.w3.org/2000/01/rdf-schema#isDefinedBy>	<http://digital-agenda-data.eu/> .
 <http://semantic.digital-agenda-data.eu/codelist/source>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/source/abac> .
@@ -874,6 +881,7 @@
 <http://semantic.digital-agenda-data.eu/codelist/source>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/source/estat-lfs-sks> .
 <http://semantic.digital-agenda-data.eu/codelist/source>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/source/estat-lfs> .
 <http://semantic.digital-agenda-data.eu/codelist/source>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/source/estat-trade> .
+<http://semantic.digital-agenda-data.eu/codelist/source>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/source/estat_educ_uoe_grad03> .
 <http://semantic.digital-agenda-data.eu/codelist/source>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/source/estat_gba_nabsfin07> .
 <http://semantic.digital-agenda-data.eu/codelist/source>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/source/estat_isoc_bde15b_e> .
 <http://semantic.digital-agenda-data.eu/codelist/source>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/source/estat_isoc_bde15b_h> .
