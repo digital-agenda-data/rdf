@@ -213,12 +213,15 @@ ns20:breakdown	rdf:type	ns21:CodeList .
 ns20:breakdown	rdf:type	skos:ConceptScheme .
 @prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
 @prefix dct:	<http://purl.org/dc/terms/> .
-ns20:breakdown	dct:modified	"2022-04-06T16:54:37"^^xsd:dateTime ;
+ns20:breakdown	dct:modified	"2022-07-04T12:12:42"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://digital-agenda-data.eu/> ;
 	skos:prefLabel	"Code list for breakdowns used by Digital Agenda Scoreboard" ;
 	skos:notation	"CL_BREAKDOWN" .
 @prefix ns25:	<http://semantic.digital-agenda-data.eu/codelist/breakdown/> .
 ns20:breakdown	skos:hasTopConcept	ns25:men ,
+		ns25:all_egov_le_new ,
+		ns25:e_gov_scope_1_new ,
+		ns25:e_gov_scope_2_new ,
 		ns25:gen_pract ,
 		<http://semantic.digital-agenda-data.eu/codelist/breakdown/5g_pb> ,
 		ns25:isco_ict ,
@@ -4160,6 +4163,42 @@ ns25:e_gov_scope_2	rdf:type	ns2:Breakdown ,
 	skos:notation	"e_gov_scope_2" ;
 	skos:altLabel	"Business life events" ;
 	ns4:membership	ns79:e_gov_scope_2 ;
+	skos:definition	"The business life events are: Regular business operations and Business Start-up" ;
+	skos:topConceptOf	ns20:breakdown .
+ns79:e_gov_scope_1_new	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"e_gov_scope" ;
+	ns4:member-of	ns5:e_gov_scope ;
+	ns4:order	"1" .
+ns79:e_gov_scope_2_new	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"e_gov_scope" ;
+	ns4:member-of	ns5:e_gov_scope ;
+	ns4:order	"2" .
+ns71:all_egov_le_new	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"total" ;
+	ns4:member-of	ns5:total ;
+	ns4:order	"1" .
+ns25:all_egov_le_new	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"All Life Events" ;
+	skos:notation	"all_egov_le_new" ;
+	skos:altLabel	"All Life Events" ;
+	ns4:membership	ns71:all_egov_le_new ;
+	skos:definition	"The following life events are included in the scope: Regular business operations; Transport; Starting a small claims procedure; Moving; and Health; Business Start-up; Career; Studying and Family. Health life event was introduced in 2021" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:e_gov_scope_1_new	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Citizen life events" ;
+	skos:notation	"e_gov_scope_1_new" ;
+	skos:altLabel	"Citizen life events" ;
+	ns4:membership	ns79:e_gov_scope_1_new ;
+	skos:definition	"The citizen life events are: Transport; Starting a small claims procedure; Moving; and Health;  Career; Studying and Family. * Health life event was introduced in 2021" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:e_gov_scope_2_new	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Business life events" ;
+	skos:notation	"e_gov_scope_2_new" ;
+	skos:altLabel	"Business life events" ;
+	ns4:membership	ns79:e_gov_scope_2_new ;
 	skos:definition	"The business life events are: Regular business operations and Business Start-up" ;
 	skos:topConceptOf	ns20:breakdown .
 ns25:cb_for	rdf:type	ns2:Breakdown ,

@@ -846,10 +846,18 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/egovernment/e_gov_dpsc>	<http://semantic.digital-agenda-data.eu/def/property/order>	"3" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/egovernment/e_gov_dpsc>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/egovernment/e_gov_dpsc>	<http://www.w3.org/2000/01/rdf-schema#label>	"egovernment" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/egovernment/e_gov_dpsc_new>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/egovernment> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/egovernment/e_gov_dpsc_new>	<http://semantic.digital-agenda-data.eu/def/property/order>	"3" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/egovernment/e_gov_dpsc_new>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/egovernment/e_gov_dpsc_new>	<http://www.w3.org/2000/01/rdf-schema#label>	"egovernment" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/egovernment/e_gov_ebus>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/egovernment> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/egovernment/e_gov_ebus>	<http://semantic.digital-agenda-data.eu/def/property/order>	"4" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/egovernment/e_gov_ebus>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/egovernment/e_gov_ebus>	<http://www.w3.org/2000/01/rdf-schema#label>	"egovernment" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/egovernment/e_gov_ebus_new>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/egovernment> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/egovernment/e_gov_ebus_new>	<http://semantic.digital-agenda-data.eu/def/property/order>	"4" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/egovernment/e_gov_ebus_new>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/egovernment/e_gov_ebus_new>	<http://www.w3.org/2000/01/rdf-schema#label>	"egovernment" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/egovernment/e_gov_ke>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/egovernment> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/egovernment/e_gov_ke>	<http://semantic.digital-agenda-data.eu/def/property/order>	"8" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/egovernment/e_gov_ke>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
@@ -870,6 +878,10 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/egovernment/e_gov_pff>	<http://semantic.digital-agenda-data.eu/def/property/order>	"2" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/egovernment/e_gov_pff>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/egovernment/e_gov_pff>	<http://www.w3.org/2000/01/rdf-schema#label>	"egovernment" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/egovernment/e_gov_pff_new>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/egovernment> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/egovernment/e_gov_pff_new>	<http://semantic.digital-agenda-data.eu/def/property/order>	"2" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/egovernment/e_gov_pff_new>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/egovernment/e_gov_pff_new>	<http://www.w3.org/2000/01/rdf-schema#label>	"egovernment" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/egovernment/epsi_score>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/egovernment> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/egovernment/epsi_score>	<http://semantic.digital-agenda-data.eu/def/property/order>	"5" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/egovernment/epsi_score>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
@@ -2995,6 +3007,15 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_gov_dpsc>	<http://www.w3.org/2004/02/skos/core#note>	"It is calculated as the average of the national and cross-border online availability for basic and extended services within the citizen-related Life Events from the last two\nyears (Family, Career, Studying, Moving, Owning and driving a car and Starting a small claims procedure)." .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_gov_dpsc>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Digital Public Services for Citizens" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_gov_dpsc>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/e_gov_dpsc_new>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/e_gov_dpsc_new>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/egovernment/e_gov_dpsc_new> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/e_gov_dpsc_new>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/e_gov_dpsc_new>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/e_gov_dpsc_new>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Digital Public Services for Citizens (from 2021)" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/e_gov_dpsc_new>	<http://www.w3.org/2004/02/skos/core#definition>	"The extent to which a service or information concerning service for citizens is provided online, and via a portal. Services that are offered fully, partially or not at all online. " .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/e_gov_dpsc_new>	<http://www.w3.org/2004/02/skos/core#notation>	"e_gov_dpsc_new" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/e_gov_dpsc_new>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Digital Public Services for Citizens (from 2021)" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/e_gov_dpsc_new>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_gov_ebus>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/egov_bench> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_gov_ebus>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/egovernment/e_gov_ebus> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_gov_ebus>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
@@ -3005,6 +3026,15 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_gov_ebus>	<http://www.w3.org/2004/02/skos/core#note>	"It is calculated as the average of the national and cross-border online availability for basic and extended services within the business-related Life Events from the last two\nyears (Business Start-up and Regular Business\nOperations). Until 2019 (included), the indicator was measuring Basic services for National and Cross-Border. Meaning that as of 2020, the extended services were also added.\nThe data was recalculated to include EU27 Average. " .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_gov_ebus>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Digital Public Services for Businesses" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_gov_ebus>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/e_gov_ebus_new>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/e_gov_ebus_new>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/egovernment/e_gov_ebus_new> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/e_gov_ebus_new>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/e_gov_ebus_new>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/e_gov_ebus_new>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Digital Public Services for Businesses (from 2021)" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/e_gov_ebus_new>	<http://www.w3.org/2004/02/skos/core#definition>	"The extent to which a service or information concerning service for businesses is provided online and via a portal. Services that are offered fully, partially or not at all online. " .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/e_gov_ebus_new>	<http://www.w3.org/2004/02/skos/core#notation>	"e_gov_ebus_new" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/e_gov_ebus_new>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Digital Public Services for Businesses (from 2021)" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/e_gov_ebus_new>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_gov_ke>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/egov_bench14> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_gov_ke>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/egovernment/e_gov_ke> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_gov_ke>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
@@ -3055,6 +3085,15 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_gov_pff>	<http://www.w3.org/2004/02/skos/core#note>	"The data was recalculated to include EU27 Average." .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_gov_pff>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Pre-filled forms" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_gov_pff>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/e_gov_pff_new>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/e_gov_pff_new>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/egovernment/e_gov_pff_new> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/e_gov_pff_new>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/e_gov_pff_new>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/e_gov_pff_new>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Pre-filled forms (from 2021)" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/e_gov_pff_new>	<http://www.w3.org/2004/02/skos/core#definition>	"Amount of data that is pre-filled in Public Services' online forms (Authentic sources Key Enabler indicator of eGovernment benchmark)" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/e_gov_pff_new>	<http://www.w3.org/2004/02/skos/core#notation>	"e_gov_pff_new" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/e_gov_pff_new>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Pre-filled forms (from 2021)" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/e_gov_pff_new>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_igov2pr>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/estat_isoc_bde15dec> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_igov2pr>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/discontinued/e_igov2pr> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_igov2pr>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
@@ -5051,7 +5090,7 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator/wid_ui_part>	<http://www.w3.org/2004/02/skos/core#notation>	"wid_ui_part" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/wid_ui_part>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"1.5 Online consultations or voting" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/wid_ui_part>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://purl.org/dc/terms/modified>	"2022-05-15T12:58:16"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://purl.org/dc/terms/modified>	"2022-07-04T12:12:12"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://purl.org/linked-data/sdmx#CodeList> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#ConceptScheme> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2000/01/rdf-schema#isDefinedBy>	<http://digital-agenda-data.eu/> .
@@ -5216,12 +5255,15 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/e_gov_5e_ke_esafe> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/e_gov_5f_ke_sso> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/e_gov_dpsc> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/e_gov_dpsc_new> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/e_gov_ebus> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/e_gov_ebus_new> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/e_gov_ke> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/e_gov_od> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/e_gov_opa> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/e_gov_osc> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/e_gov_pff> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/e_gov_pff_new> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/e_igov2pr> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/e_igov> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/e_igovrt> .

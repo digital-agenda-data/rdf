@@ -65,7 +65,7 @@ ns1:e_cc1_si	rdf:type	ns2:Indicator ,
 ns8:indicator	rdf:type	ns9:CodeList ,
 		skos:ConceptScheme .
 @prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
-ns8:indicator	dct:modified	"2022-05-15T12:58:16"^^xsd:dateTime .
+ns8:indicator	dct:modified	"2022-07-04T12:12:12"^^xsd:dateTime .
 @prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
 ns8:indicator	rdfs:isDefinedBy	<http://digital-agenda-data.eu/> ;
 	skos:prefLabel	"Code list for indicators used by Digital Agenda Scoreboard" ;
@@ -179,6 +179,9 @@ ns8:indicator	rdfs:isDefinedBy	<http://digital-agenda-data.eu/> ;
 		ns1:i_dsk_ab ,
 		ns1:i_dsk_i_x ,
 		ns1:i_dsk_ps_x ,
+		ns1:e_gov_dpsc_new ,
+		ns1:e_gov_ebus_new ,
+		ns1:e_gov_pff_new ,
 		ns1:desi_sliders ,
 		ns1:c1_datatraffic ,
 		ns1:desi ,
@@ -3961,6 +3964,45 @@ ns1:ict_grad	rdf:type	skos:Concept ,
 	skos:altLabel	"ICT graduates" ;
 	ns6:membership	ns26:ict_grad ;
 	skos:definition	"Individuals with a degree in ICT" ;
+	skos:topConceptOf	ns8:indicator .
+ns22:e_gov_dpsc_new	rdf:type	ns2:IndicatorToGroupMembership ;
+	rdfs:label	"egovernment" ;
+	ns6:member-of	ns14:egovernment ;
+	ns6:order	"3" .
+ns22:e_gov_ebus_new	rdf:type	ns2:IndicatorToGroupMembership ;
+	rdfs:label	"egovernment" ;
+	ns6:member-of	ns14:egovernment ;
+	ns6:order	"4" .
+ns22:e_gov_pff_new	rdf:type	ns2:IndicatorToGroupMembership ;
+	rdfs:label	"egovernment" ;
+	ns6:member-of	ns14:egovernment ;
+	ns6:order	"2" .
+ns1:e_gov_dpsc_new	rdf:type	skos:Concept ,
+		ns2:Indicator ;
+	skos:prefLabel	"Digital Public Services for Citizens (from 2021)" ;
+	dct:source	ns5: ;
+	skos:notation	"e_gov_dpsc_new" ;
+	skos:altLabel	"Digital Public Services for Citizens (from 2021)" ;
+	ns6:membership	ns22:e_gov_dpsc_new ;
+	skos:definition	"The extent to which a service or information concerning service for citizens is provided online, and via a portal. Services that are offered fully, partially or not at all online. " ;
+	skos:topConceptOf	ns8:indicator .
+ns1:e_gov_ebus_new	rdf:type	skos:Concept ,
+		ns2:Indicator ;
+	skos:prefLabel	"Digital Public Services for Businesses (from 2021)" ;
+	dct:source	ns5: ;
+	skos:notation	"e_gov_ebus_new" ;
+	skos:altLabel	"Digital Public Services for Businesses (from 2021)" ;
+	ns6:membership	ns22:e_gov_ebus_new ;
+	skos:definition	"The extent to which a service or information concerning service for businesses is provided online and via a portal. Services that are offered fully, partially or not at all online. " ;
+	skos:topConceptOf	ns8:indicator .
+ns1:e_gov_pff_new	rdf:type	skos:Concept ,
+		ns2:Indicator ;
+	skos:prefLabel	"Pre-filled forms (from 2021)" ;
+	dct:source	ns5: ;
+	skos:notation	"e_gov_pff_new" ;
+	skos:altLabel	"Pre-filled forms (from 2021)" ;
+	ns6:membership	ns22:e_gov_pff_new ;
+	skos:definition	"Amount of data that is pre-filled in Public Services' online forms (Authentic sources Key Enabler indicator of eGovernment benchmark)" ;
 	skos:topConceptOf	ns8:indicator .
 ns17:bb_rvhcncov	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"broadband" ;
