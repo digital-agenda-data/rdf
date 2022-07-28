@@ -142,6 +142,12 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/research_einfra>	<http://www.w3.org/2004/02/skos/core#notation>	"research_einfra" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/research_einfra>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Research e-Infrastructures" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/research_einfra>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/rid>	<http://semantic.digital-agenda-data.eu/def/property/order>	"93" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/rid>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorGroup> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/rid>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/rid>	<http://www.w3.org/2004/02/skos/core#notation>	"rid" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/rid>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Rural in Digital" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/rid>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/security-privacy>	<http://semantic.digital-agenda-data.eu/def/property/order>	"105" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/security-privacy>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorGroup> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/security-privacy>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
@@ -160,7 +166,7 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/wid>	<http://www.w3.org/2004/02/skos/core#notation>	"wid" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/wid>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Women in Digital" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/wid>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group>	<http://purl.org/dc/terms/modified>	"2021-11-12T10:34:28"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group>	<http://purl.org/dc/terms/modified>	"2022-07-28T10:49:28"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://purl.org/linked-data/sdmx#CodeList> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#ConceptScheme> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group>	<http://www.w3.org/2000/01/rdf-schema#isDefinedBy>	<http://digital-agenda-data.eu/> .
@@ -188,6 +194,7 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/mobile> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/research-and-development> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/research_einfra> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/rid> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/security-privacy> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/telecom> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/wid> .

@@ -4402,6 +4402,7 @@
 <http://semantic.digital-agenda-data.eu/codelist/time-period>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://reference.data.gov.uk/id/gregorian-year/2019> .
 <http://semantic.digital-agenda-data.eu/codelist/time-period>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://reference.data.gov.uk/id/gregorian-year/2020> .
 <http://semantic.digital-agenda-data.eu/codelist/time-period>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://reference.data.gov.uk/id/gregorian-year/2021> .
+<http://semantic.digital-agenda-data.eu/codelist/time-period>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://reference.data.gov.uk/id/gregorian-year/2022> .
 <http://semantic.digital-agenda-data.eu/codelist/time-period>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://reference.data.gov.uk/id/gregorian-year/> .
 <http://semantic.digital-agenda-data.eu/codelist/time-period>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://reference.data.gov.uk/id/gregorian-year/EC_ALL> .
 <http://semantic.digital-agenda-data.eu/codelist/time-period>	<http://www.w3.org/2004/02/skos/core#inScheme>	<http://semantic.digital-agenda-data.eu/def/scheme> .

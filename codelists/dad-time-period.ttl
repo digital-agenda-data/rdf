@@ -4454,6 +4454,7 @@ ns7:time-period	skos:hasTopConcept	ns48:EC_ALL ,
 		<http://reference.data.gov.uk/id/gregorian-year/2014> ,
 		<http://reference.data.gov.uk/id/gregorian-year/2015> ,
 		<http://reference.data.gov.uk/id/gregorian-year/2016> ,
-		<http://reference.data.gov.uk/id/gregorian-month/2021-06> .
+		<http://reference.data.gov.uk/id/gregorian-month/2021-06> ,
+		<http://reference.data.gov.uk/id/gregorian-year/2022> .
 @prefix ns49:	<http://semantic.digital-agenda-data.eu/def/> .
 ns7:time-period	skos:inScheme	ns49:scheme .

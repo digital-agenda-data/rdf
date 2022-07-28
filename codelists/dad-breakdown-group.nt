@@ -511,6 +511,13 @@
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/others>	<http://www.w3.org/2004/02/skos/core#notation>	"others" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/others>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"others" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/others>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/rid_score>	<http://semantic.digital-agenda-data.eu/def/property/order>	"115" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/rid_score>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/BreakdownGroup> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/rid_score>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/rid_score>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Rural in digital score" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/rid_score>	<http://www.w3.org/2004/02/skos/core#notation>	"rid_score" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/rid_score>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Rural in Digital score" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/rid_score>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/rural_pop>	<http://semantic.digital-agenda-data.eu/def/property/order>	"23" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/rural_pop>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/BreakdownGroup> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/rural_pop>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
@@ -549,7 +556,7 @@
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/workingscheme>	<http://www.w3.org/2004/02/skos/core#notation>	"workingscheme" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/workingscheme>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Working patterns and conditions" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/workingscheme>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown-group>	<http://purl.org/dc/terms/modified>	"2021-11-12T10:35:07"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group>	<http://purl.org/dc/terms/modified>	"2022-07-28T10:49:49"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://purl.org/linked-data/sdmx#CodeList> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#ConceptScheme> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group>	<http://www.w3.org/2000/01/rdf-schema#isDefinedBy>	<http://digital-agenda-data.eu/> .
@@ -621,6 +628,7 @@
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/mhz_bands> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/others> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/rid_score> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/rural_pop> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/sos_agg> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/total> .

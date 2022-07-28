@@ -825,6 +825,13 @@
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/psi_score>	<http://www.w3.org/2004/02/skos/core#notation>	"psi_score" .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/psi_score>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Score (0 to 700)" .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/psi_score>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/rid_score>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/rid_score>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/rid_score>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Score (0 to 1)" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/rid_score>	<http://www.w3.org/2004/02/skos/core#definition>	"Rural Digital Index" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/rid_score>	<http://www.w3.org/2004/02/skos/core#notation>	"rid_score" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/rid_score>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Score (0 to 1)" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/rid_score>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/subs_per_100_pop>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/subs_per_100_pop>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/subs_per_100_pop>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Subscriptions per 100 people" .
@@ -871,7 +878,7 @@
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/wid_score>	<http://www.w3.org/2004/02/skos/core#notation>	"wid_score" .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/wid_score>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Score (0 to 1)" .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/wid_score>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
-<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://purl.org/dc/terms/modified>	"2021-11-12T10:34:50"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://purl.org/dc/terms/modified>	"2022-07-28T10:50:01"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://purl.org/linked-data/sdmx#CodeList> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#ConceptScheme> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2000/01/rdf-schema#isDefinedBy>	<http://digital-agenda-data.eu/> .
@@ -1002,6 +1009,7 @@
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_turn> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_websites> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/psi_score> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/rid_score> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/subs_per_100_pop> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/terabite> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/th_ind> .

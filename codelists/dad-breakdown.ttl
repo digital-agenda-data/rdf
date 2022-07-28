@@ -48,10 +48,6 @@ ns8:desi_ufbbtu	rdf:type	ns2:BreakdownToGroupMembership ;
 	ns4:member-of	ns5:desi_c_fbbtc ;
 	ns4:order	"2" .
 @prefix ns9:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/desi_c_mbb/> .
-ns9:desi_4g	rdf:type	ns2:BreakdownToGroupMembership ;
-	rdfs:label	"desi_c_mbb" ;
-	ns4:member-of	ns5:desi_c_mbb ;
-	ns4:order	"1" .
 ns9:desi_5g	rdf:type	ns2:BreakdownToGroupMembership ;
 	rdfs:label	"desi_c_mbb" ;
 	ns4:member-of	ns5:desi_c_mbb ;
@@ -213,7 +209,7 @@ ns20:breakdown	rdf:type	ns21:CodeList .
 ns20:breakdown	rdf:type	skos:ConceptScheme .
 @prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
 @prefix dct:	<http://purl.org/dc/terms/> .
-ns20:breakdown	dct:modified	"2022-07-04T12:12:42"^^xsd:dateTime ;
+ns20:breakdown	dct:modified	"2022-07-28T10:49:38"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://digital-agenda-data.eu/> ;
 	skos:prefLabel	"Code list for breakdowns used by Digital Agenda Scoreboard" ;
 	skos:notation	"CL_BREAKDOWN" .
@@ -241,7 +237,6 @@ ns20:breakdown	skos:hasTopConcept	ns25:men ,
 		ns25:desi_dps_egovuser ,
 		ns25:desi_dps_opendata ,
 		ns25:desi_dps_prefform ,
-		ns25:desi_4g ,
 		ns25:desi_5g ,
 		ns25:desi_5gc ,
 		ns25:desi_bbpi ,
@@ -280,6 +275,8 @@ ns20:breakdown	skos:hasTopConcept	ns25:men ,
 		ns25:desi_hc ,
 		ns25:desi_hc_abds ,
 		ns25:desi_hc_abss ,
+		ns25:desi_fttpc ,
+		ns25:rid_score ,
 		ns25:cb_for ,
 		ns25:cc_for ,
 		ns25:rf_ge1 ,
@@ -4219,18 +4216,11 @@ ns30:cb_for	rdf:type	ns2:BreakdownToGroupMembership ;
 	rdfs:label	"bycbirth" ;
 	ns4:member-of	ns5:bycbirth ;
 	ns4:order	"5" .
-ns25:desi_4g	rdf:type	skos:Concept ,
-		ns2:Breakdown ;
-	skos:prefLabel	"4G coverage" ;
-	skos:notation	"desi_4g" ;
-	skos:altLabel	"4G coverage" ;
-	ns4:membership	ns9:desi_4g ;
-	skos:topConceptOf	ns20:breakdown .
 ns25:desi_5g	rdf:type	skos:Concept ,
 		ns2:Breakdown ;
-	skos:prefLabel	"5G readiness" ;
+	skos:prefLabel	"5G spectrum" ;
 	skos:notation	"desi_5g" ;
-	skos:altLabel	"5G readiness" ;
+	skos:altLabel	"5G spectrum" ;
 	ns4:membership	ns9:desi_5g ;
 	skos:topConceptOf	ns20:breakdown .
 ns25:desi_5gc	rdf:type	skos:Concept ,
@@ -4368,9 +4358,9 @@ ns25:desi_hc_abds	rdf:type	ns2:Breakdown ,
 	skos:topConceptOf	ns20:breakdown .
 ns25:desi_hc_abss	rdf:type	ns2:Breakdown ,
 		skos:Concept ;
-	skos:prefLabel	"At least basic software skills" ;
+	skos:prefLabel	"At least basic digital content creation skills" ;
 	skos:notation	"desi_hc_abss" ;
-	skos:altLabel	"At least basic software skills" ;
+	skos:altLabel	"At least basic digital content creation skills" ;
 	ns4:membership	ns15:desi_hc_abss ;
 	skos:topConceptOf	ns20:breakdown .
 ns25:desi_hc_asd	rdf:type	ns2:Breakdown ,
@@ -4590,94 +4580,117 @@ ns25:e_gov_events_9	rdf:type	ns2:Breakdown ,
 	ns4:membership	ns57:e_gov_events_9 ;
 	skos:definition	"A citizen life event related to the health domain, covering services around: obtain a European Health Insurance Card, applying for electronic health records. A total of 7 services are assessed under this life event." ;
 	skos:topConceptOf	ns20:breakdown .
+ns9:desi_fttpc	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"desi_c_mbb" ;
+	ns4:member-of	ns5:desi_c_mbb ;
+	ns4:order	"1" .
+@prefix ns80:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/rid_score/> .
+ns80:rid_score	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"rid_score" ;
+	ns4:member-of	ns5:rid_score ;
+	ns4:order	"1" .
+ns25:desi_fttpc	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"FTTP coverage" ;
+	skos:notation	"desi_fttpc" ;
+	skos:altLabel	"FTTP coverage" ;
+	ns4:membership	ns9:desi_fttpc ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:rid_score	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Score for Rural Digital Index" ;
+	skos:notation	"rid_score" ;
+	skos:altLabel	"Score for Rural Digital Index" ;
+	ns4:membership	ns80:rid_score ;
+	skos:topConceptOf	ns20:breakdown .
 ns25:emp_con_prm	rdf:type	ns2:Breakdown ,
 		skos:Concept ;
 	skos:prefLabel	"Working with a permanent job or under contract of unlimited duration" ;
 	skos:notation	"emp_con_prm" ;
 	skos:altLabel	"Working with a permanent job or under contract of unlimited duration" .
-@prefix ns80:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/workingscheme/> .
-ns25:emp_con_prm	ns4:membership	ns80:emp_con_prm ;
+@prefix ns81:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/workingscheme/> .
+ns25:emp_con_prm	ns4:membership	ns81:emp_con_prm ;
 	skos:topConceptOf	ns20:breakdown .
 ns25:emp_con_tmp	rdf:type	ns2:Breakdown ,
 		skos:Concept ;
 	skos:prefLabel	"Working with a temporary job or under contract of limited duration" ;
 	skos:notation	"emp_con_tmp" ;
 	skos:altLabel	"Working with a temporary job or under contract of limited duration" ;
-	ns4:membership	ns80:emp_con_tmp ;
+	ns4:membership	ns81:emp_con_tmp ;
 	skos:topConceptOf	ns20:breakdown .
 ns25:emp_wkt_ft	rdf:type	ns2:Breakdown ,
 		skos:Concept ;
 	skos:prefLabel	"Employees working full time" ;
 	skos:notation	"emp_wkt_ft" ;
 	skos:altLabel	"Employees working full time" ;
-	ns4:membership	ns80:emp_wkt_ft ;
+	ns4:membership	ns81:emp_wkt_ft ;
 	skos:topConceptOf	ns20:breakdown .
 ns25:emp_wkt_pt	rdf:type	ns2:Breakdown ,
 		skos:Concept ;
 	skos:prefLabel	"Employees working part time" ;
 	skos:notation	"emp_wkt_pt" ;
 	skos:altLabel	"Employees working part time" ;
-	ns4:membership	ns80:emp_wkt_pt ;
+	ns4:membership	ns81:emp_wkt_pt ;
 	skos:topConceptOf	ns20:breakdown .
 ns25:ind_dch	rdf:type	ns2:Breakdown ,
 		skos:Concept ;
 	skos:prefLabel	"Individuals living in a household with children" ;
 	skos:notation	"ind_dch" ;
 	skos:altLabel	"Individuals living in a household with children" .
-@prefix ns81:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/childrenhh/> .
-ns25:ind_dch	ns4:membership	ns81:ind_dch ;
+@prefix ns82:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/childrenhh/> .
+ns25:ind_dch	ns4:membership	ns82:ind_dch ;
 	skos:topConceptOf	ns20:breakdown .
 ns25:ind_no_dch	rdf:type	ns2:Breakdown ,
 		skos:Concept ;
 	skos:prefLabel	"Individuals living in a household without children" ;
 	skos:notation	"ind_no_dch" ;
 	skos:altLabel	"Individuals living in a household without children" ;
-	ns4:membership	ns81:ind_no_dch ;
+	ns4:membership	ns82:ind_no_dch ;
 	skos:topConceptOf	ns20:breakdown .
 ns25:isco_ict	rdf:type	skos:Concept ,
 		ns2:Breakdown ;
 	skos:prefLabel	"ICT professionals" ;
 	skos:notation	"isco_ict" ;
 	skos:altLabel	"ICT professionals" .
-@prefix ns82:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/ictproffession/> .
-ns25:isco_ict	ns4:membership	ns82:isco_ict ;
+@prefix ns83:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/ictproffession/> .
+ns25:isco_ict	ns4:membership	ns83:isco_ict ;
 	skos:topConceptOf	ns20:breakdown .
 ns25:isco_ictx	rdf:type	skos:Concept ,
 		ns2:Breakdown ;
 	skos:prefLabel	"Non ICT professionals" ;
 	skos:notation	"isco_ictx" ;
 	skos:altLabel	"Non ICT professionals" ;
-	ns4:membership	ns82:isco_ictx ;
+	ns4:membership	ns83:isco_ictx ;
 	skos:topConceptOf	ns20:breakdown .
-ns81:ind_dch	rdf:type	ns2:BreakdownToGroupMembership ;
+ns82:ind_dch	rdf:type	ns2:BreakdownToGroupMembership ;
 	rdfs:label	"childrenhh" ;
 	ns4:member-of	ns5:childrenhh ;
 	ns4:order	"1" .
-ns81:ind_no_dch	rdf:type	ns2:BreakdownToGroupMembership ;
+ns82:ind_no_dch	rdf:type	ns2:BreakdownToGroupMembership ;
 	rdfs:label	"childrenhh" ;
 	ns4:member-of	ns5:childrenhh ;
 	ns4:order	"2" .
-ns82:isco_ict	rdf:type	ns2:BreakdownToGroupMembership ;
+ns83:isco_ict	rdf:type	ns2:BreakdownToGroupMembership ;
 	rdfs:label	"ictproffession" ;
 	ns4:member-of	ns5:ictproffession ;
 	ns4:order	"1" .
-ns82:isco_ictx	rdf:type	ns2:BreakdownToGroupMembership ;
+ns83:isco_ictx	rdf:type	ns2:BreakdownToGroupMembership ;
 	rdfs:label	"ictproffession" ;
 	ns4:member-of	ns5:ictproffession ;
 	ns4:order	"2" .
-ns80:emp_con_prm	rdf:type	ns2:BreakdownToGroupMembership ;
+ns81:emp_con_prm	rdf:type	ns2:BreakdownToGroupMembership ;
 	rdfs:label	"workingscheme" ;
 	ns4:member-of	ns5:workingscheme ;
 	ns4:order	"3" .
-ns80:emp_con_tmp	rdf:type	ns2:BreakdownToGroupMembership ;
+ns81:emp_con_tmp	rdf:type	ns2:BreakdownToGroupMembership ;
 	rdfs:label	"workingscheme" ;
 	ns4:member-of	ns5:workingscheme ;
 	ns4:order	"4" .
-ns80:emp_wkt_ft	rdf:type	ns2:BreakdownToGroupMembership ;
+ns81:emp_wkt_ft	rdf:type	ns2:BreakdownToGroupMembership ;
 	rdfs:label	"workingscheme" ;
 	ns4:member-of	ns5:workingscheme ;
 	ns4:order	"1" .
-ns80:emp_wkt_pt	rdf:type	ns2:BreakdownToGroupMembership ;
+ns81:emp_wkt_pt	rdf:type	ns2:BreakdownToGroupMembership ;
 	rdfs:label	"workingscheme" ;
 	ns4:member-of	ns5:workingscheme ;
 	ns4:order	"2" .
