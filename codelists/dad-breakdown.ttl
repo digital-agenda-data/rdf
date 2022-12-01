@@ -51,15 +51,15 @@ ns8:desi_ufbbtu	rdf:type	ns2:BreakdownToGroupMembership ;
 ns9:desi_5g	rdf:type	ns2:BreakdownToGroupMembership ;
 	rdfs:label	"desi_c_mbb" ;
 	ns4:member-of	ns5:desi_c_mbb ;
-	ns4:order	"2" .
+	ns4:order	"1" .
 ns9:desi_5gc	rdf:type	ns2:BreakdownToGroupMembership ;
 	rdfs:label	"desi_c_mbb" ;
 	ns4:member-of	ns5:desi_c_mbb ;
-	ns4:order	"3" .
+	ns4:order	"2" .
 ns9:desi_mbbtu	rdf:type	ns2:BreakdownToGroupMembership ;
 	rdfs:label	"desi_c_mbb" ;
 	ns4:member-of	ns5:desi_c_mbb ;
-	ns4:order	"4" .
+	ns4:order	"3" .
 @prefix ns10:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/desi_conn/> .
 ns10:desi_c_bbpi	rdf:type	ns2:BreakdownToGroupMembership ;
 	rdfs:label	"desi_conn" ;
@@ -209,7 +209,7 @@ ns20:breakdown	rdf:type	ns21:CodeList .
 ns20:breakdown	rdf:type	skos:ConceptScheme .
 @prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
 @prefix dct:	<http://purl.org/dc/terms/> .
-ns20:breakdown	dct:modified	"2022-07-28T10:49:38"^^xsd:dateTime ;
+ns20:breakdown	dct:modified	"2022-12-01T13:37:05"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://digital-agenda-data.eu/> ;
 	skos:prefLabel	"Code list for breakdowns used by Digital Agenda Scoreboard" ;
 	skos:notation	"CL_BREAKDOWN" .
@@ -4198,6 +4198,10 @@ ns25:e_gov_scope_2_new	rdf:type	ns2:Breakdown ,
 	ns4:membership	ns79:e_gov_scope_2_new ;
 	skos:definition	"The business life events are: Regular business operations and Business Start-up" ;
 	skos:topConceptOf	ns20:breakdown .
+ns7:desi_fttpc	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"desi_c_fbbc" ;
+	ns4:member-of	ns5:desi_c_fbbc ;
+	ns4:order	"3" .
 ns25:cb_for	rdf:type	ns2:Breakdown ,
 		skos:Concept ;
 	skos:prefLabel	"Individuals who are foreign-born" ;
@@ -4580,10 +4584,6 @@ ns25:e_gov_events_9	rdf:type	ns2:Breakdown ,
 	ns4:membership	ns57:e_gov_events_9 ;
 	skos:definition	"A citizen life event related to the health domain, covering services around: obtain a European Health Insurance Card, applying for electronic health records. A total of 7 services are assessed under this life event." ;
 	skos:topConceptOf	ns20:breakdown .
-ns9:desi_fttpc	rdf:type	ns2:BreakdownToGroupMembership ;
-	rdfs:label	"desi_c_mbb" ;
-	ns4:member-of	ns5:desi_c_mbb ;
-	ns4:order	"1" .
 @prefix ns80:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/rid_score/> .
 ns80:rid_score	rdf:type	ns2:BreakdownToGroupMembership ;
 	rdfs:label	"rid_score" ;
@@ -4594,7 +4594,7 @@ ns25:desi_fttpc	rdf:type	ns2:Breakdown ,
 	skos:prefLabel	"FTTP coverage" ;
 	skos:notation	"desi_fttpc" ;
 	skos:altLabel	"FTTP coverage" ;
-	ns4:membership	ns9:desi_fttpc ;
+	ns4:membership	ns7:desi_fttpc ;
 	skos:topConceptOf	ns20:breakdown .
 ns25:rid_score	rdf:type	ns2:Breakdown ,
 		skos:Concept ;
