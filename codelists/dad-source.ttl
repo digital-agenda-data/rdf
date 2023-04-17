@@ -24,13 +24,14 @@
 @prefix ns23:	<http://ec.europa.eu/eurostat/web/population-demography-migration-projections/population-data/> .
 @prefix ns24:	<http://ec.europa.eu/digital-agenda/en/news/> .
 @prefix ns25:	<http://epp.eurostat.ec.europa.eu/portal/page/portal/employment_unemployment_lfs/methodology/> .
-@prefix ns26:	<http://ec.europa.eu/digital-agenda/en/digital-agenda-you/> .
-@prefix ns27:	<https://ec.europa.eu/digital-single-market/en/> .
-@prefix ns28:	<https://www.europeandataportal.eu/en/impact-studies/> .
+@prefix ns26:	<https://digital-strategy.ec.europa.eu/en/library/> .
+@prefix ns27:	<http://ec.europa.eu/digital-agenda/en/digital-agenda-you/> .
+@prefix ns28:	<https://ec.europa.eu/digital-single-market/en/> .
+@prefix ns29:	<https://www.europeandataportal.eu/en/impact-studies/> .
 
 ns1:source
 	rdf:type	skos:ConceptScheme ;
-	dct:modified	"2022-07-28T10:50:11"^^xsd:dateTime ;
+	dct:modified	"2023-04-17T19:43:03"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://digital-agenda-data.eu/> ;
 	skos:prefLabel	"Sources used by Digital Agenda Scoreboard indicators" ;
 	skos:notation	"CL_SOURCE" ;
@@ -553,7 +554,7 @@ ns6:jrc_ict_randd
 ns6:mis
 	rdf:type	ns8:Source , skos:Concept ;
 	skos:prefLabel	"EC - FP7 ICT research projects" ;
-	foaf:page	ns10:ict-research-projects-under-eus-seventh-framework-programme-fp7 ;
+	foaf:page	ns10:ict-research-projects-under-eus-seventh-framework-programme-fp7 , ns26:ict-research-projects-under-eus-seventh-framework-programme-fp7 ;
 	skos:notation	"mis" ;
 	skos:definition	"EC database of ICT research projects under the EU's Seventh Framework Programme (FP7) - Cooperation and Capacities (e-infrastructures) programs. Projects under the CIP ICT PSP are not included. More information on the Programmes at http://cordis.europa.eu/fp7/ict/home_en.html" ;
 	skos:note	"Extraction January 2013" ;
@@ -582,14 +583,14 @@ ns6:samknows
 ns6:smart11_39
 	rdf:type	ns8:Source , skos:Concept ;
 	skos:prefLabel	"Analysis of publications and patents of ICT research in FP7" ;
-	foaf:page	ns26:our-studies-and-open-datasets ;
+	foaf:page	ns27:our-studies-and-open-datasets ;
 	skos:notation	"smart11_39" ;
 	skos:definition	"Analysis conducted by DG CONNECT Unit F4, based on results of the study SMART 2011/0039 which main results are published in: Jacob, J., Sanditov, B., Smirnov, E., Wintjes, R., Surpatean, A., Notten, A., & Sasso, S. (Forthcoming). Analysis of publications and patents of ICT research in FP7. Brussels, European Commission. " ;
 	skos:topConceptOf	ns1:source .
 ns6:cocom_new
 	rdf:type	ns8:Source , skos:Concept ;
 	skos:prefLabel	"Communications Committee survey" ;
-	foaf:page	ns27:broadband-connectivity ;
+	foaf:page	ns28:broadband-connectivity ;
 	skos:notation	"cocom_new" ;
 	skos:definition	"European Commission services, through the Communications Committee (COCOM)" ;
 	skos:topConceptOf	ns1:source .
@@ -602,14 +603,14 @@ ns6:desi_fttpc
 ns6:european_data_portal
 	rdf:type	ns8:Source , skos:Concept ;
 	skos:prefLabel	"European Data Portal" ;
-	foaf:page	ns28:open-data-maturity ;
+	foaf:page	ns29:open-data-maturity ;
 	skos:notation	"european_data_portal" ;
 	skos:definition	"European Data Portal" ;
 	skos:topConceptOf	ns1:source .
 ns6:bc2020
 	rdf:type	ns8:Source , skos:Concept ;
 	skos:prefLabel	"Broadband coverage in Europe studies" ;
-	foaf:page	ns27:broadband-connectivity ;
+	foaf:page	ns28:broadband-connectivity ;
 	skos:notation	"bc2020" ;
 	skos:definition	"IHS Markit, Omdia, Point Topic and VVA, Broadband coverage in Europe studies" ;
 	skos:topConceptOf	ns1:source .
