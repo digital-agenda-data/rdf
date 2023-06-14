@@ -1610,10 +1610,10 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator/5g_read>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/mobile/5g_read> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/5g_read>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/5g_read>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/5g_read>	<http://www.w3.org/2004/02/skos/core#altLabel>	"5G readiness" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/5g_read>	<http://www.w3.org/2004/02/skos/core#altLabel>	"5G spectrum" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/5g_read>	<http://www.w3.org/2004/02/skos/core#definition>	"The amount of spectrum assigned and ready for 5G use within the so-called 5G pioneer bands. These bands are 700 MHz (703-733 MHz and 758-788 MHz), 3.6 GHz (3400-3800 MHz) and 26 GHz (1000 MHz within 24250-27500 MHz). All three spectrum bands have an equal weight." .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/5g_read>	<http://www.w3.org/2004/02/skos/core#notation>	"5g_read" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/5g_read>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"5G readiness" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/5g_read>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"5G spectrum" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/5g_read>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/aaaa_cov>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/ipv6obs> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/aaaa_cov>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/internet-usage/aaaa_cov> .
@@ -3413,11 +3413,11 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_webf2>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_webf2> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_webf2>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_webf2>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/e_webf2>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Enterprises having a website with some sofisticated functionalities" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/e_webf2>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Enterprises having a website with some sophisticated functionalities" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_webf2>	<http://www.w3.org/2004/02/skos/core#definition>	"Website having at least one of the following four functionalities : product catalogues or price lists (webacc), possibilities for visitors to customise or design the products (webctm), order tracking available online (webot) or personalised content in the website for regular/repeated visitors (webper)." .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_webf2>	<http://www.w3.org/2004/02/skos/core#notation>	"e_webf2" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_webf2>	<http://www.w3.org/2004/02/skos/core#note>	"Enterprises with 10 or more persons employed. All manufacturing and service sectors, excluding the financial sector. Breaks in series because until 2008 economic activities according to NACE Rev 1.1 and from 2009 data are based on NACE Rev.2. Since 2010 data include also sector S95.1-Repair of computers and communication equipment." .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/e_webf2>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Enterprises having a website with some sofisticated functionalities" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/e_webf2>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Enterprises having a website with some sophisticated functionalities" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_webf2>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_wsel25>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_wsel25>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ecommerce/e_wsel25> .
@@ -5347,7 +5347,7 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator/wid_ui_part>	<http://www.w3.org/2004/02/skos/core#notation>	"wid_ui_part" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/wid_ui_part>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"1.5 Online consultations or voting" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/wid_ui_part>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://purl.org/dc/terms/modified>	"2022-07-28T10:49:11"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://purl.org/dc/terms/modified>	"2023-06-14T17:17:28"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://purl.org/linked-data/sdmx#CodeList> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#ConceptScheme> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2000/01/rdf-schema#isDefinedBy>	<http://digital-agenda-data.eu/> .

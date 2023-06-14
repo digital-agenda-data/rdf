@@ -65,7 +65,7 @@ ns1:e_cc1_si	rdf:type	ns2:Indicator ,
 ns8:indicator	rdf:type	ns9:CodeList ,
 		skos:ConceptScheme .
 @prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
-ns8:indicator	dct:modified	"2022-07-28T10:49:11"^^xsd:dateTime .
+ns8:indicator	dct:modified	"2023-06-14T17:17:28"^^xsd:dateTime .
 @prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
 ns8:indicator	rdfs:isDefinedBy	<http://digital-agenda-data.eu/> ;
 	skos:prefLabel	"Code list for indicators used by Digital Agenda Scoreboard" ;
@@ -2554,10 +2554,10 @@ ns1:e_web	rdf:type	skos:Concept ,
 	skos:topConceptOf	ns8:indicator .
 ns1:e_webf2	rdf:type	skos:Concept ,
 		ns2:Indicator ;
-	skos:prefLabel	"Enterprises having a website with some sofisticated functionalities" ;
+	skos:prefLabel	"Enterprises having a website with some sophisticated functionalities" ;
 	dct:source	ns5:estat_isoc_ci_eu_en2 ;
 	skos:notation	"e_webf2" ;
-	skos:altLabel	"Enterprises having a website with some sofisticated functionalities" ;
+	skos:altLabel	"Enterprises having a website with some sophisticated functionalities" ;
 	ns6:membership	ns7:e_webf2 ;
 	skos:definition	"Website having at least one of the following four functionalities : product catalogues or price lists (webacc), possibilities for visitors to customise or design the products (webctm), order tracking available online (webot) or personalised content in the website for regular/repeated visitors (webper)." ;
 	skos:note	"Enterprises with 10 or more persons employed. All manufacturing and service sectors, excluding the financial sector. Breaks in series because until 2008 economic activities according to NACE Rev 1.1 and from 2009 data are based on NACE Rev.2. Since 2010 data include also sector S95.1-Repair of computers and communication equipment." ;
@@ -4396,10 +4396,10 @@ ns30:mbb_r5gcov	rdf:type	ns2:IndicatorToGroupMembership ;
 	ns6:order	"2" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/5g_read>	rdf:type	ns2:Indicator ,
 		skos:Concept ;
-	skos:prefLabel	"5G readiness" ;
+	skos:prefLabel	"5G spectrum" ;
 	dct:source	ns5:cocom_new ;
 	skos:notation	"5g_read" ;
-	skos:altLabel	"5G readiness" ;
+	skos:altLabel	"5G spectrum" ;
 	ns6:membership	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/mobile/5g_read> ;
 	skos:definition	"The amount of spectrum assigned and ready for 5G use within the so-called 5G pioneer bands. These bands are 700 MHz (703-733 MHz and 758-788 MHz), 3.6 GHz (3400-3800 MHz) and 26 GHz (1000 MHz within 24250-27500 MHz). All three spectrum bands have an equal weight." ;
 	skos:topConceptOf	ns8:indicator .
