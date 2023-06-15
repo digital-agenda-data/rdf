@@ -65,7 +65,7 @@ ns1:e_cc1_si	rdf:type	ns2:Indicator ,
 ns8:indicator	rdf:type	ns9:CodeList ,
 		skos:ConceptScheme .
 @prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
-ns8:indicator	dct:modified	"2023-06-14T17:17:28"^^xsd:dateTime .
+ns8:indicator	dct:modified	"2023-06-15T14:48:44"^^xsd:dateTime .
 @prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
 ns8:indicator	rdfs:isDefinedBy	<http://digital-agenda-data.eu/> ;
 	skos:prefLabel	"Code list for indicators used by Digital Agenda Scoreboard" ;
@@ -147,6 +147,9 @@ ns8:indicator	rdfs:isDefinedBy	<http://digital-agenda-data.eu/> ;
 		ns1:rid_c_5gc ,
 		ns1:rid_c_fbbc ,
 		ns1:rid_c_fbbtc ,
+		<http://semantic.digital-agenda-data.eu/codelist/indicator/5g_cov_3400_3800> ,
+		<http://semantic.digital-agenda-data.eu/codelist/indicator/5g_spectrum> ,
+		ns1:sme_di_x_vlo ,
 		ns1:wid_ui_ib ,
 		ns1:wid_ui_iu ,
 		ns1:wid_ui_nui ,
@@ -3961,6 +3964,46 @@ ns1:e_gov_2c_tr_de	rdf:type	ns2:Indicator ,
 	skos:altLabel	"2.3 Transparency - Transparency of service design" ;
 	ns6:membership	ns22:e_gov_2c_tr_de ;
 	skos:definition	"The extent to which user are informed on and involved in policy and service design processes." ;
+	skos:topConceptOf	ns8:indicator .
+ns7:sme_di_x_vlo	rdf:type	ns2:IndicatorToGroupMembership ;
+	rdfs:label	"ebusiness" ;
+	ns6:member-of	ns14:ebusiness ;
+	ns6:order	"16"^^xsd:byte .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/mobile/5g_cov_3400_3800>	rdf:type	ns2:IndicatorToGroupMembership ;
+	rdfs:label	"mobile" ;
+	ns6:member-of	ns14:mobile ;
+	ns6:order	"2"^^xsd:byte .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/mobile/5g_spectrum>	rdf:type	ns2:IndicatorToGroupMembership ;
+	rdfs:label	"mobile" ;
+	ns6:member-of	ns14:mobile ;
+	ns6:order	"3"^^xsd:byte .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/5g_cov_3400_3800>	rdf:type	skos:Concept ,
+		ns2:Indicator ;
+	skos:prefLabel	"5G coverage on the 3.4-3.8 GHz spectrum band" ;
+	dct:source	ns5:point_topic ;
+	skos:notation	"5g_cov_3400_3800" ;
+	skos:altLabel	"5G coverage on the 3.4-3.8 GHz spectrum band" ;
+	ns6:membership	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/mobile/5g_cov_3400_3800> ;
+	skos:definition	"% of populated areas with coverage by 5G using the 3.4-3.8GHz spectrum band" ;
+	skos:topConceptOf	ns8:indicator .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/5g_spectrum>	rdf:type	skos:Concept ,
+		ns2:Indicator ;
+	skos:prefLabel	"5G spectrum" ;
+	dct:source	ns5:cocom_new ;
+	skos:notation	"5g_spectrum" ;
+	skos:altLabel	"5G spectrum" ;
+	ns6:membership	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/mobile/5g_spectrum> ;
+	skos:definition	"The amount of spectrum assigned and ready for 5G use within the so-called 5G pioneer bands. These bands are 700 MHz (703-733 MHz and 758-788 MHz), 3.6 GHz (3400-3800 MHz) and 26 GHz (1000 MHz within 24250-27500 MHz). All three spectrum bands have an equal weight." ;
+	skos:topConceptOf	ns8:indicator .
+ns1:sme_di_x_vlo	rdf:type	skos:Concept ,
+		ns2:Indicator ;
+	skos:prefLabel	"SMEs with at least a basic level of digital intensity" ;
+	dct:source	ns5:estat_isoc_e_dii ;
+	skos:notation	"sme_di_x_vlo" ;
+	skos:altLabel	"SMEs with at least a basic level of digital intensity" ;
+	ns6:membership	ns7:sme_di_x_vlo ;
+	skos:definition	"SMEs with low, high or very high digital intensity" ;
+	skos:note	"Enterprises with 10-250 persons employed. All manufacturing and service sectors, excluding the financial sector. " ;
 	skos:topConceptOf	ns8:indicator .
 ns1:e_gov_4b_bm_us	rdf:type	ns2:Indicator ,
 		skos:Concept ;

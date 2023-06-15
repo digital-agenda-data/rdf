@@ -569,6 +569,10 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/p_empmd>	<http://semantic.digital-agenda-data.eu/def/property/order>	"13" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/p_empmd>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/p_empmd>	<http://www.w3.org/2000/01/rdf-schema#label>	"ebusiness" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/sme_di_x_vlo>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/sme_di_x_vlo>	<http://semantic.digital-agenda-data.eu/def/property/order>	"16"^^<http://www.w3.org/2001/XMLSchema#byte> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/sme_di_x_vlo>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/sme_di_x_vlo>	<http://www.w3.org/2000/01/rdf-schema#label>	"ebusiness" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ecommerce/e_aeseu>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ecommerce> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ecommerce/e_aeseu>	<http://semantic.digital-agenda-data.eu/def/property/order>	"12" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ecommerce/e_aeseu>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
@@ -1222,10 +1226,18 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/internet-usage/i_iux>	<http://semantic.digital-agenda-data.eu/def/property/order>	"7" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/internet-usage/i_iux>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/internet-usage/i_iux>	<http://www.w3.org/2000/01/rdf-schema#label>	"internet-usage" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/mobile/5g_cov_3400_3800>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/mobile> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/mobile/5g_cov_3400_3800>	<http://semantic.digital-agenda-data.eu/def/property/order>	"2"^^<http://www.w3.org/2001/XMLSchema#byte> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/mobile/5g_cov_3400_3800>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/mobile/5g_cov_3400_3800>	<http://www.w3.org/2000/01/rdf-schema#label>	"mobile" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/mobile/5g_read>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/mobile> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/mobile/5g_read>	<http://semantic.digital-agenda-data.eu/def/property/order>	"3" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/mobile/5g_read>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/mobile/5g_read>	<http://www.w3.org/2000/01/rdf-schema#label>	"mobile" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/mobile/5g_spectrum>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/mobile> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/mobile/5g_spectrum>	<http://semantic.digital-agenda-data.eu/def/property/order>	"3"^^<http://www.w3.org/2001/XMLSchema#byte> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/mobile/5g_spectrum>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/mobile/5g_spectrum>	<http://www.w3.org/2000/01/rdf-schema#label>	"mobile" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/mobile/e_pmd>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/mobile> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/mobile/e_pmd>	<http://semantic.digital-agenda-data.eu/def/property/order>	"12" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/mobile/e_pmd>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
@@ -1606,6 +1618,15 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/wid/wid_ui_part>	<http://semantic.digital-agenda-data.eu/def/property/order>	"8" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/wid/wid_ui_part>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/wid/wid_ui_part>	<http://www.w3.org/2000/01/rdf-schema#label>	"wid" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/5g_cov_3400_3800>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/point_topic> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/5g_cov_3400_3800>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/mobile/5g_cov_3400_3800> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/5g_cov_3400_3800>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/5g_cov_3400_3800>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/5g_cov_3400_3800>	<http://www.w3.org/2004/02/skos/core#altLabel>	"5G coverage on the 3.4-3.8 GHz spectrum band" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/5g_cov_3400_3800>	<http://www.w3.org/2004/02/skos/core#definition>	"% of populated areas with coverage by 5G using the 3.4-3.8GHz spectrum band" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/5g_cov_3400_3800>	<http://www.w3.org/2004/02/skos/core#notation>	"5g_cov_3400_3800" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/5g_cov_3400_3800>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"5G coverage on the 3.4-3.8 GHz spectrum band" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/5g_cov_3400_3800>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/5g_read>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/cocom_new> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/5g_read>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/mobile/5g_read> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/5g_read>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
@@ -1615,6 +1636,15 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator/5g_read>	<http://www.w3.org/2004/02/skos/core#notation>	"5g_read" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/5g_read>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"5G spectrum" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/5g_read>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/5g_spectrum>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/cocom_new> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/5g_spectrum>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/mobile/5g_spectrum> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/5g_spectrum>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/5g_spectrum>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/5g_spectrum>	<http://www.w3.org/2004/02/skos/core#altLabel>	"5G spectrum" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/5g_spectrum>	<http://www.w3.org/2004/02/skos/core#definition>	"The amount of spectrum assigned and ready for 5G use within the so-called 5G pioneer bands. These bands are 700 MHz (703-733 MHz and 758-788 MHz), 3.6 GHz (3400-3800 MHz) and 26 GHz (1000 MHz within 24250-27500 MHz). All three spectrum bands have an equal weight." .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/5g_spectrum>	<http://www.w3.org/2004/02/skos/core#notation>	"5g_spectrum" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/5g_spectrum>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"5G spectrum" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/5g_spectrum>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/aaaa_cov>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/ipv6obs> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/aaaa_cov>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/internet-usage/aaaa_cov> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/aaaa_cov>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
@@ -5122,6 +5152,16 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator/rid_ui_part>	<http://www.w3.org/2004/02/skos/core#notation>	"rid_ui_part" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/rid_ui_part>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"1.5 Online consultations or voting" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/rid_ui_part>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/sme_di_x_vlo>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/estat_isoc_e_dii> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/sme_di_x_vlo>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/sme_di_x_vlo> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/sme_di_x_vlo>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/sme_di_x_vlo>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/sme_di_x_vlo>	<http://www.w3.org/2004/02/skos/core#altLabel>	"SMEs with at least a basic level of digital intensity" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/sme_di_x_vlo>	<http://www.w3.org/2004/02/skos/core#definition>	"SMEs with low, high or very high digital intensity" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/sme_di_x_vlo>	<http://www.w3.org/2004/02/skos/core#notation>	"sme_di_x_vlo" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/sme_di_x_vlo>	<http://www.w3.org/2004/02/skos/core#note>	"Enterprises with 10-250 persons employed. All manufacturing and service sectors, excluding the financial sector. " .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/sme_di_x_vlo>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"SMEs with at least a basic level of digital intensity" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/sme_di_x_vlo>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/spectrum_wbb>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/eco_report_03_efis_comm> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/spectrum_wbb>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/mobile/spectrum_wbb> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/spectrum_wbb>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
@@ -5347,11 +5387,13 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator/wid_ui_part>	<http://www.w3.org/2004/02/skos/core#notation>	"wid_ui_part" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/wid_ui_part>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"1.5 Online consultations or voting" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/wid_ui_part>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://purl.org/dc/terms/modified>	"2023-06-14T17:17:28"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://purl.org/dc/terms/modified>	"2023-06-15T14:48:44"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://purl.org/linked-data/sdmx#CodeList> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#ConceptScheme> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2000/01/rdf-schema#isDefinedBy>	<http://digital-agenda-data.eu/> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/5g_cov_3400_3800> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/5g_read> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/5g_spectrum> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/aaaa_cov> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/actspeed> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/afford_internet_only_minppp> .
@@ -5730,6 +5772,7 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/rid_ui_nui> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/rid_ui_oc> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/rid_ui_part> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/sme_di_x_vlo> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/spectrum_wbb> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/st_grad> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/tel_ftr> .

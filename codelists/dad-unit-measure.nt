@@ -725,6 +725,13 @@
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_pop>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_pop" .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_pop>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Percentage of total population" .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_pop>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_pop_area>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_pop_area>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_pop_area>	<http://www.w3.org/2004/02/skos/core#altLabel>	"% of populated area" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_pop_area>	<http://www.w3.org/2004/02/skos/core#definition>	"Percentage of populated area" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_pop_area>	<http://www.w3.org/2004/02/skos/core#notation>	"pc_pop_area" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_pop_area>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Percentage of populated area" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_pop_area>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_posts>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_posts>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_posts>	<http://www.w3.org/2004/02/skos/core#altLabel>	"% of posts" .
@@ -878,7 +885,7 @@
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/wid_score>	<http://www.w3.org/2004/02/skos/core#notation>	"wid_score" .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/wid_score>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Score (0 to 1)" .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/wid_score>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
-<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://purl.org/dc/terms/modified>	"2022-07-28T10:50:01"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://purl.org/dc/terms/modified>	"2023-06-15T14:48:36"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://purl.org/linked-data/sdmx#CodeList> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#ConceptScheme> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2000/01/rdf-schema#isDefinedBy>	<http://digital-agenda-data.eu/> .
@@ -994,6 +1001,7 @@
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_nomspeed> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_organisations> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_pop> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_pop_area> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_posts> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_projects> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/pc_pub_serv_for_citizen> .
