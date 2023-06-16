@@ -5160,7 +5160,7 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator/sme_di_x_vlo>	<http://www.w3.org/2004/02/skos/core#definition>	"SMEs with low, high or very high digital intensity" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/sme_di_x_vlo>	<http://www.w3.org/2004/02/skos/core#notation>	"sme_di_x_vlo" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/sme_di_x_vlo>	<http://www.w3.org/2004/02/skos/core#note>	"Enterprises with 10-250 persons employed. All manufacturing and service sectors, excluding the financial sector. " .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/sme_di_x_vlo>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"SMEs with at least a basic level of digital intensity" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/sme_di_x_vlo>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"SMEs with at least a basic level of digital intensity (2022)" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/sme_di_x_vlo>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/spectrum_wbb>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/eco_report_03_efis_comm> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/spectrum_wbb>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/mobile/spectrum_wbb> .
@@ -5387,7 +5387,7 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator/wid_ui_part>	<http://www.w3.org/2004/02/skos/core#notation>	"wid_ui_part" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/wid_ui_part>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"1.5 Online consultations or voting" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/wid_ui_part>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://purl.org/dc/terms/modified>	"2023-06-15T14:48:44"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://purl.org/dc/terms/modified>	"2023-06-16T17:36:12"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://purl.org/linked-data/sdmx#CodeList> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#ConceptScheme> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2000/01/rdf-schema#isDefinedBy>	<http://digital-agenda-data.eu/> .

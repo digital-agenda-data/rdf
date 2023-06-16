@@ -65,7 +65,7 @@ ns1:e_cc1_si	rdf:type	ns2:Indicator ,
 ns8:indicator	rdf:type	ns9:CodeList ,
 		skos:ConceptScheme .
 @prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
-ns8:indicator	dct:modified	"2023-06-15T14:48:44"^^xsd:dateTime .
+ns8:indicator	dct:modified	"2023-06-16T17:36:12"^^xsd:dateTime .
 @prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
 ns8:indicator	rdfs:isDefinedBy	<http://digital-agenda-data.eu/> ;
 	skos:prefLabel	"Code list for indicators used by Digital Agenda Scoreboard" ;
@@ -3997,7 +3997,7 @@ ns7:sme_di_x_vlo	rdf:type	ns2:IndicatorToGroupMembership ;
 	skos:topConceptOf	ns8:indicator .
 ns1:sme_di_x_vlo	rdf:type	skos:Concept ,
 		ns2:Indicator ;
-	skos:prefLabel	"SMEs with at least a basic level of digital intensity" ;
+	skos:prefLabel	"SMEs with at least a basic level of digital intensity (2022)" ;
 	dct:source	ns5:estat_isoc_e_dii ;
 	skos:notation	"sme_di_x_vlo" ;
 	skos:altLabel	"SMEs with at least a basic level of digital intensity" ;
