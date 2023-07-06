@@ -13,7 +13,8 @@ ns1:e_di3_hi	dct:source	ns5:estat-ent ;
 @prefix ns6:	<http://semantic.digital-agenda-data.eu/def/property/> .
 @prefix ns7:	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/> .
 ns1:e_di3_hi	ns6:membership	ns7:e_di3_hi ;
-	skos:definition	"Enterprises with high digital intensity index (DII v3)" .
+	skos:definition	"The Digital Intensity score is based on counting how many out of 12 technologies are used by each enterprise. Then they are divided into four clusters of digital intensity: Very Low (scores 0-3), Low (score 4-6), High (score 7-9), Very High (score 10-12)." ;
+	skos:note	"The DII composition varies between different survey years, depending on the questions included in the survey. The exact composition for the different survey years can be found at https://circabc.europa.eu/ui/group/89577311-0f9b-4fc0-b8c2-2aaa7d3ccb91/library/30b83b9c-3d0c-4086-bf52-77905e19b4eb/details." .
 @prefix ns8:	<http://semantic.digital-agenda-data.eu/codelist/> .
 ns1:e_di3_hi	skos:topConceptOf	ns8:indicator .
 ns1:e_di3_lo	rdf:type	ns2:Indicator ,
@@ -23,7 +24,8 @@ ns1:e_di3_lo	rdf:type	ns2:Indicator ,
 	skos:notation	"e_di3_lo" ;
 	skos:altLabel	"Enterprises with low digital intensity index (DII v3)" ;
 	ns6:membership	ns7:e_di3_lo ;
-	skos:definition	"Enterprises with low digital intensity index (DII v3)" ;
+	skos:definition	"The Digital Intensity score is based on counting how many out of 12 technologies are used by each enterprise. Then they are divided into four clusters of digital intensity: Very Low (scores 0-3), Low (score 4-6), High (score 7-9), Very High (score 10-12)." ;
+	skos:note	"The DII composition varies between different survey years, depending on the questions included in the survey. The exact composition for the different survey years can be found at https://circabc.europa.eu/ui/group/89577311-0f9b-4fc0-b8c2-2aaa7d3ccb91/library/30b83b9c-3d0c-4086-bf52-77905e19b4eb/details." ;
 	skos:topConceptOf	ns8:indicator .
 ns1:e_di3_vhi	rdf:type	ns2:Indicator ,
 		skos:Concept ;
@@ -32,7 +34,8 @@ ns1:e_di3_vhi	rdf:type	ns2:Indicator ,
 	skos:notation	"e_di3_vhi" ;
 	skos:altLabel	"Enterprises with very high digital intensity index (DII v3)" ;
 	ns6:membership	ns7:e_di3_vhi ;
-	skos:definition	"Enterprises with very high digital intensity index (DII v3)" ;
+	skos:definition	"The Digital Intensity score is based on counting how many out of 12 technologies are used by each enterprise. Then they are divided into four clusters of digital intensity: Very Low (scores 0-3), Low (score 4-6), High (score 7-9), Very High (score 10-12)." ;
+	skos:note	"The DII composition varies between different survey years, depending on the questions included in the survey. The exact composition for the different survey years can be found at https://circabc.europa.eu/ui/group/89577311-0f9b-4fc0-b8c2-2aaa7d3ccb91/library/30b83b9c-3d0c-4086-bf52-77905e19b4eb/details." ;
 	skos:topConceptOf	ns8:indicator .
 ns1:e_di3_vlo	rdf:type	ns2:Indicator ,
 		skos:Concept ;
@@ -41,7 +44,8 @@ ns1:e_di3_vlo	rdf:type	ns2:Indicator ,
 	skos:notation	"e_di3_vlo" ;
 	skos:altLabel	"Enterprises with very low digital intensity index (DII v3)" ;
 	ns6:membership	ns7:e_di3_vlo ;
-	skos:definition	"Enterprises with very low digital intensity index (DII v3)" ;
+	skos:definition	"The Digital Intensity score is based on counting how many out of 12 technologies are used by each enterprise. Then they are divided into four clusters of digital intensity: Very Low (scores 0-3), Low (score 4-6), High (score 7-9), Very High (score 10-12)." ;
+	skos:note	"The DII composition varies between different survey years, depending on the questions included in the survey. The exact composition for the different survey years can be found at https://circabc.europa.eu/ui/group/89577311-0f9b-4fc0-b8c2-2aaa7d3ccb91/library/30b83b9c-3d0c-4086-bf52-77905e19b4eb/details." ;
 	skos:topConceptOf	ns8:indicator .
 ns1:e_ai_tany	rdf:type	ns2:Indicator ,
 		skos:Concept ;
@@ -65,7 +69,7 @@ ns1:e_cc1_si	rdf:type	ns2:Indicator ,
 ns8:indicator	rdf:type	ns9:CodeList ,
 		skos:ConceptScheme .
 @prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
-ns8:indicator	dct:modified	"2023-07-05T14:06:09"^^xsd:dateTime .
+ns8:indicator	dct:modified	"2023-07-06T13:50:26"^^xsd:dateTime .
 @prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
 ns8:indicator	rdfs:isDefinedBy	<http://digital-agenda-data.eu/> ;
 	skos:prefLabel	"Code list for indicators used by Digital Agenda Scoreboard" ;
@@ -123,6 +127,7 @@ ns8:indicator	rdfs:isDefinedBy	<http://digital-agenda-data.eu/> ;
 		ns1:h_ubbfix ,
 		ns1:i_dsk_x ,
 		ns1:i_dsk_c_x ,
+		ns1:e_di4_hivhi ,
 		ns1:i_dsk_s_x ,
 		ns1:i_dsk_c_ab ,
 		ns1:e_gov_0_score ,
@@ -154,8 +159,8 @@ ns8:indicator	rdfs:isDefinedBy	<http://digital-agenda-data.eu/> ;
 		<http://semantic.digital-agenda-data.eu/codelist/indicator/5g_spectrum> ,
 		ns1:sme_di_x_vlo ,
 		ns1:wid_ui_ib ,
-		ns1:e_di4_lo ,
 		ns1:wid_ui_iu ,
+		ns1:e_di4_lo ,
 		ns1:e_di4_vhi ,
 		ns1:wid_ui_nui ,
 		ns1:wid_ui_oc ,
@@ -255,8 +260,6 @@ ns8:indicator	rdfs:isDefinedBy	<http://digital-agenda-data.eu/> ;
 		ns1:e_gov_2_tg ,
 		ns1:e_cc_pcpu ,
 		ns1:e_crman ,
-		ns1:e_di_hivhi ,
-		ns1:e_di_vlo ,
 		ns1:e_ebuy ,
 		ns1:e_empmd_gt20 ,
 		ns1:e_erp1 ,
@@ -736,95 +739,87 @@ ns20:user_centric_egov	rdf:type	ns2:IndicatorToGroupMembership ;
 ns7:e_ads	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ebusiness" ;
 	ns6:member-of	ns14:ebusiness ;
-	ns6:order	"14" .
+	ns6:order	"12" .
 ns7:e_bd	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ebusiness" ;
 	ns6:member-of	ns14:ebusiness ;
-	ns6:order	"30" .
+	ns6:order	"22" .
 ns7:e_cc	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ebusiness" ;
 	ns6:member-of	ns14:ebusiness ;
-	ns6:order	"27" .
+	ns6:order	"18" .
 ns7:e_cc_ge_me	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ebusiness" ;
 	ns6:member-of	ns14:ebusiness ;
-	ns6:order	"28" .
+	ns6:order	"20" .
 ns7:e_cc_pcpu	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ebusiness" ;
 	ns6:member-of	ns14:ebusiness ;
-	ns6:order	"29" .
+	ns6:order	"21" .
 ns7:e_crman	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ebusiness" ;
 	ns6:member-of	ns14:ebusiness ;
-	ns6:order	"3" .
-ns7:e_di_hivhi	rdf:type	ns2:IndicatorToGroupMembership ;
-	rdfs:label	"ebusiness" ;
-	ns6:member-of	ns14:ebusiness ;
-	ns6:order	"16" .
-ns7:e_di_vlo	rdf:type	ns2:IndicatorToGroupMembership ;
-	rdfs:label	"ebusiness" ;
-	ns6:member-of	ns14:ebusiness ;
-	ns6:order	"17" .
+	ns6:order	"2" .
 ns7:e_empmd_gt20	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ebusiness" ;
 	ns6:member-of	ns14:ebusiness ;
-	ns6:order	"12" .
+	ns6:order	"9" .
 ns7:e_erp1	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ebusiness" ;
 	ns6:member-of	ns14:ebusiness ;
-	ns6:order	"2" .
+	ns6:order	"1" .
 ns7:e_invsnd	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ebusiness" ;
 	ns6:member-of	ns14:ebusiness ;
-	ns6:order	"6" .
+	ns6:order	"5" .
 ns7:e_pmd_app	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ebusiness" ;
 	ns6:member-of	ns14:ebusiness ;
-	ns6:order	"13" .
+	ns6:order	"10" .
 ns7:e_ra	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ebusiness" ;
 	ns6:member-of	ns14:ebusiness ;
-	ns6:order	"11" .
+	ns6:order	"8" .
 ns7:e_rfac	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ebusiness" ;
 	ns6:member-of	ns14:ebusiness ;
-	ns6:order	"23" .
+	ns6:order	"14" .
 ns7:e_rfid	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ebusiness" ;
 	ns6:member-of	ns14:ebusiness ;
-	ns6:order	"22" .
+	ns6:order	"13" .
 ns7:e_rfpsas	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ebusiness" ;
 	ns6:member-of	ns14:ebusiness ;
-	ns6:order	"24" .
+	ns6:order	"15" .
 ns7:e_sisc	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ebusiness" ;
 	ns6:member-of	ns14:ebusiness ;
-	ns6:order	"4" .
+	ns6:order	"3" .
 ns7:e_sm_any	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ebusiness" ;
 	ns6:member-of	ns14:ebusiness ;
-	ns6:order	"25" .
+	ns6:order	"16" .
 ns7:e_sm_ge2	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ebusiness" ;
 	ns6:member-of	ns14:ebusiness ;
-	ns6:order	"26" .
+	ns6:order	"17" .
 ns7:e_web	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ebusiness" ;
 	ns6:member-of	ns14:ebusiness ;
-	ns6:order	"9" .
+	ns6:order	"6" .
 ns7:e_webf2	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ebusiness" ;
 	ns6:member-of	ns14:ebusiness ;
-	ns6:order	"10" .
+	ns6:order	"7" .
 ns7:edigint2015	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ebusiness" ;
 	ns6:member-of	ns14:ebusiness ;
-	ns6:order	"15" .
+	ns6:order	"51" .
 ns7:p_empmd	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ebusiness" ;
 	ns6:member-of	ns14:ebusiness ;
-	ns6:order	"13" .
+	ns6:order	"11" .
 @prefix ns21:	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ecommerce/> .
 ns21:e_aeseu	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ecommerce" ;
@@ -1933,26 +1928,6 @@ ns1:e_crman	rdf:type	skos:Concept ,
 	ns6:membership	ns7:e_crman ;
 	skos:definition	"CRM refers to the use of any software application used for the analysis of information about clients for marketing purposes." ;
 	skos:note	"Enterprises with 10 or more persons employed. All manufacturing and service sectors, excluding the financial sector. Breaks in series because until 2008 economic activities according to NACE Rev 1.1 and from 2009 data are based on NACE Rev.2. Since 2010 data include also sector S 95.1-Repair of computers and communication equipment." ;
-	skos:topConceptOf	ns8:indicator .
-ns1:e_di_hivhi	rdf:type	skos:Concept ,
-		ns2:Indicator ;
-	skos:prefLabel	"Enterprises with High levels of Digital Intensity" ;
-	dct:source	ns5:estat-ent ;
-	skos:notation	"e_di_hivhi" ;
-	skos:altLabel	"Enterprises with High levels of Digital Intensity" ;
-	ns6:membership	ns7:e_di_hivhi ;
-	skos:definition	"The Digital Intensity score is based on counting how many out of 12 technologies are used by each enterprise. High levels are attributed to those enterprises using at least 7 of the listed digital technologies." ;
-	skos:note	"The 2015 list of technologies includes: usage of internet by a majority of the workers; access to ICT specialist skills; fixed broadband speed > 30 Mbps; mobile devices used by more than 20% of employed persons; has a website; has some sophisticated functions on the website; presence on social media; does e-sales for at least 1% of turnover; exploit the B2C opportunities of web sales; use an ERP software; use a CRM software; share electronically supply chain management information.\r\nIn 2016 the last 3 indicators have been replaced with: pay to advertise on the internet; purchase cloud computing advanced services; send eInvoices. There is thus a break in series with in general a reduction of the digital intensity scores." ;
-	skos:topConceptOf	ns8:indicator .
-ns1:e_di_vlo	rdf:type	skos:Concept ,
-		ns2:Indicator ;
-	skos:prefLabel	"Enterprises with Very Low level of Digital Intensity" ;
-	dct:source	ns5:estat-ent ;
-	skos:notation	"e_di_vlo" ;
-	skos:altLabel	"Enterprises with Very Low level of Digital Intensity" ;
-	ns6:membership	ns7:e_di_vlo ;
-	skos:definition	"The Digital Intensity score is based on counting how many out of 12 technologies are used by each enterprise. Very Low levels are attributed to those enterprises using no more than 3 of the listed digital technologies." ;
-	skos:note	"The 2015 list of technologies includes: usage of internet by a majority of the workers; access to ICT specialist skills; fixed broadband speed > 30 Mbps; mobile devices used by more than 20% of employed persons; has a website; has some sophisticated functions on the website; presence on social media; does e-sales for at least 1% of turnover; exploit the B2C opportunities of web sales; use an ERP software; use a CRM software; share electronically supply chain management information.\r\nIn 2016 the last 3 indicators have been replaced with: pay to advertise on the internet; purchase cloud computing advanced services; send eInvoices. There is thus a break in series with in general a reduction of the digital intensity scores." ;
 	skos:topConceptOf	ns8:indicator .
 ns1:e_ebuy	rdf:type	skos:Concept ,
 		ns2:Indicator ;
@@ -3975,15 +3950,15 @@ ns1:e_gov_2c_tr_de	rdf:type	ns2:Indicator ,
 ns7:edigint2018	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ebusiness" ;
 	ns6:member-of	ns14:ebusiness ;
-	ns6:order	"15" .
+	ns6:order	"52" .
 ns7:edigint2021	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ebusiness" ;
 	ns6:member-of	ns14:ebusiness ;
-	ns6:order	"15" .
+	ns6:order	"53" .
 ns7:edigint2022	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ebusiness" ;
 	ns6:member-of	ns14:ebusiness ;
-	ns6:order	"15" .
+	ns6:order	"54" .
 ns1:edigint2018	rdf:type	ns2:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"Digital Intensity score for Enterprises (DII v2)" ;
@@ -4017,7 +3992,7 @@ ns1:edigint2022	rdf:type	skos:Concept ,
 ns7:sme_di_x_vlo	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ebusiness" ;
 	ns6:member-of	ns14:ebusiness ;
-	ns6:order	"16" .
+	ns6:order	"60" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/mobile/5g_cov_3400_3800>	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"mobile" ;
 	ns6:member-of	ns14:mobile ;
@@ -4049,11 +4024,25 @@ ns1:sme_di_x_vlo	rdf:type	skos:Concept ,
 	skos:prefLabel	"SMEs with at least a basic level of digital intensity (2022)" ;
 	dct:source	ns5:estat_isoc_e_dii ;
 	skos:notation	"sme_di_x_vlo" ;
-	skos:altLabel	"SMEs with at least a basic level of digital intensity" ;
+	skos:altLabel	"SMEs with at least a basic level of digital intensity (2022)" ;
 	ns6:membership	ns7:sme_di_x_vlo ;
-	skos:definition	"SMEs with low, high or very high digital intensity" ;
-	skos:note	"Enterprises with 10-250 persons employed. All manufacturing and service sectors, excluding the financial sector. " ;
+	skos:definition	"The Digital Intensity score is based on counting how many out of 12 technologies are used by each enterprise. Basic levels are attributed to those enterprises using at least 4 of the listed digital technologies." ;
+	skos:note	"The DII composition varies between different survey years, depending on the questions included in the survey. The exact composition for the different survey years can be found at https://circabc.europa.eu/ui/group/89577311-0f9b-4fc0-b8c2-2aaa7d3ccb91/library/30b83b9c-3d0c-4086-bf52-77905e19b4eb/details." ;
 	skos:topConceptOf	ns8:indicator .
+ns1:e_di4_hivhi	rdf:type	skos:Concept ,
+		ns2:Indicator ;
+	skos:prefLabel	"Enterprises with at least a high level of digital intensity (2022)" ;
+	dct:source	ns5:estat-ent ;
+	skos:notation	"e_di4_hivhi" ;
+	skos:altLabel	"Enterprises with at least a high level of digital intensity (2022)" ;
+	ns6:membership	ns7:e_di4_hivhi ;
+	skos:definition	"The Digital Intensity score is based on counting how many out of 12 technologies are used by each enterprise. High levels are attributed to those enterprises using at least 7 of the listed digital technologies." ;
+	skos:note	"The DII composition varies between different survey years, depending on the questions included in the survey. The exact composition for the different survey years can be found at https://circabc.europa.eu/ui/group/89577311-0f9b-4fc0-b8c2-2aaa7d3ccb91/library/30b83b9c-3d0c-4086-bf52-77905e19b4eb/details." ;
+	skos:topConceptOf	ns8:indicator .
+ns7:e_di4_hivhi	rdf:type	ns2:IndicatorToGroupMembership ;
+	rdfs:label	"ebusiness" ;
+	ns6:member-of	ns14:ebusiness ;
+	ns6:order	"59" .
 ns1:e_gov_4b_bm_us	rdf:type	ns2:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"4b Business Mobility - Usability" ;
@@ -4397,7 +4386,8 @@ ns1:e_di4_hi	rdf:type	skos:Concept ,
 	skos:notation	"e_di4_hi" ;
 	skos:altLabel	"Enterprises with high digital intensity index (DII v4)" ;
 	ns6:membership	ns7:e_di4_hi ;
-	skos:definition	"Enterprises with high digital intensity index (DII v4)" ;
+	skos:definition	"The Digital Intensity score is based on counting how many out of 12 technologies are used by each enterprise. Then they are divided into four clusters of digital intensity: Very Low (scores 0-3), Low (score 4-6), High (score 7-9), Very High (score 10-12)." ;
+	skos:note	"The DII composition varies between different survey years, depending on the questions included in the survey. The exact composition for the different survey years can be found at https://circabc.europa.eu/ui/group/89577311-0f9b-4fc0-b8c2-2aaa7d3ccb91/library/30b83b9c-3d0c-4086-bf52-77905e19b4eb/details." ;
 	skos:topConceptOf	ns8:indicator .
 ns1:e_di4_lo	rdf:type	ns2:Indicator ,
 		skos:Concept ;
@@ -4406,7 +4396,8 @@ ns1:e_di4_lo	rdf:type	ns2:Indicator ,
 	skos:notation	"e_di4_lo" ;
 	skos:altLabel	"Enterprises with low digital intensity index (DII v4)" ;
 	ns6:membership	ns7:e_di4_lo ;
-	skos:definition	"Enterprises with low digital intensity index (DII v4)" ;
+	skos:definition	"The Digital Intensity score is based on counting how many out of 12 technologies are used by each enterprise. Then they are divided into four clusters of digital intensity: Very Low (scores 0-3), Low (score 4-6), High (score 7-9), Very High (score 10-12)." ;
+	skos:note	"The DII composition varies between different survey years, depending on the questions included in the survey. The exact composition for the different survey years can be found at https://circabc.europa.eu/ui/group/89577311-0f9b-4fc0-b8c2-2aaa7d3ccb91/library/30b83b9c-3d0c-4086-bf52-77905e19b4eb/details." ;
 	skos:topConceptOf	ns8:indicator .
 ns1:e_di4_vhi	rdf:type	ns2:Indicator ,
 		skos:Concept ;
@@ -4415,7 +4406,8 @@ ns1:e_di4_vhi	rdf:type	ns2:Indicator ,
 	skos:notation	"e_di4_vhi" ;
 	skos:altLabel	"Enterprises with very high digital intensity index (DII v4)" ;
 	ns6:membership	ns7:e_di4_vhi ;
-	skos:definition	"Enterprises with very high digital intensity index (DII v4)" ;
+	skos:definition	"The Digital Intensity score is based on counting how many out of 12 technologies are used by each enterprise. Then they are divided into four clusters of digital intensity: Very Low (scores 0-3), Low (score 4-6), High (score 7-9), Very High (score 10-12)." ;
+	skos:note	"The DII composition varies between different survey years, depending on the questions included in the survey. The exact composition for the different survey years can be found at https://circabc.europa.eu/ui/group/89577311-0f9b-4fc0-b8c2-2aaa7d3ccb91/library/30b83b9c-3d0c-4086-bf52-77905e19b4eb/details." ;
 	skos:topConceptOf	ns8:indicator .
 ns1:e_di4_vlo	rdf:type	ns2:Indicator ,
 		skos:Concept ;
@@ -4424,7 +4416,8 @@ ns1:e_di4_vlo	rdf:type	ns2:Indicator ,
 	skos:notation	"e_di4_vlo" ;
 	skos:altLabel	"Enterprises with very low digital intensity index (DII v4)" ;
 	ns6:membership	ns7:e_di4_vlo ;
-	skos:definition	"Enterprises with very low digital intensity index (DII v4)" ;
+	skos:definition	"The Digital Intensity score is based on counting how many out of 12 technologies are used by each enterprise. Then they are divided into four clusters of digital intensity: Very Low (scores 0-3), Low (score 4-6), High (score 7-9), Very High (score 10-12)." ;
+	skos:note	"The DII composition varies between different survey years, depending on the questions included in the survey. The exact composition for the different survey years can be found at https://circabc.europa.eu/ui/group/89577311-0f9b-4fc0-b8c2-2aaa7d3ccb91/library/30b83b9c-3d0c-4086-bf52-77905e19b4eb/details." ;
 	skos:topConceptOf	ns8:indicator .
 ns17:bb_rvhcncov	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"broadband" ;
@@ -5136,11 +5129,11 @@ ns1:desi_idt_smedi	rdf:type	ns2:Indicator ,
 ns7:e_ai_tany	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ebusiness" ;
 	ns6:member-of	ns14:ebusiness ;
-	ns6:order	"31" .
+	ns6:order	"24" .
 ns7:e_cc1_si	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ebusiness" ;
 	ns6:member-of	ns14:ebusiness ;
-	ns6:order	"27" .
+	ns6:order	"19" .
 ns1:i_dsk2_ab	rdf:type	skos:Concept ,
 		ns2:Indicator ;
 	skos:prefLabel	"DSI 2.0 - Individuals with above basic overall digital skills" ;
@@ -5463,19 +5456,19 @@ ns26:i_dsk2_x	rdf:type	ns2:IndicatorToGroupMembership ;
 ns7:e_di4_hi	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ebusiness" ;
 	ns6:member-of	ns14:ebusiness ;
-	ns6:order	"19" .
+	ns6:order	"56" .
 ns7:e_di4_lo	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ebusiness" ;
 	ns6:member-of	ns14:ebusiness ;
-	ns6:order	"20" .
+	ns6:order	"57" .
 ns7:e_di4_vhi	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ebusiness" ;
 	ns6:member-of	ns14:ebusiness ;
-	ns6:order	"18" .
+	ns6:order	"55" .
 ns7:e_di4_vlo	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ebusiness" ;
 	ns6:member-of	ns14:ebusiness ;
-	ns6:order	"21" .
+	ns6:order	"58" .
 ns1:e_gov_dpsc	rdf:type	skos:Concept ,
 		ns2:Indicator ;
 	skos:prefLabel	"Digital Public Services for Citizens (up to 2020)" ;
@@ -5527,27 +5520,27 @@ ns1:i_dsk2_na	rdf:type	skos:Concept ,
 ns7:e_bda	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ebusiness" ;
 	ns6:member-of	ns14:ebusiness ;
-	ns6:order	"30" .
+	ns6:order	"23" .
 ns7:e_di3_hi	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ebusiness" ;
 	ns6:member-of	ns14:ebusiness ;
-	ns6:order	"19" .
+	ns6:order	"62" .
 ns7:e_di3_lo	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ebusiness" ;
 	ns6:member-of	ns14:ebusiness ;
-	ns6:order	"20" .
+	ns6:order	"63" .
 ns7:e_di3_vhi	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ebusiness" ;
 	ns6:member-of	ns14:ebusiness ;
-	ns6:order	"18" .
+	ns6:order	"61" .
 ns7:e_di3_vlo	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ebusiness" ;
 	ns6:member-of	ns14:ebusiness ;
-	ns6:order	"21" .
+	ns6:order	"64" .
 ns7:e_inv4s_ap	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ebusiness" ;
 	ns6:member-of	ns14:ebusiness ;
-	ns6:order	"5" .
+	ns6:order	"4" .
 ns1:e_bda	rdf:type	ns2:Indicator ,
 		skos:Concept ;
 	skos:prefLabel	"Enterprises analysing big data (2020)" ;

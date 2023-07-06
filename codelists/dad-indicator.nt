@@ -446,159 +446,155 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/discontinued/user_centric_egov>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/discontinued/user_centric_egov>	<http://www.w3.org/2000/01/rdf-schema#label>	"discontinued" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_ads>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_ads>	<http://semantic.digital-agenda-data.eu/def/property/order>	"14" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_ads>	<http://semantic.digital-agenda-data.eu/def/property/order>	"12" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_ads>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_ads>	<http://www.w3.org/2000/01/rdf-schema#label>	"ebusiness" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_ai_tany>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_ai_tany>	<http://semantic.digital-agenda-data.eu/def/property/order>	"31" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_ai_tany>	<http://semantic.digital-agenda-data.eu/def/property/order>	"24" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_ai_tany>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_ai_tany>	<http://www.w3.org/2000/01/rdf-schema#label>	"ebusiness" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_bd>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_bd>	<http://semantic.digital-agenda-data.eu/def/property/order>	"30" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_bd>	<http://semantic.digital-agenda-data.eu/def/property/order>	"22" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_bd>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_bd>	<http://www.w3.org/2000/01/rdf-schema#label>	"ebusiness" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_bda>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_bda>	<http://semantic.digital-agenda-data.eu/def/property/order>	"30" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_bda>	<http://semantic.digital-agenda-data.eu/def/property/order>	"23" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_bda>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_bda>	<http://www.w3.org/2000/01/rdf-schema#label>	"ebusiness" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_cc1_si>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_cc1_si>	<http://semantic.digital-agenda-data.eu/def/property/order>	"27" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_cc1_si>	<http://semantic.digital-agenda-data.eu/def/property/order>	"19" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_cc1_si>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_cc1_si>	<http://www.w3.org/2000/01/rdf-schema#label>	"ebusiness" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_cc>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_cc>	<http://semantic.digital-agenda-data.eu/def/property/order>	"27" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_cc>	<http://semantic.digital-agenda-data.eu/def/property/order>	"18" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_cc>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_cc>	<http://www.w3.org/2000/01/rdf-schema#label>	"ebusiness" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_cc_ge_me>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_cc_ge_me>	<http://semantic.digital-agenda-data.eu/def/property/order>	"28" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_cc_ge_me>	<http://semantic.digital-agenda-data.eu/def/property/order>	"20" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_cc_ge_me>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_cc_ge_me>	<http://www.w3.org/2000/01/rdf-schema#label>	"ebusiness" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_cc_pcpu>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_cc_pcpu>	<http://semantic.digital-agenda-data.eu/def/property/order>	"29" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_cc_pcpu>	<http://semantic.digital-agenda-data.eu/def/property/order>	"21" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_cc_pcpu>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_cc_pcpu>	<http://www.w3.org/2000/01/rdf-schema#label>	"ebusiness" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_crman>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_crman>	<http://semantic.digital-agenda-data.eu/def/property/order>	"3" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_crman>	<http://semantic.digital-agenda-data.eu/def/property/order>	"2" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_crman>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_crman>	<http://www.w3.org/2000/01/rdf-schema#label>	"ebusiness" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_di3_hi>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_di3_hi>	<http://semantic.digital-agenda-data.eu/def/property/order>	"19" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_di3_hi>	<http://semantic.digital-agenda-data.eu/def/property/order>	"62" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_di3_hi>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_di3_hi>	<http://www.w3.org/2000/01/rdf-schema#label>	"ebusiness" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_di3_lo>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_di3_lo>	<http://semantic.digital-agenda-data.eu/def/property/order>	"20" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_di3_lo>	<http://semantic.digital-agenda-data.eu/def/property/order>	"63" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_di3_lo>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_di3_lo>	<http://www.w3.org/2000/01/rdf-schema#label>	"ebusiness" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_di3_vhi>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_di3_vhi>	<http://semantic.digital-agenda-data.eu/def/property/order>	"18" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_di3_vhi>	<http://semantic.digital-agenda-data.eu/def/property/order>	"61" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_di3_vhi>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_di3_vhi>	<http://www.w3.org/2000/01/rdf-schema#label>	"ebusiness" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_di3_vlo>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_di3_vlo>	<http://semantic.digital-agenda-data.eu/def/property/order>	"21" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_di3_vlo>	<http://semantic.digital-agenda-data.eu/def/property/order>	"64" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_di3_vlo>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_di3_vlo>	<http://www.w3.org/2000/01/rdf-schema#label>	"ebusiness" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_di4_hi>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_di4_hi>	<http://semantic.digital-agenda-data.eu/def/property/order>	"19" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_di4_hi>	<http://semantic.digital-agenda-data.eu/def/property/order>	"56" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_di4_hi>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_di4_hi>	<http://www.w3.org/2000/01/rdf-schema#label>	"ebusiness" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_di4_hivhi>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_di4_hivhi>	<http://semantic.digital-agenda-data.eu/def/property/order>	"59" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_di4_hivhi>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_di4_hivhi>	<http://www.w3.org/2000/01/rdf-schema#label>	"ebusiness" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_di4_lo>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_di4_lo>	<http://semantic.digital-agenda-data.eu/def/property/order>	"20" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_di4_lo>	<http://semantic.digital-agenda-data.eu/def/property/order>	"57" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_di4_lo>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_di4_lo>	<http://www.w3.org/2000/01/rdf-schema#label>	"ebusiness" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_di4_vhi>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_di4_vhi>	<http://semantic.digital-agenda-data.eu/def/property/order>	"18" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_di4_vhi>	<http://semantic.digital-agenda-data.eu/def/property/order>	"55" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_di4_vhi>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_di4_vhi>	<http://www.w3.org/2000/01/rdf-schema#label>	"ebusiness" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_di4_vlo>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_di4_vlo>	<http://semantic.digital-agenda-data.eu/def/property/order>	"21" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_di4_vlo>	<http://semantic.digital-agenda-data.eu/def/property/order>	"58" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_di4_vlo>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_di4_vlo>	<http://www.w3.org/2000/01/rdf-schema#label>	"ebusiness" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_di_hivhi>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_di_hivhi>	<http://semantic.digital-agenda-data.eu/def/property/order>	"16" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_di_hivhi>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_di_hivhi>	<http://www.w3.org/2000/01/rdf-schema#label>	"ebusiness" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_di_vlo>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_di_vlo>	<http://semantic.digital-agenda-data.eu/def/property/order>	"17" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_di_vlo>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_di_vlo>	<http://www.w3.org/2000/01/rdf-schema#label>	"ebusiness" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_empmd_gt20>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_empmd_gt20>	<http://semantic.digital-agenda-data.eu/def/property/order>	"12" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_empmd_gt20>	<http://semantic.digital-agenda-data.eu/def/property/order>	"9" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_empmd_gt20>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_empmd_gt20>	<http://www.w3.org/2000/01/rdf-schema#label>	"ebusiness" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_erp1>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_erp1>	<http://semantic.digital-agenda-data.eu/def/property/order>	"2" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_erp1>	<http://semantic.digital-agenda-data.eu/def/property/order>	"1" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_erp1>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_erp1>	<http://www.w3.org/2000/01/rdf-schema#label>	"ebusiness" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_inv4s_ap>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_inv4s_ap>	<http://semantic.digital-agenda-data.eu/def/property/order>	"5" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_inv4s_ap>	<http://semantic.digital-agenda-data.eu/def/property/order>	"4" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_inv4s_ap>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_inv4s_ap>	<http://www.w3.org/2000/01/rdf-schema#label>	"ebusiness" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_invsnd>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_invsnd>	<http://semantic.digital-agenda-data.eu/def/property/order>	"6" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_invsnd>	<http://semantic.digital-agenda-data.eu/def/property/order>	"5" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_invsnd>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_invsnd>	<http://www.w3.org/2000/01/rdf-schema#label>	"ebusiness" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_pmd_app>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_pmd_app>	<http://semantic.digital-agenda-data.eu/def/property/order>	"13" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_pmd_app>	<http://semantic.digital-agenda-data.eu/def/property/order>	"10" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_pmd_app>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_pmd_app>	<http://www.w3.org/2000/01/rdf-schema#label>	"ebusiness" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_ra>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_ra>	<http://semantic.digital-agenda-data.eu/def/property/order>	"11" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_ra>	<http://semantic.digital-agenda-data.eu/def/property/order>	"8" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_ra>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_ra>	<http://www.w3.org/2000/01/rdf-schema#label>	"ebusiness" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_rfac>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_rfac>	<http://semantic.digital-agenda-data.eu/def/property/order>	"23" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_rfac>	<http://semantic.digital-agenda-data.eu/def/property/order>	"14" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_rfac>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_rfac>	<http://www.w3.org/2000/01/rdf-schema#label>	"ebusiness" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_rfid>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_rfid>	<http://semantic.digital-agenda-data.eu/def/property/order>	"22" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_rfid>	<http://semantic.digital-agenda-data.eu/def/property/order>	"13" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_rfid>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_rfid>	<http://www.w3.org/2000/01/rdf-schema#label>	"ebusiness" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_rfpsas>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_rfpsas>	<http://semantic.digital-agenda-data.eu/def/property/order>	"24" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_rfpsas>	<http://semantic.digital-agenda-data.eu/def/property/order>	"15" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_rfpsas>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_rfpsas>	<http://www.w3.org/2000/01/rdf-schema#label>	"ebusiness" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_sisc>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_sisc>	<http://semantic.digital-agenda-data.eu/def/property/order>	"4" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_sisc>	<http://semantic.digital-agenda-data.eu/def/property/order>	"3" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_sisc>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_sisc>	<http://www.w3.org/2000/01/rdf-schema#label>	"ebusiness" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_sm_any>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_sm_any>	<http://semantic.digital-agenda-data.eu/def/property/order>	"25" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_sm_any>	<http://semantic.digital-agenda-data.eu/def/property/order>	"16" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_sm_any>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_sm_any>	<http://www.w3.org/2000/01/rdf-schema#label>	"ebusiness" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_sm_ge2>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_sm_ge2>	<http://semantic.digital-agenda-data.eu/def/property/order>	"26" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_sm_ge2>	<http://semantic.digital-agenda-data.eu/def/property/order>	"17" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_sm_ge2>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_sm_ge2>	<http://www.w3.org/2000/01/rdf-schema#label>	"ebusiness" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_web>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_web>	<http://semantic.digital-agenda-data.eu/def/property/order>	"9" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_web>	<http://semantic.digital-agenda-data.eu/def/property/order>	"6" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_web>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_web>	<http://www.w3.org/2000/01/rdf-schema#label>	"ebusiness" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_webf2>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_webf2>	<http://semantic.digital-agenda-data.eu/def/property/order>	"10" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_webf2>	<http://semantic.digital-agenda-data.eu/def/property/order>	"7" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_webf2>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_webf2>	<http://www.w3.org/2000/01/rdf-schema#label>	"ebusiness" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/edigint2015>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/edigint2015>	<http://semantic.digital-agenda-data.eu/def/property/order>	"15" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/edigint2015>	<http://semantic.digital-agenda-data.eu/def/property/order>	"51" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/edigint2015>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/edigint2015>	<http://www.w3.org/2000/01/rdf-schema#label>	"ebusiness" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/edigint2018>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/edigint2018>	<http://semantic.digital-agenda-data.eu/def/property/order>	"15" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/edigint2018>	<http://semantic.digital-agenda-data.eu/def/property/order>	"52" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/edigint2018>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/edigint2018>	<http://www.w3.org/2000/01/rdf-schema#label>	"ebusiness" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/edigint2021>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/edigint2021>	<http://semantic.digital-agenda-data.eu/def/property/order>	"15" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/edigint2021>	<http://semantic.digital-agenda-data.eu/def/property/order>	"53" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/edigint2021>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/edigint2021>	<http://www.w3.org/2000/01/rdf-schema#label>	"ebusiness" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/edigint2022>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/edigint2022>	<http://semantic.digital-agenda-data.eu/def/property/order>	"15" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/edigint2022>	<http://semantic.digital-agenda-data.eu/def/property/order>	"54" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/edigint2022>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/edigint2022>	<http://www.w3.org/2000/01/rdf-schema#label>	"ebusiness" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/p_empmd>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/p_empmd>	<http://semantic.digital-agenda-data.eu/def/property/order>	"13" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/p_empmd>	<http://semantic.digital-agenda-data.eu/def/property/order>	"11" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/p_empmd>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/p_empmd>	<http://www.w3.org/2000/01/rdf-schema#label>	"ebusiness" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/sme_di_x_vlo>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/sme_di_x_vlo>	<http://semantic.digital-agenda-data.eu/def/property/order>	"16" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/sme_di_x_vlo>	<http://semantic.digital-agenda-data.eu/def/property/order>	"60" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/sme_di_x_vlo>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/sme_di_x_vlo>	<http://www.w3.org/2000/01/rdf-schema#label>	"ebusiness" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ecommerce/e_aeseu>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ecommerce> .
@@ -2554,8 +2550,9 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_di3_hi>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_di3_hi>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_di3_hi>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Enterprises with high digital intensity index (DII v3)" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/e_di3_hi>	<http://www.w3.org/2004/02/skos/core#definition>	"Enterprises with high digital intensity index (DII v3)" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/e_di3_hi>	<http://www.w3.org/2004/02/skos/core#definition>	"The Digital Intensity score is based on counting how many out of 12 technologies are used by each enterprise. Then they are divided into four clusters of digital intensity: Very Low (scores 0-3), Low (score 4-6), High (score 7-9), Very High (score 10-12)." .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_di3_hi>	<http://www.w3.org/2004/02/skos/core#notation>	"e_di3_hi" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/e_di3_hi>	<http://www.w3.org/2004/02/skos/core#note>	"The DII composition varies between different survey years, depending on the questions included in the survey. The exact composition for the different survey years can be found at https://circabc.europa.eu/ui/group/89577311-0f9b-4fc0-b8c2-2aaa7d3ccb91/library/30b83b9c-3d0c-4086-bf52-77905e19b4eb/details." .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_di3_hi>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Enterprises with high digital intensity index (DII v3)" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_di3_hi>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_di3_lo>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/estat-ent> .
@@ -2563,8 +2560,9 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_di3_lo>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_di3_lo>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_di3_lo>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Enterprises with low digital intensity index (DII v3)" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/e_di3_lo>	<http://www.w3.org/2004/02/skos/core#definition>	"Enterprises with low digital intensity index (DII v3)" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/e_di3_lo>	<http://www.w3.org/2004/02/skos/core#definition>	"The Digital Intensity score is based on counting how many out of 12 technologies are used by each enterprise. Then they are divided into four clusters of digital intensity: Very Low (scores 0-3), Low (score 4-6), High (score 7-9), Very High (score 10-12)." .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_di3_lo>	<http://www.w3.org/2004/02/skos/core#notation>	"e_di3_lo" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/e_di3_lo>	<http://www.w3.org/2004/02/skos/core#note>	"The DII composition varies between different survey years, depending on the questions included in the survey. The exact composition for the different survey years can be found at https://circabc.europa.eu/ui/group/89577311-0f9b-4fc0-b8c2-2aaa7d3ccb91/library/30b83b9c-3d0c-4086-bf52-77905e19b4eb/details." .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_di3_lo>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Enterprises with low digital intensity index (DII v3)" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_di3_lo>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_di3_vhi>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/estat-ent> .
@@ -2572,8 +2570,9 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_di3_vhi>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_di3_vhi>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_di3_vhi>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Enterprises with very high digital intensity index (DII v3)" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/e_di3_vhi>	<http://www.w3.org/2004/02/skos/core#definition>	"Enterprises with very high digital intensity index (DII v3)" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/e_di3_vhi>	<http://www.w3.org/2004/02/skos/core#definition>	"The Digital Intensity score is based on counting how many out of 12 technologies are used by each enterprise. Then they are divided into four clusters of digital intensity: Very Low (scores 0-3), Low (score 4-6), High (score 7-9), Very High (score 10-12)." .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_di3_vhi>	<http://www.w3.org/2004/02/skos/core#notation>	"e_di3_vhi" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/e_di3_vhi>	<http://www.w3.org/2004/02/skos/core#note>	"The DII composition varies between different survey years, depending on the questions included in the survey. The exact composition for the different survey years can be found at https://circabc.europa.eu/ui/group/89577311-0f9b-4fc0-b8c2-2aaa7d3ccb91/library/30b83b9c-3d0c-4086-bf52-77905e19b4eb/details." .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_di3_vhi>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Enterprises with very high digital intensity index (DII v3)" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_di3_vhi>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_di3_vlo>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/estat-ent> .
@@ -2581,8 +2580,9 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_di3_vlo>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_di3_vlo>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_di3_vlo>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Enterprises with very low digital intensity index (DII v3)" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/e_di3_vlo>	<http://www.w3.org/2004/02/skos/core#definition>	"Enterprises with very low digital intensity index (DII v3)" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/e_di3_vlo>	<http://www.w3.org/2004/02/skos/core#definition>	"The Digital Intensity score is based on counting how many out of 12 technologies are used by each enterprise. Then they are divided into four clusters of digital intensity: Very Low (scores 0-3), Low (score 4-6), High (score 7-9), Very High (score 10-12)." .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_di3_vlo>	<http://www.w3.org/2004/02/skos/core#notation>	"e_di3_vlo" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/e_di3_vlo>	<http://www.w3.org/2004/02/skos/core#note>	"The DII composition varies between different survey years, depending on the questions included in the survey. The exact composition for the different survey years can be found at https://circabc.europa.eu/ui/group/89577311-0f9b-4fc0-b8c2-2aaa7d3ccb91/library/30b83b9c-3d0c-4086-bf52-77905e19b4eb/details." .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_di3_vlo>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Enterprises with very low digital intensity index (DII v3)" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_di3_vlo>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_di4_hi>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/estat-ent> .
@@ -2590,17 +2590,29 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_di4_hi>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_di4_hi>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_di4_hi>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Enterprises with high digital intensity index (DII v4)" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/e_di4_hi>	<http://www.w3.org/2004/02/skos/core#definition>	"Enterprises with high digital intensity index (DII v4)" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/e_di4_hi>	<http://www.w3.org/2004/02/skos/core#definition>	"The Digital Intensity score is based on counting how many out of 12 technologies are used by each enterprise. Then they are divided into four clusters of digital intensity: Very Low (scores 0-3), Low (score 4-6), High (score 7-9), Very High (score 10-12)." .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_di4_hi>	<http://www.w3.org/2004/02/skos/core#notation>	"e_di4_hi" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/e_di4_hi>	<http://www.w3.org/2004/02/skos/core#note>	"The DII composition varies between different survey years, depending on the questions included in the survey. The exact composition for the different survey years can be found at https://circabc.europa.eu/ui/group/89577311-0f9b-4fc0-b8c2-2aaa7d3ccb91/library/30b83b9c-3d0c-4086-bf52-77905e19b4eb/details." .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_di4_hi>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Enterprises with high digital intensity index (DII v4)" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_di4_hi>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/e_di4_hivhi>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/estat-ent> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/e_di4_hivhi>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_di4_hivhi> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/e_di4_hivhi>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/e_di4_hivhi>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/e_di4_hivhi>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Enterprises with at least a high level of digital intensity (2022)" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/e_di4_hivhi>	<http://www.w3.org/2004/02/skos/core#definition>	"The Digital Intensity score is based on counting how many out of 12 technologies are used by each enterprise. High levels are attributed to those enterprises using at least 7 of the listed digital technologies." .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/e_di4_hivhi>	<http://www.w3.org/2004/02/skos/core#notation>	"e_di4_hivhi" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/e_di4_hivhi>	<http://www.w3.org/2004/02/skos/core#note>	"The DII composition varies between different survey years, depending on the questions included in the survey. The exact composition for the different survey years can be found at https://circabc.europa.eu/ui/group/89577311-0f9b-4fc0-b8c2-2aaa7d3ccb91/library/30b83b9c-3d0c-4086-bf52-77905e19b4eb/details." .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/e_di4_hivhi>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Enterprises with at least a high level of digital intensity (2022)" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/e_di4_hivhi>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_di4_lo>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/estat-ent> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_di4_lo>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_di4_lo> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_di4_lo>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_di4_lo>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_di4_lo>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Enterprises with low digital intensity index (DII v4)" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/e_di4_lo>	<http://www.w3.org/2004/02/skos/core#definition>	"Enterprises with low digital intensity index (DII v4)" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/e_di4_lo>	<http://www.w3.org/2004/02/skos/core#definition>	"The Digital Intensity score is based on counting how many out of 12 technologies are used by each enterprise. Then they are divided into four clusters of digital intensity: Very Low (scores 0-3), Low (score 4-6), High (score 7-9), Very High (score 10-12)." .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_di4_lo>	<http://www.w3.org/2004/02/skos/core#notation>	"e_di4_lo" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/e_di4_lo>	<http://www.w3.org/2004/02/skos/core#note>	"The DII composition varies between different survey years, depending on the questions included in the survey. The exact composition for the different survey years can be found at https://circabc.europa.eu/ui/group/89577311-0f9b-4fc0-b8c2-2aaa7d3ccb91/library/30b83b9c-3d0c-4086-bf52-77905e19b4eb/details." .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_di4_lo>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Enterprises with low digital intensity index (DII v4)" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_di4_lo>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_di4_vhi>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/estat-ent> .
@@ -2608,8 +2620,9 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_di4_vhi>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_di4_vhi>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_di4_vhi>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Enterprises with very high digital intensity index (DII v4)" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/e_di4_vhi>	<http://www.w3.org/2004/02/skos/core#definition>	"Enterprises with very high digital intensity index (DII v4)" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/e_di4_vhi>	<http://www.w3.org/2004/02/skos/core#definition>	"The Digital Intensity score is based on counting how many out of 12 technologies are used by each enterprise. Then they are divided into four clusters of digital intensity: Very Low (scores 0-3), Low (score 4-6), High (score 7-9), Very High (score 10-12)." .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_di4_vhi>	<http://www.w3.org/2004/02/skos/core#notation>	"e_di4_vhi" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/e_di4_vhi>	<http://www.w3.org/2004/02/skos/core#note>	"The DII composition varies between different survey years, depending on the questions included in the survey. The exact composition for the different survey years can be found at https://circabc.europa.eu/ui/group/89577311-0f9b-4fc0-b8c2-2aaa7d3ccb91/library/30b83b9c-3d0c-4086-bf52-77905e19b4eb/details." .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_di4_vhi>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Enterprises with very high digital intensity index (DII v4)" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_di4_vhi>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_di4_vlo>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/estat-ent> .
@@ -2617,30 +2630,11 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_di4_vlo>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_di4_vlo>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_di4_vlo>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Enterprises with very low digital intensity index (DII v4)" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/e_di4_vlo>	<http://www.w3.org/2004/02/skos/core#definition>	"Enterprises with very low digital intensity index (DII v4)" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/e_di4_vlo>	<http://www.w3.org/2004/02/skos/core#definition>	"The Digital Intensity score is based on counting how many out of 12 technologies are used by each enterprise. Then they are divided into four clusters of digital intensity: Very Low (scores 0-3), Low (score 4-6), High (score 7-9), Very High (score 10-12)." .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_di4_vlo>	<http://www.w3.org/2004/02/skos/core#notation>	"e_di4_vlo" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/e_di4_vlo>	<http://www.w3.org/2004/02/skos/core#note>	"The DII composition varies between different survey years, depending on the questions included in the survey. The exact composition for the different survey years can be found at https://circabc.europa.eu/ui/group/89577311-0f9b-4fc0-b8c2-2aaa7d3ccb91/library/30b83b9c-3d0c-4086-bf52-77905e19b4eb/details." .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_di4_vlo>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Enterprises with very low digital intensity index (DII v4)" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_di4_vlo>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/e_di_hivhi>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/estat-ent> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/e_di_hivhi>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_di_hivhi> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/e_di_hivhi>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/e_di_hivhi>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/e_di_hivhi>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Enterprises with High levels of Digital Intensity" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/e_di_hivhi>	<http://www.w3.org/2004/02/skos/core#definition>	"The Digital Intensity score is based on counting how many out of 12 technologies are used by each enterprise. High levels are attributed to those enterprises using at least 7 of the listed digital technologies." .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/e_di_hivhi>	<http://www.w3.org/2004/02/skos/core#notation>	"e_di_hivhi" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/e_di_hivhi>	<http://www.w3.org/2004/02/skos/core#note>	"The 2015 list of technologies includes: usage of internet by a majority of the workers; access to ICT specialist skills; fixed broadband speed > 30 Mbps; mobile devices used by more than 20% of employed persons; has a website; has some sophisticated functions on the website; presence on social media; does e-sales for at least 1% of turnover; exploit the B2C opportunities of web sales; use an ERP software; use a CRM software; share electronically supply chain management information.\r\nIn 2016 the last 3 indicators have been replaced with: pay to advertise on the internet; purchase cloud computing advanced services; send eInvoices. There is thus a break in series with in general a reduction of the digital intensity scores." .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/e_di_hivhi>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Enterprises with High levels of Digital Intensity" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/e_di_hivhi>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/e_di_vlo>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/estat-ent> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/e_di_vlo>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/e_di_vlo> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/e_di_vlo>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/e_di_vlo>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/e_di_vlo>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Enterprises with Very Low level of Digital Intensity" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/e_di_vlo>	<http://www.w3.org/2004/02/skos/core#definition>	"The Digital Intensity score is based on counting how many out of 12 technologies are used by each enterprise. Very Low levels are attributed to those enterprises using no more than 3 of the listed digital technologies." .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/e_di_vlo>	<http://www.w3.org/2004/02/skos/core#notation>	"e_di_vlo" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/e_di_vlo>	<http://www.w3.org/2004/02/skos/core#note>	"The 2015 list of technologies includes: usage of internet by a majority of the workers; access to ICT specialist skills; fixed broadband speed > 30 Mbps; mobile devices used by more than 20% of employed persons; has a website; has some sophisticated functions on the website; presence on social media; does e-sales for at least 1% of turnover; exploit the B2C opportunities of web sales; use an ERP software; use a CRM software; share electronically supply chain management information.\r\nIn 2016 the last 3 indicators have been replaced with: pay to advertise on the internet; purchase cloud computing advanced services; send eInvoices. There is thus a break in series with in general a reduction of the digital intensity scores." .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/e_di_vlo>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Enterprises with Very Low level of Digital Intensity" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/e_di_vlo>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_ebuy>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/estat_isoc_bde15dec> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_ebuy>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/discontinued/e_ebuy> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_ebuy>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
@@ -5250,10 +5244,10 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator/sme_di_x_vlo>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/sme_di_x_vlo> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/sme_di_x_vlo>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/sme_di_x_vlo>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/sme_di_x_vlo>	<http://www.w3.org/2004/02/skos/core#altLabel>	"SMEs with at least a basic level of digital intensity" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/sme_di_x_vlo>	<http://www.w3.org/2004/02/skos/core#definition>	"SMEs with low, high or very high digital intensity" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/sme_di_x_vlo>	<http://www.w3.org/2004/02/skos/core#altLabel>	"SMEs with at least a basic level of digital intensity (2022)" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/sme_di_x_vlo>	<http://www.w3.org/2004/02/skos/core#definition>	"The Digital Intensity score is based on counting how many out of 12 technologies are used by each enterprise. Basic levels are attributed to those enterprises using at least 4 of the listed digital technologies." .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/sme_di_x_vlo>	<http://www.w3.org/2004/02/skos/core#notation>	"sme_di_x_vlo" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/sme_di_x_vlo>	<http://www.w3.org/2004/02/skos/core#note>	"Enterprises with 10-250 persons employed. All manufacturing and service sectors, excluding the financial sector. " .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/sme_di_x_vlo>	<http://www.w3.org/2004/02/skos/core#note>	"The DII composition varies between different survey years, depending on the questions included in the survey. The exact composition for the different survey years can be found at https://circabc.europa.eu/ui/group/89577311-0f9b-4fc0-b8c2-2aaa7d3ccb91/library/30b83b9c-3d0c-4086-bf52-77905e19b4eb/details." .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/sme_di_x_vlo>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"SMEs with at least a basic level of digital intensity (2022)" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/sme_di_x_vlo>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/spectrum_wbb>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/eco_report_03_efis_comm> .
@@ -5481,7 +5475,7 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator/wid_ui_part>	<http://www.w3.org/2004/02/skos/core#notation>	"wid_ui_part" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/wid_ui_part>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"1.5 Online consultations or voting" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/wid_ui_part>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://purl.org/dc/terms/modified>	"2023-07-05T14:06:09"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://purl.org/dc/terms/modified>	"2023-07-06T13:50:26"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://purl.org/linked-data/sdmx#CodeList> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#ConceptScheme> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2000/01/rdf-schema#isDefinedBy>	<http://digital-agenda-data.eu/> .
@@ -5590,11 +5584,10 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/e_di3_vhi> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/e_di3_vlo> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/e_di4_hi> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/e_di4_hivhi> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/e_di4_lo> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/e_di4_vhi> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/e_di4_vlo> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/e_di_hivhi> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/e_di_vlo> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/e_ebuy> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/e_empmd_gt20> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/e_erp1> .
