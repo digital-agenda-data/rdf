@@ -120,6 +120,13 @@
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/ia12ave>	<http://www.w3.org/2004/02/skos/core#notation>	"ia12ave" .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/ia12ave>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Diversification index average" .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/ia12ave>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/kpi_score>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/kpi_score>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/kpi_score>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Score (0 to 100)" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/kpi_score>	<http://www.w3.org/2004/02/skos/core#definition>	"Composite score of the country, from a minimum of 0 to a maximum of 100." .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/kpi_score>	<http://www.w3.org/2004/02/skos/core#notation>	"kpi_score" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/kpi_score>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Score (0 to 100)" .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure/kpi_score>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/median_euro_ppp>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/UnitMeasure> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/median_euro_ppp>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/median_euro_ppp>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Median price in euros (PPPs corrected)" .
@@ -885,7 +892,7 @@
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/wid_score>	<http://www.w3.org/2004/02/skos/core#notation>	"wid_score" .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/wid_score>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Score (0 to 1)" .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure/wid_score>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure> .
-<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://purl.org/dc/terms/modified>	"2023-06-15T14:48:36"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://purl.org/dc/terms/modified>	"2023-07-10T10:41:37"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://purl.org/linked-data/sdmx#CodeList> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#ConceptScheme> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2000/01/rdf-schema#isDefinedBy>	<http://digital-agenda-data.eu/> .
@@ -908,6 +915,7 @@
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/habitants> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/hhi> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/ia12ave> .
+<http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/kpi_score> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/median_euro_ppp> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/mhz> .
 <http://semantic.digital-agenda-data.eu/codelist/unit-measure>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/unit-measure/million_euro> .

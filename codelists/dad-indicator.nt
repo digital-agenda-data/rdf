@@ -922,6 +922,10 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/egovernment/i_iugov12>	<http://semantic.digital-agenda-data.eu/def/property/order>	"6" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/egovernment/i_iugov12>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/egovernment/i_iugov12>	<http://www.w3.org/2000/01/rdf-schema#label>	"egovernment" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ehealth/ehealth_aehr>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ehealth> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ehealth/ehealth_aehr>	<http://semantic.digital-agenda-data.eu/def/property/order>	"3"^^<http://www.w3.org/2001/XMLSchema#byte> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ehealth/ehealth_aehr>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ehealth/ehealth_aehr>	<http://www.w3.org/2000/01/rdf-schema#label>	"ehealth" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ehealth/hie_use_ex_admin>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ehealth> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ehealth/hie_use_ex_admin>	<http://semantic.digital-agenda-data.eu/def/property/order>	"4" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator-group/ehealth/hie_use_ex_admin>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/IndicatorToGroupMembership> .
@@ -3179,7 +3183,7 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_gov_dpsc_new>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_gov_dpsc_new>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_gov_dpsc_new>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Digital Public Services for Citizens (from 2021)" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/e_gov_dpsc_new>	<http://www.w3.org/2004/02/skos/core#definition>	"The extent to which a service or information concerning service for citizens is provided online, and via a portal. Services that are offered fully, partially or not at all online. " .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/e_gov_dpsc_new>	<http://www.w3.org/2004/02/skos/core#definition>	"The extent to which a service or information concerning service for citizens is provided online, and via a portal. Services that are offered fully, partially or not at all online.\r\nThis indicator is replacing indicators e_gov_osc (Online Service Completion, 2014-2019) and e_gov_dpsc (2020) as a result of a methodological update in 2020." .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_gov_dpsc_new>	<http://www.w3.org/2004/02/skos/core#notation>	"e_gov_dpsc_new" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_gov_dpsc_new>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Digital Public Services for Citizens (from 2021)" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_gov_dpsc_new>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
@@ -3197,7 +3201,7 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_gov_ebus_new>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_gov_ebus_new>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_gov_ebus_new>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Digital Public Services for Businesses (from 2021)" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/e_gov_ebus_new>	<http://www.w3.org/2004/02/skos/core#definition>	"The extent to which a service or information concerning service for businesses is provided online and via a portal. Services that are offered fully, partially or not at all online. " .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/e_gov_ebus_new>	<http://www.w3.org/2004/02/skos/core#definition>	"The extent to which a service or information concerning service for businesses is provided online and via a portal. Services that are offered fully, partially or not at all online.\r\nThis indicator is replacing indicator e_gov_ebus (2014-2020) as a result of a methodological update in 2020." .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_gov_ebus_new>	<http://www.w3.org/2004/02/skos/core#notation>	"e_gov_ebus_new" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_gov_ebus_new>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Digital Public Services for Businesses (from 2021)" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/e_gov_ebus_new>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
@@ -3567,6 +3571,15 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator/edigint2022>	<http://www.w3.org/2004/02/skos/core#note>	"The DII composition varies between different survey years, depending on the questions included in the survey. The exact composition for the different survey years can be found at https://circabc.europa.eu/ui/group/89577311-0f9b-4fc0-b8c2-2aaa7d3ccb91/library/30b83b9c-3d0c-4086-bf52-77905e19b4eb/details." .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/edigint2022>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Digital Intensity score for Enterprises (DII v4)" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/edigint2022>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/ehealth_aehr>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/cnect_ehealth_kpi> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/ehealth_aehr>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ehealth/ehealth_aehr> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/ehealth_aehr>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/ehealth_aehr>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/ehealth_aehr>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Online access to medical records" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/ehealth_aehr>	<http://www.w3.org/2004/02/skos/core#definition>	"measured as (i) the nationwide availability of online access services for citizens to their electronic health records data (via a patient portal, or a patient mobile app) with additional measures in place that enable certain categories of people (e.g. guardians for children, people with disabilities, elderly) to also access their data, and (ii) the  percentage of individuals that have the ability to obtain or make use of  their own minimum set of health-related data currently stored in public and private electronic health-record (EHR) systems. " .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/ehealth_aehr>	<http://www.w3.org/2004/02/skos/core#notation>	"ehealth_aehr" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/ehealth_aehr>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"KPI citizen\u2019s online access to medical records" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/ehealth_aehr>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/employment_ict>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/jrc_ict_randd> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/employment_ict>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ict-sector/employment_ict> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/employment_ict>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Indicator> .
@@ -4514,7 +4527,7 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator/i_igovrt>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Sending filled forms to eGov services, last 3 months" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/i_igovrt>	<http://www.w3.org/2004/02/skos/core#notation>	"i_igovrt" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/i_igovrt>	<http://www.w3.org/2004/02/skos/core#note>	"Indicator collected until 2010." .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/i_igovrt>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"sending filled forms to public authorities, over the internet, last 3 months" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_igovrt>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Sending filled forms to public authorities, over the internet, last 3 months" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/i_igovrt>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/i_ihif>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/estat_isoc_bde15cua> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/i_ihif>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ehealth/i_ihif> .
@@ -4523,7 +4536,7 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator/i_ihif>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Seeking health information" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/i_ihif>	<http://www.w3.org/2004/02/skos/core#definition>	"Individuals using internet in the last 3 months, seeking information about health: injury, disease, nutrition, improving health, etc." .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/i_ihif>	<http://www.w3.org/2004/02/skos/core#notation>	"i_ihif" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/i_ihif>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"seeking online information about health" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_ihif>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Seeking online information about health" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/i_ihif>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/i_ilt12>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/estat_isoc_ci_ifp_iu> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/i_ilt12>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/internet-usage/i_ilt12> .
@@ -4567,7 +4580,7 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator/i_iubk>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Online banking" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/i_iubk>	<http://www.w3.org/2004/02/skos/core#definition>	"Individuals have used Internet, in the last 3 months, for Internet banking" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/i_iubk>	<http://www.w3.org/2004/02/skos/core#notation>	"i_iubk" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/i_iubk>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"using online banking" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_iubk>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Using online banking" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/i_iubk>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/i_iueduif>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/estat_isoc_ci_ac_i> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/i_iueduif>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/internet-services/i_iueduif> .
@@ -4576,7 +4589,7 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator/i_iueduif>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Information about education & training" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/i_iueduif>	<http://www.w3.org/2004/02/skos/core#definition>	"Individuals have used Internet, in the last 3 months, for looking for information about education, training or course offers" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/i_iueduif>	<http://www.w3.org/2004/02/skos/core#notation>	"i_iueduif" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/i_iueduif>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"looking online for information about education, training or course offers" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_iueduif>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Looking online for information about education, training or course offers" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/i_iueduif>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/i_iugm>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/estat_isoc_bde15cua> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/i_iugm>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/audiovisual/i_iugm> .
@@ -4586,7 +4599,7 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator/i_iugm>	<http://www.w3.org/2004/02/skos/core#definition>	"Individuals have used Internet, in the last 3 months, for playing or downloading games, images films or music" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/i_iugm>	<http://www.w3.org/2004/02/skos/core#notation>	"i_iugm" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/i_iugm>	<http://www.w3.org/2004/02/skos/core#note>	"Biennial indicator not collected in 2011" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/i_iugm>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"playing or downloading games, images, films or music" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_iugm>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Playing or downloading games, images, films or music" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/i_iugm>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/i_iugov12>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/estat_isoc_r_gov_i> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/i_iugov12>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/egovernment/i_iugov12> .
@@ -4604,7 +4617,7 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator/i_iugov>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Use of eGovernment services, last 3 months" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/i_iugov>	<http://www.w3.org/2004/02/skos/core#definition>	"Individuals have used Internet, in the last 3 months, for interaction with public authorities. It includes obtaining information from public authorities web sites, downloading official forms and sending filled in forms." .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/i_iugov>	<http://www.w3.org/2004/02/skos/core#notation>	"i_iugov" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/i_iugov>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"interacting online with public authorities, last 3 months" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_iugov>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Interacting online with public authorities, last 3 months" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/i_iugov>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/i_iuif>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/estat_isoc_ci_ac_i> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/i_iuif>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/internet-services/i_iuif> .
@@ -4613,7 +4626,7 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator/i_iuif>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Information about goods and services" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/i_iuif>	<http://www.w3.org/2004/02/skos/core#definition>	"Individuals have used Internet, in the last 3 months, for finding information about goods and services" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/i_iuif>	<http://www.w3.org/2004/02/skos/core#notation>	"i_iuif" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/i_iuif>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"looking for information about goods and services online" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_iuif>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Looking for information about goods and services online" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/i_iuif>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/i_iujob>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/estat_isoc_bde15cua> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/i_iujob>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/internet-services/i_iujob> .
@@ -4622,7 +4635,7 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator/i_iujob>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Looking for a job, sending a job application" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/i_iujob>	<http://www.w3.org/2004/02/skos/core#definition>	"Individuals have used Internet, in the last 3 months, for looking for a job or sending a job application" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/i_iujob>	<http://www.w3.org/2004/02/skos/core#notation>	"i_iujob" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/i_iujob>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"looking online for a job or sending a job application" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_iujob>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Looking online for a job or sending a job application" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/i_iujob>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/i_iumapp>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/estat_isoc_bde15cua> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/i_iumapp>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ehealth/i_iumapp> .
@@ -4632,7 +4645,7 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator/i_iumapp>	<http://www.w3.org/2004/02/skos/core#definition>	"Individuals have used Internet, in the last 3 months, for making an appointment with a practitioner via a website (e.g. of a hospital or a health care centre)" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/i_iumapp>	<http://www.w3.org/2004/02/skos/core#notation>	"i_iumapp" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/i_iumapp>	<http://www.w3.org/2004/02/skos/core#note>	"Biennial indicator" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/i_iumapp>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"making an appointment with a practitioner via a website" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_iumapp>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Making an appointment with a practitioner via a website" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/i_iumapp>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/i_iumc>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/estat_isoc_ci_im_i> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/i_iumc>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/internet-usage/i_iumc> .
@@ -4660,7 +4673,7 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator/i_iuolc>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Doing an online course" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/i_iuolc>	<http://www.w3.org/2004/02/skos/core#definition>	"Individuals have used Internet, in the last 3 months, for doing an online course (of any subject)" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/i_iuolc>	<http://www.w3.org/2004/02/skos/core#notation>	"i_iuolc" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/i_iuolc>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"doing an online course (in any subject)" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_iuolc>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Doing an online course (in any subject)" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/i_iuolc>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/i_iuph1>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/estat_isoc_bde15cua> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/i_iuph1>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/internet-services/i_iuph1> .
@@ -4696,7 +4709,7 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator/i_iusnet>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Participating in social networks" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/i_iusnet>	<http://www.w3.org/2004/02/skos/core#definition>	"Individuals have used Internet, in the last 3 months, for participating in social networks (creating user profile, posting messages or other contributions to facebook, twitter, etc.)" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/i_iusnet>	<http://www.w3.org/2004/02/skos/core#notation>	"i_iusnet" .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/i_iusnet>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"participating in social networks, over the internet, last 3 months" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_iusnet>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Participating in social networks, over the internet, last 3 months" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/i_iusnet>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/i_iuupl>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/estat_isoc_bde15cua> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/i_iuupl>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/internet-services/i_iuupl> .
@@ -4706,7 +4719,7 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator/i_iuupl>	<http://www.w3.org/2004/02/skos/core#definition>	"Individuals have used Internet, in the last 3 months, for uploading self-created content (text, images, photos, videos, music, etc.)" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/i_iuupl>	<http://www.w3.org/2004/02/skos/core#notation>	"i_iuupl" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/i_iuupl>	<http://www.w3.org/2004/02/skos/core#note>	"Biennial indicator not collected in 2011." .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/i_iuupl>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"uploading self-created content to be shared" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_iuupl>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Uploading self-created content to be shared" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/i_iuupl>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/i_iuvod>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/estat_isoc_ci_ac_i> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/i_iuvod>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/audiovisual/i_iuvod> .
@@ -4725,7 +4738,7 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator/i_iuvote>	<http://www.w3.org/2004/02/skos/core#definition>	"Individuals have used Internet, in the last 3 months, for taking part in on-line consultations or voting to define civic or political issues (e.g. urban planning, signing a petition)" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/i_iuvote>	<http://www.w3.org/2004/02/skos/core#notation>	"i_iuvote" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/i_iuvote>	<http://www.w3.org/2004/02/skos/core#note>	"Biennial indicator not collected in 2012." .
-<http://semantic.digital-agenda-data.eu/codelist/indicator/i_iuvote>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"taking part in on-line consultations or voting to define civic or political issues" .
+<http://semantic.digital-agenda-data.eu/codelist/indicator/i_iuvote>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Taking part in on-line consultations or voting to define civic or political issues" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/i_iuvote>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/i_iux>	<http://purl.org/dc/terms/source>	<http://semantic.digital-agenda-data.eu/codelist/source/estat_isoc_ci_ifp_iu> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/i_iux>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/internet-usage/i_iux> .
@@ -5475,7 +5488,7 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator/wid_ui_part>	<http://www.w3.org/2004/02/skos/core#notation>	"wid_ui_part" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/wid_ui_part>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"1.5 Online consultations or voting" .
 <http://semantic.digital-agenda-data.eu/codelist/indicator/wid_ui_part>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/indicator> .
-<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://purl.org/dc/terms/modified>	"2023-07-06T13:50:26"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://purl.org/dc/terms/modified>	"2023-07-10T10:37:53"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://purl.org/linked-data/sdmx#CodeList> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#ConceptScheme> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2000/01/rdf-schema#isDefinedBy>	<http://digital-agenda-data.eu/> .
@@ -5686,6 +5699,7 @@
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/edigint2018> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/edigint2021> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/edigint2022> .
+<http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/ehealth_aehr> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/employment_ict> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/eoa_nn_films> .
 <http://semantic.digital-agenda-data.eu/codelist/indicator>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/indicator/eoa_tvchannels_tarfor> .

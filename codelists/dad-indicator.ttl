@@ -69,7 +69,7 @@ ns1:e_cc1_si	rdf:type	ns2:Indicator ,
 ns8:indicator	rdf:type	ns9:CodeList ,
 		skos:ConceptScheme .
 @prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
-ns8:indicator	dct:modified	"2023-07-06T13:50:26"^^xsd:dateTime .
+ns8:indicator	dct:modified	"2023-07-10T10:37:53"^^xsd:dateTime .
 @prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
 ns8:indicator	rdfs:isDefinedBy	<http://digital-agenda-data.eu/> ;
 	skos:prefLabel	"Code list for indicators used by Digital Agenda Scoreboard" ;
@@ -125,6 +125,7 @@ ns8:indicator	rdfs:isDefinedBy	<http://digital-agenda-data.eu/> ;
 		ns1:edigint2021 ,
 		ns1:h_fbbfix ,
 		ns1:h_ubbfix ,
+		ns1:ehealth_aehr ,
 		ns1:i_dsk_x ,
 		ns1:i_dsk_c_x ,
 		ns1:e_di4_hivhi ,
@@ -3159,7 +3160,7 @@ ns1:i_igov12rt	rdf:type	skos:Concept ,
 	skos:topConceptOf	ns8:indicator .
 ns1:i_igovrt	rdf:type	skos:Concept ,
 		ns2:Indicator ;
-	skos:prefLabel	"sending filled forms to public authorities, over the internet, last 3 months" ;
+	skos:prefLabel	"Sending filled forms to public authorities, over the internet, last 3 months" ;
 	dct:source	ns5:estat_isoc_ci_ac_i ;
 	skos:notation	"i_igovrt" ;
 	skos:altLabel	"Sending filled forms to eGov services, last 3 months" ;
@@ -3168,7 +3169,7 @@ ns1:i_igovrt	rdf:type	skos:Concept ,
 	skos:topConceptOf	ns8:indicator .
 ns1:i_ihif	rdf:type	ns2:Indicator ,
 		skos:Concept ;
-	skos:prefLabel	"seeking online information about health" ;
+	skos:prefLabel	"Seeking online information about health" ;
 	dct:source	ns5:estat_isoc_bde15cua ;
 	skos:notation	"i_ihif" ;
 	skos:altLabel	"Seeking health information" ;
@@ -3212,7 +3213,7 @@ ns1:i_iu3g	rdf:type	ns2:Indicator ,
 	skos:topConceptOf	ns8:indicator .
 ns1:i_iubk	rdf:type	ns2:Indicator ,
 		skos:Concept ;
-	skos:prefLabel	"using online banking" ;
+	skos:prefLabel	"Using online banking" ;
 	dct:source	ns5:estat_isoc_ci_ac_i ;
 	skos:notation	"i_iubk" ;
 	skos:altLabel	"Online banking" ;
@@ -3221,7 +3222,7 @@ ns1:i_iubk	rdf:type	ns2:Indicator ,
 	skos:topConceptOf	ns8:indicator .
 ns1:i_iueduif	rdf:type	ns2:Indicator ,
 		skos:Concept ;
-	skos:prefLabel	"looking online for information about education, training or course offers" ;
+	skos:prefLabel	"Looking online for information about education, training or course offers" ;
 	dct:source	ns5:estat_isoc_ci_ac_i ;
 	skos:notation	"i_iueduif" ;
 	skos:altLabel	"Information about education & training" ;
@@ -3230,7 +3231,7 @@ ns1:i_iueduif	rdf:type	ns2:Indicator ,
 	skos:topConceptOf	ns8:indicator .
 ns1:i_iugm	rdf:type	ns2:Indicator ,
 		skos:Concept ;
-	skos:prefLabel	"playing or downloading games, images, films or music" ;
+	skos:prefLabel	"Playing or downloading games, images, films or music" ;
 	dct:source	ns5:estat_isoc_bde15cua ;
 	skos:notation	"i_iugm" ;
 	skos:altLabel	"Games, images, films or music" ;
@@ -3240,7 +3241,7 @@ ns1:i_iugm	rdf:type	ns2:Indicator ,
 	skos:topConceptOf	ns8:indicator .
 ns1:i_iugov	rdf:type	ns2:Indicator ,
 		skos:Concept ;
-	skos:prefLabel	"interacting online with public authorities, last 3 months" ;
+	skos:prefLabel	"Interacting online with public authorities, last 3 months" ;
 	dct:source	ns5:estat_isoc_ci_ac_i ;
 	skos:notation	"i_iugov" ;
 	skos:altLabel	"Use of eGovernment services, last 3 months" ;
@@ -3258,7 +3259,7 @@ ns1:i_iugov12	rdf:type	ns2:Indicator ,
 	skos:topConceptOf	ns8:indicator .
 ns1:i_iuif	rdf:type	ns2:Indicator ,
 		skos:Concept ;
-	skos:prefLabel	"looking for information about goods and services online" ;
+	skos:prefLabel	"Looking for information about goods and services online" ;
 	dct:source	ns5:estat_isoc_ci_ac_i ;
 	skos:notation	"i_iuif" ;
 	skos:altLabel	"Information about goods and services" ;
@@ -3267,7 +3268,7 @@ ns1:i_iuif	rdf:type	ns2:Indicator ,
 	skos:topConceptOf	ns8:indicator .
 ns1:i_iujob	rdf:type	ns2:Indicator ,
 		skos:Concept ;
-	skos:prefLabel	"looking online for a job or sending a job application" ;
+	skos:prefLabel	"Looking online for a job or sending a job application" ;
 	dct:source	ns5:estat_isoc_bde15cua ;
 	skos:notation	"i_iujob" ;
 	skos:altLabel	"Looking for a job, sending a job application" ;
@@ -3276,7 +3277,7 @@ ns1:i_iujob	rdf:type	ns2:Indicator ,
 	skos:topConceptOf	ns8:indicator .
 ns1:i_iumapp	rdf:type	ns2:Indicator ,
 		skos:Concept ;
-	skos:prefLabel	"making an appointment with a practitioner via a website" ;
+	skos:prefLabel	"Making an appointment with a practitioner via a website" ;
 	dct:source	ns5:estat_isoc_bde15cua ;
 	skos:notation	"i_iumapp" ;
 	skos:altLabel	"Appointment with a practitioner via a website" ;
@@ -3305,7 +3306,7 @@ ns1:i_iunw	rdf:type	ns2:Indicator ,
 	skos:topConceptOf	ns8:indicator .
 ns1:i_iuolc	rdf:type	ns2:Indicator ,
 		skos:Concept ;
-	skos:prefLabel	"doing an online course (in any subject)" ;
+	skos:prefLabel	"Doing an online course (in any subject)" ;
 	dct:source	ns5:estat_isoc_bde15cua ;
 	skos:notation	"i_iuolc" ;
 	skos:altLabel	"Doing an online course" ;
@@ -3341,7 +3342,7 @@ ns1:i_iusell	rdf:type	skos:Concept ,
 	skos:topConceptOf	ns8:indicator .
 ns1:i_iusnet	rdf:type	skos:Concept ,
 		ns2:Indicator ;
-	skos:prefLabel	"participating in social networks, over the internet, last 3 months" ;
+	skos:prefLabel	"Participating in social networks, over the internet, last 3 months" ;
 	dct:source	ns5:estat_isoc_bde15cua ;
 	skos:notation	"i_iusnet" ;
 	skos:altLabel	"Participating in social networks" ;
@@ -3350,7 +3351,7 @@ ns1:i_iusnet	rdf:type	skos:Concept ,
 	skos:topConceptOf	ns8:indicator .
 ns1:i_iuupl	rdf:type	skos:Concept ,
 		ns2:Indicator ;
-	skos:prefLabel	"uploading self-created content to be shared" ;
+	skos:prefLabel	"Uploading self-created content to be shared" ;
 	dct:source	ns5:estat_isoc_bde15cua ;
 	skos:notation	"i_iuupl" ;
 	skos:altLabel	"Uploading self-created content" ;
@@ -3369,7 +3370,7 @@ ns1:i_iuvod	rdf:type	skos:Concept ,
 	skos:topConceptOf	ns8:indicator .
 ns1:i_iuvote	rdf:type	skos:Concept ,
 		ns2:Indicator ;
-	skos:prefLabel	"taking part in on-line consultations or voting to define civic or political issues" ;
+	skos:prefLabel	"Taking part in on-line consultations or voting to define civic or political issues" ;
 	dct:source	ns5:estat_isoc_bde15cua ;
 	skos:notation	"i_iuvote" ;
 	skos:altLabel	"Taking part in on-line consultations or voting" ;
@@ -4029,6 +4030,19 @@ ns1:sme_di_x_vlo	rdf:type	skos:Concept ,
 	skos:definition	"The Digital Intensity score is based on counting how many out of 12 technologies are used by each enterprise. Basic levels are attributed to those enterprises using at least 4 of the listed digital technologies." ;
 	skos:note	"The DII composition varies between different survey years, depending on the questions included in the survey. The exact composition for the different survey years can be found at https://circabc.europa.eu/ui/group/89577311-0f9b-4fc0-b8c2-2aaa7d3ccb91/library/30b83b9c-3d0c-4086-bf52-77905e19b4eb/details." ;
 	skos:topConceptOf	ns8:indicator .
+ns23:ehealth_aehr	rdf:type	ns2:IndicatorToGroupMembership ;
+	rdfs:label	"ehealth" ;
+	ns6:member-of	ns14:ehealth ;
+	ns6:order	"3"^^xsd:byte .
+ns1:ehealth_aehr	rdf:type	skos:Concept ,
+		ns2:Indicator ;
+	skos:prefLabel	"KPI citizen\u2019s online access to medical records" ;
+	dct:source	ns5:cnect_ehealth_kpi ;
+	skos:notation	"ehealth_aehr" ;
+	skos:altLabel	"Online access to medical records" ;
+	ns6:membership	ns23:ehealth_aehr ;
+	skos:definition	"measured as (i) the nationwide availability of online access services for citizens to their electronic health records data (via a patient portal, or a patient mobile app) with additional measures in place that enable certain categories of people (e.g. guardians for children, people with disabilities, elderly) to also access their data, and (ii) the  percentage of individuals that have the ability to obtain or make use of  their own minimum set of health-related data currently stored in public and private electronic health-record (EHR) systems. " ;
+	skos:topConceptOf	ns8:indicator .
 ns1:e_di4_hivhi	rdf:type	skos:Concept ,
 		ns2:Indicator ;
 	skos:prefLabel	"Enterprises with at least a high level of digital intensity (2022)" ;
@@ -4084,7 +4098,7 @@ ns1:e_gov_dpsc_new	rdf:type	skos:Concept ,
 	skos:notation	"e_gov_dpsc_new" ;
 	skos:altLabel	"Digital Public Services for Citizens (from 2021)" ;
 	ns6:membership	ns22:e_gov_dpsc_new ;
-	skos:definition	"The extent to which a service or information concerning service for citizens is provided online, and via a portal. Services that are offered fully, partially or not at all online. " ;
+	skos:definition	"The extent to which a service or information concerning service for citizens is provided online, and via a portal. Services that are offered fully, partially or not at all online.\r\nThis indicator is replacing indicators e_gov_osc (Online Service Completion, 2014-2019) and e_gov_dpsc (2020) as a result of a methodological update in 2020." ;
 	skos:topConceptOf	ns8:indicator .
 ns1:e_gov_ebus_new	rdf:type	skos:Concept ,
 		ns2:Indicator ;
@@ -4093,7 +4107,7 @@ ns1:e_gov_ebus_new	rdf:type	skos:Concept ,
 	skos:notation	"e_gov_ebus_new" ;
 	skos:altLabel	"Digital Public Services for Businesses (from 2021)" ;
 	ns6:membership	ns22:e_gov_ebus_new ;
-	skos:definition	"The extent to which a service or information concerning service for businesses is provided online and via a portal. Services that are offered fully, partially or not at all online. " ;
+	skos:definition	"The extent to which a service or information concerning service for businesses is provided online and via a portal. Services that are offered fully, partially or not at all online.\r\nThis indicator is replacing indicator e_gov_ebus (2014-2020) as a result of a methodological update in 2020." ;
 	skos:topConceptOf	ns8:indicator .
 ns1:e_gov_pff_new	rdf:type	skos:Concept ,
 		ns2:Indicator ;
