@@ -209,7 +209,7 @@ ns20:breakdown	rdf:type	ns21:CodeList .
 ns20:breakdown	rdf:type	skos:ConceptScheme .
 @prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
 @prefix dct:	<http://purl.org/dc/terms/> .
-ns20:breakdown	dct:modified	"2022-12-01T13:37:05"^^xsd:dateTime ;
+ns20:breakdown	dct:modified	"2023-07-11T17:28:39"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://digital-agenda-data.eu/> ;
 	skos:prefLabel	"Code list for breakdowns used by Digital Agenda Scoreboard" ;
 	skos:notation	"CL_BREAKDOWN" .
@@ -413,8 +413,6 @@ ns20:breakdown	skos:hasTopConcept	ns25:men ,
 		<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_n77_82> ,
 		<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_s951> ,
 		<http://semantic.digital-agenda-data.eu/codelist/breakdown/1500_mhz> ,
-		<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c29_30> ,
-		<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c31_33> ,
 		<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_d35_e39> ,
 		<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_f41_43> ,
 		<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_g45> ,
@@ -422,16 +420,10 @@ ns20:breakdown	skos:hasTopConcept	ns25:men ,
 		<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_h49_53> ,
 		<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_i55_56> ,
 		<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c10_s951_xk> ,
-		<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c13_15> ,
-		<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c16_18> ,
 		<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c19_23> ,
 		<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c24_25> ,
-		<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c26> ,
 		<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c26_33> ,
-		<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c27_28> ,
-		<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c10_12> ,
 		<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c10_18> ,
-		<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c10_33> ,
 		ns25:cnect_r ,
 		ns25:csk_hi ,
 		ns25:csk_lo ,
@@ -1481,42 +1473,6 @@ ns66:empl_une	rdf:type	ns2:BreakdownToGroupMembership ;
 	rdfs:label	"labour_force" ;
 	ns4:member-of	ns5:labour_force ;
 	ns4:order	"1" .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf/10_c10_12>	rdf:type	ns2:BreakdownToGroupMembership ;
-	rdfs:label	"manuf" ;
-	ns4:member-of	ns5:manuf ;
-	ns4:order	"1" .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf/10_c13_15>	rdf:type	ns2:BreakdownToGroupMembership ;
-	rdfs:label	"manuf" ;
-	ns4:member-of	ns5:manuf ;
-	ns4:order	"2" .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf/10_c16_18>	rdf:type	ns2:BreakdownToGroupMembership ;
-	rdfs:label	"manuf" ;
-	ns4:member-of	ns5:manuf ;
-	ns4:order	"3" .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf/10_c19_23>	rdf:type	ns2:BreakdownToGroupMembership ;
-	rdfs:label	"manuf" ;
-	ns4:member-of	ns5:manuf ;
-	ns4:order	"4" .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf/10_c24_25>	rdf:type	ns2:BreakdownToGroupMembership ;
-	rdfs:label	"manuf" ;
-	ns4:member-of	ns5:manuf ;
-	ns4:order	"5" .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf/10_c26>	rdf:type	ns2:BreakdownToGroupMembership ;
-	rdfs:label	"manuf" ;
-	ns4:member-of	ns5:manuf ;
-	ns4:order	"6" .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf/10_c27_28>	rdf:type	ns2:BreakdownToGroupMembership ;
-	rdfs:label	"manuf" ;
-	ns4:member-of	ns5:manuf ;
-	ns4:order	"7" .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf/10_c29_30>	rdf:type	ns2:BreakdownToGroupMembership ;
-	rdfs:label	"manuf" ;
-	ns4:member-of	ns5:manuf ;
-	ns4:order	"8" .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf/10_c31_33>	rdf:type	ns2:BreakdownToGroupMembership ;
-	rdfs:label	"manuf" ;
-	ns4:member-of	ns5:manuf ;
-	ns4:order	"9" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/mhz_bands/1500_mhz>	rdf:type	ns2:BreakdownToGroupMembership ;
 	rdfs:label	"mhz_bands" ;
 	ns4:member-of	ns5:mhz_bands ;
@@ -1766,23 +1722,11 @@ ns71:total_tel	rdf:type	ns2:BreakdownToGroupMembership ;
 	rdfs:label	"total" ;
 	ns4:member-of	ns5:total ;
 	ns4:order	"1" .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/total_manufacturing/10_c10_33>	rdf:type	ns2:BreakdownToGroupMembership ;
-	rdfs:label	"total_manufacturing" ;
-	ns4:member-of	ns5:total_manufacturing ;
-	ns4:order	"1" .
 @prefix ns72:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/wid_score/> .
 ns72:wid_score	rdf:type	ns2:BreakdownToGroupMembership ;
 	rdfs:label	"wid_score" ;
 	ns4:member-of	ns5:wid_score ;
 	ns4:order	"1" .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c10_12>	rdf:type	ns2:Breakdown ,
-		skos:Concept ;
-	skos:prefLabel	"Beverages, food and tobacco products " ;
-	skos:notation	"10_c10_12" ;
-	skos:altLabel	"Beverages, food and tobacco" ;
-	ns4:membership	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf/10_c10_12> ;
-	skos:definition	"Nace rev.2 sector c10_12 - Manufacture of beverages, food and tobacco products " ;
-	skos:topConceptOf	ns20:breakdown .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c10_18>	rdf:type	ns2:Breakdown ,
 		skos:Concept ;
 	skos:prefLabel	"Manufacture: food, beverages, tobacco, textile, leather, wood, paper; publishing and printing 10+" ;
@@ -1790,60 +1734,26 @@ ns72:wid_score	rdf:type	ns2:BreakdownToGroupMembership ;
 	skos:altLabel	"Manufacture: food, beverages, tobacco, textile, leather, wood, paper; publishing and printing 10+" ;
 	ns4:membership	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector/10_c10_18> ;
 	skos:topConceptOf	ns20:breakdown .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c10_33>	rdf:type	ns2:Breakdown ,
-		skos:Concept ;
-	skos:prefLabel	"Manufacturing sector" ;
-	skos:notation	"10_c10_33" ;
-	skos:altLabel	"Manufacturing sector" ;
-	ns4:membership	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/total_manufacturing/10_c10_33> ;
-	skos:definition	"Nace rev.2 c10_33 - Manufacturing " ;
-	skos:topConceptOf	ns20:breakdown .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c10_s951_xk>	rdf:type	ns2:Breakdown ,
 		skos:Concept ;
 	skos:prefLabel	"All enterprises, without financial sector (10 persons employed or more)" ;
 	skos:notation	"10_c10_s951_xk" ;
 	skos:altLabel	"All enterprises" ;
-	skos:definition	"Eurostat definition of Nace2 codes: 10_C10_S951_XK" ;
-	skos:topConceptOf	ns20:breakdown .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c13_15>	rdf:type	ns2:Breakdown ,
-		skos:Concept ;
-	skos:prefLabel	"Textiles, wearing apparel, leather and related products " ;
-	skos:notation	"10_c13_15" ;
-	skos:altLabel	"Textiles, leather, etc" ;
-	ns4:membership	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf/10_c13_15> ;
-	skos:definition	"Nace rev.2 c13_15 - Manufacture of textiles, wearing apparel, leather and related products " ;
-	skos:topConceptOf	ns20:breakdown .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c16_18>	rdf:type	ns2:Breakdown ,
-		skos:Concept ;
-	skos:prefLabel	"Wood & cork, Paper, printing & reproduction of recorded media" ;
-	skos:notation	"10_c16_18" ;
-	skos:altLabel	"Wood, Paper, etc" ;
-	ns4:membership	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf/10_c16_18> ;
-	skos:definition	"Nace rev.2 c16_18 - Manufacture of wood & products of wood & cork, except furniture; articles of straw & plaiting materials; paper & paper products; printing & reproduction of recorded media " ;
+	skos:definition	"Eurostat definition of NACE2 codes: 10_C10_S951_XK" ;
 	skos:topConceptOf	ns20:breakdown .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c19_23>	rdf:type	ns2:Breakdown ,
 		skos:Concept ;
 	skos:prefLabel	"Manufacture: coke, petroleum, chemical, plastics, other non-metallic mineral products 10+" ;
 	skos:notation	"10_c19_23" ;
 	skos:altLabel	"Manufacture: coke, petroleum, chemical, plastics, other non-metallic mineral products 10+" ;
-	ns4:membership	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf/10_c19_23> ,
-		<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector/10_c19_23> ;
+	ns4:membership	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector/10_c19_23> ;
 	skos:topConceptOf	ns20:breakdown .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c24_25>	rdf:type	ns2:Breakdown ,
 		skos:Concept ;
 	skos:prefLabel	"Manufacture: basic metals & fabricated metal products excluding machines & equipments 10+" ;
 	skos:notation	"10_c24_25" ;
 	skos:altLabel	"Manufacture: basic metals & fabricated metal products excluding machines & equipments 10+" ;
-	ns4:membership	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf/10_c24_25> ,
-		<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector/10_c24_25> ;
-	skos:topConceptOf	ns20:breakdown .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c26>	rdf:type	ns2:Breakdown ,
-		skos:Concept ;
-	skos:prefLabel	"Computer, electronic and optical products " ;
-	skos:notation	"10_c26" ;
-	skos:altLabel	"Computer, electronic and optical " ;
-	ns4:membership	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf/10_c26> ;
-	skos:definition	"Nace rev.2 c26 - Manufacture of computer, electronic and optical products " ;
+	ns4:membership	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector/10_c24_25> ;
 	skos:topConceptOf	ns20:breakdown .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c26_33>	rdf:type	ns2:Breakdown ,
 		skos:Concept ;
@@ -1851,30 +1761,6 @@ ns72:wid_score	rdf:type	ns2:BreakdownToGroupMembership ;
 	skos:notation	"10_c26_33" ;
 	skos:altLabel	"Manufacture: computers, electric & optical, motor vehicles, transport equipment, furniture, repair 10+" ;
 	ns4:membership	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector/10_c26_33> ;
-	skos:topConceptOf	ns20:breakdown .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c27_28>	rdf:type	ns2:Breakdown ,
-		skos:Concept ;
-	skos:prefLabel	"Electrical equipment, machinery and equipment n.e.c. " ;
-	skos:notation	"10_c27_28" ;
-	skos:altLabel	"Electrical equipment & machinery" ;
-	ns4:membership	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf/10_c27_28> ;
-	skos:definition	"Nace rev.2 c27_28 - Manufacture of electrical equipment, machinery and equipment n.e.c. " ;
-	skos:topConceptOf	ns20:breakdown .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c29_30>	rdf:type	skos:Concept ,
-		ns2:Breakdown ;
-	skos:prefLabel	"Motor vehicles, trailers, other transport equipment " ;
-	skos:notation	"10_c29_30" ;
-	skos:altLabel	"Motor vehicles & transport equipment " ;
-	ns4:membership	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf/10_c29_30> ;
-	skos:definition	"Nace rev.2 c29_30 - Manufacture of motor vehicles, trailers and semi-trailers, other transport equipment " ;
-	skos:topConceptOf	ns20:breakdown .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c31_33>	rdf:type	skos:Concept ,
-		ns2:Breakdown ;
-	skos:prefLabel	"Furniture; repair and installation of machinery" ;
-	skos:notation	"10_c31_33" ;
-	skos:altLabel	"Furniture; Repair of machinery" ;
-	ns4:membership	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf/10_c31_33> ;
-	skos:definition	"Nace rev.2 c31_33 - Manufacture of furniture and other manufacturing; repair and installation of machinery and equipment " ;
 	skos:topConceptOf	ns20:breakdown .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/10_d35_e39>	rdf:type	skos:Concept ,
 		ns2:Breakdown ;

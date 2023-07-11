@@ -4,12 +4,12 @@
 ns1:e_di3_hi	rdf:type	ns2:Indicator .
 @prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
 ns1:e_di3_hi	rdf:type	skos:Concept ;
-	skos:prefLabel	"Enterprises with high digital intensity index (DII v3)" .
+	skos:prefLabel	"DII v3: Enterprises with high digital intensity index (2021)" .
 @prefix dct:	<http://purl.org/dc/terms/> .
 @prefix ns5:	<http://semantic.digital-agenda-data.eu/codelist/source/> .
-ns1:e_di3_hi	dct:source	ns5:estat-ent ;
+ns1:e_di3_hi	dct:source	ns5:estat_isoc_e_dii ;
 	skos:notation	"e_di3_hi" ;
-	skos:altLabel	"Enterprises with high digital intensity index (DII v3)" .
+	skos:altLabel	"DII v3: Enterprises with high digital intensity index (2021)" .
 @prefix ns6:	<http://semantic.digital-agenda-data.eu/def/property/> .
 @prefix ns7:	<http://semantic.digital-agenda-data.eu/codelist/indicator-group/ebusiness/> .
 ns1:e_di3_hi	ns6:membership	ns7:e_di3_hi ;
@@ -19,30 +19,30 @@ ns1:e_di3_hi	ns6:membership	ns7:e_di3_hi ;
 ns1:e_di3_hi	skos:topConceptOf	ns8:indicator .
 ns1:e_di3_lo	rdf:type	ns2:Indicator ,
 		skos:Concept ;
-	skos:prefLabel	"Enterprises with low digital intensity index (DII v3)" ;
-	dct:source	ns5:estat-ent ;
+	skos:prefLabel	"DII v3: Enterprises with low digital intensity index (2021)" ;
+	dct:source	ns5:estat_isoc_e_dii ;
 	skos:notation	"e_di3_lo" ;
-	skos:altLabel	"Enterprises with low digital intensity index (DII v3)" ;
+	skos:altLabel	"DII v3: Enterprises with low digital intensity index (2021)" ;
 	ns6:membership	ns7:e_di3_lo ;
 	skos:definition	"The Digital Intensity score is based on counting how many out of 12 technologies are used by each enterprise. Then they are divided into four clusters of digital intensity: Very Low (scores 0-3), Low (score 4-6), High (score 7-9), Very High (score 10-12)." ;
 	skos:note	"The DII composition varies between different survey years, depending on the questions included in the survey. The exact composition for the different survey years can be found at https://circabc.europa.eu/ui/group/89577311-0f9b-4fc0-b8c2-2aaa7d3ccb91/library/30b83b9c-3d0c-4086-bf52-77905e19b4eb/details." ;
 	skos:topConceptOf	ns8:indicator .
 ns1:e_di3_vhi	rdf:type	ns2:Indicator ,
 		skos:Concept ;
-	skos:prefLabel	"Enterprises with very high digital intensity index (DII v3)" ;
-	dct:source	ns5:estat-ent ;
+	skos:prefLabel	"DII v3: Enterprises with very high digital intensity index (2021)" ;
+	dct:source	ns5:estat_isoc_e_dii ;
 	skos:notation	"e_di3_vhi" ;
-	skos:altLabel	"Enterprises with very high digital intensity index (DII v3)" ;
+	skos:altLabel	"DII v3: Enterprises with very high digital intensity index (2021)" ;
 	ns6:membership	ns7:e_di3_vhi ;
 	skos:definition	"The Digital Intensity score is based on counting how many out of 12 technologies are used by each enterprise. Then they are divided into four clusters of digital intensity: Very Low (scores 0-3), Low (score 4-6), High (score 7-9), Very High (score 10-12)." ;
 	skos:note	"The DII composition varies between different survey years, depending on the questions included in the survey. The exact composition for the different survey years can be found at https://circabc.europa.eu/ui/group/89577311-0f9b-4fc0-b8c2-2aaa7d3ccb91/library/30b83b9c-3d0c-4086-bf52-77905e19b4eb/details." ;
 	skos:topConceptOf	ns8:indicator .
 ns1:e_di3_vlo	rdf:type	ns2:Indicator ,
 		skos:Concept ;
-	skos:prefLabel	"Enterprises with very low digital intensity index (DII v3)" ;
-	dct:source	ns5:estat-ent ;
+	skos:prefLabel	"DII v3: Enterprises with very low digital intensity index (2021)" ;
+	dct:source	ns5:estat_isoc_e_dii ;
 	skos:notation	"e_di3_vlo" ;
-	skos:altLabel	"Enterprises with very low digital intensity index (DII v3)" ;
+	skos:altLabel	"DII v3: Enterprises with very low digital intensity index (2021)" ;
 	ns6:membership	ns7:e_di3_vlo ;
 	skos:definition	"The Digital Intensity score is based on counting how many out of 12 technologies are used by each enterprise. Then they are divided into four clusters of digital intensity: Very Low (scores 0-3), Low (score 4-6), High (score 7-9), Very High (score 10-12)." ;
 	skos:note	"The DII composition varies between different survey years, depending on the questions included in the survey. The exact composition for the different survey years can be found at https://circabc.europa.eu/ui/group/89577311-0f9b-4fc0-b8c2-2aaa7d3ccb91/library/30b83b9c-3d0c-4086-bf52-77905e19b4eb/details." ;
@@ -69,7 +69,7 @@ ns1:e_cc1_si	rdf:type	ns2:Indicator ,
 ns8:indicator	rdf:type	ns9:CodeList ,
 		skos:ConceptScheme .
 @prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
-ns8:indicator	dct:modified	"2023-07-10T10:37:53"^^xsd:dateTime .
+ns8:indicator	dct:modified	"2023-07-11T20:07:58"^^xsd:dateTime .
 @prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
 ns8:indicator	rdfs:isDefinedBy	<http://digital-agenda-data.eu/> ;
 	skos:prefLabel	"Code list for indicators used by Digital Agenda Scoreboard" ;
@@ -129,6 +129,8 @@ ns8:indicator	rdfs:isDefinedBy	<http://digital-agenda-data.eu/> ;
 		ns1:i_dsk_x ,
 		ns1:i_dsk_c_x ,
 		ns1:e_di4_hivhi ,
+		ns1:e_di3_sme_x_vlo ,
+		ns1:e_di4_sme_x_vlo ,
 		ns1:i_dsk_s_x ,
 		ns1:i_dsk_c_ab ,
 		ns1:e_gov_0_score ,
@@ -4022,10 +4024,10 @@ ns7:sme_di_x_vlo	rdf:type	ns2:IndicatorToGroupMembership ;
 	skos:topConceptOf	ns8:indicator .
 ns1:sme_di_x_vlo	rdf:type	skos:Concept ,
 		ns2:Indicator ;
-	skos:prefLabel	"SMEs with at least a basic level of digital intensity (2022)" ;
+	skos:prefLabel	"DII v4: SMEs with at least a basic level of digital intensity (2022)" ;
 	dct:source	ns5:estat_isoc_e_dii ;
 	skos:notation	"sme_di_x_vlo" ;
-	skos:altLabel	"SMEs with at least a basic level of digital intensity (2022)" ;
+	skos:altLabel	"DII v4: SMEs with at least a basic level of digital intensity (2022)" ;
 	ns6:membership	ns7:sme_di_x_vlo ;
 	skos:definition	"The Digital Intensity score is based on counting how many out of 12 technologies are used by each enterprise. Basic levels are attributed to those enterprises using at least 4 of the listed digital technologies." ;
 	skos:note	"The DII composition varies between different survey years, depending on the questions included in the survey. The exact composition for the different survey years can be found at https://circabc.europa.eu/ui/group/89577311-0f9b-4fc0-b8c2-2aaa7d3ccb91/library/30b83b9c-3d0c-4086-bf52-77905e19b4eb/details." ;
@@ -4033,7 +4035,7 @@ ns1:sme_di_x_vlo	rdf:type	skos:Concept ,
 ns23:ehealth_aehr	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"ehealth" ;
 	ns6:member-of	ns14:ehealth ;
-	ns6:order	"3"^^xsd:byte .
+	ns6:order	"3" .
 ns1:ehealth_aehr	rdf:type	skos:Concept ,
 		ns2:Indicator ;
 	skos:prefLabel	"KPI citizen\u2019s online access to medical records" ;
@@ -4045,10 +4047,10 @@ ns1:ehealth_aehr	rdf:type	skos:Concept ,
 	skos:topConceptOf	ns8:indicator .
 ns1:e_di4_hivhi	rdf:type	skos:Concept ,
 		ns2:Indicator ;
-	skos:prefLabel	"Enterprises with at least a high level of digital intensity (2022)" ;
-	dct:source	ns5:estat-ent ;
+	skos:prefLabel	"DII v4: Enterprises with at least a high level of digital intensity (2022)" ;
+	dct:source	ns5:estat_isoc_e_dii ;
 	skos:notation	"e_di4_hivhi" ;
-	skos:altLabel	"Enterprises with at least a high level of digital intensity (2022)" ;
+	skos:altLabel	"DII v4: Enterprises with at least a high level of digital intensity (2022)" ;
 	ns6:membership	ns7:e_di4_hivhi ;
 	skos:definition	"The Digital Intensity score is based on counting how many out of 12 technologies are used by each enterprise. High levels are attributed to those enterprises using at least 7 of the listed digital technologies." ;
 	skos:note	"The DII composition varies between different survey years, depending on the questions included in the survey. The exact composition for the different survey years can be found at https://circabc.europa.eu/ui/group/89577311-0f9b-4fc0-b8c2-2aaa7d3ccb91/library/30b83b9c-3d0c-4086-bf52-77905e19b4eb/details." ;
@@ -4395,40 +4397,40 @@ ns37:rid_ui	rdf:type	ns2:IndicatorToGroupMembership ;
 	ns6:order	"2" .
 ns1:e_di4_hi	rdf:type	skos:Concept ,
 		ns2:Indicator ;
-	skos:prefLabel	"Enterprises with high digital intensity index (DII v4)" ;
-	dct:source	ns5:estat-ent ;
+	skos:prefLabel	"DII v4: Enterprises with high digital intensity index (2022)" ;
+	dct:source	ns5:estat_isoc_e_dii ;
 	skos:notation	"e_di4_hi" ;
-	skos:altLabel	"Enterprises with high digital intensity index (DII v4)" ;
+	skos:altLabel	"DII v4: Enterprises with high digital intensity index (2022)" ;
 	ns6:membership	ns7:e_di4_hi ;
 	skos:definition	"The Digital Intensity score is based on counting how many out of 12 technologies are used by each enterprise. Then they are divided into four clusters of digital intensity: Very Low (scores 0-3), Low (score 4-6), High (score 7-9), Very High (score 10-12)." ;
 	skos:note	"The DII composition varies between different survey years, depending on the questions included in the survey. The exact composition for the different survey years can be found at https://circabc.europa.eu/ui/group/89577311-0f9b-4fc0-b8c2-2aaa7d3ccb91/library/30b83b9c-3d0c-4086-bf52-77905e19b4eb/details." ;
 	skos:topConceptOf	ns8:indicator .
 ns1:e_di4_lo	rdf:type	ns2:Indicator ,
 		skos:Concept ;
-	skos:prefLabel	"Enterprises with low digital intensity index (DII v4)" ;
-	dct:source	ns5:estat-ent ;
+	skos:prefLabel	"DII v4: Enterprises with low digital intensity index (2022)" ;
+	dct:source	ns5:estat_isoc_e_dii ;
 	skos:notation	"e_di4_lo" ;
-	skos:altLabel	"Enterprises with low digital intensity index (DII v4)" ;
+	skos:altLabel	"DII v4: Enterprises with low digital intensity index (2022)" ;
 	ns6:membership	ns7:e_di4_lo ;
 	skos:definition	"The Digital Intensity score is based on counting how many out of 12 technologies are used by each enterprise. Then they are divided into four clusters of digital intensity: Very Low (scores 0-3), Low (score 4-6), High (score 7-9), Very High (score 10-12)." ;
 	skos:note	"The DII composition varies between different survey years, depending on the questions included in the survey. The exact composition for the different survey years can be found at https://circabc.europa.eu/ui/group/89577311-0f9b-4fc0-b8c2-2aaa7d3ccb91/library/30b83b9c-3d0c-4086-bf52-77905e19b4eb/details." ;
 	skos:topConceptOf	ns8:indicator .
 ns1:e_di4_vhi	rdf:type	ns2:Indicator ,
 		skos:Concept ;
-	skos:prefLabel	"Enterprises with very high digital intensity index (DII v4)" ;
-	dct:source	ns5:estat-ent ;
+	skos:prefLabel	"DII v4: Enterprises with very high digital intensity index (2022)" ;
+	dct:source	ns5:estat_isoc_e_dii ;
 	skos:notation	"e_di4_vhi" ;
-	skos:altLabel	"Enterprises with very high digital intensity index (DII v4)" ;
+	skos:altLabel	"DII v4: Enterprises with very high digital intensity index (2022)" ;
 	ns6:membership	ns7:e_di4_vhi ;
 	skos:definition	"The Digital Intensity score is based on counting how many out of 12 technologies are used by each enterprise. Then they are divided into four clusters of digital intensity: Very Low (scores 0-3), Low (score 4-6), High (score 7-9), Very High (score 10-12)." ;
 	skos:note	"The DII composition varies between different survey years, depending on the questions included in the survey. The exact composition for the different survey years can be found at https://circabc.europa.eu/ui/group/89577311-0f9b-4fc0-b8c2-2aaa7d3ccb91/library/30b83b9c-3d0c-4086-bf52-77905e19b4eb/details." ;
 	skos:topConceptOf	ns8:indicator .
 ns1:e_di4_vlo	rdf:type	ns2:Indicator ,
 		skos:Concept ;
-	skos:prefLabel	"Enterprises with very low digital intensity index (DII v4)" ;
-	dct:source	ns5:estat-ent ;
+	skos:prefLabel	"DII v4: Enterprises with very low digital intensity index (2022)" ;
+	dct:source	ns5:estat_isoc_e_dii ;
 	skos:notation	"e_di4_vlo" ;
-	skos:altLabel	"Enterprises with very low digital intensity index (DII v4)" ;
+	skos:altLabel	"DII v4: Enterprises with very low digital intensity index (2022)" ;
 	ns6:membership	ns7:e_di4_vlo ;
 	skos:definition	"The Digital Intensity score is based on counting how many out of 12 technologies are used by each enterprise. Then they are divided into four clusters of digital intensity: Very Low (scores 0-3), Low (score 4-6), High (score 7-9), Very High (score 10-12)." ;
 	skos:note	"The DII composition varies between different survey years, depending on the questions included in the survey. The exact composition for the different survey years can be found at https://circabc.europa.eu/ui/group/89577311-0f9b-4fc0-b8c2-2aaa7d3ccb91/library/30b83b9c-3d0c-4086-bf52-77905e19b4eb/details." ;
@@ -5950,3 +5952,31 @@ ns40:desi_total	rdf:type	ns2:IndicatorToGroupMembership ;
 	rdfs:label	"desi_total" ;
 	ns6:member-of	ns14:desi_total ;
 	ns6:order	"1" .
+ns7:e_di3_sme_x_vlo	rdf:type	ns2:IndicatorToGroupMembership ;
+	rdfs:label	"ebusiness" ;
+	ns6:member-of	ns14:ebusiness ;
+	ns6:order	"65"^^xsd:byte .
+ns7:e_di4_sme_x_vlo	rdf:type	ns2:IndicatorToGroupMembership ;
+	rdfs:label	"ebusiness" ;
+	ns6:member-of	ns14:ebusiness ;
+	ns6:order	"60" .
+ns1:e_di3_sme_x_vlo	rdf:type	skos:Concept ,
+		ns2:Indicator ;
+	skos:prefLabel	"DII v3: SMEs with at least a basic level of digital intensity (2021)" ;
+	dct:source	ns5:estat_isoc_e_dii ;
+	skos:notation	"e_di3_sme_x_vlo" ;
+	skos:altLabel	"DII v3: SMEs with at least a basic level of digital intensity (2021)" ;
+	ns6:membership	ns7:e_di3_sme_x_vlo ;
+	skos:definition	"The Digital Intensity score is based on counting how many out of 12 technologies are used by each enterprise. Basic levels are attributed to those enterprises using at least 4 of the listed digital technologies." ;
+	skos:note	"The DII composition varies between different survey years, depending on the questions included in the survey. The exact composition for the different survey years can be found at https://circabc.europa.eu/ui/group/89577311-0f9b-4fc0-b8c2-2aaa7d3ccb91/library/30b83b9c-3d0c-4086-bf52-77905e19b4eb/details." ;
+	skos:topConceptOf	ns8:indicator .
+ns1:e_di4_sme_x_vlo	rdf:type	skos:Concept ,
+		ns2:Indicator ;
+	skos:prefLabel	"DII v4: SMEs with at least a basic level of digital intensity (2022)" ;
+	dct:source	ns5:estat_isoc_e_dii ;
+	skos:notation	"e_di4_sme_x_vlo" ;
+	skos:altLabel	"DII v4: SMEs with at least a basic level of digital intensity (2022)" ;
+	ns6:membership	ns7:e_di4_sme_x_vlo ;
+	skos:definition	"The Digital Intensity score is based on counting how many out of 12 technologies are used by each enterprise. Basic levels are attributed to those enterprises using at least 4 of the listed digital technologies." ;
+	skos:note	"The DII composition varies between different survey years, depending on the questions included in the survey. The exact composition for the different survey years can be found at https://circabc.europa.eu/ui/group/89577311-0f9b-4fc0-b8c2-2aaa7d3ccb91/library/30b83b9c-3d0c-4086-bf52-77905e19b4eb/details." ;
+	skos:topConceptOf	ns8:indicator .

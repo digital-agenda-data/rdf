@@ -1158,42 +1158,6 @@
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/labour_force/empl_une>	<http://semantic.digital-agenda-data.eu/def/property/order>	"1" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/labour_force/empl_une>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/BreakdownToGroupMembership> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/labour_force/empl_une>	<http://www.w3.org/2000/01/rdf-schema#label>	"labour_force" .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf/10_c10_12>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf/10_c10_12>	<http://semantic.digital-agenda-data.eu/def/property/order>	"1" .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf/10_c10_12>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/BreakdownToGroupMembership> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf/10_c10_12>	<http://www.w3.org/2000/01/rdf-schema#label>	"manuf" .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf/10_c13_15>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf/10_c13_15>	<http://semantic.digital-agenda-data.eu/def/property/order>	"2" .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf/10_c13_15>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/BreakdownToGroupMembership> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf/10_c13_15>	<http://www.w3.org/2000/01/rdf-schema#label>	"manuf" .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf/10_c16_18>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf/10_c16_18>	<http://semantic.digital-agenda-data.eu/def/property/order>	"3" .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf/10_c16_18>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/BreakdownToGroupMembership> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf/10_c16_18>	<http://www.w3.org/2000/01/rdf-schema#label>	"manuf" .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf/10_c19_23>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf/10_c19_23>	<http://semantic.digital-agenda-data.eu/def/property/order>	"4" .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf/10_c19_23>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/BreakdownToGroupMembership> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf/10_c19_23>	<http://www.w3.org/2000/01/rdf-schema#label>	"manuf" .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf/10_c24_25>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf/10_c24_25>	<http://semantic.digital-agenda-data.eu/def/property/order>	"5" .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf/10_c24_25>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/BreakdownToGroupMembership> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf/10_c24_25>	<http://www.w3.org/2000/01/rdf-schema#label>	"manuf" .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf/10_c26>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf/10_c26>	<http://semantic.digital-agenda-data.eu/def/property/order>	"6" .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf/10_c26>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/BreakdownToGroupMembership> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf/10_c26>	<http://www.w3.org/2000/01/rdf-schema#label>	"manuf" .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf/10_c27_28>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf/10_c27_28>	<http://semantic.digital-agenda-data.eu/def/property/order>	"7" .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf/10_c27_28>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/BreakdownToGroupMembership> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf/10_c27_28>	<http://www.w3.org/2000/01/rdf-schema#label>	"manuf" .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf/10_c29_30>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf/10_c29_30>	<http://semantic.digital-agenda-data.eu/def/property/order>	"8" .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf/10_c29_30>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/BreakdownToGroupMembership> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf/10_c29_30>	<http://www.w3.org/2000/01/rdf-schema#label>	"manuf" .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf/10_c31_33>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf/10_c31_33>	<http://semantic.digital-agenda-data.eu/def/property/order>	"9" .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf/10_c31_33>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/BreakdownToGroupMembership> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf/10_c31_33>	<http://www.w3.org/2000/01/rdf-schema#label>	"manuf" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/mhz_bands/1500_mhz>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/mhz_bands> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/mhz_bands/1500_mhz>	<http://semantic.digital-agenda-data.eu/def/property/order>	"7" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/mhz_bands/1500_mhz>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/BreakdownToGroupMembership> .
@@ -1454,10 +1418,6 @@
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/total/total_tel>	<http://semantic.digital-agenda-data.eu/def/property/order>	"1" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/total/total_tel>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/BreakdownToGroupMembership> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/total/total_tel>	<http://www.w3.org/2000/01/rdf-schema#label>	"total" .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/total_manufacturing/10_c10_33>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/total_manufacturing> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/total_manufacturing/10_c10_33>	<http://semantic.digital-agenda-data.eu/def/property/order>	"1" .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/total_manufacturing/10_c10_33>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/BreakdownToGroupMembership> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/total_manufacturing/10_c10_33>	<http://www.w3.org/2000/01/rdf-schema#label>	"total_manufacturing" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/wid_score/wid_score>	<http://semantic.digital-agenda-data.eu/def/property/member-of>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/wid_score> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/wid_score/wid_score>	<http://semantic.digital-agenda-data.eu/def/property/order>	"1" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/wid_score/wid_score>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/BreakdownToGroupMembership> .
@@ -1478,14 +1438,6 @@
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/workingscheme/emp_wkt_pt>	<http://semantic.digital-agenda-data.eu/def/property/order>	"2" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/workingscheme/emp_wkt_pt>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/BreakdownToGroupMembership> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/workingscheme/emp_wkt_pt>	<http://www.w3.org/2000/01/rdf-schema#label>	"workingscheme" .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c10_12>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf/10_c10_12> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c10_12>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Breakdown> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c10_12>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c10_12>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Beverages, food and tobacco" .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c10_12>	<http://www.w3.org/2004/02/skos/core#definition>	"Nace rev.2 sector c10_12 - Manufacture of beverages, food and tobacco products " .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c10_12>	<http://www.w3.org/2004/02/skos/core#notation>	"10_c10_12" .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c10_12>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Beverages, food and tobacco products " .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c10_12>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/breakdown> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c10_18>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector/10_c10_18> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c10_18>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Breakdown> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c10_18>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
@@ -1493,39 +1445,14 @@
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c10_18>	<http://www.w3.org/2004/02/skos/core#notation>	"10_c10_18" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c10_18>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Manufacture: food, beverages, tobacco, textile, leather, wood, paper; publishing and printing 10+" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c10_18>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/breakdown> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c10_33>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/total_manufacturing/10_c10_33> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c10_33>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Breakdown> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c10_33>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c10_33>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Manufacturing sector" .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c10_33>	<http://www.w3.org/2004/02/skos/core#definition>	"Nace rev.2 c10_33 - Manufacturing " .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c10_33>	<http://www.w3.org/2004/02/skos/core#notation>	"10_c10_33" .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c10_33>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Manufacturing sector" .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c10_33>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/breakdown> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c10_s951_xk>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Breakdown> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c10_s951_xk>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c10_s951_xk>	<http://www.w3.org/2004/02/skos/core#altLabel>	"All enterprises" .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c10_s951_xk>	<http://www.w3.org/2004/02/skos/core#definition>	"Eurostat definition of Nace2 codes: 10_C10_S951_XK" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c10_s951_xk>	<http://www.w3.org/2004/02/skos/core#definition>	"Eurostat definition of NACE2 codes: 10_C10_S951_XK" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c10_s951_xk>	<http://www.w3.org/2004/02/skos/core#notation>	"10_c10_s951_xk" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c10_s951_xk>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"All enterprises, without financial sector (10 persons employed or more)" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c10_s951_xk>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/breakdown> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c13_15>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf/10_c13_15> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c13_15>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Breakdown> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c13_15>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c13_15>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Textiles, leather, etc" .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c13_15>	<http://www.w3.org/2004/02/skos/core#definition>	"Nace rev.2 c13_15 - Manufacture of textiles, wearing apparel, leather and related products " .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c13_15>	<http://www.w3.org/2004/02/skos/core#notation>	"10_c13_15" .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c13_15>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Textiles, wearing apparel, leather and related products " .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c13_15>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/breakdown> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c16_18>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf/10_c16_18> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c16_18>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Breakdown> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c16_18>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c16_18>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Wood, Paper, etc" .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c16_18>	<http://www.w3.org/2004/02/skos/core#definition>	"Nace rev.2 c16_18 - Manufacture of wood & products of wood & cork, except furniture; articles of straw & plaiting materials; paper & paper products; printing & reproduction of recorded media " .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c16_18>	<http://www.w3.org/2004/02/skos/core#notation>	"10_c16_18" .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c16_18>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Wood & cork, Paper, printing & reproduction of recorded media" .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c16_18>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/breakdown> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c19_23>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector/10_c19_23> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c19_23>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf/10_c19_23> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c19_23>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Breakdown> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c19_23>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c19_23>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Manufacture: coke, petroleum, chemical, plastics, other non-metallic mineral products 10+" .
@@ -1533,21 +1460,12 @@
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c19_23>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Manufacture: coke, petroleum, chemical, plastics, other non-metallic mineral products 10+" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c19_23>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/breakdown> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c24_25>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector/10_c24_25> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c24_25>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf/10_c24_25> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c24_25>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Breakdown> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c24_25>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c24_25>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Manufacture: basic metals & fabricated metal products excluding machines & equipments 10+" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c24_25>	<http://www.w3.org/2004/02/skos/core#notation>	"10_c24_25" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c24_25>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Manufacture: basic metals & fabricated metal products excluding machines & equipments 10+" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c24_25>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/breakdown> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c26>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf/10_c26> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c26>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Breakdown> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c26>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c26>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Computer, electronic and optical " .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c26>	<http://www.w3.org/2004/02/skos/core#definition>	"Nace rev.2 c26 - Manufacture of computer, electronic and optical products " .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c26>	<http://www.w3.org/2004/02/skos/core#notation>	"10_c26" .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c26>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Computer, electronic and optical products " .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c26>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/breakdown> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c26_33>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector/10_c26_33> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c26_33>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Breakdown> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c26_33>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
@@ -1555,30 +1473,6 @@
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c26_33>	<http://www.w3.org/2004/02/skos/core#notation>	"10_c26_33" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c26_33>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Manufacture: computers, electric & optical, motor vehicles, transport equipment, furniture, repair 10+" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c26_33>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/breakdown> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c27_28>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf/10_c27_28> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c27_28>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Breakdown> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c27_28>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c27_28>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Electrical equipment & machinery" .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c27_28>	<http://www.w3.org/2004/02/skos/core#definition>	"Nace rev.2 c27_28 - Manufacture of electrical equipment, machinery and equipment n.e.c. " .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c27_28>	<http://www.w3.org/2004/02/skos/core#notation>	"10_c27_28" .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c27_28>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Electrical equipment, machinery and equipment n.e.c. " .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c27_28>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/breakdown> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c29_30>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf/10_c29_30> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c29_30>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Breakdown> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c29_30>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c29_30>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Motor vehicles & transport equipment " .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c29_30>	<http://www.w3.org/2004/02/skos/core#definition>	"Nace rev.2 c29_30 - Manufacture of motor vehicles, trailers and semi-trailers, other transport equipment " .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c29_30>	<http://www.w3.org/2004/02/skos/core#notation>	"10_c29_30" .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c29_30>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Motor vehicles, trailers, other transport equipment " .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c29_30>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/breakdown> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c31_33>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf/10_c31_33> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c31_33>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Breakdown> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c31_33>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c31_33>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Furniture; Repair of machinery" .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c31_33>	<http://www.w3.org/2004/02/skos/core#definition>	"Nace rev.2 c31_33 - Manufacture of furniture and other manufacturing; repair and installation of machinery and equipment " .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c31_33>	<http://www.w3.org/2004/02/skos/core#notation>	"10_c31_33" .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c31_33>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Furniture; repair and installation of machinery" .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c31_33>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/breakdown> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/10_d35_e39>	<http://semantic.digital-agenda-data.eu/def/property/membership>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector/10_d35_e39> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/10_d35_e39>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/Breakdown> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/10_d35_e39>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
@@ -4238,23 +4132,15 @@
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/y65_74>	<http://www.w3.org/2004/02/skos/core#notation>	"y65_74" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/y65_74>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Individuals, 65 to 74 years old" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown/y65_74>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/breakdown> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://purl.org/dc/terms/modified>	"2022-12-01T13:37:05"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://purl.org/dc/terms/modified>	"2023-07-11T17:28:39"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://purl.org/linked-data/sdmx#CodeList> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#ConceptScheme> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2000/01/rdf-schema#isDefinedBy>	<http://digital-agenda-data.eu/> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c10_12> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c10_18> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c10_33> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c10_s951_xk> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c13_15> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c16_18> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c19_23> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c24_25> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c26> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c26_33> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c27_28> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c29_30> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c31_33> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_d35_e39> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_f41_43> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_g45> .

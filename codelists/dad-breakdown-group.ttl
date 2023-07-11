@@ -98,11 +98,11 @@ ns1:desi_idt_ecomm
 	skos:topConceptOf	ns5:breakdown-group .
 ns5:breakdown-group
 	rdf:type	skos:ConceptScheme , ns6:CodeList ;
-	dct:modified	"2022-07-28T10:49:49"^^xsd:dateTime ;
+	dct:modified	"2023-07-11T17:29:39"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://digital-agenda-data.eu/> ;
 	skos:prefLabel	"Breakdown groups used by Digital Agenda Scoreboard" ;
 	skos:notation	"CL_BREAKDOWN_GROUP" ;
-	skos:hasTopConcept	ns1:desi_c_bbpi , ns1:desi_c_fbbc , ns1:desi_c_fbbtc , ns1:desi_c_mbb , ns1:desi_conn , ns1:desi_dps , ns1:desi_dps_egov , ns1:desi_hc , ns1:desi_hc_asd , ns1:desi_hc_bsu , ns1:desi_idt , ns1:desi_idt_di , ns1:desi_idt_dtb , ns1:desi_idt_ecomm , ns1:by_location , ns1:byage3classes , ns1:byage6classes , ns1:bycbirth , ns1:byccitizen , ns1:byccsophistication , ns1:bydensity , ns1:bydigint2015 , ns1:bydownloadspeed , ns1:bydownloadspeed4 , ns1:byedu , ns1:byedugrade , ns1:byemp , ns1:byentsize , ns1:byentsize_s_m_l , ns1:byfbbtech , ns1:bygender , ns1:byictsector2subsec , ns1:byictsector6subsec , ns1:bynaceeu , ns1:bynacenat , ns1:byorganizationclass , ns1:byregion , ns1:byrisk , ns1:byskills , ns1:bytypeproduct , ns1:cnect_directorates , ns1:desi , ns1:desi_totals , ns1:digskill_level , ns1:e_gov_1_ucg , ns1:e_gov_2_tg , ns1:e_gov_3_cm , ns1:e_gov_4_bm , ns1:e_gov_5_ke , ns1:e_gov_events , ns1:econsector , ns1:econsector_size , ns1:egov_le , ns1:epsi_dimensions , ns1:hhbyiq , ns1:hhbytype , ns1:infso_directorates , ns1:labour_force , ns1:manuf , ns1:mhz_bands , ns1:others , ns1:rural_pop , ns1:sos_agg , ns1:total , ns1:wid_score , ns1:e_gov_1_uc , ns1:e_gov_2_tr , ns1:e_gov_3_ke , ns1:e_gov_4_cb , ns1:e_gov_scope , ns1:childrenhh , ns1:ictproffession , ns1:workingscheme , ns1:rid_score ;
+	skos:hasTopConcept	ns1:desi_c_bbpi , ns1:desi_c_fbbc , ns1:desi_c_fbbtc , ns1:desi_c_mbb , ns1:desi_conn , ns1:desi_dps , ns1:desi_dps_egov , ns1:desi_hc , ns1:desi_hc_asd , ns1:desi_hc_bsu , ns1:desi_idt , ns1:desi_idt_di , ns1:desi_idt_dtb , ns1:desi_idt_ecomm , ns1:by_location , ns1:byage3classes , ns1:byage6classes , ns1:bycbirth , ns1:byccitizen , ns1:byccsophistication , ns1:bydensity , ns1:bydigint2015 , ns1:bydownloadspeed , ns1:bydownloadspeed4 , ns1:byedu , ns1:byedugrade , ns1:byemp , ns1:byentsize , ns1:byentsize_s_m_l , ns1:byfbbtech , ns1:bygender , ns1:byictsector2subsec , ns1:byictsector6subsec , ns1:bynaceeu , ns1:bynacenat , ns1:byorganizationclass , ns1:byregion , ns1:byrisk , ns1:byskills , ns1:bytypeproduct , ns1:cnect_directorates , ns1:desi , ns1:desi_totals , ns1:digskill_level , ns1:e_gov_1_ucg , ns1:e_gov_2_tg , ns1:e_gov_3_cm , ns1:e_gov_4_bm , ns1:e_gov_5_ke , ns1:e_gov_events , ns1:econsector , ns1:econsector_size , ns1:egov_le , ns1:epsi_dimensions , ns1:hhbyiq , ns1:hhbytype , ns1:infso_directorates , ns1:labour_force , ns1:mhz_bands , ns1:others , ns1:rural_pop , ns1:sos_agg , ns1:total , ns1:wid_score , ns1:e_gov_1_uc , ns1:e_gov_2_tr , ns1:e_gov_3_ke , ns1:e_gov_4_cb , ns1:e_gov_scope , ns1:childrenhh , ns1:ictproffession , ns1:workingscheme , ns1:rid_score ;
 	skos:inScheme	ns10:scheme .
 ns1:by_location
 	rdf:type	ns2:BreakdownGroup , skos:Concept ;
@@ -396,11 +396,11 @@ ns1:e_gov_events
 	skos:topConceptOf	ns5:breakdown-group .
 ns1:econsector
 	rdf:type	ns2:BreakdownGroup , skos:Concept ;
-	skos:prefLabel	"Economic sectors (17 Nace groups)" ;
+	skos:prefLabel	"Economic sectors (17 NACE groups)" ;
 	skos:notation	"econsector" ;
-	skos:altLabel	"Economic sectors (17 Nace groups)" ;
+	skos:altLabel	"Economic sectors (17 NACE groups)" ;
 	ns4:order	"40" ;
-	skos:definition	"Breakdown by 17 economic sectors (Nace rev.2)" ;
+	skos:definition	"Breakdown by 17 economic sectors (NACE rev.2)" ;
 	skos:topConceptOf	ns5:breakdown-group .
 ns1:econsector_size
 	rdf:type	ns2:BreakdownGroup , skos:Concept ;
@@ -454,13 +454,6 @@ ns1:labour_force
 	skos:notation	"labour_force" ;
 	skos:altLabel	"Labour force" ;
 	ns4:order	"26" ;
-	skos:topConceptOf	ns5:breakdown-group .
-ns1:manuf
-	rdf:type	ns2:BreakdownGroup , skos:Concept ;
-	skos:prefLabel	"Manufacturing sub-sectors" ;
-	skos:notation	"manuf" ;
-	skos:altLabel	"Manufacturing sub-sectors" ;
-	skos:definition	"Manufacturing sector (NACE rev.2 group C) divided into 9 sub-sectors" ;
 	skos:topConceptOf	ns5:breakdown-group .
 ns1:mhz_bands
 	rdf:type	ns2:BreakdownGroup , skos:Concept ;

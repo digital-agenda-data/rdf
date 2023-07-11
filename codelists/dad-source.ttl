@@ -28,14 +28,15 @@
 @prefix ns27:	<http://ec.europa.eu/digital-agenda/en/digital-agenda-you/> .
 @prefix ns28:	<https://ec.europa.eu/digital-single-market/en/> .
 @prefix ns29:	<https://www.europeandataportal.eu/en/impact-studies/> .
+@prefix ns30:	<https://ec.europa.eu/eurostat/web/products-datasets/-/> .
 
 ns1:source
 	rdf:type	skos:ConceptScheme ;
-	dct:modified	"2023-07-10T10:37:47"^^xsd:dateTime ;
+	dct:modified	"2023-07-11T20:07:46"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://digital-agenda-data.eu/> ;
 	skos:prefLabel	"Sources used by Digital Agenda Scoreboard indicators" ;
 	skos:notation	"CL_SOURCE" ;
-	skos:hasTopConcept	ns6:abac , ns6:bench_gp , ns6:berec_roam , ns6:biac , ns6:capgemini , ns6:cnect-estat , ns6:cocom , ns6:corda , ns6:eco_report_03_efis_comm , ns6:egov_bench12 , ns6:egov_bench12_17 , ns6:einfraegi , ns6:einfrageant , ns6:einfraprace , ns6:eoa_smart12-26 , ns6:eoa_yearbook2014 , ns6:epsi , ns6:epsiplatform , ns6:estat-ent , ns6:estat-hh , ns6:estat-lfs , ns6:estat-lfs-sks , ns6:estat-trade , ns6:estat_gba_nabsfin07 , ns6:estat_isoc_bde15b_e , ns6:estat_isoc_bde15b_h , ns6:estat_isoc_bde15b_p , ns6:estat_isoc_bde15cbc , ns6:estat_isoc_bde15cua , ns6:estat_isoc_bde15dec , ns6:estat_isoc_bde15dip , ns6:estat_isoc_bde15disc , ns6:estat_isoc_bde15dth , ns6:estat_isoc_bde15ee , ns6:estat_isoc_ci_ac_i , ns6:estat_isoc_ci_eu_en2 , ns6:estat_isoc_ci_eu_i , ns6:estat_isoc_ci_ifp_fu , ns6:estat_isoc_ci_ifp_iu , ns6:estat_isoc_ci_im_i , ns6:estat_isoc_cicce_use , ns6:estat_isoc_cisci_ax , ns6:estat_isoc_cisci_pb , ns6:estat_isoc_cisci_prv , ns6:estat_isoc_cismt , ns6:estat_isoc_ec_eseln2 , ns6:estat_isoc_ec_ibuy , ns6:estat_isoc_ec_iprb , ns6:estat_isoc_pibi_ictbn2 , ns6:estat_isoc_r_gov_i , ns6:estat_isoc_r_iuse_i , ns6:estat_isoc_sk_cskl_i , ns6:estat_isoc_sk_dskl_i , ns6:estat_isoc_sk_how_i , ns6:estat_isoc_sk_iskl_i , ns6:estat_isoc_ske_ittn2 , ns6:estat_isoc_sks_itspt , ns6:estat_lfst_hhnhwhtc , ns6:estat_nama_gdp_c , ns6:estat_randd , ns6:estat_tps00188 , ns6:eun12 , ns6:euripidis-estat , ns6:eurostat_ed , ns6:eurostat_nat_acc , ns6:eurostat_pop , ns6:idate , ns6:ihs_tech , ns6:ipv6obs , ns6:jrc-ictspec3 , ns6:jrc_ict_randd , ns6:mis , ns6:nif_database , ns6:point_topic , ns6:samknows , ns6:smart11_39 , ns6:cnect_ehealth_kpi , ns6:cocom_new , ns6:desi_fttpc , ns6:european_data_portal , ns6:bc2020 , ns6:estathh_cocom , ns6:e_gov_bench , ns6:desi_4g , ns6:desi_5g , ns6:desi_5gc , ns6:desi_bbpi , ns6:desi_dps_egovuser , ns6:desi_dps_opendata , ns6:desi_dps_prefform , ns6:desi_dps_psbiz , ns6:desi_dps_pscit , ns6:desi_fbbc , ns6:desi_fbbtc , ns6:desi_gbpstc , ns6:desi_hc_abds , ns6:desi_hc_abss , ns6:desi_hc_bds , ns6:desi_hc_entict , ns6:desi_hc_fictspec , ns6:desi_hc_ictg , ns6:desi_hc_ictspec , ns6:desi_idt_ai , ns6:desi_idt_bigdat , ns6:desi_idt_cloud , ns6:desi_idt_ecomturn , ns6:desi_idt_einv , ns6:desi_idt_eis , ns6:desi_idt_ictsust , ns6:desi_idt_sellcb , ns6:desi_idt_smedi , ns6:desi_idt_smeso , ns6:desi_idt_socmed , ns6:desi_mbbtu , ns6:desi_ufbbtu , ns6:desi_vhcnc ;
+	skos:hasTopConcept	ns6:abac , ns6:bench_gp , ns6:berec_roam , ns6:biac , ns6:capgemini , ns6:cnect-estat , ns6:cocom , ns6:corda , ns6:eco_report_03_efis_comm , ns6:egov_bench12 , ns6:egov_bench12_17 , ns6:einfraegi , ns6:einfrageant , ns6:einfraprace , ns6:eoa_smart12-26 , ns6:eoa_yearbook2014 , ns6:epsi , ns6:epsiplatform , ns6:estat-ent , ns6:estat-hh , ns6:estat-lfs , ns6:estat-lfs-sks , ns6:estat-trade , ns6:estat_gba_nabsfin07 , ns6:estat_isoc_bde15b_e , ns6:estat_isoc_bde15b_h , ns6:estat_isoc_bde15b_p , ns6:estat_isoc_bde15cua , ns6:estat_isoc_bde15dec , ns6:estat_isoc_bde15dip , ns6:estat_isoc_bde15disc , ns6:estat_isoc_bde15dth , ns6:estat_isoc_bde15ee , ns6:estat_isoc_ci_ac_i , ns6:estat_isoc_ci_eu_en2 , ns6:estat_isoc_ci_eu_i , ns6:estat_isoc_ci_ifp_fu , ns6:estat_isoc_ci_ifp_iu , ns6:estat_isoc_ci_im_i , ns6:estat_isoc_cicce_use , ns6:estat_isoc_cisci_ax , ns6:estat_isoc_cisci_pb , ns6:estat_isoc_cisci_prv , ns6:estat_isoc_cismt , ns6:estat_isoc_ec_eseln2 , ns6:estat_isoc_ec_ibuy , ns6:estat_isoc_ec_iprb , ns6:estat_isoc_pibi_ictbn2 , ns6:estat_isoc_r_gov_i , ns6:estat_isoc_r_iuse_i , ns6:estat_isoc_sk_cskl_i , ns6:estat_isoc_sk_dskl_i , ns6:estat_isoc_sk_how_i , ns6:estat_isoc_sk_iskl_i , ns6:estat_isoc_ske_ittn2 , ns6:estat_isoc_sks_itspt , ns6:estat_lfst_hhnhwhtc , ns6:estat_nama_gdp_c , ns6:estat_randd , ns6:estat_tps00188 , ns6:eun12 , ns6:euripidis-estat , ns6:eurostat_ed , ns6:eurostat_nat_acc , ns6:eurostat_pop , ns6:idate , ns6:ihs_tech , ns6:ipv6obs , ns6:jrc-ictspec3 , ns6:jrc_ict_randd , ns6:mis , ns6:nif_database , ns6:point_topic , ns6:samknows , ns6:smart11_39 , ns6:cnect_ehealth_kpi , ns6:cocom_new , ns6:desi_fttpc , ns6:european_data_portal , ns6:bc2020 , ns6:estat_isoc_e_dii , ns6:estathh_cocom , ns6:e_gov_bench , ns6:desi_4g , ns6:desi_5g , ns6:desi_5gc , ns6:desi_bbpi , ns6:desi_dps_egovuser , ns6:desi_dps_opendata , ns6:desi_dps_prefform , ns6:desi_dps_psbiz , ns6:desi_dps_pscit , ns6:desi_fbbc , ns6:desi_fbbtc , ns6:desi_gbpstc , ns6:desi_hc_abds , ns6:desi_hc_abss , ns6:desi_hc_bds , ns6:desi_hc_entict , ns6:desi_hc_fictspec , ns6:desi_hc_ictg , ns6:desi_hc_ictspec , ns6:desi_idt_ai , ns6:desi_idt_bigdat , ns6:desi_idt_cloud , ns6:desi_idt_ecomturn , ns6:desi_idt_einv , ns6:desi_idt_eis , ns6:desi_idt_ictsust , ns6:desi_idt_sellcb , ns6:desi_idt_smedi , ns6:desi_idt_smeso , ns6:desi_idt_socmed , ns6:desi_mbbtu , ns6:desi_ufbbtu , ns6:desi_vhcnc ;
 	skos:inScheme	ns7:scheme .
 ns6:abac
 	rdf:type	ns8:Source , skos:Concept ;
@@ -235,13 +236,6 @@ ns6:estat_isoc_bde15b_p
 	foaf:page	ns20:isoc_bde15b_p ;
 	skos:notation	"estat_isoc_bde15b_p" ;
 	skos:definition	"Eurostat, Table isoc_bde15b_p: Broadband and connectivity - persons employed" ;
-	skos:topConceptOf	ns1:source .
-ns6:estat_isoc_bde15cbc
-	rdf:type	ns8:Source , skos:Concept ;
-	skos:prefLabel	"Eurostat, Table isoc_bde15cbc: E-banking and e-commerce" ;
-	foaf:page	ns20:isoc_bde15cbc ;
-	skos:notation	"estat_isoc_bde15cbc" ;
-	skos:definition	"Eurostat, Table isoc_bde15cbc: E-banking and e-commerce" ;
 	skos:topConceptOf	ns1:source .
 ns6:estat_isoc_bde15cua
 	rdf:type	ns8:Source , skos:Concept ;
@@ -618,6 +612,13 @@ ns6:bc2020
 	foaf:page	ns28:broadband-connectivity ;
 	skos:notation	"bc2020" ;
 	skos:definition	"IHS Markit, Omdia, Point Topic and VVA, Broadband coverage in Europe studies" ;
+	skos:topConceptOf	ns1:source .
+ns6:estat_isoc_e_dii
+	rdf:type	ns8:Source , skos:Concept ;
+	skos:prefLabel	"Eurostat, Table isoc_e_dii: Digital Intensity" ;
+	foaf:page	ns30:isoc_e_dii ;
+	skos:notation	"estat_isoc_e_dii" ;
+	skos:definition	"Eurostat, Table isoc_e_dii: Digital Intensity" ;
 	skos:topConceptOf	ns1:source .
 ns6:estathh_cocom
 	rdf:type	ns8:Source , skos:Concept ;

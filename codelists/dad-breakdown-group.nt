@@ -423,10 +423,10 @@
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector>	<http://semantic.digital-agenda-data.eu/def/property/order>	"40" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/BreakdownGroup> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Economic sectors (17 Nace groups)" .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector>	<http://www.w3.org/2004/02/skos/core#definition>	"Breakdown by 17 economic sectors (Nace rev.2)" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Economic sectors (17 NACE groups)" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector>	<http://www.w3.org/2004/02/skos/core#definition>	"Breakdown by 17 economic sectors (NACE rev.2)" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector>	<http://www.w3.org/2004/02/skos/core#notation>	"econsector" .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Economic sectors (17 Nace groups)" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Economic sectors (17 NACE groups)" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector_size>	<http://semantic.digital-agenda-data.eu/def/property/order>	"41" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector_size>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/BreakdownGroup> .
@@ -489,13 +489,6 @@
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/labour_force>	<http://www.w3.org/2004/02/skos/core#notation>	"labour_force" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/labour_force>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Labour force" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/labour_force>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/BreakdownGroup> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Manufacturing sub-sectors" .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf>	<http://www.w3.org/2004/02/skos/core#definition>	"Manufacturing sector (NACE rev.2 group C) divided into 9 sub-sectors" .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf>	<http://www.w3.org/2004/02/skos/core#notation>	"manuf" .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Manufacturing sub-sectors" .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/mhz_bands>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://semantic.digital-agenda-data.eu/def/class/BreakdownGroup> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/mhz_bands>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#Concept> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/mhz_bands>	<http://www.w3.org/2004/02/skos/core#altLabel>	"Spectrum Bands " .
@@ -556,7 +549,7 @@
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/workingscheme>	<http://www.w3.org/2004/02/skos/core#notation>	"workingscheme" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/workingscheme>	<http://www.w3.org/2004/02/skos/core#prefLabel>	"Working patterns and conditions" .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group/workingscheme>	<http://www.w3.org/2004/02/skos/core#topConceptOf>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown-group>	<http://purl.org/dc/terms/modified>	"2022-07-28T10:49:49"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group>	<http://purl.org/dc/terms/modified>	"2023-07-11T17:29:39"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://purl.org/linked-data/sdmx#CodeList> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2004/02/skos/core#ConceptScheme> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group>	<http://www.w3.org/2000/01/rdf-schema#isDefinedBy>	<http://digital-agenda-data.eu/> .
@@ -625,7 +618,6 @@
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/ictproffession> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/infso_directorates> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/labour_force> .
-<http://semantic.digital-agenda-data.eu/codelist/breakdown-group>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/manuf> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/mhz_bands> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/others> .
 <http://semantic.digital-agenda-data.eu/codelist/breakdown-group>	<http://www.w3.org/2004/02/skos/core#hasTopConcept>	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/rid_score> .
