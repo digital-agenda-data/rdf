@@ -1,10 +1,4582 @@
-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-<html><head>
-<title>502 Proxy Error</title>
-</head><body>
-<h1>Proxy Error</h1>
-<p>The proxy server received an invalid
-response from an upstream server.<br />
-The proxy server could not handle the request <em><a href="/sparql">POST&nbsp;/sparql</a></em>.<p>
-Reason: <strong>Error reading from remote server</strong></p></p>
-</body></html>
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns1:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/desi/> .
+@prefix ns2:	<http://semantic.digital-agenda-data.eu/def/class/> .
+ns1:desi_conn	rdf:type	ns2:BreakdownToGroupMembership .
+@prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
+ns1:desi_conn	rdfs:label	"desi" .
+@prefix ns4:	<http://semantic.digital-agenda-data.eu/def/property/> .
+@prefix ns5:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/> .
+ns1:desi_conn	ns4:member-of	ns5:desi ;
+	ns4:order	"2" .
+ns1:desi_dps	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"desi" ;
+	ns4:member-of	ns5:desi ;
+	ns4:order	"4" .
+ns1:desi_hc	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"desi" ;
+	ns4:member-of	ns5:desi ;
+	ns4:order	"1" .
+ns1:desi_idt	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"desi" ;
+	ns4:member-of	ns5:desi ;
+	ns4:order	"3" .
+@prefix ns6:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/desi_c_bbpi/> .
+ns6:desi_bbpi	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"desi_c_bbpi" ;
+	ns4:member-of	ns5:desi_c_bbpi ;
+	ns4:order	"1" .
+@prefix ns7:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/desi_c_fbbc/> .
+ns7:desi_fbbc	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"desi_c_fbbc" ;
+	ns4:member-of	ns5:desi_c_fbbc ;
+	ns4:order	"1" .
+ns7:desi_vhcnc	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"desi_c_fbbc" ;
+	ns4:member-of	ns5:desi_c_fbbc ;
+	ns4:order	"2" .
+@prefix ns8:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/desi_c_fbbtc/> .
+ns8:desi_fbbtc	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"desi_c_fbbtc" ;
+	ns4:member-of	ns5:desi_c_fbbtc ;
+	ns4:order	"1" .
+ns8:desi_gbpstc	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"desi_c_fbbtc" ;
+	ns4:member-of	ns5:desi_c_fbbtc ;
+	ns4:order	"3" .
+ns8:desi_ufbbtu	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"desi_c_fbbtc" ;
+	ns4:member-of	ns5:desi_c_fbbtc ;
+	ns4:order	"2" .
+@prefix ns9:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/desi_c_mbb/> .
+ns9:desi_5g	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"desi_c_mbb" ;
+	ns4:member-of	ns5:desi_c_mbb ;
+	ns4:order	"1" .
+ns9:desi_5gc	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"desi_c_mbb" ;
+	ns4:member-of	ns5:desi_c_mbb ;
+	ns4:order	"2" .
+ns9:desi_mbbtu	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"desi_c_mbb" ;
+	ns4:member-of	ns5:desi_c_mbb ;
+	ns4:order	"3" .
+@prefix ns10:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/desi_conn/> .
+ns10:desi_c_bbpi	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"desi_conn" ;
+	ns4:member-of	ns5:desi_conn ;
+	ns4:order	"4" .
+ns10:desi_c_fbbc	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"desi_conn" ;
+	ns4:member-of	ns5:desi_conn ;
+	ns4:order	"2" .
+ns10:desi_c_fbbtc	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"desi_conn" ;
+	ns4:member-of	ns5:desi_conn ;
+	ns4:order	"1" .
+ns10:desi_c_mbb	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"desi_conn" ;
+	ns4:member-of	ns5:desi_conn ;
+	ns4:order	"3" .
+@prefix ns11:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/desi_dps/> .
+ns11:desi_dps_egov	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"desi_dps" ;
+	ns4:member-of	ns5:desi_dps ;
+	ns4:order	"1" .
+@prefix ns12:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/desi_dps_egov/> .
+ns12:desi_dps_egovuser	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"desi_dps_egov" ;
+	ns4:member-of	ns5:desi_dps_egov ;
+	ns4:order	"1" .
+ns12:desi_dps_opendata	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"desi_dps_egov" ;
+	ns4:member-of	ns5:desi_dps_egov ;
+	ns4:order	"5" .
+ns12:desi_dps_prefform	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"desi_dps_egov" ;
+	ns4:member-of	ns5:desi_dps_egov ;
+	ns4:order	"2" .
+ns12:desi_dps_psbiz	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"desi_dps_egov" ;
+	ns4:member-of	ns5:desi_dps_egov ;
+	ns4:order	"4" .
+ns12:desi_dps_pscit	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"desi_dps_egov" ;
+	ns4:member-of	ns5:desi_dps_egov ;
+	ns4:order	"3" .
+@prefix ns13:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/desi_hc/> .
+ns13:desi_hc_asd	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"desi_hc" ;
+	ns4:member-of	ns5:desi_hc ;
+	ns4:order	"2" .
+ns13:desi_hc_bsu	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"desi_hc" ;
+	ns4:member-of	ns5:desi_hc ;
+	ns4:order	"1" .
+@prefix ns14:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/desi_hc_asd/> .
+ns14:desi_hc_entict	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"desi_hc_asd" ;
+	ns4:member-of	ns5:desi_hc_asd ;
+	ns4:order	"3" .
+ns14:desi_hc_fictspec	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"desi_hc_asd" ;
+	ns4:member-of	ns5:desi_hc_asd ;
+	ns4:order	"2" .
+ns14:desi_hc_ictg	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"desi_hc_asd" ;
+	ns4:member-of	ns5:desi_hc_asd ;
+	ns4:order	"4" .
+ns14:desi_hc_ictspec	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"desi_hc_asd" ;
+	ns4:member-of	ns5:desi_hc_asd ;
+	ns4:order	"1" .
+@prefix ns15:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/desi_hc_bsu/> .
+ns15:desi_hc_abds	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"desi_hc_bsu" ;
+	ns4:member-of	ns5:desi_hc_bsu ;
+	ns4:order	"2" .
+ns15:desi_hc_abss	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"desi_hc_bsu" ;
+	ns4:member-of	ns5:desi_hc_bsu ;
+	ns4:order	"3" .
+ns15:desi_hc_bds	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"desi_hc_bsu" ;
+	ns4:member-of	ns5:desi_hc_bsu ;
+	ns4:order	"1" .
+@prefix ns16:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/desi_idt/> .
+ns16:desi_idt_di	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"desi_idt" ;
+	ns4:member-of	ns5:desi_idt ;
+	ns4:order	"1" .
+ns16:desi_idt_dtb	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"desi_idt" ;
+	ns4:member-of	ns5:desi_idt ;
+	ns4:order	"2" .
+ns16:desi_idt_ecomm	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"desi_idt" ;
+	ns4:member-of	ns5:desi_idt ;
+	ns4:order	"3" .
+@prefix ns17:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/desi_idt_di/> .
+ns17:desi_idt_smedi	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"desi_idt_di" ;
+	ns4:member-of	ns5:desi_idt_di ;
+	ns4:order	"1" .
+@prefix ns18:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/desi_idt_dtb/> .
+ns18:desi_idt_ai	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"desi_idt_dtb" ;
+	ns4:member-of	ns5:desi_idt_dtb ;
+	ns4:order	"5" .
+ns18:desi_idt_bigdat	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"desi_idt_dtb" ;
+	ns4:member-of	ns5:desi_idt_dtb ;
+	ns4:order	"3" .
+ns18:desi_idt_cloud	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"desi_idt_dtb" ;
+	ns4:member-of	ns5:desi_idt_dtb ;
+	ns4:order	"4" .
+ns18:desi_idt_einv	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"desi_idt_dtb" ;
+	ns4:member-of	ns5:desi_idt_dtb ;
+	ns4:order	"7" .
+ns18:desi_idt_eis	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"desi_idt_dtb" ;
+	ns4:member-of	ns5:desi_idt_dtb ;
+	ns4:order	"1" .
+ns18:desi_idt_ictsust	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"desi_idt_dtb" ;
+	ns4:member-of	ns5:desi_idt_dtb ;
+	ns4:order	"6" .
+ns18:desi_idt_socmed	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"desi_idt_dtb" ;
+	ns4:member-of	ns5:desi_idt_dtb ;
+	ns4:order	"2" .
+@prefix ns19:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/desi_idt_ecomm/> .
+ns19:desi_idt_ecomturn	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"desi_idt_ecomm" ;
+	ns4:member-of	ns5:desi_idt_ecomm ;
+	ns4:order	"2" .
+ns19:desi_idt_sellcb	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"desi_idt_ecomm" ;
+	ns4:member-of	ns5:desi_idt_ecomm ;
+	ns4:order	"3" .
+ns19:desi_idt_smeso	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"desi_idt_ecomm" ;
+	ns4:member-of	ns5:desi_idt_ecomm ;
+	ns4:order	"1" .
+@prefix ns20:	<http://semantic.digital-agenda-data.eu/codelist/> .
+@prefix ns21:	<http://purl.org/linked-data/sdmx#> .
+ns20:breakdown	rdf:type	ns21:CodeList .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+ns20:breakdown	rdf:type	skos:ConceptScheme .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:	<http://purl.org/dc/terms/> .
+ns20:breakdown	dct:modified	"2023-07-11T17:28:39"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://digital-agenda-data.eu/> ;
+	skos:prefLabel	"Code list for breakdowns used by Digital Agenda Scoreboard" ;
+	skos:notation	"CL_BREAKDOWN" .
+@prefix ns25:	<http://semantic.digital-agenda-data.eu/codelist/breakdown/> .
+ns20:breakdown	skos:hasTopConcept	ns25:men ,
+		ns25:all_egov_le_new ,
+		ns25:e_gov_scope_1_new ,
+		ns25:e_gov_scope_2_new ,
+		ns25:gen_pract ,
+		<http://semantic.digital-agenda-data.eu/codelist/breakdown/5g_pb> ,
+		ns25:isco_ict ,
+		ns25:e_gov_events_9 ,
+		ns25:isco_ictx ,
+		ns25:emp_con_prm ,
+		ns25:emp_con_tmp ,
+		ns25:emp_wkt_ft ,
+		ns25:emp_wkt_pt ,
+		ns25:ind_dch ,
+		ns25:ind_no_dch ,
+		ns25:desi_c_fbbtc ,
+		ns25:desi_c_mbb ,
+		ns25:desi_conn ,
+		ns25:desi_dps ,
+		ns25:desi_dps_egov ,
+		ns25:desi_dps_egovuser ,
+		ns25:desi_dps_opendata ,
+		ns25:desi_dps_prefform ,
+		ns25:desi_5g ,
+		ns25:desi_5gc ,
+		ns25:desi_bbpi ,
+		ns25:desi_c_bbpi ,
+		ns25:desi_c_fbbc ,
+		ns25:desi_vhcnc ,
+		ns25:desi_idt_eis ,
+		ns25:desi_idt_ictsust ,
+		ns25:desi_idt_sellcb ,
+		ns25:desi_idt_smedi ,
+		ns25:desi_idt_smeso ,
+		ns25:desi_idt_socmed ,
+		ns25:desi_mbbtu ,
+		ns25:desi_ufbbtu ,
+		ns25:desi_idt_ai ,
+		ns25:desi_idt_bigdat ,
+		ns25:desi_idt_cloud ,
+		ns25:desi_idt_di ,
+		ns25:desi_idt_dtb ,
+		ns25:desi_idt_ecomm ,
+		ns25:desi_idt_ecomturn ,
+		ns25:desi_idt_einv ,
+		ns25:desi_hc_asd ,
+		ns25:desi_hc_bds ,
+		ns25:desi_hc_bsu ,
+		ns25:desi_hc_entict ,
+		ns25:desi_hc_fictspec ,
+		ns25:desi_hc_ictg ,
+		ns25:desi_hc_ictspec ,
+		ns25:desi_idt ,
+		ns25:desi_dps_psbiz ,
+		ns25:desi_dps_pscit ,
+		ns25:desi_fbbc ,
+		ns25:desi_fbbtc ,
+		ns25:desi_gbpstc ,
+		ns25:desi_hc ,
+		ns25:desi_hc_abds ,
+		ns25:desi_hc_abss ,
+		ns25:desi_fttpc ,
+		ns25:rid_score ,
+		ns25:cb_for ,
+		ns25:cc_for ,
+		ns25:rf_ge1 ,
+		ns25:rf_ge2 ,
+		ns25:rural_pop ,
+		ns25:s_c10_f43 ,
+		ns25:s_c10_s951_xk ,
+		ns25:s_g45_s951_xk ,
+		ns25:sal_self_fam ,
+		ns25:serv_online_no_portal ,
+		ns25:orgclass_total ,
+		ns25:other_eu_countries ,
+		ns25:own_country ,
+		ns25:own_drive_car ,
+		ns25:reg_bus_op ,
+		ns25:rest_world ,
+		ns25:retir_other ,
+		ns25:rf_0 ,
+		ns25:offer_30_100_mbps ,
+		ns25:offer_30_mbps ,
+		ns25:offer_8_12_mbps ,
+		ns25:offline ,
+		ns25:orgclass_hesrec ,
+		ns25:orgclass_le ,
+		ns25:orgclass_nil ,
+		ns25:orgclass_sme ,
+		ns25:m ,
+		ns25:m_c10_f43 ,
+		ns25:m_c10_s951_xk ,
+		ns25:m_g45_s951_xk ,
+		ns25:m_y16_74 ,
+		ns25:not_assigned ,
+		ns25:offer_100_mbps ,
+		ns25:offer_12_30_mbps ,
+		ns25:infso_f ,
+		ns25:infso_g ,
+		ns25:infso_h ,
+		ns25:infso_r ,
+		ns25:l_c10_f43 ,
+		ns25:l_c10_s951_xk ,
+		ns25:l_g45_s951_xk ,
+		ns25:lose_find_job ,
+		ns25:info_online_no_portal ,
+		ns25:info_online_portal ,
+		ns25:infso_a ,
+		ns25:infso_all ,
+		ns25:infso_b ,
+		ns25:infso_c ,
+		ns25:infso_d ,
+		ns25:infso_e ,
+		ns25:i3_4 ,
+		ns25:i5_8 ,
+		ns25:ind_deg1 ,
+		ns25:ind_deg2 ,
+		ns25:ind_deg3 ,
+		ns25:ind_no1 ,
+		ns25:ind_o1 ,
+		ns25:ind_total ,
+		ns25:hh_o1 ,
+		ns25:hh_total ,
+		ns25:hhi_q1 ,
+		ns25:hhi_q2 ,
+		ns25:hhi_q3 ,
+		ns25:hhi_q4 ,
+		ns25:i0_2 ,
+		ns25:i0_4 ,
+		ns25:y35_44 ,
+		ns25:y45_54 ,
+		ns25:y55_64 ,
+		ns25:y55_74 ,
+		ns25:y65_74 ,
+		ns25:total_tel ,
+		ns25:une ,
+		ns25:wid_score ,
+		ns25:xdsl ,
+		ns25:y16_24 ,
+		ns25:y25_34 ,
+		ns25:y25_54 ,
+		ns25:y25_64 ,
+		ns25:total ,
+		ns25:total_fbb ,
+		ns25:total_mbb ,
+		ns25:total_mob ,
+		ns25:total_offers8plus ,
+		ns25:total_pop ,
+		ns25:total_pophh ,
+		ns25:total_sos ,
+		ns25:speed_10l30 ,
+		ns25:speed_2l10 ,
+		ns25:speed_30l100 ,
+		ns25:speed_ge100 ,
+		ns25:speed_l2 ,
+		ns25:stud ,
+		ns25:study ,
+		ns25:tot_ict_products ,
+		ns25:so_21 ,
+		ns25:so_22_1 ,
+		ns25:so_22_2 ,
+		ns25:so_22_3 ,
+		ns25:so_23 ,
+		ns25:so_24 ,
+		ns25:so_25 ,
+		ns25:so_26 ,
+		ns25:so_13 ,
+		ns25:so_14 ,
+		ns25:so_15 ,
+		ns25:so_16 ,
+		ns25:so_17 ,
+		ns25:so_18 ,
+		ns25:so_19 ,
+		ns25:so_20 ,
+		ns25:so_05 ,
+		ns25:so_06 ,
+		ns25:so_07 ,
+		ns25:so_08 ,
+		ns25:so_09 ,
+		ns25:so_10 ,
+		ns25:so_11 ,
+		ns25:so_12 ,
+		ns25:serv_online_portal ,
+		ns25:services ,
+		ns25:sm_c10_s951_xk ,
+		ns25:small_claims ,
+		ns25:so_01 ,
+		ns25:so_02 ,
+		ns25:so_03 ,
+		ns25:so_04 ,
+		ns25:women ,
+		<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_j58_60> ,
+		<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_j61> ,
+		<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_j62_63> ,
+		<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_l68> ,
+		<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_m69_74> ,
+		<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_n77_82> ,
+		<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_s951> ,
+		<http://semantic.digital-agenda-data.eu/codelist/breakdown/1500_mhz> ,
+		<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_d35_e39> ,
+		<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_f41_43> ,
+		<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_g45> ,
+		<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_g47> ,
+		<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_h49_53> ,
+		<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_i55_56> ,
+		<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c10_s951_xk> ,
+		<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c19_23> ,
+		<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c24_25> ,
+		<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c26_33> ,
+		<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c10_18> ,
+		ns25:cnect_r ,
+		ns25:csk_hi ,
+		ns25:csk_lo ,
+		ns25:csk_me ,
+		ns25:cskx ,
+		ns25:cnect_all ,
+		<http://semantic.digital-agenda-data.eu/codelist/breakdown/cnect_b+> ,
+		ns25:cnect_c ,
+		ns25:cnect_d ,
+		ns25:cnect_e ,
+		ns25:cnect_f ,
+		ns25:cnect_g ,
+		ns25:cnect_h ,
+		ns25:cable ,
+		ns25:cb_eu_for ,
+		ns25:cb_ext_eu ,
+		ns25:cb_nat ,
+		ns25:cc_eu_for ,
+		ns25:cc_ext_eu ,
+		ns25:cc_nat ,
+		ns25:cnect_a ,
+		<http://semantic.digital-agenda-data.eu/codelist/breakdown/800_mhz> ,
+		<http://semantic.digital-agenda-data.eu/codelist/breakdown/900_mhz> ,
+		ns25:all_dch ,
+		ns25:all_egov_le ,
+		ns25:all_ndch ,
+		ns25:authentic_sources ,
+		ns25:auto_service ,
+		ns25:bus_startup ,
+		<http://semantic.digital-agenda-data.eu/codelist/breakdown/2_6_ghz> ,
+		<http://semantic.digital-agenda-data.eu/codelist/breakdown/2_ghz_paired> ,
+		<http://semantic.digital-agenda-data.eu/codelist/breakdown/3_4_ghz> ,
+		<http://semantic.digital-agenda-data.eu/codelist/breakdown/3_6_ghz> ,
+		<http://semantic.digital-agenda-data.eu/codelist/breakdown/582_62_631_951> ,
+		<http://semantic.digital-agenda-data.eu/codelist/breakdown/61> ,
+		<http://semantic.digital-agenda-data.eu/codelist/breakdown/61_582_62_631_951> ,
+		<http://semantic.digital-agenda-data.eu/codelist/breakdown/700_mhz> ,
+		<http://semantic.digital-agenda-data.eu/codelist/breakdown/1800_mhz> ,
+		<http://semantic.digital-agenda-data.eu/codelist/breakdown/1m_websites> ,
+		<http://semantic.digital-agenda-data.eu/codelist/breakdown/261> ,
+		<http://semantic.digital-agenda-data.eu/codelist/breakdown/261to264> ,
+		<http://semantic.digital-agenda-data.eu/codelist/breakdown/261to264_582_61_62_631_951> ,
+		<http://semantic.digital-agenda-data.eu/codelist/breakdown/262> ,
+		<http://semantic.digital-agenda-data.eu/codelist/breakdown/263> ,
+		<http://semantic.digital-agenda-data.eu/codelist/breakdown/264> ,
+		ns25:e_di_hi ,
+		ns25:e_di_lo ,
+		ns25:e_di_vhi ,
+		ns25:e_di_vlo ,
+		ns25:e_gov_1a_ucg_oa ,
+		ns25:e_gov_1b_ucg_us ,
+		ns25:e_gov_1c_ucg_mf ,
+		ns25:e_gov_1d_ucg_eu ,
+		ns25:ds_basic ,
+		ns25:ds_no ,
+		ns25:dsk_ab ,
+		ns25:dsk_b ,
+		ns25:dsk_x ,
+		ns25:e_cc_hi ,
+		ns25:e_cc_lo ,
+		ns25:e_cc_me ,
+		ns25:desi_total ,
+		ns25:digital_post ,
+		ns25:ds_a_basic ,
+		ns25:ds_b_basic ,
+		ns25:grade11gen ,
+		ns25:grade11voc ,
+		ns25:grade4 ,
+		ns25:grade8 ,
+		ns25:hh_deg1 ,
+		ns25:hh_deg2 ,
+		ns25:hh_deg3 ,
+		ns25:hh_no1 ,
+		ns25:epsiscore_pricing ,
+		ns25:epsiscore_total ,
+		ns25:f ,
+		ns25:f_y16_74 ,
+		ns25:family ,
+		ns25:fttx ,
+		ns25:gen_admin_move ,
+		ns25:goods ,
+		ns25:ent_s_xfin ,
+		ns25:ent_sm_xfin ,
+		ns25:epsiscore_events ,
+		ns25:epsiscore_exarrange ,
+		ns25:epsiscore_formats ,
+		ns25:epsiscore_implem ,
+		ns25:epsiscore_localpsi ,
+		ns25:epsiscore_practice ,
+		ns25:egov_le_bus ,
+		ns25:egov_life_events ,
+		ns25:eid ,
+		ns25:einfra ,
+		ns25:empl_une ,
+		ns25:ent_all_xfin ,
+		ns25:ent_l_xfin ,
+		ns25:ent_m_xfin ,
+		ns25:e_gov_events_3 ,
+		ns25:e_gov_events_4 ,
+		ns25:e_gov_events_5 ,
+		ns25:e_gov_events_6 ,
+		ns25:e_gov_events_7 ,
+		ns25:e_gov_events_8 ,
+		ns25:ec_all ,
+		ns25:edocuments ,
+		ns25:e_gov_5a_ke_eid ,
+		ns25:e_gov_5b_ke_edoc ,
+		ns25:e_gov_5c_ke_as ,
+		ns25:e_gov_5d_ke_dp ,
+		ns25:e_gov_5e_ke_esafe ,
+		ns25:e_gov_5f_ke_sso ,
+		ns25:e_gov_events_1 ,
+		ns25:e_gov_events_2 ,
+		ns25:e_gov_3e_cm_eu ,
+		ns25:e_gov_3f_cm_su ,
+		ns25:e_gov_4a_bm_oa ,
+		ns25:e_gov_4b_bm_us ,
+		ns25:e_gov_4c_bm_eidcb ,
+		ns25:e_gov_4d_bm_edoccb ,
+		ns25:e_gov_4e_bm_eu ,
+		ns25:e_gov_4f_bm_su ,
+		ns25:e_gov_1e_ucg_su ,
+		ns25:e_gov_2a_tg_sd ,
+		ns25:e_gov_2b_tg_po ,
+		ns25:e_gov_2c_tg_pd ,
+		ns25:e_gov_3a_cm_oa ,
+		ns25:e_gov_3b_cm_us ,
+		ns25:e_gov_3c_cm_eidcb ,
+		ns25:e_gov_3d_cm_edoccb ,
+		<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_g46> ,
+		ns25:e_gov_3d_ke_dp ,
+		ns25:e_gov_4a_cb_oa ,
+		ns25:e_gov_4b_cb_us ,
+		ns25:e_gov_4c_cb_eid ,
+		ns25:e_gov_4d_cb_edoc ,
+		ns25:e_gov_scope_1 ,
+		ns25:e_gov_scope_2 ,
+		ns25:e_gov_1c_uc_us ,
+		ns25:e_gov_2a_tr_sd ,
+		ns25:e_gov_2c_tr_pd ,
+		ns25:e_gov_2c_tr_sd ,
+		ns25:e_gov_2x_tr_po ,
+		ns25:e_gov_3a_ke_eid ,
+		ns25:e_gov_3b_ke_edoc ,
+		ns25:e_gov_3c_ke_as ,
+		ns25:e_gov_1a_uc_oa ,
+		ns25:e_gov_1b_uc_mf .
+@prefix ns26:	<http://semantic.digital-agenda-data.eu/def/> .
+ns20:breakdown	skos:inScheme	ns26:scheme .
+@prefix ns27:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/by_location/> .
+ns27:other_eu_countries	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"by_location" ;
+	ns4:member-of	ns5:by_location ;
+	ns4:order	"2" .
+ns27:own_country	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"by_location" ;
+	ns4:member-of	ns5:by_location ;
+	ns4:order	"1" .
+ns27:rest_world	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"by_location" ;
+	ns4:member-of	ns5:by_location ;
+	ns4:order	"3" .
+@prefix ns28:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byage3classes/> .
+ns28:y16_24	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"byage3classes" ;
+	ns4:member-of	ns5:byage3classes ;
+	ns4:order	"3" .
+ns28:y25_54	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"byage3classes" ;
+	ns4:member-of	ns5:byage3classes ;
+	ns4:order	"4" .
+ns28:y55_74	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"byage3classes" ;
+	ns4:member-of	ns5:byage3classes ;
+	ns4:order	"5" .
+@prefix ns29:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byage6classes/> .
+ns29:y16_24	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"byage6classes" ;
+	ns4:member-of	ns5:byage6classes ;
+	ns4:order	"3" .
+ns29:y25_34	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"byage6classes" ;
+	ns4:member-of	ns5:byage6classes ;
+	ns4:order	"16" .
+ns29:y35_44	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"byage6classes" ;
+	ns4:member-of	ns5:byage6classes ;
+	ns4:order	"17" .
+ns29:y45_54	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"byage6classes" ;
+	ns4:member-of	ns5:byage6classes ;
+	ns4:order	"18" .
+ns29:y55_64	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"byage6classes" ;
+	ns4:member-of	ns5:byage6classes ;
+	ns4:order	"19" .
+ns29:y65_74	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"byage6classes" ;
+	ns4:member-of	ns5:byage6classes ;
+	ns4:order	"20" .
+@prefix ns30:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/bycbirth/> .
+ns30:cb_eu_for	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"bycbirth" ;
+	ns4:member-of	ns5:bycbirth ;
+	ns4:order	"27" .
+ns30:cb_ext_eu	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"bycbirth" ;
+	ns4:member-of	ns5:bycbirth ;
+	ns4:order	"28" .
+ns30:cb_nat	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"bycbirth" ;
+	ns4:member-of	ns5:bycbirth ;
+	ns4:order	"26" .
+@prefix ns31:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byccitizen/> .
+ns31:cc_eu_for	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"byccitizen" ;
+	ns4:member-of	ns5:byccitizen ;
+	ns4:order	"30" .
+ns31:cc_ext_eu	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"byccitizen" ;
+	ns4:member-of	ns5:byccitizen ;
+	ns4:order	"31" .
+ns31:cc_nat	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"byccitizen" ;
+	ns4:member-of	ns5:byccitizen ;
+	ns4:order	"29" .
+@prefix ns32:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byccsophistication/> .
+ns32:e_cc_hi	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"byccsophistication" ;
+	ns4:member-of	ns5:byccsophistication ;
+	ns4:order	"1" .
+ns32:e_cc_lo	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"byccsophistication" ;
+	ns4:member-of	ns5:byccsophistication ;
+	ns4:order	"3" .
+ns32:e_cc_me	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"byccsophistication" ;
+	ns4:member-of	ns5:byccsophistication ;
+	ns4:order	"2" .
+@prefix ns33:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/bydensity/> .
+ns33:hh_deg1	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"bydensity" ;
+	ns4:member-of	ns5:bydensity ;
+	ns4:order	"48" .
+ns33:hh_deg2	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"bydensity" ;
+	ns4:member-of	ns5:bydensity ;
+	ns4:order	"49" .
+ns33:hh_deg3	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"bydensity" ;
+	ns4:member-of	ns5:bydensity ;
+	ns4:order	"50" .
+ns33:ind_deg1	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"bydensity" ;
+	ns4:member-of	ns5:bydensity ;
+	ns4:order	"21" .
+ns33:ind_deg2	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"bydensity" ;
+	ns4:member-of	ns5:bydensity ;
+	ns4:order	"22" .
+ns33:ind_deg3	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"bydensity" ;
+	ns4:member-of	ns5:bydensity ;
+	ns4:order	"23" .
+@prefix ns34:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/bydigint2015/> .
+ns34:e_di_hi	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"bydigint2015" ;
+	ns4:member-of	ns5:bydigint2015 ;
+	ns4:order	"3" .
+ns34:e_di_lo	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"bydigint2015" ;
+	ns4:member-of	ns5:bydigint2015 ;
+	ns4:order	"2" .
+ns34:e_di_vhi	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"bydigint2015" ;
+	ns4:member-of	ns5:bydigint2015 ;
+	ns4:order	"4" .
+ns34:e_di_vlo	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"bydigint2015" ;
+	ns4:member-of	ns5:bydigint2015 ;
+	ns4:order	"1" .
+@prefix ns35:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/bydownloadspeed/> .
+ns35:offer_30_mbps	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"bydownloadspeed" ;
+	ns4:member-of	ns5:bydownloadspeed ;
+	ns4:order	"56" .
+ns35:speed_10l30	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"bydownloadspeed" ;
+	ns4:member-of	ns5:bydownloadspeed ;
+	ns4:order	"3" .
+ns35:speed_2l10	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"bydownloadspeed" ;
+	ns4:member-of	ns5:bydownloadspeed ;
+	ns4:order	"2" .
+ns35:speed_30l100	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"bydownloadspeed" ;
+	ns4:member-of	ns5:bydownloadspeed ;
+	ns4:order	"4" .
+ns35:speed_ge100	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"bydownloadspeed" ;
+	ns4:member-of	ns5:bydownloadspeed ;
+	ns4:order	"5" .
+ns35:speed_l2	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"bydownloadspeed" ;
+	ns4:member-of	ns5:bydownloadspeed ;
+	ns4:order	"1" .
+@prefix ns36:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/bydownloadspeed4/> .
+ns36:offer_100_mbps	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"bydownloadspeed4" ;
+	ns4:member-of	ns5:bydownloadspeed4 ;
+	ns4:order	"4" .
+ns36:offer_12_30_mbps	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"bydownloadspeed4" ;
+	ns4:member-of	ns5:bydownloadspeed4 ;
+	ns4:order	"2" .
+ns36:offer_30_100_mbps	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"bydownloadspeed4" ;
+	ns4:member-of	ns5:bydownloadspeed4 ;
+	ns4:order	"3" .
+ns36:offer_8_12_mbps	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"bydownloadspeed4" ;
+	ns4:member-of	ns5:bydownloadspeed4 ;
+	ns4:order	"1" .
+@prefix ns37:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byedu/> .
+ns37:i0_2	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"byedu" ;
+	ns4:member-of	ns5:byedu ;
+	ns4:order	"8" .
+ns37:i0_4	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"byedu" ;
+	ns4:member-of	ns5:byedu ;
+	ns4:order	"9" .
+ns37:i3_4	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"byedu" ;
+	ns4:member-of	ns5:byedu ;
+	ns4:order	"10" .
+ns37:i5_8	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"byedu" ;
+	ns4:member-of	ns5:byedu ;
+	ns4:order	"11" .
+@prefix ns38:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byedugrade/> .
+ns38:grade11gen	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"byedugrade" ;
+	ns4:member-of	ns5:byedugrade ;
+	ns4:order	"3" .
+ns38:grade11voc	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"byedugrade" ;
+	ns4:member-of	ns5:byedugrade ;
+	ns4:order	"4" .
+ns38:grade4	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"byedugrade" ;
+	ns4:member-of	ns5:byedugrade ;
+	ns4:order	"1" .
+ns38:grade8	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"byedugrade" ;
+	ns4:member-of	ns5:byedugrade ;
+	ns4:order	"2" .
+@prefix ns39:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byemp/> .
+ns39:retir_other	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"byemp" ;
+	ns4:member-of	ns5:byemp ;
+	ns4:order	"14" .
+ns39:sal_self_fam	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"byemp" ;
+	ns4:member-of	ns5:byemp ;
+	ns4:order	"11" .
+ns39:stud	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"byemp" ;
+	ns4:member-of	ns5:byemp ;
+	ns4:order	"13" .
+ns39:une	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"byemp" ;
+	ns4:member-of	ns5:byemp ;
+	ns4:order	"12" .
+@prefix ns40:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byentsize/> .
+ns40:ent_l_xfin	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"byentsize" ;
+	ns4:member-of	ns5:byentsize ;
+	ns4:order	"59" .
+ns40:ent_sm_xfin	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"byentsize" ;
+	ns4:member-of	ns5:byentsize ;
+	ns4:order	"58" .
+ns40:l_c10_s951_xk	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"byentsize" ;
+	ns4:member-of	ns5:byentsize ;
+	ns4:order	"2" .
+ns40:sm_c10_s951_xk	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"byentsize" ;
+	ns4:member-of	ns5:byentsize ;
+	ns4:order	"1" .
+@prefix ns41:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byentsize_s_m_l/> .
+ns41:ent_l_xfin	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"byentsize_s_m_l" ;
+	ns4:member-of	ns5:byentsize_s_m_l ;
+	ns4:order	"62" .
+ns41:ent_m_xfin	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"byentsize_s_m_l" ;
+	ns4:member-of	ns5:byentsize_s_m_l ;
+	ns4:order	"61" .
+ns41:ent_s_xfin	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"byentsize_s_m_l" ;
+	ns4:member-of	ns5:byentsize_s_m_l ;
+	ns4:order	"60" .
+ns41:l_c10_s951_xk	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"byentsize_s_m_l" ;
+	ns4:member-of	ns5:byentsize_s_m_l ;
+	ns4:order	"3" .
+ns41:m_c10_s951_xk	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"byentsize_s_m_l" ;
+	ns4:member-of	ns5:byentsize_s_m_l ;
+	ns4:order	"2" .
+ns41:s_c10_s951_xk	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"byentsize_s_m_l" ;
+	ns4:member-of	ns5:byentsize_s_m_l ;
+	ns4:order	"1" .
+@prefix ns42:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byfbbtech/> .
+ns42:cable	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"byfbbtech" ;
+	ns4:member-of	ns5:byfbbtech ;
+	ns4:order	"61" .
+ns42:fttx	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"byfbbtech" ;
+	ns4:member-of	ns5:byfbbtech ;
+	ns4:order	"62" .
+ns42:xdsl	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"byfbbtech" ;
+	ns4:member-of	ns5:byfbbtech ;
+	ns4:order	"60" .
+@prefix ns43:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/bygender/> .
+ns43:f	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"bygender" ;
+	ns4:member-of	ns5:bygender ;
+	ns4:order	"8" .
+ns43:f_y16_74	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"bygender" ;
+	ns4:member-of	ns5:bygender ;
+	ns4:order	"6" .
+ns43:m	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"bygender" ;
+	ns4:member-of	ns5:bygender ;
+	ns4:order	"9" .
+ns43:m_y16_74	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"bygender" ;
+	ns4:member-of	ns5:bygender ;
+	ns4:order	"7" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byictsector2subsec/261to264>	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"byictsector2subsec" ;
+	ns4:member-of	ns5:byictsector2subsec ;
+	ns4:order	"1" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byictsector2subsec/61_582_62_631_951>	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"byictsector2subsec" ;
+	ns4:member-of	ns5:byictsector2subsec ;
+	ns4:order	"2" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byictsector6subsec/261>	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"byictsector6subsec" ;
+	ns4:member-of	ns5:byictsector6subsec ;
+	ns4:order	"1" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byictsector6subsec/262>	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"byictsector6subsec" ;
+	ns4:member-of	ns5:byictsector6subsec ;
+	ns4:order	"2" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byictsector6subsec/263>	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"byictsector6subsec" ;
+	ns4:member-of	ns5:byictsector6subsec ;
+	ns4:order	"3" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byictsector6subsec/264>	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"byictsector6subsec" ;
+	ns4:member-of	ns5:byictsector6subsec ;
+	ns4:order	"4" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byictsector6subsec/582_62_631_951>	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"byictsector6subsec" ;
+	ns4:member-of	ns5:byictsector6subsec ;
+	ns4:order	"5" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byictsector6subsec/61>	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"byictsector6subsec" ;
+	ns4:member-of	ns5:byictsector6subsec ;
+	ns4:order	"6" .
+@prefix ns44:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byorganizationclass/> .
+ns44:orgclass_hesrec	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"byorganizationclass" ;
+	ns4:member-of	ns5:byorganizationclass ;
+	ns4:order	"66" .
+ns44:orgclass_le	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"byorganizationclass" ;
+	ns4:member-of	ns5:byorganizationclass ;
+	ns4:order	"65" .
+ns44:orgclass_nil	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"byorganizationclass" ;
+	ns4:member-of	ns5:byorganizationclass ;
+	ns4:order	"67" .
+ns44:orgclass_sme	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"byorganizationclass" ;
+	ns4:member-of	ns5:byorganizationclass ;
+	ns4:order	"64" .
+@prefix ns45:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byregion/> .
+ns45:hh_no1	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"byregion" ;
+	ns4:member-of	ns5:byregion ;
+	ns4:order	"52" .
+ns45:hh_o1	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"byregion" ;
+	ns4:member-of	ns5:byregion ;
+	ns4:order	"51" .
+ns45:ind_no1	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"byregion" ;
+	ns4:member-of	ns5:byregion ;
+	ns4:order	"25" .
+ns45:ind_o1	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"byregion" ;
+	ns4:member-of	ns5:byregion ;
+	ns4:order	"24" .
+@prefix ns46:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byrisk/> .
+ns46:rf_0	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"byrisk" ;
+	ns4:member-of	ns5:byrisk ;
+	ns4:order	"32" .
+ns46:rf_ge1	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"byrisk" ;
+	ns4:member-of	ns5:byrisk ;
+	ns4:order	"33" .
+ns46:rf_ge2	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"byrisk" ;
+	ns4:member-of	ns5:byrisk ;
+	ns4:order	"34" .
+@prefix ns47:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byskills/> .
+ns47:csk_hi	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"byskills" ;
+	ns4:member-of	ns5:byskills ;
+	ns4:order	"35" .
+ns47:csk_lo	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"byskills" ;
+	ns4:member-of	ns5:byskills ;
+	ns4:order	"37" .
+ns47:csk_me	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"byskills" ;
+	ns4:member-of	ns5:byskills ;
+	ns4:order	"36" .
+ns47:cskx	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"byskills" ;
+	ns4:member-of	ns5:byskills ;
+	ns4:order	"38" .
+@prefix ns48:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/bytypeproduct/> .
+ns48:goods	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"bytypeproduct" ;
+	ns4:member-of	ns5:bytypeproduct ;
+	ns4:order	"1" .
+ns48:services	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"bytypeproduct" ;
+	ns4:member-of	ns5:bytypeproduct ;
+	ns4:order	"2" .
+@prefix ns49:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/cnect_directorates/> .
+ns49:cnect_a	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"cnect_directorates" ;
+	ns4:member-of	ns5:cnect_directorates ;
+	ns4:order	"12" .
+ns49:cnect_all	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"cnect_directorates" ;
+	ns4:member-of	ns5:cnect_directorates ;
+	ns4:order	"11" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/cnect_directorates/cnect_b+>	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"cnect_directorates" ;
+	ns4:member-of	ns5:cnect_directorates ;
+	ns4:order	"13" .
+ns49:cnect_c	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"cnect_directorates" ;
+	ns4:member-of	ns5:cnect_directorates ;
+	ns4:order	"14" .
+ns49:cnect_d	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"cnect_directorates" ;
+	ns4:member-of	ns5:cnect_directorates ;
+	ns4:order	"15" .
+ns49:cnect_e	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"cnect_directorates" ;
+	ns4:member-of	ns5:cnect_directorates ;
+	ns4:order	"16" .
+ns49:cnect_f	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"cnect_directorates" ;
+	ns4:member-of	ns5:cnect_directorates ;
+	ns4:order	"17" .
+ns49:cnect_g	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"cnect_directorates" ;
+	ns4:member-of	ns5:cnect_directorates ;
+	ns4:order	"18" .
+ns49:cnect_h	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"cnect_directorates" ;
+	ns4:member-of	ns5:cnect_directorates ;
+	ns4:order	"19" .
+ns49:cnect_r	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"cnect_directorates" ;
+	ns4:member-of	ns5:cnect_directorates ;
+	ns4:order	"20" .
+ns49:ec_all	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"cnect_directorates" ;
+	ns4:member-of	ns5:cnect_directorates ;
+	ns4:order	"22" .
+@prefix ns50:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/desi_totals/> .
+ns50:desi_total	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"desi_totals" ;
+	ns4:member-of	ns5:desi_totals ;
+	ns4:order	"1" .
+@prefix ns51:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/digskill_level/> .
+ns51:ds_a_basic	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"digskill_level" ;
+	ns4:member-of	ns5:digskill_level ;
+	ns4:order	"1" .
+ns51:ds_b_basic	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"digskill_level" ;
+	ns4:member-of	ns5:digskill_level ;
+	ns4:order	"3" .
+ns51:ds_basic	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"digskill_level" ;
+	ns4:member-of	ns5:digskill_level ;
+	ns4:order	"2" .
+ns51:ds_no	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"digskill_level" ;
+	ns4:member-of	ns5:digskill_level ;
+	ns4:order	"4" .
+ns51:dsk_ab	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"digskill_level" ;
+	ns4:member-of	ns5:digskill_level ;
+	ns4:order	"5" .
+ns51:dsk_b	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"digskill_level" ;
+	ns4:member-of	ns5:digskill_level ;
+	ns4:order	"6" .
+ns51:dsk_x	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"digskill_level" ;
+	ns4:member-of	ns5:digskill_level ;
+	ns4:order	"7" .
+@prefix ns52:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_1_ucg/> .
+ns52:e_gov_1a_ucg_oa	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"e_gov_1_ucg" ;
+	ns4:member-of	ns5:e_gov_1_ucg ;
+	ns4:order	"1" .
+ns52:e_gov_1b_ucg_us	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"e_gov_1_ucg" ;
+	ns4:member-of	ns5:e_gov_1_ucg ;
+	ns4:order	"2" .
+ns52:e_gov_1c_ucg_mf	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"e_gov_1_ucg" ;
+	ns4:member-of	ns5:e_gov_1_ucg ;
+	ns4:order	"3" .
+ns52:e_gov_1d_ucg_eu	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"e_gov_1_ucg" ;
+	ns4:member-of	ns5:e_gov_1_ucg ;
+	ns4:order	"4" .
+ns52:e_gov_1e_ucg_su	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"e_gov_1_ucg" ;
+	ns4:member-of	ns5:e_gov_1_ucg ;
+	ns4:order	"5" .
+@prefix ns53:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_2_tg/> .
+ns53:e_gov_2a_tg_sd	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"e_gov_2_tg" ;
+	ns4:member-of	ns5:e_gov_2_tg ;
+	ns4:order	"1" .
+ns53:e_gov_2b_tg_po	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"e_gov_2_tg" ;
+	ns4:member-of	ns5:e_gov_2_tg ;
+	ns4:order	"2" .
+ns53:e_gov_2c_tg_pd	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"e_gov_2_tg" ;
+	ns4:member-of	ns5:e_gov_2_tg ;
+	ns4:order	"3" .
+@prefix ns54:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_3_cm/> .
+ns54:e_gov_3a_cm_oa	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"e_gov_3_cm" ;
+	ns4:member-of	ns5:e_gov_3_cm ;
+	ns4:order	"1" .
+ns54:e_gov_3b_cm_us	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"e_gov_3_cm" ;
+	ns4:member-of	ns5:e_gov_3_cm ;
+	ns4:order	"2" .
+ns54:e_gov_3c_cm_eidcb	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"e_gov_3_cm" ;
+	ns4:member-of	ns5:e_gov_3_cm ;
+	ns4:order	"3" .
+ns54:e_gov_3d_cm_edoccb	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"e_gov_3_cm" ;
+	ns4:member-of	ns5:e_gov_3_cm ;
+	ns4:order	"4" .
+ns54:e_gov_3e_cm_eu	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"e_gov_3_cm" ;
+	ns4:member-of	ns5:e_gov_3_cm ;
+	ns4:order	"5" .
+ns54:e_gov_3f_cm_su	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"e_gov_3_cm" ;
+	ns4:member-of	ns5:e_gov_3_cm ;
+	ns4:order	"6" .
+@prefix ns55:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_4_bm/> .
+ns55:e_gov_4a_bm_oa	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"e_gov_4_bm" ;
+	ns4:member-of	ns5:e_gov_4_bm ;
+	ns4:order	"1" .
+ns55:e_gov_4b_bm_us	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"e_gov_4_bm" ;
+	ns4:member-of	ns5:e_gov_4_bm ;
+	ns4:order	"2" .
+ns55:e_gov_4c_bm_eidcb	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"e_gov_4_bm" ;
+	ns4:member-of	ns5:e_gov_4_bm ;
+	ns4:order	"3" .
+ns55:e_gov_4d_bm_edoccb	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"e_gov_4_bm" ;
+	ns4:member-of	ns5:e_gov_4_bm ;
+	ns4:order	"4" .
+ns55:e_gov_4e_bm_eu	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"e_gov_4_bm" ;
+	ns4:member-of	ns5:e_gov_4_bm ;
+	ns4:order	"5" .
+ns55:e_gov_4f_bm_su	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"e_gov_4_bm" ;
+	ns4:member-of	ns5:e_gov_4_bm ;
+	ns4:order	"6" .
+@prefix ns56:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_5_ke/> .
+ns56:e_gov_5a_ke_eid	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"e_gov_5_ke" ;
+	ns4:member-of	ns5:e_gov_5_ke ;
+	ns4:order	"1" .
+ns56:e_gov_5b_ke_edoc	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"e_gov_5_ke" ;
+	ns4:member-of	ns5:e_gov_5_ke ;
+	ns4:order	"2" .
+ns56:e_gov_5c_ke_as	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"e_gov_5_ke" ;
+	ns4:member-of	ns5:e_gov_5_ke ;
+	ns4:order	"3" .
+ns56:e_gov_5d_ke_dp	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"e_gov_5_ke" ;
+	ns4:member-of	ns5:e_gov_5_ke ;
+	ns4:order	"4" .
+ns56:e_gov_5e_ke_esafe	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"e_gov_5_ke" ;
+	ns4:member-of	ns5:e_gov_5_ke ;
+	ns4:order	"5" .
+ns56:e_gov_5f_ke_sso	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"e_gov_5_ke" ;
+	ns4:member-of	ns5:e_gov_5_ke ;
+	ns4:order	"6" .
+@prefix ns57:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_events/> .
+ns57:e_gov_events_1	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"e_gov_events" ;
+	ns4:member-of	ns5:e_gov_events ;
+	ns4:order	"1" .
+ns57:e_gov_events_2	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"e_gov_events" ;
+	ns4:member-of	ns5:e_gov_events ;
+	ns4:order	"2" .
+ns57:e_gov_events_3	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"e_gov_events" ;
+	ns4:member-of	ns5:e_gov_events ;
+	ns4:order	"3" .
+ns57:e_gov_events_4	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"e_gov_events" ;
+	ns4:member-of	ns5:e_gov_events ;
+	ns4:order	"4" .
+ns57:e_gov_events_5	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"e_gov_events" ;
+	ns4:member-of	ns5:e_gov_events ;
+	ns4:order	"5" .
+ns57:e_gov_events_6	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"e_gov_events" ;
+	ns4:member-of	ns5:e_gov_events ;
+	ns4:order	"6" .
+ns57:e_gov_events_7	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"e_gov_events" ;
+	ns4:member-of	ns5:e_gov_events ;
+	ns4:order	"7" .
+ns57:e_gov_events_8	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"e_gov_events" ;
+	ns4:member-of	ns5:e_gov_events ;
+	ns4:order	"8" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector/10_c10_18>	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"econsector" ;
+	ns4:member-of	ns5:econsector ;
+	ns4:order	"1" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector/10_c19_23>	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"econsector" ;
+	ns4:member-of	ns5:econsector ;
+	ns4:order	"2" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector/10_c24_25>	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"econsector" ;
+	ns4:member-of	ns5:econsector ;
+	ns4:order	"3" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector/10_c26_33>	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"econsector" ;
+	ns4:member-of	ns5:econsector ;
+	ns4:order	"4" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector/10_d35_e39>	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"econsector" ;
+	ns4:member-of	ns5:econsector ;
+	ns4:order	"5" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector/10_f41_43>	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"econsector" ;
+	ns4:member-of	ns5:econsector ;
+	ns4:order	"6" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector/10_g45>	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"econsector" ;
+	ns4:member-of	ns5:econsector ;
+	ns4:order	"7" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector/10_g46>	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"econsector" ;
+	ns4:member-of	ns5:econsector ;
+	ns4:order	"8" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector/10_g47>	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"econsector" ;
+	ns4:member-of	ns5:econsector ;
+	ns4:order	"9" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector/10_h49_53>	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"econsector" ;
+	ns4:member-of	ns5:econsector ;
+	ns4:order	"10" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector/10_i55_56>	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"econsector" ;
+	ns4:member-of	ns5:econsector ;
+	ns4:order	"11" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector/10_j58_60>	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"econsector" ;
+	ns4:member-of	ns5:econsector ;
+	ns4:order	"12" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector/10_j61>	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"econsector" ;
+	ns4:member-of	ns5:econsector ;
+	ns4:order	"13" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector/10_j62_63>	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"econsector" ;
+	ns4:member-of	ns5:econsector ;
+	ns4:order	"14" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector/10_l68>	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"econsector" ;
+	ns4:member-of	ns5:econsector ;
+	ns4:order	"15" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector/10_m69_74>	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"econsector" ;
+	ns4:member-of	ns5:econsector ;
+	ns4:order	"16" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector/10_n77_82>	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"econsector" ;
+	ns4:member-of	ns5:econsector ;
+	ns4:order	"17" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector/10_s951>	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"econsector" ;
+	ns4:member-of	ns5:econsector ;
+	ns4:order	"18" .
+@prefix ns58:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector_size/> .
+ns58:l_c10_f43	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"econsector_size" ;
+	ns4:member-of	ns5:econsector_size ;
+	ns4:order	"1" .
+ns58:l_g45_s951_xk	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"econsector_size" ;
+	ns4:member-of	ns5:econsector_size ;
+	ns4:order	"2" .
+ns58:m_c10_f43	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"econsector_size" ;
+	ns4:member-of	ns5:econsector_size ;
+	ns4:order	"3" .
+ns58:m_g45_s951_xk	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"econsector_size" ;
+	ns4:member-of	ns5:econsector_size ;
+	ns4:order	"4" .
+ns58:s_c10_f43	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"econsector_size" ;
+	ns4:member-of	ns5:econsector_size ;
+	ns4:order	"5" .
+ns58:s_g45_s951_xk	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"econsector_size" ;
+	ns4:member-of	ns5:econsector_size ;
+	ns4:order	"6" .
+@prefix ns59:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/egov_ke/> .
+ns59:authentic_sources	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"egov_ke" ;
+	ns4:member-of	ns5:egov_ke ;
+	ns4:order	"18" .
+ns59:digital_post	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"egov_ke" ;
+	ns4:member-of	ns5:egov_ke ;
+	ns4:order	"19" .
+ns59:edocuments	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"egov_ke" ;
+	ns4:member-of	ns5:egov_ke ;
+	ns4:order	"17" .
+ns59:eid	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"egov_ke" ;
+	ns4:member-of	ns5:egov_ke ;
+	ns4:order	"16" .
+@prefix ns60:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/egov_le/> .
+ns60:bus_startup	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"egov_le" ;
+	ns4:member-of	ns5:egov_le ;
+	ns4:order	"2" .
+ns60:family	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"egov_le" ;
+	ns4:member-of	ns5:egov_le ;
+	ns4:order	"9" .
+ns60:gen_admin_move	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"egov_le" ;
+	ns4:member-of	ns5:egov_le ;
+	ns4:order	"6" .
+ns60:lose_find_job	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"egov_le" ;
+	ns4:member-of	ns5:egov_le ;
+	ns4:order	"3" .
+ns60:own_drive_car	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"egov_le" ;
+	ns4:member-of	ns5:egov_le ;
+	ns4:order	"7" .
+ns60:reg_bus_op	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"egov_le" ;
+	ns4:member-of	ns5:egov_le ;
+	ns4:order	"5" .
+ns60:small_claims	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"egov_le" ;
+	ns4:member-of	ns5:egov_le ;
+	ns4:order	"8" .
+ns60:study	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"egov_le" ;
+	ns4:member-of	ns5:egov_le ;
+	ns4:order	"4" .
+@prefix ns61:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/egov_ser/> .
+ns61:auto_service	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"egov_ser" ;
+	ns4:member-of	ns5:egov_ser ;
+	ns4:order	"10" .
+ns61:info_online_no_portal	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"egov_ser" ;
+	ns4:member-of	ns5:egov_ser ;
+	ns4:order	"14" .
+ns61:info_online_portal	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"egov_ser" ;
+	ns4:member-of	ns5:egov_ser ;
+	ns4:order	"13" .
+ns61:offline	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"egov_ser" ;
+	ns4:member-of	ns5:egov_ser ;
+	ns4:order	"15" .
+ns61:serv_online_no_portal	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"egov_ser" ;
+	ns4:member-of	ns5:egov_ser ;
+	ns4:order	"12" .
+ns61:serv_online_portal	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"egov_ser" ;
+	ns4:member-of	ns5:egov_ser ;
+	ns4:order	"11" .
+@prefix ns62:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/epsi_dimensions/> .
+ns62:epsiscore_events	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"epsi_dimensions" ;
+	ns4:member-of	ns5:epsi_dimensions ;
+	ns4:order	"7" .
+ns62:epsiscore_exarrange	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"epsi_dimensions" ;
+	ns4:member-of	ns5:epsi_dimensions ;
+	ns4:order	"5" .
+ns62:epsiscore_formats	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"epsi_dimensions" ;
+	ns4:member-of	ns5:epsi_dimensions ;
+	ns4:order	"3" .
+ns62:epsiscore_implem	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"epsi_dimensions" ;
+	ns4:member-of	ns5:epsi_dimensions ;
+	ns4:order	"1" .
+ns62:epsiscore_localpsi	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"epsi_dimensions" ;
+	ns4:member-of	ns5:epsi_dimensions ;
+	ns4:order	"6" .
+ns62:epsiscore_practice	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"epsi_dimensions" ;
+	ns4:member-of	ns5:epsi_dimensions ;
+	ns4:order	"2" .
+ns62:epsiscore_pricing	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"epsi_dimensions" ;
+	ns4:member-of	ns5:epsi_dimensions ;
+	ns4:order	"4" .
+@prefix ns63:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/hhbyiq/> .
+ns63:hhi_q1	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"hhbyiq" ;
+	ns4:member-of	ns5:hhbyiq ;
+	ns4:order	"42" .
+ns63:hhi_q2	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"hhbyiq" ;
+	ns4:member-of	ns5:hhbyiq ;
+	ns4:order	"43" .
+ns63:hhi_q3	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"hhbyiq" ;
+	ns4:member-of	ns5:hhbyiq ;
+	ns4:order	"44" .
+ns63:hhi_q4	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"hhbyiq" ;
+	ns4:member-of	ns5:hhbyiq ;
+	ns4:order	"45" .
+@prefix ns64:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/hhbytype/> .
+ns64:all_dch	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"hhbytype" ;
+	ns4:member-of	ns5:hhbytype ;
+	ns4:order	"46" .
+ns64:all_ndch	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"hhbytype" ;
+	ns4:member-of	ns5:hhbytype ;
+	ns4:order	"47" .
+@prefix ns65:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/infso_directorates/> .
+ns65:ec_all	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"infso_directorates" ;
+	ns4:member-of	ns5:infso_directorates ;
+	ns4:order	"21" .
+ns65:infso_a	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"infso_directorates" ;
+	ns4:member-of	ns5:infso_directorates ;
+	ns4:order	"2" .
+ns65:infso_all	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"infso_directorates" ;
+	ns4:member-of	ns5:infso_directorates ;
+	ns4:order	"1" .
+ns65:infso_b	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"infso_directorates" ;
+	ns4:member-of	ns5:infso_directorates ;
+	ns4:order	"3" .
+ns65:infso_c	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"infso_directorates" ;
+	ns4:member-of	ns5:infso_directorates ;
+	ns4:order	"4" .
+ns65:infso_d	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"infso_directorates" ;
+	ns4:member-of	ns5:infso_directorates ;
+	ns4:order	"5" .
+ns65:infso_e	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"infso_directorates" ;
+	ns4:member-of	ns5:infso_directorates ;
+	ns4:order	"6" .
+ns65:infso_f	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"infso_directorates" ;
+	ns4:member-of	ns5:infso_directorates ;
+	ns4:order	"7" .
+ns65:infso_g	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"infso_directorates" ;
+	ns4:member-of	ns5:infso_directorates ;
+	ns4:order	"8" .
+ns65:infso_h	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"infso_directorates" ;
+	ns4:member-of	ns5:infso_directorates ;
+	ns4:order	"9" .
+ns65:infso_r	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"infso_directorates" ;
+	ns4:member-of	ns5:infso_directorates ;
+	ns4:order	"10" .
+@prefix ns66:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/labour_force/> .
+ns66:empl_une	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"labour_force" ;
+	ns4:member-of	ns5:labour_force ;
+	ns4:order	"1" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/mhz_bands/1500_mhz>	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"mhz_bands" ;
+	ns4:member-of	ns5:mhz_bands ;
+	ns4:order	"7" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/mhz_bands/1800_mhz>	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"mhz_bands" ;
+	ns4:member-of	ns5:mhz_bands ;
+	ns4:order	"6" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/mhz_bands/2_6_ghz>	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"mhz_bands" ;
+	ns4:member-of	ns5:mhz_bands ;
+	ns4:order	"4" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/mhz_bands/2_ghz_paired>	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"mhz_bands" ;
+	ns4:member-of	ns5:mhz_bands ;
+	ns4:order	"5" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/mhz_bands/3_4_ghz>	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"mhz_bands" ;
+	ns4:member-of	ns5:mhz_bands ;
+	ns4:order	"3" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/mhz_bands/3_6_ghz>	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"mhz_bands" ;
+	ns4:member-of	ns5:mhz_bands ;
+	ns4:order	"2" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/mhz_bands/700_mhz>	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"mhz_bands" ;
+	ns4:member-of	ns5:mhz_bands ;
+	ns4:order	"10" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/mhz_bands/800_mhz>	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"mhz_bands" ;
+	ns4:member-of	ns5:mhz_bands ;
+	ns4:order	"9" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/mhz_bands/900_mhz>	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"mhz_bands" ;
+	ns4:member-of	ns5:mhz_bands ;
+	ns4:order	"8" .
+@prefix ns67:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/mhz_bands/> .
+ns67:not_assigned	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"mhz_bands" ;
+	ns4:member-of	ns5:mhz_bands ;
+	ns4:order	"1" .
+@prefix ns68:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/others/> .
+ns68:y25_64	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"others" ;
+	ns4:member-of	ns5:others ;
+	ns4:order	"91" .
+@prefix ns69:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/rural_pop/> .
+ns69:rural_pop	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"rural_pop" ;
+	ns4:member-of	ns5:rural_pop ;
+	ns4:order	"1" .
+@prefix ns70:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/sos_agg/> .
+ns70:einfra	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"sos_agg" ;
+	ns4:member-of	ns5:sos_agg ;
+	ns4:order	"29" .
+ns70:so_01	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"sos_agg" ;
+	ns4:member-of	ns5:sos_agg ;
+	ns4:order	"1" .
+ns70:so_02	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"sos_agg" ;
+	ns4:member-of	ns5:sos_agg ;
+	ns4:order	"2" .
+ns70:so_03	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"sos_agg" ;
+	ns4:member-of	ns5:sos_agg ;
+	ns4:order	"3" .
+ns70:so_04	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"sos_agg" ;
+	ns4:member-of	ns5:sos_agg ;
+	ns4:order	"4" .
+ns70:so_05	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"sos_agg" ;
+	ns4:member-of	ns5:sos_agg ;
+	ns4:order	"5" .
+ns70:so_06	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"sos_agg" ;
+	ns4:member-of	ns5:sos_agg ;
+	ns4:order	"6" .
+ns70:so_07	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"sos_agg" ;
+	ns4:member-of	ns5:sos_agg ;
+	ns4:order	"7" .
+ns70:so_08	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"sos_agg" ;
+	ns4:member-of	ns5:sos_agg ;
+	ns4:order	"8" .
+ns70:so_09	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"sos_agg" ;
+	ns4:member-of	ns5:sos_agg ;
+	ns4:order	"9" .
+ns70:so_10	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"sos_agg" ;
+	ns4:member-of	ns5:sos_agg ;
+	ns4:order	"10" .
+ns70:so_11	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"sos_agg" ;
+	ns4:member-of	ns5:sos_agg ;
+	ns4:order	"11" .
+ns70:so_12	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"sos_agg" ;
+	ns4:member-of	ns5:sos_agg ;
+	ns4:order	"12" .
+ns70:so_13	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"sos_agg" ;
+	ns4:member-of	ns5:sos_agg ;
+	ns4:order	"13" .
+ns70:so_14	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"sos_agg" ;
+	ns4:member-of	ns5:sos_agg ;
+	ns4:order	"14" .
+ns70:so_15	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"sos_agg" ;
+	ns4:member-of	ns5:sos_agg ;
+	ns4:order	"15" .
+ns70:so_16	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"sos_agg" ;
+	ns4:member-of	ns5:sos_agg ;
+	ns4:order	"16" .
+ns70:so_17	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"sos_agg" ;
+	ns4:member-of	ns5:sos_agg ;
+	ns4:order	"17" .
+ns70:so_18	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"sos_agg" ;
+	ns4:member-of	ns5:sos_agg ;
+	ns4:order	"18" .
+ns70:so_19	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"sos_agg" ;
+	ns4:member-of	ns5:sos_agg ;
+	ns4:order	"19" .
+ns70:so_20	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"sos_agg" ;
+	ns4:member-of	ns5:sos_agg ;
+	ns4:order	"20" .
+ns70:so_21	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"sos_agg" ;
+	ns4:member-of	ns5:sos_agg ;
+	ns4:order	"21" .
+ns70:so_22_1	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"sos_agg" ;
+	ns4:member-of	ns5:sos_agg ;
+	ns4:order	"22" .
+ns70:so_22_2	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"sos_agg" ;
+	ns4:member-of	ns5:sos_agg ;
+	ns4:order	"23" .
+ns70:so_22_3	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"sos_agg" ;
+	ns4:member-of	ns5:sos_agg ;
+	ns4:order	"24" .
+ns70:so_23	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"sos_agg" ;
+	ns4:member-of	ns5:sos_agg ;
+	ns4:order	"25" .
+ns70:so_24	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"sos_agg" ;
+	ns4:member-of	ns5:sos_agg ;
+	ns4:order	"26" .
+ns70:so_25	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"sos_agg" ;
+	ns4:member-of	ns5:sos_agg ;
+	ns4:order	"27" .
+ns70:so_26	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"sos_agg" ;
+	ns4:member-of	ns5:sos_agg ;
+	ns4:order	"28" .
+ns70:total_sos	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"sos_agg" ;
+	ns4:member-of	ns5:sos_agg ;
+	ns4:order	"30" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/total/1m_websites>	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"total" ;
+	ns4:member-of	ns5:total ;
+	ns4:order	"1" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/total/261to264_582_61_62_631_951>	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"total" ;
+	ns4:member-of	ns5:total ;
+	ns4:order	"1" .
+@prefix ns71:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/total/> .
+ns71:all_egov_le	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"total" ;
+	ns4:member-of	ns5:total ;
+	ns4:order	"1" .
+ns71:egov_le_bus	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"total" ;
+	ns4:member-of	ns5:total ;
+	ns4:order	"1" .
+ns71:egov_life_events	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"total" ;
+	ns4:member-of	ns5:total ;
+	ns4:order	"1" .
+ns71:ent_all_xfin	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"total" ;
+	ns4:member-of	ns5:total ;
+	ns4:order	"57" .
+ns71:epsiscore_total	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"total" ;
+	ns4:member-of	ns5:total ;
+	ns4:order	"1" .
+ns71:hh_total	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"total" ;
+	ns4:member-of	ns5:total ;
+	ns4:order	"41" .
+ns71:ind_total	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"total" ;
+	ns4:member-of	ns5:total ;
+	ns4:order	"2" .
+ns71:orgclass_total	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"total" ;
+	ns4:member-of	ns5:total ;
+	ns4:order	"63" .
+ns71:tot_ict_products	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"total" ;
+	ns4:member-of	ns5:total ;
+	ns4:order	"1" .
+ns71:total	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"total" ;
+	ns4:member-of	ns5:total ;
+	ns4:order	"1" .
+ns71:total_fbb	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"total" ;
+	ns4:member-of	ns5:total ;
+	ns4:order	"1" .
+ns71:total_mbb	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"total" ;
+	ns4:member-of	ns5:total ;
+	ns4:order	"1" .
+ns71:total_mob	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"total" ;
+	ns4:member-of	ns5:total ;
+	ns4:order	"1" .
+ns71:total_offers8plus	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"total" ;
+	ns4:member-of	ns5:total ;
+	ns4:order	"53" .
+ns71:total_pop	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"total" ;
+	ns4:member-of	ns5:total ;
+	ns4:order	"1" .
+ns71:total_pophh	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"total" ;
+	ns4:member-of	ns5:total ;
+	ns4:order	"1" .
+ns71:total_tel	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"total" ;
+	ns4:member-of	ns5:total ;
+	ns4:order	"1" .
+@prefix ns72:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/wid_score/> .
+ns72:wid_score	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"wid_score" ;
+	ns4:member-of	ns5:wid_score ;
+	ns4:order	"1" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c10_18>	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Manufacture: food, beverages, tobacco, textile, leather, wood, paper; publishing and printing 10+" ;
+	skos:notation	"10_c10_18" ;
+	skos:altLabel	"Manufacture: food, beverages, tobacco, textile, leather, wood, paper; publishing and printing 10+" ;
+	ns4:membership	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector/10_c10_18> ;
+	skos:topConceptOf	ns20:breakdown .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c10_s951_xk>	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"All enterprises, without financial sector (10 persons employed or more)" ;
+	skos:notation	"10_c10_s951_xk" ;
+	skos:altLabel	"All enterprises" ;
+	skos:definition	"Eurostat definition of NACE2 codes: 10_C10_S951_XK" ;
+	skos:topConceptOf	ns20:breakdown .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c19_23>	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Manufacture: coke, petroleum, chemical, plastics, other non-metallic mineral products 10+" ;
+	skos:notation	"10_c19_23" ;
+	skos:altLabel	"Manufacture: coke, petroleum, chemical, plastics, other non-metallic mineral products 10+" ;
+	ns4:membership	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector/10_c19_23> ;
+	skos:topConceptOf	ns20:breakdown .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c24_25>	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Manufacture: basic metals & fabricated metal products excluding machines & equipments 10+" ;
+	skos:notation	"10_c24_25" ;
+	skos:altLabel	"Manufacture: basic metals & fabricated metal products excluding machines & equipments 10+" ;
+	ns4:membership	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector/10_c24_25> ;
+	skos:topConceptOf	ns20:breakdown .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_c26_33>	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Manufacture: computers, electric & optical, motor vehicles, transport equipment, furniture, repair 10+" ;
+	skos:notation	"10_c26_33" ;
+	skos:altLabel	"Manufacture: computers, electric & optical, motor vehicles, transport equipment, furniture, repair 10+" ;
+	ns4:membership	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector/10_c26_33> ;
+	skos:topConceptOf	ns20:breakdown .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_d35_e39>	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Electricity, gas, steam, air conditioning; water supply, sewerage, waste management&remediation 10+" ;
+	skos:notation	"10_d35_e39" ;
+	skos:altLabel	"Electricity, gas, steam, air conditioning; water supply, sewerage, waste management&remediation 10+" ;
+	ns4:membership	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector/10_d35_e39> ;
+	skos:topConceptOf	ns20:breakdown .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_f41_43>	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Construction 10+" ;
+	skos:notation	"10_f41_43" ;
+	skos:altLabel	"Construction 10+" ;
+	ns4:membership	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector/10_f41_43> ;
+	skos:topConceptOf	ns20:breakdown .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_g45>	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Trade of motor vehicles and motorcycles 10+" ;
+	skos:notation	"10_g45" ;
+	skos:altLabel	"Trade of motor vehicles and motorcycles 10+" ;
+	ns4:membership	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector/10_g45> ;
+	skos:topConceptOf	ns20:breakdown .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_g47>	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Retail trade, except of motor vehicles and motorcycles 10+" ;
+	skos:notation	"10_g47" ;
+	skos:altLabel	"Retail trade, except of motor vehicles and motorcycles 10+" ;
+	ns4:membership	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector/10_g47> ;
+	skos:topConceptOf	ns20:breakdown .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_h49_53>	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Transport and storage 10+" ;
+	skos:notation	"10_h49_53" ;
+	skos:altLabel	"Transport and storage 10+" ;
+	ns4:membership	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector/10_h49_53> ;
+	skos:topConceptOf	ns20:breakdown .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_i55_56>	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Accommodation and food service activities 10+" ;
+	skos:notation	"10_i55_56" ;
+	skos:altLabel	"Accommodation and food service activities 10+" ;
+	ns4:membership	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector/10_i55_56> ;
+	skos:topConceptOf	ns20:breakdown .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_j58_60>	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Publishing activities; films & television, sound & music publishing; broadcasting 10+" ;
+	skos:notation	"10_j58_60" ;
+	skos:altLabel	"Publishing activities; films & television, sound & music publishing; broadcasting 10+" ;
+	ns4:membership	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector/10_j58_60> ;
+	skos:topConceptOf	ns20:breakdown .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_j61>	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Telecommunications 10+" ;
+	skos:notation	"10_j61" ;
+	skos:altLabel	"Telecommunications 10+" ;
+	ns4:membership	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector/10_j61> ;
+	skos:topConceptOf	ns20:breakdown .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_j62_63>	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Computer programming, consultancy and related activities, information services 10+" ;
+	skos:notation	"10_j62_63" ;
+	skos:altLabel	"Computer programming, consultancy and related activities, information services 10+" ;
+	ns4:membership	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector/10_j62_63> ;
+	skos:topConceptOf	ns20:breakdown .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_l68>	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Real estate activities 10+" ;
+	skos:notation	"10_l68" ;
+	skos:altLabel	"Real estate activities 10+" ;
+	ns4:membership	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector/10_l68> ;
+	skos:topConceptOf	ns20:breakdown .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_m69_74>	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Professional, scientific and technical activities 10+" ;
+	skos:notation	"10_m69_74" ;
+	skos:altLabel	"Professional, scientific and technical activities 10+" ;
+	ns4:membership	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector/10_m69_74> ;
+	skos:topConceptOf	ns20:breakdown .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_n77_82>	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Administrative and support service activities 10+" ;
+	skos:notation	"10_n77_82" ;
+	skos:altLabel	"Administrative and support service activities 10+" ;
+	ns4:membership	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector/10_n77_82> ;
+	skos:topConceptOf	ns20:breakdown .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_s951>	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Repair of computers and communication equipment" ;
+	skos:notation	"10_s951" ;
+	skos:altLabel	"Repair of computers and communication equipment" ;
+	ns4:membership	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector/10_s951> ;
+	skos:topConceptOf	ns20:breakdown .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/1500_mhz>	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"1500 MHz" ;
+	skos:notation	"1500_mhz" ;
+	ns4:membership	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/mhz_bands/1500_mhz> ;
+	skos:topConceptOf	ns20:breakdown .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/1800_mhz>	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"1800 MHz" ;
+	skos:notation	"1800_mhz" ;
+	ns4:membership	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/mhz_bands/1800_mhz> ;
+	skos:topConceptOf	ns20:breakdown .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/1m_websites>	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Total" ;
+	skos:notation	"1m_websites" ;
+	skos:altLabel	"Total" ;
+	ns4:membership	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/total/1m_websites> ;
+	skos:definition	"From the list of 1 million most visited websites, provided by Alexa" ;
+	skos:topConceptOf	ns20:breakdown .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/261>	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Manufacture of electronic components and boards" ;
+	skos:notation	"261" ;
+	skos:altLabel	"Manufacture of electronic components and boards" ;
+	ns4:membership	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byictsector6subsec/261> ;
+	skos:definition	"NACE2 261 Manufacture of electronic components and boards" ;
+	skos:topConceptOf	ns20:breakdown .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/261to264>	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"ICT manufacturing industries" ;
+	skos:notation	"261to264" ;
+	skos:altLabel	"ICT manufacturing industries" ;
+	ns4:membership	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byictsector2subsec/261to264> ;
+	skos:definition	"NACE2 261 to 264 - 261 Manufacture of electronic components and boards, 262 Manufacture of computers and peripheral equipment,  263 Manufacture of communication equipment, 264 Manufacture of consumer electronics" ;
+	skos:topConceptOf	ns20:breakdown .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/261to264_582_61_62_631_951>	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"ICT industries total (6 subsectors)" ;
+	skos:notation	"261to264_582_61_62_631_951" ;
+	skos:altLabel	"ICT industries total (6 subsectors)" ;
+	ns4:membership	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/total/261to264_582_61_62_631_951> ;
+	skos:definition	"NACE2 261 to 264, 582,61, 62, 631, 951 ; 261 Manufacture of electronic components and boards, 262 Manufacture of computers and peripheral equipment,  263 Manufacture of communication equipment, 264 Manufacture of consumer electronics; 582 Software publishing; 61 Telecomunications; 62 Computer programing, consultancy and related activities; 631 Data processing, hosting and related activities, web portals; 951 Repair of computers and communication equipment " ;
+	skos:topConceptOf	ns20:breakdown .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/262>	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Manufacture of computers and peripheral equipment" ;
+	skos:notation	"262" ;
+	skos:altLabel	"Manufacture of computers and peripheral equipment" ;
+	ns4:membership	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byictsector6subsec/262> ;
+	skos:definition	"NACE2 262 Manufacture of computers and peripheral equipment" ;
+	skos:topConceptOf	ns20:breakdown .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/263>	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Manufacture of communication equipment" ;
+	skos:notation	"263" ;
+	skos:altLabel	"Manufacture of communication equipment" ;
+	ns4:membership	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byictsector6subsec/263> ;
+	skos:definition	"NACE2 263 Manufacture of communication equipment" ;
+	skos:topConceptOf	ns20:breakdown .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/264>	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Manufacture of consumer electronics" ;
+	skos:notation	"264" ;
+	skos:altLabel	"Manufacture of consumer electronics" ;
+	ns4:membership	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byictsector6subsec/264> ;
+	skos:definition	"NACE2 264 Manufacture of consumer electronics" ;
+	skos:topConceptOf	ns20:breakdown .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/2_6_ghz>	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"2.6 GHz" ;
+	skos:notation	"2_6_ghz" ;
+	ns4:membership	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/mhz_bands/2_6_ghz> ;
+	skos:topConceptOf	ns20:breakdown .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/2_ghz_paired>	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"2 GHz paired" ;
+	skos:notation	"2_ghz_paired" ;
+	ns4:membership	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/mhz_bands/2_ghz_paired> ;
+	skos:topConceptOf	ns20:breakdown .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/3_4_ghz>	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"3.4-3.6 GHz" ;
+	skos:notation	"3_4_ghz" ;
+	ns4:membership	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/mhz_bands/3_4_ghz> ;
+	skos:topConceptOf	ns20:breakdown .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/3_6_ghz>	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"3.6-3.8 GHz" ;
+	skos:notation	"3_6_ghz" ;
+	ns4:membership	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/mhz_bands/3_6_ghz> ;
+	skos:topConceptOf	ns20:breakdown .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/582_62_631_951>	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Computer and related activities" ;
+	skos:notation	"582_62_631_951" ;
+	skos:altLabel	"Computer and related activities" ;
+	ns4:membership	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byictsector6subsec/582_62_631_951> ;
+	skos:definition	"NACE2 582, 62, 631, 951\nComputer and related activities inc. Software publishing; Computer programing, consultancy and related activities; Data processing, hosting and related activities, web portals; Repair of computers and communication equipment " ;
+	skos:topConceptOf	ns20:breakdown .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/61>	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Telecommunications" ;
+	skos:notation	"61" ;
+	skos:altLabel	"Telecommunications" ;
+	ns4:membership	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byictsector6subsec/61> ;
+	skos:definition	"NACE2 61 Telecommunications" ;
+	skos:topConceptOf	ns20:breakdown .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/61_582_62_631_951>	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"ICT services industries" ;
+	skos:notation	"61_582_62_631_951" ;
+	skos:altLabel	"ICT services industries" ;
+	ns4:membership	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/byictsector2subsec/61_582_62_631_951> ;
+	skos:definition	"NACE2 582,61, 62, 631, 951\n582 Software publishing; 61 Telecomunications; 62 Computer programing, consultancy and related activities; 631 Data processing, hosting and related activities, web portals; 951 Repair of computers and communication equipment " ;
+	skos:topConceptOf	ns20:breakdown .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/700_mhz>	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"700 MHz" ;
+	skos:notation	"700_mhz" ;
+	ns4:membership	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/mhz_bands/700_mhz> ;
+	skos:topConceptOf	ns20:breakdown .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/800_mhz>	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"800 MHz" ;
+	skos:notation	"800_mhz" ;
+	ns4:membership	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/mhz_bands/800_mhz> ;
+	skos:topConceptOf	ns20:breakdown .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/900_mhz>	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"900 MHz" ;
+	skos:notation	"900_mhz" ;
+	ns4:membership	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/mhz_bands/900_mhz> ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:all_dch	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Household with dependent children" ;
+	skos:notation	"all_dch" ;
+	skos:altLabel	"with dependent childrens" ;
+	ns4:membership	ns64:all_dch ;
+	skos:definition	"dependent childrens are under 16" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:all_egov_le	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"All Life Events" ;
+	skos:notation	"all_egov_le" ;
+	skos:altLabel	"All Life Events" ;
+	ns4:membership	ns71:all_egov_le ;
+	skos:definition	"The following life events are included in the scope: Regular business operations and Business Start-up, Moving, Owning and driving a car, Starting a small claims procedure, Family, Career and Studying" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:all_ndch	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Household without dependent children" ;
+	skos:notation	"all_ndch" ;
+	skos:altLabel	"without dependent childrens" ;
+	ns4:membership	ns64:all_ndch ;
+	skos:definition	"dependent childrens are under 16" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:authentic_sources	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Authentic sources" ,
+		"Authentic_sources" ;
+	skos:notation	"authentic_sources" ;
+	skos:altLabel	"Authentic sources" ,
+		"Authentic_sources" ;
+	ns4:membership	ns59:authentic_sources ;
+	skos:definition	"Base registries used by governments to automatically validate or fetch data relating to citizens or businesses. It facilitates prefilling of online forms and the implementation of the \u2018once-only principle\u2019, which implies that governments re-use data to deliver services automatically. " ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:auto_service	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Automated service" ;
+	skos:notation	"auto_service" ;
+	skos:altLabel	"Automated service" ;
+	ns4:membership	ns61:auto_service ;
+	skos:definition	"eGovernment automated service" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:bus_startup	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Business Start Up Life Event" ;
+	skos:notation	"bus_startup" ;
+	skos:altLabel	"Business Start Up" ;
+	ns4:membership	ns60:bus_startup ;
+	skos:definition	"eGovernment services related to the life event: Business Start Up" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:cable	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Cable modem" ;
+	skos:notation	"cable" ;
+	skos:altLabel	"Cable modem" ;
+	ns4:membership	ns42:cable ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:cb_eu_for	rdf:type	skos:Concept ,
+		ns2:Breakdown .
+@prefix ns73:	<http://eurostat.linked-statistics.org/dic/ind_type#> .
+ns25:cb_eu_for	rdfs:seeAlso	ns73:CB_EU_FOR ;
+	skos:prefLabel	"Individuals who are born in another EU Member State" ;
+	skos:notation	"cb_eu_for" ;
+	skos:altLabel	"Another EU state" ;
+	ns4:membership	ns30:cb_eu_for ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:cb_ext_eu	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	rdfs:seeAlso	ns73:CB_EXT_EU ;
+	skos:prefLabel	"Individuals who are born in non-EU country" ;
+	skos:notation	"cb_ext_eu" ;
+	skos:altLabel	"Non-EU country" ;
+	ns4:membership	ns30:cb_ext_eu ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:cb_nat	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	rdfs:seeAlso	ns73:CB_NAT ;
+	skos:prefLabel	"Individuals who are native-born" ;
+	skos:notation	"cb_nat" ;
+	skos:altLabel	"Native" ;
+	ns4:membership	ns30:cb_nat ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:cc_eu_for	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	rdfs:seeAlso	ns73:CC_EU_FOR ;
+	skos:prefLabel	"Nationals of another EU-Member State" ;
+	skos:notation	"cc_eu_for" ;
+	skos:altLabel	"Nationals another EU" ;
+	ns4:membership	ns31:cc_eu_for ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:cc_ext_eu	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	rdfs:seeAlso	ns73:CC_EXT_EU ;
+	skos:prefLabel	"Nationals of non-EU country" ;
+	skos:notation	"cc_ext_eu" ;
+	skos:altLabel	"Nationals non-EU" ;
+	ns4:membership	ns31:cc_ext_eu ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:cc_nat	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	rdfs:seeAlso	ns73:CC_NAT ;
+	skos:prefLabel	"Nationals" ;
+	skos:notation	"cc_nat" ;
+	skos:altLabel	"Nationals" ;
+	ns4:membership	ns31:cc_nat ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:cnect_a	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Directorate A, DG CONNECT" ;
+	skos:notation	"cnect_a" ;
+	skos:altLabel	"Directorate A" ;
+	ns4:membership	ns49:cnect_a ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:cnect_all	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"DG CONNECT" ;
+	skos:notation	"cnect_all" ;
+	skos:altLabel	"DG CONNECT" ;
+	ns4:membership	ns49:cnect_all ;
+	skos:topConceptOf	ns20:breakdown .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/cnect_b+>	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Directorate B, DG CONNECT" ;
+	skos:notation	"cnect_b " ;
+	skos:altLabel	"Directorate B" ;
+	ns4:membership	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/cnect_directorates/cnect_b+> ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:cnect_c	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Directorate C, DG CONNECT" ;
+	skos:notation	"cnect_c" ;
+	skos:altLabel	"Directorate C" ;
+	ns4:membership	ns49:cnect_c ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:cnect_d	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Directorate D, DG CONNECT" ;
+	skos:notation	"cnect_d" ;
+	skos:altLabel	"Directorate D" ;
+	ns4:membership	ns49:cnect_d ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:cnect_e	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Directorate E, DG CONNECT" ;
+	skos:notation	"cnect_e" ;
+	skos:altLabel	"Directorate E" ;
+	ns4:membership	ns49:cnect_e ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:cnect_f	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Directorate F, DG CONNECT" ;
+	skos:notation	"cnect_f" ;
+	skos:altLabel	"Directorate F" ;
+	ns4:membership	ns49:cnect_f ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:cnect_g	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Directorate G, DG CONNECT" ;
+	skos:notation	"cnect_g" ;
+	skos:altLabel	"Directorate G" ;
+	ns4:membership	ns49:cnect_g ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:cnect_h	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Directorate H, DG CONNECT" ;
+	skos:notation	"cnect_h" ;
+	skos:altLabel	"Directorate H" ;
+	ns4:membership	ns49:cnect_h ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:cnect_r	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Directorate R, DG CONNECT" ;
+	skos:notation	"cnect_r" ;
+	skos:altLabel	"Directorate R" ;
+	ns4:membership	ns49:cnect_r ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:csk_hi	rdf:type	ns2:Breakdown ,
+		skos:Concept .
+@prefix ns74:	<http://eurostat.linked-statistics.org/dic/indic_is#> .
+ns25:csk_hi	rdfs:seeAlso	ns74:I_CSK_HI ;
+	skos:prefLabel	"Individuals with high computer skills" ;
+	skos:notation	"csk_hi" ;
+	skos:altLabel	"high computer skills" ;
+	ns4:membership	ns47:csk_hi ;
+	skos:definition	"Individuals having ever carried out at least 5 of the following 6 activities: coping or moving a file or folder, using copy and paste tools, using basic arithmetic formula in a spreadsheet, compressing (or zipping) files, connecting and installing new devices, writing a computer program using a specialised programming language. Only those having ever used a computer were proposed the question." ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:csk_lo	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	rdfs:seeAlso	ns74:I_CSK_LO ;
+	skos:prefLabel	"Individuals with low computer skills" ;
+	skos:notation	"csk_lo" ;
+	skos:altLabel	"low computer skills" ;
+	ns4:membership	ns47:csk_lo ;
+	skos:definition	"Individuals having ever carried out only 1 or 2 of the following 6 activities: coping or moving a file or folder, using copy and paste tools, using basic arithmetic formula in a spreadsheet, compressing (or zipping) files, connecting and installing new devices, writing a computer program using a specialised programming language. Only those having ever used a computer were proposed the question." ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:csk_me	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	rdfs:seeAlso	ns74:I_CSK_ME ;
+	skos:prefLabel	"Individuals with medium computer skills" ;
+	skos:notation	"csk_me" ;
+	skos:altLabel	"medium computer skills" ;
+	ns4:membership	ns47:csk_me ;
+	skos:definition	"Individuals having ever carried out 3 or 4 of the following 6 activities: coping or moving a file or folder, using copy and paste tools, using basic arithmetic formula in a spreadsheet, compressing (or zipping) files, connecting and installing new devices, writing a computer program using a specialised programming language. Only those having ever used a computer were proposed the question." ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:cskx	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	rdfs:seeAlso	ns74:I_I0 ;
+	skos:prefLabel	"Individuals with no computer skills" ;
+	skos:notation	"cskx" ;
+	skos:altLabel	"no computer skills" ;
+	ns4:membership	ns47:cskx ;
+	skos:definition	"Individuals having ever used a computer, but having carried out none of the following 6 activities: coping or moving a file or folder, using copy and paste tools, using basic arithmetic formula in a spreadsheet, compressing (or zipping) files, connecting and installing new devices, writing a computer program using a specialised programming language. Only those having ever used a computer were proposed the question." ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:desi_total	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Aggregate score" ;
+	skos:notation	"desi_total" ;
+	skos:altLabel	"Aggregate score" ;
+	ns4:membership	ns50:desi_total ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:digital_post	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Digital Post" ,
+		"Digital_Post" ;
+	skos:notation	"digital_post" ;
+	skos:altLabel	"Digital_Post" ,
+		"Digital Post" ;
+	ns4:membership	ns59:digital_post ;
+	skos:definition	"Public administrations should allow citizens to receive mail in a digital format and help reduce paper mailing. Governments should provide the possibility to communicate electronically-only with citizens or entrepreneurs through personal mailboxes or other digital post solutions. This represents a novelty of the 2016 measurement. " ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:ds_a_basic	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"level: Above Basic" ;
+	skos:notation	"ds_a_basic" ;
+	skos:altLabel	"level: Above Basic" ;
+	ns4:membership	ns51:ds_a_basic ;
+	skos:definition	"Individual having \"above basic\" skills in ALL the four Digital Competence domains included in the index: information, communication, content-creation and problem-solving." ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:ds_b_basic	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"level: Low" ;
+	skos:notation	"ds_b_basic" ;
+	skos:altLabel	"level: Low" ;
+	ns4:membership	ns51:ds_b_basic ;
+	skos:definition	"Individual \"without basic\" skills in AT LEAST ONE of the four Digital Competence domains included in the index: information, communication, content-creation and problem-solving." ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:ds_basic	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"level: Basic" ;
+	skos:notation	"ds_basic" ;
+	skos:altLabel	"level: Basic" ;
+	ns4:membership	ns51:ds_basic ;
+	skos:definition	"Individual having at least \"basic\" skills in ALL the four Digital Competence domains included in the index: information, communication, content-creation and problem-solving, but no more than three above basic." ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:ds_no	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"No digital skills " ;
+	skos:notation	"ds_no" ;
+	skos:altLabel	"No" ;
+	ns4:membership	ns51:ds_no ;
+	skos:definition	"Individuals that have not used internet during last 3 months." ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:dsk_ab	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"level: Above Basic" ;
+	skos:notation	"dsk_ab" ;
+	skos:altLabel	"level: Above Basic" ;
+	ns4:membership	ns51:dsk_ab ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:dsk_b	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"level: Basic" ;
+	skos:notation	"dsk_b" ;
+	skos:altLabel	"level: Basic" ;
+	ns4:membership	ns51:dsk_b ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:dsk_x	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"level: none" ;
+	skos:notation	"dsk_x" ;
+	skos:altLabel	"level: none" ;
+	ns4:membership	ns51:dsk_x ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:e_cc_hi	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"High sophistication" ;
+	skos:notation	"e_cc_hi" ;
+	skos:altLabel	"High sophistication" ;
+	ns4:membership	ns32:e_cc_hi ;
+	skos:definition	"Usage of any of the following Cloud computing services: accounting software applications, CRM software, computing power." ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:e_cc_lo	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Low sophistication" ;
+	skos:notation	"e_cc_lo" ;
+	skos:altLabel	"Low sophistication" ;
+	ns4:membership	ns32:e_cc_lo ;
+	skos:definition	"Usage of Cloud computing services for e-mail, office software, storage of files, but none of the other medium-high sophistication services proposed in the questionnaire." ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:e_cc_me	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Medium sophistication" ;
+	skos:notation	"e_cc_me" ;
+	skos:altLabel	"Medium sophistication" ;
+	ns4:membership	ns32:e_cc_me ;
+	skos:definition	"Usage of Cloud computing services for hosting of the enterprise's database, but none of the high sophistication services proposed in the questionnaire: accounting software applications, CRM software, computing power. Include other non specified services." ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:e_di_hi	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"High (7-9)" ;
+	skos:notation	"e_di_hi" ;
+	skos:altLabel	"High (7-9)" ;
+	ns4:membership	ns34:e_di_hi ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:e_di_lo	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Low (4-6)" ;
+	skos:notation	"e_di_lo" ;
+	skos:altLabel	"Low (4-6)" ;
+	ns4:membership	ns34:e_di_lo ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:e_di_vhi	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Very High (10-12)" ;
+	skos:notation	"e_di_vhi" ;
+	skos:altLabel	"Very High (10-12)" ;
+	ns4:membership	ns34:e_di_vhi ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:e_di_vlo	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Very Low (0-3)" ;
+	skos:notation	"e_di_vlo" ;
+	skos:altLabel	"Very Low (0-3)" ;
+	ns4:membership	ns34:e_di_vlo ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:e_gov_1a_ucg_oa	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"1a User Centric Government - Online availability" ;
+	skos:notation	"e_gov_1a_ucg_oa" ;
+	skos:altLabel	"1a User Centric Government - Online availability" ;
+	ns4:membership	ns52:e_gov_1a_ucg_oa ;
+	skos:definition	"eGovernment services related to User Centric Government - Online availability" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:e_gov_1b_ucg_us	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"1b User Centric Government - Usability" ;
+	skos:notation	"e_gov_1b_ucg_us" ;
+	skos:altLabel	"1b User Centric Government - Usability" ;
+	ns4:membership	ns52:e_gov_1b_ucg_us ;
+	skos:definition	"eGovernment services related to User Centric Government - Usability" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:e_gov_1c_ucg_mf	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"1c User Centric Government - Mobile Friendliness" ;
+	skos:notation	"e_gov_1c_ucg_mf" ;
+	skos:altLabel	"1c User Centric Government - Mobile Friendliness" ;
+	ns4:membership	ns52:e_gov_1c_ucg_mf ;
+	skos:definition	"eGovernment services related to User Centric Government - Mobile Friendliness" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:e_gov_1d_ucg_eu	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"1d User Centric Government - Ease of Use" ;
+	skos:notation	"e_gov_1d_ucg_eu" ;
+	skos:altLabel	"1d User Centric Government - Ease of Use" ;
+	ns4:membership	ns52:e_gov_1d_ucg_eu ;
+	skos:definition	"eGovernment services related to User Centric Government - Ease of Use" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:e_gov_1e_ucg_su	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"1e User Centric Government - Speed of Use" ;
+	skos:notation	"e_gov_1e_ucg_su" ;
+	skos:altLabel	"1e User Centric Government - Speed of Use" ;
+	ns4:membership	ns52:e_gov_1e_ucg_su ;
+	skos:definition	"eGovernment services related to User Centric Government - Speed of Use" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:e_gov_2a_tg_sd	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"2a Transparent Government - Service delivery" ;
+	skos:notation	"e_gov_2a_tg_sd" ;
+	skos:altLabel	"2a Transparent Government - Service delivery" ;
+	ns4:membership	ns53:e_gov_2a_tg_sd ;
+	skos:definition	"eGovernment services related to Transparent Government - Service delivery" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:e_gov_2b_tg_po	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"2b Transparent Government - Public organisations" ;
+	skos:notation	"e_gov_2b_tg_po" ;
+	skos:altLabel	"2b Transparent Government - Public organisations" ;
+	ns4:membership	ns53:e_gov_2b_tg_po ;
+	skos:definition	"eGovernment services related to Transparent Government - Public organisations" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:e_gov_2c_tg_pd	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"2c Transparent Government - Personal data" ;
+	skos:notation	"e_gov_2c_tg_pd" ;
+	skos:altLabel	"2c Transparent Government - Personal data" ;
+	ns4:membership	ns53:e_gov_2c_tg_pd ;
+	skos:definition	"eGovernment services related to Transparent Government - Personal data" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:e_gov_3a_cm_oa	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"3a Citizen Mobility - Online availability" ;
+	skos:notation	"e_gov_3a_cm_oa" ;
+	skos:altLabel	"3a Citizen Mobility - Online availability" ;
+	ns4:membership	ns54:e_gov_3a_cm_oa ;
+	skos:definition	"eGovernment services related to Citizen Mobility - Online availability" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:e_gov_3b_cm_us	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"3b Citizen Mobility - Usability" ;
+	skos:notation	"e_gov_3b_cm_us" ;
+	skos:altLabel	"3b Citizen Mobility - Usability" ;
+	ns4:membership	ns54:e_gov_3b_cm_us ;
+	skos:definition	"eGovernment services related to Citizen Mobility - Usability" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:e_gov_3c_cm_eidcb	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"3c Citizen Mobility - eID Cross Borders" ;
+	skos:notation	"e_gov_3c_cm_eidcb" ;
+	skos:altLabel	"3c Citizen Mobility - eID Cross Borders" ;
+	ns4:membership	ns54:e_gov_3c_cm_eidcb ;
+	skos:definition	"eGovernment services related to Citizen Mobility - eID Cross Borders" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:e_gov_3d_cm_edoccb	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"3d Citizen Mobility - eDocuments Cross Borders" ;
+	skos:notation	"e_gov_3d_cm_edoccb" ;
+	skos:altLabel	"3d Citizen Mobility - eDocuments Cross Borders" ;
+	ns4:membership	ns54:e_gov_3d_cm_edoccb ;
+	skos:definition	"eGovernment services related to Citizen Mobility - eDocuments Cross Borders" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:e_gov_3e_cm_eu	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"3e Citizen Mobility - Ease of Use" ;
+	skos:notation	"e_gov_3e_cm_eu" ;
+	skos:altLabel	"3e Citizen Mobility - Ease of Use" ;
+	ns4:membership	ns54:e_gov_3e_cm_eu ;
+	skos:definition	"eGovernment services related to Citizen Mobility - Ease of Use" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:e_gov_3f_cm_su	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"3f Citizen Mobility - Speed of Use" ;
+	skos:notation	"e_gov_3f_cm_su" ;
+	skos:altLabel	"3f Citizen Mobility - Speed of Use" ;
+	ns4:membership	ns54:e_gov_3f_cm_su ;
+	skos:definition	"eGovernment services related to Citizen Mobility - Speed of Use" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:e_gov_4a_bm_oa	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"4a Business Mobility - Online availability" ;
+	skos:notation	"e_gov_4a_bm_oa" ;
+	skos:altLabel	"4a Business Mobility - Online availability" ;
+	ns4:membership	ns55:e_gov_4a_bm_oa ;
+	skos:definition	"eGovernment services related to Business Mobility - Online availability" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:e_gov_4b_bm_us	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"4b Business Mobility - Usability" ;
+	skos:notation	"e_gov_4b_bm_us" ;
+	skos:altLabel	"4b Business Mobility - Usability" ;
+	ns4:membership	ns55:e_gov_4b_bm_us ;
+	skos:definition	"eGovernment services related to Business Mobility - Usability" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:e_gov_4c_bm_eidcb	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"4c Business Mobility - eID Cross Borders" ;
+	skos:notation	"e_gov_4c_bm_eidcb" ;
+	skos:altLabel	"4c Business Mobility - eID Cross Borders" ;
+	ns4:membership	ns55:e_gov_4c_bm_eidcb ;
+	skos:definition	"eGovernment services related to Business Mobility - eID Cross Borders" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:e_gov_4d_bm_edoccb	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"4d Business Mobility - eDocuments Cross Borders" ;
+	skos:notation	"e_gov_4d_bm_edoccb" ;
+	skos:altLabel	"4d Business Mobility - eDocuments Cross Borders" ;
+	ns4:membership	ns55:e_gov_4d_bm_edoccb ;
+	skos:definition	"eGovernment services related to Business Mobility - eDocuments Cross Borders" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:e_gov_4e_bm_eu	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"4e Business Mobility - Ease of Use" ;
+	skos:notation	"e_gov_4e_bm_eu" ;
+	skos:altLabel	"4e Business Mobility - Ease of Use" ;
+	ns4:membership	ns55:e_gov_4e_bm_eu ;
+	skos:definition	"eGovernment services related to Business Mobility - Ease of Use" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:e_gov_4f_bm_su	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"4f Business Mobility - Speed of Use" ;
+	skos:notation	"e_gov_4f_bm_su" ;
+	skos:altLabel	"4f Business Mobility - Speed of Use" ;
+	ns4:membership	ns55:e_gov_4f_bm_su ;
+	skos:definition	"eGovernment services related to Business Mobility - Speed of Use" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:e_gov_5a_ke_eid	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"5a Key Enablers - eID" ;
+	skos:notation	"e_gov_5a_ke_eid" ;
+	skos:altLabel	"5a Key Enablers - eID" ;
+	ns4:membership	ns56:e_gov_5a_ke_eid ;
+	skos:definition	"eGovernment services related to Key Enablers - eID. A government-issued, electronic identification solution to determine if the use is who he claims to be. Using eID enables online transactions, saves time and reduces costs for all actors involved. " ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:e_gov_5b_ke_edoc	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"5b Key Enablers - eDocuments" ;
+	skos:notation	"e_gov_5b_ke_edoc" ;
+	skos:altLabel	"5b Key Enablers - eDocuments" ;
+	ns4:membership	ns56:e_gov_5b_ke_edoc ;
+	skos:definition	"eGovernment services related to Key Enablers - eDocuments. An electronic document reduces offline \npaper processes by allowing citizens and businesses to send authenticated documents online. " ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:e_gov_5c_ke_as	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"5c Key Enablers - Authentic sources" ;
+	skos:notation	"e_gov_5c_ke_as" ;
+	skos:altLabel	"5c Key Enablers - Authentic sources" ;
+	ns4:membership	ns56:e_gov_5c_ke_as ;
+	skos:definition	"eGovernment services related to Key Enablers - Authentic sources" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:e_gov_5d_ke_dp	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"5d Key Enablers - Digital Post" ;
+	skos:notation	"e_gov_5d_ke_dp" ;
+	skos:altLabel	"5d Key Enablers - Digital Post" ;
+	ns4:membership	ns56:e_gov_5d_ke_dp ;
+	skos:definition	"eGovernment services related to Key Enablers - Digital Post. Public administrations should allow citizens to receive mail in a digital format and help reduce paper mailing. Governments should provide the possibility to communicate electronically-only with citizens or entrepreneurs through personal mailboxes or other digital post solutions. This represents a novelty of the 2016 measurement. " ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:e_gov_5e_ke_esafe	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"5e Key Enablers - eSafe" ;
+	skos:notation	"e_gov_5e_ke_esafe" ;
+	skos:altLabel	"5e Key Enablers - eSafe" ;
+	ns4:membership	ns56:e_gov_5e_ke_esafe ;
+	skos:definition	"eGovernment services related to Key Enablers - eSafe" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:e_gov_5f_ke_sso	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"5f Key Enablers - Single Sign On (SSO)" ;
+	skos:notation	"e_gov_5f_ke_sso" ;
+	skos:altLabel	"5f Key Enablers - Single Sign On (SSO)" ;
+	ns4:membership	ns56:e_gov_5f_ke_sso ;
+	skos:definition	"eGovernment services related to Key Enablers - Single Sign On (SSO)" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:e_gov_events_1	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Regular business operations" ;
+	skos:notation	"e_gov_events_1" ;
+	skos:altLabel	"Regular business operations" ;
+	ns4:membership	ns57:e_gov_events_1 ;
+	skos:definition	"A business life event related to the economic affairs domain, covering services around: tax and corporate finance, VAT and business changes. A total of 10 services are assessed under this life event." ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:e_gov_events_2	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Moving" ;
+	skos:notation	"e_gov_events_2" ;
+	skos:altLabel	"Moving" ;
+	ns4:membership	ns57:e_gov_events_2 ;
+	skos:definition	"A citizens life event related to the housing domain, covering services around: find, adapt and move to new house, and moving and living abroad. A total of 8 services are assessed under this life event." ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:e_gov_events_3	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Transport" ;
+	skos:notation	"e_gov_events_3" ;
+	skos:altLabel	"Transport" ;
+	ns4:membership	ns57:e_gov_events_3 ;
+	skos:definition	"A citizen life event related to the transport domain, covering services around: buying a car, and taxes, certificates and permits. A total of 9 services are assessed under this life event." ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:e_gov_events_4	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Starting a small claims procedure" ;
+	skos:notation	"e_gov_events_4" ;
+	skos:altLabel	"Starting a small claims procedure" ;
+	ns4:membership	ns57:e_gov_events_4 ;
+	skos:definition	"A citizen life event related to the justice domain, covering services around: preparing claim, issuing claim and monitoring status and appeal. A total of 6 services are assessed under this life event." ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:e_gov_events_5	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Business Start-up" ;
+	skos:notation	"e_gov_events_5" ;
+	skos:altLabel	"Business Start-up" ;
+	ns4:membership	ns57:e_gov_events_5 ;
+	skos:definition	"A business life event related to the economic affairs domain, covering services around: orientation, administrative requirements, basic registration, tax-related matters, insurance-related matters, hiring a first employee and request an environmental permit. A total of 16 services are assessed under this life event." ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:e_gov_events_6	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Family" ;
+	skos:notation	"e_gov_events_6" ;
+	skos:altLabel	"Family" ;
+	ns4:membership	ns57:e_gov_events_6 ;
+	skos:definition	"A citizen life event related to the social protection domain, covering services around: birth, marriage, personal documents and registering death. A total of 10 services are assessed under this life event." ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:e_gov_events_7	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Career" ;
+	skos:notation	"e_gov_events_7" ;
+	skos:altLabel	"Career" ;
+	ns4:membership	ns57:e_gov_events_7 ;
+	skos:definition	"A citizen life event related to the employment domain, covering services around: immediate actions for unemployed, guidance on additional benefits and allowances, maintaining applicable benefits, finding a new job and fulfilling duties being employed and retiring. A total of 19 services are assessed under this life event." ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:e_gov_events_8	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Studying" ;
+	skos:notation	"e_gov_events_8" ;
+	skos:altLabel	"Studying" ;
+	ns4:membership	ns57:e_gov_events_8 ;
+	skos:definition	"A citizen life event related to the educational domain, covering services around: orientation, enrolment and study guidance. A total of 11 services are assessed under this life event." ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:ec_all	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"All research DGs of the European Commission" ;
+	skos:notation	"ec_all" ;
+	skos:altLabel	"EC all reserach DGs" ;
+	ns4:membership	ns49:ec_all ,
+		ns65:ec_all ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:edocuments	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"eDocuments" ;
+	skos:notation	"edocuments" ;
+	skos:altLabel	"eDocuments" ;
+	ns4:membership	ns59:edocuments ;
+	skos:definition	"An electronic document reduces offline \npaper processes by allowing citizens and businesses to send authenticated documents online. " ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:egov_le_bus	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Life Events for Businesses" ;
+	skos:notation	"egov_le_bus" ;
+	skos:altLabel	"Life Events for Businesses" ;
+	ns4:membership	ns71:egov_le_bus ;
+	skos:definition	"The indicator is calculated for the basic services (therefore excluding extended services) of the life events of \u201CRegular business operations\u201D and \u201CStarting-up a business\u201D. These life events are calculated in alternate years. Therefore, each year the indicator will be a (moving) average of the latest available year of data for each indicator." ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:egov_life_events	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"All Life Events" ;
+	skos:notation	"egov_life_events" ;
+	skos:altLabel	"All Life Events" ;
+	ns4:membership	ns71:egov_life_events ;
+	skos:definition	"Biennial average over 9 life events. Life events are packages of government services which are usually provided by multiple government agencies around a subject that occur in relation each other, from the perspective of the citizen or entrepreneur concerned. In other words, life events are chains of services that are logically coherent from the perspective of actual users.\n5 life events being measured in odd years (e.g.2021, 2023) and 4 life events in even years (2020, 2022). \nOdd years life events consist of: Regular business operations;  Transport; Starting a small claims procedure; Moving; and Health. Even years life events consists of: Business Start-up; Career; Studying and Family. \n* Health life event was introduced in 2021" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:eid	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"eID" ;
+	skos:notation	"eid" ;
+	skos:altLabel	"eID" ;
+	ns4:membership	ns59:eid ;
+	skos:definition	"A government-issued, electronic identification solution to determine if the use is who he claims to be. Using eID enables online transactions, saves time and reduces costs for all actors involved. " ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:einfra	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"eInfrastructures" ;
+	skos:notation	"einfra" ;
+	skos:altLabel	"eInfra" ;
+	ns4:membership	ns70:einfra ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:empl_une	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	rdfs:seeAlso	ns73:EMPL_UNE ;
+	skos:prefLabel	"Active labour force (employed and unemployed)" ;
+	skos:notation	"empl_une" ;
+	skos:altLabel	"Employed and unemployed" ;
+	ns4:membership	ns66:empl_une ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:ent_all_xfin	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"All enterprises, without financial sector (10 persons employed or more)" ;
+	skos:notation	"ent_all_xfin" ;
+	skos:altLabel	"All enterprises" ;
+	ns4:membership	ns71:ent_all_xfin ;
+	skos:definition	"Since 2010: 10_C10_S951_XK, 2009: 10_C10_N82_XK, until 2008: 10_dfghiko" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:ent_l_xfin	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Large enterprises (250 persons employed or more), without financial sector" ;
+	skos:notation	"ent_l_xfin" ;
+	skos:altLabel	"Large enterprises" ;
+	ns4:membership	ns41:ent_l_xfin ,
+		ns40:ent_l_xfin ;
+	skos:definition	"Since 2010: L_C10_S951_XK, 2009: L_C10_N82_XK, until 2008: l_dfghiko" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:ent_m_xfin	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Medium enterprises (50-249 persons employed), without financial sector" ;
+	skos:notation	"ent_m_xfin" ;
+	skos:altLabel	"Medium enterprises" ;
+	ns4:membership	ns41:ent_m_xfin ;
+	skos:definition	"Since 2010: L_C10_S951_XK, 2009: L_C10_N82_XK, until 2008: l_dfghiko" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:ent_s_xfin	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Small enterprises (10-49 persons employed), without financial sector" ;
+	skos:notation	"ent_s_xfin" ;
+	skos:altLabel	"Small enterprises" ;
+	ns4:membership	ns41:ent_s_xfin ;
+	skos:definition	"Since 2010: L_C10_S951_XK, 2009: L_C10_N82_XK, until 2008: l_dfghiko" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:ent_sm_xfin	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"SMEs (10-249 persons employed), without financial sector" ;
+	skos:notation	"ent_sm_xfin" ;
+	skos:altLabel	"SMEs (10-249 persons employed)" ;
+	ns4:membership	ns40:ent_sm_xfin ;
+	skos:definition	"Since 2010: SM_C10_S951_XK, 2009: SM_C10_N82_XK, until 2008: sm_dfghiko" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:epsiscore_events	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"PSI events and activities" ;
+	skos:notation	"epsiscore_events" ;
+	skos:altLabel	"Events and activities" ;
+	ns4:membership	ns62:epsiscore_events ;
+	skos:definition	"PSI-related vents and activities (3 indicators: some national or inter-regional events; a moderate number of national or inter-regional events; a considerable number of national or inter-regional events)" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:epsiscore_exarrange	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"PSI use of exclusive arrangements" ;
+	skos:notation	"epsiscore_exarrange" ;
+	skos:altLabel	"Exclusive arrangements" ;
+	ns4:membership	ns62:epsiscore_exarrange ;
+	skos:definition	"PSI exclusive arrangements (3 indicators: prohibition of exclusive arrangements; legal action against exclusive arrangements; ending exclusive arrangements)" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:epsiscore_formats	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"PSI formats" ;
+	skos:notation	"epsiscore_formats" ;
+	skos:altLabel	"Formats" ;
+	ns4:membership	ns62:epsiscore_formats ;
+	skos:definition	"PSI dataset formats (4 indicators: endorsement of \u2018raw\u2019 data and open standards; obligatory \u2018raw\u2019 data and open standards; endorsement of \u2018Linked Open Data\u2019; existence of national or regional data catalogue(s))" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:epsiscore_implem	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Implementation of the PSI Directive" ;
+	skos:notation	"epsiscore_implem" ;
+	skos:altLabel	"PSI mplementation" ;
+	ns4:membership	ns62:epsiscore_implem ;
+	skos:definition	"Implementation of the PSI Directive (2 indicators: implementation and absence of infringement procedures and exemptions granted)" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:epsiscore_localpsi	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Local and regional PSI availability and open data communities" ;
+	skos:notation	"epsiscore_localpsi" ;
+	skos:altLabel	"Local PSI" ;
+	ns4:membership	ns62:epsiscore_localpsi ;
+	skos:definition	"Local and regional PSI availability and open data communities (3 indicators: some local or regional PSI available and community activity; moderate local or regional PSI available and community activity; considerable local or regional PSI available and community activity)" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:epsiscore_practice	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"National PSI re-use practice" ;
+	skos:notation	"epsiscore_practice" ;
+	skos:altLabel	"The practice of re-use" ;
+	ns4:membership	ns62:epsiscore_practice ;
+	skos:definition	"National PSI re-use policy (5 indicators: general right of re-use; distinction between commercial and non-commercial re-use; redress mechanisms; pro-active publishing of PSI for re-use; availability of standard licences)" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:epsiscore_pricing	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"PSI pricing" ;
+	skos:notation	"epsiscore_pricing" ;
+	skos:altLabel	"Pricing" ;
+	ns4:membership	ns62:epsiscore_pricing ;
+	skos:definition	"PSI pricing (3 indicators: cost-recovery model or marginal costing model; no exceptions to marginal costing model)" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:epsiscore_total	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"PSI overall score" ;
+	skos:notation	"epsiscore_total" ;
+	skos:altLabel	"PSI overall score" ;
+	ns4:membership	ns71:epsiscore_total ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:f	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Females " ;
+	skos:notation	"f" ;
+	skos:altLabel	"Females" ;
+	ns4:membership	ns43:f ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:f_y16_74	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	rdfs:seeAlso	ns73:F_Y16_74 ;
+	skos:prefLabel	"Females, 16 to 74 years old" ;
+	skos:notation	"f_y16_74" ;
+	skos:altLabel	"Females" ;
+	ns4:membership	ns43:f_y16_74 ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:family	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Family Life Event" ;
+	skos:notation	"family" ;
+	skos:altLabel	"Family" ;
+	ns4:membership	ns60:family ;
+	skos:definition	"eGovernment services related to the life event: Life" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:fttx	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Fiber to the x" ;
+	skos:notation	"fttx" ;
+	skos:altLabel	"Fiber to the x" ;
+	ns4:membership	ns42:fttx ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:gen_admin_move	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"General administration: moving Life Event" ;
+	skos:notation	"gen_admin_move" ;
+	skos:altLabel	"General administration: moving" ;
+	ns4:membership	ns60:gen_admin_move ;
+	skos:definition	"eGovernment services related to the life event: moving (General administration)" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:goods	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Goods" ;
+	skos:notation	"goods" ;
+	skos:altLabel	"Goods" ;
+	ns4:membership	ns48:goods ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:grade11gen	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Grade 11 (Upper secondary, vocational)" ;
+	skos:notation	"grade11gen" ;
+	skos:altLabel	"Grade 11 Vocational" ;
+	ns4:membership	ns38:grade11gen ;
+	skos:definition	"Students enrolled are at the eleventh year of schooling, counting from the first year of Primary - ISCED level 1. Mean age of students in Grade11 is at least 16,5 years." ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:grade11voc	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Grade 11 (Upper secondary, general)" ;
+	skos:notation	"grade11voc" ;
+	skos:altLabel	"Grade 11 General" ;
+	ns4:membership	ns38:grade11voc ;
+	skos:definition	"Students enrolled are at the eleventh year of schooling, counting from the first year of Primary - ISCED level 1. Mean age of students in Grade11 is at least 16,5 years." ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:grade4	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Grade 4 (Primary school)" ;
+	skos:notation	"grade4" ;
+	skos:altLabel	"Grade 4" ;
+	ns4:membership	ns38:grade4 ;
+	skos:definition	"Students enrolled are at the fourth year of schooling, counting from the first year of Primary - ISCED level 1. Mean age of students in Grade4 is at least 9,5 years." ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:grade8	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Grade 8 (Lower secondary)" ;
+	skos:notation	"grade8" ;
+	skos:altLabel	"Grade 8" ;
+	ns4:membership	ns38:grade8 ;
+	skos:definition	"Students enrolled are at the eighth year of schooling, counting from the first year of Primary - ISCED level 1. Mean age of students in Grade8 is at least 13,5 years." ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:hh_deg1	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Households living in densely-populated area" ;
+	skos:notation	"hh_deg1" ;
+	skos:altLabel	"Urban areas" ;
+	ns4:membership	ns33:hh_deg1 ;
+	skos:definition	"Densely-populated area with at least 500 inhabitants/Km2." ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:hh_deg2	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Households living in intermediate urbanized area" ;
+	skos:notation	"hh_deg2" ;
+	skos:altLabel	"Intermediate areas" ;
+	ns4:membership	ns33:hh_deg2 ;
+	skos:definition	"Intermediate urbanized area with between 100 and 499 inhabitants/Km2." ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:hh_deg3	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Households living in sparsely populated area" ;
+	skos:notation	"hh_deg3" ;
+	skos:altLabel	"Rural areas" ;
+	ns4:membership	ns33:hh_deg3 ;
+	skos:definition	"Sparsely populated area with less than 100 inhabitants/Km2." ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:hh_no1	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Living in Not Objective 1 regions / 'Regional Competitiveness and Employment' Region" ;
+	skos:notation	"hh_no1" ;
+	skos:altLabel	"Other regions" ;
+	ns4:membership	ns45:hh_no1 ;
+	skos:definition	"As defined in Structural Funds regulations" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:hh_o1	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Living in Objective 1 regions / 'Convergence' regions" ;
+	skos:notation	"hh_o1" ;
+	skos:altLabel	"Objective1-Convergence regions" ;
+	ns4:membership	ns45:hh_o1 ;
+	skos:definition	"As defined in Structural Funds regulations" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:hh_total	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"All households" ;
+	skos:notation	"hh_total" ;
+	skos:altLabel	"All households" ;
+	ns4:membership	ns71:hh_total ;
+	skos:definition	"All households with at least one individual aged 16-74." ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:hhi_q1	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	rdfs:seeAlso	ns73:HHI_Q1 ;
+	skos:prefLabel	"Individuals living in a household with income in first quartile (lowest)" ;
+	skos:notation	"hhi_q1" ;
+	skos:altLabel	"low income households" ;
+	ns4:membership	ns63:hhi_q1 ;
+	skos:definition	"Income in the first quartile means income among the 25% lowest income observed" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:hhi_q2	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	rdfs:seeAlso	ns73:HHI_Q2 ;
+	skos:prefLabel	"Individuals living in a household with income in second quartile" ;
+	skos:notation	"hhi_q2" ;
+	skos:altLabel	"medium/low income households" ;
+	ns4:membership	ns63:hhi_q2 ;
+	skos:definition	"Income in the second quartile means income among the 50% lowest incomes observed, but not among the 25% lowest" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:hhi_q3	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	rdfs:seeAlso	ns73:HHI_Q3 ;
+	skos:prefLabel	"Individuals living in a household with income in third quartile" ;
+	skos:notation	"hhi_q3" ;
+	skos:altLabel	"medium/high income households" ;
+	ns4:membership	ns63:hhi_q3 ;
+	skos:definition	"Income in the third quartile means income among the 50% highest incomes observed, but not among the 25% highest" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:hhi_q4	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	rdfs:seeAlso	ns73:HHI_Q4 ;
+	skos:prefLabel	"Individuals living in a household with income in fourth quartile (highest)" ;
+	skos:notation	"hhi_q4" ;
+	skos:altLabel	"high income households" ;
+	ns4:membership	ns63:hhi_q4 ;
+	skos:definition	"Income in the fourth quartile means income among the 25% highest incomes observed" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:i0_2	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	rdfs:seeAlso	ns73:I0_2 ;
+	skos:prefLabel	"Individuals with no or low formal education" ;
+	skos:notation	"i0_2" ;
+	skos:altLabel	"low education level" ;
+	ns4:membership	ns37:i0_2 ;
+	skos:definition	"Having maximum Primary or Lower secondary education (ISCED 0, 1 or 2)" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:i0_4	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Individuals with no high education" ;
+	skos:notation	"i0_4" ;
+	skos:altLabel	"no high education" ;
+	ns4:membership	ns37:i0_4 ;
+	skos:definition	"Having maximum post post secondary education, but not tertiary  (ISCED 1997 0-4 Level 0 \u2013 Pre-primary education Level 1 \u2013 Primary education or first stage of basic education, Level 2 \u2013 Lower secondary or second stage of basic education, Level 3 \u2013 (Upper) secondary education, Level 4 \u2013 Post-secondary non-tertiary education)\n " ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:i3_4	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	rdfs:seeAlso	ns73:I3_4 ;
+	skos:prefLabel	"Individuals with medium formal education" ;
+	skos:notation	"i3_4" ;
+	skos:altLabel	"medium education level" ;
+	ns4:membership	ns37:i3_4 ;
+	skos:definition	"Having Upper or post secondary education, but not tertiary (ISCED 3 or 4)" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:i5_8	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	rdfs:seeAlso	ns73:I5_8 ;
+	skos:prefLabel	"Individuals with high formal education" ;
+	skos:notation	"i5_8" ;
+	skos:altLabel	"high education level" ;
+	ns4:membership	ns37:i5_8 ;
+	skos:definition	"(ISCED 2011 5-8 Level 5 \u2013 Short-cycle tertiary education, Level 6 \u2013 Bachelor\u2019s or equivalent level, Level 7 \u2013 Master\u2019s or equivalent level, Level 8 \u2013 Doctoral or equivalent level)\n" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:ind_deg1	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Individuals living in densely-populated area" ;
+	skos:notation	"ind_deg1" ;
+	skos:altLabel	"Urban areas" ;
+	ns4:membership	ns33:ind_deg1 ;
+	skos:definition	"Densely-populated area with at least 500 inhabitants/Km2." ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:ind_deg2	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Individuals living in intermediate urbanized area" ;
+	skos:notation	"ind_deg2" ;
+	skos:altLabel	"Intermediate areas" ;
+	ns4:membership	ns33:ind_deg2 ;
+	skos:definition	"Intermediate urbanized area with between 100 and 499 inhabitants/Km2." ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:ind_deg3	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Individuals living in sparsely populated area" ;
+	skos:notation	"ind_deg3" ;
+	skos:altLabel	"Rural areas" ;
+	ns4:membership	ns33:ind_deg3 ;
+	skos:definition	"Sparsely populated area with less than 100 inhabitants/Km2." ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:ind_no1	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Living in Not Objective 1 regions / 'Regional Competitiveness and Employment' Region" ;
+	skos:notation	"ind_no1" ;
+	skos:altLabel	"Other regions" ;
+	ns4:membership	ns45:ind_no1 ;
+	skos:definition	"As defined in Structural Funds regulations" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:ind_o1	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Living in Objective 1 regions / 'Convergence' regions" ;
+	skos:notation	"ind_o1" ;
+	skos:altLabel	"Objective1-Convergence regions" ;
+	ns4:membership	ns45:ind_o1 ;
+	skos:definition	"As defined in Structural Funds regulations" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:ind_total	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	rdfs:seeAlso	ns73:IND_TOTAL ;
+	skos:prefLabel	"All Individuals (aged 16-74)" ;
+	skos:notation	"ind_total" ;
+	skos:altLabel	"All individuals" ;
+	ns4:membership	ns71:ind_total ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:info_online_no_portal	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Information online but not through portal" ;
+	skos:notation	"info_online_no_portal" ;
+	skos:altLabel	"Information online but not through portal" ;
+	ns4:membership	ns61:info_online_no_portal ;
+	skos:definition	"eGovernment information provided online but not through a portal" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:info_online_portal	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Information online and through portal" ;
+	skos:notation	"info_online_portal" ;
+	skos:altLabel	"Information online and through portal" ;
+	ns4:membership	ns61:info_online_portal ;
+	skos:definition	"eGovernment information provided online and through a portal" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:infso_a	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Directorate A, DG INFSO" ;
+	skos:notation	"infso_a" ;
+	skos:altLabel	"Directorate A" ;
+	ns4:membership	ns65:infso_a ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:infso_all	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"DG INFSO" ;
+	skos:notation	"infso_all" ;
+	skos:altLabel	"DG INFSO" ;
+	ns4:membership	ns65:infso_all ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:infso_b	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Directorate B, DG INFSO" ;
+	skos:notation	"infso_b" ;
+	skos:altLabel	"Directorate B" ;
+	ns4:membership	ns65:infso_b ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:infso_c	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Directorate C, DG INFSO" ;
+	skos:notation	"infso_c" ;
+	skos:altLabel	"Directorate C" ;
+	ns4:membership	ns65:infso_c ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:infso_d	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Directorate D, DG INFSO" ;
+	skos:notation	"infso_d" ;
+	skos:altLabel	"Directorate D" ;
+	ns4:membership	ns65:infso_d ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:infso_e	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Directorate E, DG INFSO" ;
+	skos:notation	"infso_e" ;
+	skos:altLabel	"Directorate E" ;
+	ns4:membership	ns65:infso_e ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:infso_f	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Directorate F, DG INFSO" ;
+	skos:notation	"infso_f" ;
+	skos:altLabel	"Directorate F" ;
+	ns4:membership	ns65:infso_f ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:infso_g	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Directorate G, DG INFSO" ;
+	skos:notation	"infso_g" ;
+	skos:altLabel	"Directorate G" ;
+	ns4:membership	ns65:infso_g ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:infso_h	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Directorate H, DG INFSO" ;
+	skos:notation	"infso_h" ;
+	skos:altLabel	"Directorate H" ;
+	ns4:membership	ns65:infso_h ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:infso_r	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Directorate R, DG INFSO" ;
+	skos:notation	"infso_r" ;
+	skos:altLabel	"Directorate R" ;
+	ns4:membership	ns65:infso_r ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:l_c10_f43	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Large enterprises in manufacturing, electricity, gaz; water supply and construction" ;
+	skos:notation	"l_c10_f43" ;
+	skos:altLabel	"Large enterprises in manufacturing, electricity, gaz; water supply and construction" ;
+	ns4:membership	ns58:l_c10_f43 ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:l_c10_s951_xk	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Large enterprises (250 persons employed or more), without financial sector" ;
+	skos:notation	"l_c10_s951_xk" ;
+	skos:altLabel	"Large enterprises" ;
+	ns4:membership	ns40:l_c10_s951_xk ,
+		ns41:l_c10_s951_xk ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:l_g45_s951_xk	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Large enterprises in services, without financial" ;
+	skos:notation	"l_g45_s951_xk" ;
+	skos:altLabel	"Large enterprises in services, without financial" ;
+	ns4:membership	ns58:l_g45_s951_xk ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:lose_find_job	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Losing and Finding a Job Life Event" ;
+	skos:notation	"lose_find_job" ;
+	skos:altLabel	"Losing and Finding a Job" ;
+	ns4:membership	ns60:lose_find_job ;
+	skos:definition	"eGovernment services related to the life event: Losing and Finding a Job" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:m	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Males" ;
+	skos:notation	"m" ;
+	skos:altLabel	"Males" ;
+	ns4:membership	ns43:m ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:m_c10_f43	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Medium enterprises in manufacturing, electricity, gaz; water supply and construction" ;
+	skos:notation	"m_c10_f43" ;
+	skos:altLabel	"Medium enterprises in manufacturing, electricity, gaz; water supply and construction" ;
+	ns4:membership	ns58:m_c10_f43 ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:m_c10_s951_xk	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Medium enterprises (50-249 persons employed), without financial sector" ;
+	skos:notation	"m_c10_s951_xk" ;
+	skos:altLabel	"Medium enterprises" ;
+	ns4:membership	ns41:m_c10_s951_xk ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:m_g45_s951_xk	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Medium enterprises in services, without financial" ;
+	skos:notation	"m_g45_s951_xk" ;
+	skos:altLabel	"Medium enterprises in services, without financial" ;
+	ns4:membership	ns58:m_g45_s951_xk ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:m_y16_74	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	rdfs:seeAlso	ns73:M_Y16_74 ;
+	skos:prefLabel	"Males, 16 to 74 years old" ;
+	skos:notation	"m_y16_74" ;
+	skos:altLabel	"Males" ;
+	ns4:membership	ns43:m_y16_74 ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:not_assigned	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Total not assigned due to lack of demand" ;
+	skos:notation	"not_assigned" ;
+	ns4:membership	ns67:not_assigned ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:offer_100_mbps	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Advertised download speed above 100 Mbps" ;
+	skos:notation	"offer_100_mbps" ;
+	skos:altLabel	"Advertised download speed above 100 Mbps" ;
+	ns4:membership	ns36:offer_100_mbps ;
+	skos:definition	"Offers with a maximum advertised download speed above 100 Mbps" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:offer_12_30_mbps	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Advertised download speed above 12 and up to 30 Mbps" ;
+	skos:notation	"offer_12_30_mbps" ;
+	skos:altLabel	"Advertised download speed above 12 and up to 30 Mbps" ;
+	ns4:membership	ns36:offer_12_30_mbps ;
+	skos:definition	"Offers with a maximum advertised download speed above 12 and up to 30 Mbps (Iincluded)" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:offer_30_100_mbps	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Advertised download speed above 30 and up to 100 Mbps" ;
+	skos:notation	"offer_30_100_mbps" ;
+	skos:altLabel	"Advertised download speed above 30 and up to 100 Mbps" ;
+	ns4:membership	ns36:offer_30_100_mbps ;
+	skos:definition	"Offers with a maximum advertised download speed above 30 and up to 100 Mbps (included)" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:offer_30_mbps	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Advertised download speed of 30 Mbps or above" ;
+	skos:notation	"offer_30_mbps" ;
+	skos:altLabel	"Advertised download equal or above 30 Mbps" ;
+	ns4:membership	ns35:offer_30_mbps ;
+	skos:definition	"Offers with a maximum advertised download speed of at least 30 Mbps or above." ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:offer_8_12_mbps	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Advertised download speed above 8 and up to 12 Mbps" ;
+	skos:notation	"offer_8_12_mbps" ;
+	skos:altLabel	"Advertised download speed above 8 and up to 12 Mbps" ;
+	ns4:membership	ns36:offer_8_12_mbps ;
+	skos:definition	"Offers with a maximum advertised download speed above 8 and up to 12 Mbps (included)" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:offline	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Offline" ;
+	skos:notation	"offline" ;
+	skos:altLabel	"Offline" ;
+	ns4:membership	ns61:offline ;
+	skos:definition	"eGovernment service or information provided offline" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:orgclass_hesrec	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Higher education and non-profit research organisations" ;
+	skos:notation	"orgclass_hesrec" ;
+	skos:altLabel	"Higher education/research org." ;
+	ns4:membership	ns44:orgclass_hesrec ;
+	skos:definition	"Public or private higher education institutions and not for profit research organisations (HES/REC)." ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:orgclass_le	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Large enterprises" ;
+	skos:notation	"orgclass_le" ;
+	skos:altLabel	"Large enterprises" ;
+	ns4:membership	ns44:orgclass_le ;
+	skos:definition	"Large enterprises with more than 250 employed persons or a turnover \u2265 50 millions euro and a balance sheet total \u2265 43 millions euro. " ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:orgclass_nil	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Other organizations" ;
+	skos:notation	"orgclass_nil" ;
+	skos:altLabel	"Other organizations" ;
+	ns4:membership	ns44:orgclass_nil ;
+	skos:definition	"All other types of organisations (i.e. public administrations, NGO, public sector enterprises, etc.) (NIL)." ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:orgclass_sme	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Small and medium enterprises" ;
+	skos:notation	"orgclass_sme" ;
+	skos:altLabel	"SME" ;
+	ns4:membership	ns44:orgclass_sme ;
+	skos:definition	"Small and medium individual private enterprises (SME) with less than 250 employed persons and a turnover \u2264 50 millions euro or a balance sheet total \u2264 43 millions euro. " ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:orgclass_total	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"All organizations" ;
+	skos:notation	"orgclass_total" ;
+	skos:altLabel	"All organizations" ;
+	ns4:membership	ns71:orgclass_total ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:other_eu_countries	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Customers, other EU countries" ;
+	skos:notation	"other_eu_countries" ;
+	skos:altLabel	"Customers, other EU countries" ;
+	ns4:membership	ns27:other_eu_countries ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:own_country	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Customers, own country" ;
+	skos:notation	"own_country" ;
+	skos:altLabel	"Customers, own country" ;
+	ns4:membership	ns27:own_country ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:own_drive_car	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Owning and driving a car Life Event" ;
+	skos:notation	"own_drive_car" ;
+	skos:altLabel	"Owning and driving a car" ;
+	ns4:membership	ns60:own_drive_car ;
+	skos:definition	"eGovernment services related to the life event: Owning and driving a car" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:reg_bus_op	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Regular business operations Life Event" ;
+	skos:notation	"reg_bus_op" ;
+	skos:altLabel	"Regular business operations" ;
+	ns4:membership	ns60:reg_bus_op ;
+	skos:definition	"eGovernment services related to the life event: Regular business operations" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:rest_world	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Customers, rest of the world" ;
+	skos:notation	"rest_world" ;
+	skos:altLabel	"Customers, rest of the world" ;
+	ns4:membership	ns27:rest_world ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:retir_other	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	rdfs:seeAlso	ns73:RETIR_OTHER ;
+	skos:prefLabel	"Retired and other inactive" ;
+	skos:notation	"retir_other" ;
+	skos:altLabel	"Retired and inactive" ;
+	ns4:membership	ns39:retir_other ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:rf_0	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	rdfs:seeAlso	<http://epp.eurostat.ec.europa.eu/portal/page/portal/information_society/documents/Tab/Breakdowns%20summary%20HH%202003-2011.pdf> ;
+	skos:prefLabel	"Individuals with no disadvantage factor" ;
+	skos:notation	"rf_0" ;
+	skos:altLabel	"No disadvantage factor" ;
+	ns4:membership	ns46:rf_0 ;
+	skos:definition	"Individuals with none of the 3 following characteristics: 55 to 74 years old; low education; unemployed or inactive or retired" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:rf_ge1	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	rdfs:seeAlso	ns73:RF_GE1 ;
+	skos:prefLabel	"Individuals with at least 1 disadvantage factor" ;
+	skos:notation	"rf_ge1" ;
+	skos:altLabel	"At least 1 disadvantage factor" ;
+	ns4:membership	ns46:rf_ge1 ;
+	skos:definition	"Individuals with at least one of the 3 following characteristics: 55 to 74 years old; low education; unemployed or inactive or retired" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:rf_ge2	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	rdfs:seeAlso	ns73:RF_GE2 ;
+	skos:prefLabel	"Individuals with at least 2 disadvantage factor" ;
+	skos:notation	"rf_ge2" ;
+	skos:altLabel	"At least 2 disadvantage factors" ;
+	ns4:membership	ns46:rf_ge2 ;
+	skos:definition	"Individuals with at least two of the 3 following characteristics: 55 to 74 years old; low education; unemployed or inactive or retired" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:rural_pop	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Rural population" ;
+	skos:notation	"rural_pop" ;
+	skos:altLabel	"Rural population" ;
+	ns4:membership	ns69:rural_pop ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:s_c10_f43	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Small enterprises in manufacturing, electricity, gaz; water supply and construction" ;
+	skos:notation	"s_c10_f43" ;
+	skos:altLabel	"Small enterprises in manufacturing, electricity, gaz; water supply and construction" ;
+	ns4:membership	ns58:s_c10_f43 ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:s_c10_s951_xk	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Small enterprises (10-49 persons employed), without financial sector" ;
+	skos:notation	"s_c10_s951_xk" ;
+	skos:altLabel	"Small enterprises" ;
+	ns4:membership	ns41:s_c10_s951_xk ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:s_g45_s951_xk	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Small enterprises in services, without financial" ;
+	skos:notation	"s_g45_s951_xk" ;
+	skos:altLabel	"Small enterprises in services, without financial" ;
+	ns4:membership	ns58:s_g45_s951_xk ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:sal_self_fam	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	rdfs:seeAlso	ns73:SAL_SELF_FAM ;
+	skos:prefLabel	"Employees, self-employed, family workers" ;
+	skos:notation	"sal_self_fam" ;
+	skos:altLabel	"Employees, self-employed, family workers" ;
+	ns4:membership	ns39:sal_self_fam ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:serv_online_no_portal	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Service online but not through portal" ;
+	skos:notation	"serv_online_no_portal" ;
+	skos:altLabel	"Service online but not through portal" ;
+	ns4:membership	ns61:serv_online_no_portal ;
+	skos:definition	"eGovernment service provided online but not through a portal" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:serv_online_portal	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Service online and through portal" ;
+	skos:notation	"serv_online_portal" ;
+	skos:altLabel	"Service online and through portal" ;
+	ns4:membership	ns61:serv_online_portal ;
+	skos:definition	"eGovernment service provided online and through a portal" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:services	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Services" ;
+	skos:notation	"services" ;
+	skos:altLabel	"Services" ;
+	ns4:membership	ns48:services ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:sm_c10_s951_xk	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"SMEs (10-249 persons employed), without financial sector" ;
+	skos:notation	"sm_c10_s951_xk" ;
+	skos:altLabel	"SMEs (10-249 persons employed)" ;
+	ns4:membership	ns40:sm_c10_s951_xk ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:small_claims	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Starting a Small Claims procedure Life Event" ;
+	skos:notation	"small_claims" ;
+	skos:altLabel	"Starting a Small Claims procedure" ;
+	ns4:membership	ns60:small_claims ;
+	skos:definition	"eGovernment services related to the life event: Starting a Small Claims procedure" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:so_01	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"01 Future Networks and Internet" ;
+	skos:notation	"so_01" ;
+	skos:altLabel	"SO 01" ;
+	ns4:membership	ns70:so_01 ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:so_02	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"02 Software, Services and internet connected objects" ;
+	skos:notation	"so_02" ;
+	skos:altLabel	"SO 02" ;
+	ns4:membership	ns70:so_02 ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:so_03	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"03 Trustworthy ICT" ;
+	skos:notation	"so_03" ;
+	skos:altLabel	"SO 03" ;
+	ns4:membership	ns70:so_03 ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:so_04	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"04 Networked Media" ;
+	skos:notation	"so_04" ;
+	skos:altLabel	"SO 04" ;
+	ns4:membership	ns70:so_04 ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:so_05	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"05 Cognitive Systems and Robotics" ;
+	skos:notation	"so_05" ;
+	skos:altLabel	"SO 05" ;
+	ns4:membership	ns70:so_05 ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:so_06	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"06 Nanoelectronics" ;
+	skos:notation	"so_06" ;
+	skos:altLabel	"SO 06" ;
+	ns4:membership	ns70:so_06 ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:so_07	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"07 Micro/nanosystems" ;
+	skos:notation	"so_07" ;
+	skos:altLabel	"SO 07" ;
+	ns4:membership	ns70:so_07 ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:so_08	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"08 Embedded Systems" ;
+	skos:notation	"so_08" ;
+	skos:altLabel	"SO 08" ;
+	ns4:membership	ns70:so_08 ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:so_09	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"09 Photonics" ;
+	skos:notation	"so_09" ;
+	skos:altLabel	"SO 09" ;
+	ns4:membership	ns70:so_09 ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:so_10	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"10 Organic and large area Electronics" ;
+	skos:notation	"so_10" ;
+	skos:altLabel	"SO 10" ;
+	ns4:membership	ns70:so_10 ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:so_11	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"11 Language Technologies" ;
+	skos:notation	"so_11" ;
+	skos:altLabel	"SO 11" ;
+	ns4:membership	ns70:so_11 ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:so_12	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"12 Intelligent Information Management" ;
+	skos:notation	"so_12" ;
+	skos:altLabel	"SO 12" ;
+	ns4:membership	ns70:so_12 ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:so_13	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"13 ICT for Health" ;
+	skos:notation	"so_13" ;
+	skos:altLabel	"SO 13" ;
+	ns4:membership	ns70:so_13 ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:so_14	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"14 ICT and Ageing" ;
+	skos:notation	"so_14" ;
+	skos:altLabel	"SO 14" ;
+	ns4:membership	ns70:so_14 ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:so_15	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"15 ICT for Inclusion" ;
+	skos:notation	"so_15" ;
+	skos:altLabel	"SO 15" ;
+	ns4:membership	ns70:so_15 ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:so_16	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"16 ICT for Governance and Policy Modelling" ;
+	skos:notation	"so_16" ;
+	skos:altLabel	"SO 16" ;
+	ns4:membership	ns70:so_16 ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:so_17	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"17 ICT for Energy Efficiency" ;
+	skos:notation	"so_17" ;
+	skos:altLabel	"SO 17" ;
+	ns4:membership	ns70:so_17 ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:so_18	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"18 ICT for Transport" ;
+	skos:notation	"so_18" ;
+	skos:altLabel	"SO 18" ;
+	ns4:membership	ns70:so_18 ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:so_19	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"19 ICT for the Enterprise" ;
+	skos:notation	"so_19" ;
+	skos:altLabel	"SO 19" ;
+	ns4:membership	ns70:so_19 ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:so_20	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"20 ICT for Learning" ;
+	skos:notation	"so_20" ;
+	skos:altLabel	"SO 20" ;
+	ns4:membership	ns70:so_20 ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:so_21	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"21 Digital Libraries" ;
+	skos:notation	"so_21" ;
+	skos:altLabel	"SO 21" ;
+	ns4:membership	ns70:so_21 ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:so_22_1	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"22.1 FET Open" ;
+	skos:notation	"so_22_1" ;
+	skos:altLabel	"SO 22.1" ;
+	ns4:membership	ns70:so_22_1 ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:so_22_2	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"22.2 FET Proactive" ;
+	skos:notation	"so_22_2" ;
+	skos:altLabel	"SO 22.2" ;
+	ns4:membership	ns70:so_22_2 ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:so_22_3	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"22.3 FET Flagship" ;
+	skos:notation	"so_22_3" ;
+	skos:altLabel	"SO 22.3" ;
+	ns4:membership	ns70:so_22_3 ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:so_23	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"23 International Cooperation" ;
+	skos:notation	"so_23" ;
+	skos:altLabel	"SO 23" ;
+	ns4:membership	ns70:so_23 ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:so_24	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"24 Accompanying Measures" ;
+	skos:notation	"so_24" ;
+	skos:altLabel	"SO 24" ;
+	ns4:membership	ns70:so_24 ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:so_25	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"25 Big Data" ;
+	skos:notation	"so_25" ;
+	skos:altLabel	"SO 25" ;
+	ns4:membership	ns70:so_25 ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:so_26	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"26 Creativity" ;
+	skos:notation	"so_26" ;
+	skos:altLabel	"SO 26" ;
+	ns4:membership	ns70:so_26 ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:speed_10l30	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"at least 10 but below 30 Mbps" ;
+	skos:notation	"speed_10l30" ;
+	skos:altLabel	"at least 10 but below 30 Mbps" ;
+	ns4:membership	ns35:speed_10l30 ;
+	skos:definition	"Based on the advertised download speed" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:speed_2l10	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"at least 2 but below 10 Mbps" ;
+	skos:notation	"speed_2l10" ;
+	skos:altLabel	"at least 2 but below 10 Mbps" ;
+	ns4:membership	ns35:speed_2l10 ;
+	skos:definition	"Based on the advertised download speed" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:speed_30l100	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"at least 30 but below 100 Mbps" ;
+	skos:notation	"speed_30l100" ;
+	skos:altLabel	"at least 30 but below 100 Mbps" ;
+	ns4:membership	ns35:speed_30l100 ;
+	skos:definition	"Based on the advertised download speed" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:speed_ge100	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"above 100 Mbps" ;
+	skos:notation	"speed_ge100" ;
+	skos:altLabel	"above 100 Mbps" ;
+	ns4:membership	ns35:speed_ge100 ;
+	skos:definition	"Based on the advertised download speed" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:speed_l2	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"below 2 Mbps" ;
+	skos:notation	"speed_l2" ;
+	skos:altLabel	"below 2 Mbps" ;
+	ns4:membership	ns35:speed_l2 ;
+	skos:definition	"Based on the advertised download speed" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:stud	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	rdfs:seeAlso	ns73:STUD ;
+	skos:prefLabel	"Students" ;
+	skos:notation	"stud" ;
+	skos:altLabel	"Students" ;
+	ns4:membership	ns39:stud ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:study	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Studying Life Event" ;
+	skos:notation	"study" ;
+	skos:altLabel	"Studying" ;
+	ns4:membership	ns60:study ;
+	skos:definition	"eGovernment services related to the life event: Studying" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:tot_ict_products	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Total" ;
+	skos:notation	"tot_ict_products" ;
+	skos:altLabel	"Total" ;
+	ns4:membership	ns71:tot_ict_products ;
+	skos:definition	"Scope: Total of ICT products (goods and services)" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:total	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Total" ;
+	skos:notation	"total" ;
+	skos:altLabel	"Total" ;
+	ns4:membership	ns71:total ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:total_fbb	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Total" ;
+	skos:notation	"total_fbb" ;
+	skos:altLabel	"Total" ;
+	ns4:membership	ns71:total_fbb ;
+	skos:definition	"Scope: Total number of fixed broadband subscriptions" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:total_mbb	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Total" ;
+	skos:notation	"total_mbb" ;
+	skos:altLabel	"Total" ;
+	ns4:membership	ns71:total_mbb ;
+	skos:definition	"Scope: Total number of mobile broadband subscriptions" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:total_mob	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Total" ;
+	skos:notation	"total_mob" ;
+	skos:altLabel	"Total" ;
+	ns4:membership	ns71:total_mob ;
+	skos:definition	"Scope: Total number of mobile subscriptions (SIM Cards)" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:total_offers8plus	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Advertised download speed of 8 Mbps or above" ;
+	skos:notation	"total_offers8plus" ;
+	skos:altLabel	"Advertised download equal or above 8 Mbps" ;
+	ns4:membership	ns71:total_offers8plus ;
+	skos:definition	"Offers with a maximum advertised download speed of at least 8 Mbps or above." ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:total_pop	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Total" ;
+	skos:notation	"total_pop" ;
+	skos:altLabel	"Total" ;
+	ns4:membership	ns71:total_pop ;
+	skos:definition	"Scope: Total population" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:total_pophh	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Total" ;
+	skos:notation	"total_pophh" ;
+	skos:altLabel	"Total" ;
+	ns4:membership	ns71:total_pophh ;
+	skos:definition	"Scope: Total number of households" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:total_sos	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"All Strategic Objectives and eInfrastructures" ;
+	skos:notation	"total_sos" ;
+	skos:altLabel	"All SOs" ;
+	ns4:membership	ns70:total_sos ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:total_tel	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Total" ;
+	skos:notation	"total_tel" ;
+	skos:altLabel	"Total" ;
+	ns4:membership	ns71:total_tel ;
+	skos:definition	"Scope: Total of the Electronic Communications sector" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:une	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	rdfs:seeAlso	ns73:UNE ;
+	skos:prefLabel	"Unemployed" ;
+	skos:notation	"une" ;
+	skos:altLabel	"Unemployed" ;
+	ns4:membership	ns39:une ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:wid_score	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Score for Women in Digital" ;
+	skos:notation	"wid_score" ;
+	skos:altLabel	"Score for Women in Digital" ;
+	ns4:membership	ns72:wid_score ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:xdsl	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"xDSL technology" ;
+	skos:notation	"xdsl" ;
+	skos:altLabel	"xDSL technology" ;
+	ns4:membership	ns42:xdsl ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:y16_24	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	rdfs:seeAlso	ns73:Y16_24 ;
+	skos:prefLabel	"Individuals, 16 to 24 years old" ;
+	skos:notation	"y16_24" ;
+	skos:altLabel	"16-24" ;
+	ns4:membership	ns28:y16_24 ,
+		ns29:y16_24 ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:y25_34	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	rdfs:seeAlso	ns73:Y25_34 ;
+	skos:prefLabel	"Individuals, 25 to 34 years old" ;
+	skos:notation	"y25_34" ;
+	skos:altLabel	"25-34" ;
+	ns4:membership	ns29:y25_34 ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:y25_54	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	rdfs:seeAlso	ns73:Y25_54 ;
+	skos:prefLabel	"Individuals, 25 to 54 years old" ;
+	skos:notation	"y25_54" ;
+	skos:altLabel	"25-54" ;
+	ns4:membership	ns28:y25_54 ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:y25_64	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	rdfs:seeAlso	ns73:Y25_64 ;
+	skos:prefLabel	"Individuals, 25 to 64 years old" ;
+	skos:notation	"y25_64" ;
+	skos:altLabel	"25-64" ;
+	ns4:membership	ns68:y25_64 ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:y35_44	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	rdfs:seeAlso	ns73:Y35_44 ;
+	skos:prefLabel	"Individuals, 35 to 44 years old" ;
+	skos:notation	"y35_44" ;
+	skos:altLabel	"35-44" ;
+	ns4:membership	ns29:y35_44 ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:y45_54	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	rdfs:seeAlso	ns73:Y45_54 ;
+	skos:prefLabel	"Individuals, 45 to 54 years old" ;
+	skos:notation	"y45_54" ;
+	skos:altLabel	"45-54" ;
+	ns4:membership	ns29:y45_54 ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:y55_64	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	rdfs:seeAlso	ns73:Y55_64 ;
+	skos:prefLabel	"Individuals, 55 to 64 years old" ;
+	skos:notation	"y55_64" ;
+	skos:altLabel	"55-64" ;
+	ns4:membership	ns29:y55_64 ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:y55_74	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	rdfs:seeAlso	ns73:Y55_74 ;
+	skos:prefLabel	"Individuals, 55 to 74 years old" ;
+	skos:notation	"y55_74" ;
+	skos:altLabel	"55-74" ;
+	ns4:membership	ns28:y55_74 ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:y65_74	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	rdfs:seeAlso	ns73:Y65_74 ;
+	skos:prefLabel	"Individuals, 65 to 74 years old" ;
+	skos:notation	"y65_74" ;
+	skos:altLabel	"65-74" ;
+	ns4:membership	ns29:y65_74 ;
+	skos:topConceptOf	ns20:breakdown .
+ns43:men	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"bygender" ;
+	ns4:member-of	ns5:bygender ;
+	ns4:order	"11" .
+ns43:women	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"bygender" ;
+	ns4:member-of	ns5:bygender ;
+	ns4:order	"10" .
+ns25:men	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Men" ;
+	skos:notation	"men" ;
+	skos:altLabel	"Men" ;
+	ns4:membership	ns43:men ;
+	skos:topConceptOf	ns20:breakdown .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/10_g46>	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Wholesale trade, except of motor vehicles and motorcycles 10+" ;
+	skos:notation	"10_g46" ;
+	skos:altLabel	"Wholesale trade, except of motor vehicles and motorcycles 10+" ;
+	ns4:membership	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/econsector/10_g46> ;
+	skos:topConceptOf	ns20:breakdown .
+ns31:cc_for	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"byccitizen" ;
+	ns4:member-of	ns5:byccitizen ;
+	ns4:order	"5" .
+@prefix ns75:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_1_uc/> .
+ns75:e_gov_1a_uc_oa	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"e_gov_1_uc" ;
+	ns4:member-of	ns5:e_gov_1_uc ;
+	ns4:order	"1" .
+ns75:e_gov_1b_uc_mf	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"e_gov_1_uc" ;
+	ns4:member-of	ns5:e_gov_1_uc ;
+	ns4:order	"2" .
+ns75:e_gov_1c_uc_us	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"e_gov_1_uc" ;
+	ns4:member-of	ns5:e_gov_1_uc ;
+	ns4:order	"3" .
+@prefix ns76:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_2_tr/> .
+ns76:e_gov_2a_tr_sd	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"e_gov_2_tr" ;
+	ns4:member-of	ns5:e_gov_2_tr ;
+	ns4:order	"1" .
+ns76:e_gov_2c_tr_pd	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"e_gov_2_tr" ;
+	ns4:member-of	ns5:e_gov_2_tr ;
+	ns4:order	"2" .
+ns76:e_gov_2c_tr_sd	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"e_gov_2_tr" ;
+	ns4:member-of	ns5:e_gov_2_tr ;
+	ns4:order	"3" .
+ns76:e_gov_2x_tr_po	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"e_gov_2_tr" ;
+	ns4:member-of	ns5:e_gov_2_tr ;
+	ns4:order	"4" .
+@prefix ns77:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_3_ke/> .
+ns77:e_gov_3a_ke_eid	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"e_gov_3_ke" ;
+	ns4:member-of	ns5:e_gov_3_ke ;
+	ns4:order	"1" .
+ns77:e_gov_3b_ke_edoc	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"e_gov_3_ke" ;
+	ns4:member-of	ns5:e_gov_3_ke ;
+	ns4:order	"2" .
+ns77:e_gov_3c_ke_as	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"e_gov_3_ke" ;
+	ns4:member-of	ns5:e_gov_3_ke ;
+	ns4:order	"3" .
+ns77:e_gov_3d_ke_dp	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"e_gov_3_ke" ;
+	ns4:member-of	ns5:e_gov_3_ke ;
+	ns4:order	"4" .
+@prefix ns78:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_4_cb/> .
+ns78:e_gov_4a_cb_oa	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"e_gov_4_cb" ;
+	ns4:member-of	ns5:e_gov_4_cb ;
+	ns4:order	"1" .
+ns78:e_gov_4b_cb_us	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"e_gov_4_cb" ;
+	ns4:member-of	ns5:e_gov_4_cb ;
+	ns4:order	"2" .
+ns78:e_gov_4c_cb_eid	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"e_gov_4_cb" ;
+	ns4:member-of	ns5:e_gov_4_cb ;
+	ns4:order	"3" .
+ns78:e_gov_4d_cb_edoc	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"e_gov_4_cb" ;
+	ns4:member-of	ns5:e_gov_4_cb ;
+	ns4:order	"4" .
+@prefix ns79:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/e_gov_scope/> .
+ns79:e_gov_scope_1	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"e_gov_scope" ;
+	ns4:member-of	ns5:e_gov_scope ;
+	ns4:order	"1" .
+ns79:e_gov_scope_2	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"e_gov_scope" ;
+	ns4:member-of	ns5:e_gov_scope ;
+	ns4:order	"2" .
+ns25:e_gov_1a_uc_oa	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"1.1 User centricity - Online availability" ;
+	skos:notation	"e_gov_1a_uc_oa" ;
+	skos:altLabel	"1.1 User centricity - Online availability" ;
+	ns4:membership	ns75:e_gov_1a_uc_oa ;
+	skos:definition	"eGovernment services related to User centricity - Online availability" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:e_gov_1b_uc_mf	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"1.2 User centricity - Mobile friendliness" ;
+	skos:notation	"e_gov_1b_uc_mf" ;
+	skos:altLabel	"1.2 User centricity - Mobile friendliness" ;
+	ns4:membership	ns75:e_gov_1b_uc_mf ;
+	skos:definition	"eGovernment services related to User centricity - Mobile friendliness" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:e_gov_1c_uc_us	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"1.3 User centricity - User support" ;
+	skos:notation	"e_gov_1c_uc_us" ;
+	skos:altLabel	"1.3 User centricity - User support" ;
+	ns4:membership	ns75:e_gov_1c_uc_us ;
+	skos:definition	"eGovernment services related to User centricity - User support" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:e_gov_2a_tr_sd	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"2.1 Transparency - Transparency of service delivery" ;
+	skos:notation	"e_gov_2a_tr_sd" ;
+	skos:altLabel	"2.1 Transparency - Transparency of service delivery" ;
+	ns4:membership	ns76:e_gov_2a_tr_sd ;
+	skos:definition	"eGovernment services related to Transparency - Transparency of service delivery" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:e_gov_2c_tr_pd	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"2.2 Transparency - Transparency of personal data" ;
+	skos:notation	"e_gov_2c_tr_pd" ;
+	skos:altLabel	"2.2 Transparency - Transparency of personal data" ;
+	ns4:membership	ns76:e_gov_2c_tr_pd ;
+	skos:definition	"eGovernment services related to Transparency - Transparency of personal data" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:e_gov_2c_tr_sd	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"2.3 Transparency - Transparency of service design" ;
+	skos:notation	"e_gov_2c_tr_sd" ;
+	skos:altLabel	"2.3 Transparency - Transparency of service design" ;
+	ns4:membership	ns76:e_gov_2c_tr_sd ;
+	skos:definition	"eGovernment services related to Transparency - Transparency of service design" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:e_gov_2x_tr_po	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"2.X Transparency - Transparency of public organisations (old indicator)" ;
+	skos:notation	"e_gov_2x_tr_po" ;
+	skos:altLabel	"2.X Transparency - Transparency of public organisations (old indicator)" ;
+	ns4:membership	ns76:e_gov_2x_tr_po ;
+	skos:definition	"Transparency - Transparency of public organisations" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:e_gov_3a_ke_eid	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"3.1 Key enablers - eID" ;
+	skos:notation	"e_gov_3a_ke_eid" ;
+	skos:altLabel	"3.1 Key enablers - eID" ;
+	ns4:membership	ns77:e_gov_3a_ke_eid ;
+	skos:definition	"eGovernment services related to Key enablers - eID" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:e_gov_3b_ke_edoc	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"3.2 Key enabler - eDocuments" ;
+	skos:notation	"e_gov_3b_ke_edoc" ;
+	skos:altLabel	"3.2 Key enabler - eDocuments" ;
+	ns4:membership	ns77:e_gov_3b_ke_edoc ;
+	skos:definition	"eGovernment services related to Key enabler - eDocuments" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:e_gov_3c_ke_as	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"3.3 Key enabler - Authentic sources" ;
+	skos:notation	"e_gov_3c_ke_as" ;
+	skos:altLabel	"3.3 Key enabler - Authentic sources" ;
+	ns4:membership	ns77:e_gov_3c_ke_as ;
+	skos:definition	"eGovernment services related to Key enabler - Authentic sources" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:e_gov_3d_ke_dp	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"3.4 Key enabler - Digital Post" ;
+	skos:notation	"e_gov_3d_ke_dp" ;
+	skos:altLabel	"3.4 Key enabler - Digital Post" ;
+	ns4:membership	ns77:e_gov_3d_ke_dp ;
+	skos:definition	"eGovernment services related to Key enabler - Digital Post" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:e_gov_4a_cb_oa	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"4.1 Cross-border services - Cross-border online availability" ;
+	skos:notation	"e_gov_4a_cb_oa" ;
+	skos:altLabel	"4.1 Cross-border services - Cross-border online availability" ;
+	ns4:membership	ns78:e_gov_4a_cb_oa ;
+	skos:definition	"eGovernment services related to Cross-border services - Cross-border online availability" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:e_gov_4b_cb_us	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"4.2 Cross-border services - Cross-border user support" ;
+	skos:notation	"e_gov_4b_cb_us" ;
+	skos:altLabel	"4.2 Cross-border services - Cross-border user support" ;
+	ns4:membership	ns78:e_gov_4b_cb_us ;
+	skos:definition	"eGovernment services related to Cross-border services - Cross-border user support" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:e_gov_4c_cb_eid	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"4.3 Cross-border services - Cross-border eID" ;
+	skos:notation	"e_gov_4c_cb_eid" ;
+	skos:altLabel	"4.3 Cross-border services - Cross-border eID" ;
+	ns4:membership	ns78:e_gov_4c_cb_eid ;
+	skos:definition	"eGovernment services related to Cross-border services - Cross-border eID" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:e_gov_4d_cb_edoc	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"4.4 Cross-border services - Cross-border eDocuments" ;
+	skos:notation	"e_gov_4d_cb_edoc" ;
+	skos:altLabel	"4.4 Cross-border services - Cross-border eDocuments" ;
+	ns4:membership	ns78:e_gov_4d_cb_edoc ;
+	skos:definition	"eGovernment services related to Cross-border services - Cross-border eDocuments" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:e_gov_scope_1	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Citizen life events" ;
+	skos:notation	"e_gov_scope_1" ;
+	skos:altLabel	"Citizen life events" ;
+	ns4:membership	ns79:e_gov_scope_1 ;
+	skos:definition	"The citizen life events are: Moving, Owning and driving a car, Starting a small claims procedure, Family, Career and Studying" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:e_gov_scope_2	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Business life events" ;
+	skos:notation	"e_gov_scope_2" ;
+	skos:altLabel	"Business life events" ;
+	ns4:membership	ns79:e_gov_scope_2 ;
+	skos:definition	"The business life events are: Regular business operations and Business Start-up" ;
+	skos:topConceptOf	ns20:breakdown .
+ns79:e_gov_scope_1_new	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"e_gov_scope" ;
+	ns4:member-of	ns5:e_gov_scope ;
+	ns4:order	"1" .
+ns79:e_gov_scope_2_new	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"e_gov_scope" ;
+	ns4:member-of	ns5:e_gov_scope ;
+	ns4:order	"2" .
+ns71:all_egov_le_new	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"total" ;
+	ns4:member-of	ns5:total ;
+	ns4:order	"1" .
+ns25:all_egov_le_new	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"All Life Events" ;
+	skos:notation	"all_egov_le_new" ;
+	skos:altLabel	"All Life Events" ;
+	ns4:membership	ns71:all_egov_le_new ;
+	skos:definition	"The following life events are included in the scope: Regular business operations; Transport; Starting a small claims procedure; Moving; and Health; Business Start-up; Career; Studying and Family. Health life event was introduced in 2021" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:e_gov_scope_1_new	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Citizen life events" ;
+	skos:notation	"e_gov_scope_1_new" ;
+	skos:altLabel	"Citizen life events" ;
+	ns4:membership	ns79:e_gov_scope_1_new ;
+	skos:definition	"The citizen life events are: Transport; Starting a small claims procedure; Moving; and Health;  Career; Studying and Family. * Health life event was introduced in 2021" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:e_gov_scope_2_new	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Business life events" ;
+	skos:notation	"e_gov_scope_2_new" ;
+	skos:altLabel	"Business life events" ;
+	ns4:membership	ns79:e_gov_scope_2_new ;
+	skos:definition	"The business life events are: Regular business operations and Business Start-up" ;
+	skos:topConceptOf	ns20:breakdown .
+ns7:desi_fttpc	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"desi_c_fbbc" ;
+	ns4:member-of	ns5:desi_c_fbbc ;
+	ns4:order	"3" .
+ns25:cb_for	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Individuals who are foreign-born" ;
+	skos:notation	"cb_for" ;
+	skos:altLabel	"Foreign-born" ;
+	ns4:membership	ns30:cb_for ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:cc_for	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Non-nationals" ;
+	skos:notation	"cc_for" ;
+	skos:altLabel	"Non-nationals" ;
+	ns4:membership	ns31:cc_for ;
+	skos:topConceptOf	ns20:breakdown .
+ns30:cb_for	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"bycbirth" ;
+	ns4:member-of	ns5:bycbirth ;
+	ns4:order	"5" .
+ns25:desi_5g	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"5G spectrum" ;
+	skos:notation	"desi_5g" ;
+	skos:altLabel	"5G spectrum" ;
+	ns4:membership	ns9:desi_5g ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:desi_5gc	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"5G coverage" ;
+	skos:notation	"desi_5gc" ;
+	skos:altLabel	"5G coverage" ;
+	ns4:membership	ns9:desi_5gc ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:desi_bbpi	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Broadband price index" ;
+	skos:notation	"desi_bbpi" ;
+	skos:altLabel	"Broadband price index" ;
+	ns4:membership	ns6:desi_bbpi ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:desi_c_bbpi	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Broadband price index" ;
+	skos:notation	"desi_c_bbpi" ;
+	skos:altLabel	"Broadband price index" ;
+	ns4:membership	ns10:desi_c_bbpi ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:desi_c_fbbc	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Fixed broadband coverage" ;
+	skos:notation	"desi_c_fbbc" ;
+	skos:altLabel	"Fixed broadband coverage" ;
+	ns4:membership	ns10:desi_c_fbbc ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:desi_c_fbbtc	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Fixed broadband take-up" ;
+	skos:notation	"desi_c_fbbtc" ;
+	skos:altLabel	"Fixed broadband take-up" ;
+	ns4:membership	ns10:desi_c_fbbtc ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:desi_c_mbb	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Mobile broadband" ;
+	skos:notation	"desi_c_mbb" ;
+	skos:altLabel	"Mobile broadband" ;
+	ns4:membership	ns10:desi_c_mbb ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:desi_conn	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Connectivity" ;
+	skos:notation	"desi_conn" ;
+	skos:altLabel	"Connectivity" ;
+	ns4:membership	ns1:desi_conn ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:desi_dps	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Digital Public Services" ;
+	skos:notation	"desi_dps" ;
+	skos:altLabel	"Digital Public Services" ;
+	ns4:membership	ns1:desi_dps ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:desi_dps_egov	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"e-Government" ;
+	skos:notation	"desi_dps_egov" ;
+	skos:altLabel	"e-Government" ;
+	ns4:membership	ns11:desi_dps_egov ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:desi_dps_egovuser	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"e-Government Users" ;
+	skos:notation	"desi_dps_egovuser" ;
+	skos:altLabel	"e-Government Users" ;
+	ns4:membership	ns12:desi_dps_egovuser ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:desi_dps_opendata	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Open Data" ;
+	skos:notation	"desi_dps_opendata" ;
+	skos:altLabel	"Open Data" ;
+	ns4:membership	ns12:desi_dps_opendata ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:desi_dps_prefform	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Pre-filled Forms" ;
+	skos:notation	"desi_dps_prefform" ;
+	skos:altLabel	"Pre-filled Forms" ;
+	ns4:membership	ns12:desi_dps_prefform ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:desi_dps_psbiz	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Digital public services for businesses" ;
+	skos:notation	"desi_dps_psbiz" ;
+	skos:altLabel	"Digital public services for businesses" ;
+	ns4:membership	ns12:desi_dps_psbiz ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:desi_dps_pscit	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Digital public services for citizens" ;
+	skos:notation	"desi_dps_pscit" ;
+	skos:altLabel	"Digital public services for citizens" ;
+	ns4:membership	ns12:desi_dps_pscit ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:desi_fbbc	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Fast BB (NGA) coverage" ;
+	skos:notation	"desi_fbbc" ;
+	skos:altLabel	"Fast broadband (NGA) coverage" ;
+	ns4:membership	ns7:desi_fbbc ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:desi_fbbtc	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Overall fixed BB take-up" ;
+	skos:notation	"desi_fbbtc" ;
+	skos:altLabel	"Overall fixed broadband take-up" ;
+	ns4:membership	ns8:desi_fbbtc ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:desi_gbpstc	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"At least 1 Gbps take-up" ;
+	skos:notation	"desi_gbpstc" ;
+	skos:altLabel	"At least 1 Gbps take-up" ;
+	ns4:membership	ns8:desi_gbpstc ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:desi_hc	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Human Capital" ;
+	skos:notation	"desi_hc" ;
+	skos:altLabel	"Human Capital" ;
+	ns4:membership	ns1:desi_hc ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:desi_hc_abds	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Above basic digital skills" ;
+	skos:notation	"desi_hc_abds" ;
+	skos:altLabel	"Above basic digital skills" ;
+	ns4:membership	ns15:desi_hc_abds ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:desi_hc_abss	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"At least basic digital content creation skills" ;
+	skos:notation	"desi_hc_abss" ;
+	skos:altLabel	"At least basic digital content creation skills" ;
+	ns4:membership	ns15:desi_hc_abss ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:desi_hc_asd	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Advanced Skills and Development" ;
+	skos:notation	"desi_hc_asd" ;
+	skos:altLabel	"Advanced Skills and Development" ;
+	ns4:membership	ns13:desi_hc_asd ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:desi_hc_bds	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"At least Basic Digital Skills" ;
+	skos:notation	"desi_hc_bds" ;
+	skos:altLabel	"At least Basic Digital Skills" ;
+	ns4:membership	ns15:desi_hc_bds ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:desi_hc_bsu	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Internet User Skills" ;
+	skos:notation	"desi_hc_bsu" ;
+	skos:altLabel	"Internet User Skills" ;
+	ns4:membership	ns13:desi_hc_bsu ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:desi_hc_entict	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Enterprises providing ICT training " ;
+	skos:notation	"desi_hc_entict" ;
+	skos:altLabel	"Enterprises providing ICT training " ;
+	ns4:membership	ns14:desi_hc_entict ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:desi_hc_fictspec	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Female ICT specialists" ;
+	skos:notation	"desi_hc_fictspec" ;
+	skos:altLabel	"Female ICT specialists" ;
+	ns4:membership	ns14:desi_hc_fictspec ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:desi_hc_ictg	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"ICT graduates" ;
+	skos:notation	"desi_hc_ictg" ;
+	skos:altLabel	"ICT graduates" ;
+	ns4:membership	ns14:desi_hc_ictg ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:desi_hc_ictspec	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"ICT Specialists" ;
+	skos:notation	"desi_hc_ictspec" ;
+	skos:altLabel	"ICT Specialists" ;
+	ns4:membership	ns14:desi_hc_ictspec ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:desi_idt	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Integration of Digital Technology" ;
+	skos:notation	"desi_idt" ;
+	skos:altLabel	"Integration of Digital Technology" ;
+	ns4:membership	ns1:desi_idt ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:desi_idt_ai	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Artificial intelligence" ;
+	skos:notation	"desi_idt_ai" ;
+	skos:altLabel	"AI" ;
+	ns4:membership	ns18:desi_idt_ai ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:desi_idt_bigdat	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Big data" ;
+	skos:notation	"desi_idt_bigdat" ;
+	skos:altLabel	"Big data" ;
+	ns4:membership	ns18:desi_idt_bigdat ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:desi_idt_cloud	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Cloud" ;
+	skos:notation	"desi_idt_cloud" ;
+	skos:altLabel	"Cloud" ;
+	ns4:membership	ns18:desi_idt_cloud ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:desi_idt_di	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Digital intensity" ;
+	skos:notation	"desi_idt_di" ;
+	skos:altLabel	"Digital intensity" ;
+	ns4:membership	ns16:desi_idt_di ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:desi_idt_dtb	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Digital technologies for businesses" ;
+	skos:notation	"desi_idt_dtb" ;
+	skos:altLabel	"Digital technologies for businesses" ;
+	ns4:membership	ns16:desi_idt_dtb ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:desi_idt_ecomm	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"e-Commerce" ;
+	skos:notation	"desi_idt_ecomm" ;
+	skos:altLabel	"e-Commerce" ;
+	ns4:membership	ns16:desi_idt_ecomm ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:desi_idt_ecomturn	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"e-Commerce turnover" ;
+	skos:notation	"desi_idt_ecomturn" ;
+	skos:altLabel	"e-Commerce turnover" ;
+	ns4:membership	ns19:desi_idt_ecomturn ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:desi_idt_einv	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"e-Invoices" ;
+	skos:notation	"desi_idt_einv" ;
+	skos:altLabel	"e-Invoices" ;
+	ns4:membership	ns18:desi_idt_einv ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:desi_idt_eis	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Electronic Information Sharing" ;
+	skos:notation	"desi_idt_eis" ;
+	skos:altLabel	"Electronic Information Sharing" ;
+	ns4:membership	ns18:desi_idt_eis ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:desi_idt_ictsust	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"ICT for environmental sustainability" ;
+	skos:notation	"desi_idt_ictsust" ;
+	skos:altLabel	"ICT for environmental sustainability" ;
+	ns4:membership	ns18:desi_idt_ictsust ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:desi_idt_sellcb	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Selling online cross-border" ;
+	skos:notation	"desi_idt_sellcb" ;
+	skos:altLabel	"Selling online cross-border" ;
+	ns4:membership	ns19:desi_idt_sellcb ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:desi_idt_smedi	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"SMEs with at least a basic level of digital intensity" ;
+	skos:notation	"desi_idt_smedi" ;
+	skos:altLabel	"SMEs with at least a basic level of digital intensity" ;
+	ns4:membership	ns17:desi_idt_smedi ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:desi_idt_smeso	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"SMEs selling online" ;
+	skos:notation	"desi_idt_smeso" ;
+	skos:altLabel	"SMEs selling online" ;
+	ns4:membership	ns19:desi_idt_smeso ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:desi_idt_socmed	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Social media" ;
+	skos:notation	"desi_idt_socmed" ;
+	skos:altLabel	"Social media" ;
+	ns4:membership	ns18:desi_idt_socmed ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:desi_mbbtu	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Mobile BB take-up" ;
+	skos:notation	"desi_mbbtu" ;
+	skos:altLabel	"Mobile broadband take-up" ;
+	ns4:membership	ns9:desi_mbbtu ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:desi_ufbbtu	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"At least 100 Mbps fixed BB take-up" ;
+	skos:notation	"desi_ufbbtu" ;
+	skos:altLabel	"At least 100 Mbps fixed broadband take-up" ;
+	ns4:membership	ns8:desi_ufbbtu ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:desi_vhcnc	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Fixed Very High Capacity Network (VHCN) coverage" ;
+	skos:notation	"desi_vhcnc" ;
+	skos:altLabel	"Fixed Very High Capacity Network (VHCN) coverage" ;
+	ns4:membership	ns7:desi_vhcnc ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:women	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Women" ;
+	skos:notation	"women" ;
+	skos:altLabel	"Women" ;
+	ns4:membership	ns43:women ;
+	skos:topConceptOf	ns20:breakdown .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/total/5g_pb>	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"total" ;
+	ns4:member-of	ns5:total ;
+	ns4:order	"1" .
+ns71:gen_pract	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"total" ;
+	ns4:member-of	ns5:total ;
+	ns4:order	"1" .
+<http://semantic.digital-agenda-data.eu/codelist/breakdown/5g_pb>	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"5G pioneer bands" ;
+	skos:notation	"5g_pb" ;
+	skos:altLabel	"5G pioneer bands" ;
+	ns4:membership	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/total/5g_pb> ;
+	skos:definition	"European Comission services" ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:gen_pract	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"All general practitioners" ;
+	skos:notation	"gen_pract" ;
+	skos:altLabel	"GPs" ;
+	ns4:membership	ns71:gen_pract ;
+	skos:topConceptOf	ns20:breakdown .
+ns57:e_gov_events_9	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"e_gov_events" ;
+	ns4:member-of	ns5:e_gov_events ;
+	ns4:order	"9" .
+ns25:e_gov_events_9	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Health" ;
+	skos:notation	"e_gov_events_9" ;
+	skos:altLabel	"Health" ;
+	ns4:membership	ns57:e_gov_events_9 ;
+	skos:definition	"A citizen life event related to the health domain, covering services around: obtain a European Health Insurance Card, applying for electronic health records. A total of 7 services are assessed under this life event." ;
+	skos:topConceptOf	ns20:breakdown .
+@prefix ns80:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/rid_score/> .
+ns80:rid_score	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"rid_score" ;
+	ns4:member-of	ns5:rid_score ;
+	ns4:order	"1" .
+ns25:desi_fttpc	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"FTTP coverage" ;
+	skos:notation	"desi_fttpc" ;
+	skos:altLabel	"FTTP coverage" ;
+	ns4:membership	ns7:desi_fttpc ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:rid_score	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Score for Rural Digital Index" ;
+	skos:notation	"rid_score" ;
+	skos:altLabel	"Score for Rural Digital Index" ;
+	ns4:membership	ns80:rid_score ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:emp_con_prm	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Working with a permanent job or under contract of unlimited duration" ;
+	skos:notation	"emp_con_prm" ;
+	skos:altLabel	"Working with a permanent job or under contract of unlimited duration" .
+@prefix ns81:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/workingscheme/> .
+ns25:emp_con_prm	ns4:membership	ns81:emp_con_prm ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:emp_con_tmp	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Working with a temporary job or under contract of limited duration" ;
+	skos:notation	"emp_con_tmp" ;
+	skos:altLabel	"Working with a temporary job or under contract of limited duration" ;
+	ns4:membership	ns81:emp_con_tmp ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:emp_wkt_ft	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Employees working full time" ;
+	skos:notation	"emp_wkt_ft" ;
+	skos:altLabel	"Employees working full time" ;
+	ns4:membership	ns81:emp_wkt_ft ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:emp_wkt_pt	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Employees working part time" ;
+	skos:notation	"emp_wkt_pt" ;
+	skos:altLabel	"Employees working part time" ;
+	ns4:membership	ns81:emp_wkt_pt ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:ind_dch	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Individuals living in a household with children" ;
+	skos:notation	"ind_dch" ;
+	skos:altLabel	"Individuals living in a household with children" .
+@prefix ns82:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/childrenhh/> .
+ns25:ind_dch	ns4:membership	ns82:ind_dch ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:ind_no_dch	rdf:type	ns2:Breakdown ,
+		skos:Concept ;
+	skos:prefLabel	"Individuals living in a household without children" ;
+	skos:notation	"ind_no_dch" ;
+	skos:altLabel	"Individuals living in a household without children" ;
+	ns4:membership	ns82:ind_no_dch ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:isco_ict	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"ICT professionals" ;
+	skos:notation	"isco_ict" ;
+	skos:altLabel	"ICT professionals" .
+@prefix ns83:	<http://semantic.digital-agenda-data.eu/codelist/breakdown-group/ictproffession/> .
+ns25:isco_ict	ns4:membership	ns83:isco_ict ;
+	skos:topConceptOf	ns20:breakdown .
+ns25:isco_ictx	rdf:type	skos:Concept ,
+		ns2:Breakdown ;
+	skos:prefLabel	"Non ICT professionals" ;
+	skos:notation	"isco_ictx" ;
+	skos:altLabel	"Non ICT professionals" ;
+	ns4:membership	ns83:isco_ictx ;
+	skos:topConceptOf	ns20:breakdown .
+ns82:ind_dch	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"childrenhh" ;
+	ns4:member-of	ns5:childrenhh ;
+	ns4:order	"1" .
+ns82:ind_no_dch	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"childrenhh" ;
+	ns4:member-of	ns5:childrenhh ;
+	ns4:order	"2" .
+ns83:isco_ict	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"ictproffession" ;
+	ns4:member-of	ns5:ictproffession ;
+	ns4:order	"1" .
+ns83:isco_ictx	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"ictproffession" ;
+	ns4:member-of	ns5:ictproffession ;
+	ns4:order	"2" .
+ns81:emp_con_prm	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"workingscheme" ;
+	ns4:member-of	ns5:workingscheme ;
+	ns4:order	"3" .
+ns81:emp_con_tmp	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"workingscheme" ;
+	ns4:member-of	ns5:workingscheme ;
+	ns4:order	"4" .
+ns81:emp_wkt_ft	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"workingscheme" ;
+	ns4:member-of	ns5:workingscheme ;
+	ns4:order	"1" .
+ns81:emp_wkt_pt	rdf:type	ns2:BreakdownToGroupMembership ;
+	rdfs:label	"workingscheme" ;
+	ns4:member-of	ns5:workingscheme ;
+	ns4:order	"2" .
